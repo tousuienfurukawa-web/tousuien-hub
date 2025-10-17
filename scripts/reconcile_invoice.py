@@ -46,7 +46,12 @@ def detect_orders_sheet(workbook: "openpyxl.Workbook") -> str:
 def detect_header_row(ws: "openpyxl.worksheet.worksheet.Worksheet", scan_rows: int = 25) -> Tuple[int, List[str]]:
     header_row_idx = 1
     max_nonempty = -1
-    for r in range(1, min(scan_rows, ws.max_row) + 1):
+    # ws.max_row can be None in some streaming/read-only contexts; guard it
+    try:
+        max_row = ws.max_row or scan_rows
+    except Exception:
+        max_row = scan_rows
+    for r in range(1, min(scan_rows, max_row) + 1):
         values = [c.value for c in ws[r]]
         nonempty = sum(1 for v in values if ("" if v is None else str(v)).strip() != "")
         if nonempty > max_nonempty:
@@ -178,11 +183,20 @@ def scan_slack_zip(zip_path: str, invoice_id: str, date: Optional[str] = None) -
                 content = zf.read(name).decode("utf-8", errors="replace")
             files_scanned += 1
             try:
-                arr = json.loads(content)
+                arr_any = json.loads(content)
             except Exception:
+                continue
+            # Normalize Slack JSON
+            if isinstance(arr_any, dict) and isinstance(arr_any.get("messages"), list):
+                arr = arr_any["messages"]
+            elif isinstance(arr_any, list):
+                arr = arr_any
+            else:
                 continue
             hits: List[Dict[str, Any]] = []
             for m in arr:
+                if not isinstance(m, dict):
+                    continue
                 txt: str = (m.get("text") or "")
                 if any(t in txt for t in terms):
                     hits.append({
