@@ -1,0 +1,152 @@
+[
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1681375201.305639",
+        "client_msg_id": "73ccb7fd-d6bc-4b9b-9443-a83c3af4e147",
+        "text": "<@U0331FWGQRM> 執行役\nCC：<@U041RJKV5JA> 部長\n\nお疲れ様です。\n出荷可能日は明日に返信いたします。\nよろしく御願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1681347745.232959",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "amW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\nCC："
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n\nお疲れ様です。\n出荷可能日は明日に返信いたします。\nよろしく御願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1681389935.184679",
+        "client_msg_id": "0240ecfa-852a-45d6-91a5-db96d437e008",
+        "text": "*<@U041RJKV5JA>* *<@U033G4KN4TD>* \n*奥村製缶の40g缶（色は確認中）*\n→色は、白・黒・シルバー３色お願いします。\nもし不足している場合は、奥村製缶に発注してください。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1681347745.232959",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=s4UV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "奥村製缶の40g缶（色は確認中）",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n→色は、白・黒・シルバー３色お願いします。\nもし不足している場合は、奥村製缶に発注してください。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U041RJKV5JA",
+                    "U033G4KN4TD"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

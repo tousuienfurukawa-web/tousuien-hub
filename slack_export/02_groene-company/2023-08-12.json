@@ -1,0 +1,98 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1691825948.967919",
+        "client_msg_id": "c796b22e-aa30-46d8-9e8b-c24bcf50579c",
+        "text": "<@U041RJKV5JA> <@U03BLQ65GK0>\n繰り返しになりますが、\n出荷可能日がわかる＝品質に問題がないかどうかがわかる\nのはいつですか？\n\n8\/14にサンプルを受け取り8\/14に品質確認するという認識であっていますか？\n8\/14に出荷日が確定するでいいですか？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1691201058.257289",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "t=hy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n繰り返しになりますが、\n出荷可能日がわかる＝品質に問題がないかどうかがわかる\nのはいつですか？\n\n8\/14にサンプルを受け取り8\/14に品質確認するという認識であっていますか？\n8\/14に出荷日が確定するでいいですか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U03BLQ65GK0",
+        "type": "message",
+        "ts": "1691826529.417939",
+        "client_msg_id": "ce43435a-f336-4326-ae92-8abea5775b9e",
+        "text": "<@U0331FWGQRM>\nはい、その認識で合っています。\n8\/14サンプル確認し、問題なければその旨を和香園に伝え出荷に向けた準備を進めてもらいます。\nその後の（最短の）予定としては\n8\/18　和香園から杉本製茶へ碾茶出荷\n8\/21　杉本製茶原料着→製造開始\n8\/28or29 杉本製茶製品出荷\n8\/31　桃翠園製品着\n9\/1　桃翠園出荷準備\n9\/2or4 出荷\nというスケジュールになります。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "8126b71e44ec",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-04-17\/3403818627748_8126b71e44ec1508fdbd_72.png",
+            "first_name": "daiki",
+            "real_name": "daiki oka",
+            "display_name": "daiki",
+            "team": "T033D70RR6H",
+            "name": "daiki.oka",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1691201058.257289",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QIY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nはい、その認識で合っています。\n8\/14サンプル確認し、問題なければその旨を和香園に伝え出荷に向けた準備を進めてもらいます。\nその後の（最短の）予定としては\n8\/18　和香園から杉本製茶へ碾茶出荷\n8\/21　杉本製茶原料着→製造開始\n8\/28or29 杉本製茶製品出荷\n8\/31　桃翠園製品着\n9\/1　桃翠園出荷準備\n9\/2or4 出荷\nというスケジュールになります。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

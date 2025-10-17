@@ -1,0 +1,517 @@
+[
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1649927637.021649",
+        "client_msg_id": "660b78c4-30fc-4d28-99bb-c0aead2fd883",
+        "text": "明日(4\/15)朝、直接商工会議所へ行って原産地証明書(TSE015-22)を取得してから出社します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "p9SGM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "明日(4\/15)朝、直接商工会議所へ行って原産地証明書(TSE015-22)を取得してから出社します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM",
+                    "U0331FZS7JT"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1649942837.778269",
+        "client_msg_id": "c5d6d080-5afb-4794-850f-332c855a3f0b",
+        "text": "<@U0331FZTHEK> <@U033G4KN4TD>\npaypal入金がありましたので、\n予定通り4\/15出荷宜しくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1649754859.480759",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "k=Ve",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\npaypal入金がありましたので、\n予定通り4\/15出荷宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U0331FZTHEK",
+                    "U033G4KN4TD"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1650002067.384339",
+        "client_msg_id": "7e222524-656d-401a-9b0a-a593dd65e805",
+        "text": "<!channel>\nお疲れ様です。\nTSE012-22-2 カナダ　Geniune Tea\n出荷完了致しました。\nご報告致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Qdq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nお疲れ様です。\nTSE012-22-2 カナダ　Geniune Tea\n出荷完了致しました。\nご報告致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1650002092.418709",
+        "client_msg_id": "4b16e9e3-b559-4083-9090-db71265dc6ae",
+        "text": "<@U0331FZTHEK>\n本件（ZIP CODEと住所が相違している）、こちらで対応します。\nペガサスとのやりとりもこちらでする様にします。\nもし連絡があれば、私に電話ください。\n宜しくお願い致します。\n全て解決してからフィードバックします。\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1649917350.893009",
+        "parent_user_id": "U0331FZTHEK",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=vAUw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本件（ZIP CODEと住所が相違している）、こちらで対応します。\nペガサスとのやりとりもこちらでする様にします。\nもし連絡があれば、私に電話ください。\n宜しくお願い致します。\n全て解決してからフィードバックします。\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1650002196.337489",
+        "client_msg_id": "abfda833-b021-451f-b8c0-146b681706f3",
+        "text": "ありがとうございます。\n承知しました。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1649917350.893009",
+        "parent_user_id": "U0331FZTHEK",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6gDtw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ありがとうございます。\n承知しました。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1650002891.896529",
+        "client_msg_id": "c8554f08-25e2-454f-a9a1-f114c519737c",
+        "text": "<@U0331FWGQRM> 執行役、 <@U0331FZS7JT> 社長、 <@U033G4KN4TD> さん\nTSE014-22（CND：Bangoshi）出荷、先ほど完了しました。\nよろしくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1649754859.480759",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ZP+i",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役、 "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長、 "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\nTSE014-22（CND：Bangoshi）出荷、先ほど完了しました。\nよろしくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1650004083.477669",
+        "client_msg_id": "b2756ca8-78fb-4190-85ee-5321ac8a025f",
+        "text": "<@U0331FWGQRM>\nお疲れ様です。\nカナダ　Geniune Tea 専用\n缶用の段ボール（73x37x49cm）の在庫は２枚しかないです。\n次回の発注はどうされますか？\nよろしくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "WHJ=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nお疲れ様です。\nカナダ　Geniune Tea 専用\n缶用の段ボール（73x37x49cm）の在庫は２枚しかないです。\n次回の発注はどうされますか？\nよろしくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1650005521.347279",
+        "client_msg_id": "5428bcb2-477c-42a7-a20f-3294143b20c4",
+        "text": "<@U033G4KN4TD> 発注してください。やり方わかります？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ErN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 発注してください。やり方わかります？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "とりあえず100枚注文しますか！",
+        "files": [
+            {
+                "id": "F03BF9CDQP8",
+                "created": 1650005604,
+                "timestamp": 1650005604,
+                "name": "御見積書.pdf",
+                "title": "御見積書.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U0331FWGQRM",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 130487,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F03BF9CDQP8\/____________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F03BF9CDQP8\/download\/____________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F03BF9CDQP8-5faf72087a\/_____________thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 1484,
+                "thumb_pdf_h": 1051,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F03BF9CDQP8\/____________.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F03BF9CDQP8-20a2d5f1d3",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FWGQRM",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "auH9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "とりあえず100枚注文しますか！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1650005654.471969",
+        "client_msg_id": "1e8c38d9-659c-4cd6-a795-36f1f509ba17"
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1650005709.250849",
+        "client_msg_id": "850a8385-8908-42b6-aaef-f3ca27839147",
+        "text": "<@U0331FWGQRM>\n承知しました。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "648p",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n承知しました。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

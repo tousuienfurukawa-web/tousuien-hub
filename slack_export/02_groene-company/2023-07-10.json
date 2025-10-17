@@ -1,0 +1,131 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1689035250.130279",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1689035353.000000"
+        },
+        "client_msg_id": "9887896a-c296-42a4-80d6-085de8d069a7",
+        "text": "<@U041RJKV5JA>\nC C：<@U0331FWGQRM><@U0331FZTHEK>\n\nGroene様から下記の通り、連絡がありました。\n------------\nお世話になります。\nようやくですが出荷方法はFedExのEconomyになりましたので\nインボイスを修正いたしました。\n出荷の方よろしくお願いいたします。\n--------------\n\nサインしたインボイス(TSE026-23invoice_signed 2)を\nフォルダに入れました。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1688430907.988039",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rdeDk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nC C："
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nGroene様から下記の通り、連絡がありました。\n------------\nお世話になります。\nようやくですが出荷方法はFedExのEconomyになりましたので\nインボイスを修正いたしました。\n出荷の方よろしくお願いいたします。\n--------------\n\nサインしたインボイス(TSE026-23invoice_signed 2)を\nフォルダに入れました。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1689053352.297919",
+        "client_msg_id": "65249caa-7105-41b2-9d6a-3a6e7b65896b",
+        "text": "<@U0331FWGQRM> 執行役\nお疲れ様です。\n本日、FedExにて出荷しました。\nAWB NO. 772640007540\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1688462287.016829",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vs+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\nお疲れ様です。\n本日、FedExにて出荷しました。\nAWB NO. 772640007540\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

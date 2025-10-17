@@ -1,0 +1,123 @@
+[
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1716199688.239509",
+        "client_msg_id": "f2837f5a-6426-4d76-a03b-65ec0732dc34",
+        "text": "<@U041RJKV5JA>\nありがとうございます、取り急ぎアリババチャットにて先方に上記の旨、送信しました！\n何かアップデートがあればお知らせしますのでよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1714211378.430429",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2Dq04",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nありがとうございます、取り急ぎアリババチャットにて先方に上記の旨、送信しました！\n何かアップデートがあればお知らせしますのでよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1716269894.699769",
+        "client_msg_id": "fe96cb20-d296-43d5-abf7-f23a95817b98",
+        "text": "<@U066P20UQH1>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n本日、DHLにて出荷しました。\nAWB NO. 9154186764\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1715903353.451429",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "U3BPs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日、DHLにて出荷しました。\nAWB NO. 9154186764\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "あり",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

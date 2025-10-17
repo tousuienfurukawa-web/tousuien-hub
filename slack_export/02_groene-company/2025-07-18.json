@@ -1,0 +1,591 @@
+[
+    {
+        "user": "U08U8MMTH43",
+        "type": "message",
+        "ts": "1752822567.987719",
+        "client_msg_id": "928e70fb-2dbb-414b-8f9a-8ebcde411bfb",
+        "text": "<@U0331FWGQRM>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n送り状作成に必要なため、パッキングリストをいただきたいです。\nお忙しいところ恐縮ですが、ご確認よろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "22a826d23669",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-05-28\/8954451860855_22a826d236694d5f657b_72.png",
+            "first_name": "fuse",
+            "real_name": "fuse",
+            "display_name": "布施美穂",
+            "team": "T033D70RR6H",
+            "name": "tousuien.fuse",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1752820535.619049",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Jjoyy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n送り状作成に必要なため、パッキングリストをいただきたいです。\nお忙しいところ恐縮ですが、ご確認よろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1752823477.726639",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1752828304.000000"
+        },
+        "client_msg_id": "3193e341-b5a4-4946-bf04-b50b65d52b8b",
+        "text": "<!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <@U0331FZS7JT>\n*TSE045-25-4（出荷：9月10日）*\n:flag-ca:ｶﾅﾀﾞGenuine Tea\nTSE045-25の残りです。下記２回の出荷に分けたいそうです。\n8\/29出荷\n9\/10出荷\n何をどう分けるかは未定のようです。\nGroene側が考えたいようですので、本件に稼働する日数を教えてもらえますか？\n\nメモーーーー\n【日産製造量（目安）】\n• *1kg 詰*：250～300個／日\n• *250g 詰*：300～400個／日\n• *40g Bag*：1000個／日\n• *40g Tin*：400個／日（＝2ケース相当）",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1751242612.073269",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YSfbZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE045-25-4（出荷：9月10日）",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-ca",
+                                "unicode": "1f1e8-1f1e6"
+                            },
+                            {
+                                "type": "text",
+                                "text": "ｶﾅﾀﾞGenuine Tea\nTSE045-25の残りです。下記２回の出荷に分けたいそうです。\n8\/29出荷\n9\/10出荷\n何をどう分けるかは未定のようです。\nGroene側が考えたいようですので、本件に稼働する日数を教えてもらえますか？\n\nメモーーーー\n【日産製造量（目安）】\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "1kg 詰",
+                                        "style": {
+                                            "bold": true
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "：250～300個／日"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "250g 詰",
+                                        "style": {
+                                            "bold": true
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "：300～400個／日"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "40g Bag",
+                                        "style": {
+                                            "bold": true
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "：1000個／日"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "40g Tin",
+                                        "style": {
+                                            "bold": true
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "：400個／日（＝2ケース相当）"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1752826487.384549",
+        "client_msg_id": "86ce7948-2c41-42d1-b78f-9411cbb8d3d5",
+        "text": "<@U0331FWGQRM>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n本日、FedExにてTSE032-25-1を出荷しました。\nAWB NO. 8828 1257 0199\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1748022283.943239",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FHfZO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日、FedExにてTSE032-25-1を出荷しました。\nAWB NO. 8828 1257 0199\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "<@U08U8MMTH43> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nパッキングリストを入手しましたので共有します。\n※invoiceも一部（PO削除）修正しております。宜しくお願い致します。",
+        "files": [
+            {
+                "id": "F096EDB144S",
+                "created": 1752828782,
+                "timestamp": 1752828782,
+                "name": "STSE001-25invoice.pdf",
+                "title": "STSE001-25invoice.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U0331FWGQRM",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 35158,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F096EDB144S\/stse001-25invoice.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F096EDB144S\/download\/stse001-25invoice.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F096EDB144S-f7837694e8\/stse001-25invoice_thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 909,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F096EDB144S\/stse001-25invoice.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F096EDB144S-b3cac43594",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F09601WTJNT",
+                "created": 1752828784,
+                "timestamp": 1752828784,
+                "name": "STSE001-25packinglist.pdf",
+                "title": "STSE001-25packinglist.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U0331FWGQRM",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 26858,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F09601WTJNT\/stse001-25packinglist.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F09601WTJNT\/download\/stse001-25packinglist.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09601WTJNT-e6bb6b9623\/stse001-25packinglist_thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 909,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F09601WTJNT\/stse001-25packinglist.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F09601WTJNT-334d52c2ea",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DgZXz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U08U8MMTH43"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nパッキングリストを入手しましたので共有します。\n※invoiceも一部（PO削除）修正しております。宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1752828786.732329",
+        "client_msg_id": "fd25db01-2386-4006-ab6a-85e414717938",
+        "thread_ts": "1752820535.619049",
+        "parent_user_id": "U0331FWGQRM",
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U05KGS6HN9H"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1752829423.898809",
+        "client_msg_id": "4c38b7fd-bb8a-46e2-8d4a-3e4296964e79",
+        "text": "<@U0331FWGQRM>\n<!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nサンプルは明日7\/19（土）発送で\n手配を進めております。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1752820535.619049",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4eplI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nサンプルは明日7\/19（土）発送で\n手配を進めております。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1752886271.172359",
+        "client_msg_id": "480b2538-fe72-465e-86fd-a1833f6a6db7",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n043-25, 046-25共に、\nサンプル確認後の出荷となりました。\n出荷日が*延期*となります。\n~出荷日：7月22日(火)~\nフォワーダーが確定し次第改めて連絡頂けることになっております。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1750512175.811489",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4nVp3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n043-25, 046-25共に、\nサンプル確認後の出荷となりました。\n出荷日が"
+                            },
+                            {
+                                "type": "text",
+                                "text": "延期",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "となります。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "出荷日：7月22日(火)",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nフォワーダーが確定し次第改めて連絡頂けることになっております。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1752903940.972409",
+        "client_msg_id": "11689cfc-f732-494b-b15a-8a6aaa6804b7",
+        "text": "<@U0331FWGQRM>\n<!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n本日7\/19のDHLで出荷しました。\nAWB No 7007209311\n別途出荷連絡をメール致します。\n宜しくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1752820535.619049",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jAhNe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日7\/19のDHLで出荷しました。\nAWB No 7007209311\n別途出荷連絡をメール致します。\n宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

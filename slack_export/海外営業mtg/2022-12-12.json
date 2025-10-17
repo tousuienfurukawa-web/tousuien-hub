@@ -1,0 +1,120 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1670832173.493249",
+        "client_msg_id": "04995fb1-2c68-4ee5-9461-d81c9e5a2f04",
+        "text": "<https:\/\/meet.google.com\/xsj-pzqn-pck>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1670803202.782529",
+        "parent_user_id": "U0331FWGQRM",
+        "attachments": [
+            {
+                "from_url": "https:\/\/meet.google.com\/xsj-pzqn-pck",
+                "thumb_url": "https:\/\/fonts.gstatic.com\/s\/i\/productlogos\/meet_2020q4\/v1\/web-96dp\/logo_meet_2020q4_color_2x_web_96dp.png",
+                "thumb_width": 192,
+                "thumb_height": 192,
+                "service_icon": "http:\/\/fonts.gstatic.com\/s\/i\/productlogos\/meet_2020q4\/v1\/web-24dp\/logo_meet_2020q4_color_1x_web_24dp.png",
+                "id": 1,
+                "original_url": "https:\/\/meet.google.com\/xsj-pzqn-pck",
+                "fallback": "Meet",
+                "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+                "title": "Meet",
+                "title_link": "https:\/\/meet.google.com\/xsj-pzqn-pck",
+                "service_name": "meet.google.com"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BUEfO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/meet.google.com\/xsj-pzqn-pck"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U03SGRNND5L",
+        "type": "message",
+        "ts": "1670897752.249479",
+        "client_msg_id": "754c9636-3c84-49a3-b543-256a641e9904",
+        "text": "<!channel>\nお疲れ様です。\n昨日の海外ミーティングの議事録を\n桃翠園共有フォルダ　→　海外営業フォルダ　→　海外ミーティング議事録フォルダ\nに入れております。\n宜しくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "6c4f7745b891",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-08-07\/3904561660837_6c4f7745b8919f42488e_72.png",
+            "first_name": "足立",
+            "real_name": "足立",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "obayashi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jbjPP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nお疲れ様です。\n昨日の海外ミーティングの議事録を\n桃翠園共有フォルダ　→　海外営業フォルダ　→　海外ミーティング議事録フォルダ\nに入れております。\n宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U041RJKV5JA",
+                    "U0331FWGQRM",
+                    "U0331FZS7JT"
+                ],
+                "count": 3
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U041RJKV5JA",
+                    "U0331FWGQRM",
+                    "U0331FZS7JT"
+                ],
+                "count": 3
+            }
+        ]
+    }
+]

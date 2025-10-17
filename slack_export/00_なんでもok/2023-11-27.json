@@ -1,0 +1,238 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1701101232.567059",
+        "client_msg_id": "42c654f2-b05b-4cf7-ac98-eec32e372540",
+        "text": "<@U0331FZS7JT>\nありがとうございます！\n\n<@U03BLQ65GK0> <@U041RJKV5JA> <@U033G4KN4TD> <@U05KGS6HN9H>\n中国の缶メーカーがアルミの底蓋を持ってるかもなので、\n今サンプル入手調整中です！\nサンプルを桃翠園に届くように調整しますので、\n届き次第、テストしてみてください。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1700103604.402049",
+        "parent_user_id": "U03BLQ65GK0",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Vx\/s3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nありがとうございます！\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n中国の缶メーカーがアルミの底蓋を持ってるかもなので、\n今サンプル入手調整中です！\nサンプルを桃翠園に届くように調整しますので、\n届き次第、テストしてみてください。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U033G4KN4TD"
+                ],
+                "count": 2
+            },
+            {
+                "name": "了解です",
+                "users": [
+                    "U03BLQ65GK0"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1701135337.217849",
+        "client_msg_id": "4ac455f8-b534-4781-a0ae-c7ddd32c0af5",
+        "text": "<@U0331FWGQRM>\n <!channel>\n中国より「40gプルトップスクリュー缶」が4,000缶入荷しました。\n底蓋は今回もゴムなしでした。\n奥村製罐より中国製の缶に使用するため発注していた底蓋が入荷しましたので、再確認のため中国製の缶と製缶してみました。\n結果、問題なく製缶することが出来ました。\n以上、ご報告いたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qsJZG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n中国より「40gプルトップスクリュー缶」が4,000缶入荷しました。\n底蓋は今回もゴムなしでした。\n奥村製罐より中国製の缶に使用するため発注していた底蓋が入荷しましたので、再確認のため中国製の缶と製缶してみました。\n結果、問題なく製缶することが出来ました。\n以上、ご報告いたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1701136127.592009",
+        "client_msg_id": "201D8B55-2802-4E33-8CD5-2AC3974B0012",
+        "text": "<@U041RJKV5JA> <@U03BLQ65GK0> <@U05KGS6HN9H> <@U033G4KN4TD>\nありがとうございます！！\n\n別スレッドでも書いたかもですが、\n今、中国製のアルミ底蓋のサンプル手配中です。\n（日本の製缶会社はアルミ底をら使っているようです）\n\n到着し次第、再度テストをお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "42NBm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nありがとうございます！！\n\n別スレッドでも書いたかもですが、\n今、中国製のアルミ底蓋のサンプル手配中です。\n（日本の製缶会社はアルミ底をら使っているようです）\n\n到着し次第、再度テストをお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U05KGS6HN9H",
+                    "U033G4KN4TD"
+                ],
+                "count": 3
+            }
+        ]
+    }
+]

@@ -1,0 +1,244 @@
+[
+    {
+        "text": "<!channel>\n丸久小山園より抹茶購入制限の連絡がありました。\n抹茶需要の急増による欠品を回避するための措置となり、当面の間販売制限となります。\n <@U0331FZS7JT>\n既に取り扱いのある商品について、在庫の確保をしておきたいのですがよろしいでしょうか。\nご確認をお願いいたします。",
+        "files": [
+            {
+                "id": "F07UJNFLDKJ",
+                "created": 1730159517,
+                "timestamp": 1730159517,
+                "name": "抹茶購入制限.pdf",
+                "title": "抹茶購入制限.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U041RJKV5JA",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 406568,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F07UJNFLDKJ\/__________________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F07UJNFLDKJ\/download\/__________________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07UJNFLDKJ-143cf90f5b\/___________________thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 910,
+                "thumb_pdf_h": 1287,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F07UJNFLDKJ\/__________________.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F07UJNFLDKJ-111d519d31",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U041RJKV5JA",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Fklzn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n丸久小山園より抹茶購入制限の連絡がありました。\n抹茶需要の急増による欠品を回避するための措置となり、当面の間販売制限となります。\n "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n既に取り扱いのある商品について、在庫の確保をしておきたいのですがよろしいでしょうか。\nご確認をお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1730159551.019269",
+        "client_msg_id": "7163755f-e600-4a76-8f32-6c300baa105d",
+        "thread_ts": "1730159551.019269",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1730159892.411559",
+        "reply_users": [
+            "U0331FZS7JT"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1730159892.411559"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1730159892.411559",
+        "client_msg_id": "E8F2C654-B0EB-4CD1-A5E2-042A9560F20C",
+        "text": "<@U041RJKV5JA> \n確認、ありがとうございます。\n一旦お客様に確認しますね！\nまた連絡します！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1730159551.019269",
+        "parent_user_id": "U041RJKV5JA",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "T5Gkr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \n確認、ありがとうございます。\n一旦お客様に確認しますね！\nまた連絡します！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1730163616.746809",
+        "client_msg_id": "5cb6a637-10b6-4155-afc7-6174864c0e73",
+        "text": "<!channel>\n商工会議所より原産地証明書を取得する際に典拠資料として提出しているインボイスについて連絡がございました。\n送り先が請求先と同じ場合に「BILL TO」のみの記載しかないインボイスがあるので、そのような場合は「BILL TO \/ SHIP TO」と可能であれば記載して欲しいとの事です。\n理由は、原産地証明書に記載できる内容はインボイス記載内容の転記が原則であり、仕向地の住所は審査要領の一つで記載が必要となるからです。\nインボイスにBILL TOのみ記載されている場合、請求先の住所のみが記載されていることになり、商品の仕向地の住所は記載されていないということになります。\n今後もBILL TOのみの記載でも証明書の発給は可能ですが、問題が発生した場合は商工会議所では責任を取りかねますとの事です。\n書類作成の際はご対応をお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fTfSW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n商工会議所より原産地証明書を取得する際に典拠資料として提出しているインボイスについて連絡がございました。\n送り先が請求先と同じ場合に「BILL TO」のみの記載しかないインボイスがあるので、そのような場合は「BILL TO \/ SHIP TO」と可能であれば記載して欲しいとの事です。\n理由は、原産地証明書に記載できる内容はインボイス記載内容の転記が原則であり、仕向地の住所は審査要領の一つで記載が必要となるからです。\nインボイスにBILL TOのみ記載されている場合、請求先の住所のみが記載されていることになり、商品の仕向地の住所は記載されていないということになります。\n今後もBILL TOのみの記載でも証明書の発給は可能ですが、問題が発生した場合は商工会議所では責任を取りかねますとの事です。\n書類作成の際はご対応をお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知-1",
+                "users": [
+                    "U066P20UQH1",
+                    "U0331FWGQRM",
+                    "U0606SPN4BW"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1730171861.014839",
+        "edited": {
+            "user": "U066P20UQH1",
+            "ts": "1730188996.000000"
+        },
+        "client_msg_id": "58a0a075-2626-48a1-9d70-002e8c81054e",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nこちらいつ動画撮っていただけそうですか。。？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1729925239.456879",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HVy+A",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nこちらいつ動画撮っていただけそうですか。。？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

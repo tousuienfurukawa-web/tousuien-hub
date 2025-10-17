@@ -1,0 +1,287 @@
+[
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1722410883.523209",
+        "client_msg_id": "dfac3d0d-aab3-4c4e-ab59-72e3a4893a70",
+        "text": "<@U066P20UQH1> <@U0606SPN4BW>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nご入金を確認いたしました。\n・7\/31 [PayPal]\n・40 USD\n回収（入金）処理いたします。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1722407652.101749",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qSK68",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nご入金を確認いたしました。\n・7\/31 [PayPal]\n・40 USD\n回収（入金）処理いたします。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "あり",
+                "users": [
+                    "U066P20UQH1",
+                    "U0606SPN4BW"
+                ],
+                "count": 2
+            },
+            {
+                "name": "入金完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1722411708.321029",
+        "client_msg_id": "cbf4ab53-0bf9-45cc-aa8f-6797cab02228",
+        "text": "<@U066P20UQH1> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n本日発送予定です。完了後お知らせします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1722407652.101749",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "72hfy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日発送予定です。完了後お知らせします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "あり",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1722422658.008359",
+        "client_msg_id": "7203986f-f8ca-4759-9400-05962aa5e2a0",
+        "text": "<@U066P20UQH1> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n発送準備完了しました。帰宅途中で発送します！\n（Jirkaさんに通知完了しました）\n\n追跡番号：\n05222072184407\n\nDPD:\n<https:\/\/www.dpdgroup.com\/nl\/mydpd\/my-parcels\/incoming>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1722407652.101749",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qG1ai",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n発送準備完了しました。帰宅途中で発送します！\n（Jirkaさんに通知完了しました）\n\n追跡番号：\n05222072184407\n\nDPD:\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.dpdgroup.com\/nl\/mydpd\/my-parcels\/incoming"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "連絡完了",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            },
+            {
+                "name": "あり",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1722435602.612059",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1722436022.000000"
+        },
+        "client_msg_id": "f187fa41-0d48-46b8-9782-86daa7b4484f",
+        "text": "<@U0331FZS7JT>\nFay様からサンプル依頼です。\n（バニラの優先度が高そう）\n\n味の方向性としては、抹茶の味をはっきりと残しつつ、\n以前よりも弱めにしたいです。完全に取り除くつもりはありません。\n（つまり、バニラ感や甘さを強くしつつも抹茶は残したい、ってことかな？）\nsugar, dextrin, citric acid, artificial flavoring, and stevia etc\nが入っていても全く問題ない。\n\n:black_small_square:Vanilla matcha\nバニラと砂糖の量を調整してほしいとのこと。\nそして、複数の味のサンプルが欲しいとのこと。\n※サウジでは抹茶withバニラミルクが多くある。\nだからバニラがクリアーで少し甘みがあるものが欲しいとのこと。\n※抹茶バニラシロップも探してるらしいが、これはスルーしてる。\n\n:black_small_square:Mango matcha\nマンゴー抹茶も美味しかったです。\n しかし、甘さが少し必要です\n\n＜メモ＞\nオリジナル缶のサイズ65x85Hmm （50g or 60g）",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1722096996.018919",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "oNbkJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nFay様からサンプル依頼です。\n（バニラの優先度が高そう）\n\n味の方向性としては、抹茶の味をはっきりと残しつつ、\n以前よりも弱めにしたいです。完全に取り除くつもりはありません。\n（つまり、バニラ感や甘さを強くしつつも抹茶は残したい、ってことかな？）\nsugar, dextrin, citric acid, artificial flavoring, and stevia etc\nが入っていても全く問題ない。\n\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "black_small_square",
+                                "unicode": "25aa-fe0f"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Vanilla matcha\nバニラと砂糖の量を調整してほしいとのこと。\nそして、複数の味のサンプルが欲しいとのこと。\n※サウジでは抹茶withバニラミルクが多くある。\nだからバニラがクリアーで少し甘みがあるものが欲しいとのこと。\n※抹茶バニラシロップも探してるらしいが、これはスルーしてる。\n\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "black_small_square",
+                                "unicode": "25aa-fe0f"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Mango matcha\nマンゴー抹茶も美味しかったです。\n しかし、甘さが少し必要です\n\n＜メモ＞\nオリジナル缶のサイズ65x85Hmm （50g or 60g）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

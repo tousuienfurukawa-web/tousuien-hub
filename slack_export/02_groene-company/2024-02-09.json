@@ -1,0 +1,536 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1707479102.081139",
+        "client_msg_id": "702443ac-afdf-47c0-b5bf-94a59a817bcc",
+        "text": "<@U05KGS6HN9H>\n下記内容で相違ないですよね？\nお客様には下記内容で伝えましたので、\n念の為確認願います。\nーーーーーー\n出荷書類のPrior Notice certification (PNC : 事前通知)の準備について調べたところ、\nアメリカ港経由でカナダに船が入る場合もPNCが必要となるようです。\n\nFOB神戸の場合、\n船積みまでが当社手配ですので、\n出港以降は、お客様側でPNC申請を行う必要があります。\n\n一方、EXWになった場合は、PNCは弊社で準備する必要があります。\nPNCを準備する際に、BL（船荷証券）番号が必要なのですが、\nBL番号は出港後に発行されますので、\n貨物に添付しての出荷ができないことになります。\nですので、出港後（BL番号が分かり次第）PNCを申請し、\nPNCのPDFデータをフォワーダーやお客様へ提供する必要があります。\n\nなので、今回003がFOBの場合は、\n出荷書類は下記の通りとなります。\n・INVOICE\n・PackingList\n・原産地証明書\n・COA\nーーーーーー",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705806402.377709",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eM0PI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n下記内容で相違ないですよね？\nお客様には下記内容で伝えましたので、\n念の為確認願います。\nーーーーーー\n出荷書類のPrior Notice certification (PNC : 事前通知)の準備について調べたところ、\nアメリカ港経由でカナダに船が入る場合もPNCが必要となるようです。\n\nFOB神戸の場合、\n船積みまでが当社手配ですので、\n出港以降は、お客様側でPNC申請を行う必要があります。\n\n一方、EXWになった場合は、PNCは弊社で準備する必要があります。\nPNCを準備する際に、BL（船荷証券）番号が必要なのですが、\nBL番号は出港後に発行されますので、\n貨物に添付しての出荷ができないことになります。\nですので、出港後（BL番号が分かり次第）PNCを申請し、\nPNCのPDFデータをフォワーダーやお客様へ提供する必要があります。\n\nなので、今回003がFOBの場合は、\n出荷書類は下記の通りとなります。\n・INVOICE\n・PackingList\n・原産地証明書\n・COA\nーーーーーー"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1707532633.953349",
+        "client_msg_id": "75d56533-9a65-401e-bdd7-dbc182bf6725",
+        "text": "<@U0331FWGQRM>\n<@U041RJKV5JA> <@U033G4KN4TD>\nすみません。先に送信した内容で\n「今回FOB神戸（当社手配は通関後に船積みまで）ですので、出港以降は\nお客様側でPNC申請を行われるかもしれませんが、…」という書き方をして\nおりましたが、これまでEXWでも当社でFedex出荷の場合にはPNCを取得して\nいる経緯があり、改めてネットで調べると、『輸出者が申請取得する』という情報\nがありました。福通Gからのメールでは、「CNEEよりPNCが必要という連絡がなければ\n不要」という回答があり、FOB手配＝船積みまでの認識でおりましたが、\n執行役から連絡された箇所の「船積みまでが当社手配ですので、出港以降は、\nお客様側でPNC申請を行う必要があります」という箇所を訂正いただけませんでしょうか？\n経由であってもPNCが必要、出港後のPNC申請という箇所は訂正ございません。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705806402.377709",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VrymO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nすみません。先に送信した内容で\n「今回FOB神戸（当社手配は通関後に船積みまで）ですので、出港以降は\nお客様側でPNC申請を行われるかもしれませんが、…」という書き方をして\nおりましたが、これまでEXWでも当社でFedex出荷の場合にはPNCを取得して\nいる経緯があり、改めてネットで調べると、『輸出者が申請取得する』という情報\nがありました。福通Gからのメールでは、「CNEEよりPNCが必要という連絡がなければ\n不要」という回答があり、FOB手配＝船積みまでの認識でおりましたが、\n執行役から連絡された箇所の「船積みまでが当社手配ですので、出港以降は、\nお客様側でPNC申請を行う必要があります」という箇所を訂正いただけませんでしょうか？\n経由であってもPNCが必要、出港後のPNC申請という箇所は訂正ございません。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1707543179.648129",
+        "client_msg_id": "E9FDC6FC-AE36-41F8-8107-285AB133E227",
+        "text": "<@U05KGS6HN9H> \nすみません、結論部分だけ簡潔にまとめてもらえます？笑",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705806402.377709",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pE53n",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \nすみません、結論部分だけ簡潔にまとめてもらえます？笑"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1707544275.413039",
+        "client_msg_id": "49C6541E-4FC0-460B-91A6-A6E538C520F0",
+        "text": "<@U05KGS6HN9H> \n\nつまり、\nFOBでも、EXWでも、\nPNCは桃翠園手配。\n\nでいいですか？\n\n\n何も言わなくても良かった。\n先ほどのメールは無視してください。\nと言うことでいいですか？\n",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705806402.377709",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Jg72P",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \n\nつまり、\nFOBでも、EXWでも、\nPNCは桃翠園手配。\n\nでいいですか？\n\n\n何も言わなくても良かった。\n先ほどのメールは無視してください。\nと言うことでいいですか？\n"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1707546091.521969",
+        "client_msg_id": "dd510296-5e0f-45f1-814e-9fe7c1ce6b27",
+        "text": "<@U0331FWGQRM>\nすみません。いずれにしても、PNCはこちら手配でOKです。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705806402.377709",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "iU9RA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nすみません。いずれにしても、PNCはこちら手配でOKです。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<@U0331FWGQRM>\n<@U041RJKV5JA> <@U033G4KN4TD>\n残りのパレタイズが完了いたしました。\n実測したところ、高さが共に150cmでした。何度も申し訳ありませんが、\nPackingListのPLT SIZEを修正いただけると助かります。\nPT 1-3　110 X 110 X ~141~  →　訂正　110 X 110 X 150\nPT 3-3　110 X 110 X ~141~  →　訂正　110 X 110 X 150\nお手数をおかけ致します。",
+        "files": [
+            {
+                "id": "F06J92QPUTW",
+                "created": 1707546295,
+                "timestamp": 1707546295,
+                "name": "PT1.jpg",
+                "title": "PT1.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U05KGS6HN9H",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 435204,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F06J92QPUTW\/pt1.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F06J92QPUTW\/download\/pt1.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F06J92QPUTW-028a6e0fd8\/pt1_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F06J92QPUTW-028a6e0fd8\/pt1_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F06J92QPUTW-028a6e0fd8\/pt1_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 203,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F06J92QPUTW-028a6e0fd8\/pt1_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 270,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F06J92QPUTW-028a6e0fd8\/pt1_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F06J92QPUTW-028a6e0fd8\/pt1_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 405,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F06J92QPUTW-028a6e0fd8\/pt1_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 1422,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F06J92QPUTW-028a6e0fd8\/pt1_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 540,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F06J92QPUTW-028a6e0fd8\/pt1_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 576,
+                "thumb_1024_h": 1024,
+                "original_w": 960,
+                "original_h": 1706,
+                "thumb_tiny": "AwAwABu0tvGefKU0ya1V0wFCkdMVNG\/PPcUSPzgUAUHtGEZVVG7I5LVF9jl9B+dXy+BVaV28w4PFAyS3mBYDOcChpPmJBqlbNiQ59KnkOOR3oESM+eSarMwLE0peoC3NACxEB8mnvKCxwMD86gpaAH+awPH8qZRRQB\/\/2Q==",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F06J92QPUTW\/pt1.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F06J92QPUTW-4019e5c67f",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F06J92QS3AQ",
+                "created": 1707546299,
+                "timestamp": 1707546299,
+                "name": "PT3.jpg",
+                "title": "PT3.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U05KGS6HN9H",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 498821,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F06J92QS3AQ\/pt3.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F06J92QS3AQ\/download\/pt3.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F06J92QS3AQ-509a175cd1\/pt3_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F06J92QS3AQ-509a175cd1\/pt3_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F06J92QS3AQ-509a175cd1\/pt3_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 203,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F06J92QS3AQ-509a175cd1\/pt3_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 270,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F06J92QS3AQ-509a175cd1\/pt3_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F06J92QS3AQ-509a175cd1\/pt3_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 405,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F06J92QS3AQ-509a175cd1\/pt3_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 1422,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F06J92QS3AQ-509a175cd1\/pt3_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 540,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F06J92QS3AQ-509a175cd1\/pt3_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 576,
+                "thumb_1024_h": 1024,
+                "original_w": 960,
+                "original_h": 1706,
+                "thumb_tiny": "AwAwABueKbAVVTeSuTg9KS3klKhUXAHZqhs3U7l2g\/LyacAc96Qy6JGH3kI9wc1Jmmx\/6tfpRke4piMq0crHgECp2O1ucH3FVk4qQcigZeikJjHSl\/eHkKPzqGI\/IAKYJ2XhW47U0JlAk5yCRThMR95QfcUyjFICx52U2oT703dUY4pc0xH\/2Q==",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F06J92QS3AQ\/pt3.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F06J92QS3AQ-69c1697e4a",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U05KGS6HN9H",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "WF\/mE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n残りのパレタイズが完了いたしました。\n実測したところ、高さが共に150cmでした。何度も申し訳ありませんが、\nPackingListのPLT SIZEを修正いただけると助かります。\nPT 1-3　110 X 110 X "
+                            },
+                            {
+                                "type": "text",
+                                "text": "141",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "  →　訂正　110 X 110 X 150\nPT 3-3　110 X 110 X "
+                            },
+                            {
+                                "type": "text",
+                                "text": "141",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "  →　訂正　110 X 110 X 150\nお手数をおかけ致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1707546330.774629",
+        "edited": {
+            "user": "U05KGS6HN9H",
+            "ts": "1707546414.000000"
+        },
+        "client_msg_id": "13278d6e-e2b9-45b1-a4a0-8bf99cef3b1d",
+        "thread_ts": "1705806402.377709",
+        "parent_user_id": "U0331FWGQRM"
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1707546540.011029",
+        "client_msg_id": "E6D780EC-DF77-4E35-8579-7D1CE38FFDBF",
+        "text": "<@U05KGS6HN9H> \n感覚の話ですみませんが、\nその差は許容できる範囲では無いですか？\n無理そうです？？\n\n変えないと無理そうなら変更しますが、\nどうでしょう？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705806402.377709",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JnUPv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \n感覚の話ですみませんが、\nその差は許容できる範囲では無いですか？\n無理そうです？？\n\n変えないと無理そうなら変更しますが、\nどうでしょう？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1707548588.274169",
+        "client_msg_id": "cf7f8efb-b831-4faf-a2fe-d084bb0cb9d3",
+        "text": "<@U0331FWGQRM>\n過去前職時の経験ですが、厳しい倉庫では荷受採寸で数cmの誤差を指摘（→書類訂正）\nされた場合がありました。また特にLCL混載は容積単位あたりでかかる費用部分がある為、\n可能であれば修正しておいた方が良いかもしれません。\n（TOTAL CUBIC METER　~6.0379~㎥　→　訂正　6.2557㎥）\n前職では基本的に自社工場で輸出貨物パレタイズ後に実測して書類を作成しておりましたが、\n外部材料メーカーから港倉庫に直接搬入する貨物では、前述のような誤差を指摘される場合\nがありました。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705806402.377709",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "J77rt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n過去前職時の経験ですが、厳しい倉庫では荷受採寸で数cmの誤差を指摘（→書類訂正）\nされた場合がありました。また特にLCL混載は容積単位あたりでかかる費用部分がある為、\n可能であれば修正しておいた方が良いかもしれません。\n（TOTAL CUBIC METER　"
+                            },
+                            {
+                                "type": "text",
+                                "text": "6.0379",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "㎥　→　訂正　6.2557㎥）\n前職では基本的に自社工場で輸出貨物パレタイズ後に実測して書類を作成しておりましたが、\n外部材料メーカーから港倉庫に直接搬入する貨物では、前述のような誤差を指摘される場合\nがありました。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U05KGS6HN9H"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1721090688.730259",
+        "client_msg_id": "9c8954dd-a372-4e06-9cf8-863d23060b71",
+        "text": "<@U0331FWGQRM>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n現在注文いただいているTSE-MOM-007-24（500ocs）は\nニス有りの従来缶ラベルで宜しいですよね？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1720992763.667529",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VDLgj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n現在注文いただいているTSE-MOM-007-24（500ocs）は\nニス有りの従来缶ラベルで宜しいですよね？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "ok_hand",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "ok",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

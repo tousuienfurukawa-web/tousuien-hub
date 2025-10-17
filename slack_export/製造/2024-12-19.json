@@ -1,0 +1,80 @@
+[
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1734631825.822289",
+        "client_msg_id": "612773ba-3ae2-4597-8173-133ee1f45e80",
+        "text": "<@U0331FZS7JT> <@U03BLQ65GK0> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n先方から着金を確認した旨、連絡がありましたのでお知らせします。\n納期的に少し先になるかと思いますが何か進捗があり次第、追って共有します。\nよろしくお願いします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1733480044.202939",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+Jb6h",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n先方から着金を確認した旨、連絡がありましたのでお知らせします。\n納期的に少し先になるかと思いますが何か進捗があり次第、追って共有します。\nよろしくお願いします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT",
+                    "U03BLQ65GK0"
+                ],
+                "count": 2
+            },
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U0331FZS7JT",
+                    "U03BLQ65GK0"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

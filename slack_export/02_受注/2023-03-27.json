@@ -1,0 +1,709 @@
+[
+    {
+        "user": "U03SGRNND5L",
+        "type": "message",
+        "ts": "1679901299.761269",
+        "client_msg_id": "817d9bc9-7f0c-448a-9212-9b0b461ce087",
+        "text": "<@U0331FZS7JT> 社長\n申し訳ございません。\n再度、確認しました。\n\n出荷品の受け取り時間ですが、\nお客様のフライト日にヤマト運輸のカウンターで営業時間中なら\n受けとることができます。\n（成田空港第2ターミナル：営業時間7：00～最終便）\n又、本人確認はパスポートでされます。\n出荷品の受け取りの際の送り状番号は、発送伝票の送り状番号のみを\n伝えれば良いです。\n土日の受け取りも営業時間中なら問題ありません。\n\n精度が無く、申し訳ございません。\n自分が受け取るということが出来ておりませんでした。\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "6c4f7745b891",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-08-07\/3904561660837_6c4f7745b8919f42488e_72.png",
+            "first_name": "足立",
+            "real_name": "足立",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "obayashi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1679838249.988049",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hlVA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\n申し訳ございません。\n再度、確認しました。\n\n出荷品の受け取り時間ですが、\nお客様のフライト日にヤマト運輸のカウンターで営業時間中なら\n受けとることができます。\n（成田空港第2ターミナル：営業時間7：00～最終便）\n又、本人確認はパスポートでされます。\n出荷品の受け取りの際の送り状番号は、発送伝票の送り状番号のみを\n伝えれば良いです。\n土日の受け取りも営業時間中なら問題ありません。\n\n精度が無く、申し訳ございません。\n自分が受け取るということが出来ておりませんでした。\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1679901710.709459",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1679901749.000000"
+        },
+        "client_msg_id": "7c440250-7958-4a8d-b458-0ca38c16bb32",
+        "text": "<@U03SGRNND5L>\n<@U041RJKV5JA>\n【受取り可能日】発送の３日後以降\n　※指定日３日前までに出荷\n【受取り可能時間】営業時間7：00～最終便\n　※出発の1-2時間より前でも受取り可能\n【伝票記載内容】宛名、電話番号、便名、フライト時間\n【受取り方法】送り状番号（先方に共有）の承認、本人確認用のパスポート提示\n\n上記に誤りがあれば指摘してください。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1679838249.988049",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Hjc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U03SGRNND5L"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n【受取り可能日】発送の３日後以降\n　※指定日３日前までに出荷\n【受取り可能時間】営業時間7：00～最終便\n　※出発の1-2時間より前でも受取り可能\n【伝票記載内容】宛名、電話番号、便名、フライト時間\n【受取り方法】送り状番号（先方に共有）の承認、本人確認用のパスポート提示\n\n上記に誤りがあれば指摘してください。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U03SGRNND5L",
+        "type": "message",
+        "ts": "1679902842.492319",
+        "client_msg_id": "36d7e2a3-c06a-41c2-9dc7-15448882646c",
+        "text": "<@U0331FZS7JT> 社長\nCC： <@U041RJKV5JA> 部長\n誤りはありません。\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "6c4f7745b891",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-08-07\/3904561660837_6c4f7745b8919f42488e_72.png",
+            "first_name": "足立",
+            "real_name": "足立",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "obayashi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1679838249.988049",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XAEe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nCC： "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n誤りはありません。\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1679915184.117239",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1679915238.000000"
+        },
+        "client_msg_id": "87c78bb6-a1c3-4130-8aca-a0313b44b40c",
+        "text": "<@U041RJKV5JA> <@U03SGRNND5L>\n本件、お客様から注文の一部修正がありましたので\nよろしくお願いします。\n【Invoice＆Packing list】修正済\nYame Grade H⇒YAME Grade G\n（原料「もくれん」変わらず）\n100g×10⇒100g×５\n\n【Nutrition Facts】修正済\nUJI Grade F TSUYUHIKARI\n↓\nUJI Grade F UJIHIKARI\n\n産地証明の件もあると思うので\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1679838249.988049",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "noq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03SGRNND5L"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本件、お客様から注文の一部修正がありましたので\nよろしくお願いします。\n【Invoice＆Packing list】修正済\nYame Grade H⇒YAME Grade G\n（原料「もくれん」変わらず）\n100g×10⇒100g×５\n\n【Nutrition Facts】修正済\nUJI Grade F TSUYUHIKARI\n↓\nUJI Grade F UJIHIKARI\n\n産地証明の件もあると思うので\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1679919651.252619",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1679919827.000000"
+        },
+        "client_msg_id": "1e78d465-dedc-4570-baa8-50bc381dc2f1",
+        "text": "<@U041RJKV5JA> 部長\n<!channel>\n\nウクライナから注文（012,013）がありました。\n013については010と全く内容が同じなので、\n日付とInvoice Noを変えただけです。\n012(A1 100g×40pacs)については\nインボイス・パッキングリストの完成をお願いします。\n\nインボイス完成後、出荷可能日を教えてください。\nよろしくお願いします。\n\nそれとこのウクライナの方のお客様（ポーランド）の\nEORIナンバーが間も無くわかります。\nEORI分かる→私が記載→お客様に送る→事前払い→DHLで出荷\nこのフローでお願いします。\n\nよろしくお願いします。\n以前も書きましたが、*ポーランドの売上は*\n*今後、ウクライナのお客様への売上から相殺*します。\nその際は指示出します。よろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1679919651.252619",
+        "reply_count": 14,
+        "reply_users_count": 5,
+        "latest_reply": "1680830405.040409",
+        "reply_users": [
+            "U03SGRNND5L",
+            "U0331FZS7JT",
+            "U0331FZTHEK",
+            "U041RJKV5JA",
+            "U033G4KN4TD"
+        ],
+        "replies": [
+            {
+                "user": "U03SGRNND5L",
+                "ts": "1679978917.592569"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1680013632.748919"
+            },
+            {
+                "user": "U03SGRNND5L",
+                "ts": "1680048469.764799"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1680048550.000599"
+            },
+            {
+                "user": "U03SGRNND5L",
+                "ts": "1680049438.793549"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1680082891.464359"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1680130753.097769"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1680131084.660409"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1680157345.950869"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1680474105.887389"
+            },
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1680502809.259149"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1680779644.859589"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1680779979.024209"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1680830405.040409"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uRd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n"
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nウクライナから注文（012,013）がありました。\n013については010と全く内容が同じなので、\n日付とInvoice Noを変えただけです。\n012(A1 100g×40pacs)については\nインボイス・パッキングリストの完成をお願いします。\n\nインボイス完成後、出荷可能日を教えてください。\nよろしくお願いします。\n\nそれとこのウクライナの方のお客様（ポーランド）の\nEORIナンバーが間も無くわかります。\nEORI分かる→私が記載→お客様に送る→事前払い→DHLで出荷\nこのフローでお願いします。\n\nよろしくお願いします。\n以前も書きましたが、"
+                            },
+                            {
+                                "type": "text",
+                                "text": "ポーランドの売上は",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "今後、ウクライナのお客様への売上から相殺",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "します。\nその際は指示出します。よろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U041RJKV5JA",
+                    "U0331FZS7JT"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1679934016.119199",
+        "client_msg_id": "8F3CD16D-4293-4CCD-958E-86E2198E6821",
+        "text": "<@U0331FZTHEK> さん\n\nお疲れ様です。\n本件、送金の連絡がありました。\nご確認、処理をよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1679838249.988049",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/Tw2w",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\n\nお疲れ様です。\n本件、送金の連絡がありました。\nご確認、処理をよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1679958071.458899",
+        "client_msg_id": "60546b5a-d0f7-480a-b8f9-ab28c1e4877c",
+        "text": "<@U0331FZS7JT> 社長\n　CC: <@U041RJKV5JA> 部長 <@U03SGRNND5L> さん\nお疲れ様です。\n本件、入金を確認致しました。\n・3\/27 [PayPal]\n・JPY60,590-\n回収(入金)処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1679838249.988049",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AK6VI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\n　CC: "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長 "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03SGRNND5L"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\nお疲れ様です。\n本件、入金を確認致しました。\n・3\/27 [PayPal]\n・JPY60,590-\n回収(入金)処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "入金完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U03SGRNND5L",
+        "type": "message",
+        "ts": "1679978917.592569",
+        "client_msg_id": "2d5844f0-f8b0-4472-b5cd-eb1098cf97df",
+        "text": "<@U0331FZS7JT> 社長\nCC： <@U041RJKV5JA> 部長\nお疲れ様です。\nTSE-IV-012-23のインボイスとパッキングリストを\n作成しました。\n\nTSE-IV-012-23、TSE-IV-013-23の出荷可能日は3\/30（木）です。\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "6c4f7745b891",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-08-07\/3904561660837_6c4f7745b8919f42488e_72.png",
+            "first_name": "足立",
+            "real_name": "足立",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "obayashi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1679919651.252619",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cUn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nCC： "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nお疲れ様です。\nTSE-IV-012-23のインボイスとパッキングリストを\n作成しました。\n\nTSE-IV-012-23、TSE-IV-013-23の出荷可能日は3\/30（木）です。\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U03SGRNND5L",
+        "type": "message",
+        "ts": "1679981491.869029",
+        "client_msg_id": "798083c6-5a32-4bdd-a60a-e42783fe325d",
+        "text": "<@U0331FZS7JT> 社長\nCC： <@U041RJKV5JA> 部長\nお疲れ様です。\n本件、出荷準備が出来、先ほど\nDHLにて出荷しました。\nTracking number：5246999450　です。\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "6c4f7745b891",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-08-07\/3904561660837_6c4f7745b8919f42488e_72.png",
+            "first_name": "足立",
+            "real_name": "足立",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "obayashi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1679839405.825359",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MZlru",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nCC： "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nお疲れ様です。\n本件、出荷準備が出来、先ほど\nDHLにて出荷しました。\nTracking number：5246999450　です。\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U03SGRNND5L",
+        "type": "message",
+        "ts": "1679983290.735019",
+        "client_msg_id": "eedce7ca-ed9d-4f37-9b6b-225ac33d4533",
+        "text": "<@U0331FZS7JT> 社長\nCC： <@U041RJKV5JA> 部長\nお疲れ様です。\n本件の発送用のインボイスに送料2,940円を\n記載しましたが、前回（002-23）、前々回（001-23）には\n送料の記載がありませんでした。\nまた、Receiptにはこれまで原産地証明書代金1,100円の記載は\nありませんでしたが、今回は記載しております。\n正しい記載を確認するべきところ確認せず\n申し訳ございません。\n前回と同様に\n・今回の発送用インボイスから送料（2,940円）の記載を消す。\n・今回のReceiptから原産地証明書代金（1,100円）の記載を消す。\nで良いでしょうか。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "6c4f7745b891",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-08-07\/3904561660837_6c4f7745b8919f42488e_72.png",
+            "first_name": "足立",
+            "real_name": "足立",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "obayashi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1679838249.988049",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6atvX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nCC： "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nお疲れ様です。\n本件の発送用のインボイスに送料2,940円を\n記載しましたが、前回（002-23）、前々回（001-23）には\n送料の記載がありませんでした。\nまた、Receiptにはこれまで原産地証明書代金1,100円の記載は\nありませんでしたが、今回は記載しております。\n正しい記載を確認するべきところ確認せず\n申し訳ございません。\n前回と同様に\n・今回の発送用インボイスから送料（2,940円）の記載を消す。\n・今回のReceiptから原産地証明書代金（1,100円）の記載を消す。\nで良いでしょうか。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,78 @@
+[
+    {
+        "user": "U08NVD403GV",
+        "type": "message",
+        "ts": "1760420565.464819",
+        "client_msg_id": "ca5e9de8-cc03-4136-b919-1f1adf9e2399",
+        "text": "<@U0606SPN4BW>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n本日DHLにて出荷しました。\nAWB No.2739288742\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g631762386a6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/631762386a6de814719795fffc991b1e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-72.png",
+            "first_name": "Yamamoto",
+            "real_name": "Yamamoto",
+            "display_name": "山本",
+            "team": "T033D70RR6H",
+            "name": "tousuien.yamamoto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1759329808.855519",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "syvAO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日DHLにて出荷しました。\nAWB No.2739288742\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "ありかとう",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            },
+            {
+                "name": "連絡完了",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

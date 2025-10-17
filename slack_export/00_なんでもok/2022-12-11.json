@@ -1,0 +1,73 @@
+[
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1670830635.389509",
+        "edited": {
+            "user": "U033G4KN4TD",
+            "ts": "1670833323.000000"
+        },
+        "client_msg_id": "cfe84014-aa9a-4fd1-9dcb-da6d9de6c009",
+        "text": "情報共有します。\n通販のHPからの問い合わせ案件です。\nシンガポールです。\n<https:\/\/www.teaoflifesingapore.com\/contact>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/www.teaoflifesingapore.com\/contact",
+                "image_url": "https:\/\/static.wixstatic.com\/media\/0f3d4c_817ed3080d0c41da98576c964dd0b481%7Emv2.jpg\/v1\/fit\/w_2500,h_1330,al_c\/0f3d4c_817ed3080d0c41da98576c964dd0b481%7Emv2.jpg",
+                "image_width": 250,
+                "image_height": 250,
+                "image_bytes": 13213,
+                "service_icon": "https:\/\/static.wixstatic.com\/media\/0f3d4c_fbcb56356e94484e801068e83374f66e%7Emv2.png\/v1\/fill\/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01\/0f3d4c_fbcb56356e94484e801068e83374f66e%7Emv2.png",
+                "id": 1,
+                "original_url": "https:\/\/www.teaoflifesingapore.com\/contact",
+                "fallback": "Tea of Life SG: CONTACT | Tea of Life SG",
+                "title": "CONTACT | Tea of Life SG",
+                "title_link": "https:\/\/www.teaoflifesingapore.com\/contact",
+                "service_name": "Tea of Life SG"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ngU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "情報共有します。\n通販のHPからの問い合わせ案件です。\nシンガポールです。\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.teaoflifesingapore.com\/contact"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

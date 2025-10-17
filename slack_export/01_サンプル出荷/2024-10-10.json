@@ -1,0 +1,335 @@
+[
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1728547132.966669",
+        "client_msg_id": "74e87dcd-b490-498d-82b2-163dbd9c1362",
+        "text": "<@U066P20UQH1> <@U0606SPN4BW>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n本日、佐川急便にて出荷しました。\nAWB NO. 491768181866\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1728101422.373899",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fZ+r8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日、佐川急便にて出荷しました。\nAWB NO. 491768181866\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知-1",
+                "users": [
+                    "U066P20UQH1",
+                    "U0606SPN4BW"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1728550659.815149",
+        "client_msg_id": "b7bf182a-f95a-45f3-bccb-b945a44fb098",
+        "text": "<@U0331FZTHEK>\nありがとうございます！\n\n&lt; 残っている懸念点のメモ &gt;\nShopifyの登録されている口座番号は「変更」ができない仕様で、「新しい口座番号」を登録する形となっています。\n\n\n①「元々の口座番号がどのように登録されていたのか不明←同じ内容を再度登録した可能性。」があるのと、\n② 口座種別(普通・当座)を指定する項目がなく普通預金が前提の仕様になってる可能性がありそう？\n\n\n①について今回、口座番号は\"<tel:0251000075|025-1000075>\"ではなく \"1000075\"として登録してみました。\n（025＝店番=直江支店であり、支店名を指定しているので不要と推測。通帳に記載のある「口座番号」は\"1000075\"のみ）\n\n\n②についてはShopifyに確認し、火曜日に入金となるように調整してみます！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1727523565.466519",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wrkzQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nありがとうございます！\n\n< 残っている懸念点のメモ >\nShopifyの登録されている口座番号は「変更」ができない仕様で、「新しい口座番号」を登録する形となっています。\n\n\n①「元々の口座番号がどのように登録されていたのか不明←同じ内容を再度登録した可能性。」があるのと、\n② 口座種別(普通・当座)を指定する項目がなく普通預金が前提の仕様になってる可能性がありそう？\n\n\n①について今回、口座番号は\""
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:0251000075",
+                                "text": "025-1000075"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\"ではなく \"1000075\"として登録してみました。\n（025＝店番=直江支店であり、支店名を指定しているので不要と推測。通帳に記載のある「口座番号」は\"1000075\"のみ）\n\n\n②についてはShopifyに確認し、火曜日に入金となるように調整してみます！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "eyes",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1728621771.979689",
+        "client_msg_id": "275d2bf7-f265-4fe7-b453-8445c4ead706",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:flag-ae:ZHJ-Zahra Jamaから追加サンプル依頼がありました。\n*TSE-ZHJ-SPL-002-24*",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1728621771.979689",
+        "reply_count": 7,
+        "reply_users_count": 4,
+        "latest_reply": "1729172764.337579",
+        "reply_users": [
+            "U066P20UQH1",
+            "U0606SPN4BW",
+            "U0331FZTHEK",
+            "U05KGS6HN9H"
+        ],
+        "replies": [
+            {
+                "user": "U066P20UQH1",
+                "ts": "1728621825.065589"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1728668659.481539"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1728686764.584829"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1728703840.026429"
+            },
+            {
+                "user": "U066P20UQH1",
+                "ts": "1728705067.208039"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1728970743.119689"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1729172764.337579"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1729172764.337579",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "79KTy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-ae",
+                                "unicode": "1f1e6-1f1ea"
+                            },
+                            {
+                                "type": "text",
+                                "text": "ZHJ-Zahra Jamaから追加サンプル依頼がありました。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-ZHJ-SPL-002-24",
+                                "style": {
+                                    "bold": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U05KGS6HN9H"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1728621825.065589",
+        "client_msg_id": "30aeeb97-41ba-428c-9ec4-4a6e267acdc5",
+        "text": "<@U0331FZTHEK>\n入金待ちです、本日中には入金あると思いますが、確認次第回収処理をお願いします！\n\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nインボイス・パッキングリスト作成済みですのでご確認の程よろしくお願いいたします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1728621771.979689",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Bb+pw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n入金待ちです、本日中には入金あると思いますが、確認次第回収処理をお願いします！\n\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nインボイス・パッキングリスト作成済みですのでご確認の程よろしくお願いいたします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

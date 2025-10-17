@@ -1,0 +1,227 @@
+[
+    {
+        "user": "U03SGRNND5L",
+        "type": "message",
+        "ts": "1677227880.480029",
+        "client_msg_id": "a51dcb60-3218-41ec-8964-04c69a801bd3",
+        "text": "<@U0331FZS7JT> 社長\nCC: <@U041RJKV5JA> 部長\nお疲れ様です。\nTSE-TN-002-23（Darks’mood cafe(Mr.Thanin Niyomjinda) 様）を\n佐川急便で出荷しました。（国内発送）\nお問い合せ送り状№：4906-7945-4963　です。\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "6c4f7745b891",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-08-07\/3904561660837_6c4f7745b8919f42488e_72.png",
+            "first_name": "足立",
+            "real_name": "足立",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "obayashi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1676904442.437869",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4dn7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nCC: "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nお疲れ様です。\nTSE-TN-002-23（Darks’mood cafe(Mr.Thanin Niyomjinda) 様）を\n佐川急便で出荷しました。（国内発送）\nお問い合せ送り状№：4906-7945-4963　です。\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1677283540.948909",
+        "client_msg_id": "52bed88f-e120-4672-9efb-a586c901c535",
+        "text": "<@U041RJKV5JA> 部長\nCC：<!channel>\n\nサンプル依頼（UK:Matcha Union：先日の会議の年間700kgの件）が\nありましたので\n月曜発送で手配をお願いします。\nインボイスは作成済み（INVOICE(TSE-MTU-SPL-002-23)）ですので\nパッキングリストの完成とDHLの発送依頼をお願いします。\n\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1677283540.948909",
+        "reply_count": 6,
+        "reply_users_count": 3,
+        "latest_reply": "1677825955.640609",
+        "reply_users": [
+            "U03SGRNND5L",
+            "U0331FZS7JT",
+            "U041RJKV5JA"
+        ],
+        "replies": [
+            {
+                "user": "U03SGRNND5L",
+                "ts": "1677304825.534759"
+            },
+            {
+                "user": "U03SGRNND5L",
+                "ts": "1677475765.609149"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1677476200.617639"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1677768442.212319"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1677804461.278499"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1677825955.640609"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Evn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nCC："
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nサンプル依頼（UK:Matcha Union：先日の会議の年間700kgの件）が\nありましたので\n月曜発送で手配をお願いします。\nインボイスは作成済み（INVOICE(TSE-MTU-SPL-002-23)）ですので\nパッキングリストの完成とDHLの発送依頼をお願いします。\n\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U03SGRNND5L",
+        "type": "message",
+        "ts": "1677304825.534759",
+        "client_msg_id": "315dbd97-42d4-4966-beae-856bf0ea20b2",
+        "text": "<@U0331FZS7JT> 社長\nCC： <@U041RJKV5JA> 部長\nお疲れ様です。\n本件のパッキングリストを作成しました。\n又、2\/27（月） にDHLを手配しました。\nTracking No,5246933333　です。\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "6c4f7745b891",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-08-07\/3904561660837_6c4f7745b8919f42488e_72.png",
+            "first_name": "足立",
+            "real_name": "足立",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "obayashi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1677283540.948909",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sig",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nCC： "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nお疲れ様です。\n本件のパッキングリストを作成しました。\n又、2\/27（月） にDHLを手配しました。\nTracking No,5246933333　です。\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

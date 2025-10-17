@@ -1,0 +1,224 @@
+[
+    {
+        "user": "U08N3SKSL75",
+        "type": "message",
+        "ts": "1748218749.444759",
+        "client_msg_id": "2ac9606a-ceb7-4deb-b62e-7aff8def9ec4",
+        "text": "<@U041RJKV5JA> CC:<!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\nおはようございます。在庫のご確認をお願いします:pray:\n\nAWC-Richie Liu\nNon organic Matcha Regular grade - 2（出雲抹茶W） x 360Kg 注文したい\n→ 分納で先に出せる在庫ありますか？あれば数量を教えてください:bow:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g385a5ea1fc7",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/385a5ea1fc7db8f0b42ecd922f43af6c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-72.png",
+            "first_name": "Kimura",
+            "real_name": "Kimura",
+            "display_name": "Kimura",
+            "team": "T033D70RR6H",
+            "name": "tousuien.kimura",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1748218749.444759",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1748231860.346349",
+        "reply_users": [
+            "U041RJKV5JA"
+        ],
+        "replies": [
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1748231860.346349"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1748231860.346349",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "esPKB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " CC:"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nおはようございます。在庫のご確認をお願いします"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "pray",
+                                "unicode": "1f64f",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nAWC-Richie Liu\nNon organic Matcha Regular grade - 2（出雲抹茶W） x 360Kg 注文したい\n→ 分納で先に出せる在庫ありますか？あれば数量を教えてください"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "bow",
+                                "unicode": "1f647"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "確認致します",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1748231860.346349",
+        "client_msg_id": "ce7e9446-1ca2-4df2-b6f0-d0a28715f348",
+        "text": "<@U08N3SKSL75>\n <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> CC: <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n出雲抹茶W在庫量：19kg（確保しておきます）\n不足分の製造については確認中です。\n分かり次第ご報告いたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1748218749.444759",
+        "parent_user_id": "U08N3SKSL75",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aDqcK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U08N3SKSL75"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": " CC: "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出雲抹茶W在庫量：19kg（確保しておきます）\n不足分の製造については確認中です。\n分かり次第ご報告いたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U08N3SKSL75"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1748237389.399479",
+        "client_msg_id": "7577a104-ee3a-4aeb-a687-169fda8f6f03",
+        "text": "<@U0606SPN4BW> <@U08N3SKSL75>\n修正後のラベルをPDF、Aiデータ共に印刷してみましたが、JASマークの高さが5mmありません。\nしかし、5mm以上に修正いただいているとのことですので、こちらで申請します。\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1747819862.567839",
+        "parent_user_id": "U08N3SKSL75",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ZFlYB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U08N3SKSL75"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n修正後のラベルをPDF、Aiデータ共に印刷してみましたが、JASマークの高さが5mmありません。\nしかし、5mm以上に修正いただいているとのことですので、こちらで申請します。\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知-1",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

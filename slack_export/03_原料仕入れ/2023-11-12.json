@@ -1,0 +1,87 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1699852193.514499",
+        "client_msg_id": "a3bcf586-a39d-4ad2-8611-3762be5eb0f0",
+        "text": "<@U041RJKV5JA>\nCC：<@U05KGS6HN9H> <@U033G4KN4TD>\n\n先日お伝えしていた、オーガニック原料の仕入れ先の候補の\n関谷さん宛にターゲットサンプルの送付をお願いします。\n-----------\n〒880-2113\n宮崎県宮崎市小松台北町1-7\ntel：<tel:07023672450|070-2367-2450>\n関谷祥嗣さま\n-----------\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AL22q",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nCC："
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n先日お伝えしていた、オーガニック原料の仕入れ先の候補の\n関谷さん宛にターゲットサンプルの送付をお願いします。\n-----------\n〒880-2113\n宮崎県宮崎市小松台北町1-7\ntel："
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:07023672450",
+                                "text": "070-2367-2450"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n関谷祥嗣さま\n-----------\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U05KGS6HN9H"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U05KGS6HN9H",
+        "text": "<@U05KGS6HN9H>さんがチャンネルに参加しました",
+        "inviter": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1699852198.885959"
+    }
+]

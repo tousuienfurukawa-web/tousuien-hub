@@ -1,0 +1,176 @@
+[
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1757748151.166749",
+        "client_msg_id": "b719f7d1-420a-4c0c-84d4-56359f23b2d5",
+        "text": "<@U0606SPN4BW> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n出荷可能日：9月29日\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1755623773.171999",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "o0ElR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日：9月29日\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "あり",
+                "users": [
+                    "U095LLEH09G",
+                    "U0606SPN4BW"
+                ],
+                "count": 2
+            },
+            {
+                "name": "連絡完了",
+                "users": [
+                    "U095LLEH09G"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U08N3SKSL75",
+        "type": "message",
+        "ts": "1757750595.252619",
+        "client_msg_id": "7469c9ea-b7ec-4bc1-b04a-b12dce12e8b2",
+        "text": "<@U05KGS6HN9H>\n今日UPS到着していますか？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g385a5ea1fc7",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/385a5ea1fc7db8f0b42ecd922f43af6c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-72.png",
+            "first_name": "Kimura",
+            "real_name": "Kimura",
+            "display_name": "Kimura",
+            "team": "T033D70RR6H",
+            "name": "tousuien.kimura",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1743745018.266439",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/zQNA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n今日UPS到着していますか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1757751319.409649",
+        "client_msg_id": "e1b1884a-901d-44eb-a6f1-6604ccd7cb19",
+        "text": "<@U08N3SKSL75>\n届きました",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1743745018.266439",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sJK78",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U08N3SKSL75"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n届きました"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "あり",
+                "users": [
+                    "U08N3SKSL75"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

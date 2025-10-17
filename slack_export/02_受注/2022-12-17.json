@@ -1,0 +1,238 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1671264083.202289",
+        "client_msg_id": "9f5a23c9-6724-4ffa-bb60-c7b37269936a",
+        "text": "<@U041RJKV5JA> 部長\n<!here>\n\nお疲れ様です。\nタイから注文がありました。\n下記確認の上、送料の記入と発送日を教えてください！\n【お客様】Darks’mood cafe(Mr.Thanin Niyomjinda)（月一発注）\n【フォルダ】第８回発送手続き→Invoice(TSE-TN-008)\n\nよろしくお願いします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1671264083.202289",
+        "reply_count": 10,
+        "reply_users_count": 3,
+        "latest_reply": "1671601510.623089",
+        "reply_users": [
+            "U03SGRNND5L",
+            "U0331FZS7JT",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U03SGRNND5L",
+                "ts": "1671266027.985309"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1671276446.639139"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1671406024.387639"
+            },
+            {
+                "user": "U03SGRNND5L",
+                "ts": "1671412011.344389"
+            },
+            {
+                "user": "U03SGRNND5L",
+                "ts": "1671415966.318459"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1671416039.634869"
+            },
+            {
+                "user": "U03SGRNND5L",
+                "ts": "1671416160.375519"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1671442623.677509"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1671494476.265229"
+            },
+            {
+                "user": "U03SGRNND5L",
+                "ts": "1671601510.623089"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aB0FU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n"
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "here"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nお疲れ様です。\nタイから注文がありました。\n下記確認の上、送料の記入と発送日を教えてください！\n【お客様】Darks’mood cafe(Mr.Thanin Niyomjinda)（月一発注）\n【フォルダ】第８回発送手続き→Invoice(TSE-TN-008)\n\nよろしくお願いします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U03SGRNND5L",
+        "type": "message",
+        "ts": "1671266027.985309",
+        "client_msg_id": "1244da4e-f138-4351-a1f8-eb51e648d4ef",
+        "text": "<@U0331FZS7JT> 社長\nCC： <@U041RJKV5JA> 部長、 <@U0331FZTHEK> さん\nお疲れ様です。\n本件の送料を記入しました。\n月曜日に入荷日確認後、\n出荷可能日を連絡いたします。\n宜しくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "6c4f7745b891",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-08-07\/3904561660837_6c4f7745b8919f42488e_72.png",
+            "first_name": "足立",
+            "real_name": "足立",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "obayashi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1671264083.202289",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Iwm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nCC： "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長、 "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\nお疲れ様です。\n本件の送料を記入しました。\n月曜日に入荷日確認後、\n出荷可能日を連絡いたします。\n宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1671276446.639139",
+        "client_msg_id": "EF688EBC-DDFC-49EC-A80B-4C35601833F1",
+        "text": " <@U03SGRNND5L> さん\nCC： <@U041RJKV5JA> 部長　<@U0331FZTHEK> さん\n\nお疲れ様です。\nありがとうございます。\n\n引き続き、よろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1671264083.202289",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yi0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03SGRNND5L"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\nCC： "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長　"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\n\nお疲れ様です。\nありがとうございます。\n\n引き続き、よろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

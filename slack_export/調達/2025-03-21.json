@@ -1,0 +1,84 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1742554781.256239",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1742631826.000000"
+        },
+        "client_msg_id": "109C4998-2960-451F-AB87-9806B6ABED51",
+        "text": "<!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n3\/15 出荷（下記の一部。白缶が一部別送）\n60x60Hmm　：\n4000pcs white　*ship by AIR\n5000pcs silver　*ship by AIR\n60x68Hmm：\n5000pcs silver　*ship by AIR\n\n\n追跡番号　SF3147623830702\n<https:\/\/www.sf-international.com\/jp\/ja\/support\/querySupport\/waybill>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1737360933.358239",
+        "parent_user_id": "U0331FWGQRM",
+        "attachments": [
+            {
+                "from_url": "https:\/\/www.sf-international.com\/jp\/ja\/support\/querySupport\/waybill",
+                "service_icon": "https:\/\/www.sf-international.com\/nuxt\/_nuxt\/icons\/icon_512x512.cc1525.png",
+                "id": 1,
+                "original_url": "https:\/\/www.sf-international.com\/jp\/ja\/support\/querySupport\/waybill",
+                "fallback": "顺丰国际官网",
+                "text": "顺丰国际",
+                "title": "顺丰国际官网",
+                "title_link": "https:\/\/www.sf-international.com\/jp\/ja\/support\/querySupport\/waybill",
+                "service_name": "sf-international.com"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eiRxh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n3\/15 出荷（下記の一部。白缶が一部別送）\n60x60Hmm　：\n4000pcs white　*ship by AIR\n5000pcs silver　*ship by AIR\n60x68Hmm：\n5000pcs silver　*ship by AIR\n\n\n追跡番号　SF3147623830702\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.sf-international.com\/jp\/ja\/support\/querySupport\/waybill"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

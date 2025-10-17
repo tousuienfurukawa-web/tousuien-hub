@@ -1,0 +1,275 @@
+[
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1655799922.268859",
+        "client_msg_id": "25180e81-6c52-4250-98a7-db805c0f6611",
+        "text": "<!channel>\n明日(6\/22)朝、原産地証明書取得(TSE021-22)のため、直接商工会議所へ行ってから出社します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "c7BO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n明日(6\/22)朝、原産地証明書取得(TSE021-22)のため、直接商工会議所へ行ってから出社します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U033G4KN4TD",
+                    "U0331FZS7JT",
+                    "U0331FWGQRM"
+                ],
+                "count": 3
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U033G4KN4TD",
+                    "U0331FZS7JT",
+                    "U0331FWGQRM"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1655818431.346739",
+        "client_msg_id": "4A03CEA8-8D20-4369-8DCB-74D802EB6974",
+        "text": "<@U033G4KN4TD> <@U0331FZTHEK>\n本日、入金完了のメッセージがあり確認が取れました。\n下記先へ発送願います。\n宜しくお願い致します。\n\n名前\n\nPanthitra Montmaturapoj\n\n住所\n\n2812\/1 Soi Ladprao101\/42 Thepthawee11  Ladprao Rd. Klongchan Bangkapi  Bangkok, 10240\n\nPhone number <tel:+66 941456646|+66 941456646>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1655342365.996119",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+TNT3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日、入金完了のメッセージがあり確認が取れました。\n下記先へ発送願います。\n宜しくお願い致します。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "名前\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Panthitra Montmaturapoj\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "住所\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "2812\/1 Soi Ladprao101\/42 Thepthawee11  Ladprao Rd. Klongchan Bangkapi  Bangkok, 10240\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Phone number "
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:+66 941456646",
+                                "text": "+66 941456646"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD",
+                    "U0331FZTHEK"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1655859766.918959",
+        "client_msg_id": "e885eb03-6a82-4d0e-a109-98493be01221",
+        "text": "<@U0331FWGQRM> 執行役\nお疲れ様です。\nタイ「Panthitra Montmaturapoj様」\n先ほど、サンプル発送完了です。\n送り状No.  EN176993176JP\n\nよろしくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1655342365.996119",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mCHCN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\nお疲れ様です。\nタイ「Panthitra Montmaturapoj様」\n先ほど、サンプル発送完了です。\n送り状No.  EN176993176JP\n\nよろしくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1655860685.160619",
+        "client_msg_id": "90ce1390-07dc-48fa-bd54-186ff1fd7b5d",
+        "text": "<@U033G4KN4TD>\n早い！了解です！\n有難うございます！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1655342365.996119",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HNzEm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n早い！了解です！\n有難うございます！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

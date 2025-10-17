@@ -1,0 +1,507 @@
+[
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1681117859.165389",
+        "client_msg_id": "06b193db-79da-4d6d-b5b2-3294a37bed36",
+        "text": "<@U0331FWGQRM> 執行役\nお疲れ様です。\n重金属検査について、SGSより連絡がございました。\nアメリカのラボで検査をした場合の検出限界値になります。\n・ヒ素　0.5ppm\n・水銀　0.1ppm\n・鉛　0.05ppm\n・カドミウム　0.25ppm\n・スズ　1ppm\nこの値ですと、前回検出されたカドミウム、鉛も検出されません。\nラボに到着後、約10営業日で英文の試験レポートをいただけます。\n和文レポートは約17営業日での提出との事です。\n検査費用は30,000円＋アメリカへの送料＋和文レポート代となります。\n明日、見積書をお送りいただきます。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1680168674.110319",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "R8X",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\nお疲れ様です。\n重金属検査について、SGSより連絡がございました。\nアメリカのラボで検査をした場合の検出限界値になります。\n・ヒ素　0.5ppm\n・水銀　0.1ppm\n・鉛　0.05ppm\n・カドミウム　0.25ppm\n・スズ　1ppm\nこの値ですと、前回検出されたカドミウム、鉛も検出されません。\nラボに到着後、約10営業日で英文の試験レポートをいただけます。\n和文レポートは約17営業日での提出との事です。\n検査費用は30,000円＋アメリカへの送料＋和文レポート代となります。\n明日、見積書をお送りいただきます。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1681130912.801019",
+        "client_msg_id": "2de140f6-2ffa-45f8-8443-2af710eea4ab",
+        "text": "<@U041RJKV5JA>\nこれで再検査お願いします。\n英文レポートのみでOKです。\n\n<@U0331FZS7JT>\nいいですよね？念の為確認願います。:sweat_drops:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1680168674.110319",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JWmO0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nこれで再検査お願いします。\n英文レポートのみでOKです。\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nいいですよね？念の為確認願います。"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sweat_drops",
+                                "unicode": "1f4a6"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "<@U033G4KN4TD> <@U0331FZS7JT>\n添付で問題ないか確認願います。\n魯さんは画像、社長はaiデータになってます。\n問題なければこれで製造開始します。\nご確認宜しくお願いします。",
+        "files": [
+            {
+                "id": "F052KC62SAY",
+                "created": 1681131464,
+                "timestamp": 1681131464,
+                "name": "Julie  LU様.png",
+                "title": "Julie  LU様.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U0331FWGQRM",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 94042,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F052KC62SAY\/julie__lu___.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F052KC62SAY\/download\/julie__lu___.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F052KC62SAY-094f31b515\/julie__lu____64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F052KC62SAY-094f31b515\/julie__lu____80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F052KC62SAY-094f31b515\/julie__lu____360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 237,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F052KC62SAY-094f31b515\/julie__lu____480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 316,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F052KC62SAY-094f31b515\/julie__lu____160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F052KC62SAY-094f31b515\/julie__lu____720.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 475,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F052KC62SAY-094f31b515\/julie__lu____800.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 527,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F052KC62SAY-094f31b515\/julie__lu____960.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 633,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F052KC62SAY-094f31b515\/julie__lu____1024.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 675,
+                "original_w": 1241,
+                "original_h": 818,
+                "thumb_tiny": "AwAfADDTNIGB6Gg1EREWOVBPegCXNGaaiKpyqY96cwJ6Y\/GgBGkVSAxAJ6CnComQF1LDnsRUgoADTN\/P3j+VSEUm0UAIrDH3vzpdy+oo2j0oAoAMqfSgUuKAKAP\/2Q==",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F052KC62SAY\/julie__lu___.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F052KC62SAY-a2f4d7a245",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F052E00N553",
+                "created": 1681131558,
+                "timestamp": 1681131558,
+                "name": "oka様.ai",
+                "title": "oka様.ai",
+                "mimetype": "application\/illustrator",
+                "filetype": "ai",
+                "pretty_type": "Illustrator File",
+                "user": "U0331FWGQRM",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 1077396,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F052E00N553\/oka___.ai?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F052E00N553\/download\/oka___.ai?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F052E00N553-df815e9684\/oka____thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 1195,
+                "thumb_pdf_h": 898,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F052E00N553\/oka___.ai",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F052E00N553-524a8bd361",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gDSXX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n添付で問題ないか確認願います。\n魯さんは画像、社長はaiデータになってます。\n問題なければこれで製造開始します。\nご確認宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1681131563.179349",
+        "client_msg_id": "a33f9a40-03de-453a-8e5a-029e86d941e5",
+        "thread_ts": "1681131563.179349",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1681135592.585329",
+        "reply_users": [
+            "U0331FZS7JT",
+            "U033G4KN4TD"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1681132889.117089"
+            },
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1681135592.585329"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1681135592.585329",
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "woman-gesturing-ok",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1681132461.963499",
+        "client_msg_id": "6ac8ddee-24bf-4598-b507-08980d41f6df",
+        "text": "<@U0331FWGQRM>\n問題ありません！\n<@U041RJKV5JA>\nよろしくお願いします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1680168674.110319",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jVQ0M",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n問題ありません！\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nよろしくお願いします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1681132889.117089",
+        "client_msg_id": "014d813b-9b07-4eb8-a04f-6d860828454e",
+        "text": "<@U0331FWGQRM>\nありがとう！確認しました！\nカッケー！\n中身問題ないです！\nよろしくお願いします:blush:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1681131563.179349",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aS1YI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nありがとう！確認しました！\nカッケー！\n中身問題ないです！\nよろしくお願いします"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "blush",
+                                "unicode": "1f60a"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1681135592.585329",
+        "client_msg_id": "9cc8fdea-5cc3-4148-82e5-d67996dda56d",
+        "text": "<@U0331FWGQRM> 執行役\nありがとうございます。\n問題ありません。\nよろしく御願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1681131563.179349",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "T6wQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\nありがとうございます。\n問題ありません。\nよろしく御願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1681189782.705089",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1681203908.000000"
+        },
+        "client_msg_id": "f477d10f-b744-4b2a-a9b5-cd68b6bd1a1b",
+        "text": "<!channel>\n情報共有\nひかわさんでTB加工してもらう際の\n見積書をゲットしました。\n最小1kgから対応していただけます。\n\nお客様別→H-ひかわ→230406 (株)桃翠園様TB加工賃\n\nよろです！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rlvF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n情報共有\nひかわさんでTB加工してもらう際の\n見積書をゲットしました。\n最小1kgから対応していただけます。\n\nお客様別→H-ひかわ→230406 (株)桃翠園様TB加工賃\n\nよろです！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

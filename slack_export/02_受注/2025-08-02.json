@@ -1,0 +1,171 @@
+[
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1754119814.056159",
+        "client_msg_id": "219ff721-3966-47e9-ad4c-0670fd817f78",
+        "text": "<@U05KGS6HN9H> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\nありがとうございます、8\/12に全量出荷でお願いします。\nInvoiceは1つにまとめます。よろしくお願いいたします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1753273976.966839",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "v+QPr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nありがとうございます、8\/12に全量出荷でお願いします。\nInvoiceは1つにまとめます。よろしくお願いいたします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U05KGS6HN9H"
+                ],
+                "count": 1
+            },
+            {
+                "name": "完了_致しました",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1754122086.424009",
+        "client_msg_id": "0fd55781-588e-44e4-a1f2-77b8b7eb4181",
+        "text": "品質確認メモ\n*・K2000*\nK3000：25F24(従来のK2000だがK3000として入荷)(在庫20㎏あり)と\nK2200(従来のK2000)：7\/31入荷分(事務所保管用)で品質確認\n→色：7\/31入荷分の方が良い(鮮やか)\n　粒度：どちらも荒い\n　対応：K3000(50％)＋K2200(50％)で合組再粉砕してから使用していく\n\n*・K2500*\nK2500：25G30E(在庫10.59㎏)と\nK4000(従来のK2500)：7\/31入荷分(K4000)で品質確認\n→色・粒度共に差異なし\n　古いものから順次使用\n\n*・K4500*\nK4500：25F18(在庫88㎏)・25G03(在庫10㎏)と\nK750(従来のK4500)：25G23(25年産)で比較\n→K7500のほうが、色、うま味等良い\n　対応：K4500(70％)＋K7500(30％)合組して使用していく。\n　　　　徐々にK7500の比率を上げていく。\n\n*・K6000*\nK6000：25D09(在庫2.614㎏)・25E01(在庫96㎏)と\nK9000(従来のK6000)：7\/31入荷(事務所サンプル)で比較\n→K9000の方が色が鮮やか。味は誤差の範囲。\n　TSE-AJA-003-25で出荷している履歴あり。(25D09)\n　25E01の在庫が96㎏あるため、前回品質に合わせて出荷。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1752903854.620859",
+        "parent_user_id": "U08RVRNBY00",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jYYZY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "品質確認メモ\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "・K2000",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nK3000：25F24(従来のK2000だがK3000として入荷)(在庫20㎏あり)と\nK2200(従来のK2000)：7\/31入荷分(事務所保管用)で品質確認\n→色：7\/31入荷分の方が良い(鮮やか)\n　粒度：どちらも荒い\n　対応：K3000(50％)＋K2200(50％)で合組再粉砕してから使用していく\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "・K2500",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nK2500：25G30E(在庫10.59㎏)と\nK4000(従来のK2500)：7\/31入荷分(K4000)で品質確認\n→色・粒度共に差異なし\n　古いものから順次使用\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "・K4500",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nK4500：25F18(在庫88㎏)・25G03(在庫10㎏)と\nK750(従来のK4500)：25G23(25年産)で比較\n→K7500のほうが、色、うま味等良い\n　対応：K4500(70％)＋K7500(30％)合組して使用していく。\n　　　　徐々にK7500の比率を上げていく。\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "・K6000",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nK6000：25D09(在庫2.614㎏)・25E01(在庫96㎏)と\nK9000(従来のK6000)：7\/31入荷(事務所サンプル)で比較\n→K9000の方が色が鮮やか。味は誤差の範囲。\n　TSE-AJA-003-25で出荷している履歴あり。(25D09)\n　25E01の在庫が96㎏あるため、前回品質に合わせて出荷。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U08RVRNBY00"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

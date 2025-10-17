@@ -1,0 +1,893 @@
+[
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1759306363.261189",
+        "client_msg_id": "e7c2a127-f62f-4528-81e5-f8bbae6cdeff",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n<!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\nペガサスAWB作成システム切替（従来「Ship」→新規「Cloud」）に関し、\n◆『UPS』のAWBを作成する場合は、従来のShipで作成が推奨されますので\n情報共有致します。\n《ペガサスShipログイン情報》\nID:　073662-000\nPAS：　tousuien100\n\n《経緯》\nCloudでUPS-AWBを作成したところ、AWB Noが表示印刷されず、\nペガサスに確認。（DHL-AWBは作成時にNoが表示印刷される）\n→ペガサスとUPSのシステム連携が未だ取れておらず、貨物（AWB Noの\n無いAWBを添付し集荷）が大阪倉庫に搬入されるタイミングでしか採番\n＝AWB No確定されないとのこと。\nPNC等の事前取得書類に問題が生じますので、当面はShipで作成した方が\n無難です。\n（来年3月にShipは廃止予定。それまでには改善予定のようです:sweat_drops:）",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/TUSN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nペガサスAWB作成システム切替（従来「Ship」→新規「Cloud」）に関し、\n◆『UPS』のAWBを作成する場合は、従来のShipで作成が推奨されますので\n情報共有致します。\n《ペガサスShipログイン情報》\nID:　073662-000\nPAS：　tousuien100\n\n《経緯》\nCloudでUPS-AWBを作成したところ、AWB Noが表示印刷されず、\nペガサスに確認。（DHL-AWBは作成時にNoが表示印刷される）\n→ペガサスとUPSのシステム連携が未だ取れておらず、貨物（AWB Noの\n無いAWBを添付し集荷）が大阪倉庫に搬入されるタイミングでしか採番\n＝AWB No確定されないとのこと。\nPNC等の事前取得書類に問題が生じますので、当面はShipで作成した方が\n無難です。\n（来年3月にShipは廃止予定。それまでには改善予定のようです"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sweat_drops",
+                                "unicode": "1f4a6"
+                            },
+                            {
+                                "type": "text",
+                                "text": "）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            },
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            },
+            {
+                "name": "eyes",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1759322806.307009",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1759323769.000000"
+        },
+        "client_msg_id": "41100e63-ec2e-4980-9319-cba025e07517",
+        "text": "<!channel>\n下記支払いが松井のクレジットカードでされています。\n領収書をこのスレッドで返信ください\nAdobeはillustratorの月々契約の値段のように思います。\n\nAdobe\n8月20日　3280円\n8月28日　3280円\n\nココナラ\n8月22日　4220円\n9月03日　1583円\n9月05日　6330円\n\nShopify\n8月25日　43800円\n8月29日　3035円",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1759322806.307009",
+        "reply_count": 9,
+        "reply_users_count": 5,
+        "latest_reply": "1759408551.457659",
+        "reply_users": [
+            "U0606SPN4BW",
+            "U0331FWGQRM",
+            "U066P20UQH1",
+            "U095LLEH09G",
+            "U08N3SKSL75"
+        ],
+        "replies": [
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1759340635.977309"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1759362402.648719"
+            },
+            {
+                "user": "U066P20UQH1",
+                "ts": "1759363911.390749"
+            },
+            {
+                "user": "U095LLEH09G",
+                "ts": "1759364596.933699"
+            },
+            {
+                "user": "U08N3SKSL75",
+                "ts": "1759397125.107369"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1759406644.383079"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1759407640.664299"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1759408304.850409"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1759408551.457659"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1759408551.457659",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MdJK+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n下記支払いが松井のクレジットカードでされています。\n領収書をこのスレッドで返信ください\nAdobeはillustratorの月々契約の値段のように思います。\n\nAdobe\n8月20日　3280円\n8月28日　3280円\n\nココナラ\n8月22日　4220円\n9月03日　1583円\n9月05日　6330円\n\nShopify\n8月25日　43800円\n8月29日　3035円"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<@U0331FWGQRM>\nココナラとShopifyの各領収書を添付しました。\nご確認をよろしくお願いいたします！\n\n*Adobe イラレ分は私のアカウントについては請求日が 8\/24 (3054で終わる JCB)となっていますが、念の為PDFを添付しました。　\n```Adobe\n8月20日　3280円  - ??\n8月28日　3280円  - ??\n\nココナラ\n8月22日　4220円  - 古川\n9月03日　1583円  - 古川\n9月05日　6330円  - 古川\n\nShopify\n8月25日　43800円 - 古川\n8月29日　3035円  - 古川```\n",
+        "files": [
+            {
+                "id": "F09J5FRGZ70",
+                "created": 1759340437,
+                "timestamp": 1759340437,
+                "name": "20250822_ココナラ_JPY4220.pdf",
+                "title": "20250822_ココナラ_JPY4220.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 65466,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F09J5FRGZ70\/20250822______________jpy4220.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F09J5FRGZ70\/download\/20250822______________jpy4220.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09J5FRGZ70-03b796725b\/20250822______________jpy4220_thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 909,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F09J5FRGZ70\/20250822______________jpy4220.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F09J5FRGZ70-36589198d4",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F09HS4GCD9D",
+                "created": 1759340446,
+                "timestamp": 1759340446,
+                "name": "20250903_ココナラ_JPY1583.pdf",
+                "title": "20250903_ココナラ_JPY1583.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 63516,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F09HS4GCD9D\/20250903______________jpy1583.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F09HS4GCD9D\/download\/20250903______________jpy1583.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09HS4GCD9D-defa2e31f2\/20250903______________jpy1583_thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 909,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F09HS4GCD9D\/20250903______________jpy1583.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F09HS4GCD9D-db2cbf2a4c",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F09JLC5LZ1P",
+                "created": 1759340454,
+                "timestamp": 1759340454,
+                "name": "20250905_ココナラ_JPY6330.pdf",
+                "title": "20250905_ココナラ_JPY6330.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 65062,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F09JLC5LZ1P\/20250905______________jpy6330.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F09JLC5LZ1P\/download\/20250905______________jpy6330.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09JLC5LZ1P-00811ba336\/20250905______________jpy6330_thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 909,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F09JLC5LZ1P\/20250905______________jpy6330.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F09JLC5LZ1P-0cfc665080",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F09J13W7FQT",
+                "created": 1759340508,
+                "timestamp": 1759340508,
+                "name": "20250825_Shopify_JPY43800.pdf",
+                "title": "20250825_Shopify_JPY43800.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 310054,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F09J13W7FQT\/20250825_shopify_jpy43800.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F09J13W7FQT\/download\/20250825_shopify_jpy43800.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09J13W7FQT-86e2789f94\/20250825_shopify_jpy43800_thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 910,
+                "thumb_pdf_h": 1288,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F09J13W7FQT\/20250825_shopify_jpy43800.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F09J13W7FQT-bfbfd2013f",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F09J41VS65T",
+                "created": 1759340514,
+                "timestamp": 1759340514,
+                "name": "20250829_Shopify_EUR17.34.pdf",
+                "title": "20250829_Shopify_EUR17.34.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 283503,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F09J41VS65T\/20250829_shopify_eur17.34.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F09J41VS65T\/download\/20250829_shopify_eur17.34.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09J41VS65T-e43bdf0001\/20250829_shopify_eur17.34_thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 910,
+                "thumb_pdf_h": 1288,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F09J41VS65T\/20250829_shopify_eur17.34.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F09J41VS65T-cf182575ef",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F09J7HNU334",
+                "created": 1759340579,
+                "timestamp": 1759340579,
+                "name": "20250824_Adobe-Illustrator_JPY3280.pdf",
+                "title": "20250824_Adobe-Illustrator_JPY3280.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 81138,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F09J7HNU334\/20250824_adobe-illustrator_jpy3280.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F09J7HNU334\/download\/20250824_adobe-illustrator_jpy3280.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09J7HNU334-f479293a9e\/20250824_adobe-illustrator_jpy3280_thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 935,
+                "thumb_pdf_h": 1210,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F09J7HNU334\/20250824_adobe-illustrator_jpy3280.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F09J7HNU334-db5faf713c",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "u\/F0z",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nココナラとShopifyの各領収書を添付しました。\nご確認をよろしくお願いいたします！\n\n*Adobe イラレ分は私のアカウントについては請求日が 8\/24 (3054で終わる JCB)となっていますが、念の為PDFを添付しました。　\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Adobe\n8月20日　3280円  - ??\n8月28日　3280円  - ??\n\nココナラ\n8月22日　4220円  - 古川\n9月03日　1583円  - 古川\n9月05日　6330円  - 古川\n\nShopify\n8月25日　43800円 - 古川\n8月29日　3035円  - 古川"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1759340635.977309",
+        "client_msg_id": "ceda2a3c-c474-4f60-9251-bb9f637a874f",
+        "thread_ts": "1759322806.307009",
+        "parent_user_id": "U0331FWGQRM",
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "<@U0606SPN4BW> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\nAdobeについては、\nAdobeにログインして、アカウント管理画面から、\n請求履歴を表示して、“領収書“をダウンロードしてもらえますか？",
+        "files": [
+            {
+                "id": "F09J61SRJAH",
+                "created": 1759362319,
+                "timestamp": 1759362319,
+                "name": "スクリーンショット 2025-10-02 8.45.17.png",
+                "title": "スクリーンショット 2025-10-02 8.45.17.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U0331FWGQRM",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 101429,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F09J61SRJAH\/____________________________2025-10-02_8.45.17.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F09J61SRJAH\/download\/____________________________2025-10-02_8.45.17.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09J61SRJAH-02736ff0d8\/____________________________2025-10-02_8.45.17_64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09J61SRJAH-02736ff0d8\/____________________________2025-10-02_8.45.17_80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09J61SRJAH-02736ff0d8\/____________________________2025-10-02_8.45.17_360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 201,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09J61SRJAH-02736ff0d8\/____________________________2025-10-02_8.45.17_480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 268,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09J61SRJAH-02736ff0d8\/____________________________2025-10-02_8.45.17_160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09J61SRJAH-02736ff0d8\/____________________________2025-10-02_8.45.17_720.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 402,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09J61SRJAH-02736ff0d8\/____________________________2025-10-02_8.45.17_800.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 447,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09J61SRJAH-02736ff0d8\/____________________________2025-10-02_8.45.17_960.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 536,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09J61SRJAH-02736ff0d8\/____________________________2025-10-02_8.45.17_1024.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 572,
+                "original_w": 1300,
+                "original_h": 726,
+                "thumb_tiny": "AwAbADC+Q2WOeCMDH\/66RkD48yMN9QOKkFISQenGPXmgBaKBnv8AzpcUAJRRjjnj6UUAJnnODx+tHqQCCfU0tFADRxgANx6nNODZ7EUUUAIMYA5496WiigD\/2Q==",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F09J61SRJAH\/____________________________2025-10-02_8.45.17.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F09J61SRJAH-44f1eafb2c",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FWGQRM",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VdRSp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nAdobeについては、\nAdobeにログインして、アカウント管理画面から、\n請求履歴を表示して、“領収書“をダウンロードしてもらえますか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1759362402.648719",
+        "client_msg_id": "0488c808-64e5-4932-b209-b1873223e4c2",
+        "thread_ts": "1759322806.307009",
+        "parent_user_id": "U0331FWGQRM"
+    },
+    {
+        "text": "<@U0331FWGQRM>\n私と古川さんは同じアカウントを使っておりますので、領収書の方添付します。",
+        "files": [
+            {
+                "id": "F09J9KPD00J",
+                "created": 1759363850,
+                "timestamp": 1759363850,
+                "name": "invoice (2).pdf",
+                "title": "invoice (2).pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U066P20UQH1",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 81577,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F09J9KPD00J\/invoice__2_.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F09J9KPD00J\/download\/invoice__2_.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09J9KPD00J-4cc341af18\/invoice__2__thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 935,
+                "thumb_pdf_h": 1210,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F09J9KPD00J\/invoice__2_.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F09J9KPD00J-8079ef9151",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U066P20UQH1",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0rrW\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n私と古川さんは同じアカウントを使っておりますので、領収書の方添付します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1759363911.390749",
+        "client_msg_id": "5d12a563-22c5-4bab-b18e-dc29a8548fb5",
+        "thread_ts": "1759322806.307009",
+        "parent_user_id": "U0331FWGQRM",
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM",
+                    "U0606SPN4BW"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "text": "<@U0331FWGQRM>\n8\/20 Adobe illustrator\n川谷購入させていただいております。ご確認をお願いいたします。",
+        "files": [
+            {
+                "id": "F09J38JQCE7",
+                "created": 1759364532,
+                "timestamp": 1759364532,
+                "name": "invoice.pdf",
+                "title": "invoice.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U095LLEH09G",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 81512,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F09J38JQCE7\/invoice.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F09J38JQCE7\/download\/invoice.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09J38JQCE7-9dea559dd7\/invoice_thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 935,
+                "thumb_pdf_h": 1210,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F09J38JQCE7\/invoice.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F09J38JQCE7-73ed167d19",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U095LLEH09G",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xvuvf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n8\/20 Adobe illustrator\n川谷購入させていただいております。ご確認をお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1759364596.933699",
+        "edited": {
+            "user": "U095LLEH09G",
+            "ts": "1759364615.000000"
+        },
+        "client_msg_id": "e7b156e0-7127-4b6f-a9e2-0b5ecb52ad28",
+        "thread_ts": "1759322806.307009",
+        "parent_user_id": "U0331FWGQRM",
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1759371651.743259",
+        "client_msg_id": "a8ac5f85-d12c-4a29-8b6f-f0310436ac60",
+        "text": "<@U08RVRNBY00>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n碧翠園に9月初旬発注した30g缶製品（添付表）が入荷しました。\n10月発注分は、9月と同数でOKでしょうか？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1757023284.755939",
+        "parent_user_id": "U08RVRNBY00",
+        "attachments": [
+            {
+                "id": 1,
+                "blocks": [
+                    {
+                        "type": "table",
+                        "block_id": "1934f392-731c-4ef6-940e-839bc3e2e31f",
+                        "rows": [
+                            [
+                                {
+                                    "type": "rich_text",
+                                    "elements": [
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "千代の栄",
+                                                    "style": {
+                                                        "bold": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "block_id": "QpYe0"
+                                },
+                                {
+                                    "type": "rich_text",
+                                    "elements": [
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "20",
+                                                    "style": {
+                                                        "bold": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "block_id": "sGXw\/"
+                                }
+                            ],
+                            [
+                                {
+                                    "type": "raw_text",
+                                    "text": "初昔"
+                                },
+                                {
+                                    "type": "raw_text",
+                                    "text": "20"
+                                }
+                            ],
+                            [
+                                {
+                                    "type": "raw_text",
+                                    "text": "金の渦"
+                                },
+                                {
+                                    "type": "raw_text",
+                                    "text": "20"
+                                }
+                            ],
+                            [
+                                {
+                                    "type": "raw_text",
+                                    "text": "松の翆"
+                                },
+                                {
+                                    "type": "raw_text",
+                                    "text": "20"
+                                }
+                            ],
+                            [
+                                {
+                                    "type": "raw_text",
+                                    "text": "大極"
+                                },
+                                {
+                                    "type": "raw_text",
+                                    "text": "20"
+                                }
+                            ],
+                            [
+                                {
+                                    "type": "raw_text",
+                                    "text": "城の寿"
+                                },
+                                {
+                                    "type": "raw_text",
+                                    "text": "20"
+                                }
+                            ],
+                            [
+                                {
+                                    "type": "raw_text",
+                                    "text": "天鼓"
+                                },
+                                {
+                                    "type": "raw_text",
+                                    "text": "20"
+                                }
+                            ],
+                            [
+                                {
+                                    "type": "raw_text",
+                                    "text": "紫苑"
+                                },
+                                {
+                                    "type": "raw_text",
+                                    "text": "10"
+                                }
+                            ],
+                            [
+                                {
+                                    "type": "raw_text",
+                                    "text": "右橘"
+                                },
+                                {
+                                    "type": "raw_text",
+                                    "text": "10"
+                                }
+                            ],
+                            [
+                                {
+                                    "type": "raw_text",
+                                    "text": "碧翆"
+                                },
+                                {
+                                    "type": "raw_text",
+                                    "text": "6"
+                                }
+                            ],
+                            [
+                                {
+                                    "type": "raw_text",
+                                    "text": "宝寿　"
+                                },
+                                {
+                                    "type": "raw_text",
+                                    "text": "6"
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "fallback": "[no preview available]"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "E8Jsu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U08RVRNBY00"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n碧翠園に9月初旬発注した30g缶製品（添付表）が入荷しました。\n10月発注分は、9月と同数でOKでしょうか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

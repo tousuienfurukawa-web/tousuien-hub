@@ -1,0 +1,408 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1678093134.857009",
+        "client_msg_id": "cec131e7-c089-45dc-b652-88319e364aa8",
+        "text": "<https:\/\/grp-ssm9297.slack.com\/archives\/C03C62NBSDP\/p1678031349775179?thread_ts=1677821137.114879&amp;cid=C03C62NBSDP>\n\n<@U041RJKV5JA> <@U033G4KN4TD> <@U03SGRNND5L>\nlot No. 等をインボイスに書き込んだものをお客様へ連絡し、\n確認して、OKで次第の出荷になりますので、\n確認されるまでは出荷しないでください。\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1677821137.114879",
+        "parent_user_id": "U0331FWGQRM",
+        "attachments": [
+            {
+                "from_url": "https:\/\/grp-ssm9297.slack.com\/archives\/C03C62NBSDP\/p1678031349775179?thread_ts=1677821137.114879&amp;cid=C03C62NBSDP",
+                "ts": "1678031349.775179",
+                "author_id": "U0331FWGQRM",
+                "channel_id": "C03C62NBSDP",
+                "channel_team": "T033D70RR6H",
+                "is_msg_unfurl": true,
+                "is_reply_unfurl": true,
+                "message_blocks": [
+                    {
+                        "team": "T033D70RR6H",
+                        "channel": "C03C62NBSDP",
+                        "ts": "1678031349.775179",
+                        "message": {
+                            "blocks": [
+                                {
+                                    "type": "rich_text",
+                                    "block_id": "zH7",
+                                    "elements": [
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "user",
+                                                    "user_id": "U041RJKV5JA"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " \nInvoice に、前回同様、\n製造日・賞味期限・Lot No.\nを書き入れたものを作成してください。\n完成し次第教えてください。"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "id": 1,
+                "original_url": "https:\/\/grp-ssm9297.slack.com\/archives\/C03C62NBSDP\/p1678031349775179?thread_ts=1677821137.114879&amp;cid=C03C62NBSDP",
+                "fallback": "[March 5th, 2023 7:49 AM] tousuien.matsui: <@U041RJKV5JA> \nInvoice に、前回同様、\n製造日・賞味期限・Lot No.\nを書き入れたものを作成してください。\n完成し次第教えてください。",
+                "text": "<@U041RJKV5JA> \nInvoice に、前回同様、\n製造日・賞味期限・Lot No.\nを書き入れたものを作成してください。\n完成し次第教えてください。",
+                "author_name": "松井",
+                "author_link": "https:\/\/grp-ssm9297.slack.com\/team\/U0331FWGQRM",
+                "author_icon": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-48.png",
+                "author_subname": "松井",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "footer": "Slack の会話内のスレッド"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xzeQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/grp-ssm9297.slack.com\/archives\/C03C62NBSDP\/p1678031349775179?thread_ts=1677821137.114879&cid=C03C62NBSDP"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03SGRNND5L"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nlot No. 等をインボイスに書き込んだものをお客様へ連絡し、\n確認して、OKで次第の出荷になりますので、\n確認されるまでは出荷しないでください。\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U041RJKV5JA",
+                    "U033G4KN4TD"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1678093737.546269",
+        "client_msg_id": "50227085-642e-4741-a418-b85c56a77503",
+        "text": "TSE-TAC-003-23_invoice_total_secret_Lot No_memo\n↑\nこのファイルにお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1677821137.114879",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bWpg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "TSE-TAC-003-23_invoice_total_secret_Lot No_memo\n↑\nこのファイルにお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1678110596.343399",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1678111836.000000"
+        },
+        "client_msg_id": "1850bb7f-45d4-4c4e-9585-d16adaede4fe",
+        "text": "<@U041RJKV5JA> CC：<!channel>\n\nお疲れ様です。\nかなーーり前（22年８月ごろ）に\n島根県海外展開支援室の案件で\nJFCジャパンというキッコーマン系列の会社と商談しました。\nつきましては決定したようなので\n書類を埋めたのち、共有をお願いします。\n【国】ドイツ\n【フォルダ】JFC Japan(島根県 梅谷様)\n【製品のデータ】22.8.30,10.4【JFC ジャパン株式会社御中】御見積書\n※上記データのタブ：JFC様向け (バルク・出雲煎茶)　です。\n【原料】R-6EU※畑の名前がこれなので、<@U03BLQ65GK0> に確認をお願いします。\n【埋めてほしいデータ】「提出資料」というフォルダに入っています。\n500kg強程度在庫があるはずです。\n在庫がなくなり次第、本年の有機転換中の出雲精茶の煎茶でOKです。\n<@U03BLQ65GK0> は金山工場長と今回出荷する製品と同じような原料を作るように調整をしてください。\n※有機転換中の畑の製品は今年は恐らく微妙なため。\n　今後の考え方としては、煎茶が余った先の売先（現金化）という考え方でOKです。\n\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4sw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " CC："
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nお疲れ様です。\nかなーーり前（22年８月ごろ）に\n島根県海外展開支援室の案件で\nJFCジャパンというキッコーマン系列の会社と商談しました。\nつきましては決定したようなので\n書類を埋めたのち、共有をお願いします。\n【国】ドイツ\n【フォルダ】JFC Japan(島根県 梅谷様)\n【製品のデータ】22.8.30,10.4【JFC ジャパン株式会社御中】御見積書\n※上記データのタブ：JFC様向け (バルク・出雲煎茶)　です。\n【原料】R-6EU※畑の名前がこれなので、"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " に確認をお願いします。\n【埋めてほしいデータ】「提出資料」というフォルダに入っています。\n500kg強程度在庫があるはずです。\n在庫がなくなり次第、本年の有機転換中の出雲精茶の煎茶でOKです。\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " は金山工場長と今回出荷する製品と同じような原料を作るように調整をしてください。\n※有機転換中の畑の製品は今年は恐らく微妙なため。\n　今後の考え方としては、煎茶が余った先の売先（現金化）という考え方でOKです。\n\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U03BLQ65GK0"
+                ],
+                "count": 1
+            },
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1678146726.537619",
+        "client_msg_id": "0b6c7efd-9065-4965-97ec-8f65c80d7584",
+        "text": "<@U0331FWGQRM> 執行役\nCC：<@U041RJKV5JA> 部長\n\nお疲れ様です。\nTSE-TAC-003-23_invoice_total_secret_Lot No_memoに\nLot No.などを書き込みました。\nご確認お願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1677821137.114879",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+SQO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\nCC："
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n\nお疲れ様です。\nTSE-TAC-003-23_invoice_total_secret_Lot No_memoに\nLot No.などを書き込みました。\nご確認お願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1678174846.908639",
+        "client_msg_id": "b1cd308a-db1a-4b65-a7f4-0069cb009af0",
+        "text": "<@U0331FWGQRM> 執行役\nCC：<@U041RJKV5JA> 部長\n\nお疲れ様です。\nタイTachuhouse様\n出荷完了です。\n*EMS追跡番号：EN 244 336 114 JP*\nよろしくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1677821137.114879",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5uN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\nCC："
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n\nお疲れ様です。\nタイTachuhouse様\n出荷完了です。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "EMS追跡番号：EN 244 336 114 JP",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nよろしくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

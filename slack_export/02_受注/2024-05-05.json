@@ -1,0 +1,112 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1714976118.068779",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1714976167.000000"
+        },
+        "client_msg_id": "657ae851-5724-4aa5-ae97-fc1b97561f27",
+        "text": "<@U041RJKV5JA>\n確認しました。\n紙の証明書で出荷願います。\n\n出荷予定日が決まれば教えてください。\n宜しくお願いします。\n\n※今後のために、JONAの場合どのようになるのか、\n　島根有機農業協会の現状も伝えていいので確認願います。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1713430359.878829",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ZzNFh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n確認しました。\n紙の証明書で出荷願います。\n\n出荷予定日が決まれば教えてください。\n宜しくお願いします。\n\n※今後のために、JONAの場合どのようになるのか、\n　島根有機農業協会の現状も伝えていいので確認願います。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1714978100.846419",
+        "client_msg_id": "bb98201e-e7fe-40a7-a5bf-1780d6d5ebf4",
+        "text": "<@U0331FWGQRM>\n出荷予定日：5月8日（木）\n明日、島根有機に紙での証明書発給、当日発送を依頼いたします。\n出荷予定日が遅れるようであればご連絡いたします。\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1713430359.878829",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "O+3KD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷予定日：5月8日（木）\n明日、島根有機に紙での証明書発給、当日発送を依頼いたします。\n出荷予定日が遅れるようであればご連絡いたします。\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1720803842.975539",
+        "client_msg_id": "C96A725D-DC1D-4598-AAC0-6F45C756B0E7",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> \nGroene様が手配されたそうです。\nなので保管しておいてください。\n（ <@U0331FZS7JT> 社長のデスクでok）\n（DHLで追跡番号が<tel:5434809251|5434809251>）\nこれを使用しての新サンプル作成の予定。\n輸入時に関税掛かったりしてますか？？\n確認お願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1720753814.474969",
+        "parent_user_id": "U041RJKV5JA",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gPStM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \nGroene様が手配されたそうです。\nなので保管しておいてください。\n（ "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長のデスクでok）\n（DHLで追跡番号が"
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:5434809251",
+                                "text": "5434809251"
+                            },
+                            {
+                                "type": "text",
+                                "text": "）\nこれを使用しての新サンプル作成の予定。\n輸入時に関税掛かったりしてますか？？\n確認お願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "確認致します",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1720851799.844439",
+        "client_msg_id": "92eae41b-1a46-4c1a-bd1c-bfabd593ea0d",
+        "text": "<@U0331FWGQRM>\n食品でも問題ないとの事でした！\n\nサイトをみていたら、インボイスに\nNet Weight とGross Weightの記載が必要と書かれていたので、\n重量の記載が必要なら、桃翠園のインボイスには記載がない為\nパッキングリストも必要orインボイスに記載欄を設けなければならないのか\n確認中です。\n分かり次第、また共有いたします。\n<https:\/\/www.kuronekoyamato.co.jp\/ytc\/customer\/send\/services\/oversea\/#anc-02>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1720319464.919229",
+        "parent_user_id": "U0331FWGQRM",
+        "attachments": [
+            {
+                "from_url": "https:\/\/www.kuronekoyamato.co.jp\/ytc\/customer\/send\/services\/oversea\/#anc-02",
+                "image_url": "https:\/\/www.kuronekoyamato.co.jp\/app-files\/img\/symbol\/ogp.png",
+                "image_width": 1200,
+                "image_height": 630,
+                "image_bytes": 15373,
+                "service_icon": "https:\/\/www.kuronekoyamato.co.jp\/app-files\/img\/symbol\/apple-touch-icon.png",
+                "id": 1,
+                "original_url": "https:\/\/www.kuronekoyamato.co.jp\/ytc\/customer\/send\/services\/oversea\/#anc-02",
+                "fallback": "ヤマト運輸株式会社: 国際宅急便 | ヤマト運輸",
+                "text": "クロネコヤマトでおなじみ、ヤマト運輸のウェブサイト「宅急便の種類」の「国際宅急便」ページです。本サイトでは荷物のお問い合わせ、集荷・再配達受付、個人法人を問わず宅急便などの商品・ サービスや物流を最適化するソリューションを紹介しています。",
+                "title": "国際宅急便 | ヤマト運輸",
+                "title_link": "https:\/\/www.kuronekoyamato.co.jp\/ytc\/customer\/send\/services\/oversea\/#anc-02",
+                "service_name": "ヤマト運輸株式会社"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Dd8dD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n食品でも問題ないとの事でした！\n\nサイトをみていたら、インボイスに\nNet Weight とGross Weightの記載が必要と書かれていたので、\n重量の記載が必要なら、桃翠園のインボイスには記載がない為\nパッキングリストも必要orインボイスに記載欄を設けなければならないのか\n確認中です。\n分かり次第、また共有いたします。\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.kuronekoyamato.co.jp\/ytc\/customer\/send\/services\/oversea\/#anc-02"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1720852068.218619",
+        "client_msg_id": "cd4f9c59-0ccb-4cf8-aa69-a0a94647d7cc",
+        "text": "＜メモ＞\n・パッキングリスト必要？\n　インボイスに重量記載欄？\n・荷物確認について\n　毎回、中身の確認あるのか\n（梱包時、封しない方がいい？）\n・身分証の確認も毎回？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1720319464.919229",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/z9IU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "＜メモ＞\n・パッキングリスト必要？\n　インボイスに重量記載欄？\n・荷物確認について\n　毎回、中身の確認あるのか\n（梱包時、封しない方がいい？）\n・身分証の確認も毎回？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "eyes",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

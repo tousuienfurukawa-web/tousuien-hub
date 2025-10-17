@@ -1,0 +1,1462 @@
+[
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1748589513.668369",
+        "client_msg_id": "8a357368-4a05-4d8b-bd31-c2538f2cbf7d",
+        "text": "<@U066P20UQH1>\n明日出荷予定ですが、未入金です。\nご確認をお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1746748641.229639",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Eu9tW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n明日出荷予定ですが、未入金です。\nご確認をお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "確認ちゅう",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1748589649.726519",
+        "client_msg_id": "a171fd80-c13e-4d9d-8411-b2bef9da4357",
+        "text": "<@U041RJKV5JA> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nご確認ありがとうございます:sweat_drops:\n&gt; インボイス通り製造してもよろしいでしょうか。\n・はい、インボイス通りでお願いします。\n(正しくは 1kg×3袋です。スレッド内の記述も修正しました。)\n\n\n&gt; 包材：1kg zip bag, シルバー\n↑上記でお願いいたします。(顧客管理表、インボイス修正しました)\n\n\n以上、よろしくお願いいたします！:man-bowing:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1748428735.186779",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VeLSd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nご確認ありがとうございます"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sweat_drops",
+                                "unicode": "1f4a6"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_quote",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "インボイス通り製造してもよろしいでしょうか。"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "・はい、インボイス通りでお願いします。\n(正しくは 1kg×3袋です。スレッド内の記述も修正しました。)\n\n\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_quote",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "包材：1kg zip bag, シルバー"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "↑上記でお願いいたします。(顧客管理表、インボイス修正しました)\n\n\n以上、よろしくお願いいたします！"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "man-bowing",
+                                "unicode": "1f647-200d-2642-fe0f"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1748593980.208809",
+        "client_msg_id": "80a85201-f2b5-492f-a6d2-544664762475",
+        "text": "<@U066P20UQH1>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n本日5\/30のUPSで出荷しました。\nAWB No 1Z219Y8R0411175786\n宜しくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745975951.998769",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gPALS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日5\/30のUPSで出荷しました。\nAWB No 1Z219Y8R0411175786\n宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1748593986.866809",
+        "client_msg_id": "44dc1a6e-9f45-44bb-b40c-5bc6ac595ed7",
+        "text": "<@U066P20UQH1>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n本日5\/30のDHLで028を出荷しました。\nAWB No 7007126044\n宜しくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745808093.728949",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XbWT9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日5\/30のDHLで028を出荷しました。\nAWB No 7007126044\n宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1748593998.105519",
+        "client_msg_id": "1b47e633-6a34-40e9-adca-8027074002f5",
+        "text": "<@U0331FZS7JT>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n本日5\/30の佐川で008を出荷しました。\nAWB No 492309841310\n宜しくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745990305.167909",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DWr7n",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日5\/30の佐川で008を出荷しました。\nAWB No 492309841310\n宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1748604957.349369",
+        "client_msg_id": "3a8f718b-fe8d-4507-a375-61a0de42d898",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <@U066P20UQH1>\n・日本国内の配送先が確定しました。以下よろしくお願いいたします！\n\n\n```宛名：\nJaca Luis Astudillo\n\n\n宛先：\nOnegai Delivery Center\n〒289-0204 千葉県香取郡神崎町神崎四季の丘27-7\n電話番号：090-1279-4910```\n\n<!subteam^S08NN8M4LAZ|@katayose-kamiya>\n・PayPalで送料を請求しました。入金確認後、回収処理をお願いいたします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1746688231.285569",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "75L2T",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n・日本国内の配送先が確定しました。以下よろしくお願いいたします！\n\n\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "宛名：\nJaca Luis Astudillo\n\n\n宛先：\nOnegai Delivery Center\n〒289-0204 千葉県香取郡神崎町神崎四季の丘27-7\n電話番号：090-1279-4910"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S08NN8M4LAZ"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n・PayPalで送料を請求しました。入金確認後、回収処理をお願いいたします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1748605192.869539",
+        "client_msg_id": "73fe03ca-406c-4fe6-9185-39f35e27a173",
+        "text": "<@U0606SPN4BW> <@U066P20UQH1>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nインボイス、パッキングリストの同梱は必要でしょうか？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1746688231.285569",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Eh84R",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nインボイス、パッキングリストの同梱は必要でしょうか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "確認致します",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1748609693.787589",
+        "client_msg_id": "f5e5c9c5-716a-4e2f-9e3e-b68daff5b15a",
+        "text": "<!subteam^S08NN8M4LAZ|@katayose-kamiya> <@U066P20UQH1>\n差額についてWISEで入金した旨、連絡があり確認しました。\n回収処理をお願いいたします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1746671028.965679",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5OqTV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S08NN8M4LAZ"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n差額についてWISEで入金した旨、連絡があり確認しました。\n回収処理をお願いいたします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1748645479.591169",
+        "client_msg_id": "ba8fd009-0eee-4883-b405-22a096619e35",
+        "text": "<@U066P20UQH1>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n本件、ご入金を確認致しました。\n・5\/30 [PayPal]\n・347.47 USD\n回収（入金）処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1748483216.531339",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CgUQO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本件、ご入金を確認致しました。\n・5\/30 [PayPal]\n・347.47 USD\n回収（入金）処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "pray",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "入金完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1748645544.254109",
+        "client_msg_id": "0923da8b-c822-4b15-a929-f792006935bf",
+        "text": "<@U066P20UQH1> <@U0606SPN4BW>\n本件中、*差額お支払い分* ご入金を確認致しました。\n・5\/30 [Wise_マルチカレンシー口座]\n・52.50 USD\n回収（入金）処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1746671028.965679",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uDvYW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本件中、"
+                            },
+                            {
+                                "type": "text",
+                                "text": "差額お支払い分",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " ご入金を確認致しました。\n・5\/30 [Wise_マルチカレンシー口座]\n・52.50 USD\n回収（入金）処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "pray",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "入金完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1748647229.018749",
+        "client_msg_id": "81802873-d283-408b-af5f-4fbe09bbd104",
+        "text": "<@U0331FWGQRM>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n6\/2出荷予定ですが、入金が未だのようです。\nご確認のほどお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1748219802.146039",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uKqly",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n6\/2出荷予定ですが、入金が未だのようです。\nご確認のほどお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1748653891.189389",
+        "client_msg_id": "ec86405c-082e-4b92-a94e-a005c6f220ea",
+        "text": "<@U066P20UQH1> <@U08N3SKSL75>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n本件中、*remaining 50%* ご入金を確認致しました。\n・5\/29 [Stripe]（ → 6\/10 当座預金入金）\n・834 USD（INVOICE 金額：1,668 USD×50%）\n回収（入金）処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1746602251.866389",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2RKEs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U08N3SKSL75"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本件中、"
+                            },
+                            {
+                                "type": "text",
+                                "text": "remaining 50%",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " ご入金を確認致しました。\n・5\/29 [Stripe]（ → 6\/10 当座預金入金）\n・834 USD（INVOICE 金額：1,668 USD×50%）\n回収（入金）処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "pray",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "入金完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1748654368.243339",
+        "client_msg_id": "36970f77-0d27-4042-aab6-3770d2dfecdb",
+        "text": "<@U0331FZS7JT>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n本日、貨物が戻ってきました。\n先方には、現地DHLにご連絡いただくようお伝えしていただいていたかと思いますが、\n結局、ご連絡いただけなかったようです。\nこちらで保管しておきます。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1741013276.120029",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pCrUf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日、貨物が戻ってきました。\n先方には、現地DHLにご連絡いただくようお伝えしていただいていたかと思いますが、\n結局、ご連絡いただけなかったようです。\nこちらで保管しておきます。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1748655038.063949",
+        "client_msg_id": "9625fffd-1eb3-4467-b12c-8d12f93e431a",
+        "text": "<!subteam^S08NN8M4LAZ|@katayose-kamiya>\n入金確認済みです。回収処理をお願いいたします:woman-bowing:\n<@U05KGS6HN9H>\n出荷手配をお願いいたします:woman-bowing:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1746748641.229639",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "u0j3p",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S08NN8M4LAZ"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n入金確認済みです。回収処理をお願いいたします"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "woman-bowing",
+                                "unicode": "1f647-200d-2640-fe0f"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷手配をお願いいたします"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "woman-bowing",
+                                "unicode": "1f647-200d-2640-fe0f"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U0331FZTHEK",
+                    "U05KGS6HN9H"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1748655158.997099",
+        "client_msg_id": "eaeebab5-d9de-459d-b6b8-71d5535fc322",
+        "text": "<@U066P20UQH1>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nご入金を確認致しました。\n・5\/31 [PayPal]\n・5,865.69 USD\n回収（入金）処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1746748641.229639",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4kUSN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nご入金を確認致しました。\n・5\/31 [PayPal]\n・5,865.69 USD\n回収（入金）処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "pray",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "入金完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1748656975.812449",
+        "client_msg_id": "8e6c0ecc-f188-41ea-b6ad-24a214846622",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n情報共有\n===\npick up time:09:00-10:00\n\n車両情報\n会社名 エムシード\n車番 和泉130い5765\n乗務員 徳永　正文\n携帯番号　<tel:09017138117|090-1713-8117>\n===",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1746983790.959989",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NNZDE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n情報共有\n===\npick up time:09:00-10:00\n\n車両情報\n会社名 エムシード\n車番 和泉130い5765\n乗務員 徳永　正文\n携帯番号　"
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:09017138117",
+                                "text": "090-1713-8117"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n==="
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1748659930.202839",
+        "edited": {
+            "user": "U033G4KN4TD",
+            "ts": "1748660020.000000"
+        },
+        "client_msg_id": "4686270e-04ba-4624-b1d8-f5c5891d7823",
+        "text": "<@U0606SPN4BW> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n・Non organic Matcha Lower grade - 2 sugar blend 50\/50 (1.0kg bulk bag)　\n*→30㎏*\n・Non organic Matcha Regular grade - 1 (1.0kg bag)\n*→60㎏*\n*上記数量併せた出荷日：6月6日でお願いいたします。*\n\n---------------------------------------------------------------------------\n昨日お話しましたが、情報共有も兼ねて下記メモ\nNon organic Matcha Regular grade - 1 (1.0kg bag)\n→50㎏とお伝えしましたが訂正させて頂きます。\n　*60㎏先出し可能*\n\n現在、出雲抹茶Fが桃翠園在庫190㎏(25E09A)ありますが、色が悪くそのまま使用NGのため下記対応\n①現在出雲精茶で粉砕中の出雲抹茶Rとカメタニでテスト粉砕した出雲抹茶Aを使用して\n　色のいい出雲抹茶Fを20㎏製造\n②色の悪い出雲抹茶F(25E09A)と色の良い出雲抹茶F(6\/2頃合組予定)を\n　再度合組してターゲット(前回ILJに出荷している25B18)に近づける。\n　結果50㎏が最大となりました。\n\n色の良い出雲抹茶F_20㎏\n色の悪い出雲抹茶F_30㎏\n前回ILJに出荷した出雲抹茶F_10㎏残りあり\n上記3つブレンドして合計60㎏",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1747222829.792709",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2TnOm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n・Non organic Matcha Lower grade - 2 sugar blend 50\/50 (1.0kg bulk bag)　\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "→30㎏",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n・Non organic Matcha Regular grade - 1 (1.0kg bag)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "→60㎏",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "上記数量併せた出荷日：6月6日でお願いいたします。",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n---------------------------------------------------------------------------\n昨日お話しましたが、情報共有も兼ねて下記メモ\nNon organic Matcha Regular grade - 1 (1.0kg bag)\n→50㎏とお伝えしましたが訂正させて頂きます。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "　60㎏先出し可能",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n現在、出雲抹茶Fが桃翠園在庫190㎏(25E09A)ありますが、色が悪くそのまま使用NGのため下記対応\n①現在出雲精茶で粉砕中の出雲抹茶Rとカメタニでテスト粉砕した出雲抹茶Aを使用して\n　色のいい出雲抹茶Fを20㎏製造\n②色の悪い出雲抹茶F(25E09A)と色の良い出雲抹茶F(6\/2頃合組予定)を\n　再度合組してターゲット(前回ILJに出荷している25B18)に近づける。\n　結果50㎏が最大となりました。\n\n色の良い出雲抹茶F_20㎏\n色の悪い出雲抹茶F_30㎏\n前回ILJに出荷した出雲抹茶F_10㎏残りあり\n上記3つブレンドして合計60㎏"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "あり",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知-1",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1748670015.712189",
+        "client_msg_id": "902b7dcf-61ca-4937-831f-d6e993f9f47b",
+        "text": "<@U0606SPN4BW>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*送料*、ご入金を確認致しました。\n・5\/31 [PayPal]\n・18.76 USD\n回収（入金）処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1746688231.285569",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tG8SV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "送料",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "、ご入金を確認致しました。\n・5\/31 [PayPal]\n・18.76 USD\n回収（入金）処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1748672622.917269",
+        "client_msg_id": "b5138cf8-9cae-4c3e-a2f7-d1a80a971a3b",
+        "text": "<@U066P20UQH1>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n本日5\/31のDHLで出荷しました。\nAWB No 7007126140\n※今後の参考：GBで出荷しておりますが、空きスペースがあるようです。\nケースNo.6に500袋が適量と思われますので、ご検討ください。\n宜しくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1746748641.229639",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Sd4w2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日5\/31のDHLで出荷しました。\nAWB No 7007126140\n※今後の参考：GBで出荷しておりますが、空きスペースがあるようです。\nケースNo.6に500袋が適量と思われますので、ご検討ください。\n宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "ありかとう",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1748673102.889609",
+        "client_msg_id": "d59a00d9-3fc6-4607-89c3-7ab5464030e9",
+        "text": "<@U041RJKV5JA>\nインボイス・パッキングリストは添付不要です。よろしくお願いいたします:woman-bowing:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1746688231.285569",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vn3gw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nインボイス・パッキングリストは添付不要です。よろしくお願いいたします"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "woman-bowing",
+                                "unicode": "1f647-200d-2640-fe0f"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1657247944.011449",
+        "client_msg_id": "1775b501-2781-497b-92f4-0b35e7e856d2",
+        "text": "<!channel>\n「情報共有」\n<https:\/\/www.at-s.com\/news\/article\/shizuoka\/950709.html>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/www.at-s.com\/news\/article\/shizuoka\/950709.html",
+                "image_url": "https:\/\/www.at-s.com\/news\/images\/n96\/950709\/IP210825TAN000066000_O.jpg",
+                "image_width": 341,
+                "image_height": 250,
+                "image_bytes": 369311,
+                "id": 1,
+                "original_url": "https:\/\/www.at-s.com\/news\/article\/shizuoka\/950709.html",
+                "fallback": "あなたの静岡新聞: ケニアの緑茶製造、後押し　静岡県内機械メーカー３社　現地で指導、国際競争力強化へ｜あなたの静岡新聞",
+                "text": "静岡県内茶業関連機械メーカー３社が、アフリカ・ケニアで緑茶製造設備導入を進めている。有機栽培緑茶を静岡発の技術で一貫して生産する体制づくりを進め、来年以降の本格…",
+                "title": "ケニアの緑茶製造、後押し　静岡県内機械メーカー３社　現地で指導、国際競争力強化へ｜あなたの静岡新聞",
+                "title_link": "https:\/\/www.at-s.com\/news\/article\/shizuoka\/950709.html",
+                "service_name": "あなたの静岡新聞"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bJ+A",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n「情報共有」\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.at-s.com\/news\/article\/shizuoka\/950709.html"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FWGQRM",
+                    "U0331FZS7JT"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

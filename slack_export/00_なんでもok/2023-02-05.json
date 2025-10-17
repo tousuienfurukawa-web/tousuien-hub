@@ -1,0 +1,113 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1675585354.184969",
+        "client_msg_id": "21d2882b-d0ae-4c3e-836b-07d840e700b0",
+        "text": "<@U033G4KN4TD> さん\n英語の名刺に入れたい（表記したい）名前を教えてください。\n月曜日中でOKです。Luo？or Julie？\nJulieの場合“Julie”だけでOK？\n\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675585354.184969",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1675641459.904209",
+        "reply_users": [
+            "U033G4KN4TD"
+        ],
+        "replies": [
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1675641459.904209"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1675641459.904209",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GWw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\n英語の名刺に入れたい（表記したい）名前を教えてください。\n月曜日中でOKです。Luo？or Julie？\nJulieの場合“Julie”だけでOK？\n\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1675641459.904209",
+        "client_msg_id": "ce77ec99-48a9-4ed6-8319-db8bc1f774fb",
+        "text": "<@U0331FWGQRM> 執行役\n\nお疲れ様です。\n英語の名刺表記を“Julie Lu”でお願い致します。\nありがとうございます。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675585354.184969",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lE0b",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\n\nお疲れ様です。\n英語の名刺表記を“Julie Lu”でお願い致します。\nありがとうございます。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

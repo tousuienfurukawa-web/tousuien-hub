@@ -1,0 +1,72 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1650101013.325209",
+        "client_msg_id": "440d4990-1e3c-45cf-942b-a89125b250ce",
+        "text": "<@U033G4KN4TD> <@U0331FZTHEK>\nTSE015-22　Green lifeに\n追加注文がありました。\n&gt; Matcha UJI(Low price) 5kg Bulkを4つ（20㎏分）追加\n商品の準備が必要ですので、\n発送日は4\/21(木)に変更いたします。\ninvoice, packinglistも修正しております。\n宜しくお願いします。\n（※月曜日対応で問題ないです。また説明します。）",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1649807590.372959",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DJ1E",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nTSE015-22　Green lifeに\n追加注文がありました。\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_quote",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Matcha UJI(Low price) 5kg Bulkを4つ（20㎏分）追加"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "商品の準備が必要ですので、\n発送日は4\/21(木)に変更いたします。\ninvoice, packinglistも修正しております。\n宜しくお願いします。\n（※月曜日対応で問題ないです。また説明します。）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

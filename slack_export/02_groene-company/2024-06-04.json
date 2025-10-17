@@ -1,0 +1,645 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1717516748.438089",
+        "client_msg_id": "5cf5fb13-b518-4a3d-8019-bb4866c52e63",
+        "text": "<@U05KGS6HN9H>\nCCでフォワーダーとのやりとり確認されているかと思いますが、共有します。\nーーー\n6\/6(木) “DAIEI EXPRESS”にてお引き取りが確定いたしました。混載便ですので、ドライバー情報は未定となります。\n\nスケジュールは下記を予定しております。\nBKG NO : *HKG-H24ZKWS*\n----------------\nWAN HAI 365 V.S016\nUKB CFS CUT : 13\/JUN\nUKB ETD : 16\/JUN\nHKG ETA : 20\/JUN\nVANCOUVER ETA : ---\n-----------------\nーーー",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1715177693.967419",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ojUbg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nCCでフォワーダーとのやりとり確認されているかと思いますが、共有します。\nーーー\n6\/6(木) “DAIEI EXPRESS”にてお引き取りが確定いたしました。混載便ですので、ドライバー情報は未定となります。\n\nスケジュールは下記を予定しております。\nBKG NO : "
+                            },
+                            {
+                                "type": "text",
+                                "text": "HKG-H24ZKWS",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n----------------\nWAN HAI 365 V.S016\nUKB CFS CUT : 13\/JUN\nUKB ETD : 16\/JUN\nHKG ETA : 20\/JUN\nVANCOUVER ETA : ---\n-----------------\nーーー"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U05KGS6HN9H"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "<@U05KGS6HN9H> <@U041RJKV5JA> <@U033G4KN4TD>\nTSE027-24ｶﾅﾀﾞBangoshi Tea様から注文です。\n今回もラベル無しです。\n発送可能日を教えてください。\nよろしくお願いいたします。\n\n発送方法\nFedEx International Priority® 30091円（2日で到着）←\n~FedEx International Economy® 25034円（7日で到着）~\n~UPS 30413円~\n~DHL 32717円~",
+        "files": [
+            {
+                "id": "F076LD1TFPW",
+                "mode": "tombstone"
+            },
+            {
+                "id": "F076LD273FW",
+                "mode": "tombstone"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CIKWb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nTSE027-24ｶﾅﾀﾞBangoshi Tea様から注文です。\n今回もラベル無しです。\n発送可能日を教えてください。\nよろしくお願いいたします。\n\n発送方法\nFedEx International Priority® 30091円（2日で到着）←\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "FedEx International Economy® 25034円（7日で到着）",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "UPS 30413円",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "DHL 32717円",
+                                "style": {
+                                    "strike": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1717516803.507559",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1717525800.000000"
+        },
+        "client_msg_id": "770e3879-841e-44af-b798-2f8b1a394441",
+        "thread_ts": "1717516803.507559",
+        "reply_count": 4,
+        "reply_users_count": 3,
+        "latest_reply": "1718169616.820109",
+        "reply_users": [
+            "U0331FWGQRM",
+            "U041RJKV5JA",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1717525748.131389"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1717561234.335439"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1717719347.597849"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1718169616.820109"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1718169616.820109",
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U05KGS6HN9H",
+                    "U033G4KN4TD",
+                    "U041RJKV5JA"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "text": "",
+        "files": [
+            {
+                "id": "F0777LRVCRW",
+                "created": 1717525744,
+                "timestamp": 1717525744,
+                "name": "TSE027-24invoice_signed.pdf",
+                "title": "TSE027-24invoice_signed.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U0331FWGQRM",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 26959,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0777LRVCRW\/tse027-24invoice_signed.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0777LRVCRW\/download\/tse027-24invoice_signed.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0777LRVCRW-7a94cd3565\/tse027-24invoice_signed_thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 909,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F0777LRVCRW\/tse027-24invoice_signed.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F0777LRVCRW-407bad9554",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F076C8A7SRL",
+                "created": 1717525746,
+                "timestamp": 1717525746,
+                "name": "TSE027-24packinglist_signed.pdf",
+                "title": "TSE027-24packinglist_signed.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U0331FWGQRM",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 23136,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F076C8A7SRL\/tse027-24packinglist_signed.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F076C8A7SRL\/download\/tse027-24packinglist_signed.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F076C8A7SRL-5f563dd581\/tse027-24packinglist_signed_thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 909,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F076C8A7SRL\/tse027-24packinglist_signed.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F076C8A7SRL-a15a580b38",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1717525748.131389",
+        "client_msg_id": "607db4a4-126a-416a-8c08-64c034e38e97",
+        "thread_ts": "1717516803.507559",
+        "parent_user_id": "U0331FWGQRM",
+        "reactions": [
+            {
+                "name": "eyes",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "<@U0331FWGQRM>\n<@U041RJKV5JA> <@U033G4KN4TD>\n船便（TSE021-24）のパレタイズが完了いたしました。\nパレタイズリスト記載の想定サイズです。画像ご参照ください。\nその他の画像は以下フォルダに保存いたします。\n●CND向け（Genuine Tea）〉2024〉写真TSE021-24（船便）\nフォルダ名「パレタイズ荷姿」",
+        "files": [
+            {
+                "id": "F0779P19KB2",
+                "created": 1717557012,
+                "timestamp": 1717557012,
+                "name": "PT1.jpg",
+                "title": "PT1.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U05KGS6HN9H",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 403004,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0779P19KB2\/pt1.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0779P19KB2\/download\/pt1.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0779P19KB2-dceb2bdc99\/pt1_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0779P19KB2-dceb2bdc99\/pt1_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0779P19KB2-dceb2bdc99\/pt1_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 203,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0779P19KB2-dceb2bdc99\/pt1_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 270,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0779P19KB2-dceb2bdc99\/pt1_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0779P19KB2-dceb2bdc99\/pt1_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 405,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0779P19KB2-dceb2bdc99\/pt1_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 1422,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0779P19KB2-dceb2bdc99\/pt1_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 540,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0779P19KB2-dceb2bdc99\/pt1_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 576,
+                "thumb_1024_h": 1024,
+                "original_w": 960,
+                "original_h": 1706,
+                "thumb_tiny": "AwAwABuI47r+lK0DD+H8jUEbMc5JNaDH5QfaiwESxqGJAx9TzTt8a8blGPekbOeasxIpjUkA\/hSCxnlhsQelWAfkX6VSU89KuLjYufSmAZyec1Kt1Eqgbhx7VF3qqQM0txjBwaur\/q1PtVKnEkgAkkCqEWGlQcZz9KgpBS0CP\/\/Z",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F0779P19KB2\/pt1.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F0779P19KB2-5c55b697ef",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F076LRUP8TD",
+                "created": 1717557018,
+                "timestamp": 1717557018,
+                "name": "PT2.jpg",
+                "title": "PT2.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U05KGS6HN9H",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 411553,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F076LRUP8TD\/pt2.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F076LRUP8TD\/download\/pt2.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F076LRUP8TD-881426ad17\/pt2_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F076LRUP8TD-881426ad17\/pt2_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F076LRUP8TD-881426ad17\/pt2_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 203,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F076LRUP8TD-881426ad17\/pt2_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 270,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F076LRUP8TD-881426ad17\/pt2_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F076LRUP8TD-881426ad17\/pt2_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 405,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F076LRUP8TD-881426ad17\/pt2_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 1422,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F076LRUP8TD-881426ad17\/pt2_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 540,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F076LRUP8TD-881426ad17\/pt2_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 576,
+                "thumb_1024_h": 1024,
+                "original_w": 960,
+                "original_h": 1706,
+                "thumb_tiny": "AwAwABtgkif78eD6rxQYAclGJAA6jmnxKFjHAzUqkEGkDKZTDYJzTwqY6VKx+bFVDLKScbsZoAtQNmPI9akHBzUFr\/qvxqZ\/uHmmBGxy5pkX+rFKTwagGMdaEBLDIq5VuM9DU7n5Pxqrije4TaDkds9qbEOkYLx3PQVFilC9zyaWkB\/\/2Q==",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F076LRUP8TD\/pt2.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F076LRUP8TD-6e2e31b142",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F076LRV0AFM",
+                "created": 1717557022,
+                "timestamp": 1717557022,
+                "name": "PT3.jpg",
+                "title": "PT3.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U05KGS6HN9H",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 410210,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F076LRV0AFM\/pt3.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F076LRV0AFM\/download\/pt3.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F076LRV0AFM-2afa64d7da\/pt3_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F076LRV0AFM-2afa64d7da\/pt3_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F076LRV0AFM-2afa64d7da\/pt3_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 203,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F076LRV0AFM-2afa64d7da\/pt3_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 270,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F076LRV0AFM-2afa64d7da\/pt3_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F076LRV0AFM-2afa64d7da\/pt3_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 405,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F076LRV0AFM-2afa64d7da\/pt3_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 1422,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F076LRV0AFM-2afa64d7da\/pt3_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 540,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F076LRV0AFM-2afa64d7da\/pt3_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 576,
+                "thumb_1024_h": 1024,
+                "original_w": 960,
+                "original_h": 1706,
+                "thumb_tiny": "AwAwABsWYuMSIrj9absiK5ycjqD60iREt97p7VMsI7sfwApJAQqSp+VQPoKdmT1P50EfNwxx6UuIu6ZNFguLAMrvPOe1Sj71Q2x\/cjtUopgQFueKlESkA5NQGm+e9CBjopdgwRke1WEdX5Ug4qpRjByDg+opiFkbBwOv8qZS4opAf\/\/Z",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F076LRV0AFM\/pt3.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F076LRV0AFM-30e07092ad",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U05KGS6HN9H",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ibANH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n船便（TSE021-24）のパレタイズが完了いたしました。\nパレタイズリスト記載の想定サイズです。画像ご参照ください。\nその他の画像は以下フォルダに保存いたします。\n●CND向け（Genuine Tea）〉2024〉写真TSE021-24（船便）\nフォルダ名「パレタイズ荷姿」"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1717557227.083739",
+        "client_msg_id": "0b31a603-0c37-421e-ad97-5e161b0b3c8d",
+        "thread_ts": "1715177693.967419",
+        "parent_user_id": "U0331FWGQRM",
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "おおお",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1717561234.335439",
+        "client_msg_id": "0465ad33-7316-4509-a16c-302a7da92c52",
+        "text": "<@U0331FWGQRM>\n <@U05KGS6HN9H> <@U033G4KN4TD>\n出荷可能日：6月12日（水）\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1717516803.507559",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RQAXE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日：6月12日（水）\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n情報共有　(私もよくわかっていなかったので共有)\n\n添付のお客様のサイン入りインボイスは、\nお客様との支払いについての同意確認のためのものらしく、\n出荷の際の書類に使って頂かなくても大丈夫とのことです。\n（もうすでに出荷用の書類は準備されていると思うので）",
+        "files": [
+            {
+                "id": "F076MAPGJBD",
+                "created": 1717566876,
+                "timestamp": 1717566876,
+                "name": "TSE021-24invoice.pdf",
+                "title": "TSE021-24invoice.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U0331FWGQRM",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 29034,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F076MAPGJBD\/tse021-24invoice.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F076MAPGJBD\/download\/tse021-24invoice.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F076MAPGJBD-c9e8e7b95e\/tse021-24invoice_thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 909,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F076MAPGJBD\/tse021-24invoice.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F076MAPGJBD-231f0c2536",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FWGQRM",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dLBLt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n情報共有　(私もよくわかっていなかったので共有)\n\n添付のお客様のサイン入りインボイスは、\nお客様との支払いについての同意確認のためのものらしく、\n出荷の際の書類に使って頂かなくても大丈夫とのことです。\n（もうすでに出荷用の書類は準備されていると思うので）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1717566950.360549",
+        "client_msg_id": "89797da2-633c-4b98-9d25-f447ed3fa1d2",
+        "thread_ts": "1715177693.967419",
+        "parent_user_id": "U0331FWGQRM",
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U05KGS6HN9H"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

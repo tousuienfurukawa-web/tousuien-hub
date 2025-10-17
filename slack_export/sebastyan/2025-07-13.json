@@ -1,0 +1,130 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1752450155.806389",
+        "client_msg_id": "a881d74a-1c4a-4c8d-9e48-821c0dcf6632",
+        "text": "<@U05KGS6HN9H> <@U08U8MMTH43>\n先週は失礼しました。\n送り先を修正したインボイスを格納しています。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1752225772.763589",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CEonK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U08U8MMTH43"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n先週は失礼しました。\n送り先を修正したインボイスを格納しています。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U05KGS6HN9H"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U095LLEH09G",
+        "text": "<@U095LLEH09G>さんがチャンネルに参加しました",
+        "type": "message",
+        "ts": "1752475114.919319"
+    },
+    {
+        "user": "U08U8MMTH43",
+        "type": "message",
+        "ts": "1752475512.992819",
+        "client_msg_id": "af211210-d436-4a52-9bd8-7aed1e689281",
+        "text": "<@U0331FZS7JT>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n本日、DHLにて出荷しました。\nAWB No.7007199290\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "22a826d23669",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-05-28\/8954451860855_22a826d236694d5f657b_72.png",
+            "first_name": "fuse",
+            "real_name": "fuse",
+            "display_name": "布施美穂",
+            "team": "T033D70RR6H",
+            "name": "tousuien.fuse",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1752225772.763589",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tfBC9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日、DHLにて出荷しました。\nAWB No.7007199290\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

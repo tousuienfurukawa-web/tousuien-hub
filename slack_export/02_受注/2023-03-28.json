@@ -1,0 +1,641 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1680001299.107189",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1680002267.000000"
+        },
+        "client_msg_id": "c3c757b1-5193-41fd-b065-2b0ce5bab82b",
+        "text": "<@U041RJKV5JA>部長\n <!channel>\n\nポーランドのMs. Anastasia Chervinska(ウクライナ(Ivaschenko)客)\n（TSE-IVP-001-23 Invoice_Packing List）の件ですが、\nEORIナンバーを記載しました。\n入金後、発送の手続きをお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1680001299.107189",
+        "reply_count": 6,
+        "reply_users_count": 3,
+        "latest_reply": "1681204314.657809",
+        "reply_users": [
+            "U0331FZS7JT",
+            "U0331FZTHEK",
+            "U033G4KN4TD"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1681132534.438289"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1681168308.161899"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1681171054.722009"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1681172088.417229"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1681172169.946379"
+            },
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1681204314.657809"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BE=i",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "部長\n "
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nポーランドのMs. Anastasia Chervinska(ウクライナ(Ivaschenko)客)\n（TSE-IVP-001-23 Invoice_Packing List）の件ですが、\nEORIナンバーを記載しました。\n入金後、発送の手続きをお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1680002078.036139",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1680005245.000000"
+        },
+        "client_msg_id": "a3e53e40-91ba-4711-8f0d-bfb6e95dc509",
+        "text": "<@U03SGRNND5L> さん\n<@U041RJKV5JA> 部長\n確認していただかないと全く意味がないので、確認をお願いします。\n修正してそれを発送書類にしてください。\nインコタームズの都合で消してると思います。\n\n*成田空港ヤマト送り状伝票 お客様情報*\n宛名：Thanaphong Niyomjinda\n出発日：４月２日\n便名：JL707\/03APR\n出発時間：18:20\n電話番号：(+66)883985999\n\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1679838249.988049",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2Qd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U03SGRNND5L"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n確認していただかないと全く意味がないので、確認をお願いします。\n修正してそれを発送書類にしてください。\nインコタームズの都合で消してると思います。\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "成田空港ヤマト送り状伝票 お客様情報",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n宛名：Thanaphong Niyomjinda\n出発日：４月２日\n便名：JL707\/03APR\n出発時間：18:20\n電話番号：(+66)883985999\n\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1680004209.516269",
+        "client_msg_id": "ad7b207b-698e-44ae-8926-bcf72e280ca2",
+        "text": "<@U041RJKV5JA> 部長\n<!channel>\nウクライナから注文（014）が入りました。\nインボイス・パッキングリストの完成の上\n発送可能日を教えてください。\nよろしくお願いします。\n※注文内容の煎茶は先日JFC向けに仕上げ済みです。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1680004209.516269",
+        "reply_count": 4,
+        "reply_users_count": 3,
+        "latest_reply": "1680830513.636709",
+        "reply_users": [
+            "U041RJKV5JA",
+            "U0331FZTHEK",
+            "U033G4KN4TD"
+        ],
+        "replies": [
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1680051802.432039"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1680474065.628229"
+            },
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1680502736.874699"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1680830513.636709"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Cgu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n"
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nウクライナから注文（014）が入りました。\nインボイス・パッキングリストの完成の上\n発送可能日を教えてください。\nよろしくお願いします。\n※注文内容の煎茶は先日JFC向けに仕上げ済みです。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U041RJKV5JA",
+                    "U033G4KN4TD",
+                    "U03SGRNND5L"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1680013632.748919",
+        "client_msg_id": "2f915667-9327-44b5-a456-228b83991f0b",
+        "text": "<@U03SGRNND5L> <@U041RJKV5JA>\n本件、TSE-IV-012-23ですが\n数量が100pacsに変わりましたので、パッキングリスト、インボイス送料の変更をお願いします。\n単価も￥470\/pac→¥420\/pacとなります。\n出荷日の変更はないでしょうか？？\n\nご確認、よろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1679919651.252619",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AZt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U03SGRNND5L"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本件、TSE-IV-012-23ですが\n数量が100pacsに変わりましたので、パッキングリスト、インボイス送料の変更をお願いします。\n単価も￥470\/pac→¥420\/pacとなります。\n出荷日の変更はないでしょうか？？\n\nご確認、よろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U03SGRNND5L",
+        "type": "message",
+        "ts": "1680048469.764799",
+        "client_msg_id": "308b7e7b-91b1-4676-a19c-85d87ea12fb0",
+        "text": "<@U0331FZS7JT> 社長\nCC： <@U041RJKV5JA> 部長\nお疲れ様です。\nTSE-IV-012-23のパッキングリスト、インボイス送料の\n変更をしました。\n出荷日の変更はありません　\n明日　3\/30（木）出荷可能です。\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "6c4f7745b891",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-08-07\/3904561660837_6c4f7745b8919f42488e_72.png",
+            "first_name": "足立",
+            "real_name": "足立",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "obayashi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1679919651.252619",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wyQZs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nCC： "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nお疲れ様です。\nTSE-IV-012-23のパッキングリスト、インボイス送料の\n変更をしました。\n出荷日の変更はありません　\n明日　3\/30（木）出荷可能です。\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1680048550.000599",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1680048573.000000"
+        },
+        "client_msg_id": "69DF9461-A60A-41CC-8332-200B128F0C21",
+        "text": "<@U03SGRNND5L> さん\n<@U041RJKV5JA>部長\nインボイス、パッキングリスト、私のサインを入れてPDFに変換しておいてください。\nよろしくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1679919651.252619",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xrr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U03SGRNND5L"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "部長\nインボイス、パッキングリスト、私のサインを入れてPDFに変換しておいてください。\nよろしくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U03SGRNND5L",
+        "type": "message",
+        "ts": "1680049438.793549",
+        "client_msg_id": "21fe3205-7db9-45c0-b0df-28e9aa48e050",
+        "text": "<@U0331FZS7JT> 社長\nCC： <@U041RJKV5JA> 部長\n承知しました。\nサインを入れてPDFに変換しておきます。\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "6c4f7745b891",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-08-07\/3904561660837_6c4f7745b8919f42488e_72.png",
+            "first_name": "足立",
+            "real_name": "足立",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "obayashi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1679919651.252619",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ci=t",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nCC： "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n承知しました。\nサインを入れてPDFに変換しておきます。\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1680051802.432039",
+        "client_msg_id": "cc66a6fd-61bc-4a8c-af17-dd6e7051d1f1",
+        "text": "<@U0331FZS7JT> 社長\nインボイス・パッキングリストを作成しました。\n発送可能日は、明日3月30日（木）となります。\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1680004209.516269",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Rpz0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nインボイス・パッキングリストを作成しました。\n発送可能日は、明日3月30日（木）となります。\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U03SGRNND5L",
+        "type": "message",
+        "ts": "1680054285.362969",
+        "client_msg_id": "ec0a90ad-6c56-4fb9-82dc-b73bbb2c6987",
+        "text": "<@U0331FZS7JT> 社長\nCC： <@U041RJKV5JA> 部長 <@U033G4KN4TD> さん\n確認せず、申し訳ございません。\n今後は確認します。\n発送用インボイスの送料記載、Receiptの原産地証明代金を\n修正し、発送書類を準備します。\n成田空港ヤマト送り状伝票 お客様情報　ありがとうございました。\n発送伝票に記載し、出荷準備を進めます。\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "6c4f7745b891",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-08-07\/3904561660837_6c4f7745b8919f42488e_72.png",
+            "first_name": "足立",
+            "real_name": "足立",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "obayashi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1679838249.988049",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MHEf8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nCC： "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長 "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\n確認せず、申し訳ございません。\n今後は確認します。\n発送用インボイスの送料記載、Receiptの原産地証明代金を\n修正し、発送書類を準備します。\n成田空港ヤマト送り状伝票 お客様情報　ありがとうございました。\n発送伝票に記載し、出荷準備を進めます。\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1671239183.541239",
+        "client_msg_id": "dfe3c0cd-a351-4307-83bc-5a57d9c81ea8",
+        "text": "<@U041RJKV5JA>\n*<!channel>*\n\n下記注文が入りました。\nーーーーー\n*TSE037-22ｶﾅﾀﾞGenuine Tea*\nーーーーー\n書類をフォルダに入れております。\n出荷可能日が分かり次第教えてください。\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1671239183.541239",
+        "reply_count": 7,
+        "reply_users_count": 5,
+        "latest_reply": "1680228917.609909",
+        "reply_users": [
+            "U041RJKV5JA",
+            "U033G4KN4TD",
+            "U0331FWGQRM",
+            "U0331FZTHEK",
+            "U0331FZS7JT"
+        ],
+        "replies": [
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1671265317.458589"
+            },
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1671439353.071209"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1671439509.869289"
+            },
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1671838282.997239"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1671873557.106909"
+            },
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1672035459.747309"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1680228917.609909"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1680228917.609909",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "y\/h",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n下記注文が入りました。\nーーーーー\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE037-22ｶﾅﾀﾞGenuine Tea",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nーーーーー\n書類をフォルダに入れております。\n出荷可能日が分かり次第教えてください。\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U033G4KN4TD"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

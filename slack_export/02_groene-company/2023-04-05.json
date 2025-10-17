@@ -1,0 +1,173 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1680683296.991579",
+        "client_msg_id": "9b50af5f-47ab-411c-bb69-ef8d71edb9ea",
+        "text": "<@U041RJKV5JA> <@U033G4KN4TD>\nこちらお客様から準備出来次第、\nFedexで発送してくださいと連絡が来ました。\nなので、明日か明後日（どちらでも可能な方でOKです）で発送宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1678371589.063899",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "v2CDG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nこちらお客様から準備出来次第、\nFedexで発送してくださいと連絡が来ました。\nなので、明日か明後日（どちらでも可能な方でOKです）で発送宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U041RJKV5JA",
+                    "U033G4KN4TD"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1680684324.380689",
+        "edited": {
+            "user": "U033G4KN4TD",
+            "ts": "1680684881.000000"
+        },
+        "client_msg_id": "da5ead11-d557-4f8f-a48f-0b0949ce169b",
+        "text": "<@U0331FWGQRM> 執行役\nCC：<@U041RJKV5JA> 部長\n\nお疲れ様です。\n確認させていただきます。\n FedExでお客様手配でしょうか？\n\nもし桃翠園手配の場合、\n運送料金の請求先の記入が必須ですので、\nどちらで記入致しましょうか？（桃翠園かGreen life様か）\nもしお客様支払の場合、Green life様のFedExアカウントのご確認をお願い致します。\n\nよろしくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1678371589.063899",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nN7n",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\nCC："
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n\nお疲れ様です。\n確認させていただきます。\n FedExでお客様手配でしょうか？\n\nもし桃翠園手配の場合、\n運送料金の請求先の記入が必須ですので、\nどちらで記入致しましょうか？（桃翠園かGreen life様か）\nもしお客様支払の場合、Green life様のFedExアカウントのご確認をお願い致します。\n\nよろしくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1680684869.561099",
+        "client_msg_id": "3e2ea9dc-3904-422b-9615-79c248a9311b",
+        "text": "<@U033G4KN4TD>\n送料いただくので、桃翠園アカウントで手配してください。\n\n見積用invoice, 出荷用invoice, packing list\n新しいものに差し替えました。\n宜しくお願いします。\n\ninvoice_aが出荷用です。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1678371589.063899",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Zmg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n送料いただくので、桃翠園アカウントで手配してください。\n\n見積用invoice, 出荷用invoice, packing list\n新しいものに差し替えました。\n宜しくお願いします。\n\ninvoice_aが出荷用です。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

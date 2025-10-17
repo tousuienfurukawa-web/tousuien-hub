@@ -1,0 +1,724 @@
+[
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1737449488.290919",
+        "client_msg_id": "7f566684-e2f6-4fd6-a9d8-6c20e3ba36a6",
+        "text": "<@U0331FWGQRM> <@U0331FZS7JT>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nFOB見積の件、遅くなりすみません。\n1\/22中の取得予定です。福通Gと日新の2社に\n依頼しております。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1736570349.033429",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vhBMr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nFOB見積の件、遅くなりすみません。\n1\/22中の取得予定です。福通Gと日新の2社に\n依頼しております。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM",
+                    "U0331FZS7JT"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "text": "<!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <@U03BLQ65GK0>\nCC：<@U0331FWGQRM>\n\n*確認完了*\n対応者：<@U0331FZS7JT> <@U041RJKV5JA> <@U033G4KN4TD> <@U0840UVFVA8>\n\n【考えられる原因】046を出荷した際、袋がピンホールしていて製品が劣化した\n【対策】パッキング後、袋がピンホールしていないかを再度確認\n\n▼使用原料\n040：まるゑい有機抹茶１C\n046：大石茶園有機抹茶25（有機抹茶１Cで発送の場合の納期があまりに遅かったため本製品を使用）\n\n▼画像比較\n2024年10月17日撮影\n046の原料入荷時に品質確認を行なった画像（日本語で記載してある画像）\n\n2025年1月21日撮影\n本日時点で手元に残っている040,046の在庫品及び出雲抹茶比較の画像４点\n\n▼原料入荷日（伝票）・製造指示書確認\n046原料\n入荷日：2024年6月28日,10月17日\n製造日：2024年10月24日\n\n\n▼原因特定のための考察\n①040と046で原料が異なるが品質確認せず、パッキングした？\n→040で出荷した製品と046出荷用の抹茶を品質確認(在庫してあった有機抹茶25も確認)の上、問題なしと<@U0331FZS7JT>判断 with <@U041RJKV5JA>\n併せて原料変更の確認時の画像、本日確認した在庫の品質からも考えにくい\n\n②劣化した、品質の悪い抹茶が混ざっていた？\n→20kgを5kgに小分けにする際、製造担当者から原料の品質について（途中でかなり異なっていた等）の報告も無い。<@U033G4KN4TD> 確認（本日、改めてヒアリングを実施）\n\n③Groene様から送られてきた040の画像の抹茶の品質と在庫の040（及びこれまでの記憶含む）と比較しあまりに異なるため、\n040に045(Teangle社向け)で販売したIzumo Matcha Middle Grade（出雲抹茶F）を誤って使用した？\n→発送後の在庫数量が040で使用した有機抹茶１Cが合致すること、040を出荷(9\/26)した後に、045の注文を受けた(10\/10)ことを考えるとこれも無い。\n\n④046で入荷した有機抹茶25と実際にパッキングした抹茶が異なるものを使用した？\n→こちらも在庫数量が一致するため無し。\n\n⑤出荷（10\/31）から到着(11\/4)までに劣悪な環境で長期間保管されていた。\n→出荷後５日で到着なため、可能性は低い\n\n⑥茶積め場内で、他の原料が混入した可能性\n→5kgのパッキングであること、作業者が変わっていないこと、在庫数量が合致していることから考えると可能性は低い。\n\n以上のことから、\n考えられる原因を当初記載した通りとし、Groene様に共有することとする。\n\n※まるゑいに375kg分を発注した際は原料が2月27日が最速で届く。\n※240kgは既に在庫を持っている\n残り140kgが最短で上記の日程",
+        "files": [
+            {
+                "id": "F089F0JRASH",
+                "created": 1737439413,
+                "timestamp": 1737439413,
+                "name": "S__458757_0.jpg",
+                "title": "S__458757_0.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U0331FZS7JT",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 324828,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F089F0JRASH\/s__458757_0.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F089F0JRASH\/download\/s__458757_0.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F0JRASH-de2f5a49d1\/s__458757_0_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F0JRASH-de2f5a49d1\/s__458757_0_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F0JRASH-de2f5a49d1\/s__458757_0_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 300,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F0JRASH-de2f5a49d1\/s__458757_0_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 400,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F0JRASH-de2f5a49d1\/s__458757_0_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F0JRASH-de2f5a49d1\/s__458757_0_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 600,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F0JRASH-de2f5a49d1\/s__458757_0_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 667,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F0JRASH-de2f5a49d1\/s__458757_0_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 800,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F0JRASH-de2f5a49d1\/s__458757_0_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 854,
+                "original_w": 1401,
+                "original_h": 1168,
+                "thumb_tiny": "AwAoADC7UcrlMYHJqSmyJuAPpzSewDYpN45GCKJnKAY7miJNuT606QZXn1FLWwxkbksVbt3qSmRgb2Pen0LYBrP82NwH4UoOUPIJ9qfSN901TEA6ChhkUDgClPSjoAwcDIGSaUZI5GKT76DAB\/GhVwfugfjSWwDqGGVI9aWgVQgUYUD0oIyMUtFADVXauM5paWikM\/\/Z",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F089F0JRASH\/s__458757_0.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F089F0JRASH-68aaa6c749",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F089WG551TK",
+                "created": 1737439417,
+                "timestamp": 1737439417,
+                "name": "S__458759_0.jpg",
+                "title": "S__458759_0.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U0331FZS7JT",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 216692,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F089WG551TK\/s__458759_0.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F089WG551TK\/download\/s__458759_0.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089WG551TK-d8e118d876\/s__458759_0_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089WG551TK-d8e118d876\/s__458759_0_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089WG551TK-d8e118d876\/s__458759_0_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 230,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089WG551TK-d8e118d876\/s__458759_0_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 307,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089WG551TK-d8e118d876\/s__458759_0_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089WG551TK-d8e118d876\/s__458759_0_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 460,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089WG551TK-d8e118d876\/s__458759_0_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 511,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089WG551TK-d8e118d876\/s__458759_0_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 613,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089WG551TK-d8e118d876\/s__458759_0_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 654,
+                "original_w": 1364,
+                "original_h": 871,
+                "thumb_tiny": "AwAeADCMxYHUCmhP9oVaAVULv9309aga554jXFTcYbOKYVweoqZXV13Lx6j0odljXcwyT0FMCEAeozTgWHQ0n2qTPRcemKmUrJHvUY9RRcQs43W6EdB1qsRVuJiq4IBU9RTGWDOcP9M1LQEUAI3t24FEwLIjdhkGpuCMAYA6AUzcUJ4BB6g96fQZXxVm3UrA7H+LgUiNCzY8o5\/3uKnckrngDsKEhH\/\/2Q==",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F089WG551TK\/s__458759_0.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F089WG551TK-506518b55f",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F089F0TAK1T",
+                "created": 1737439563,
+                "timestamp": 1737439563,
+                "name": "2025.01.21 Organic Matcha 25 powder.jpg",
+                "title": "2025.01.21 Organic Matcha 25 powder.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U0331FZS7JT",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 314997,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F089F0TAK1T\/2025.01.21_organic_matcha_25_powder.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F089F0TAK1T\/download\/2025.01.21_organic_matcha_25_powder.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F0TAK1T-1328fe3cae\/2025.01.21_organic_matcha_25_powder_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F0TAK1T-1328fe3cae\/2025.01.21_organic_matcha_25_powder_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F0TAK1T-1328fe3cae\/2025.01.21_organic_matcha_25_powder_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 325,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F0TAK1T-1328fe3cae\/2025.01.21_organic_matcha_25_powder_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 434,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F0TAK1T-1328fe3cae\/2025.01.21_organic_matcha_25_powder_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F0TAK1T-1328fe3cae\/2025.01.21_organic_matcha_25_powder_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 650,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F0TAK1T-1328fe3cae\/2025.01.21_organic_matcha_25_powder_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 723,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F0TAK1T-1328fe3cae\/2025.01.21_organic_matcha_25_powder_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 867,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F0TAK1T-1328fe3cae\/2025.01.21_organic_matcha_25_powder_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 925,
+                "original_w": 1346,
+                "original_h": 1216,
+                "thumb_tiny": "AwArADC7Vea52MUVcsO\/arGaqXEQEoYfxUnsBNDMJR6N6U9iFBJ7VFbxbAWPU\/yqRxvQr0yMUAVorli4DgYJqwaqqg+RT6jpVqkgH1HP\/qzT6a6hlIPeqYCqfkFBNMTcFw2Mj0oJoAYCPNK+nNSZqDkTHjgjrinUkBPSE+9OpKoQlMan000AMpDT6aaAP\/\/Z",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F089F0TAK1T\/2025.01.21_organic_matcha_25_powder.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F089F0TAK1T-f949970489",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F089F471M37",
+                "created": 1737441721,
+                "timestamp": 1737441721,
+                "name": "2025.01.21 Organic Matcha 25 Powder and Water.jpg",
+                "title": "2025.01.21 Organic Matcha 25 Powder and Water.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U0331FZS7JT",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 210004,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F089F471M37\/2025.01.21_organic_matcha_25_powder_and_water.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F089F471M37\/download\/2025.01.21_organic_matcha_25_powder_and_water.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F471M37-5a9199a643\/2025.01.21_organic_matcha_25_powder_and_water_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F471M37-5a9199a643\/2025.01.21_organic_matcha_25_powder_and_water_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F471M37-5a9199a643\/2025.01.21_organic_matcha_25_powder_and_water_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 179,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F471M37-5a9199a643\/2025.01.21_organic_matcha_25_powder_and_water_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 238,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F471M37-5a9199a643\/2025.01.21_organic_matcha_25_powder_and_water_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F471M37-5a9199a643\/2025.01.21_organic_matcha_25_powder_and_water_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 357,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F471M37-5a9199a643\/2025.01.21_organic_matcha_25_powder_and_water_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 397,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F471M37-5a9199a643\/2025.01.21_organic_matcha_25_powder_and_water_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 476,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089F471M37-5a9199a643\/2025.01.21_organic_matcha_25_powder_and_water_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 508,
+                "original_w": 1817,
+                "original_h": 901,
+                "thumb_tiny": "AwAXADBIGSBA5zlh0qdLhZQQnD44Bqvcp84YcqwGDTYEJmUjscmpvrYC7EXOd3Sky3ndePSpEHB+tI3DCq6AQTXgjcqq7iOpqrdP56iRRjaMMKWaJlcnBIJyDQV8q3kd+N42qD3qbu4DrCRmDRt8yAZAIziriqOwA9hVDT\/vv9BWgtUA+kOaWkNMBnOeDVXURmOP6mrVVr\/\/AFaf739KQH\/\/2Q==",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F089F471M37\/2025.01.21_organic_matcha_25_powder_and_water.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F089F471M37-e5a7f459b2",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F0893D5D0AK",
+                "created": 1737441729,
+                "timestamp": 1737441729,
+                "name": "2025.01.21. All Powder.jpg",
+                "title": "2025.01.21. All Powder.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U0331FZS7JT",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 300319,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0893D5D0AK\/2025.01.21._all_powder.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0893D5D0AK\/download\/2025.01.21._all_powder.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0893D5D0AK-6343529aff\/2025.01.21._all_powder_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0893D5D0AK-6343529aff\/2025.01.21._all_powder_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0893D5D0AK-6343529aff\/2025.01.21._all_powder_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 258,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0893D5D0AK-6343529aff\/2025.01.21._all_powder_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 343,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0893D5D0AK-6343529aff\/2025.01.21._all_powder_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0893D5D0AK-6343529aff\/2025.01.21._all_powder_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 515,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0893D5D0AK-6343529aff\/2025.01.21._all_powder_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 572,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0893D5D0AK-6343529aff\/2025.01.21._all_powder_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 687,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0893D5D0AK-6343529aff\/2025.01.21._all_powder_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 733,
+                "original_w": 1512,
+                "original_h": 1082,
+                "thumb_tiny": "AwAiADCxJOEfaFz60rTqIw45z0FNmUZDY9qV4wYwo7UtQESfcrEjDKM4pqXBLKGUYPHFSRKAp469aZGgEmMfd6UtdAHTy+WAByx6UkMpkyGHI9KdKgdeeo5FJEoVcjq3NPW4CyY28mn0hAIwRkUtMBsZBQEUikeaw9hTsYFJRYQNwp+lJGcoD7UpFAGOBRYY+iiimISiiigBKKKKAP\/Z",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F0893D5D0AK\/2025.01.21._all_powder.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F0893D5D0AK-00ebb64eb2",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F089HUP6JKU",
+                "created": 1737441735,
+                "timestamp": 1737441735,
+                "name": "2025.01.21 All Water.jpg",
+                "title": "2025.01.21 All Water.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U0331FZS7JT",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 207946,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F089HUP6JKU\/2025.01.21_all_water.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F089HUP6JKU\/download\/2025.01.21_all_water.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089HUP6JKU-6a818f8393\/2025.01.21_all_water_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089HUP6JKU-6a818f8393\/2025.01.21_all_water_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089HUP6JKU-6a818f8393\/2025.01.21_all_water_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 157,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089HUP6JKU-6a818f8393\/2025.01.21_all_water_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 210,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089HUP6JKU-6a818f8393\/2025.01.21_all_water_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089HUP6JKU-6a818f8393\/2025.01.21_all_water_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 315,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089HUP6JKU-6a818f8393\/2025.01.21_all_water_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 350,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089HUP6JKU-6a818f8393\/2025.01.21_all_water_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 420,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089HUP6JKU-6a818f8393\/2025.01.21_all_water_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 448,
+                "original_w": 1934,
+                "original_h": 846,
+                "thumb_tiny": "AwAUADBwmGzcVUA9OOtTxTo0eQcbRzVNFE0CbCNyjBXPNSRQEBg3G4Y+lTrcCUXsZbGCB60s12kTbcFj3xVYWr7vmwB65p01uXfchHPYmi7Asi4jMXmZwBWaYd+TG249dpGDVowfuNgILZz7VHGnkt5kpCqvvyaLsCmvethQNo+lY69\/pWyv3R9KoAxSYpaKAExWRPxPJj+8a1zWTcf6+T\/eNAH\/2Q==",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F089HUP6JKU\/2025.01.21_all_water.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F089HUP6JKU-a800d69b89",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NpbwH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nCC："
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "確認完了",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n対応者："
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0840UVFVA8"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n【考えられる原因】046を出荷した際、袋がピンホールしていて製品が劣化した\n【対策】パッキング後、袋がピンホールしていないかを再度確認\n\n▼使用原料\n040：まるゑい有機抹茶１C\n046：大石茶園有機抹茶25（有機抹茶１Cで発送の場合の納期があまりに遅かったため本製品を使用）\n\n▼画像比較\n2024年10月17日撮影\n046の原料入荷時に品質確認を行なった画像（日本語で記載してある画像）\n\n2025年1月21日撮影\n本日時点で手元に残っている040,046の在庫品及び出雲抹茶比較の画像４点\n\n▼原料入荷日（伝票）・製造指示書確認\n046原料\n入荷日：2024年6月28日,10月17日\n製造日：2024年10月24日\n\n\n▼原因特定のための考察\n①040と046で原料が異なるが品質確認せず、パッキングした？\n→040で出荷した製品と046出荷用の抹茶を品質確認(在庫してあった有機抹茶25も確認)の上、問題なしと"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "判断 with "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n併せて原料変更の確認時の画像、本日確認した在庫の品質からも考えにくい\n\n②劣化した、品質の悪い抹茶が混ざっていた？\n→20kgを5kgに小分けにする際、製造担当者から原料の品質について（途中でかなり異なっていた等）の報告も無い。"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 確認（本日、改めてヒアリングを実施）\n\n③Groene様から送られてきた040の画像の抹茶の品質と在庫の040（及びこれまでの記憶含む）と比較しあまりに異なるため、\n040に045(Teangle社向け)で販売したIzumo Matcha Middle Grade（出雲抹茶F）を誤って使用した？\n→発送後の在庫数量が040で使用した有機抹茶１Cが合致すること、040を出荷(9\/26)した後に、045の注文を受けた(10\/10)ことを考えるとこれも無い。\n\n④046で入荷した有機抹茶25と実際にパッキングした抹茶が異なるものを使用した？\n→こちらも在庫数量が一致するため無し。\n\n⑤出荷（10\/31）から到着(11\/4)までに劣悪な環境で長期間保管されていた。\n→出荷後５日で到着なため、可能性は低い\n\n⑥茶積め場内で、他の原料が混入した可能性\n→5kgのパッキングであること、作業者が変わっていないこと、在庫数量が合致していることから考えると可能性は低い。\n\n以上のことから、\n考えられる原因を当初記載した通りとし、Groene様に共有することとする。\n\n※まるゑいに375kg分を発注した際は原料が2月27日が最速で届く。\n※240kgは既に在庫を持っている\n残り140kgが最短で上記の日程"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1737452774.911869",
+        "client_msg_id": "88890ee9-5b5f-431e-b559-62b6aa9b5760",
+        "thread_ts": "1737431158.040529",
+        "parent_user_id": "U0331FZS7JT"
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1737453179.463039",
+        "client_msg_id": "16B3B59A-43DC-4A14-92D1-733E1A853BD5",
+        "text": "<!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani> \n追加で、原因の妥当性の評価もあればいいかなと思います。\n\nピンホール→劣化（褪色）の妥当性です。\n\nまぁ、そうなるよね。なのか、\nんー。そんなに悪くなる？なのか。\nその辺の見解も含めてもいいかもしれません。\n\n例）ガラスのコップちょっと触ったら粉々になりました。→そんなことある？原因は他にあるのでは？\nという、思考回路になると思うので。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1737431158.040529",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "I8evp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \n追加で、原因の妥当性の評価もあればいいかなと思います。\n\nピンホール→劣化（褪色）の妥当性です。\n\nまぁ、そうなるよね。なのか、\nんー。そんなに悪くなる？なのか。\nその辺の見解も含めてもいいかもしれません。\n\n例）ガラスのコップちょっと触ったら粉々になりました。→そんなことある？原因は他にあるのでは？\nという、思考回路になると思うので。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "<@U0331FWGQRM> <@U0331FZS7JT>\n先に福通Gから見積を取得致しました。\n※当社集荷～通関～関空航空機積載までです。\n福通G　FOB関空　147,900円\n（日新分は取得次第に報告致します）",
+        "files": [
+            {
+                "id": "F089PNBF8F5",
+                "created": 1737515110,
+                "timestamp": 1737515110,
+                "name": "福山通運G_【関空-スペインAIR　FOB条件】御見積書2025.1.22.pdf",
+                "title": "福山通運G_【関空-スペインAIR　FOB条件】御見積書2025.1.22.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U05KGS6HN9H",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 389989,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F089PNBF8F5\/____________g__________-____________air___fob_____________________2025.1.22.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F089PNBF8F5\/download\/____________g__________-____________air___fob_____________________2025.1.22.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F089PNBF8F5-df78bca945\/____________g__________-____________air___fob_____________________2025.1.22_thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 1286,
+                "thumb_pdf_h": 910,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F089PNBF8F5\/____________g__________-____________air___fob_____________________2025.1.22.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F089PNBF8F5-5181786f21",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U05KGS6HN9H",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7iQ1c",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n先に福通Gから見積を取得致しました。\n※当社集荷～通関～関空航空機積載までです。\n福通G　FOB関空　147,900円\n（日新分は取得次第に報告致します）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1737515116.454429",
+        "client_msg_id": "b9718075-9b00-45c5-8440-9ac462c868d4",
+        "thread_ts": "1736570349.033429",
+        "parent_user_id": "U0331FWGQRM",
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1737519437.057959",
+        "client_msg_id": "6ec8e657-7394-4aa5-b632-ab2cc427d63b",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n納期はどうでしたっけ？？\n&gt; 2月末の出荷が可能かどうか、という部分で調整しています。\nという話だったかと思いますが、どうでしょう？\n\n3月8日より短くなりませんか？と聞かれています:sweat_drops:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1736570349.033429",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GAxr\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n納期はどうでしたっけ？？\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_quote",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2月末の出荷が可能かどうか、という部分で調整しています。"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "という話だったかと思いますが、どうでしょう？\n\n3月8日より短くなりませんか？と聞かれています"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sweat_drops",
+                                "unicode": "1f4a6"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

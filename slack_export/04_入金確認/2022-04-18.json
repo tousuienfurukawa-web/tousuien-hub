@@ -1,0 +1,104 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U0331FZTHEK",
+        "text": "<@U0331FZTHEK>さんがチャンネルに参加しました",
+        "type": "message",
+        "ts": "1650270812.554339"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U0331FWGQRM",
+        "text": "<@U0331FWGQRM>さんがチャンネルに参加しました",
+        "inviter": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1650270858.967879"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U0331FZS7JT",
+        "text": "<@U0331FZS7JT>さんがチャンネルに参加しました",
+        "inviter": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1650270859.030879"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U033G4KN4TD",
+        "text": "<@U033G4KN4TD>さんがチャンネルに参加しました",
+        "inviter": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1650270859.081779"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U03BLQ65GK0",
+        "text": "<@U03BLQ65GK0>さんがチャンネルに参加しました",
+        "inviter": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1650270859.134999"
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1650271293.177669",
+        "client_msg_id": "da825039-0fff-47b7-a611-cb6ab265bfe4",
+        "text": "TSE009-22（Toxaris Limited）受注3\/4出荷3\/15　USD29,645.00\n支払条件：出荷後30日以内 を過ぎましたが、4\/18現在未入金です。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1650271293.177669",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1652084909.632969",
+        "reply_users": [
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1652084909.632969"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1652084909.632969",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AXo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "TSE009-22（Toxaris Limited）受注3\/4出荷3\/15　USD29,645.00\n支払条件：出荷後30日以内 を過ぎましたが、4\/18現在未入金です。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

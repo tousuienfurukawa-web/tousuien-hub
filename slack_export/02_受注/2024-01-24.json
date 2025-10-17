@@ -1,0 +1,344 @@
+[
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1706142014.137609",
+        "client_msg_id": "f16c5314-2b66-45d0-a11d-15609d4b1dca",
+        "text": "<@U0331FZS7JT>\n<@U041RJKV5JA> <@U033G4KN4TD>\n報告が遅くなり申し訳ありません。\n昨日1\/24佐川便で出荷しました。\n2回目：AWB No 491636714380\n3回目：AWB No 491636714391\n宜しくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705468349.819369",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tE2Sw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n報告が遅くなり申し訳ありません。\n昨日1\/24佐川便で出荷しました。\n2回目：AWB No 491636714380\n3回目：AWB No 491636714391\n宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1706143781.249159",
+        "client_msg_id": "c8344e2c-1854-4277-980f-afab30feff0c",
+        "text": "<@U0331FZS7JT>\n <@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD>\nご入金を確認致しました。\n・1\/24 [PayPal]\n・328.80 USD\n回収（入金）処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1706017162.648519",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qtfL5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nご入金を確認致しました。\n・1\/24 [PayPal]\n・328.80 USD\n回収（入金）処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "入金完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1706159582.140109",
+        "client_msg_id": "9ff2ea98-6593-4447-8030-f1ec9b7705ec",
+        "text": "<@U0606SPN4BW>\n <@U05KGS6HN9H> <@U033G4KN4TD>\n本日、DHLにて出荷しました。\nAWB NO. 5267277772\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705892539.255139",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "SiHAB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日、DHLにて出荷しました。\nAWB NO. 5267277772\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1706159686.538919",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1706161960.000000"
+        },
+        "client_msg_id": "f1e9b925-1021-4d24-a7d7-c8091c83b65f",
+        "text": "<@U041RJKV5JA> <@U033G4KN4TD> <@U0331FZTHEK> <@U05KGS6HN9H>\nタイ：MTCH-BKKさんから注文（1回）です。\n香岳園：つゆひかり 1kg×5\n\n【送り先】\n〒270-1465\n千葉県柏市手賀１４０２－１\nＮｈ（ソラウィット）　様\nTEL <tel:08079587902|080-7958-7902>\n\n発送可能日を教えて下さい。\n※来週金曜までに届くように配送をお願いします。\n\n\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1706159686.538919",
+        "reply_count": 3,
+        "reply_users_count": 2,
+        "latest_reply": "1706605427.026309",
+        "reply_users": [
+            "U041RJKV5JA",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1706172817.311759"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1706235359.390279"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1706605427.026309"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XZPfR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nタイ：MTCH-BKKさんから注文（1回）です。\n香岳園：つゆひかり 1kg×5\n\n【送り先】\n〒270-1465\n千葉県柏市手賀１４０２－１\nＮｈ（ソラウィット）　様\nTEL "
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:08079587902",
+                                "text": "080-7958-7902"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n発送可能日を教えて下さい。\n※来週金曜までに届くように配送をお願いします。\n\n\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U05KGS6HN9H"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

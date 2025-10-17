@@ -1,0 +1,141 @@
+[
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1721614669.672359",
+        "edited": {
+            "user": "U066P20UQH1",
+            "ts": "1721614694.000000"
+        },
+        "client_msg_id": "d7ff6e30-b1c6-4daf-a564-23e19374bb2d",
+        "text": "<@U033G4KN4TD> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nこちらお客様より注文の準備ができたと連絡がありましたが、出荷まで大体何日くらいかかりそうでしょうか？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1718955940.056979",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LtmkK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nこちらお客様より注文の準備ができたと連絡がありましたが、出荷まで大体何日くらいかかりそうでしょうか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1721631481.325559",
+        "edited": {
+            "user": "U033G4KN4TD",
+            "ts": "1721635481.000000"
+        },
+        "client_msg_id": "3c558cb7-2635-4f6e-9cb2-96376dbc2403",
+        "text": "<@U066P20UQH1> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n下記日程にてご検討お願いいたします。\n篩：7月30日\n小分け・梱包：7月31日～8月1日\n~出荷可能日：8月2日~\n→EPA確認",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1718955940.056979",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "izNdx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n下記日程にてご検討お願いいたします。\n篩：7月30日\n小分け・梱包：7月31日～8月1日\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "出荷可能日：8月2日",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n→EPA確認"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知-1",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "あり",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

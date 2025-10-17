@@ -1,0 +1,228 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1676585549.138599",
+        "client_msg_id": "17c047fe-6ab3-49d3-a030-fe39a01dddf1",
+        "text": "<@U041RJKV5JA> 部長\n<!channel>\n\nお疲れ様です。\nマカオから注文（TSE-CHA-23-004）がありました。\n「第４回発送手続き」ご確認ください。\nインボイスとパッキングリストは作成済み。\n発送日を教えて下さい。\n<@U0331FZTHEK> さん\n既に入金いただいていますので、処理をお願いします。\n【その他】\nお茶を入れる袋は、平袋です。\n\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1676585549.138599",
+        "reply_count": 4,
+        "reply_users_count": 3,
+        "latest_reply": "1676869383.443009",
+        "reply_users": [
+            "U0331FZTHEK",
+            "U03SGRNND5L",
+            "U0331FZS7JT"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1676591878.628269"
+            },
+            {
+                "user": "U03SGRNND5L",
+                "ts": "1676600302.678839"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1676624601.474309"
+            },
+            {
+                "user": "U03SGRNND5L",
+                "ts": "1676869383.443009"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qEA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n"
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nお疲れ様です。\nマカオから注文（TSE-CHA-23-004）がありました。\n「第４回発送手続き」ご確認ください。\nインボイスとパッキングリストは作成済み。\n発送日を教えて下さい。\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\n既に入金いただいていますので、処理をお願いします。\n【その他】\nお茶を入れる袋は、平袋です。\n\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1676591878.628269",
+        "client_msg_id": "c11e9f5d-c588-4271-85bb-8776a79b140b",
+        "text": "<@U0331FZS7JT> 社長\n　CC: <@U041RJKV5JA> 部長 <@U03SGRNND5L> さん\nお疲れ様です。\nTSE-CHA-23-004（マカオ：CHAA 様）\nUSD895.30-\n2\/16 入金[PayPal]を確認致しました。\n回収(入金)処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1676585549.138599",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gNb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\n　CC: "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長 "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03SGRNND5L"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\nお疲れ様です。\nTSE-CHA-23-004（マカオ：CHAA 様）\nUSD895.30-\n2\/16 入金[PayPal]を確認致しました。\n回収(入金)処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U03SGRNND5L",
+        "type": "message",
+        "ts": "1676600302.678839",
+        "client_msg_id": "c0aef0bc-cbd4-4c56-bb12-25cc3e86a839",
+        "text": "<@U0331FZS7JT> 社長\nCC： <@U041RJKV5JA> 部長\n\nお疲れ様です。\nTSE-CHA-23-004（マカオ：CHAA 様）\n2月20日（月）出荷可能です。\n宜しくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "6c4f7745b891",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-08-07\/3904561660837_6c4f7745b8919f42488e_72.png",
+            "first_name": "足立",
+            "real_name": "足立",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "obayashi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1676585549.138599",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RUbsL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nCC： "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n\nお疲れ様です。\nTSE-CHA-23-004（マカオ：CHAA 様）\n2月20日（月）出荷可能です。\n宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

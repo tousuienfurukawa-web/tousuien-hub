@@ -1,0 +1,385 @@
+[
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1695196306.548059",
+        "client_msg_id": "4a8c8466-2b44-4a14-b470-3f7b782fdc0b",
+        "text": "<@U0331FWGQRM> 執行役\n本日、DHLにて出荷しました。\nAWB NO. 9731364344\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1694440668.725429",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BBz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\n本日、DHLにて出荷しました。\nAWB NO. 9731364344\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1695211081.472789",
+        "client_msg_id": "15d68738-ab60-45b3-86b9-cf941624506d",
+        "text": "<@U0331FZTHEK>\n本件、入金がありました（PayPal）。\nよろしくお願いします。\n\n<@U041RJKV5JA> <@U033G4KN4TD>\n明日の出荷、よろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1694486965.299079",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "laIFS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本件、入金がありました（PayPal）。\nよろしくお願いします。\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n明日の出荷、よろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "確認致します",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1695256126.830509",
+        "client_msg_id": "d23cb0de-c697-4446-b712-19333384f869",
+        "text": "<@U0331FZS7JT> 社長\n　CC: <@U041RJKV5JA> 部長 <@U033G4KN4TD> さん\nお疲れ様です。\nご入金確認致しました。\n・9\/20 [PayPal]\n・136.50 USD\n回収(入金)処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1694486965.299079",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kHu9C",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\n　CC: "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長 "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\nお疲れ様です。\nご入金確認致しました。\n・9\/20 [PayPal]\n・136.50 USD\n回収(入金)処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "入金完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "<@U041RJKV5JA> <@U033G4KN4TD>\nDHLの送り状作成時に、\nディスカウントの金額をどのように入力するかについて。\n\n※出荷用インボイスは商品の価値を通関の人が見るためのものです。\nつまり国のスタンスとして、高額なもの（贅沢品）には税金かけますよ。\nと言う考え方のもとに存在します。\nよって目的としては、その貨物がいくらなのかがわかればいいのです。\n\nなので、発送用のインボイスと請求用インボイス（日本で言う請求書）とでは、\n意味合いは異なります。\nなので送り状に割引額は書かなくても問題ないかと思います。\n当然、送り状に送料も書きませんが、\n発送用のインボイスには、別に書いていても書いていなくてもどちらでもいいのかと思います。\n\n参考に過去のGroene様の案件をご確認ください。\nTSE012-22-1\n\nその他注意事項として、\n\n※ケースには忘れずに同梱メモを入れてください。\n過去の写真を確認し、分からなければ電話ください。\n※今回使用した缶の種類（製缶会社）がわかるように写真を撮っておいてください。\n　蓋を開けたリングプルトップ部分も撮影しておいてください。\n　分からなければ電話ください。",
+        "files": [
+            {
+                "id": "F05T2E2GT7G",
+                "created": 1695258927,
+                "timestamp": 1695258927,
+                "name": "同梱メモ.pdf",
+                "title": "同梱メモ.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U0331FWGQRM",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 23114,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F05T2E2GT7G\/____________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F05T2E2GT7G\/download\/____________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05T2E2GT7G-c4445c4bb5\/_____________thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 909,
+                "thumb_pdf_h": 1284,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F05T2E2GT7G\/____________.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F05T2E2GT7G-43a7bd6e4b",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FWGQRM",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GRYX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nDHLの送り状作成時に、\nディスカウントの金額をどのように入力するかについて。\n\n※出荷用インボイスは商品の価値を通関の人が見るためのものです。\nつまり国のスタンスとして、高額なもの（贅沢品）には税金かけますよ。\nと言う考え方のもとに存在します。\nよって目的としては、その貨物がいくらなのかがわかればいいのです。\n\nなので、発送用のインボイスと請求用インボイス（日本で言う請求書）とでは、\n意味合いは異なります。\nなので送り状に割引額は書かなくても問題ないかと思います。\n当然、送り状に送料も書きませんが、\n発送用のインボイスには、別に書いていても書いていなくてもどちらでもいいのかと思います。\n\n参考に過去のGroene様の案件をご確認ください。\nTSE012-22-1\n\nその他注意事項として、\n\n※ケースには忘れずに同梱メモを入れてください。\n過去の写真を確認し、分からなければ電話ください。\n※今回使用した缶の種類（製缶会社）がわかるように写真を撮っておいてください。\n　蓋を開けたリングプルトップ部分も撮影しておいてください。\n　分からなければ電話ください。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1695260509.684029",
+        "client_msg_id": "99a2dc7f-02c7-47e0-9c63-e904ce576cbe",
+        "thread_ts": "1694970192.971729",
+        "parent_user_id": "U0331FWGQRM",
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1695265874.873379",
+        "client_msg_id": "24E9232C-1D18-4DC8-92F1-690068097127",
+        "text": "<@U041RJKV5JA> <@U033G4KN4TD>\n下記確認の上、\n日本語に変換して発送を\nよろしくお願い致します。\n\nFor 017\n\nName: Manop Panupol  \n \n321-1\nMonoki\nInzai-shi\nChiba-ken\n<tel:2702321|270 2321>\n\n<tel:08047778989|08047778989>\n\n\n",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1695168006.680049",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kNip",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n下記確認の上、\n日本語に変換して発送を\nよろしくお願い致します。\n\nFor 017\n\nName: Manop Panupol  \n \n321-1\nMonoki\nInzai-shi\nChiba-ken\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:2702321",
+                                "text": "270 2321"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:08047778989",
+                                "text": "08047778989"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n\n"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD",
+                    "U041RJKV5JA"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

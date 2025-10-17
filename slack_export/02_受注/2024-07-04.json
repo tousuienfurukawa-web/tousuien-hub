@@ -1,0 +1,670 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1720080805.265639",
+        "client_msg_id": "c53f8cd5-70ab-40db-97eb-fdc614d6e0c2",
+        "text": "<@U041RJKV5JA> cc <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n安いですね。\nこっちで検査できるようにしたいですね！\n\n＜補足＞\nあと、味認識装置も面白そうなので、\n理想としては、ラインナップの商品全ての味をデジタル化できたら面白そうですね。\n<https:\/\/www.shimane-iit.jp\/facility\/owned-facility\/owned-facility10\/105931>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1719823611.306599",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "N2Jtv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n安いですね。\nこっちで検査できるようにしたいですね！\n\n＜補足＞\nあと、味認識装置も面白そうなので、\n理想としては、ラインナップの商品全ての味をデジタル化できたら面白そうですね。\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.shimane-iit.jp\/facility\/owned-facility\/owned-facility10\/105931"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1720082308.093339",
+        "client_msg_id": "4a189c84-9a02-4690-a5b2-3396e09f6d55",
+        "text": "<@U0331FWGQRM>\n <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n検査機関担当者の情報です。\n・検査機関：島根県産業技術センター\n　<https:\/\/www.shimane-iit.jp\/>\n・担当者：生物応用科　科長　渡部　忍様\n　Tel：<tel:0852605126|0852-60-5126>\n　Fax：<tel:0852605135|0852-60-5135>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1719823611.306599",
+        "parent_user_id": "U066P20UQH1",
+        "attachments": [
+            {
+                "image_url": "https:\/\/www.shimane-iit.jp\/theme\/sn-default\/images\/common\/ogp-img.jpg",
+                "image_width": 1202,
+                "image_height": 632,
+                "image_bytes": 573243,
+                "from_url": "https:\/\/www.shimane-iit.jp\/",
+                "service_icon": "https:\/\/www.shimane-iit.jp\/favicon.ico",
+                "id": 1,
+                "original_url": "https:\/\/www.shimane-iit.jp\/",
+                "fallback": "島根県産業技術センター",
+                "text": "島根県産業技術センターは、企業からの技術相談、依頼試験・分析や、共同研究、技術者養成などを通じ、企業と一体となって製品開発や技術力の向上をサポートします。",
+                "title": "島根県産業技術センター",
+                "title_link": "https:\/\/www.shimane-iit.jp\/",
+                "service_name": "shimane-iit.jp"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JW+hJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n検査機関担当者の情報です。\n・検査機関：島根県産業技術センター\n　"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.shimane-iit.jp\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n・担当者：生物応用科　科長　渡部　忍様\n　Tel："
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:0852605126",
+                                "text": "0852-60-5126"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n　Fax："
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:0852605135",
+                                "text": "0852-60-5135"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1720091424.230979",
+        "client_msg_id": "03263C9C-D0C3-454A-8C40-32200CC21186",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> \n021出荷してokとのことです！\n宜しくお願いします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1717870897.138469",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vjMqF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \n021出荷してokとのことです！\n宜しくお願いします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1720144899.388379",
+        "client_msg_id": "d1953d43-3186-4a85-8d68-a788bfa8c24a",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n賞味期限の印字お願いします！DD\/MM\/YYYYの形式で、1年後の出荷日前日（いつもの通り）でお願いします。\nまた、お客様に缶の写真を送ったところ、蓋のラベルが中央からズレてるとご指摘があったので、できるだけ真ん中になるようにお願いいたします:pray:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1719469518.282809",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9DQkR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n賞味期限の印字お願いします！DD\/MM\/YYYYの形式で、1年後の出荷日前日（いつもの通り）でお願いします。\nまた、お客様に缶の写真を送ったところ、蓋のラベルが中央からズレてるとご指摘があったので、できるだけ真ん中になるようにお願いいたします"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "pray",
+                                "unicode": "1f64f"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1720145213.399249",
+        "client_msg_id": "918b1f26-0fc2-4c2b-8309-a4f42775307f",
+        "text": "<@U066P20UQH1>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n蓋のラベルについて修正いたします。\n賞味期限は　EXP 08\/07\/2025 にて行います。\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1719469518.282809",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FwkYn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n蓋のラベルについて修正いたします。\n賞味期限は　EXP 08\/07\/2025 にて行います。\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "pray",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "<@U066P20UQH1> <@U041RJKV5JA>\n蓋ラベル修正しました。\n合わせて印字も行いましたのでご確認お願いいたします。",
+        "files": [
+            {
+                "id": "F07B4SY958A",
+                "created": 1720152470,
+                "timestamp": 1720152470,
+                "name": "2196_0.jpg",
+                "title": "2196_0.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U033G4KN4TD",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 39659,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F07B4SY958A\/2196_0.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F07B4SY958A\/download\/2196_0.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07B4SY958A-27ffdcc11c\/2196_0_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07B4SY958A-27ffdcc11c\/2196_0_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07B4SY958A-27ffdcc11c\/2196_0_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 270,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07B4SY958A-27ffdcc11c\/2196_0_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 360,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07B4SY958A-27ffdcc11c\/2196_0_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07B4SY958A-27ffdcc11c\/2196_0_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 540,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07B4SY958A-27ffdcc11c\/2196_0_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 1066,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07B4SY958A-27ffdcc11c\/2196_0_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 720,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07B4SY958A-27ffdcc11c\/2196_0_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 768,
+                "thumb_1024_h": 1024,
+                "original_w": 1108,
+                "original_h": 1477,
+                "thumb_tiny": "AwAwACSTFAFOoA5oAMUAU7FLigBuKMU7FGKAGEgUgYU09aBzSGSBhTqix6U5TkUCJKSm0UAN600jafbtTs0UANyaeOBSAAdABRQAtFJmkzQB\/9k=",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F07B4SY958A\/2196_0.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F07B4SY958A-9c1109a43d",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F07AY8CTRK8",
+                "created": 1720152505,
+                "timestamp": 1720152505,
+                "name": "2192_0.jpg",
+                "title": "2192_0.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U033G4KN4TD",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 32935,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F07AY8CTRK8\/2192_0.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F07AY8CTRK8\/download\/2192_0.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07AY8CTRK8-c84707f422\/2192_0_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07AY8CTRK8-c84707f422\/2192_0_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07AY8CTRK8-c84707f422\/2192_0_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 270,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07AY8CTRK8-c84707f422\/2192_0_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 360,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07AY8CTRK8-c84707f422\/2192_0_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07AY8CTRK8-c84707f422\/2192_0_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 540,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07AY8CTRK8-c84707f422\/2192_0_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 600,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07AY8CTRK8-c84707f422\/2192_0_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 720,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07AY8CTRK8-c84707f422\/2192_0_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 768,
+                "original_w": 1477,
+                "original_h": 1108,
+                "thumb_tiny": "AwAkADCyBS4paWkA3bS7ahlnxwgz70kNzuba4I+tAE2KCKdRQA3NNdsowHpR1pNvvQMhK+lN21KynsRSKvPzH8BQBOrfIueuKXdTM0ZoATNJmiigBCaSlpKAFozRQaAP\/9k=",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F07AY8CTRK8\/2192_0.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F07AY8CTRK8-df4aacf79f",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U033G4KN4TD",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+toDU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n蓋ラベル修正しました。\n合わせて印字も行いましたのでご確認お願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1720152585.572989",
+        "client_msg_id": "60da9371-b25b-489b-87bc-05c7ab98aff0",
+        "thread_ts": "1719469518.282809",
+        "parent_user_id": "U066P20UQH1"
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1720152665.573719",
+        "client_msg_id": "e4531e4f-a25e-4640-a63e-8e55e2e103a2",
+        "text": "<@U033G4KN4TD>\nありがとうございます！！これで進めてください！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1719469518.282809",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kr\/SE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nありがとうございます！！これで進めてください！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1720157783.414969",
+        "client_msg_id": "b376239e-e51b-4084-aa43-f59b12624110",
+        "text": "<@U0331FZS7JT>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n本日、FedExにて出荷しました。\nAWB NO. 7771 2899 9164\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1716772560.750379",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EUpi+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日、FedExにて出荷しました。\nAWB NO. 7771 2899 9164\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1720161342.071349",
+        "client_msg_id": "cefb0761-30e7-4b55-869c-ef2c9aab396f",
+        "text": "<@U0331FWGQRM>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n本日、EMSにて出荷しました。\nAWB NO. EN328779289JP\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1717870897.138469",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ynl+D",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日、EMSにて出荷しました。\nAWB NO. EN328779289JP\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1659170624.186269",
+        "client_msg_id": "b9562a98-025c-40b7-be10-0b3e162b4003",
+        "text": "<!channel>\nお疲れ様です。\n8\/1(月)健康診断のため、出社が遅れると思います。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zgND",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nお疲れ様です。\n8\/1(月)健康診断のため、出社が遅れると思います。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT",
+                    "U03BLQ65GK0",
+                    "U0331FWGQRM"
+                ],
+                "count": 3
+            }
+        ]
+    }
+]

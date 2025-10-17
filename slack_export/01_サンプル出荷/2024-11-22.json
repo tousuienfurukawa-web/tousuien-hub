@@ -1,0 +1,339 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1732279676.551319",
+        "client_msg_id": "f253cea4-352b-4a8d-b323-7d4a2578fdf3",
+        "text": "<@U0606SPN4BW>\nお客様から無事に届いたと連絡がありました！\nありがとうございます:relaxed:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1731714271.229929",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xBFk8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nお客様から無事に届いたと連絡がありました！\nありがとうございます"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "relaxed",
+                                "unicode": "263a-fe0f"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "よろしくお願いします",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知-1",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1732292547.100349",
+        "client_msg_id": "8e593ac5-86d6-4944-9f73-207fbfe35fdc",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:flag-au:オーストラリア Gordon Siu様(HPカート)からサンプル注文を頂きました。\n*TSE-GOR-SPL-001-24*",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1732292547.100349",
+        "reply_count": 12,
+        "reply_users_count": 4,
+        "latest_reply": "1735038567.464679",
+        "reply_users": [
+            "U0606SPN4BW",
+            "U0331FZTHEK",
+            "U066P20UQH1",
+            "U05KGS6HN9H"
+        ],
+        "replies": [
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1732292650.381369"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1732494997.331919"
+            },
+            {
+                "user": "U066P20UQH1",
+                "ts": "1732575056.709989"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1732578722.190229"
+            },
+            {
+                "user": "U066P20UQH1",
+                "ts": "1732578907.993409"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1732616591.077009"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1732799581.503059"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1732834662.651119"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1733206540.182779"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1733214493.732169"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1735007200.286339"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1735038567.464679"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1735038567.464679",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "K7G5o",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-au",
+                                "unicode": "1f1e6-1f1fa"
+                            },
+                            {
+                                "type": "text",
+                                "text": "オーストラリア Gordon Siu様(HPカート)からサンプル注文を頂きました。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-GOR-SPL-001-24",
+                                "style": {
+                                    "bold": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "下記へ発送手続き、および発送日のお知らせをお願いします！\n\n\n<@U0331FZTHEK> 入金確認済 (Shopifyペイメント USD30.60\/JPY4443), 回収処理をお願いします！\n↑*Shopifyペイメントの当座口座の設定は引き続き手続き中です。\n　進捗があり次第、お知らせします！\n\n\n▼サンプル内容 (計 4点)\n&lt;各20g&gt;\nOrganic Matcha Upper - 1 (鹿児島製茶 鹿児島 A)\nOrganic Matcha Upper - 2 (鹿児島製茶 鹿児島 1A)\nOrganic Matcha Middle - 1 (鹿児島製茶 鹿児島 B)\nOrganic Matcha Regular - 2 (まるゑい 有機抹茶3000)\n\n\n袋指定なし、\nエージレス無し、\n品名ラベル貼り。\n価格表示：なし\n\n\n発送:DHL\n\n\n----------------\nName: Gordon Siu\nAddress: 33 Newber Street, Sunnybank, Queensland\nCountry: Australia\nPostal code: 4109\nPhone: <tel:+61490800851|+61490800851>\ne-mail: <mailto:hello@ichibanmatcha.com.au|hello@ichibanmatcha.com.au>\n----------------",
+        "files": [
+            {
+                "id": "F0823CTGP5H",
+                "created": 1732292553,
+                "timestamp": 1732292553,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 176978,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0823CTGP5H\/image.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0823CTGP5H\/download\/image.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0823CTGP5H-17a2f6aa9c\/image_64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0823CTGP5H-17a2f6aa9c\/image_80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0823CTGP5H-17a2f6aa9c\/image_360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 330,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0823CTGP5H-17a2f6aa9c\/image_480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 440,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0823CTGP5H-17a2f6aa9c\/image_160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0823CTGP5H-17a2f6aa9c\/image_720.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 660,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0823CTGP5H-17a2f6aa9c\/image_800.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 872,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0823CTGP5H-17a2f6aa9c\/image_960.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 880,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0823CTGP5H-17a2f6aa9c\/image_1024.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 939,
+                "thumb_1024_h": 1024,
+                "original_w": 1040,
+                "original_h": 1134,
+                "thumb_tiny": "AwAwACzQ2gt0p20CkB+YjB+uKdn2oATFIVHpSkgdaQkEcUAG0Z6UU4U2gBRR+dIGySPSlwaAEZFfG5QceopAqKp2qB9BTuaKABelIetAzmg9aADOKM0jUnNADs+5\/Kj8aQUvegAzzRS8UlAH\/9k=",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F0823CTGP5H\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F0823CTGP5H-10d1219b89",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0606SPN4BW",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RsSjH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "下記へ発送手続き、および発送日のお知らせをお願いします！\n\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 入金確認済 (Shopifyペイメント USD30.60\/JPY4443), 回収処理をお願いします！\n↑*Shopifyペイメントの当座口座の設定は引き続き手続き中です。\n　進捗があり次第、お知らせします！\n\n\n▼サンプル内容 (計 4点)\n<各20g>\nOrganic Matcha Upper - 1 (鹿児島製茶 鹿児島 A)\nOrganic Matcha Upper - 2 (鹿児島製茶 鹿児島 1A)\nOrganic Matcha Middle - 1 (鹿児島製茶 鹿児島 B)\nOrganic Matcha Regular - 2 (まるゑい 有機抹茶3000)\n\n\n袋指定なし、\nエージレス無し、\n品名ラベル貼り。\n価格表示：なし\n\n\n発送:DHL\n\n\n----------------\nName: Gordon Siu\nAddress: 33 Newber Street, Sunnybank, Queensland\nCountry: Australia\nPostal code: 4109\nPhone: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:+61490800851",
+                                "text": "+61490800851"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\ne-mail: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:hello@ichibanmatcha.com.au",
+                                "text": "hello@ichibanmatcha.com.au",
+                                "unsafe": true
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n----------------"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1732292650.381369",
+        "client_msg_id": "c467e8ab-8cb7-4d36-9141-47ed41a00247",
+        "thread_ts": "1732292547.100349",
+        "parent_user_id": "U0606SPN4BW",
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "eyes",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

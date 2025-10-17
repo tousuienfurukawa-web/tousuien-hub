@@ -1,0 +1,199 @@
+[
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1738834181.646779",
+        "edited": {
+            "user": "U041RJKV5JA",
+            "ts": "1738882792.000000"
+        },
+        "client_msg_id": "cfa74024-951a-4136-b2c9-e7f32f4b3ebc",
+        "text": "<@U0331FWGQRM>\n <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n明日注文が確定した場合の出荷可能日をご連絡いたします。\n製品完成日：２月12日（水）\nCOI取得日：2月20日（木）\n*出荷可能日：2月20日（木）*\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1738815385.956979",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XJ0Z0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n明日注文が確定した場合の出荷可能日をご連絡いたします。\n製品完成日：２月12日（水）\nCOI取得日：2月20日（木）\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "出荷可能日：2月20日（木）",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U08BA1AGC0H",
+        "text": "<@U08BA1AGC0H>さんがチャンネルに参加しました",
+        "inviter": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1738853690.316439"
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1738887361.630659",
+        "client_msg_id": "f17cf6a1-86e4-4487-851e-de36c530160e",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n注文確定しました。\n上記スケジュールで進めてもらえますか？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1738815385.956979",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UrFEV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n注文確定しました。\n上記スケジュールで進めてもらえますか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD",
+                    "U041RJKV5JA"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1738887426.421069",
+        "client_msg_id": "ca739ad9-eb37-4c9d-be13-edce01fd9600",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n・TSE046-24と同様のGFR Pharma向けの注文\n・同等性証明が必要\n・インボイス、パッキングリスト、COAにProduction Date、Expiration Dateを入れる\n　→ Expiration Dateは、Production date +2年-1day\n・下記の内容のラベルを袋と外箱の両方に貼る\nーーーーーーーーーーーーーーーーーーー\n Teangle Organic Matcha 49 (5KG)\n PO 65111\n RAW. 210379\n Manufacturing date : February 12, 2025\n Expiration date : February 11, 2027\n Lot Number : TSE006-25\nーーーーーーーーーーーーーーーーーーー\n・出荷前にCOAと同等性PDFをメーリスで送る\n・出荷手配は先方が行う\n・全ての書類のコピーをCarton No.1に入れる\n・Carton No.1のラベルに、書類が入っていることを明記する",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1738815385.956979",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vGtn1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n・TSE046-24と同様のGFR Pharma向けの注文\n・同等性証明が必要\n・インボイス、パッキングリスト、COAにProduction Date、Expiration Dateを入れる\n　→ Expiration Dateは、Production date +2年-1day\n・下記の内容のラベルを袋と外箱の両方に貼る\nーーーーーーーーーーーーーーーーーーー\n Teangle Organic Matcha 49 (5KG)\n PO 65111\n RAW. 210379\n Manufacturing date : February 12, 2025\n Expiration date : February 11, 2027\n Lot Number : TSE006-25\nーーーーーーーーーーーーーーーーーーー\n・出荷前にCOAと同等性PDFをメーリスで送る\n・出荷手配は先方が行う\n・全ての書類のコピーをCarton No.1に入れる\n・Carton No.1のラベルに、書類が入っていることを明記する"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

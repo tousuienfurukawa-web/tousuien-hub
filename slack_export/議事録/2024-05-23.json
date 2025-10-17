@@ -1,0 +1,92 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1716530707.174329",
+        "client_msg_id": "23db0c02-1c1f-49a9-9f7b-62cc7250e7c7",
+        "text": "<@U0331FZS7JT> <@U03BLQ65GK0>\n本日15:20\nMTG URL\n<https:\/\/meet.google.com\/itv-xafx-vbw>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1716530707.174329",
+        "reply_count": 2,
+        "reply_users_count": 1,
+        "latest_reply": "1716546497.679369",
+        "reply_users": [
+            "U0331FZS7JT"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1716536324.427679"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1716546497.679369"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1716546497.679369",
+        "attachments": [
+            {
+                "from_url": "https:\/\/meet.google.com\/itv-xafx-vbw",
+                "service_icon": "http:\/\/fonts.gstatic.com\/s\/i\/productlogos\/meet_2020q4\/v1\/web-24dp\/logo_meet_2020q4_color_1x_web_24dp.png",
+                "thumb_url": "https:\/\/fonts.gstatic.com\/s\/i\/productlogos\/meet_2020q4\/v1\/web-96dp\/logo_meet_2020q4_color_2x_web_96dp.png",
+                "thumb_width": 192,
+                "thumb_height": 192,
+                "id": 1,
+                "original_url": "https:\/\/meet.google.com\/itv-xafx-vbw",
+                "fallback": "Meet",
+                "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+                "title": "Meet",
+                "title_link": "https:\/\/meet.google.com\/itv-xafx-vbw",
+                "service_name": "meet.google.com"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AfG8V",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日15:20\nMTG URL\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/meet.google.com\/itv-xafx-vbw"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

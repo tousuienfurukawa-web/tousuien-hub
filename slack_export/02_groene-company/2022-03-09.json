@@ -1,0 +1,95 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1646889363.185749",
+        "client_msg_id": "dd7a3a3a-0f15-4b9e-b6ef-712d364157bf",
+        "text": "情報共有<!channel>\nGreen life（オランダ向）の発送につきまして、\nTNTで送っておりますが、\n現地国で、TNT→Fedexに引き渡しがありお客様の元まで届けられるそうです。\nですので、trucking numberがfedexのものに切り替わるそうです。\n\nTSE002-22 Fedex Trucking Number : 5622 8435 7707\nTSE006-22 Fedex Trucking Number : 5650 6816 7206\n\n両方とも配達完了済",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zln",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "情報共有"
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nGreen life（オランダ向）の発送につきまして、\nTNTで送っておりますが、\n現地国で、TNT→Fedexに引き渡しがありお客様の元まで届けられるそうです。\nですので、trucking numberがfedexのものに切り替わるそうです。\n\nTSE002-22 Fedex Trucking Number : 5622 8435 7707\nTSE006-22 Fedex Trucking Number : 5650 6816 7206\n\n両方とも配達完了済"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1646889487.677339",
+        "client_msg_id": "961b1c85-ece5-4914-a918-1989d4eca834",
+        "text": ":了解です:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yiWMv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "了解です"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,530 @@
+[
+    {
+        "user": "U03BLQ65GK0",
+        "type": "message",
+        "ts": "1723447749.380929",
+        "client_msg_id": "486AC6BA-DD9C-40E9-9370-9FB075836044",
+        "text": "<@U0331FWGQRM> \n碾茶が7kgぐらいありますが、挽いたのは無いので、盆明けから挽く予定になってます。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "8126b71e44ec",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-04-17\/3403818627748_8126b71e44ec1508fdbd_72.png",
+            "first_name": "daiki",
+            "real_name": "daiki oka",
+            "display_name": "daiki",
+            "team": "T033D70RR6H",
+            "name": "daiki.oka",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1723019411.737469",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uyghc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \n碾茶が7kgぐらいありますが、挽いたのは無いので、盆明けから挽く予定になってます。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1723514215.836769",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1723518155.000000"
+        },
+        "client_msg_id": "0db6688c-e987-43ac-adbc-a1788c50ad9b",
+        "text": "<@U041RJKV5JA>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n【現状共有】\n~先ほどUPSと話しましたが、現状どんな書類が必要なのか、また何が不備なのかは分からない（連絡が来ていない）ということでした。~\n~UPS JAPANにこちらから確認をするよう依頼しましたが、~\n~ペガサス経由なためペガサスと連絡を取り合わなければならない旨確認しました。~\n\nUS現地のブローカーからお客様経由で下記の書類のデータが必要と言われました。\n・AWB（送付済み）\n・Arrival Notice (A\/N)\nArrival Notice：貨物が輸入港に到着する前日、または、数日前に船会社が発行する貨物到着案内のこと\n通常、荷受人が受け取るのが一般的ということですが、来ていないそうなのでこちらに確認がありました。\n\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1716164173.058389",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "P62HT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n【現状共有】\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "先ほどUPSと話しましたが、現状どんな書類が必要なのか、また何が不備なのかは分からない（連絡が来ていない）ということでした。",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "UPS JAPANにこちらから確認をするよう依頼しましたが、",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "ペガサス経由なためペガサスと連絡を取り合わなければならない旨確認しました。",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nUS現地のブローカーからお客様経由で下記の書類のデータが必要と言われました。\n・AWB（送付済み）\n・Arrival Notice (A\/N)\nArrival Notice：貨物が輸入港に到着する前日、または、数日前に船会社が発行する貨物到着案内のこと\n通常、荷受人が受け取るのが一般的ということですが、来ていないそうなのでこちらに確認がありました。\n\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "確認中",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1723518243.488039",
+        "client_msg_id": "2f211d76-ce76-4937-814f-4248949c7240",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <@U0331FZTHEK>\nTSE-MTC-008-24\nサウジ：Macha Cereminial様から注文がありました。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1723518243.488039",
+        "reply_count": 7,
+        "reply_users_count": 3,
+        "latest_reply": "1724822962.395199",
+        "reply_users": [
+            "U0331FZS7JT",
+            "U0331FZTHEK",
+            "U05KGS6HN9H"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1723518439.754179"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1723767358.602149"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1724119594.049369"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1724308536.332309"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1724633661.952109"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1724633942.723139"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1724822962.395199"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "K2aBX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nTSE-MTC-008-24\nサウジ：Macha Cereminial様から注文がありました。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U033G4KN4TD",
+                    "U05KGS6HN9H"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1723518439.754179",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1723524225.000000"
+        },
+        "client_msg_id": "b989e0cc-fa6c-42d0-a049-2913e8e3aa4f",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n出荷書類は前回同様でお願いします。\n\n30g bagのラベルについては必要か否かを確認中です。\n\n発送可能日がわかったら教えて下さい。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1723518243.488039",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3HV7x",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷書類は前回同様でお願いします。\n\n30g bagのラベルについては必要か否かを確認中です。\n\n発送可能日がわかったら教えて下さい。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1723519684.533409",
+        "client_msg_id": "175784bb-06fa-4d4c-a994-06cb368c9ba8",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <@U0331FZTHEK>\nTSE-RUS-005-24\nインドネシア：Ms.Caitlin Rusli(Insta)様から注文が入りました。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1723519684.533409",
+        "reply_count": 6,
+        "reply_users_count": 3,
+        "latest_reply": "1724919553.003599",
+        "reply_users": [
+            "U0331FZS7JT",
+            "U0331FZTHEK",
+            "U041RJKV5JA"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1723519710.581879"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1723783258.969139"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1723853028.180109"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1724659282.091509"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1724746707.005209"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1724919553.003599"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lpuX0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nTSE-RUS-005-24\nインドネシア：Ms.Caitlin Rusli(Insta)様から注文が入りました。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U033G4KN4TD",
+                    "U05KGS6HN9H"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1723519710.581879",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1723519722.000000"
+        },
+        "client_msg_id": "a8b58bed-cb9a-47a2-a527-36a3fd5eb309",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n発送可能日が判明したら教えて下さい。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1723519684.533409",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FakT8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n発送可能日が判明したら教えて下さい。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1723521311.608979",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1723521337.000000"
+        },
+        "client_msg_id": "bf2fcfb8-7e3e-4e08-a3bc-ee980c871e0a",
+        "text": "<@U0331FWGQRM>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n60g × 1000bags (500bags × 2case)\n本日8\/13（木）出荷完了しました。\n\nFedEx Tracking  No.：7778 9814 7653\n\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1722095429.260419",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "196Y+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n60g × 1000bags (500bags × 2case)\n本日8\/13（木）出荷完了しました。\n\nFedEx Tracking  No.：7778 9814 7653\n\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM",
+                    "U041RJKV5JA",
+                    "U05KGS6HN9H"
+                ],
+                "count": 3
+            },
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "saluting_face",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

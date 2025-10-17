@@ -1,0 +1,126 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U08FZUNPSQ3",
+        "text": "<@U08FZUNPSQ3>さんがチャンネルに参加しました",
+        "type": "message",
+        "ts": "1741050946.851089"
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1741066680.078819",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1741066776.000000"
+        },
+        "client_msg_id": "776c836d-8523-485d-9c1f-16cf697cfc47",
+        "text": "<@U08FZUNPSQ3> <@U0331FZTHEK>\n顧客情報登録、商品登録をお願いします。\n下記のお客さま、2025年以降分のみ、でOKです。\n\nteangle（CND）\nGreen Life（Netherlands）\nGenuine（CND）\njorge（US）\nbangoshi（CND）",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1741066680.078819",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1741067599.382999",
+        "reply_users": [
+            "U0331FWGQRM"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1741067599.382999"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1741067599.382999",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "K3tK4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U08FZUNPSQ3"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n顧客情報登録、商品登録をお願いします。\n下記のお客さま、2025年以降分のみ、でOKです。\n\nteangle（CND）\nGreen Life（Netherlands）\nGenuine（CND）\njorge（US）\nbangoshi（CND）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "",
+        "files": [
+            {
+                "id": "F08G317CUS0",
+                "created": 1741067595,
+                "timestamp": 1741067595,
+                "name": "製品原料一覧 (Groene)20250124.xlsx",
+                "title": "製品原料一覧 (Groene)20250124.xlsx",
+                "mimetype": "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "filetype": "xlsx",
+                "pretty_type": "Excel Spreadsheet",
+                "user": "U0331FWGQRM",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 52523,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F08G317CUS0\/____________________groene_20250124.xlsx?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F08G317CUS0\/download\/____________________groene_20250124.xlsx?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "converted_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F08G317CUS0-a52c77a497\/____________________groene_20250124_converted.pdf?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F08G317CUS0-a52c77a497\/____________________groene_20250124_thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 909,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F08G317CUS0\/____________________groene_20250124.xlsx",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F08G317CUS0-f65804599a",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FWGQRM",
+        "display_as_bot": false,
+        "type": "message",
+        "ts": "1741067599.382999",
+        "client_msg_id": "a30e8d1c-427e-4b8a-8ac3-5707d63382e7",
+        "thread_ts": "1741066680.078819",
+        "parent_user_id": "U0331FWGQRM"
+    }
+]

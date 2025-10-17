@@ -1,0 +1,256 @@
+[
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1713518882.301339",
+        "client_msg_id": "ecbbf1e8-81c8-4a71-8f55-3ec3dca94809",
+        "text": "<@U05KGS6HN9H>\nお疲れ様です！\n発送依頼はまだなのですが、先方から以下を知りたいと連絡が来ております。\n1と2について、ペガサスにご確認いただけますでしょうか？\nよろしくお願いいたします。\n```1. Port From:\n2. Port to:\n3. Item:\n4. Weight:\n5. Air or Sea:\n6. Container size:\n7. CBM (if LCL Cargo):\n8. And other info:```",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1712544805.724429",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2OAqC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nお疲れ様です！\n発送依頼はまだなのですが、先方から以下を知りたいと連絡が来ております。\n1と2について、ペガサスにご確認いただけますでしょうか？\nよろしくお願いいたします。\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. Port From:\n2. Port to:\n3. Item:\n4. Weight:\n5. Air or Sea:\n6. Container size:\n7. CBM (if LCL Cargo):\n8. And other info:"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "確認致します",
+                "users": [
+                    "U05KGS6HN9H"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1713518904.759329",
+        "client_msg_id": "b6e37627-5e71-445e-9bc9-dabc48faa4e3",
+        "text": "CC:　<@U0331FWGQRM>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1712544805.724429",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8nOu3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "CC:　"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1713549714.128279",
+        "client_msg_id": "1c58d6d0-7994-40ca-9557-4774c5278d83",
+        "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD>\n下記サンプルを各20gを私の自宅に送っていただけますか？\n最短発送だとありがたいです。ダンボールじゃなくてOKです。\n\norganic matcha middle-1\norganic matcha middle-2\norganic matcha regular-1\norganic matcha regular-2\norganic matcha lower-1\norganic matcha lower-2\n\nnon organic matcha middle-1\nnon organic matcha middle-2\nnon organic matcha regular-1\nnon organic matcha regular-2\nnon organic matcha lower-1\nnon organic matcha lower-2",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705643364.941719",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hKcD2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n下記サンプルを各20gを私の自宅に送っていただけますか？\n最短発送だとありがたいです。ダンボールじゃなくてOKです。\n\norganic matcha middle-1\norganic matcha middle-2\norganic matcha regular-1\norganic matcha regular-2\norganic matcha lower-1\norganic matcha lower-2\n\nnon organic matcha middle-1\nnon organic matcha middle-2\nnon organic matcha regular-1\nnon organic matcha regular-2\nnon organic matcha lower-1\nnon organic matcha lower-2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U05KGS6HN9H",
+                    "U033G4KN4TD",
+                    "U041RJKV5JA"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1713589579.232699",
+        "client_msg_id": "fbbf34d7-8fcc-499c-943e-3e45b5d5ed32",
+        "text": "<@U0331FWGQRM>\n<@U041RJKV5JA> <@U033G4KN4TD>\n本日の佐川で発送いたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705643364.941719",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3DP\/P",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日の佐川で発送いたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

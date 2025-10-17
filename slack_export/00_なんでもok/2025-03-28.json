@@ -1,0 +1,99 @@
+[
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1743153638.005059",
+        "client_msg_id": "17abd023-3b02-4dc4-87b1-b9d1d8825290",
+        "text": "<!channel>\n【:flag-nl:オランダ・:sunny:夏時間のお知らせです】\n3\/30(日)からヨーロッパがサマータイムに入ります。\n現在の*日本との時差8時間→ 7時間*となります。\n重なる業務時間が1時間長くなるので、連絡が取りやすくなるかと思います。＾＾\nよろしくお願いいたします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "96xXH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n【"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-nl",
+                                "unicode": "1f1f3-1f1f1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "オランダ・"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sunny",
+                                "unicode": "2600-fe0f"
+                            },
+                            {
+                                "type": "text",
+                                "text": "夏時間のお知らせです】\n3\/30(日)からヨーロッパがサマータイムに入ります。\n現在の"
+                            },
+                            {
+                                "type": "text",
+                                "text": "日本との時差8時間→ 7時間",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "となります。\n重なる業務時間が1時間長くなるので、連絡が取りやすくなるかと思います。＾＾\nよろしくお願いいたします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U05KGS6HN9H",
+                    "U033G4KN4TD"
+                ],
+                "count": 3
+            },
+            {
+                "name": "saluting_face",
+                "users": [
+                    "U066P20UQH1",
+                    "U0331FZS7JT"
+                ],
+                "count": 2
+            },
+            {
+                "name": "low_brightness",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

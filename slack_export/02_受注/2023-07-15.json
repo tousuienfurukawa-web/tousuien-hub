@@ -1,0 +1,201 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1689404418.908259",
+        "client_msg_id": "b7e8a7dc-b2f8-4281-b957-ea4e628b0a7b",
+        "text": "<@U0331FZTHEK> さん\n\n本件、PayPalに入金がありました。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1689322644.378759",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jal",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\n\n本件、PayPalに入金がありました。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1689432880.979229",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1689575136.000000"
+        },
+        "client_msg_id": "7660061e-c6a7-448e-9e40-65dbb4302830",
+        "text": "<@U041RJKV5JA> 部長\nタイ(新規客)：Oliver Church(Insta)\nから注文（第１回）がありました。\n香岳園に原料の発注（各１kg × １）をお願いします。\n・手摘み「さみどり」¥25,000\/kg\n・「さえみどり」¥10,000\/kg(でしたっけ？9,000\/kg？)\n\n発送：EMS\n書類：不要\n\n正確な住所は今、確認しています。\n\n<@U0331FZTHEK> さん\n既にWiseで送金したと連絡がありました。\n※JPYでの振込（当座）\n<https:\/\/wise.com\/en\/track\/5a4c14bed7b741a2a612c42c141f5695?utm_source=web&amp;utm_medium=copy&amp;utm_content=moneyTracker>\n\n火曜日確認をお願いします！\nよろしく願いします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1689432880.979229",
+        "reply_count": 6,
+        "reply_users_count": 3,
+        "latest_reply": "1689910283.905949",
+        "reply_users": [
+            "U041RJKV5JA",
+            "U0331FZS7JT",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1689638945.392399"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1689648859.254849"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1689648993.482379"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1689653360.404409"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1689781443.033849"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1689910283.905949"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "attachments": [
+            {
+                "from_url": "https:\/\/wise.com\/en\/track\/5a4c14bed7b741a2a612c42c141f5695?utm_source=web&utm_medium=copy&utm_content=moneyTracker",
+                "image_url": "https:\/\/wise.com\/images\/social\/twitter-og.png",
+                "image_width": 2048,
+                "image_height": 1024,
+                "image_bytes": 26257,
+                "service_icon": "https:\/\/wise.com\/public-resources\/assets\/icons\/wise-personal\/apple_touch_icon.png",
+                "id": 1,
+                "original_url": "https:\/\/wise.com\/en\/track\/5a4c14bed7b741a2a612c42c141f5695?utm_source=web&amp;utm_medium=copy&amp;utm_content=moneyTracker",
+                "fallback": "Wise: The clever new way to send money abroad",
+                "text": "Banks sting you with hidden charges when you send money abroad. But that’s yesterday’s problem. Say hello to Wise, the clever new way to move your money.",
+                "title": "The clever new way to send money abroad",
+                "title_link": "https:\/\/wise.com\/en\/track\/5a4c14bed7b741a2a612c42c141f5695?utm_source=web&utm_medium=copy&utm_content=moneyTracker",
+                "service_name": "Wise"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "B=OU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nタイ(新規客)：Oliver Church(Insta)\nから注文（第１回）がありました。\n香岳園に原料の発注（各１kg × １）をお願いします。\n・手摘み「さみどり」¥25,000\/kg\n・「さえみどり」¥10,000\/kg(でしたっけ？9,000\/kg？)\n\n発送：EMS\n書類：不要\n\n正確な住所は今、確認しています。\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\n既にWiseで送金したと連絡がありました。\n※JPYでの振込（当座）\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/wise.com\/en\/track\/5a4c14bed7b741a2a612c42c141f5695?utm_source=web&utm_medium=copy&utm_content=moneyTracker"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n火曜日確認をお願いします！\nよろしく願いします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

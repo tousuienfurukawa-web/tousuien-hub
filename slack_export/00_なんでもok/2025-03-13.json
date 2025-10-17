@@ -1,0 +1,133 @@
+[
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1741857295.099229",
+        "edited": {
+            "user": "U066P20UQH1",
+            "ts": "1741857309.000000"
+        },
+        "client_msg_id": "c5131988-033c-4098-ba15-f6b40240afc4",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n製造指示書　営業作成途中共有場所",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1741857295.099229",
+        "reply_count": 2,
+        "reply_users_count": 1,
+        "latest_reply": "1741950154.821669",
+        "reply_users": [
+            "U066P20UQH1"
+        ],
+        "replies": [
+            {
+                "user": "U066P20UQH1",
+                "ts": "1741857338.008859"
+            },
+            {
+                "user": "U066P20UQH1",
+                "ts": "1741950154.821669"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1741950154.821669",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ox2Aq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n製造指示書　営業作成途中共有場所"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "ok_hand",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1741857338.008859",
+        "client_msg_id": "badd72c2-08da-49ba-a250-d7325cc171fd",
+        "text": "TSE-RKM-001-25　林\nTSE012-25 松井\nTSE-MTK-002-25 林",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1741857295.099229",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rynJ0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "TSE-RKM-001-25　林\nTSE012-25 松井\nTSE-MTK-002-25 林"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

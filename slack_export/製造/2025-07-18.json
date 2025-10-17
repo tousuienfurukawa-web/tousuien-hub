@@ -1,0 +1,212 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1752881654.789709",
+        "client_msg_id": "869fecee-71d6-495c-b2f6-1e3ba34b6202",
+        "text": "<!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\nCC：<@U0840UVFVA8> <@U03BLQ65GK0>\nすみません粉砕が遅れているので、7月22日（火）に確定させます。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1752459187.158539",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nqhmr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nCC："
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0840UVFVA8"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nすみません粉砕が遅れているので、7月22日（火）に確定させます。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知-1",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1752885931.773399",
+        "client_msg_id": "4e396eb2-ce63-4205-9a03-b6016db0c4e5",
+        "text": "<@U0840UVFVA8> <@U03BLQ65GK0>\n<!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\nCC：<!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n*宇治抹茶 単一品種*\n粉砕スケジュール(供給可能日・粉砕数量)について",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1752885931.773399",
+        "reply_count": 2,
+        "reply_users_count": 1,
+        "latest_reply": "1753411231.343329",
+        "reply_users": [
+            "U0331FZS7JT"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1752885936.929479"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1753411231.343329"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1753411231.343329",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gF5gG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0840UVFVA8"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nCC："
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "宇治抹茶 単一品種",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n粉砕スケジュール(供給可能日・粉砕数量)について"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1752885936.929479",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1752885987.000000"
+        },
+        "client_msg_id": "08e1730a-a110-407d-b323-1f47c1199704",
+        "text": "2025年7月19日時点、粉砕の進捗どんな感じですか？\n・さみどり\n・ごこう\n・うじひかり\n・あさひ\n・やぶきた\n・きらり-31",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1752885931.773399",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "peMXn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025年7月19日時点、粉砕の進捗どんな感じですか？\n・さみどり\n・ごこう\n・うじひかり\n・あさひ\n・やぶきた\n・きらり-31"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1743469445.022189",
+        "client_msg_id": "efefe0e5-f8a7-4631-9ace-d0fc1afdcdc5",
+        "text": "<!channel>\nメモ兼ねて\nサプライヤー：まるゑい\n非有機の抹茶をサンプル依頼\n\n¥10,000\/kg\n¥5,000\/kg\n¥4,000\/kg\n\n品質・種々の情報確認中",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Gk2wQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nメモ兼ねて\nサプライヤー：まるゑい\n非有機の抹茶をサンプル依頼\n\n¥10,000\/kg\n¥5,000\/kg\n¥4,000\/kg\n\n品質・種々の情報確認中"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U08L89G6JSG",
+        "text": "<@U08L89G6JSG>さんがチャンネルに参加しました",
+        "inviter": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1743469792.543229"
+    }
+]

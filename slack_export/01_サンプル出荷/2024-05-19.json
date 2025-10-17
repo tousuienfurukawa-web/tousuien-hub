@@ -1,0 +1,571 @@
+[
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1716112358.511099",
+        "edited": {
+            "user": "U0606SPN4BW",
+            "ts": "1716202853.000000"
+        },
+        "client_msg_id": "bfca670e-a2ee-4919-8f45-412800d7ac9f",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\nカナダ Mathias Moise様からサンプル注文を頂きました！\n*TSL-MTM-SPL-001-24*\n~**PayPal決済完了前*ですが、先に下記へ発送手続きおよび発送可能日のお知らせをお願いします！~\n\n<@U0331FZTHEK> ~只今PayPal入金確認待ちです。(USD50)~\n*↑5\/19 PayPal入金確認完了*\n\n▼サンプル内容 (計 12点)\n<各20g>\nOrganic Matcha Upper - 1 鹿児島製茶 (鹿児島 A)\nOrganic Matcha Upper - 2 鹿児島製茶 (鹿児島 1A)\nOrganic Matcha Middle - 1 鹿児島製茶 (鹿児島 B)\nOrganic Matcha Middle - 2 鹿児島製茶 (鹿児島 C)\nOrganic Matcha Regular - 1 鹿児島製茶 (鹿児島D)\nOrganic Matcha Regular - 2 まるゑい (有機抹茶3000)\n\nNon Organic Matcha Upper - 1 出雲精茶 (出雲精茶G)\nNon Organic Matcha Upper - 2 出雲精茶 (出雲精茶R)\nNon Organic Matcha Middle - 1 出雲精茶 (出雲精茶T)\nNon Organic Matcha Middle - 2 出雲精茶 (出雲精茶N)\nNon Organic Matcha Regular - 1 出雲精茶 (出雲精茶F)\nNon Organic Matcha Regular - 2 出雲精茶 (出雲精茶W)\n\n袋指定なし、エージレス無し、品名ラベル貼り。\n\n発送:DHL\n\n\n---------------------------------------\n ・Company name（brand name）: Haven & Hearth Tea Company\n ・Your name:  Mathias Moise\n ・Shipping Address: 28 fernwood Place, Kitchener Ontario Canada\n ・Postal code（Zip code）: N2M 2Z2\n ・Phone number: 5195804992\n ・email address: <mailto:havenhearthtea@gmail.com|havenhearthtea@gmail.com>\n---------------------------------------",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1716112358.511099",
+        "reply_count": 3,
+        "reply_users_count": 2,
+        "latest_reply": "1716353904.468459",
+        "reply_users": [
+            "U0331FZTHEK",
+            "U05KGS6HN9H"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1716158720.141599"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1716169193.686709"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1716353904.468459"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1716353904.468459",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lnDdr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nカナダ Mathias Moise様からサンプル注文を頂きました！\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSL-MTM-SPL-001-24",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "*PayPal決済完了前",
+                                "style": {
+                                    "bold": true,
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "ですが、先に下記へ発送手続きおよび発送可能日のお知らせをお願いします！",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "只今PayPal入金確認待ちです。(USD50)",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "↑5\/19 PayPal入金確認完了",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n▼サンプル内容 (計 12点)\n<各20g>\nOrganic Matcha Upper - 1 鹿児島製茶 (鹿児島 A)\nOrganic Matcha Upper - 2 鹿児島製茶 (鹿児島 1A)\nOrganic Matcha Middle - 1 鹿児島製茶 (鹿児島 B)\nOrganic Matcha Middle - 2 鹿児島製茶 (鹿児島 C)\nOrganic Matcha Regular - 1 鹿児島製茶 (鹿児島D)\nOrganic Matcha Regular - 2 まるゑい (有機抹茶3000)\n\nNon Organic Matcha Upper - 1 出雲精茶 (出雲精茶G)\nNon Organic Matcha Upper - 2 出雲精茶 (出雲精茶R)\nNon Organic Matcha Middle - 1 出雲精茶 (出雲精茶T)\nNon Organic Matcha Middle - 2 出雲精茶 (出雲精茶N)\nNon Organic Matcha Regular - 1 出雲精茶 (出雲精茶F)\nNon Organic Matcha Regular - 2 出雲精茶 (出雲精茶W)\n\n袋指定なし、エージレス無し、品名ラベル貼り。\n\n発送:DHL\n\n\n---------------------------------------\n ・Company name（brand name）: Haven & Hearth Tea Company\n ・Your name:  Mathias Moise\n ・Shipping Address: 28 fernwood Place, Kitchener Ontario Canada\n ・Postal code（Zip code）: N2M 2Z2\n ・Phone number: 5195804992\n ・email address: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:havenhearthtea@gmail.com",
+                                "text": "havenhearthtea@gmail.com"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n---------------------------------------"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U05KGS6HN9H",
+                    "U041RJKV5JA",
+                    "U033G4KN4TD"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1716158720.141599",
+        "client_msg_id": "61dc64a7-35c7-47ff-87c6-2ebab7df7da9",
+        "text": "<@U0606SPN4BW>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n本件、ご入金を確認致しました。\n・5\/19 [PayPal]\n・50 USD\n回収（入金）処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1716112358.511099",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KbkXH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本件、ご入金を確認致しました。\n・5\/19 [PayPal]\n・50 USD\n回収（入金）処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            },
+            {
+                "name": "入金完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1716158870.931769",
+        "client_msg_id": "ED5BFCBE-3FE2-4CFD-9906-363BE1AEC129",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> \nすみません、こちら記載漏れてましたが、各種30gずつでご準備お願いします:sweat_drops:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1715903353.451429",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kjSEH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \nすみません、こちら記載漏れてましたが、各種30gずつでご準備お願いします"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sweat_drops",
+                                "unicode": "1f4a6"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U05KGS6HN9H"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1716166242.645349",
+        "client_msg_id": "65dc615c-e14f-47c7-bbf1-fd827e5f45ff",
+        "text": "<@U066P20UQH1>\n<@U041RJKV5JA> <@U033G4KN4TD>\n出荷可能日5\/22（水）でお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1715937151.808009",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xMqoC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日5\/22（水）でお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知-1",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1716169193.686709",
+        "client_msg_id": "90ae687b-d3eb-4408-bfc6-716df8092f6f",
+        "text": "<@U0606SPN4BW>\n<@U041RJKV5JA> <@U033G4KN4TD>\n出荷可能日5\/22（水）でお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1716112358.511099",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kR5wU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日5\/22（水）でお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1716178554.197829",
+        "client_msg_id": "da6890d7-f301-4101-9987-4822f66c0dfe",
+        "text": "<@U0606SPN4BW>\ncc: <@U0331FZS7JT> <@U0331FWGQRM>\nペガサスグローバルより出荷貨物について荷受人様からの通関指示待ちで、現地通関で止まっていると連絡がございました。\n現地DHLに連絡をしていただくようご依頼をお願いいたします。\n-------------------------------\n荷受人様からの通関指示待ちで現地通関HOLDとなっています。\n\nつきましてはご多忙中大変お手数ではございますが、\n発送人様から荷受人様へ現地DHLへの通関指示を急がれるようご依頼をお願い致します。\n\n現地保管期限は５月29日までとなります。\n-------------------------------",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1714211378.430429",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "k9Qx+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\ncc: "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nペガサスグローバルより出荷貨物について荷受人様からの通関指示待ちで、現地通関で止まっていると連絡がございました。\n現地DHLに連絡をしていただくようご依頼をお願いいたします。\n-------------------------------\n荷受人様からの通関指示待ちで現地通関HOLDとなっています。\n\nつきましてはご多忙中大変お手数ではございますが、\n発送人様から荷受人様へ現地DHLへの通関指示を急がれるようご依頼をお願い致します。\n\n現地保管期限は５月29日までとなります。\n-------------------------------"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            },
+            {
+                "name": "了解です",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1716186479.205029",
+        "client_msg_id": "0b73ced6-5157-4c71-a88b-bc0bf4ef8f7d",
+        "text": "<@U0606SPN4BW>\n<@U041RJKV5JA> <@U033G4KN4TD>\n出荷可能日5\/24（金）でお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1716063857.103699",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Q7ZAJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日5\/24（金）でお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

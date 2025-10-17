@@ -1,0 +1,197 @@
+[
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1691391751.019989",
+        "client_msg_id": "df84db22-91fd-4c6f-a350-6f33af169baa",
+        "text": "<@U0331FWGQRM> 執行役 <@U0331FZS7JT> 社長\nお疲れ様です。\n本日FedExにて出荷しました。\nAWB NO. 772960870327\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1689209242.218049",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0ngL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役 "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nお疲れ様です。\n本日FedExにて出荷しました。\nAWB NO. 772960870327\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1691393068.476889",
+        "client_msg_id": "14f3e054-d9e5-4741-b6b6-0b2a9aadd45f",
+        "text": "<@U041RJKV5JA> <@U033G4KN4TD>\nありがとうございます\n\n※TSE028-23 Shipping Documentsのデータが5MBを超えていました。\n　圧縮して保存するようにしてください。（圧縮しておいたので次回からしてください）\n　今の時代、データ容量はコストです。\n　お金を払えばメモリは購入できますが、\n　なるべく保存するデータは小さい方が良い。という感覚でお願いします。\n\n※データの基準として、書類で2MB台のデータ量は大きいです。\n　理想は1MB台か、それ以下です。\n\n※PDF圧縮ツールは下記を使用してみてください。（他のものでも良いです）\n<https:\/\/www.ilovepdf.com\/ja>\n<https:\/\/smallpdf.com\/jp\/compress-pdf>\n\n※写真・画像は、元からPCに入っている機能で“書き出し“で対応できますが、\n　それでも難しい場合は下記ツールは使えます。参考まで。\n<https:\/\/squoosh.app\/>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1689209242.218049",
+        "parent_user_id": "U0331FZS7JT",
+        "attachments": [
+            {
+                "image_url": "https:\/\/www.ilovepdf.com\/img\/ilovepdf\/social\/ja\/ilovepdf.png",
+                "image_width": 1200,
+                "image_height": 717,
+                "image_bytes": 132432,
+                "from_url": "https:\/\/www.ilovepdf.com\/ja",
+                "service_icon": "https:\/\/www.ilovepdf.com\/img\/app-icon.png",
+                "id": 1,
+                "original_url": "https:\/\/www.ilovepdf.com\/ja",
+                "fallback": "iLovePDF – PDF用オンラインツール: iLovePDF | PDFファンのためのオンラインツール",
+                "text": "iLovePDFは完全無料のPDFの為のオンラインサービス。使い方はとても簡単。PDFの結合、分割、圧縮、officeファイルのPDF変換、PDFからJPGへの変換など他にも多くの機能があります！",
+                "title": "iLovePDF | PDFファンのためのオンラインツール",
+                "title_link": "https:\/\/www.ilovepdf.com\/ja",
+                "service_name": "iLovePDF – PDF用オンラインツール"
+            },
+            {
+                "image_url": "https:\/\/smallpdf.com\/assets\/img\/fb\/compress.png",
+                "image_width": 1024,
+                "image_height": 512,
+                "image_bytes": 17891,
+                "from_url": "https:\/\/smallpdf.com\/jp\/compress-pdf",
+                "service_icon": "https:\/\/smallpdf.com\/assets\/favicons\/apple-touch-icon.png",
+                "id": 2,
+                "original_url": "https:\/\/smallpdf.com\/jp\/compress-pdf",
+                "fallback": "PDF　圧縮 – オンラインでPDFサイズを縮小",
+                "text": "ファイルサイズ無制限。高品質を維持したままPDFを縮小できる、シンプルで素敵なオンラインPDFコンプレッサー",
+                "title": "PDF　圧縮 – オンラインでPDFサイズを縮小",
+                "title_link": "https:\/\/smallpdf.com\/jp\/compress-pdf",
+                "service_name": "smallpdf.com"
+            },
+            {
+                "from_url": "https:\/\/squoosh.app\/",
+                "service_icon": "https:\/\/squoosh.app\/c\/icon-large-maskable-c2078ced.png",
+                "thumb_url": "https:\/\/squoosh.app\/c\/icon-large-maskable-c2078ced.png",
+                "thumb_width": 1024,
+                "thumb_height": 1024,
+                "id": 3,
+                "original_url": "https:\/\/squoosh.app\/",
+                "fallback": "Squoosh",
+                "text": "Squoosh is the ultimate image optimizer that allows you to compress and compare images with different codecs in your browser.",
+                "title": "Squoosh",
+                "title_link": "https:\/\/squoosh.app\/",
+                "service_name": "squoosh.app"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "s19",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nありがとうございます\n\n※TSE028-23 Shipping Documentsのデータが5MBを超えていました。\n　圧縮して保存するようにしてください。（圧縮しておいたので次回からしてください）\n　今の時代、データ容量はコストです。\n　お金を払えばメモリは購入できますが、\n　なるべく保存するデータは小さい方が良い。という感覚でお願いします。\n\n※データの基準として、書類で2MB台のデータ量は大きいです。\n　理想は1MB台か、それ以下です。\n\n※PDF圧縮ツールは下記を使用してみてください。（他のものでも良いです）\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.ilovepdf.com\/ja"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/smallpdf.com\/jp\/compress-pdf"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n※写真・画像は、元からPCに入っている機能で“書き出し“で対応できますが、\n　それでも難しい場合は下記ツールは使えます。参考まで。\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/squoosh.app\/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            },
+            {
+                "name": "eyes",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

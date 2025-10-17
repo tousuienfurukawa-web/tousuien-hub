@@ -1,0 +1,503 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1714117901.790729",
+        "client_msg_id": "34c21ed5-2c3c-443b-ad8b-153f69dacd7d",
+        "text": "<@U05KGS6HN9H>\n&gt; こちらで佐川堺営業所送り状を付け出荷？\nこの意味がよくわかりませんが、どういう意味ですか？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1713789540.990139",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CGLEo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_quote",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "こちらで佐川堺営業所送り状を付け出荷？"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "この意味がよくわかりませんが、どういう意味ですか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1714118176.779299",
+        "client_msg_id": "e2551193-daed-4bee-b540-ac2f539810e6",
+        "text": "<@U0331FWGQRM>\nすみません。佐川堺営業所ではなく、DHL堺営業所です。\nペガサスで集荷ではなく、お客様で手配された送り状を添付し、\n佐川でDHL堺営業所に出荷した形成があります。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1713789540.990139",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0ueMf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nすみません。佐川堺営業所ではなく、DHL堺営業所です。\nペガサスで集荷ではなく、お客様で手配された送り状を添付し、\n佐川でDHL堺営業所に出荷した形成があります。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "ok_hand",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1714118419.154669",
+        "client_msg_id": "d0c01248-d2cc-4885-83c0-f32c6c11f120",
+        "text": "<@U05KGS6HN9H>\n現在、こちらら手配の見積もりを提出しており、\n先方手配の場合とどちらが安いか比べているそうです。\n少々お待ちください。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1713789540.990139",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "r8Yvy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n現在、こちらら手配の見積もりを提出しており、\n先方手配の場合とどちらが安いか比べているそうです。\n少々お待ちください。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U05KGS6HN9H"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "<@U0331FWGQRM>\nHealth Certificateの申請を行いましたが、商工会議所より\n修正追記の要請があります。（添付朱書き部分です）\n①U.A.E\n→略号ではなく正式名称United Arab Emiratesで訂正下さい。\n②AWB番号の追記\n→お客様手配であれば、先方手配のAWB番号を記載下さい。\n→当社手配であれば　9154149152 でDHL送り状を準備いたします\n     ので、この番号を記載ください。\n宜しくお願い致します。",
+        "files": [
+            {
+                "id": "F070QAMMTEZ",
+                "created": 1714119503,
+                "timestamp": 1714119503,
+                "name": "Health Certificate_修正追記.pdf",
+                "title": "Health Certificate_修正追記.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U05KGS6HN9H",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 181243,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F070QAMMTEZ\/health_certificate_____________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F070QAMMTEZ\/download\/health_certificate_____________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F070QAMMTEZ-0aca46d42f\/health_certificate______________thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 1058,
+                "thumb_pdf_h": 1496,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F070QAMMTEZ\/health_certificate_____________.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F070QAMMTEZ-35ddbb65e7",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U05KGS6HN9H",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7a\/ex",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nHealth Certificateの申請を行いましたが、商工会議所より\n修正追記の要請があります。（添付朱書き部分です）\n①U.A.E\n→略号ではなく正式名称United Arab Emiratesで訂正下さい。\n②AWB番号の追記\n→お客様手配であれば、先方手配のAWB番号を記載下さい。\n→当社手配であれば　9154149152 でDHL送り状を準備いたします\n     ので、この番号を記載ください。\n宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1714119528.284949",
+        "client_msg_id": "2d1cb4e0-2712-4b50-ae8b-4a5a35189183",
+        "thread_ts": "1713789540.990139",
+        "parent_user_id": "U0331FWGQRM"
+    },
+    {
+        "text": "<@U05KGS6HN9H> <@U041RJKV5JA>\nFedexが安いということで桃翠園手配のFedexになりました。\nインボイスを変更しました。:sweat_drops:\n\nEconomy（安いけど遅い方）でお願いいたします。\n参考価格とのことなので、価格が変われば変更しますが\nEconomyが25万を上回るか等なければこのままでお願いします。",
+        "files": [
+            {
+                "id": "F070VAVPNDQ",
+                "created": 1714142763,
+                "timestamp": 1714142763,
+                "name": "スクリーンショット 2024-04-25 22.22.05.png",
+                "title": "スクリーンショット 2024-04-25 22.22.05.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U0331FWGQRM",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 94088,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F070VAVPNDQ\/____________________________2024-04-25_22.22.05.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F070VAVPNDQ\/download\/____________________________2024-04-25_22.22.05.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F070VAVPNDQ-280794eab0\/____________________________2024-04-25_22.22.05_64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F070VAVPNDQ-280794eab0\/____________________________2024-04-25_22.22.05_80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F070VAVPNDQ-280794eab0\/____________________________2024-04-25_22.22.05_360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 338,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F070VAVPNDQ-280794eab0\/____________________________2024-04-25_22.22.05_480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 451,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F070VAVPNDQ-280794eab0\/____________________________2024-04-25_22.22.05_160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F070VAVPNDQ-280794eab0\/____________________________2024-04-25_22.22.05_720.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 677,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F070VAVPNDQ-280794eab0\/____________________________2024-04-25_22.22.05_800.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 752,
+                "original_w": 837,
+                "original_h": 787,
+                "thumb_tiny": "AwAtADDS5zwePShs44paZIpZRgkc9jQA7PsabL5mB5eM96VAFXGWPueaSVXYDY22k9hrcj\/0j1H6VPUBim\/56frU9KI5BSEZFGOc96R8Y+YgfWqJDbThwKQHIyCCPamTIHAy23FDGiSiq3kL\/wA9as0k2xtJbBTZFDDkZp1BGaZI0EKMAAD2pHjWUDdnj0p20UvSh6gnYhNsh9amoopJJbDbb3P\/2Q==",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F070VAVPNDQ\/____________________________2024-04-25_22.22.05.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F070VAVPNDQ-8776c3ce5c",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FWGQRM",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aibXQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nFedexが安いということで桃翠園手配のFedexになりました。\nインボイスを変更しました。"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sweat_drops",
+                                "unicode": "1f4a6"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nEconomy（安いけど遅い方）でお願いいたします。\n参考価格とのことなので、価格が変われば変更しますが\nEconomyが25万を上回るか等なければこのままでお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1714142875.752229",
+        "client_msg_id": "a09310e6-c3b6-435b-a5f8-99a41d020629",
+        "thread_ts": "1713789540.990139",
+        "parent_user_id": "U0331FWGQRM",
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U05KGS6HN9H",
+                    "U041RJKV5JA"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1714143006.970259",
+        "client_msg_id": "3fc5260d-ae17-4a4b-8dab-0b04a5eab1ee",
+        "text": "<@U05KGS6HN9H> <@U041RJKV5JA>\nHealth certificateの修正について了解です。\nFedexになりましたので、\n追跡番号も変わると思いますので、\nそれが決まり次第、Health certificateの修正依頼をします。\n\n※現時点で出荷日に変更がありそうであれば教えてください。:0af08fe0505342b0:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1713789540.990139",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2HyOR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nHealth certificateの修正について了解です。\nFedexになりましたので、\n追跡番号も変わると思いますので、\nそれが決まり次第、Health certificateの修正依頼をします。\n\n※現時点で出荷日に変更がありそうであれば教えてください。"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "0af08fe0505342b0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<@U0331FWGQRM>\nFedex送状が、本日現在では5\/2出荷希望分までしか作成できませんので、\n休み明け月曜に再確認してみます。\n（送り状作成→AWB確定→衛生証明に記載いただく番号を報告いたします）\n現時点で5\/2検疫検査、書類が間に合えば5\/7出荷に変更はないと思われます。",
+        "files": [
+            {
+                "id": "F070Y3Z3RMH",
+                "created": 1714183207,
+                "timestamp": 1714183207,
+                "name": "Fedex送状作成画面.jpg",
+                "title": "Fedex送状作成画面.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U05KGS6HN9H",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 71111,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F070Y3Z3RMH\/fedex__________________.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F070Y3Z3RMH\/download\/fedex__________________.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F070Y3Z3RMH-4343c15a3a\/fedex___________________64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F070Y3Z3RMH-4343c15a3a\/fedex___________________80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F070Y3Z3RMH-4343c15a3a\/fedex___________________360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 241,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F070Y3Z3RMH-4343c15a3a\/fedex___________________480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 321,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F070Y3Z3RMH-4343c15a3a\/fedex___________________160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F070Y3Z3RMH-4343c15a3a\/fedex___________________720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 482,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F070Y3Z3RMH-4343c15a3a\/fedex___________________800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 535,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F070Y3Z3RMH-4343c15a3a\/fedex___________________960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 643,
+                "original_w": 1004,
+                "original_h": 672,
+                "thumb_tiny": "AwAgADC41rCcZTP4mm\/ZIP7n6mrBowM07sCv9jg\/ufqaPscH\/PP9TVjAowKLsCv9jg\/55\/qaclrCrhgnI75NTYFLii7ADwKZu9T+lObO04GTUPz\/APPM0gJs0ZqLe4\/5ZH8xRvf\/AJ5H8xQBLmlqHe\/\/ADyP5iph0FAH\/9k=",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F070Y3Z3RMH\/fedex__________________.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F070Y3Z3RMH-8367f05e22",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U05KGS6HN9H",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1rYi0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nFedex送状が、本日現在では5\/2出荷希望分までしか作成できませんので、\n休み明け月曜に再確認してみます。\n（送り状作成→AWB確定→衛生証明に記載いただく番号を報告いたします）\n現時点で5\/2検疫検査、書類が間に合えば5\/7出荷に変更はないと思われます。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1714183225.691709",
+        "client_msg_id": "3c080d88-7879-42da-8236-898e4c990658",
+        "thread_ts": "1713789540.990139",
+        "parent_user_id": "U0331FWGQRM",
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

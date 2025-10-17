@@ -1,0 +1,104 @@
+[
+    {
+        "subtype": "channel_purpose",
+        "user": "U0331FWGQRM",
+        "purpose": "ミーテォングで話しておきたいこと等をメモとして使用して、情報共有漏れを防ぐために使用します。",
+        "text": "がこのチャンネルの説明を「ミーテォングで話しておきたいこと等をメモとして使用して、情報共有漏れを防ぐために使用します。」に設定しました",
+        "type": "message",
+        "ts": "1666595338.135049"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U0331FZTHEK",
+        "text": "<@U0331FZTHEK>さんがチャンネルに参加しました",
+        "inviter": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1666595341.699099"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U033G4KN4TD",
+        "text": "<@U033G4KN4TD>さんがチャンネルに参加しました",
+        "inviter": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1666595341.800059"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U03BLQ65GK0",
+        "text": "<@U03BLQ65GK0>さんがチャンネルに参加しました",
+        "inviter": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1666595341.892249"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U03SGRNND5L",
+        "text": "<@U03SGRNND5L>さんがチャンネルに参加しました",
+        "inviter": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1666595341.957969"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U041RJKV5JA",
+        "text": "<@U041RJKV5JA>さんがチャンネルに参加しました",
+        "inviter": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1666595342.018989"
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1666595708.263229",
+        "client_msg_id": "a6748126-e1c0-4db8-ba55-760f9f2d7d17",
+        "text": "<!channel>\n海外営業MTG用のチャンネルを作成しました。\n次回以降の海外営業MTGは、\n\n■会議前の段階で何について会議をするのかアジェンダを作成した上で開始する様にします（心がけます）\n\n■会議で会話する内容は会話をしたり、色んな人の意見を聞きたかったり、社長とか僕に確認しておきたいことがあったり、する様な内容にしたいと思います。\nここにメモなどなんでも書き込んでください。\nもしかすると、ここで事前に共有することで、\n会議で話す前に解決することがあるかもしれません。\n\n※会議のための会議を防止するのが意図です。\n\nなので、僕一人の運用ではできませんので、\n協力宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+EOVH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n海外営業MTG用のチャンネルを作成しました。\n次回以降の海外営業MTGは、\n\n■会議前の段階で何について会議をするのかアジェンダを作成した上で開始する様にします（心がけます）\n\n■会議で会話する内容は会話をしたり、色んな人の意見を聞きたかったり、社長とか僕に確認しておきたいことがあったり、する様な内容にしたいと思います。\nここにメモなどなんでも書き込んでください。\nもしかすると、ここで事前に共有することで、\n会議で話す前に解決することがあるかもしれません。\n\n※会議のための会議を防止するのが意図です。\n\nなので、僕一人の運用ではできませんので、\n協力宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U0331FZTHEK",
+                    "U033G4KN4TD",
+                    "U03SGRNND5L"
+                ],
+                "count": 4
+            }
+        ]
+    }
+]

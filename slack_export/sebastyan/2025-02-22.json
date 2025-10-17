@@ -1,0 +1,76 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1740216942.511749",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1740216992.000000"
+        },
+        "client_msg_id": "20AF60E7-2DF3-4007-8831-E8781DF7FC25",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> \n資材在庫数量によっては、追加で製造をする必要があるとのことで、在庫数量の連絡を待たれております。\n宜しくお願いします。\n\n12日経ってるので、確認お願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1738998931.139929",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "P91++",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \n資材在庫数量によっては、追加で製造をする必要があるとのことで、在庫数量の連絡を待たれております。\n宜しくお願いします。\n\n1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "2"
+                            },
+                            {
+                                "type": "text",
+                                "text": "日経ってるので、確認お願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD",
+                    "U041RJKV5JA"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

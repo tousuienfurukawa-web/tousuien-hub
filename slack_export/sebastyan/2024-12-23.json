@@ -1,0 +1,160 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1735006250.975069",
+        "client_msg_id": "9A1DFF9D-0E62-4BFE-9775-7DCC27A28E80",
+        "text": "メモ\nTotal contents are as follows:\n\nMatcha: 8,400\nVanilla: 8,200\nCinnamon: 6,600\nStrawberry: 7,200\nMango: 7,100\nPineapple: 7,000\nChai: 10,500",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1733900099.321199",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ksqtv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "メモ\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Total contents are as follows:\n\nMatcha: 8,400\nVanilla: 8,200\nCinnamon: 6,600\nStrawberry: 7,200\nMango: 7,100\nPineapple: 7,000\nChai: 10,500"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1735015119.631379",
+        "client_msg_id": "12bbe95b-b2e5-49fa-8767-026187cd9773",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n下記のとおり変更です。\n\n*変更前*\n・Shipment on December 26\nTSE-MTL-013-24-1 （21cartons）← Split into two\nTSE-MTL-013-24-2B\nTSE-MTL-013-24-3\n↓\n*変更後*\n・Shipment on December 26\nTSE-MTL-013-24-1A　（16cartons）\nTSE-MTL-013-24-2B\nTSE-MTL-013-24-3\n\n・Shipment on January 6\nTSE-MTL-013-24-1B（5cartons）",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1735015119.631379",
+        "reply_count": 7,
+        "reply_users_count": 2,
+        "latest_reply": "1736228792.138699",
+        "reply_users": [
+            "U041RJKV5JA",
+            "U0331FWGQRM"
+        ],
+        "replies": [
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1735030084.534859"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1735120189.132889"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1735120314.259619"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1735137340.010739"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1735187762.220669"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1736150268.770029"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1736228792.138699"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1736228792.138699",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "25JPP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n下記のとおり変更です。\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "変更前",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n・Shipment on December 26\nTSE-MTL-013-24-1 （21cartons）← Split into two\nTSE-MTL-013-24-2B\nTSE-MTL-013-24-3\n↓\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "変更後",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n・Shipment on December 26\nTSE-MTL-013-24-1A　（16cartons）\nTSE-MTL-013-24-2B\nTSE-MTL-013-24-3\n\n・Shipment on January 6\nTSE-MTL-013-24-1B（5cartons）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

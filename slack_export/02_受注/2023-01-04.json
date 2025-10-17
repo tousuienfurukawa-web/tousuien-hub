@@ -1,0 +1,382 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1672844243.418689",
+        "client_msg_id": "d35e94b6-9432-4aea-927b-052edff51b49",
+        "text": "<@U041RJKV5JA> 部長\n<!channel>\n\nお疲れ様です。\nドバイからサンプルの依頼がありました。\n※既に入金済み（Haiya Mughal様）\nサンプルの手配と発送日の連絡をお願いします。\n【お客様】ドバイ→HAIYATEA→第2回(サンプル)発送手続き\n→Invoice_Packing list(TSE-HIY-SPL-001-23)\n【その他】香岳園、星野製茶園にサンプル依頼をお願いします。\n　　　　※各50gずつ（サンプル依頼の際に金額で伝えたら早いと思います）\n　　　　　IZUMO SENCHA(YABUKITA)については僕が確認しますね！\n\n以上、よろしくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1672844243.418689",
+        "reply_count": 3,
+        "reply_users_count": 3,
+        "latest_reply": "1673505228.775779",
+        "reply_users": [
+            "U0331FZTHEK",
+            "U041RJKV5JA",
+            "U03SGRNND5L"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1672871133.511049"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1673419578.340219"
+            },
+            {
+                "user": "U03SGRNND5L",
+                "ts": "1673505228.775779"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6Wgx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n"
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nお疲れ様です。\nドバイからサンプルの依頼がありました。\n※既に入金済み（Haiya Mughal様）\nサンプルの手配と発送日の連絡をお願いします。\n【お客様】ドバイ→HAIYATEA→第2回(サンプル)発送手続き\n→Invoice_Packing list(TSE-HIY-SPL-001-23)\n【その他】香岳園、星野製茶園にサンプル依頼をお願いします。\n　　　　※各50gずつ（サンプル依頼の際に金額で伝えたら早いと思います）\n　　　　　IZUMO SENCHA(YABUKITA)については僕が確認しますね！\n\n以上、よろしくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1672871133.511049",
+        "client_msg_id": "86816c7a-2469-4519-b7e1-fc5e20c7827a",
+        "text": "<@U0331FZS7JT> 社長\n　CC: <@U041RJKV5JA> 部長\nお疲れ様です。\nTSE-HIY-SPL-001-23（ドバイ：Haiya Mughal 様）\nJPY6,216.00- 1\/4 入金(PayPal)を確認致しました。\n回収(入金)処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1672844243.418689",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kBH4Y",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\n　CC: "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nお疲れ様です。\nTSE-HIY-SPL-001-23（ドバイ：Haiya Mughal 様）\nJPY6,216.00- 1\/4 入金(PayPal)を確認致しました。\n回収(入金)処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1672882450.359519",
+        "client_msg_id": "ecfc63a0-0b60-4ac2-91a0-45d4f91af790",
+        "text": "<@U041RJKV5JA> 部長\nCC：<@U0331FZTHEK> さん<@U033G4KN4TD> さん<@U03SGRNND5L> さん\n\nお疲れ様です。\n送料の記載、パッキングリストの記載ありがとうございます。\nお客様に展開します。\n\n発送可能日の件、よろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1672778621.070569",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DFjlX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nCC："
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03SGRNND5L"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\n\nお疲れ様です。\n送料の記載、パッキングリストの記載ありがとうございます。\nお客様に展開します。\n\n発送可能日の件、よろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1672892774.462139",
+        "client_msg_id": "318383f7-c330-4061-9ec1-bb7462433943",
+        "text": "<@U041RJKV5JA> 部長\nCC：<@U03SGRNND5L> さん\n\nお疲れ様です。\n本件ですが、ポーランドの通関で止まっていますね。\n一応、お客様には伝えています。\n何か、こちらに連絡があった場合は連絡をお願い致します。\n-------------------\n*詳細情報*\nDHLが代理で通関をするための委任状が必要です\n*次のステップ*\nDHLは荷受人または輸入者より委任状を入手次第、通関手続きを行います\n----------------------",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1671764859.831879",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "WnB9r",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nCC："
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03SGRNND5L"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\n\nお疲れ様です。\n本件ですが、ポーランドの通関で止まっていますね。\n一応、お客様には伝えています。\n何か、こちらに連絡があった場合は連絡をお願い致します。\n-------------------\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "詳細情報",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nDHLが代理で通関をするための委任状が必要です\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "次のステップ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nDHLは荷受人または輸入者より委任状を入手次第、通関手続きを行います\n----------------------"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U03SGRNND5L",
+        "type": "message",
+        "ts": "1672893782.773109",
+        "client_msg_id": "55504849-5d43-45e5-8058-0162a741de90",
+        "text": "<@U0331FZS7JT> 社長\nCC： <@U041RJKV5JA> 部長　 <@U0331FZTHEK> さん\nお疲れ様です。\n本件、1\/7（土）発送可能です。\n宜しくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "6c4f7745b891",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-08-07\/3904561660837_6c4f7745b8919f42488e_72.png",
+            "first_name": "足立",
+            "real_name": "足立",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "obayashi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1672778621.070569",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AOKNz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nCC： "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長　 "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\nお疲れ様です。\n本件、1\/7（土）発送可能です。\n宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT",
+                    "U041RJKV5JA"
+                ],
+                "count": 2
+            },
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

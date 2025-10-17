@@ -1,0 +1,423 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1732704371.681589",
+        "client_msg_id": "B7990851-E314-4137-ACAF-391F969078E6",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> \n（このフィルムメーカーで進めるために調べて欲しいのではないですが、）\nフィルムメーカーから下記コメントが来てます。\n\n接着不良については温度コントロールができるのなら、それで解決できませんか？\n\n\nフィルムの蛇行について写真をみせてけれませんか？\n\nとのことです。\n写真や動画を用いて、どこがどのようにダメなのか確認したいようです。\n宜しくお願い致します:sweat_drops:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1732089899.783379",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CHyP1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \n（このフィルムメーカーで進めるために調べて欲しいのではないですが、）\nフィルムメーカーから下記コメントが来てます。\n\n接着不良については温度コントロールができるのなら、それで解決できませんか？\n\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "フィルムの蛇行について写真をみせてけれませんか？\n\nとのことです。\n写真や動画を用いて、どこがどのようにダメなのか確認したいようです。\n宜しくお願い致します"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sweat_drops",
+                                "unicode": "1f4a6"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1732768414.997299",
+        "client_msg_id": "cb6c16a3-efdb-4c30-84e8-a84526da2699",
+        "text": "<@U0331FWGQRM>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n静パックへ確認しました。\n接着不良について、通常140℃～150℃にて加工するところ180℃に温度を上げて加工しても接着不良となったようです。\nフィルム蛇行の写真や動画については工場内を関係者以外に見せることは出来ない為、提供不可との事です。\n後日、製造不可の理由についてメールをいただく事になっております。\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1732089899.783379",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "T5D4p",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n静パックへ確認しました。\n接着不良について、通常140℃～150℃にて加工するところ180℃に温度を上げて加工しても接着不良となったようです。\nフィルム蛇行の写真や動画については工場内を関係者以外に見せることは出来ない為、提供不可との事です。\n後日、製造不可の理由についてメールをいただく事になっております。\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1732770947.265949",
+        "client_msg_id": "678b1b79-ab58-4ce9-9972-3eb7702802dd",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani> <@U03BLQ65GK0>\n2025年の現時点での注文予測について",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1732770947.265949",
+        "reply_count": 2,
+        "reply_users_count": 1,
+        "latest_reply": "1732771352.558009",
+        "reply_users": [
+            "U0331FWGQRM"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1732771216.924519"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1732771352.558009"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1732771352.558009",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ff6oA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n2025年の現時点での注文予測について"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1732771216.924519",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1732771263.000000"
+        },
+        "client_msg_id": "e3fad59a-3ac6-441f-8366-c11a6d57c54d",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani> <@U03BLQ65GK0>\nバニラ(20%)とB2については、\nそれぞれ少なくとも毎月3000～5000個の販売を見込んでいます。\n*→比率が確定しているものについては、事前に製造しておいてOKとのことです。（シルバーの平袋ではなく、デザイン入りのジッパー袋を使用）*\n\n第1四半期（1,2,3月）の予測は上記の通り、3000-5000ですが、最良のシナリオは毎月6000～7000個の販売です。\nそして、第2四半期と第3四半期の予測も引き続き毎月6000～7000個です。\n\n新しいフレーバーの需要については、まだ予測が難しい状況です。ブラックフライデーの後にもっと詳しい情報をお知らせできると思います。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1732770947.265949",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yl1a9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nバニラ(20%)とB2については、\nそれぞれ少なくとも毎月3000～5000個の販売を見込んでいます。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "→比率が確定しているものについては、事前に製造しておいてOKとのことです。（シルバーの平袋ではなく、デザイン入りのジッパー袋を使用）",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n第1四半期（1,2,3月）の予測は上記の通り、3000-5000ですが、最良のシナリオは毎月6000～7000個の販売です。\nそして、第2四半期と第3四半期の予測も引き続き毎月6000～7000個です。\n\n新しいフレーバーの需要については、まだ予測が難しい状況です。ブラックフライデーの後にもっと詳しい情報をお知らせできると思います。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U03BLQ65GK0",
+                    "U0331FZS7JT"
+                ],
+                "count": 2
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD",
+                    "U041RJKV5JA",
+                    "U05KGS6HN9H"
+                ],
+                "count": 3
+            },
+            {
+                "name": "clap",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1732771352.558009",
+        "client_msg_id": "0edb7ebd-de5c-4736-b69a-1535a89ed46c",
+        "text": "＜Sebastyanからの意気込みメッセージを転記します＞\n[2024\/11\/28 13:13:35] Sebastyan （Matcha Land）:\n年末が近づく中で、あなたと一緒に仕事ができたことを大変嬉しく思います！2025年が楽しみで、いろいろな計画が進行中です。来年は注文量を倍増させることを目指しています。\n\n[2024\/11\/28 13:19:16] Sebastyan （Matcha Land）:\nさて、お願いがあります。私たちはますます成長しており、バニラ（の例）を見ても分かるように、需要が非常に急速に高まることがあります。そのため、注文を増やしたり、より早く対応を依頼する必要がある場合があります。2025年に向けてのお願いは、リードタイムにおいてMatcha Landを優先していただきたいということです。\n私たちが御社にとって最大級の顧客の一つになりつつあると感じています。そのため、需要が突然増加したり、予期しない在庫不足が発生した場合、他の会社からの通常注文よりも私たちの製造を優先していただければと思います。\nまた、いくつかのフレーバーのレシピが最終決定される中で、長期的には在庫を事前に生産していただければと思います。これにより、すでに在庫がある状態で注文を追加しやすくなります。現在確定しているのは、B2（新しいパッケージが到着次第）、20%バニラ抹茶です。シナモンもこの最後のサンプルで確定することを期待しています。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1732770947.265949",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "p846G",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "＜Sebastyanからの意気込みメッセージを転記します＞\n[2024\/11\/28 13:13:35] Sebastyan （Matcha Land）:\n年末が近づく中で、あなたと一緒に仕事ができたことを大変嬉しく思います！2025年が楽しみで、いろいろな計画が進行中です。来年は注文量を倍増させることを目指しています。\n\n[2024\/11\/28 13:19:16] Sebastyan （Matcha Land）:\nさて、お願いがあります。私たちはますます成長しており、バニラ（の例）を見ても分かるように、需要が非常に急速に高まることがあります。そのため、注文を増やしたり、より早く対応を依頼する必要がある場合があります。2025年に向けてのお願いは、リードタイムにおいてMatcha Landを優先していただきたいということです。\n私たちが御社にとって最大級の顧客の一つになりつつあると感じています。そのため、需要が突然増加したり、予期しない在庫不足が発生した場合、他の会社からの通常注文よりも私たちの製造を優先していただければと思います。\nまた、いくつかのフレーバーのレシピが最終決定される中で、長期的には在庫を事前に生産していただければと思います。これにより、すでに在庫がある状態で注文を追加しやすくなります。現在確定しているのは、B2（新しいパッケージが到着次第）、20%バニラ抹茶です。シナモンもこの最後のサンプルで確定することを期待しています。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "flushed",
+                "users": [
+                    "U03BLQ65GK0"
+                ],
+                "count": 1
+            },
+            {
+                "name": "お茶",
+                "users": [
+                    "U066P20UQH1",
+                    "U0606SPN4BW"
+                ],
+                "count": 2
+            },
+            {
+                "name": "clap",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            },
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FZS7JT",
+                    "U041RJKV5JA"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1732777845.145569",
+        "client_msg_id": "294971d0-d6a9-40f0-95b0-04b6c8ab5c04",
+        "text": "メモ\n今までずっと商品に使用してきたのはCeylon cinnamon\n\n7\/31　Non Ceylon cinnamon（Cassia cinnamon）を使用できるか？\n11\/7　サンプル出荷Chai matcha（Cassia Cinnamonを使用）\n11\/13　サンプル出荷Cinnamon matcha（Cassia Cinnamonを使用）\n\n11\/7, 13のサンプル以外はCeylon cinnamonを使用。\n\n※regular cinnamon（=Cassia cinnamon = non Ceylon cinnamon）",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1721917409.190409",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "F9jbC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "メモ\n今までずっと商品に使用してきたのはCeylon cinnamon\n\n7\/31　Non Ceylon cinnamon（Cassia cinnamon）を使用できるか？\n11\/7　サンプル出荷Chai matcha（Cassia Cinnamonを使用）\n11\/13　サンプル出荷Cinnamon matcha（Cassia Cinnamonを使用）\n\n11\/7, 13のサンプル以外はCeylon cinnamonを使用。\n\n※regular cinnamon（=Cassia cinnamon = non Ceylon cinnamon）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

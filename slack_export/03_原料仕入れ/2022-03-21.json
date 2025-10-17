@@ -1,0 +1,92 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U0331FZS7JT",
+        "text": "<@U0331FZS7JT>さんがチャンネルに参加しました",
+        "type": "message",
+        "ts": "1647908710.815229"
+    },
+    {
+        "subtype": "channel_purpose",
+        "user": "U0331FZS7JT",
+        "purpose": "原料の仕入れ着タイミングなどを記載します",
+        "text": "がこのチャンネルの説明を「原料の仕入れ着タイミングなどを記載します」に設定しました",
+        "type": "message",
+        "ts": "1647908711.155549"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U0331FWGQRM",
+        "text": "<@U0331FWGQRM>さんがチャンネルに参加しました",
+        "inviter": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1647908715.330319"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U0331FZTHEK",
+        "text": "<@U0331FZTHEK>さんがチャンネルに参加しました",
+        "inviter": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1647908715.419859"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U033G4KN4TD",
+        "text": "<@U033G4KN4TD>さんがチャンネルに参加しました",
+        "inviter": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1647908715.477529"
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1647908927.461909",
+        "client_msg_id": "233f30b0-019f-4c0f-87f4-fde59db8991f",
+        "text": "<@U0331FZTHEK> さん\n3\/24(木)　抹茶１C（200kg\/まるゑい）着\n※3\/4注文分\n※Genuine：summer用\n\n各所と情報共有をしてパッキングの指示等を進めて下さい。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rVDZF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\n3\/24(木)　抹茶１C（200kg\/まるゑい）着\n※3\/4注文分\n※Genuine：summer用\n\n各所と情報共有をしてパッキングの指示等を進めて下さい。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,309 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1681776998.998529",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1681777188.000000"
+        },
+        "client_msg_id": "f60351ca-44ce-43d5-bf44-6012cb3ee906",
+        "text": "<@U041RJKV5JA> 部長<@U033G4KN4TD> さん\n<!channel>\n\nalibaba（サウジアラビア）のDANAH alさんから\nサンプル代30USDの銀行送金の連絡がありました。\n\nパッキングリストの完成とサンプルの発送をお願いします。\n<@U033G4KN4TD> さん\nサンプルはQuotationの欄外に50gの原価がありますが\n以前のメッセージを確認しましたが無かったので\n20gで良いですよね？\n\n以上、よろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1681776998.998529",
+        "reply_count": 5,
+        "reply_users_count": 3,
+        "latest_reply": "1681971767.993369",
+        "reply_users": [
+            "U033G4KN4TD",
+            "U0331FZS7JT",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1681778186.642079"
+            },
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1681881388.438919"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1681881582.842059"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1681888493.321229"
+            },
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1681971767.993369"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "iYF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\n"
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nalibaba（サウジアラビア）のDANAH alさんから\nサンプル代30USDの銀行送金の連絡がありました。\n\nパッキングリストの完成とサンプルの発送をお願いします。\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\nサンプルはQuotationの欄外に50gの原価がありますが\n以前のメッセージを確認しましたが無かったので\n20gで良いですよね？\n\n以上、よろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            },
+            {
+                "name": "出荷完了",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1681778186.642079",
+        "client_msg_id": "fad66a8e-c641-4d17-8d4d-caef49ca003e",
+        "text": "<@U0331FZS7JT> 社長\nCC：<@U041RJKV5JA> 部長\n\nお疲れ様です。\n\nQuotationの欄外に50gの原価は50g商品の場合の原価です。\nサンプルは20gで大丈夫と思いますが、再確認いたします。\n\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1681776998.998529",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "iEbvC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nCC："
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n\nお疲れ様です。\n\nQuotationの欄外に50gの原価は50g商品の場合の原価です。\nサンプルは20gで大丈夫と思いますが、再確認いたします。\n\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1681799996.765969",
+        "client_msg_id": "11ac6ba7-f359-425d-895e-04ebc811bd68",
+        "text": "<@U041RJKV5JA> <@U033G4KN4TD>\n本件、お客様が一向にEORI番号を教えてくれない（取得する気がない）のですが、\n今回は、サンプル代を貰っているので、EORI番号なしでもう送ってしまいましょうか。\n過去にFedexでEORI番号なしで日本から仕入れたことがあるそうですので、\nFedexxで送りましょう。\n\n但し、条件として下記の内容を事前にお客様に伝えるようにします。\n\n・現地で手続きが発生する可能性があります。\n・万が一、トラブルが起きた場合は現地で対応願います。\n・追加の通関費用を請求された場合は支払い願います。\n・サンプルではなく、正式なビジネスを進める場合はEORI番号取得後でお願いします。\n\nこれで進めたいと思います。\n宜しく願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1680889069.320629",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Xyvs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本件、お客様が一向にEORI番号を教えてくれない（取得する気がない）のですが、\n今回は、サンプル代を貰っているので、EORI番号なしでもう送ってしまいましょうか。\n過去にFedexでEORI番号なしで日本から仕入れたことがあるそうですので、\nFedexxで送りましょう。\n\n但し、条件として下記の内容を事前にお客様に伝えるようにします。\n\n・現地で手続きが発生する可能性があります。\n・万が一、トラブルが起きた場合は現地で対応願います。\n・追加の通関費用を請求された場合は支払い願います。\n・サンプルではなく、正式なビジネスを進める場合はEORI番号取得後でお願いします。\n\nこれで進めたいと思います。\n宜しく願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            },
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1681800250.478109",
+        "client_msg_id": "29923cc7-aba0-4cb6-a864-405fba2a7668",
+        "text": "<@U0331FWGQRM> 執行役\nCC：<@U041RJKV5JA> 部長\n\nお疲れ様です。\nサンプルの準備が完了しましたので、\nFedExに送り状作成と集荷依頼して、明日4\/19発送いたします。\nよろしく御願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1680889069.320629",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xgSP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\nCC："
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n\nお疲れ様です。\nサンプルの準備が完了しましたので、\nFedExに送り状作成と集荷依頼して、明日4\/19発送いたします。\nよろしく御願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

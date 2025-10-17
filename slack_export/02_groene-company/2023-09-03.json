@@ -1,0 +1,168 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1693753518.627919",
+        "client_msg_id": "565a7134-1109-4503-ab48-b911fc876bf9",
+        "text": "<@U041RJKV5JA> <@U033G4KN4TD>\n*TSE036-23ｱﾒﾘｶJorge*\n注文が入りました。\n出荷日が分かり次第教えて下さい。\nPacking listのケースで入ると思うのですが、\n念の為に確認して下さい。\n\n宜しくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1693753518.627919",
+        "reply_count": 7,
+        "reply_users_count": 3,
+        "latest_reply": "1694407903.591429",
+        "reply_users": [
+            "U041RJKV5JA",
+            "U0331FWGQRM",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1693821568.765359"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1693871014.472379"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1693908457.359509"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1693957162.305769"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1693966721.762789"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1694000825.096989"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1694407903.591429"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1694407903.591429",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CV\/L",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE036-23ｱﾒﾘｶJorge",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n注文が入りました。\n出荷日が分かり次第教えて下さい。\nPacking listのケースで入ると思うのですが、\n念の為に確認して下さい。\n\n宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U033G4KN4TD"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1693802889.367909",
+        "client_msg_id": "f6aa4e16-7028-4977-8a85-89553326f079",
+        "text": "<@U0331FWGQRM> 執行役\n本件、出荷しました。\n今後のスケジュールは、分かり次第ご連絡いたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1691201058.257289",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GZxN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\n本件、出荷しました。\n今後のスケジュールは、分かり次第ご連絡いたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

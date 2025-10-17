@@ -1,0 +1,715 @@
+[
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1742470552.323159",
+        "client_msg_id": "ef5bd715-d532-4785-a6b1-a43402accaaa",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <@U066P20UQH1>\nDHLで発送対応を完了しました。\nAWB: 5100026621\n以上、よろしくお願いいたします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1742367706.975409",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ueS2p",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nDHLで発送対応を完了しました。\nAWB: 5100026621\n以上、よろしくお願いいたします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "売上完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1742492394.022299",
+        "client_msg_id": "c25b90fc-093f-4671-83c6-3db35851f3f0",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:flag-th:タイ CHI-Chinnapat Sukontarot様からサンプル注文を頂きました。\n*TSE-CHI-SPL-003-25*  ",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1742492394.022299",
+        "reply_count": 6,
+        "reply_users_count": 5,
+        "latest_reply": "1743660809.890469",
+        "reply_users": [
+            "U0606SPN4BW",
+            "U0331FZTHEK",
+            "U066P20UQH1",
+            "U041RJKV5JA",
+            "U08L89G6JSG"
+        ],
+        "replies": [
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1742492522.197089"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1742511017.971679"
+            },
+            {
+                "user": "U066P20UQH1",
+                "ts": "1742805560.406189"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1742918941.514649"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1743657126.844389"
+            },
+            {
+                "user": "U08L89G6JSG",
+                "ts": "1743660809.890469"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1743660809.890469",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/Ag\/v",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-th",
+                                "unicode": "1f1f9-1f1ed"
+                            },
+                            {
+                                "type": "text",
+                                "text": "タイ CHI-Chinnapat Sukontarot様からサンプル注文を頂きました。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-CHI-SPL-003-25  ",
+                                "style": {
+                                    "bold": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            },
+            {
+                "name": "ivpl作成済",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "管理表入力済",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "指示書作成済",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1742492522.197089",
+        "client_msg_id": "d114188b-728a-4227-b403-85598ef76f83",
+        "text": "下記へ発送手続き、および発送日のお知らせをお願いします！\n\n\n<@U0331FZTHEK> 入金確認済, 回収処理をお願いします！\n\n\n▼サンプル内容 (計20点)\n&lt;各20g&gt;\nOrganic Matcha Upper - 1 鹿児島製茶 (鹿児島 A)\nOrganic Matcha Upper - 2 鹿児島製茶 (鹿児島 1A)\nNon-organic Matcha Upper - 1 出雲精茶G\nNon-organic Matcha Upper - 2 出雲精茶R\n\n袋指定なし、\nエージレス無し、\n品名ラベル貼り\n価格表示：なし\n\n発送: *EMS* \n(備考: 前回DHLで通関できなかった為、*EMSで再チャレンジ希望*とのことです。)\n\n--------------------------------\nCompany name: Chinnapat\nName: Chinnapat Sukontarot\nAddress: 123\/73 Golden neo 2, Rama 2 Road, Phanthai Norasing Sub-District, Mueang Samut Sakhon District, Samut Sakhon Province\nCountry: Thailand\nPostal code: 74000\nPhone: <tel:0959563432|095-956-3432>\nEmail: <mailto:Chinnapatsukon@gmail.com|Chinnapatsukon@gmail.com>\n--------------------------------",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1742492394.022299",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "y1\/HI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "下記へ発送手続き、および発送日のお知らせをお願いします！\n\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 入金確認済, 回収処理をお願いします！\n\n\n▼サンプル内容 (計20点)\n<各20g>\nOrganic Matcha Upper - 1 鹿児島製茶 (鹿児島 A)\nOrganic Matcha Upper - 2 鹿児島製茶 (鹿児島 1A)\nNon-organic Matcha Upper - 1 出雲精茶G\nNon-organic Matcha Upper - 2 出雲精茶R\n\n袋指定なし、\nエージレス無し、\n品名ラベル貼り\n価格表示：なし\n\n発送: "
+                            },
+                            {
+                                "type": "text",
+                                "text": "EMS ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n(備考: 前回DHLで通関できなかった為、"
+                            },
+                            {
+                                "type": "text",
+                                "text": "EMSで再チャレンジ希望",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "とのことです。)\n\n--------------------------------\nCompany name: Chinnapat\nName: Chinnapat Sukontarot\nAddress: 123\/73 Golden neo 2, Rama 2 Road, Phanthai Norasing Sub-District, Mueang Samut Sakhon District, Samut Sakhon Province\nCountry: Thailand\nPostal code: 74000\nPhone: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:0959563432",
+                                "text": "095-956-3432"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nEmail: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:Chinnapatsukon@gmail.com",
+                                "text": "Chinnapatsukon@gmail.com"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n--------------------------------"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1742493712.823999",
+        "client_msg_id": "cda1edb4-4db2-44f4-b4e7-6aa47bf6936e",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:fr:フランス BENATTIA CAMÉLIA(アリババ名: Camelia Benattia)様からサンプル注文を頂きました。\n*TSE-CAM-SPL-001-25*  ",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1742493712.823999",
+        "reply_count": 4,
+        "reply_users_count": 3,
+        "latest_reply": "1743661059.551009",
+        "reply_users": [
+            "U0606SPN4BW",
+            "U0331FZTHEK",
+            "U08L89G6JSG"
+        ],
+        "replies": [
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1742493746.427639"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1742511029.894839"
+            },
+            {
+                "user": "U08L89G6JSG",
+                "ts": "1743561945.459309"
+            },
+            {
+                "user": "U08L89G6JSG",
+                "ts": "1743661059.551009"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1743661059.551009",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ISELi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-fr",
+                                "unicode": "1f1eb-1f1f7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "フランス BENATTIA CAMÉLIA(アリババ名: Camelia Benattia)様からサンプル注文を頂きました。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-CAM-SPL-001-25  ",
+                                "style": {
+                                    "bold": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            },
+            {
+                "name": "管理表入力済",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "ivpl作成済",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "指示書作成済",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1742493746.427639",
+        "client_msg_id": "1c2dea91-64dd-45ff-998e-90b1b0c13f1d",
+        "text": "下記へ発送手続き、および発送日のお知らせをお願いします！\n\n\n<@U0331FZTHEK> 入金確認済 (PayPal), 回収処理をお願いします！\n\n\n▼サンプル内容 (計 8点)\n&lt;各20g&gt;\nOrganic Matcha Upper - 1 鹿児島製茶 (鹿児島 A)\nOrganic Matcha Upper - 2 鹿児島製茶 (鹿児島 1A)\nOrganic Matcha Middle - 1 鹿児島製茶 (鹿児島 B)\nNon-organic Matcha Upper - 1 出雲精茶G\nNon-organic Matcha Upper - 2 出雲精茶R\nNon-organic Matcha Middle - 1 出雲精茶T\nNon-organic Matcha Middle - 2 出雲精茶N\nVanilla Matcha  鹿児島製茶 (鹿児島B, キタマ バニラパウダー)\n\n\n袋指定なし、\nエージレス無し、\n品名ラベル貼り\n価格表示：なし\n\n\n発送:DHL\n\n\n--------------------------------\n\nName: BENATTIA CAMÉLIA\t\t \nAddress: 31 RUE CHARDON LAGACHE, 75016 PARIS, FRANCE\nPhone: <tel:+33651636809|+33651636809>\nEmail: <mailto:Pro.benattia@gmail.com|Pro.benattia@gmail.com>\n\n--------------------------------",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1742493712.823999",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yel5L",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "下記へ発送手続き、および発送日のお知らせをお願いします！\n\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 入金確認済 (PayPal), 回収処理をお願いします！\n\n\n▼サンプル内容 (計 8点)\n<各20g>\nOrganic Matcha Upper - 1 鹿児島製茶 (鹿児島 A)\nOrganic Matcha Upper - 2 鹿児島製茶 (鹿児島 1A)\nOrganic Matcha Middle - 1 鹿児島製茶 (鹿児島 B)\nNon-organic Matcha Upper - 1 出雲精茶G\nNon-organic Matcha Upper - 2 出雲精茶R\nNon-organic Matcha Middle - 1 出雲精茶T\nNon-organic Matcha Middle - 2 出雲精茶N\nVanilla Matcha  鹿児島製茶 (鹿児島B, キタマ バニラパウダー)\n\n\n袋指定なし、\nエージレス無し、\n品名ラベル貼り\n価格表示：なし\n\n\n発送:DHL\n\n\n--------------------------------\n\nName: BENATTIA CAMÉLIA\t\t \nAddress: 31 RUE CHARDON LAGACHE, 75016 PARIS, FRANCE\nPhone: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:+33651636809",
+                                "text": "+33651636809"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nEmail: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:Pro.benattia@gmail.com",
+                                "text": "Pro.benattia@gmail.com"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n--------------------------------"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1742510960.394209",
+        "client_msg_id": "d1c7a64f-f496-4595-8822-1e3d9d730782",
+        "text": "<@U0606SPN4BW>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nご入金を確認致しました。\n・3\/19 [PayPal]\n・50 USD\n回収（入金）処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1742396983.187929",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IJfdB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nご入金を確認致しました。\n・3\/19 [PayPal]\n・50 USD\n回収（入金）処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            },
+            {
+                "name": "入金完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1742511017.971679",
+        "client_msg_id": "642c9fb8-732e-4d0a-90f6-7d0c8070d749",
+        "text": "<@U0606SPN4BW>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nご入金を確認致しました。\n・3\/20 [PayPal]\n・30 USD\n回収（入金）処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1742492394.022299",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "h0q58",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nご入金を確認致しました。\n・3\/20 [PayPal]\n・30 USD\n回収（入金）処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            },
+            {
+                "name": "入金完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1742511029.894839",
+        "client_msg_id": "846452e9-2903-4797-9b54-9243a6b87bf8",
+        "text": "<@U0606SPN4BW>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nご入金を確認致しました。\n・3\/20 [PayPal]\n・30 USD\n回収（入金）処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1742493712.823999",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "h0q58",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nご入金を確認致しました。\n・3\/20 [PayPal]\n・30 USD\n回収（入金）処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            },
+            {
+                "name": "入金完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,95 @@
+[
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1753424132.535089",
+        "client_msg_id": "d74f44fb-c34f-445f-8c82-5d0dcaf025ae",
+        "text": "<!channel>\n管理表の関数が入っている箇所がちょこちょこ消えていたり書き変わっていたりするのですが、\n気付いた場合は修正・修正対応が難しい場合は一度ご一報ください:pray:\n日に日に複雑になっていっておりますが、記入の際には今一度気をつけるようにお願いいたします:bow:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ae5HE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n管理表の関数が入っている箇所がちょこちょこ消えていたり書き変わっていたりするのですが、\n気付いた場合は修正・修正対応が難しい場合は一度ご一報ください"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "pray",
+                                "unicode": "1f64f"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n日に日に複雑になっていっておりますが、記入の際には今一度気をつけるようにお願いいたします"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "bow",
+                                "unicode": "1f647"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "saluting_face",
+                "users": [
+                    "U08N3SKSL75",
+                    "U0606SPN4BW",
+                    "U0331FWGQRM",
+                    "U0331FZS7JT"
+                ],
+                "count": 4
+            },
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U08RVRNBY00",
+                    "U095LLEH09G"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U095LLEH09G",
+        "text": "<@U095LLEH09G>さんがチャンネルに参加しました",
+        "inviter": "U066P20UQH1",
+        "type": "message",
+        "ts": "1753424168.927099",
+        "reactions": [
+            {
+                "name": "ありかとう",
+                "users": [
+                    "U095LLEH09G"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

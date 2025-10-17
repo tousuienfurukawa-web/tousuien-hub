@@ -1,0 +1,256 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1677145497.852979",
+        "client_msg_id": "d386af9d-cce1-44d0-9df8-9480cf78e1b6",
+        "text": "<@U041RJKV5JA> <!channel>\nカナダのお客様へサンプル発送お願いします。\n入金確認後の発送でお願いします。\n\nカナダ→Jenny Howack(Alibaba)\n\n内容、発送先住所などは\nINVOICEをご確認ください。\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1677145497.852979",
+        "reply_count": 5,
+        "reply_users_count": 3,
+        "latest_reply": "1677475935.748999",
+        "reply_users": [
+            "U0331FWGQRM",
+            "U0331FZTHEK",
+            "U03SGRNND5L"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1677197002.477509"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1677255335.983869"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1677279171.647039"
+            },
+            {
+                "user": "U03SGRNND5L",
+                "ts": "1677301281.187359"
+            },
+            {
+                "user": "U03SGRNND5L",
+                "ts": "1677475935.748999"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1677475935.748999",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wTmjl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nカナダのお客様へサンプル発送お願いします。\n入金確認後の発送でお願いします。\n\nカナダ→Jenny Howack(Alibaba)\n\n内容、発送先住所などは\nINVOICEをご確認ください。\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1677197002.477509",
+        "client_msg_id": "7adb855b-69ed-4a7d-a42e-6803b3c7f54b",
+        "text": "<@U041RJKV5JA> <@U03SGRNND5L>\nお客様の入金確認まで、サンプルの準備は開始しないでOKです。（入金されない可能性もあるので:sweat_drops:）",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1677145497.852979",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+fbm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03SGRNND5L"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nお客様の入金確認まで、サンプルの準備は開始しないでOKです。（入金されない可能性もあるので"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sweat_drops",
+                                "unicode": "1f4a6"
+                            },
+                            {
+                                "type": "text",
+                                "text": "）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U03SGRNND5L"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1677206941.900379",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1677207514.000000"
+        },
+        "client_msg_id": "622e2ac5-2426-472d-8bb5-9cfa8ba9bd09",
+        "text": "<!channel>\n今日の日本時間13時からAlibaba live streamを行います。\n今までalibaba経由で問い合わせて、\n連絡が止まっているお客様などに\n下記URLとメッセージを添えてお知らせしてください。\n\nHello.\nI hope you are doing well.\n\nWell, I just contacted you today with an announcement.\nToday and tomorrow(24 and 25 Feb.), we will have an Alibaba Live stream starting at 1:00 PM Japan time.\nIf you are interested, please take a look.\n\nToday, it will start one hour later from now.\nI will be waiting for you:)\n\nThanks.\n\n24 Feb.\n<https:\/\/onl.la\/bXxfLiw>\n\n25 Feb.\n<https:\/\/onl.la\/LAKEGHK>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "image_url": "https:\/\/sc04.alicdn.com\/kf\/A357f66a7165d43909548c01951edc0f5f.jpg",
+                "image_width": 707,
+                "image_height": 707,
+                "image_bytes": 745871,
+                "from_url": "https:\/\/onl.la\/bXxfLiw",
+                "service_icon": "http:\/\/is.alicdn.com\/simg\/single\/icon\/favicon.ico",
+                "id": 1,
+                "original_url": "https:\/\/onl.la\/bXxfLiw",
+                "fallback": "alibaba.com: Matcha : ceremonial - culinary grade, OEM (bag, tin, stick) Product Show Stream 2023 - Alibaba.com",
+                "text": "Food &amp; Beverage suppliers and exhibitors live-stream at <http:\/\/Alibaba.com|Alibaba.com> Online Trade Show now.",
+                "title": "Matcha : ceremonial - culinary grade, OEM (bag, tin, stick) Product Show Stream 2023 - Alibaba.com",
+                "title_link": "https:\/\/onl.la\/bXxfLiw",
+                "service_name": "alibaba.com"
+            },
+            {
+                "from_url": "https:\/\/onl.la\/LAKEGHK",
+                "image_url": "https:\/\/sc04.alicdn.com\/kf\/A872f52e14d884601bc509522dd327aa6W.jpg",
+                "image_width": 707,
+                "image_height": 707,
+                "image_bytes": 746838,
+                "service_icon": "http:\/\/is.alicdn.com\/simg\/single\/icon\/favicon.ico",
+                "id": 2,
+                "original_url": "https:\/\/onl.la\/LAKEGHK",
+                "fallback": "alibaba.com: Matcha : ceremonial - culinary grade, OEM (bag, tin, stick)2 Product Show Stream 2023 - Alibaba.com",
+                "text": "Food &amp; Beverage suppliers and exhibitors live-stream at <http:\/\/Alibaba.com|Alibaba.com> Online Trade Show now.",
+                "title": "Matcha : ceremonial - culinary grade, OEM (bag, tin, stick)2 Product Show Stream 2023 - Alibaba.com",
+                "title_link": "https:\/\/onl.la\/LAKEGHK",
+                "service_name": "alibaba.com"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FR1F",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n今日の日本時間13時からAlibaba live streamを行います。\n今までalibaba経由で問い合わせて、\n連絡が止まっているお客様などに\n下記URLとメッセージを添えてお知らせしてください。\n\nHello.\nI hope you are doing well.\n\nWell, I just contacted you today with an announcement.\nToday and tomorrow(24 and 25 Feb.), we will have an Alibaba Live stream starting at 1:00 PM Japan time.\nIf you are interested, please take a look.\n\nToday, it will start one hour later from now.\nI will be waiting for you:)\n\nThanks.\n\n24 Feb.\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/onl.la\/bXxfLiw"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n25 Feb.\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/onl.la\/LAKEGHK"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

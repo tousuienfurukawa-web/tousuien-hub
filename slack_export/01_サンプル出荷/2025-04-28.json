@@ -1,0 +1,1329 @@
+[
+    {
+        "user": "U08N3SKSL75",
+        "type": "message",
+        "ts": "1745829333.379319",
+        "client_msg_id": "5525e42d-6ae8-4c5f-ad8c-1fcd8863b061",
+        "text": "<https:\/\/grp-ssm9297.slack.com\/admin\/user_groups|@hirakawa-adachi-yokoi-yamamoto> <https:\/\/grp-ssm9297.slack.com\/admin\/user_groups|@oka-matsui-furukawa-hayashi-kimura >\nラベルは直送便で5\/8頃納品の予定です。\nサンプル準備よろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g385a5ea1fc7",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/385a5ea1fc7db8f0b42ecd922f43af6c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-72.png",
+            "first_name": "Kimura",
+            "real_name": "Kimura",
+            "display_name": "Kimura",
+            "team": "T033D70RR6H",
+            "name": "tousuien.kimura",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745820248.031539",
+        "parent_user_id": "U08N3SKSL75",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3aQmj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/grp-ssm9297.slack.com\/admin\/user_groups",
+                                "text": "@hirakawa-adachi-yokoi-yamamoto"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/grp-ssm9297.slack.com\/admin\/user_groups",
+                                "text": "@oka-matsui-furukawa-hayashi-kimura "
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nラベルは直送便で5\/8頃納品の予定です。\nサンプル準備よろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1745832653.135769",
+        "client_msg_id": "27f05995-9336-4ff8-af92-f56973b11132",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:fr:フランス MEH-BENREGHAI Mohamed様からサンプル注文を頂きました。\n*TSE-MEH-SPL-001-25*",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745832653.135769",
+        "reply_count": 5,
+        "reply_users_count": 5,
+        "latest_reply": "1746165653.811539",
+        "reply_users": [
+            "U0606SPN4BW",
+            "U0331FZTHEK",
+            "U066P20UQH1",
+            "U0840UVFVA8",
+            "U08L89G6JSG"
+        ],
+        "replies": [
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1745832739.446269"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1745833345.677739"
+            },
+            {
+                "user": "U066P20UQH1",
+                "ts": "1746068513.197829"
+            },
+            {
+                "user": "U0840UVFVA8",
+                "ts": "1746081486.366699"
+            },
+            {
+                "user": "U08L89G6JSG",
+                "ts": "1746165653.811539"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1746165653.811539",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1EElM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-fr",
+                                "unicode": "1f1eb-1f1f7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "フランス MEH-BENREGHAI Mohamed様からサンプル注文を頂きました。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-MEH-SPL-001-25",
+                                "style": {
+                                    "bold": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1745832739.446269",
+        "client_msg_id": "c2cbb23d-f3c6-45fb-a718-6e661d28447c",
+        "text": "下記へ発送手続き、および発送日のお知らせをお願いします！\n\n\n<@U0331FZTHEK> 入金確認済 (PayPal), 回収処理をお願いします！\n\n\n▼サンプル内容 (計 4点)\n&lt;各20g&gt;\n・Organic Kagoshima Hojicha Powder（ひかわ, 有機ほうじ茶HTJ10を粉砕）\n\n・Non-organic Izumo Hojicha Powder（出雲精茶, 出雲ほうじ茶Powder）\n\n・Non-organic Izumo stem Hojicha Powder（出雲精茶,茎ほうじPowder）\n\n・Non-organic Uji Hojicha Powder（香岳園, ほうじ茶パウダー）\n\n\n袋指定なし、\nエージレス無し、\n品名ラベル貼り\n\n箱：ボタニカル\n発送:DHL\n\n\n---------------------------------------\nName: BENREGHAI Mohamed\nAddress: 81 rue d’aunis, Maurepas\nCountry: France\nPostal code: 78310\ne-mail: <mailto:contact@rinalya.fr|contact@rinalya.fr>\nPhone: <tel:+33601012412|+33601012412>\n---------------------------------------",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745832653.135769",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+dof5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "下記へ発送手続き、および発送日のお知らせをお願いします！\n\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 入金確認済 (PayPal), 回収処理をお願いします！\n\n\n▼サンプル内容 (計 4点)\n<各20g>\n・Organic Kagoshima Hojicha Powder（ひかわ, 有機ほうじ茶HTJ10を粉砕）\n\n・Non-organic Izumo Hojicha Powder（出雲精茶, 出雲ほうじ茶Powder）\n\n・Non-organic Izumo stem Hojicha Powder（出雲精茶,茎ほうじPowder）\n\n・Non-organic Uji Hojicha Powder（香岳園, ほうじ茶パウダー）\n\n\n袋指定なし、\nエージレス無し、\n品名ラベル貼り\n\n箱：ボタニカル\n発送:DHL\n\n\n---------------------------------------\nName: BENREGHAI Mohamed\nAddress: 81 rue d’aunis, Maurepas\nCountry: France\nPostal code: 78310\ne-mail: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:contact@rinalya.fr",
+                                "text": "contact@rinalya.fr"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nPhone: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:+33601012412",
+                                "text": "+33601012412"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n---------------------------------------"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1745833345.677739",
+        "client_msg_id": "453bc280-e6d8-40ae-9991-81442728512a",
+        "text": "<@U0606SPN4BW>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nご入金を確認致しました。\n・4\/28 [PayPal]\n・30 USD\n回収（入金）処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745832653.135769",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yVtVI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nご入金を確認致しました。\n・4\/28 [PayPal]\n・30 USD\n回収（入金）処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            },
+            {
+                "name": "入金完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U08L89G6JSG",
+        "type": "message",
+        "ts": "1745835686.081019",
+        "client_msg_id": "5f814634-35ee-4c94-bb38-6ceac123e152",
+        "text": "<@U08N3SKSL75>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n本日DHLにて出荷しました。\nよろしくお願いします。\nAWB No.7007071772",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "fed0a878533f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-03-31\/8678953673334_fed0a878533f1e7c9560_72.png",
+            "first_name": "yokoi",
+            "real_name": "yokoi",
+            "display_name": "横井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.yokoi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745389527.704959",
+        "parent_user_id": "U08N3SKSL75",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1vHP0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U08N3SKSL75"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日DHLにて出荷しました。\r\nよろしくお願いします。\nAWB No.7007071772"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "連絡完了",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U08N3SKSL75"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U08L89G6JSG",
+        "type": "message",
+        "ts": "1745835775.453509",
+        "client_msg_id": "53d3d0d6-6943-4332-b4b1-4295c9f29cf4",
+        "text": "<@U08N3SKSL75>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n本日DHLにて出荷しました。\nよろしくお願いします。\nAWB No.7007072461",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "fed0a878533f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-03-31\/8678953673334_fed0a878533f1e7c9560_72.png",
+            "first_name": "yokoi",
+            "real_name": "yokoi",
+            "display_name": "横井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.yokoi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745372897.111349",
+        "parent_user_id": "U08N3SKSL75",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jeT6W",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U08N3SKSL75"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日DHLにて出荷しました。\r\nよろしくお願いします。\nAWB No.7007072461"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "連絡完了",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U08N3SKSL75"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U08L89G6JSG",
+        "type": "message",
+        "ts": "1745835847.083429",
+        "client_msg_id": "6edecd3c-b25e-4c36-a8db-22f51dcefef9",
+        "text": "<@U08N3SKSL75>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n本日DHLにて出荷しました。\nよろしくお願いします。\nAWB No.7007071702",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "fed0a878533f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-03-31\/8678953673334_fed0a878533f1e7c9560_72.png",
+            "first_name": "yokoi",
+            "real_name": "yokoi",
+            "display_name": "横井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.yokoi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745230814.374449",
+        "parent_user_id": "U08N3SKSL75",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4L7C2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U08N3SKSL75"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日DHLにて出荷しました。\r\nよろしくお願いします。\nAWB No.7007071702"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "連絡完了",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U08N3SKSL75"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U08L89G6JSG",
+        "type": "message",
+        "ts": "1745836093.697199",
+        "client_msg_id": "4a74260f-ac48-4329-b87c-6df6b2e82e7b",
+        "text": "<@U066P20UQH1>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n本日DHLにて出荷しました。\nよろしくお願いします。\nAWB No.7007071676",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "fed0a878533f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-03-31\/8678953673334_fed0a878533f1e7c9560_72.png",
+            "first_name": "yokoi",
+            "real_name": "yokoi",
+            "display_name": "横井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.yokoi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745452527.311739",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OomPi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日DHLにて出荷しました。\r\nよろしくお願いします。\nAWB No.7007071676"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "連絡完了",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "ありかとう",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U08L89G6JSG",
+        "type": "message",
+        "ts": "1745836300.091109",
+        "client_msg_id": "62faa281-e537-4032-b0fa-52785af22519",
+        "text": "<@U08N3SKSL75>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n本日佐川にて出荷しました。\nよろしくお願いします。\n送り状 No.4917-6819-8611",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "fed0a878533f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-03-31\/8678953673334_fed0a878533f1e7c9560_72.png",
+            "first_name": "yokoi",
+            "real_name": "yokoi",
+            "display_name": "横井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.yokoi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745382714.403149",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5j6ov",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U08N3SKSL75"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日佐川にて出荷しました。\r\nよろしくお願いします。\n送り状 No.4917-6819-8611"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "連絡完了",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "ありかとう",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0840UVFVA8",
+        "type": "message",
+        "ts": "1745886861.216709",
+        "client_msg_id": "346605aa-81a5-4b77-93d4-ed79e83c30d2",
+        "text": "<@U066P20UQH1> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n出荷可能日：5\/1",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g0c71d8d4168",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0c71d8d4168211b07b8a8e20b40c036c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "kanayama",
+            "real_name": "kanayama",
+            "display_name": "金山",
+            "team": "T033D70RR6H",
+            "name": "kanayama-is",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745474168.360319",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "G9sC+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日：5\/1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "pray",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0840UVFVA8",
+        "type": "message",
+        "ts": "1745886947.433349",
+        "client_msg_id": "671bb5be-01ea-4026-a584-865c696b1eba",
+        "text": "<@U066P20UQH1> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n出荷可能日：5\/1",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g0c71d8d4168",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0c71d8d4168211b07b8a8e20b40c036c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "kanayama",
+            "real_name": "kanayama",
+            "display_name": "金山",
+            "team": "T033D70RR6H",
+            "name": "kanayama-is",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745478949.163709",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2RYvV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日：5\/1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0840UVFVA8",
+        "type": "message",
+        "ts": "1745887034.824149",
+        "client_msg_id": "a8e495d5-15bf-4697-a473-08afd8f16714",
+        "text": "<@U08N3SKSL75> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n出荷可能日：5\/1",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g0c71d8d4168",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0c71d8d4168211b07b8a8e20b40c036c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "kanayama",
+            "real_name": "kanayama",
+            "display_name": "金山",
+            "team": "T033D70RR6H",
+            "name": "kanayama-is",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745646930.063899",
+        "parent_user_id": "U08N3SKSL75",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TY3tg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U08N3SKSL75"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日：5\/1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U08N3SKSL75"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0840UVFVA8",
+        "type": "message",
+        "ts": "1745887210.430819",
+        "client_msg_id": "abb49b31-ce6e-4676-9beb-300da7f401b4",
+        "text": "<@U08N3SKSL75> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n出荷可能日：5\/1",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g0c71d8d4168",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0c71d8d4168211b07b8a8e20b40c036c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "kanayama",
+            "real_name": "kanayama",
+            "display_name": "金山",
+            "team": "T033D70RR6H",
+            "name": "kanayama-is",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745477297.768289",
+        "parent_user_id": "U08N3SKSL75",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TY3tg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U08N3SKSL75"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日：5\/1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U08N3SKSL75"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0840UVFVA8",
+        "type": "message",
+        "ts": "1745887756.517719",
+        "client_msg_id": "7ac6a517-b335-4f5d-994d-3b1d0a83822a",
+        "text": "<@U08N3SKSL75> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n出荷可能日：5\/1",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g0c71d8d4168",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0c71d8d4168211b07b8a8e20b40c036c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "kanayama",
+            "real_name": "kanayama",
+            "display_name": "金山",
+            "team": "T033D70RR6H",
+            "name": "kanayama-is",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745480679.120419",
+        "parent_user_id": "U08N3SKSL75",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TY3tg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U08N3SKSL75"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日：5\/1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U08N3SKSL75"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0840UVFVA8",
+        "type": "message",
+        "ts": "1745889374.479839",
+        "client_msg_id": "1bb8f6e8-5784-48bf-8c39-bd8a779fba92",
+        "text": "<@U066P20UQH1> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n出荷可能日：4\/30",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g0c71d8d4168",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0c71d8d4168211b07b8a8e20b40c036c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "kanayama",
+            "real_name": "kanayama",
+            "display_name": "金山",
+            "team": "T033D70RR6H",
+            "name": "kanayama-is",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745572005.322189",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KUhSU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日：4\/30"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "pray",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0840UVFVA8",
+        "type": "message",
+        "ts": "1745889509.337899",
+        "client_msg_id": "908234c7-e154-41a0-a8b0-9f5bed6998f3",
+        "text": "<@U08N3SKSL75> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n出荷可能日：5\/2",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g0c71d8d4168",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0c71d8d4168211b07b8a8e20b40c036c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "kanayama",
+            "real_name": "kanayama",
+            "display_name": "金山",
+            "team": "T033D70RR6H",
+            "name": "kanayama-is",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745572449.286309",
+        "parent_user_id": "U08N3SKSL75",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uFh7c",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U08N3SKSL75"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日：5\/2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U08N3SKSL75"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0840UVFVA8",
+        "type": "message",
+        "ts": "1745889581.711809",
+        "client_msg_id": "182bd1bd-e06d-45ab-b6c7-d7fd4494b9cc",
+        "text": "<@U08N3SKSL75> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n出荷可能日：5\/2",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g0c71d8d4168",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0c71d8d4168211b07b8a8e20b40c036c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "kanayama",
+            "real_name": "kanayama",
+            "display_name": "金山",
+            "team": "T033D70RR6H",
+            "name": "kanayama-is",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745629723.629449",
+        "parent_user_id": "U08N3SKSL75",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uFh7c",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U08N3SKSL75"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日：5\/2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U08N3SKSL75"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0840UVFVA8",
+        "type": "message",
+        "ts": "1745889838.321099",
+        "client_msg_id": "c45077ba-5144-4f81-af27-95fdf36561f7",
+        "text": "<@U0606SPN4BW> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n出荷可能日：5\/2",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g0c71d8d4168",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0c71d8d4168211b07b8a8e20b40c036c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "kanayama",
+            "real_name": "kanayama",
+            "display_name": "金山",
+            "team": "T033D70RR6H",
+            "name": "kanayama-is",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745626652.223309",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+txpx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日：5\/2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0840UVFVA8",
+        "type": "message",
+        "ts": "1745890046.388549",
+        "client_msg_id": "00d1cd7e-4d68-40df-85fb-efb40634d483",
+        "text": "<@U0606SPN4BW> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n出荷可能日：5\/2",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g0c71d8d4168",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0c71d8d4168211b07b8a8e20b40c036c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "kanayama",
+            "real_name": "kanayama",
+            "display_name": "金山",
+            "team": "T033D70RR6H",
+            "name": "kanayama-is",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745660379.491739",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+txpx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日：5\/2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

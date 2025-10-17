@@ -1,0 +1,410 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1699692967.375389",
+        "client_msg_id": "c2f62a8d-3664-4ecd-8528-5e5b79d7210b",
+        "text": "<@U0331FZTHEK>\n本件、送金の連絡がありました。\nよろしくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1699560465.894809",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "upvS8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本件、送金の連絡がありました。\nよろしくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1699696399.097359",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1699696525.000000"
+        },
+        "client_msg_id": "29BAFB82-DF32-4A76-B7EE-F70E2B30F2EF",
+        "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD> \n出荷ありがとうございます！\n\nなんですが、、、すみませんが\nお客様から、\nzip code、受取人の名前、電話番号\nを間違えた、と連絡が来ました。。。\n（婚約者が受取人らしいです。\nいやいや、聞いてない！って話なんですが。）\n\nX    83727\nO　82727\n\nX     Anfal Altamimi\nO    Ahmed Alharbi\n\nX     <tel:966500313057|966500313057>\nO    <tel:966535578177|966535578177>\n\n月曜でいいので、\nペガサスに確認宜しくお願い致します:sweat_drops:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1698740771.604309",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cQ5M4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \n出荷ありがとうございます！\n\nなんですが、、、すみませんが\nお客様から、\nzip code、受取人の名前、電話番号\nを間違えた、と連絡が来ました。。。\n（婚約者が受取人らしいです。\nいやいや、聞いてない！って話なんですが。）\n\nX    83727\nO　82727\n\nX     Anfal Altamimi\nO    Ahmed Alharbi\n\nX     "
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:966500313057",
+                                "text": "966500313057"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nO    "
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:966535578177",
+                                "text": "966535578177"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n月曜でいいので、\nペガサスに確認宜しくお願い致します"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sweat_drops",
+                                "unicode": "1f4a6"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1699715520.893099",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1699715540.000000"
+        },
+        "client_msg_id": "17f11b4a-3301-4661-b644-2d8f36ba432f",
+        "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD>\n本件、発送方法について迷われております。\nFOBの可能性もあるそうです。\n神戸港からのFOB（船便）リーファーと常温便\n関空からのFOB（航空便）\nの価格を見積もりとっていただけますでしょうか？\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1697826081.306389",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "04Q1f",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本件、発送方法について迷われております。\nFOBの可能性もあるそうです。\n神戸港からのFOB（船便）リーファーと常温便\n関空からのFOB（航空便）\nの価格を見積もりとっていただけますでしょうか？\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U05KGS6HN9H"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1699718486.350289",
+        "client_msg_id": "5d98cd2a-3667-4f27-8f9f-0b16f78aa3da",
+        "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD>\nサウジアラビアのArwa ABUZAID様から再注文です。\n前回6kg→今回3kg\n※以前、通関されずに帰ってきた案件です。\nTSE-ARW-002-23\n出荷先住所が変更されるみたいなので、更新されたらまた連絡します。\n宜しくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1699718486.350289",
+        "reply_count": 9,
+        "reply_users_count": 3,
+        "latest_reply": "1700023525.949359",
+        "reply_users": [
+            "U041RJKV5JA",
+            "U0331FWGQRM",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1699832664.503489"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1699835846.951109"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1699840243.134499"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1699841424.826389"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1699848712.942079"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1699850187.980369"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1699851422.595749"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1699856872.784969"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1700023525.949359"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1700023525.949359",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6tU\/E",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nサウジアラビアのArwa ABUZAID様から再注文です。\n前回6kg→今回3kg\n※以前、通関されずに帰ってきた案件です。\nTSE-ARW-002-23\n出荷先住所が変更されるみたいなので、更新されたらまた連絡します。\n宜しくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U05KGS6HN9H"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1699756346.048539",
+        "client_msg_id": "f00db83f-3a23-41cb-93db-390ee613daa6",
+        "text": "<@U0331FWGQRM>\n <@U05KGS6HN9H> <@U033G4KN4TD>\n連絡が遅くなり申し訳ございません。\n昨日、DHLにて出荷しております。\nAWB NO. 5267119734\n\n受取人変更等の件、明日、ペガサスに確認いたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1698740771.604309",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hOxae",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n連絡が遅くなり申し訳ございません。\n昨日、DHLにて出荷しております。\nAWB NO. 5267119734\n\n受取人変更等の件、明日、ペガサスに確認いたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

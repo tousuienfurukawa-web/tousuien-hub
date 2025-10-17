@@ -1,0 +1,115 @@
+[
+    {
+        "user": "U03BLQ65GK0",
+        "type": "message",
+        "ts": "1686727315.500839",
+        "edited": {
+            "user": "U03BLQ65GK0",
+            "ts": "1686727617.000000"
+        },
+        "client_msg_id": "20f8eebc-39ac-4407-9a9b-33c55b078258",
+        "text": "<@U0331FWGQRM>\nそうですね、送ってもらった画像みたいな感じではないですね。\n何というか暗い（？）様な感じで、金というよりは薄い黄色って感じです。\nつや有り版でもキラキラした感じはほとんどなく、代替案としてはちょっと厳しいですね。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "8126b71e44ec",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-04-17\/3403818627748_8126b71e44ec1508fdbd_72.png",
+            "first_name": "daiki",
+            "real_name": "daiki oka",
+            "display_name": "daiki",
+            "team": "T033D70RR6H",
+            "name": "daiki.oka",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1686465072.524739",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UexJq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nそうですね、送ってもらった画像みたいな感じではないですね。\n何というか暗い（？）様な感じで、金というよりは薄い黄色って感じです。\nつや有り版でもキラキラした感じはほとんどなく、代替案としてはちょっと厳しいですね。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1686729813.661619",
+        "client_msg_id": "1079A0EC-FA92-4106-8ADA-7CBB43838D99",
+        "text": "<@U03BLQ65GK0> \nありがとうございます！！\nそうですよね！\n助かります！！！！！:bow:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1686465072.524739",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dmeP4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \nありがとうございます！！\nそうですよね！\n助かります！！！！！"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "bow",
+                                "unicode": "1f647"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U03BLQ65GK0"
+                ],
+                "count": 1
+            },
+            {
+                "name": "blush",
+                "users": [
+                    "U03BLQ65GK0"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

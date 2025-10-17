@@ -1,0 +1,79 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U0331FWGQRM",
+        "text": "<@U0331FWGQRM>さんがチャンネルに参加しました",
+        "type": "message",
+        "ts": "1645068347.588319"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U0331FZS7JT",
+        "text": "<@U0331FZS7JT>さんがチャンネルに参加しました",
+        "type": "message",
+        "ts": "1645068488.309959"
+    },
+    {
+        "subtype": "channel_name",
+        "user": "U0331FWGQRM",
+        "old_name": "海外展開",
+        "name": "hp作成-海外",
+        "text": "チャンネル名を「海外展開」から「hp作成-海外」に変更しました",
+        "type": "message",
+        "ts": "1645068717.537679"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U033G4KN4TD",
+        "text": "<@U033G4KN4TD>さんがチャンネルに参加しました",
+        "type": "message",
+        "ts": "1645069693.184899"
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1645071802.897349",
+        "client_msg_id": "a98d6ccf-3019-4a95-8c03-9fa4921c0d8d",
+        "text": "todo\nプリズムの確認・追記\n\n確認事項\n海さんにロゴマーク依頼し忘れかも・・\nどうするか含めて相談",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eDC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "todo\nプリズムの確認・追記\n\n確認事項\n海さんにロゴマーク依頼し忘れかも・・\nどうするか含めて相談"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

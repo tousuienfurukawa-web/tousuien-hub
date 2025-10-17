@@ -1,0 +1,494 @@
+[
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1726042280.890919",
+        "client_msg_id": "a1dad6fc-4d78-42f6-a906-528e77bf57f2",
+        "text": "<@U041RJKV5JA> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\nこのルールって、例えばカナダに輸出する際にアメリカを通過する場合、\n一旦アメリカ国内に入るということになるので適用されることになるのでしょうか・・？\nそれともカナダオーガニックは別の認証だから無関係という認識でも良いのでしょうか？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1723002320.645029",
+        "parent_user_id": "U041RJKV5JA",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jnNky",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nこのルールって、例えばカナダに輸出する際にアメリカを通過する場合、\n一旦アメリカ国内に入るということになるので適用されることになるのでしょうか・・？\nそれともカナダオーガニックは別の認証だから無関係という認識でも良いのでしょうか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1726046107.266389",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1726047300.000000"
+        },
+        "client_msg_id": "ef51ab4f-7647-48a4-9b8f-f089f4bd2b91",
+        "text": "メモ\n宛名：Impact Foods International Ltd,\n\n住所：\nOffice 3\/4, International House,Cray Avenue,Orpington, Kent,\nBR5 3RS,\nUnited Kingdom.\n\nEmai：<mailto:emma@impactfoods.co.uk|emma@impactfoods.co.uk>\n電話：<tel:+447913603005|+44 7913 603005>\n\nCompany Registration No: 10170650\nCompany VAT No GB200259948\n\nDHL：¥72,472\nUPS：¥67,056\nFedex(特別オファー)：¥43,156-¥48,342",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1725376137.306619",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6gBGw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "メモ\n宛名：Impact Foods International Ltd,\n\n住所：\nOffice 3\/4, International House,Cray Avenue,Orpington, Kent,\nBR5 3RS,\nUnited Kingdom.\n\nEmai："
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:emma@impactfoods.co.uk",
+                                "text": "emma@impactfoods.co.uk",
+                                "unsafe": true
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n電話："
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:+447913603005",
+                                "text": "+44 7913 603005"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nCompany Registration No: 10170650\nCompany VAT No GB200259948\n\nDHL：¥72,472\nUPS：¥67,056\nFedex(特別オファー)：¥43,156-¥48,342"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<@U066P20UQH1>\n真偽は不明なのですが、上記pdf内のリンクにもある、NOPの動画のトランスクリプトを日本語にしたファイルをGPTに読ませて同じ質問を投げたところ、\n「製品が一旦アメリカ国内に入る場合には、この規則が適用される可能性があります。」とのことのようです。\n（他のAIの回答では、アメリカで通関するなら必要で、税関を通らずにトランジットみたいな扱いなら要らない可能性もある。とも）\n\nつまり「アメリカを通過」が「アメリカの税関を通過するか、しないか。」で分かれそうな感じ？ですかね。。\n\n<@U041RJKV5JA> 島根有機やJONAは更に何か情報をお持ちだったりしますでしょうか？ お手すきでご確認をお願いできますと幸いです！\n\n\n---&lt; 以下GPT &gt;---\nこのルール（NOP輸入証明書の受取人欄の規定）は、基本的に米国向けのオーガニック製品輸入に適用されるものであり、アメリカの規制に従って輸入が行われる場合に関連します。アメリカを経由してカナダに輸出する場合、製品が一旦アメリカ国内に入る場合には、この規則が適用される可能性があります。つまり、カナダに輸出する際にアメリカを通過するという形で製品がアメリカに一時的に入る場合でも、米国のNOP規制が関与する可能性があるため、輸入証明書の提出が必要になることがあります。\n\nただし、カナダ独自のオーガニック認証（Canada Organic Regime, COR）も存在しますので、最終的な輸入先がカナダであれば、カナダの認証要件が適用されます。したがって、直接カナダへ輸送される場合や、アメリカ国内でオーガニックとして流通しない場合は、米国のNOP規則の適用は関係が薄くなる可能性があります。\n\nアメリカを経由する輸送ルートが複雑な場合には、具体的な輸送形態や製品の取り扱いについて、米国とカナダ双方の規制を確認することをおすすめします。\n\nワンポイントアドバイスとして、アメリカ経由でのカナダ輸出の場合、アメリカ税関を通過する際に必要となるすべての書類を準備し、各国のオーガニック規制（NOPとCOR）の違いを事前に確認することが重要です。\n---",
+        "files": [
+            {
+                "id": "F07MD5T30TT",
+                "created": 1726078411,
+                "timestamp": 1726078411,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 165396,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F07MD5T30TT\/image.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F07MD5T30TT\/download\/image.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07MD5T30TT-10dc01afc1\/image_64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07MD5T30TT-10dc01afc1\/image_80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07MD5T30TT-10dc01afc1\/image_360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 290,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07MD5T30TT-10dc01afc1\/image_480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 386,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07MD5T30TT-10dc01afc1\/image_160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07MD5T30TT-10dc01afc1\/image_720.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 579,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07MD5T30TT-10dc01afc1\/image_800.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 644,
+                "original_w": 875,
+                "original_h": 704,
+                "thumb_tiny": "AwAmADDSPA696bk+tObkU38RQAZOOpoyfWjHvS4X1oATJz1pynmkwvrSjHagAbpTcfT86c3Sm8UAHft+dLgetJx70celAC4HrSgc5zmkJHoKVTntQAEZo2jNLRQAUUUUAFFFFAH\/2Q==",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F07MD5T30TT\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F07MD5T30TT-cae58211ba",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0606SPN4BW",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UlwDQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n真偽は不明なのですが、上記pdf内のリンクにもある、NOPの動画のトランスクリプトを日本語にしたファイルをGPTに読ませて同じ質問を投げたところ、\n「製品が一旦アメリカ国内に入る場合には、この規則が適用される可能性があります。」とのことのようです。\n（他のAIの回答では、アメリカで通関するなら必要で、税関を通らずにトランジットみたいな扱いなら要らない可能性もある。とも）\n\nつまり「アメリカを通過」が「アメリカの税関を通過するか、しないか。」で分かれそうな感じ？ですかね。。\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 島根有機やJONAは更に何か情報をお持ちだったりしますでしょうか？ お手すきでご確認をお願いできますと幸いです！\n\n\n---< 以下GPT >---\nこのルール（NOP輸入証明書の受取人欄の規定）は、基本的に米国向けのオーガニック製品輸入に適用されるものであり、アメリカの規制に従って輸入が行われる場合に関連します。アメリカを経由してカナダに輸出する場合、製品が一旦アメリカ国内に入る場合には、この規則が適用される可能性があります。つまり、カナダに輸出する際にアメリカを通過するという形で製品がアメリカに一時的に入る場合でも、米国のNOP規制が関与する可能性があるため、輸入証明書の提出が必要になることがあります。\n\nただし、カナダ独自のオーガニック認証（Canada Organic Regime, COR）も存在しますので、最終的な輸入先がカナダであれば、カナダの認証要件が適用されます。したがって、直接カナダへ輸送される場合や、アメリカ国内でオーガニックとして流通しない場合は、米国のNOP規則の適用は関係が薄くなる可能性があります。\n\nアメリカを経由する輸送ルートが複雑な場合には、具体的な輸送形態や製品の取り扱いについて、米国とカナダ双方の規制を確認することをおすすめします。\n\nワンポイントアドバイスとして、アメリカ経由でのカナダ輸出の場合、アメリカ税関を通過する際に必要となるすべての書類を準備し、各国のオーガニック規制（NOPとCOR）の違いを事前に確認することが重要です。\n---"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1726079265.597959",
+        "client_msg_id": "d7999e3d-e41c-4895-874f-4df80770e86b",
+        "thread_ts": "1723002320.645029",
+        "parent_user_id": "U041RJKV5JA",
+        "reactions": [
+            {
+                "name": "pray",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            },
+            {
+                "name": "確認中",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1726097668.609569",
+        "client_msg_id": "c99a91fc-f507-47bc-903e-c9a3f4d00f8d",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n回答ではなく、私の考えですが、\nたとえば、アメリカから日本に何かを輸入するとして、\n台湾を経由したから、台湾の有機認証番号を見せて？と、\n言われているようなものなので、\nそもそも、国外の人がその認証を取得できるのかどうかも含めて、\n難しいような気がするので、なさそうな気はするんですけどね:sweat_drops:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1723002320.645029",
+        "parent_user_id": "U041RJKV5JA",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YVdcC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n回答ではなく、私の考えですが、\nたとえば、アメリカから日本に何かを輸入するとして、\n台湾を経由したから、台湾の有機認証番号を見せて？と、\n言われているようなものなので、\nそもそも、国外の人がその認証を取得できるのかどうかも含めて、\n難しいような気がするので、なさそうな気はするんですけどね"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sweat_drops",
+                                "unicode": "1f4a6"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "たしかに",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "thinking_face",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1726108802.085789",
+        "client_msg_id": "2e2e291d-9e4a-4861-90b2-459893105d8e",
+        "text": "<@U066P20UQH1> <@U0606SPN4BW>\n <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nJONAに確認しました。\nアメリカ経由でカナダに輸出する場合にはNOPは不要となります。\nあくまで仕向国がアメリカの場合にのみ必要となります。\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1723002320.645029",
+        "parent_user_id": "U041RJKV5JA",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "z6m2I",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nJONAに確認しました。\nアメリカ経由でカナダに輸出する場合にはNOPは不要となります。\nあくまで仕向国がアメリカの場合にのみ必要となります。\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "あり",
+                "users": [
+                    "U066P20UQH1",
+                    "U0606SPN4BW",
+                    "U0331FWGQRM"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1726124104.450629",
+        "edited": {
+            "user": "U041RJKV5JA",
+            "ts": "1726124526.000000"
+        },
+        "client_msg_id": "891e368f-f83a-4699-8b11-9fe55fc34264",
+        "text": "<!channel>\n＜情報共有＞\n東京に本社のある日本緑茶センター（<https:\/\/www.jp-greentea.co.jp\/>）より宇迦の白のご注文をいただき、\n当社よりの海外のお客様へ直送して欲しいとの依頼がございました。\n出荷先は先日「星野製茶　もくれん」をご注文いただきました、シンガポールのNicholas様となります。(*TSE-NCC-001-24)*\nNicholas様への販売価格等が分かりましたので、共有いたします。\n・宇迦の白　250g×10個　6,080円\/個",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1726124104.450629",
+        "reply_count": 2,
+        "reply_users_count": 1,
+        "latest_reply": "1726127111.471469",
+        "reply_users": [
+            "U0331FWGQRM"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1726125971.242269"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1726127111.471469"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1726127111.471469",
+        "attachments": [
+            {
+                "from_url": "https:\/\/www.jp-greentea.co.jp\/",
+                "service_icon": "https:\/\/www.jp-greentea.co.jp\/assets\/images\/common\/apple-touch-icon.png",
+                "thumb_url": "https:\/\/www.jp-greentea.co.jp\/assets\/uploads\/ogp.jpg",
+                "thumb_width": 1200,
+                "thumb_height": 630,
+                "id": 1,
+                "original_url": "https:\/\/www.jp-greentea.co.jp\/",
+                "fallback": "日本緑茶センター",
+                "text": "心と身体にいいものを。クレイジーソルトシリーズやポンパドール ハーブティー、紅茶、中国茶、マテ茶、アルガンオイルや菓子など様々な商品を展開している日本緑茶センターのホームページです。レシピのご紹介や、ハーブティーや紅茶の淹れ方など、お役立ち情報も！",
+                "title": "日本緑茶センター",
+                "title_link": "https:\/\/www.jp-greentea.co.jp\/",
+                "service_name": "jp-greentea.co.jp"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3p\/6Z",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n＜情報共有＞\n東京に本社のある日本緑茶センター（"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.jp-greentea.co.jp\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": "）より宇迦の白のご注文をいただき、\n当社よりの海外のお客様へ直送して欲しいとの依頼がございました。\n出荷先は先日「星野製茶　もくれん」をご注文いただきました、シンガポールのNicholas様となります。("
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-NCC-001-24)",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nNicholas様への販売価格等が分かりましたので、共有いたします。\n・宇迦の白　250g×10個　6,080円\/個"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "eyes",
+                "users": [
+                    "U066P20UQH1",
+                    "U0606SPN4BW",
+                    "U0331FWGQRM"
+                ],
+                "count": 3
+            }
+        ]
+    }
+]

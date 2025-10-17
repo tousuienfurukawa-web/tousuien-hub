@@ -1,0 +1,78 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1733091474.944279",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1733091493.000000"
+        },
+        "client_msg_id": "C2D8FD4D-5068-4638-8A1C-69947334DD54",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> \n変更です。\n\nVanilla 20%  x10000本\n*Cassia Cinnamon 20%  x15000本*\n\n(シナモンはカシアです。セイロン10%カシア10%ではありません)",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1732089899.783379",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tXCco",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \n変更です。\n\nVanilla 20%  x10000本\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Cassia Cinnamon 20%  x15000本",
+                                "style": {
+                                    "bold": true,
+                                    "italic": false
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n(シナモンはカシアです。セイロン10%カシア10%ではありません)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U082RF7UF1V",
+        "text": "<@U082RF7UF1V>さんがチャンネルに参加しました",
+        "type": "message",
+        "ts": "1733104651.280549"
+    }
+]

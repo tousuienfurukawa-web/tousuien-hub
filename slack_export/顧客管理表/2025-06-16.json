@@ -1,0 +1,104 @@
+[
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1750064763.957309",
+        "client_msg_id": "6d35e35d-0582-4a59-a0c8-7434990cc161",
+        "text": "<!channel>\n*商品登録上の2025年価格の追記方法について*\nこれまでは価格やその他情報が変更になった際は新たに製品を追加しておりましたが、作業量が膨大になることを見越し、\n*`価格はBI列に上書きする形で対応`*をお願いいたします。\n上書きした際は、BK列に以下を記載願います\nご認識をよろしくお願いいたします！:woman-bowing:\n```日付と、改訂前・改定後価格の記載\n例）\n2025\/6\/16 USD1.0→USD2.0\n2025\/6\/17 USD2.0→USD3.0```",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VR3Su",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "商品登録上の2025年価格の追記方法について",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nこれまでは価格やその他情報が変更になった際は新たに製品を追加しておりましたが、作業量が膨大になることを見越し、\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "価格はBI列に上書きする形で対応",
+                                "style": {
+                                    "bold": true,
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "をお願いいたします。\n上書きした際は、BK列に以下を記載願います\nご認識をよろしくお願いいたします！"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "woman-bowing",
+                                "unicode": "1f647-200d-2640-fe0f"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "日付と、改訂前・改定後価格の記載\n例）\n2025\/6\/16 USD1.0→USD2.0\n2025\/6\/17 USD2.0→USD3.0"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U08RVRNBY00",
+                    "U0606SPN4BW",
+                    "U08N3SKSL75"
+                ],
+                "count": 3
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

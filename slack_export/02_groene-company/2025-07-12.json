@@ -1,0 +1,184 @@
+[
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1752304425.890699",
+        "client_msg_id": "6c6a2dbd-49a5-4f92-8bea-8c3ccdce00ba",
+        "text": "<@U0331FWGQRM>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n本日、DHLにて出荷しました。\nAWB NO. 7007166762\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1750016843.082349",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3XjmL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日、DHLにて出荷しました。\nAWB NO. 7007166762\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1752312470.492279",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1752324239.000000"
+        },
+        "client_msg_id": "7f0e5f7a-3bdd-4094-aeb2-70a8644ee3e9",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n:flag-ca: カナダのTeangleより連絡です。\nカナダの保健省（Health Canada）の規制により、何らかの理由で製品販売を止められてしまったそうです。\nまだ詳細については分かっていないのですが、中身の抹茶が問題なのではなく、パッケージに問題があると指摘されているようです。\nそのため製品の一部を作り直す必要があるとのことで、以下の商品のリードタイムを聞かれております。\n\n*Izumo Matcha Middle grade 250kg（出雲抹茶F）*\n*※10kg bulk* \n\n*出荷する場合のリードタイムを教えてください。*\n・原料250kgの有無\n・袋詰めの日数\n\nケース入り数的に240kg or 260kgの可能性ありますので、\n260kgの場合でも確認願います。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1752312470.492279",
+        "reply_count": 3,
+        "reply_users_count": 2,
+        "latest_reply": "1752745733.845269",
+        "reply_users": [
+            "U0331FZS7JT",
+            "U0840UVFVA8"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1752475361.772779"
+            },
+            {
+                "user": "U0840UVFVA8",
+                "ts": "1752475737.200069"
+            },
+            {
+                "user": "U0840UVFVA8",
+                "ts": "1752745733.845269"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1752745733.845269",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XdPtF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-ca",
+                                "unicode": "1f1e8-1f1e6"
+                            },
+                            {
+                                "type": "text",
+                                "text": " カナダのTeangleより連絡です。\nカナダの保健省（Health Canada）の規制により、何らかの理由で製品販売を止められてしまったそうです。\nまだ詳細については分かっていないのですが、中身の抹茶が問題なのではなく、パッケージに問題があると指摘されているようです。\nそのため製品の一部を作り直す必要があるとのことで、以下の商品のリードタイムを聞かれております。\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Izumo Matcha Middle grade 250kg（出雲抹茶F）",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "※10kg bulk ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "出荷する場合のリードタイムを教えてください。",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n・原料250kgの有無\n・袋詰めの日数\n\nケース入り数的に240kg or 260kgの可能性ありますので、\n260kgの場合でも確認願います。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

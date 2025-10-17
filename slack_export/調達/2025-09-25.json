@@ -1,0 +1,139 @@
+[
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1758784911.548009",
+        "client_msg_id": "e8decdaf-a449-44e8-b35e-a514d5c971ab",
+        "text": "<@U0331FWGQRM>\n<!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\nSEA Shipment分と思いますが、本日入荷しました。\n60×60Hmm: 5,040 pcs（240入×21箱） – Silver\n60×68Hmm: 10,000 pcs （200入×50箱）– Silver\n台帳に入庫入力済みです。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1756721605.396769",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Lef+Z",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nSEA Shipment分と思いますが、本日入荷しました。\n60×60Hmm: 5,040 pcs（240入×21箱） – Silver\n60×68Hmm: 10,000 pcs （200入×50箱）– Silver\n台帳に入庫入力済みです。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1758866785.844889",
+        "edited": {
+            "user": "U041RJKV5JA",
+            "ts": "1758931882.000000"
+        },
+        "client_msg_id": "ae914cba-4e49-4e9b-85ac-22321ff5437d",
+        "text": "<!channel>\n和香園\n11月入荷分より下記原料の納品価格が変更となります。\n下記金額はkg単価です。\n【抹茶44】　　　  旧価格　  新価格\n・1kg詰めの場合   3,500円→6,200円\n・バルクの場合　 3,300円→5,900円\n\n【抹茶１B】　　　 旧価格　  新価格\n・1kg詰めの場合   4,580円→10,900円\n・バルクの場合　 4,580円→10,500円\n※旧価格は、1kg詰め・バルク共に同価格でした。\n\n＜バルク入り数について＞\n・和香園で粉砕した場合：25kg\n・外部委託で粉砕した場合：20kg",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1758866785.844889",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1758932134.206069",
+        "reply_users": [
+            "U0331FWGQRM",
+            "U041RJKV5JA"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1758892792.278559"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1758932134.206069"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1758932134.206069",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tiyP4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n和香園\n11月入荷分より下記原料の納品価格が変更となります。\n下記金額はkg単価です。\n【抹茶44】　　　  旧価格　  新価格\n・1kg詰めの場合   3,500円→6,200円\n・バルクの場合　 3,300円→5,900円\n\n【抹茶１B】　　　 旧価格　  新価格\n・1kg詰めの場合   4,580円→10,900円\n・バルクの場合　 4,580円→10,500円\n※旧価格は、1kg詰め・バルク共に同価格でした。\n\n＜バルク入り数について＞\n・和香園で粉砕した場合：25kg\n・外部委託で粉砕した場合：20kg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "あり",
+                "users": [
+                    "U08N3SKSL75"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

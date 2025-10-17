@@ -1,0 +1,321 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1731478241.105799",
+        "client_msg_id": "28e402b1-33b4-434b-8067-c9bac0240ad1",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n:us:TSE055-24ｱﾒﾘｶJorge様から注文です。\nかなり急いでいるそうで、発送可能日を教えて欲しいとのことです。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1731478241.105799",
+        "reply_count": 6,
+        "reply_users_count": 4,
+        "latest_reply": "1731655975.147509",
+        "reply_users": [
+            "U0331FWGQRM",
+            "U041RJKV5JA",
+            "U0331FZS7JT",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1731478453.402939"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1731482169.809959"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1731498081.540439"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1731505604.491209"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1731543531.754009"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1731655975.147509"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1731655975.147509",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "J4CKS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "us",
+                                "unicode": "1f1fa-1f1f8"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE055-24ｱﾒﾘｶJorge様から注文です。\nかなり急いでいるそうで、発送可能日を教えて欲しいとのことです。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1731478453.402939",
+        "client_msg_id": "5293126c-e069-46a7-b848-1fb7afb72709",
+        "text": "▼受注内容 (計 1種類, 30バルク袋)\n30bags x 500g, Izumo Matcha Upper 500g Bulk 出雲抹茶R",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1731478241.105799",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Kk6Sj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "▼受注内容 (計 1種類, 30バルク袋)\n30bags x 500g, Izumo Matcha Upper 500g Bulk 出雲抹茶R"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "USLACKBOT",
+        "channel": "C033G4QF8BD",
+        "room": {
+            "id": "R080Q8GPB0C",
+            "name": "",
+            "media_server": "",
+            "created_by": "U0331FWGQRM",
+            "date_start": 1731481703,
+            "date_end": 1731481776,
+            "participants": [],
+            "participant_history": [
+                "U0331FWGQRM",
+                "U041RJKV5JA"
+            ],
+            "participants_events": {
+                "U0331FWGQRM": {
+                    "user_team": {},
+                    "joined": true,
+                    "camera_on": false,
+                    "camera_off": false,
+                    "screenshare_on": false,
+                    "screenshare_off": false
+                },
+                "U041RJKV5JA": {
+                    "user_team": {},
+                    "joined": true,
+                    "camera_on": false,
+                    "camera_off": false,
+                    "screenshare_on": false,
+                    "screenshare_off": false
+                }
+            },
+            "participants_camera_on": [],
+            "participants_camera_off": [],
+            "participants_screenshare_on": [],
+            "participants_screenshare_off": [],
+            "canvas_thread_ts": "1731481703.678989",
+            "thread_root_ts": "1731481703.678989",
+            "channels": [
+                "C033G4QF8BD"
+            ],
+            "is_dm_call": false,
+            "was_rejected": false,
+            "was_missed": false,
+            "was_accepted": false,
+            "has_ended": true,
+            "background_id": "THE_DREAM_OF_THE_FISH",
+            "canvas_background": "THE_DREAM_OF_THE_FISH",
+            "is_prewarmed": false,
+            "is_scheduled": false,
+            "recording": {
+                "can_record_summary": "unavailable"
+            },
+            "locale": "ja-JP",
+            "attached_file_ids": [],
+            "media_backend_type": "free_willy",
+            "display_id": "",
+            "external_unique_id": "3b0a217f-e690-4ea5-a831-68f8f4902713",
+            "app_id": "A00",
+            "call_family": "huddle",
+            "pending_invitees": {},
+            "last_invite_status_by_user": {
+                "U041RJKV5JA": "accepted"
+            },
+            "knocks": {},
+            "huddle_link": "https:\/\/app.slack.com\/huddle\/T033D70RR6H\/C033G4QF8BD"
+        },
+        "no_notifications": true,
+        "permalink": "https:\/\/grp-ssm9297.slack.com\/call\/R080Q8GPB0C",
+        "subtype": "huddle_thread",
+        "type": "message",
+        "ts": "1731481703.678989",
+        "edited": {
+            "user": "USLACKBOT",
+            "ts": "1731481776.000000"
+        },
+        "text": "",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "sv41d8cd98f0",
+            "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/slackbot_72.png",
+            "first_name": "slackbot",
+            "real_name": "Slackbot",
+            "display_name": "Slackbot",
+            "team": "T033D70RR6H",
+            "name": "slackbot",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VZ2F3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ハドルミーティングが開始しました"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1731482169.809959",
+        "client_msg_id": "657f3cf7-6286-4d03-ada8-7347c24b87d4",
+        "text": "<@U0331FWGQRM>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*発送可能日：11月15日（金）*\n原産地証明書取得：11月15日（金）\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1731478241.105799",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/kDDG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "発送可能日：11月15日（金）",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n原産地証明書取得：11月15日（金）\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

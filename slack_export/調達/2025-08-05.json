@@ -1,0 +1,98 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U095LLEH09G",
+        "text": "<@U095LLEH09G>さんがチャンネルに参加しました",
+        "inviter": "U08RVRNBY00",
+        "type": "message",
+        "ts": "1754383847.154229"
+    },
+    {
+        "user": "U08RVRNBY00",
+        "type": "message",
+        "ts": "1754449342.616739",
+        "client_msg_id": "a719fcbc-59bd-44bf-9261-37470bb576cc",
+        "text": "<@U08U8MMTH43>\n<!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n8月８日に入庫する茶筌があると伺いました。\n\n:black_small_square:*現時点、出荷可能数お教えいただけますでしょうか？*\n\n→CHS様より入荷次第、注文希望あり。\n入荷したら全て欲しい。（可能なら合計　月25本定期購入希望であるほどのため）",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g347f3e803ab",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/347f3e803abca8b6a7b724895864d138.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Hikako",
+            "real_name": "Hikako Hasegawa",
+            "display_name": "Hikako Hasegawa",
+            "team": "T033D70RR6H",
+            "name": "tousuien.hasegawa",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1739926402.081829",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ibbGy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U08U8MMTH43"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n8月８日に入庫する茶筌があると伺いました。\n\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "black_small_square",
+                                "unicode": "25aa-fe0f",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "現時点、出荷可能数お教えいただけますでしょうか？",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n→CHS様より入荷次第、注文希望あり。\n入荷したら全て欲しい。（可能なら合計　月25本定期購入希望であるほどのため）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "確認中",
+                "users": [
+                    "U08U8MMTH43"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

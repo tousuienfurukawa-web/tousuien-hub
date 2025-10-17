@@ -1,0 +1,68 @@
+[
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1714525265.762919",
+        "client_msg_id": "c992f447-add6-4b5c-b7a4-98d6b2dd0629",
+        "text": "<@U0331FWGQRM>\n<https:\/\/meet.google.com\/iru-hyhn-dhw>\nこちらからお願いします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/meet.google.com\/iru-hyhn-dhw",
+                "service_icon": "http:\/\/fonts.gstatic.com\/s\/i\/productlogos\/meet_2020q4\/v1\/web-24dp\/logo_meet_2020q4_color_1x_web_24dp.png",
+                "thumb_url": "https:\/\/fonts.gstatic.com\/s\/i\/productlogos\/meet_2020q4\/v1\/web-96dp\/logo_meet_2020q4_color_2x_web_96dp.png",
+                "thumb_width": 192,
+                "thumb_height": 192,
+                "id": 1,
+                "original_url": "https:\/\/meet.google.com\/iru-hyhn-dhw",
+                "fallback": "Meet",
+                "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+                "title": "Meet",
+                "title_link": "https:\/\/meet.google.com\/iru-hyhn-dhw",
+                "service_name": "meet.google.com"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kBlNa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/meet.google.com\/iru-hyhn-dhw"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nこちらからお願いします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

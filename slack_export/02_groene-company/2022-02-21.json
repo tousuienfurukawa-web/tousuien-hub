@@ -1,0 +1,123 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1645461007.238929",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1645461305.000000"
+        },
+        "client_msg_id": "f028f53f-0eb7-4205-bdcc-cecfbe3641df",
+        "text": "<@U0331FZTHEK> <@U033G4KN4TD>\nTSE010 チェコ向けの*サンプル*注文が来ました。\n（よく分かりませんが、商品ではなくサンプルで送れ。\nという意味なのかも知れません。。。）\n前回のTSE003 と同様です。（今回は20kg＝10kgx2cs）\n大至急の発送希望とのことです。\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VgiO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nTSE010 チェコ向けの"
+                            },
+                            {
+                                "type": "text",
+                                "text": "サンプル",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "注文が来ました。\n（よく分かりませんが、商品ではなくサンプルで送れ。\nという意味なのかも知れません。。。）\n前回のTSE003 と同様です。（今回は20kg＝10kgx2cs）\n大至急の発送希望とのことです。\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1645487564.935649",
+        "client_msg_id": "f6d9f39b-8e98-45c8-9106-c4cdf9421ec8",
+        "text": "追記\ninvoiceとpackinglistにPOnumberが入っていないので、\n出荷書類を作成する際は、入っているものを使用してください。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3uFN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "追記\ninvoiceとpackinglistにPOnumberが入っていないので、\n出荷書類を作成する際は、入っているものを使用してください。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

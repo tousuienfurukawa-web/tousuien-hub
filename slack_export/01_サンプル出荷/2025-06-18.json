@@ -1,0 +1,138 @@
+[
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1750232934.493959",
+        "client_msg_id": "02a7b3cb-34a5-4af3-9cec-e211c7649fbc",
+        "text": "<@U08N3SKSL75>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nペガサスグローバルより連絡がありました。\nイスラエル向けの出荷につきまして、現在、DHLおよびFedExは受託を停止しており、UPSについても出荷を控えるよう奨励されているとのことです。\n本件につきましては、出荷までに各社の受託が再開となればいいのですが、万が一再開とならない場合は、EMSでの出荷をご検討お願いします。\n現時点では、EMSでの出荷は可能のようです。\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1746600760.964299",
+        "parent_user_id": "U08N3SKSL75",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "r17T+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U08N3SKSL75"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nペガサスグローバルより連絡がありました。\nイスラエル向けの出荷につきまして、現在、DHLおよびFedExは受託を停止しており、UPSについても出荷を控えるよう奨励されているとのことです。\n本件につきましては、出荷までに各社の受託が再開となればいいのですが、万が一再開とならない場合は、EMSでの出荷をご検討お願いします。\n現時点では、EMSでの出荷は可能のようです。\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U08N3SKSL75",
+        "type": "message",
+        "ts": "1750235731.117369",
+        "client_msg_id": "019b4626-1657-4572-a19e-e2a0d768257a",
+        "text": "<@U041RJKV5JA>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nご案内ありがとうございます！本件キャンセル・返金済みです。（連絡漏れすみません:bow::sweat_drops:）",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g385a5ea1fc7",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/385a5ea1fc7db8f0b42ecd922f43af6c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-72.png",
+            "first_name": "Kimura",
+            "real_name": "Kimura",
+            "display_name": "Kimura",
+            "team": "T033D70RR6H",
+            "name": "tousuien.kimura",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1746600760.964299",
+        "parent_user_id": "U08N3SKSL75",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "14ZWs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nご案内ありがとうございます！本件キャンセル・返金済みです。（連絡漏れすみません"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "bow",
+                                "unicode": "1f647"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sweat_drops",
+                                "unicode": "1f4a6"
+                            },
+                            {
+                                "type": "text",
+                                "text": "）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

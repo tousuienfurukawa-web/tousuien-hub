@@ -1,0 +1,673 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1711011016.931109",
+        "client_msg_id": "3ff7aca4-24e0-44f4-8c09-24e883a58d6d",
+        "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD>\n出荷予定日はいつですか？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1709561917.603039",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gqTKZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷予定日はいつですか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1711012175.440149",
+        "client_msg_id": "304a2edb-3828-4879-be73-95f31c094abd",
+        "text": "<@U0331FWGQRM>\n <@U05KGS6HN9H> <@U033G4KN4TD>\n出荷予定日：3月26日（火）\n有機同等性証明書については既に審査を進めていただいております。\n追加で提出する書類を明日（3\/22）作成・送付し、出荷予定日までに発給いただけるよう依頼いたします。\n国境監理ポストについては、ペガサスに確認いたします。\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1709561917.603039",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MdkA0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷予定日：3月26日（火）\n有機同等性証明書については既に審査を進めていただいております。\n追加で提出する書類を明日（3\/22）作成・送付し、出荷予定日までに発給いただけるよう依頼いたします。\n国境監理ポストについては、ペガサスに確認いたします。\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1711032431.602599",
+        "client_msg_id": "60796b27-4b6c-45fd-b681-6b0de455a31b",
+        "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD>\n&gt; DHLのシステム上でOrganic Shipmentであることを明記して出荷するのであれば、送り状作成時のREFERENCE欄か商品名欄のどちらか、\n&gt; 若しくは両方に記入するしか方法はないとの回答でした。\n&gt; 明記しても何ら手続きに影響はないとの事ですが、もしメリットが有るのであれば今後の参考にしたいので教えて欲しいそうです。\n&gt; お客様からのご依頼ですので、両方に記入して送り状を作成いたします。\nREFERENCE欄にORGANICと記載する。\nでお願いします。\n\n※商品名欄については、商品名にORGANICがついていない場合は、\n（ORGANIC）商品名商品名商品名\nのように記載する。でいと思いますが、\n今回は商品名が　“ORGANIC MATCHA GREEN TEA”ですので、商品名欄には不要かと思います。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1709561917.603039",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DZhfl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_quote",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "DHLのシステム上でOrganic Shipmentであることを明記して出荷するのであれば、送り状作成時のREFERENCE欄か商品名欄のどちらか、\n若しくは両方に記入するしか方法はないとの回答でした。\n明記しても何ら手続きに影響はないとの事ですが、もしメリットが有るのであれば今後の参考にしたいので教えて欲しいそうです。\nお客様からのご依頼ですので、両方に記入して送り状を作成いたします。"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nREFERENCE欄にORGANICと記載する。\nでお願いします。\n\n※商品名欄については、商品名にORGANICがついていない場合は、\n（ORGANIC）商品名商品名商品名\nのように記載する。でいと思いますが、\n今回は商品名が　“ORGANIC MATCHA GREEN TEA”ですので、商品名欄には不要かと思います。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1711033273.492319",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1711034189.000000"
+        },
+        "client_msg_id": "da8b607d-a804-4223-a049-0419ea767f33",
+        "text": "<@U05KGS6HN9H>\nこれって、インボイスの住所ではダメなのですか？\n\nGenuine Tea Inc.\n\nATTN: Mr.David O’Connor\n100 Sunrise Ave., Unit 103 North York, Ontario",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705806402.377709",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "G6jct",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nこれって、インボイスの住所ではダメなのですか？\n\nGenuine Tea Inc.\n\nATTN: Mr.David O’Connor\n100 Sunrise Ave., Unit 103 North York, Ontario"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1711035178.282109",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1711362429.000000"
+        },
+        "client_msg_id": "624e0f4e-368e-4ec5-9b82-8d510d9c3898",
+        "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD>\nTSE013-24ｵﾗﾝﾀﾞGreen Life様から注文です。\n 今回もラベル無しです。\n発送可能日を教えてください。\nよろしくお願いします。\n\n追記2024\/3\/25\n注文数量 50kg → 100kg変更",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1711035178.282109",
+        "reply_count": 7,
+        "reply_users_count": 2,
+        "latest_reply": "1712899862.837679",
+        "reply_users": [
+            "U0331FWGQRM",
+            "U041RJKV5JA"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1711229610.140539"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1711331106.953079"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1711362710.051729"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1711376787.306589"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1711410352.386449"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1711434627.472349"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1712899862.837679"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1712899862.837679",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "iiSWH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nTSE013-24ｵﾗﾝﾀﾞGreen Life様から注文です。\n 今回もラベル無しです。\n発送可能日を教えてください。\nよろしくお願いします。\n\n追記2024\/3\/25\n注文数量 50kg → 100kg変更"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD",
+                    "U041RJKV5JA",
+                    "U05KGS6HN9H"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1711061943.912519",
+        "client_msg_id": "0bfa0d90-5606-43d1-8a10-8a41dfb4a6b5",
+        "text": "<@U0331FWGQRM>\nお客様会社がカナダの貨物搬入倉庫であればOKかもしれません。\nおそらく何かを入力しておけば大丈夫ではないかと思われますが、\nこれでやってみましょうか？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705806402.377709",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DEgLj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nお客様会社がカナダの貨物搬入倉庫であればOKかもしれません。\nおそらく何かを入力しておけば大丈夫ではないかと思われますが、\nこれでやってみましょうか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1711062053.271939",
+        "client_msg_id": "A3FBB205-E30D-4C1B-B9A2-8279228B9052",
+        "text": "<@U05KGS6HN9H> \nお願いします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705806402.377709",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kmeUm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \nお願いします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1711070621.180169",
+        "client_msg_id": "7b46912f-a6dc-42cc-a2a3-4178e153dd09",
+        "text": "<@U0331FWGQRM>\nPNC申請完了しました。\n証明取得できましたら、報告させていただきます。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705806402.377709",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UTWFj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nPNC申請完了しました。\n証明取得できましたら、報告させていただきます。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1711085266.556159",
+        "client_msg_id": "fc75f2b9-bdf5-46fb-a3d1-a29bacac2d84",
+        "text": "<@U0331FWGQRM>\n <@U05KGS6HN9H> <@U033G4KN4TD>\n配送遅延についてペガサスグローバルより再度下記メールがきております。\n--------------------\n本件、現地より追加の報告があり、現地規定により貨物返送は不可とのことでございます。\n--------------------\n 現地にて廃棄をするので、廃棄の許可をいただきたいとの事です。\n今から通関書類を提出しても通関は出来ないそうです。\n廃棄の許可を出してもよろしいでしょうか。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1708613943.196009",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Bwsdk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n配送遅延についてペガサスグローバルより再度下記メールがきております。\n--------------------\n本件、現地より追加の報告があり、現地規定により貨物返送は不可とのことでございます。\n--------------------\n 現地にて廃棄をするので、廃棄の許可をいただきたいとの事です。\n今から通関書類を提出しても通関は出来ないそうです。\n廃棄の許可を出してもよろしいでしょうか。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "ok",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "ok_hand",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1711085686.320969",
+        "client_msg_id": "b911a226-3bea-4ec0-8edb-d5dfdfc7e60e",
+        "text": "<@U0331FWGQRM>\n <@U05KGS6HN9H> <@U033G4KN4TD>\n&lt;TSE010-24-1&gt;\n本日、FedExにて出荷しました。\nAWB NO. 775574643848\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1709874012.091139",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Saef\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n<TSE010-24-1>\n本日、FedExにて出荷しました。\nAWB NO. 775574643848\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

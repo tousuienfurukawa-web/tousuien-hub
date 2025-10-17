@@ -1,0 +1,2122 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1718953545.487279",
+        "client_msg_id": "2dbdd9ac-4241-4228-921c-5a13d6b2311a",
+        "text": "<https:\/\/meet.google.com\/fkd-ebnq-bbi>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1718932812.273849",
+        "parent_user_id": "U0331FWGQRM",
+        "attachments": [
+            {
+                "from_url": "https:\/\/meet.google.com\/fkd-ebnq-bbi",
+                "service_icon": "http:\/\/fonts.gstatic.com\/s\/i\/productlogos\/meet_2020q4\/v1\/web-24dp\/logo_meet_2020q4_color_1x_web_24dp.png",
+                "thumb_url": "https:\/\/fonts.gstatic.com\/s\/i\/productlogos\/meet_2020q4\/v1\/web-96dp\/logo_meet_2020q4_color_2x_web_96dp.png",
+                "thumb_width": 192,
+                "thumb_height": 192,
+                "id": 1,
+                "original_url": "https:\/\/meet.google.com\/fkd-ebnq-bbi",
+                "fallback": "Meet",
+                "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+                "title": "Meet",
+                "title_link": "https:\/\/meet.google.com\/fkd-ebnq-bbi",
+                "service_name": "meet.google.com"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "f2Tpq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/meet.google.com\/fkd-ebnq-bbi"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1718955194.166149",
+        "client_msg_id": "47290e29-daa2-4c64-b1e4-12583cc8d190",
+        "text": "<@U0331FWGQRM> <@U066P20UQH1> <@U033G4KN4TD> <@U03BLQ65GK0>\nCC：<@U0606SPN4BW>\n共有→各種資料（セミナー・輸出情報）→EPA・FTA→日EU・EPA自己申告制度 自己申告文（エクセルデータ）\nEU及びイギリス、のインボイス欄外（サンプル含む）に記載する内容\n※これ書いてたら原産地証明も不要",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1718932812.273849",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Y7kJD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nCC："
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n共有→各種資料（セミナー・輸出情報）→EPA・FTA→日EU・EPA自己申告制度 自己申告文（エクセルデータ）\nEU及びイギリス、のインボイス欄外（サンプル含む）に記載する内容\n※これ書いてたら原産地証明も不要"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1718955940.056979",
+        "client_msg_id": "41966899-8e0f-4611-9976-9ff8a82a390f",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\nフィリピン:flag-ph: のralphさんから玄米茶100kgのリードタイムを聞かれてますが、どのくらいかかりそうでしょう？？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1718955940.056979",
+        "reply_count": 7,
+        "reply_users_count": 3,
+        "latest_reply": "1721691075.908979",
+        "reply_users": [
+            "U033G4KN4TD",
+            "U066P20UQH1",
+            "U041RJKV5JA"
+        ],
+        "replies": [
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1719283998.133799"
+            },
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1719460472.748729"
+            },
+            {
+                "user": "U066P20UQH1",
+                "ts": "1719461387.422469"
+            },
+            {
+                "user": "U066P20UQH1",
+                "ts": "1721614669.672359"
+            },
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1721631481.325559"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1721633855.962799"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1721691075.908979"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1721691075.908979",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jMFQA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nフィリピン"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-ph",
+                                "unicode": "1f1f5-1f1ed"
+                            },
+                            {
+                                "type": "text",
+                                "text": " のralphさんから玄米茶100kgのリードタイムを聞かれてますが、どのくらいかかりそうでしょう？？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "確認中",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1718956058.281699",
+        "client_msg_id": "77368047-9002-48c1-b694-806063ac3085",
+        "text": "<@U041RJKV5JA> <@U033G4KN4TD> cc <@U0331FZS7JT> <@U066P20UQH1> <@U03BLQ65GK0>\nSebastyanのスティック用フィルム（アルミ）を製造\n→吉村の日高さんと打ち合わせ\n7\/1-4あたりの社長がいる時にMTG(web or対面）\n日時設定お願いします。\n\n健祥：\n・＋10000スティック製造依頼（アルミ）\n・裏面印字を健祥で可能？桃翠園でする？\n→健祥は右下に小さく可能。テストしてもらう。（10本）",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1718932812.273849",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TLW12",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nSebastyanのスティック用フィルム（アルミ）を製造\n→吉村の日高さんと打ち合わせ\n7\/1-4あたりの社長がいる時にMTG(web or対面）\n日時設定お願いします。\n\n健祥：\n・＋10000スティック製造依頼（アルミ）\n・裏面印字を健祥で可能？桃翠園でする？\n→健祥は右下に小さく可能。テストしてもらう。（10本）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1718957547.133139",
+        "client_msg_id": "886c00cd-ad3d-4293-8d6b-1adcdeba09a4",
+        "text": "<@U041RJKV5JA> <@U033G4KN4TD> cc <@U0331FWGQRM> <@U066P20UQH1> <@U03BLQ65GK0>\n先ほどのMTG中に日高さんにはスケジュールの確認を送っています。\nこちら確認の後、日程を共有します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1718932812.273849",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "iy21Q",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n先ほどのMTG中に日高さんにはスケジュールの確認を送っています。\nこちら確認の後、日程を共有します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U033G4KN4TD"
+                ],
+                "count": 2
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U033G4KN4TD",
+                    "U0331FWGQRM"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "text": "＜メモ＞\nEPAについて\n*EPA(Economic Partnership Agreement：経済連携協定)の適用を受けるための輸出者自己申告の原産品申告書*\n\nG:\\.shortcut-targets-by-id\\1-1alQxLfsYcjqIhE_a7kyDWtPqUpllkO\\桃翠園（共有フォルダ_松井Google  Drive）\\●海外営業\\各種資料（セミナー・輸出情報）\\EPA・FTA\\日EU・EPA\n\n【※運用※】\n日EU・EPA(自己申告制度)適用\n➀\t「自己申告文」をINVOICE上に記載する\n②\t荷送り人から通関業者(日本側)にEPA適用の旨を伝える\n\t例）㈱ペガサスグローバルエクスプレスで送り状登録する際にメールで「EPA適用」の旨を伝える\n\t　　㈱ペガサスグローバルエクスプレスから日本側のDHLに連絡する\n③\t荷受人から現地の通関業者に「EPA適用」の旨を伝えてもらう",
+        "files": [
+            {
+                "id": "F0792HKGRSR",
+                "created": 1718960874,
+                "timestamp": 1718960874,
+                "name": "EPA・FTA地図(1)（日本商工会議所）.png",
+                "title": "EPA・FTA地図(1)（日本商工会議所）.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U033G4KN4TD",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 183623,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0792HKGRSR\/epa___fta_______1____________________________.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0792HKGRSR\/download\/epa___fta_______1____________________________.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0792HKGRSR-2b353ae372\/epa___fta_______1_____________________________64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0792HKGRSR-2b353ae372\/epa___fta_______1_____________________________80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0792HKGRSR-2b353ae372\/epa___fta_______1_____________________________360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 331,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0792HKGRSR-2b353ae372\/epa___fta_______1_____________________________480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 441,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0792HKGRSR-2b353ae372\/epa___fta_______1_____________________________160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0792HKGRSR-2b353ae372\/epa___fta_______1_____________________________720.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 662,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0792HKGRSR-2b353ae372\/epa___fta_______1_____________________________800.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 735,
+                "original_w": 938,
+                "original_h": 862,
+                "thumb_tiny": "AwAsADDQO7PAFHzY6Cn0wvjpQAo3elHze\/5UwOcgZp+Tt4NACjP+RQM9zTAd3WnqCBzQAp5FRY+bBqUkAZNM8xCev6UARlNjZFSjn6GkJVhg0AqBgHikAcIcYJ96fTSykg+lOByOKYAelNz1pWOFJpgYk9aAHDoaUc0gGRnJpce5oATrinU2QlYyR1FQ+c\/tTSuS5JH\/2Q==",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F0792HKGRSR\/epa___fta_______1____________________________.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F0792HKGRSR-bd6082c979",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F0795EUK76E",
+                "created": 1718960914,
+                "timestamp": 1718960914,
+                "name": "EPA・FTA地図(2)（日本商工会議所）.png",
+                "title": "EPA・FTA地図(2)（日本商工会議所）.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U033G4KN4TD",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 49802,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0795EUK76E\/epa___fta_______2____________________________.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0795EUK76E\/download\/epa___fta_______2____________________________.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795EUK76E-9e35d795cd\/epa___fta_______2_____________________________64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795EUK76E-9e35d795cd\/epa___fta_______2_____________________________80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795EUK76E-9e35d795cd\/epa___fta_______2_____________________________360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 241,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795EUK76E-9e35d795cd\/epa___fta_______2_____________________________480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 322,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795EUK76E-9e35d795cd\/epa___fta_______2_____________________________160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "original_w": 671,
+                "original_h": 450,
+                "thumb_tiny": "AwAgADDTJphf060r5xwM0wDPtQAodicDFOJIXjrTVXB5p\/WgBoYmlUHJz0pAAp+an0ku42FIFAFIy7u5H0NIEx\/Ex+pouxDiCRwcUDIHrSbfc0bfc0tRisNwpQMDFN2+5pQMdzT1A\/\/Z",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F0795EUK76E\/epa___fta_______2____________________________.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F0795EUK76E-3954d24900",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F0795BJSHSP",
+                "created": 1718960918,
+                "timestamp": 1718960918,
+                "name": "EPA.png",
+                "title": "EPA.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U033G4KN4TD",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 32430,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0795BJSHSP\/epa.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0795BJSHSP\/download\/epa.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795BJSHSP-5000aae6df\/epa_64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795BJSHSP-5000aae6df\/epa_80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795BJSHSP-5000aae6df\/epa_360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 112,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795BJSHSP-5000aae6df\/epa_480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 150,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795BJSHSP-5000aae6df\/epa_160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795BJSHSP-5000aae6df\/epa_720.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 225,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795BJSHSP-5000aae6df\/epa_800.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 250,
+                "original_w": 935,
+                "original_h": 292,
+                "thumb_tiny": "AwAOADDQpRxRtpcH1oATP1oz9aXB9aaeDzQA7P1o9OabnFO7igD\/2Q==",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F0795BJSHSP\/epa.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F0795BJSHSP-bb1e554ce7",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U033G4KN4TD",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Lv8eV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "＜メモ＞\nEPAについて\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "EPA(Economic Partnership Agreement：経済連携協定)の適用を受けるための輸出者自己申告の原産品申告書",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nG:\\.shortcut-targets-by-id\\1-1alQxLfsYcjqIhE_a7kyDWtPqUpllkO\\桃翠園（共有フォルダ_松井Google  Drive）\\●海外営業\\各種資料（セミナー・輸出情報）\\EPA・FTA\\日EU・EPA\n\n【※運用※】\n日EU・EPA(自己申告制度)適用\n➀\t「自己申告文」をINVOICE上に記載する\n②\t荷送り人から通関業者(日本側)にEPA適用の旨を伝える\n\t例）㈱ペガサスグローバルエクスプレスで送り状登録する際にメールで「EPA適用」の旨を伝える\n\t　　㈱ペガサスグローバルエクスプレスから日本側のDHLに連絡する\n③\t荷受人から現地の通関業者に「EPA適用」の旨を伝えてもらう"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1718960999.732569",
+        "client_msg_id": "e933ac79-275a-4b0a-9bc5-7a6aaea63a1d",
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM",
+                    "U066P20UQH1",
+                    "U0606SPN4BW",
+                    "U0331FZS7JT"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "text": "<@U041RJKV5JA> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\nUAE、alya alkさんのラベル確認について",
+        "files": [
+            {
+                "id": "F0795100Q6R",
+                "created": 1718988770,
+                "timestamp": 1718988770,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 153000,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0795100Q6R\/image.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0795100Q6R\/download\/image.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795100Q6R-1a17585ff1\/image_64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795100Q6R-1a17585ff1\/image_80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795100Q6R-1a17585ff1\/image_360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 105,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795100Q6R-1a17585ff1\/image_480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 140,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795100Q6R-1a17585ff1\/image_160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795100Q6R-1a17585ff1\/image_720.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 209,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795100Q6R-1a17585ff1\/image_800.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 233,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795100Q6R-1a17585ff1\/image_960.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 279,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795100Q6R-1a17585ff1\/image_1024.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 298,
+                "original_w": 1968,
+                "original_h": 572,
+                "thumb_tiny": "AwANADDQeQIcEULJu6DFOKgnkUBQOgoAa8m0gYJzQkm\/PykfUUpRW+8AcetCoq\/dAH0oAC4BwaA4J4pdooCgUAf\/2Q==",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F0795100Q6R\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F0795100Q6R-6c98e2c3aa",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F0791953JLE",
+                "created": 1718988818,
+                "timestamp": 1718988818,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 113846,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0791953JLE\/image.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0791953JLE\/download\/image.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0791953JLE-0a8c1d243c\/image_64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0791953JLE-0a8c1d243c\/image_80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0791953JLE-0a8c1d243c\/image_360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 278,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0791953JLE-0a8c1d243c\/image_480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 371,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0791953JLE-0a8c1d243c\/image_160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0791953JLE-0a8c1d243c\/image_720.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 557,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0791953JLE-0a8c1d243c\/image_800.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 619,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0791953JLE-0a8c1d243c\/image_960.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 742,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0791953JLE-0a8c1d243c\/image_1024.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 792,
+                "original_w": 1177,
+                "original_h": 910,
+                "thumb_tiny": "AwAlADDSoyaY55puaQEuaM1GH9KQSbgcHocGgCXNFR55p6mmA1hnvim7P9qpcUm32oAYE\/2qTaAcbhn0qXFMMQLbu9ACeX\/tGnqMcUuDQAaAFooooAKKKKACiiigD\/\/Z",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F0791953JLE\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F0791953JLE-8084812347",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1vqEl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nUAE、alya alkさんのラベル確認について"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1718989089.960599",
+        "client_msg_id": "02ade8a7-42cc-4e43-aaa1-3b410eb3d16e",
+        "thread_ts": "1718989089.960599",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1719309888.146259",
+        "reply_users": [
+            "U0606SPN4BW",
+            "U041RJKV5JA"
+        ],
+        "replies": [
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1718989223.009039"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1719309888.146259"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1719309888.146259"
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1718989223.009039",
+        "client_msg_id": "0b351bed-cb8c-4ceb-b950-6152aca4ddfc",
+        "text": "<@U041RJKV5JA> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n受注前ではありますが、先立ちまして島根有機にラベル表記の確認をお願いできますでしょうか？\nよろしくお願いいたします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1718989089.960599",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UI8a0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n受注前ではありますが、先立ちまして島根有機にラベル表記の確認をお願いできますでしょうか？\nよろしくお願いいたします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1718990780.484119",
+        "client_msg_id": "02062212-9bcd-43a6-910e-4a987bb47ca3",
+        "text": "<@U041RJKV5JA>\nCC：<@U0331FWGQRM> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n各種（計4種類）ブレンドしたラテ100gのサンプルと桃翠園用のサンプルを\n平川さんのデスク置いています！\nターゲットと言いますか、既製品（つぼ市）の袋も置いているので、こちらもアルミ蒸着でサンプルと一緒に発送をお願いします！\nサウジ：Ahmed Alharbi _ (Anfal Altamimi)（Mo matcha）\nのQuotation_tousuien_20240620_Matcha_10g sachet_revisedに\n価格など記載されています。\nラベル添付の上、<@U0331FWGQRM> の指示のもと、発送をお願いします！\nよろしくお願いします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1717504724.813009",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "b77hb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nCC："
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n各種（計4種類）ブレンドしたラテ100gのサンプルと桃翠園用のサンプルを\n平川さんのデスク置いています！\nターゲットと言いますか、既製品（つぼ市）の袋も置いているので、こちらもアルミ蒸着でサンプルと一緒に発送をお願いします！\nサウジ：Ahmed Alharbi _ (Anfal Altamimi)（Mo matcha）\nのQuotation_tousuien_20240620_Matcha_10g sachet_revisedに\n価格など記載されています。\nラベル添付の上、"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " の指示のもと、発送をお願いします！\nよろしくお願いします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1718992445.895559",
+        "client_msg_id": "90b8ae0f-5ddc-4da9-b0a6-be2b729efa4b",
+        "text": "<@U041RJKV5JA>\n抹茶ラテ2種類、ほうじ茶ラテ2種類、ターゲットサンプル各１\n合計6袋を発送願います。\n宜しくお願いします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1717504724.813009",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pFXK5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n抹茶ラテ2種類、ほうじ茶ラテ2種類、ターゲットサンプル各１\n合計6袋を発送願います。\n宜しくお願いします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1718993242.653679",
+        "client_msg_id": "2c4dd2b2-a1c9-43b1-b801-49a65dddd9e3",
+        "text": "<!channel>【誰でもできる！製品の写真撮影のコツについて】",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1718993242.653679",
+        "reply_count": 11,
+        "reply_users_count": 1,
+        "latest_reply": "1718997428.461119",
+        "reply_users": [
+            "U0606SPN4BW"
+        ],
+        "replies": [
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1718993380.190489"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1718993588.674879"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1718993812.055169"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1718994064.817579"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1718994406.488149"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1718994661.593129"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1718994820.819459"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1718995655.652979"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1718995940.301229"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1718997181.422329"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1718997428.461119"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ODsyr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "【誰でもできる！製品の写真撮影のコツについて】"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "神-1",
+                "users": [
+                    "U066P20UQH1",
+                    "U0331FWGQRM"
+                ],
+                "count": 2
+            },
+            {
+                "name": "流石としか",
+                "users": [
+                    "U066P20UQH1",
+                    "U0331FWGQRM"
+                ],
+                "count": 2
+            },
+            {
+                "name": "thankyouverymatcha",
+                "users": [
+                    "U066P20UQH1",
+                    "U0331FWGQRM"
+                ],
+                "count": 2
+            },
+            {
+                "name": "わかりやすい",
+                "users": [
+                    "U066P20UQH1",
+                    "U0331FWGQRM",
+                    "U041RJKV5JA"
+                ],
+                "count": 3
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U041RJKV5JA",
+                    "U033G4KN4TD"
+                ],
+                "count": 2
+            },
+            {
+                "name": "すごいなるほど",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1718993380.190489",
+        "client_msg_id": "583e9ff1-6f24-4dcc-8998-d15f7e10a124",
+        "text": "お客様の目に触れる写真は桃翠園のアウトプットの１つとして、またブランド体験としも重要ですよね♪\n\n新ビジネスに向け、待ちに待った製品の完成。お客様にとってきっと車の納車のような期待感やワクワク感があるかもしれません。\nせっかくなら「おおっ！」と、思わず身を乗り出すような素敵な:camera:写真をお見せしたい所です。\n\nただ良い写真を撮る為には「道具が色々必要だったり、センスやテクニックが要るのでは。。」と思われがち。\nそこで！これまで私がプロから聞いたり、自分自身の実感が伴ったコツを少しお伝えできればと思います！\n今後の製品撮影のお役立てとなれますように:sparkles:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1718993242.653679",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3j2Ok",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "お客様の目に触れる写真は桃翠園のアウトプットの１つとして、またブランド体験としも重要ですよね♪\n\n新ビジネスに向け、待ちに待った製品の完成。お客様にとってきっと車の納車のような期待感やワクワク感があるかもしれません。\nせっかくなら「おおっ！」と、思わず身を乗り出すような素敵な"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "camera",
+                                "unicode": "1f4f7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "写真をお見せしたい所です。\n\nただ良い写真を撮る為には「道具が色々必要だったり、センスやテクニックが要るのでは。。」と思われがち。\nそこで！これまで私がプロから聞いたり、自分自身の実感が伴ったコツを少しお伝えできればと思います！\n今後の製品撮影のお役立てとなれますように"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sparkles",
+                                "unicode": "2728"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "パッと見、「写真撮影セットを使った風」のコチラをまずはご覧ください♪",
+        "files": [
+            {
+                "id": "F079M10JAQ1",
+                "created": 1718993518,
+                "timestamp": 1718993518,
+                "name": "PXL_20240612_155820782~3.jpg",
+                "title": "PXL_20240612_155820782~3.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 351991,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F079M10JAQ1\/pxl_20240612_155820782_3.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F079M10JAQ1\/download\/pxl_20240612_155820782_3.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M10JAQ1-5d89335caa\/pxl_20240612_155820782_3_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M10JAQ1-5d89335caa\/pxl_20240612_155820782_3_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M10JAQ1-5d89335caa\/pxl_20240612_155820782_3_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 202,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M10JAQ1-5d89335caa\/pxl_20240612_155820782_3_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 270,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M10JAQ1-5d89335caa\/pxl_20240612_155820782_3_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M10JAQ1-5d89335caa\/pxl_20240612_155820782_3_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 405,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M10JAQ1-5d89335caa\/pxl_20240612_155820782_3_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 1422,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M10JAQ1-5d89335caa\/pxl_20240612_155820782_3_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 540,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M10JAQ1-5d89335caa\/pxl_20240612_155820782_3_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 576,
+                "thumb_1024_h": 1024,
+                "original_w": 2139,
+                "original_h": 3803,
+                "thumb_tiny": "AwAwABqwoqVajWnrQBIKWminUAV1pzsIxyM\/SlCU25+7QBLEwdAwGPrT6rQSARAZ71J5vtQAZpGAbqAaKWgBAoHQAUuKKM0Af\/\/Z",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F079M10JAQ1\/pxl_20240612_155820782_3.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F079M10JAQ1-829e3a5a33",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F0791MQPYSJ",
+                "created": 1718993529,
+                "timestamp": 1718993529,
+                "name": "PXL_20240612_155820782~4.jpg",
+                "title": "PXL_20240612_155820782~4.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 239982,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0791MQPYSJ\/pxl_20240612_155820782_4.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0791MQPYSJ\/download\/pxl_20240612_155820782_4.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0791MQPYSJ-d7350cba0d\/pxl_20240612_155820782_4_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0791MQPYSJ-d7350cba0d\/pxl_20240612_155820782_4_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0791MQPYSJ-d7350cba0d\/pxl_20240612_155820782_4_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0791MQPYSJ-d7350cba0d\/pxl_20240612_155820782_4_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0791MQPYSJ-d7350cba0d\/pxl_20240612_155820782_4_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0791MQPYSJ-d7350cba0d\/pxl_20240612_155820782_4_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0791MQPYSJ-d7350cba0d\/pxl_20240612_155820782_4_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 800,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0791MQPYSJ-d7350cba0d\/pxl_20240612_155820782_4_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0791MQPYSJ-d7350cba0d\/pxl_20240612_155820782_4_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 1024,
+                "original_w": 2139,
+                "original_h": 2140,
+                "thumb_tiny": "AwAwAC+cU8UwU8UAOFOFNFOFACinUgp1AFQVIoyRSBaeo5FAA\/yjiqzTyA8MPyqzL0qm4+agC9GSUUnqRT6jiP7tfpTt1ADaUYptGaACVhjrVNzk8ZP4VcJpMUARRs+wDB6U8bj1p4FGKAP\/2Q==",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F0791MQPYSJ\/pxl_20240612_155820782_4.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F0791MQPYSJ-0f38dacc24",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F0795DTK7MK",
+                "created": 1718993574,
+                "timestamp": 1718993574,
+                "name": "IMG_20240612_174031~2.jpg",
+                "title": "IMG_20240612_174031~2.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 152746,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0795DTK7MK\/img_20240612_174031_2.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0795DTK7MK\/download\/img_20240612_174031_2.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795DTK7MK-528d3a1783\/img_20240612_174031_2_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795DTK7MK-528d3a1783\/img_20240612_174031_2_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795DTK7MK-528d3a1783\/img_20240612_174031_2_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795DTK7MK-528d3a1783\/img_20240612_174031_2_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795DTK7MK-528d3a1783\/img_20240612_174031_2_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795DTK7MK-528d3a1783\/img_20240612_174031_2_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795DTK7MK-528d3a1783\/img_20240612_174031_2_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 800,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795DTK7MK-528d3a1783\/img_20240612_174031_2_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795DTK7MK-528d3a1783\/img_20240612_174031_2_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 1024,
+                "original_w": 1374,
+                "original_h": 1374,
+                "thumb_tiny": "AwAwADCcU4U0U7IA5oAcKcBUfmKKUSp60ASAU6mqQRkHIpaAK4FDdB9adihhx+NAEU27bz0+tVgPm4FW5h8tQAYoAtQnEQqTdVZHwgFO3E0ASUHkYpKWgBkgOOmfpUBVj0X86tGkoAhSMgc1IFp1FAH\/2Q==",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F0795DTK7MK\/img_20240612_174031_2.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F0795DTK7MK-378bad1189",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F079M15RTEV",
+                "created": 1718993583,
+                "timestamp": 1718993583,
+                "name": "IMG_20240612_175630.jpg",
+                "title": "IMG_20240612_175630.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 158108,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F079M15RTEV\/img_20240612_175630.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F079M15RTEV\/download\/img_20240612_175630.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M15RTEV-c5853161bf\/img_20240612_175630_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M15RTEV-c5853161bf\/img_20240612_175630_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M15RTEV-c5853161bf\/img_20240612_175630_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M15RTEV-c5853161bf\/img_20240612_175630_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M15RTEV-c5853161bf\/img_20240612_175630_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M15RTEV-c5853161bf\/img_20240612_175630_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M15RTEV-c5853161bf\/img_20240612_175630_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 800,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M15RTEV-c5853161bf\/img_20240612_175630_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M15RTEV-c5853161bf\/img_20240612_175630_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 1024,
+                "original_w": 1920,
+                "original_h": 1920,
+                "thumb_tiny": "AwAwADBwqQUwU9aAHAU8Co\/NjH8Qp6zRn+IUAPAp2KBS0AVQlPC8U4UooAx3JHQ01WJPJJqSYYdgexqNfvD60AbQOFA9qXfVUS5p4JPegCWikooAbJGkn31B96jFrGDkKKmpaAI9gHalxT6SgD\/\/2Q==",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F079M15RTEV\/img_20240612_175630.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F079M15RTEV-fd26bb1ea9",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "a8ZCJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "パッと見、「写真撮影セットを使った風」のコチラをまずはご覧ください♪"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1718993588.674879",
+        "client_msg_id": "6298195b-2947-40ac-b3b1-2ff66e7af53b",
+        "thread_ts": "1718993242.653679",
+        "parent_user_id": "U0606SPN4BW"
+    },
+    {
+        "text": "↓普段、私が座っているイスです。笑\nこれぐらい雑な環境で、適当に数秒で撮ってますw\n撮影用に買ったとかではなく今回、コツをお伝えする為に事務所内を見回してコレで説明する事にしました！",
+        "files": [
+            {
+                "id": "F079ARA68P6",
+                "created": 1718993680,
+                "timestamp": 1718993680,
+                "name": "PXL_20240612_154059395.MP.jpg",
+                "title": "PXL_20240612_154059395.MP.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 908311,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F079ARA68P6\/pxl_20240612_154059395.mp.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F079ARA68P6\/download\/pxl_20240612_154059395.mp.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079ARA68P6-189c607154\/pxl_20240612_154059395.mp_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079ARA68P6-189c607154\/pxl_20240612_154059395.mp_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079ARA68P6-189c607154\/pxl_20240612_154059395.mp_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 203,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079ARA68P6-189c607154\/pxl_20240612_154059395.mp_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 270,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079ARA68P6-189c607154\/pxl_20240612_154059395.mp_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079ARA68P6-189c607154\/pxl_20240612_154059395.mp_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 405,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079ARA68P6-189c607154\/pxl_20240612_154059395.mp_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 1422,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079ARA68P6-189c607154\/pxl_20240612_154059395.mp_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 540,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079ARA68P6-189c607154\/pxl_20240612_154059395.mp_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 576,
+                "thumb_1024_h": 1024,
+                "original_w": 2268,
+                "original_h": 4032,
+                "thumb_tiny": "AwAwABuJViJxg59walWNT04qGBRgsO\/FW0FAEMkIRd5PHSomCMxJbrV6Rd0Lj2qhsFAEkK7EVe46\/WrSCo0QCl3lJAM\/L9KALAXIrOPBI9KvrJmqs0JMrEHgmgCUU6qy3I7gilNwvv8AlQBYzimNIM1Xa4B+7UBdietAH\/\/Z",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F079ARA68P6\/pxl_20240612_154059395.mp.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F079ARA68P6-366fe5ecde",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F079X52LX5W",
+                "created": 1718993692,
+                "timestamp": 1718993692,
+                "name": "PXL_20240612_155554429.MP.jpg",
+                "title": "PXL_20240612_155554429.MP.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 1131458,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F079X52LX5W\/pxl_20240612_155554429.mp.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F079X52LX5W\/download\/pxl_20240612_155554429.mp.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079X52LX5W-d38fd00c92\/pxl_20240612_155554429.mp_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079X52LX5W-d38fd00c92\/pxl_20240612_155554429.mp_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079X52LX5W-d38fd00c92\/pxl_20240612_155554429.mp_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 203,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079X52LX5W-d38fd00c92\/pxl_20240612_155554429.mp_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 270,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079X52LX5W-d38fd00c92\/pxl_20240612_155554429.mp_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079X52LX5W-d38fd00c92\/pxl_20240612_155554429.mp_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 405,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079X52LX5W-d38fd00c92\/pxl_20240612_155554429.mp_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 1422,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079X52LX5W-d38fd00c92\/pxl_20240612_155554429.mp_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 540,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079X52LX5W-d38fd00c92\/pxl_20240612_155554429.mp_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 576,
+                "thumb_1024_h": 1024,
+                "original_w": 2268,
+                "original_h": 4032,
+                "thumb_tiny": "AwAwABuybnYACAKgnYN82QSfSo42++DyccUjE5AJyR1pAAp1NFLTAayqj7lbJ9KbmrLRL6VSlkKyFQOlAEwp+KjtyZASe1T7aAJTWdcIyyMSDgnrWhTGGaAK1s2xSCOpqxvX1phiHak2UAf\/2Q==",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F079X52LX5W\/pxl_20240612_155554429.mp.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F079X52LX5W-484d266556",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uNEc5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "↓普段、私が座っているイスです。笑\nこれぐらい雑な環境で、適当に数秒で撮ってますw\n撮影用に買ったとかではなく今回、コツをお伝えする為に事務所内を見回してコレで説明する事にしました！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1718993812.055169",
+        "client_msg_id": "604bcecb-0fe8-4119-8b11-0c0c896c1f3f",
+        "thread_ts": "1718993242.653679",
+        "parent_user_id": "U0606SPN4BW"
+    },
+    {
+        "text": "↓動画の方が分かりやすいかもです！",
+        "files": [
+            {
+                "id": "F079X5MUQ48",
+                "created": 1718993927,
+                "timestamp": 1718993927,
+                "name": "PXL_20240612_154631832.TS~3.mp4",
+                "title": "PXL_20240612_154631832.TS~3.mp4",
+                "mimetype": "video\/mp4",
+                "filetype": "mp4",
+                "pretty_type": "MPEG 4 Video",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 72664201,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "transcription": {
+                    "status": "none"
+                },
+                "mp4": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079X5MUQ48-18281bfcd7\/pxl_20240612_154631832.ts_3.mp4?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079X5MUQ48-18281bfcd7\/pxl_20240612_154631832.ts_3.mp4?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F079X5MUQ48\/download\/pxl_20240612_154631832.ts_3.mp4?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "hls": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079X5MUQ48-18281bfcd7\/file.m3u8?_xcb=da54a&t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "hls_embed": "data:application\/vnd.apple.mpegurl;base64,I0VYVE0zVQojRVhULVgtVkVSU0lPTjozCiNFWFQtWC1JTkRFUEVOREVOVC1TRUdNRU5UUwojRVhULVgtU1RSRUFNLUlORjpCQU5EV0lEVEg9MTEwNzA5MCxBVkVSQUdFLUJBTkRXSURUSD0xMTA3MDkwLENPREVDUz0iYXZjMS42NDAwMWYsbXA0YS40MC41IixSRVNPTFVUSU9OPTYwOHgxMDgwLEZSQU1FLVJBVEU9MjkuOTcwCmRhdGE6YXBwbGljYXRpb24vdm5kLmFwcGxlLm1wZWd1cmw7YmFzZTY0LEkwVllWRTB6VlFvalJWaFVMVmd0VmtWU1UwbFBUam96Q2lORldGUXRXQzFVUVZKSFJWUkVWVkpCVkVsUFRqbzNDaU5GV0ZRdFdDMU5SVVJKUVMxVFJWRlZSVTVEUlRveENpTkZXRlF0V0MxUVRFRlpURWxUVkMxVVdWQkZPbFpQUkFvalJWaFVTVTVHT2pZdU1EQTJMQXBvZEhSd2N6b3ZMMlpwYkdWekxuTnNZV05yTG1OdmJTOW1hV3hsY3kxMGJXSXZWREF6TTBRM01GSlNOa2d0UmpBM09WZzFUVlZSTkRndE1UZ3lPREZpWm1Oa055OW1hV3hsWDBoZk1qWTBYekU1TWpCNE1UQTRNRjgyTlRBd1MwSlFVMTgzVVZaQ1VsOHdNREF3TVM1MGN3b2pSVmhVU1U1R09qSXVNakF5TEFwb2RIUndjem92TDJacGJHVnpMbk5zWVdOckxtTnZiUzltYVd4bGN5MTBiV0l2VkRBek0wUTNNRkpTTmtndFJqQTNPVmcxVFZWUk5EZ3RNVGd5T0RGaVptTmtOeTltYVd4bFgwaGZNalkwWHpFNU1qQjRNVEE0TUY4Mk5UQXdTMEpRVTE4M1VWWkNVbDh3TURBd01pNTBjd29qUlZoVUxWZ3RSVTVFVEVsVFZBbz0KI0VYVC1YLVNUUkVBTS1JTkY6QkFORFdJRFRIPTYzNDA1MyxBVkVSQUdFLUJBTkRXSURUSD02MzQwNTMsQ09ERUNTPSJhdmMxLjY0MDAxZSxtcDRhLjQwLjUiLFJFU09MVVRJT049NDA2eDcyMCxGUkFNRS1SQVRFPTI5Ljk3MApodHRwczovL2ZpbGVzLnNsYWNrLmNvbS9maWxlcy10bWIvVDAzM0Q3MFJSNkgtRjA3OVg1TVVRNDgtMTgyODFiZmNkNy9maWxlX0hfMjY0XzEyODB4NzIwXzM1MDBLQlBTXzdRVkJSLm0zdTgK",
+                "mp4_low": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079X5MUQ48-18281bfcd7\/pxl_20240612_154631832.ts_3_trans.mp4?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "duration_ms": 8208,
+                "media_display_type": "video",
+                "thumb_video": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079X5MUQ48-18281bfcd7\/pxl_20240612_154631832.ts_3_thumb_video.jpeg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_video_w": 1080,
+                "thumb_video_h": 1920,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F079X5MUQ48\/pxl_20240612_154631832.ts_3.mp4",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F079X5MUQ48-0c7fa403b6",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0606SPN4BW",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Xbw56",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "↓動画の方が分かりやすいかもです！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1718994064.817579",
+        "client_msg_id": "d17dddf6-b501-48df-884d-32579a982f7e",
+        "thread_ts": "1718993242.653679",
+        "parent_user_id": "U0606SPN4BW",
+        "reactions": [
+            {
+                "name": "おおお",
+                "users": [
+                    "U0331FZS7JT",
+                    "U0331FWGQRM"
+                ],
+                "count": 2
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT",
+                    "U0331FWGQRM"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1718994406.488149",
+        "client_msg_id": "0cb95a16-6c42-4680-8f5d-2d868b66ad06",
+        "text": "ここでお分かりいただけるのは、\n\n・とりあえず白いテーブル\n　(壁紙や床材等、マットなプラスチック製のシートなど代用できるもの何でもOK)\n\n・白い壁\n（大きめの発砲スチロールの板とかでもOK）\n\n・自然光の入る窓際\n　(曇りでも屋内の蛍光灯よりマシ)\n\nこの3点があれば「そこそこイケる」というコトです。＾＾",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1718993242.653679",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6TnoQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ここでお分かりいただけるのは、\n\n・とりあえず白いテーブル\n　(壁紙や床材等、マットなプラスチック製のシートなど代用できるもの何でもOK)\n\n・白い壁\n（大きめの発砲スチロールの板とかでもOK）\n\n・自然光の入る窓際\n　(曇りでも屋内の蛍光灯よりマシ)\n\nこの3点があれば「そこそこイケる」というコトです。＾＾"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "皆さんが撮影してくださった写真を拝見する中で私が感じるのは、「何か背景に不要な物が映り込まないように。。」といった点に意識が行っているように思います。笑\n\nそんな時は是非、こんな感じで寝かせてください。＾＾\n白い壁となる物がなくても問題が解決されますよ～",
+        "files": [
+            {
+                "id": "F079M3AHW1F",
+                "created": 1718994481,
+                "timestamp": 1718994481,
+                "name": "IMG_20240612_175429~2.jpg",
+                "title": "IMG_20240612_175429~2.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 292990,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F079M3AHW1F\/img_20240612_175429_2.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F079M3AHW1F\/download\/img_20240612_175429_2.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M3AHW1F-1c7014a2c8\/img_20240612_175429_2_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M3AHW1F-1c7014a2c8\/img_20240612_175429_2_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M3AHW1F-1c7014a2c8\/img_20240612_175429_2_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M3AHW1F-1c7014a2c8\/img_20240612_175429_2_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M3AHW1F-1c7014a2c8\/img_20240612_175429_2_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M3AHW1F-1c7014a2c8\/img_20240612_175429_2_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M3AHW1F-1c7014a2c8\/img_20240612_175429_2_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 800,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M3AHW1F-1c7014a2c8\/img_20240612_175429_2_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079M3AHW1F-1c7014a2c8\/img_20240612_175429_2_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 1024,
+                "original_w": 1920,
+                "original_h": 1920,
+                "thumb_tiny": "AwAwADCUCnYpVWn7eM4oAjxSgVGZWVuVGPano6t0PPoaAHgUuKUClxQAgFOLhQV70AUx0JbcPyoAJEVhxVWRNnJ6VMQexwaglYg5bovP1PagCSGRt+09AOc1ZBzWfGSB15qdJSOtAFyiiigBrIGqvNExGAARVqg80AZu0jtTgKuNGD2pnlikB\/\/Z",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F079M3AHW1F\/img_20240612_175429_2.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F079M3AHW1F-5427c8aed9",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0606SPN4BW",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DB6oy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "皆さんが撮影してくださった写真を拝見する中で私が感じるのは、「何か背景に不要な物が映り込まないように。。」といった点に意識が行っているように思います。笑\n\nそんな時は是非、こんな感じで寝かせてください。＾＾\n白い壁となる物がなくても問題が解決されますよ～"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1718994661.593129",
+        "client_msg_id": "6226ac1f-c9e3-4262-9695-5c1366ef2524",
+        "thread_ts": "1718993242.653679",
+        "parent_user_id": "U0606SPN4BW"
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1718994820.819459",
+        "client_msg_id": "32c3481d-b969-48ed-9c09-c61eef3db3c7",
+        "text": "↑缶が転がってしまう場合は、裏に消しゴムでも、紙を丸めたモノとか何を置いても良いですし、セロテープで留めるのもアリです。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1718993242.653679",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GU7E\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "↑缶が転がってしまう場合は、裏に消しゴムでも、紙を丸めたモノとか何を置いても良いですし、セロテープで留めるのもアリです。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "＜使えるテクニック：影を消す！＞\n２つの写真の胴の部分を何度かポチポチと見比べてみてください♪\nA4のコピー用紙を置いただけですが、白い紙に反射した光が缶の影を消しつつ、影側の缶の部分を明るくする効果が得らえています。\nいわゆる「レフ版の効果」です。\n\nその辺にある、発泡スチロールの板でもとかならもっと効果が得られますよ♪\nダンボールの板にアルミホイルを貼り付けた物でも可です。\n\nライトを横から当てて影を消す。光を周り込ませるのも、もちろんアリです。\n\n遠くから軽く当てたり、敢えて上向きにライトを向けてみたり、色々アジャストしながらベストな光量を探してみてくださいね！",
+        "files": [
+            {
+                "id": "F0795HAQUBX",
+                "created": 1718994987,
+                "timestamp": 1718994987,
+                "name": "PXL_20240612_154402267.MP.jpg",
+                "title": "PXL_20240612_154402267.MP.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 902579,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0795HAQUBX\/pxl_20240612_154402267.mp.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0795HAQUBX\/download\/pxl_20240612_154402267.mp.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795HAQUBX-b5f6020f62\/pxl_20240612_154402267.mp_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795HAQUBX-b5f6020f62\/pxl_20240612_154402267.mp_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795HAQUBX-b5f6020f62\/pxl_20240612_154402267.mp_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 203,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795HAQUBX-b5f6020f62\/pxl_20240612_154402267.mp_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 270,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795HAQUBX-b5f6020f62\/pxl_20240612_154402267.mp_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795HAQUBX-b5f6020f62\/pxl_20240612_154402267.mp_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 405,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795HAQUBX-b5f6020f62\/pxl_20240612_154402267.mp_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 1422,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795HAQUBX-b5f6020f62\/pxl_20240612_154402267.mp_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 540,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795HAQUBX-b5f6020f62\/pxl_20240612_154402267.mp_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 576,
+                "thumb_1024_h": 1024,
+                "original_w": 2268,
+                "original_h": 4032,
+                "thumb_tiny": "AwAwABsSplqJKmUUAPFKVyacop3FAFFwUQle1LbyMwO6pGG5SKhEJBzu\/KgC0Hpd9QBcU+gAopu6kL0AOJpM0wvTd9AH\/9k=",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F0795HAQUBX\/pxl_20240612_154402267.mp.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F0795HAQUBX-56cbbafe69",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F0795HC0Y93",
+                "created": 1718995001,
+                "timestamp": 1718995001,
+                "name": "PXL_20240612_154409247.MP.jpg",
+                "title": "PXL_20240612_154409247.MP.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 894142,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0795HC0Y93\/pxl_20240612_154409247.mp.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0795HC0Y93\/download\/pxl_20240612_154409247.mp.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795HC0Y93-a272473ed5\/pxl_20240612_154409247.mp_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795HC0Y93-a272473ed5\/pxl_20240612_154409247.mp_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795HC0Y93-a272473ed5\/pxl_20240612_154409247.mp_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 203,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795HC0Y93-a272473ed5\/pxl_20240612_154409247.mp_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 270,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795HC0Y93-a272473ed5\/pxl_20240612_154409247.mp_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795HC0Y93-a272473ed5\/pxl_20240612_154409247.mp_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 405,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795HC0Y93-a272473ed5\/pxl_20240612_154409247.mp_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 1422,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795HC0Y93-a272473ed5\/pxl_20240612_154409247.mp_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 540,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0795HC0Y93-a272473ed5\/pxl_20240612_154409247.mp_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 576,
+                "thumb_1024_h": 1024,
+                "original_w": 2268,
+                "original_h": 4032,
+                "thumb_tiny": "AwAwABsSpVqJKnUUgHAUjJk5qRRTuKYFF8ouRUkTsc7u1Ky7lIqMRtnO78qALAel31CqVLigBtFIOacKAFAp1IKWgD\/\/2Q==",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F0795HC0Y93\/pxl_20240612_154409247.mp.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F0795HC0Y93-131f4a10ef",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "odjOr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "＜使えるテクニック：影を消す！＞\n２つの写真の胴の部分を何度かポチポチと見比べてみてください♪\nA4のコピー用紙を置いただけですが、白い紙に反射した光が缶の影を消しつつ、影側の缶の部分を明るくする効果が得らえています。\nいわゆる「レフ版の効果」です。\n\nその辺にある、発泡スチロールの板でもとかならもっと効果が得られますよ♪\nダンボールの板にアルミホイルを貼り付けた物でも可です。\n\nライトを横から当てて影を消す。光を周り込ませるのも、もちろんアリです。\n\n遠くから軽く当てたり、敢えて上向きにライトを向けてみたり、色々アジャストしながらベストな光量を探してみてくださいね！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1718995655.652979",
+        "client_msg_id": "433020bc-4bb2-4f5f-b671-8fe844728018",
+        "thread_ts": "1718993242.653679",
+        "parent_user_id": "U0606SPN4BW"
+    },
+    {
+        "text": "↑実際に写真を撮る時は、もちろん紙は写らないようにします。笑\n\n↓動画版もどうぞ！",
+        "files": [
+            {
+                "id": "F0791THQMP0",
+                "created": 1718995927,
+                "timestamp": 1718995927,
+                "name": "PXL_20240612_154420467.TS~2.mp4",
+                "title": "PXL_20240612_154420467.TS~2.mp4",
+                "mimetype": "video\/mp4",
+                "filetype": "mp4",
+                "pretty_type": "MPEG 4 Video",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 6164491,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "transcription": {
+                    "status": "none"
+                },
+                "mp4": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0791THQMP0-1939881fc4\/pxl_20240612_154420467.ts_2.mp4?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0791THQMP0-1939881fc4\/pxl_20240612_154420467.ts_2.mp4?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0791THQMP0\/download\/pxl_20240612_154420467.ts_2.mp4?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "hls": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0791THQMP0-1939881fc4\/file.m3u8?_xcb=941c4&t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "hls_embed": "data:application\/vnd.apple.mpegurl;base64,I0VYVE0zVQojRVhULVgtVkVSU0lPTjozCiNFWFQtWC1JTkRFUEVOREVOVC1TRUdNRU5UUwojRVhULVgtU1RSRUFNLUlORjpCQU5EV0lEVEg9MzM3MzEwLEFWRVJBR0UtQkFORFdJRFRIPTMzMTA1MCxDT0RFQ1M9ImF2YzEuNjQwMDFmLG1wNGEuNDAuNSIsUkVTT0xVVElPTj02MDh4MTA4MCxGUkFNRS1SQVRFPTI5Ljk3MApkYXRhOmFwcGxpY2F0aW9uL3ZuZC5hcHBsZS5tcGVndXJsO2Jhc2U2NCxJMFZZVkUwelZRb2pSVmhVTFZndFZrVlNVMGxQVGpvekNpTkZXRlF0V0MxVVFWSkhSVlJFVlZKQlZFbFBUam8zQ2lORldGUXRXQzFOUlVSSlFTMVRSVkZWUlU1RFJUb3hDaU5GV0ZRdFdDMVFURUZaVEVsVFZDMVVXVkJGT2xaUFJBb2pSVmhVU1U1R09qWXVNREEyTEFwb2RIUndjem92TDJacGJHVnpMbk5zWVdOckxtTnZiUzltYVd4bGN5MTBiV0l2VkRBek0wUTNNRkpTTmtndFJqQTNPVEZVU0ZGTlVEQXRNVGt6T1RnNE1XWmpOQzltYVd4bFgwaGZNalkwWHpFNU1qQjRNVEE0TUY4Mk5UQXdTMEpRVTE4M1VWWkNVbDh3TURBd01TNTBjd29qUlZoVVNVNUdPall1TURBMkxBcG9kSFJ3Y3pvdkwyWnBiR1Z6TG5Oc1lXTnJMbU52YlM5bWFXeGxjeTEwYldJdlZEQXpNMFEzTUZKU05rZ3RSakEzT1RGVVNGRk5VREF0TVRrek9UZzRNV1pqTkM5bWFXeGxYMGhmTWpZMFh6RTVNakI0TVRBNE1GODJOVEF3UzBKUVUxODNVVlpDVWw4d01EQXdNaTUwY3dvalJWaFVTVTVHT2pJdU1qQXlMQXBvZEhSd2N6b3ZMMlpwYkdWekxuTnNZV05yTG1OdmJTOW1hV3hsY3kxMGJXSXZWREF6TTBRM01GSlNOa2d0UmpBM09URlVTRkZOVURBdE1Ua3pPVGc0TVdaak5DOW1hV3hsWDBoZk1qWTBYekU1TWpCNE1UQTRNRjgyTlRBd1MwSlFVMTgzVVZaQ1VsOHdNREF3TXk1MGN3b2pSVmhVTFZndFJVNUVURWxUVkFvPQojRVhULVgtU1RSRUFNLUlORjpCQU5EV0lEVEg9MjU0MTcyLEFWRVJBR0UtQkFORFdJRFRIPTI1MDc5MSxDT0RFQ1M9ImF2YzEuNjQwMDFlLG1wNGEuNDAuNSIsUkVTT0xVVElPTj00MDZ4NzIwLEZSQU1FLVJBVEU9MjkuOTcwCmh0dHBzOi8vZmlsZXMuc2xhY2suY29tL2ZpbGVzLXRtYi9UMDMzRDcwUlI2SC1GMDc5MVRIUU1QMC0xOTM5ODgxZmM0L2ZpbGVfSF8yNjRfMTI4MHg3MjBfMzUwMEtCUFNfN1FWQlIubTN1OAo=",
+                "mp4_low": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0791THQMP0-1939881fc4\/pxl_20240612_154420467.ts_2_trans.mp4?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "duration_ms": 14214,
+                "media_display_type": "video",
+                "thumb_video": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0791THQMP0-1939881fc4\/pxl_20240612_154420467.ts_2_thumb_video.jpeg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_video_w": 720,
+                "thumb_video_h": 1280,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F0791THQMP0\/pxl_20240612_154420467.ts_2.mp4",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F0791THQMP0-2739be64d7",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0606SPN4BW",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bCy94",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "↑実際に写真を撮る時は、もちろん紙は写らないようにします。笑\n\n↓動画版もどうぞ！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1718995940.301229",
+        "client_msg_id": "7cea3b4c-30ff-49bb-8c38-2d9a9f8765d4",
+        "thread_ts": "1718993242.653679",
+        "parent_user_id": "U0606SPN4BW"
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1718997181.422329",
+        "client_msg_id": "3af19766-3ce3-41e4-b1ec-9122774c4819",
+        "text": "スマホのスペックも2年くらい前のAndroidです。＾＾；\n撮影時間帯も夕方近くの曇天、ほぼ無加工なので日本なら雨や夜ではなく、日中の窓際 (直射日光じゃなくて可)であれば上のコンディションより良い撮影環境になると思われます！\n\nあと気になっている点は...\n\n・文字のピンボケ\n　(↑撮影時にピント合わせの1タップお願いします！)\n\n・敷いてあるプチプチ\n（↑少なくとも高そうには見えない）\n\nプチプチを使用した写真は、私もその昔オークションで出品する時などで使ってました。＾＾\n大切な商品を大事にしてる感じは出るのですが、高見えしないのがネックですよね。\n\nせっかくの良い製品・お茶なので高見えする方向を皆で目指せたらと思います！\n\nご覧頂いた内容は、お金も技術も要らない「知ってるかどうか、やるかやらないか」だけの事なので今後、機会があれば試してみてくださいね！\n\n効果があるのが分かると撮影も少し楽しくなり、\n見るポイントが分かると質もグンと上がると思います！\n\nまた何か思い出したら追記します！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1718993242.653679",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rCDBE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "スマホのスペックも2年くらい前のAndroidです。＾＾；\n撮影時間帯も夕方近くの曇天、ほぼ無加工なので日本なら雨や夜ではなく、日中の窓際 (直射日光じゃなくて可)であれば上のコンディションより良い撮影環境になると思われます！\n\nあと気になっている点は...\n\n・文字のピンボケ\n　(↑撮影時にピント合わせの1タップお願いします！)\n\n・敷いてあるプチプチ\n（↑少なくとも高そうには見えない）\n\nプチプチを使用した写真は、私もその昔オークションで出品する時などで使ってました。＾＾\n大切な商品を大事にしてる感じは出るのですが、高見えしないのがネックですよね。\n\nせっかくの良い製品・お茶なので高見えする方向を皆で目指せたらと思います！\n\nご覧頂いた内容は、お金も技術も要らない「知ってるかどうか、やるかやらないか」だけの事なので今後、機会があれば試してみてくださいね！\n\n効果があるのが分かると撮影も少し楽しくなり、\n見るポイントが分かると質もグンと上がると思います！\n\nまた何か思い出したら追記します！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "",
+        "files": [
+            {
+                "id": "F079XDZLG8G",
+                "created": 1718997351,
+                "timestamp": 1718997351,
+                "name": "PXL_20240612_155825367.TS.mp4",
+                "title": "PXL_20240612_155825367.TS.mp4",
+                "mimetype": "video\/mp4",
+                "filetype": "mp4",
+                "pretty_type": "MPEG 4 Video",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 42140589,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "transcription": {
+                    "status": "none"
+                },
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F079XDZLG8G\/pxl_20240612_155825367.ts.mp4?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F079XDZLG8G\/download\/pxl_20240612_155825367.ts.mp4?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "hls": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079XDZLG8G-2576127f7a\/file.m3u8?_xcb=a3894&t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "hls_embed": "data:application\/vnd.apple.mpegurl;base64,I0VYVE0zVQojRVhULVgtVkVSU0lPTjozCiNFWFQtWC1JTkRFUEVOREVOVC1TRUdNRU5UUwojRVhULVgtU1RSRUFNLUlORjpCQU5EV0lEVEg9NTkxMjMyLEFWRVJBR0UtQkFORFdJRFRIPTQ5MzA2OSxDT0RFQ1M9ImF2YzEuNjQwMDFmLG1wNGEuNDAuNSIsUkVTT0xVVElPTj02MDh4MTA4MCxGUkFNRS1SQVRFPTI5Ljk3MApkYXRhOmFwcGxpY2F0aW9uL3ZuZC5hcHBsZS5tcGVndXJsO2Jhc2U2NCxJMFZZVkUwelZRb2pSVmhVTFZndFZrVlNVMGxQVGpvekNpTkZXRlF0V0MxVVFWSkhSVlJFVlZKQlZFbFBUam8zQ2lORldGUXRXQzFOUlVSSlFTMVRSVkZWUlU1RFJUb3hDaU5GV0ZRdFdDMVFURUZaVEVsVFZDMVVXVkJGT2xaUFJBb2pSVmhVU1U1R09qWXVNREEyTEFwb2RIUndjem92TDJacGJHVnpMbk5zWVdOckxtTnZiUzltYVd4bGN5MTBiV0l2VkRBek0wUTNNRkpTTmtndFJqQTNPVmhFV2t4SE9FY3RNalUzTmpFeU4yWTNZUzltYVd4bFgwaGZNalkwWHpFNU1qQjRNVEE0TUY4Mk5UQXdTMEpRVTE4M1VWWkNVbDh3TURBd01TNTBjd29qUlZoVVNVNUdPall1TURBMkxBcG9kSFJ3Y3pvdkwyWnBiR1Z6TG5Oc1lXTnJMbU52YlM5bWFXeGxjeTEwYldJdlZEQXpNMFEzTUZKU05rZ3RSakEzT1ZoRVdreEhPRWN0TWpVM05qRXlOMlkzWVM5bWFXeGxYMGhmTWpZMFh6RTVNakI0TVRBNE1GODJOVEF3UzBKUVUxODNVVlpDVWw4d01EQXdNaTUwY3dvalJWaFVTVTVHT2pRdU16Y3hMQXBvZEhSd2N6b3ZMMlpwYkdWekxuTnNZV05yTG1OdmJTOW1hV3hsY3kxMGJXSXZWREF6TTBRM01GSlNOa2d0UmpBM09WaEVXa3hIT0VjdE1qVTNOakV5TjJZM1lTOW1hV3hsWDBoZk1qWTBYekU1TWpCNE1UQTRNRjgyTlRBd1MwSlFVMTgzVVZaQ1VsOHdNREF3TXk1MGN3b2pSVmhVTFZndFJVNUVURWxUVkFvPQojRVhULVgtU1RSRUFNLUlORjpCQU5EV0lEVEg9MzgxODg0LEFWRVJBR0UtQkFORFdJRFRIPTMzODgxMyxDT0RFQ1M9ImF2YzEuNjQwMDFlLG1wNGEuNDAuNSIsUkVTT0xVVElPTj00MDZ4NzIwLEZSQU1FLVJBVEU9MjkuOTcwCmh0dHBzOi8vZmlsZXMuc2xhY2suY29tL2ZpbGVzLXRtYi9UMDMzRDcwUlI2SC1GMDc5WERaTEc4Ry0yNTc2MTI3ZjdhL2ZpbGVfSF8yNjRfMTI4MHg3MjBfMzUwMEtCUFNfN1FWQlIubTN1OAo=",
+                "mp4_low": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079XDZLG8G-2576127f7a\/file_trans.mp4?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "duration_ms": 16383,
+                "media_display_type": "video",
+                "thumb_video": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F079XDZLG8G-2576127f7a\/pxl_20240612_155825367.ts_thumb_video.jpeg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_video_w": 1080,
+                "thumb_video_h": 1920,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F079XDZLG8G\/pxl_20240612_155825367.ts.mp4",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F079XDZLG8G-181f35fd1f",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0606SPN4BW",
+        "display_as_bot": false,
+        "type": "message",
+        "ts": "1718997428.461119",
+        "client_msg_id": "a32abf89-d235-4d74-a355-ce212b0bafa9",
+        "thread_ts": "1718993242.653679",
+        "parent_user_id": "U0606SPN4BW"
+    }
+]

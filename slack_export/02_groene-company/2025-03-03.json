@@ -1,0 +1,205 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U08FZUNPSQ3",
+        "text": "<@U08FZUNPSQ3>さんがチャンネルに参加しました",
+        "type": "message",
+        "ts": "1741050946.875809"
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1741069088.667879",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1741070161.000000"
+        },
+        "client_msg_id": "e38cc301-80f3-4dcd-b002-8709e2b12ab9",
+        "text": "<@U0331FWGQRM> <@U05KGS6HN9H> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <@U08FZUNPSQ3> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n本件、*全量Sea(船便)*となりました。\nパレットでの出荷となります。\n使用する各パレットは既に福代さんと話をして決めていますので、パレタイズの際に確認をよろしくお願いします。\n\n<@U033G4KN4TD>\nカートンラベルについては、貼り直しの必要はなく\n【No. of Ctns】の部分のみの変更で良いとのことです。手間がかからない方法で良いとのことなので、出荷準備をお願いします。\n例）上から白ラベル貼って手書きなど\n\n出荷日：未定\nフォワーダーが未確定なので、確定後連絡があります。\n\n<@U05KGS6HN9H>\npallet packing listは\n*G - Groene company* 内の\n*●GB向け(Pure chimp FOB 佐川・INE・キューネ)　20210913M&A過渡期_1005完了*内に\n*TSE001-25packingList_palletize*\nというファイルとPDFを入れています。\n\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1736570349.033429",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AEEO1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U08FZUNPSQ3"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本件、"
+                            },
+                            {
+                                "type": "text",
+                                "text": "全量Sea(船便)",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "となりました。\nパレットでの出荷となります。\n使用する各パレットは既に福代さんと話をして決めていますので、パレタイズの際に確認をよろしくお願いします。\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nカートンラベルについては、貼り直しの必要はなく\n【No. of Ctns】の部分のみの変更で良いとのことです。手間がかからない方法で良いとのことなので、出荷準備をお願いします。\n例）上から白ラベル貼って手書きなど\n\n出荷日：未定\nフォワーダーが未確定なので、確定後連絡があります。\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\npallet packing listは\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "G - Groene company",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " 内の\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "●GB向け(Pure chimp FOB 佐川・INE・キューネ)　20210913M&A過渡期_1005完了",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "内に\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE001-25packingList_palletize",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nというファイルとPDFを入れています。\n\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "",
+        "files": [
+            {
+                "id": "F08FKDD359D",
+                "created": 1741069155,
+                "timestamp": 1741069155,
+                "name": "TSE001-25packingList_palletize.xlsx",
+                "title": "TSE001-25packingList_palletize.xlsx",
+                "mimetype": "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "filetype": "xlsx",
+                "pretty_type": "Excel Spreadsheet",
+                "user": "U0331FZS7JT",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 18653,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F08FKDD359D\/tse001-25packinglist_palletize.xlsx?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F08FKDD359D\/download\/tse001-25packinglist_palletize.xlsx?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "converted_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F08FKDD359D-aa99389d32\/tse001-25packinglist_palletize_converted.pdf?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F08FKDD359D-aa99389d32\/tse001-25packinglist_palletize_thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 909,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F08FKDD359D\/tse001-25packinglist_palletize.xlsx",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F08FKDD359D-af09efc6e7",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FZS7JT",
+        "display_as_bot": false,
+        "type": "message",
+        "ts": "1741069159.033389",
+        "client_msg_id": "a5918066-d328-419c-8a3a-25763e93713a",
+        "thread_ts": "1736570349.033429",
+        "parent_user_id": "U0331FWGQRM"
+    }
+]

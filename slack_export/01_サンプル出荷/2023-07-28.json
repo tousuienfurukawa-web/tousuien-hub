@@ -1,0 +1,123 @@
+[
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1690529475.512439",
+        "client_msg_id": "5decb1a3-d604-4f52-8648-4ac42e54a3ec",
+        "text": "<@U0331FZS7JT> 社長\nお疲れ様です。\n本日、DHLにて出荷しました。\nAWB NO. 9731260733\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1690379656.614009",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yLq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nお疲れ様です。\n本日、DHLにて出荷しました。\nAWB NO. 9731260733\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1690563208.631109",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1690563269.000000"
+        },
+        "client_msg_id": "ab81fda5-ace8-4156-a373-bf954dcbb03c",
+        "text": "<@U041RJKV5JA> <@U0331FZTHEK>\nアリババ\nサウジアラビアのMilaf Abdullah様からサンプル依頼です。\n各20g\n\n鹿児島A\n鹿児島1A\n鹿児島B\n\n※なければ同等品でおねがいします。\n（変更した場合は何に変更したか必ず連絡ください、\nフォルダのどこかにもメモを残しておいてください）\n※入金確認後でお願いします。（usd30)\n\nCompany name. : Greeny\nYour name :　Milaf Abdullah\nAddress : Saudi Arabia, Riyadh, ishbiliyah\nPostal code : 13225\nPhone number : 966559592669\nEmail address : <mailto:MilafAbdullah@gmail.com|MilafAbdullah@gmail.com>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RTky",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nアリババ\nサウジアラビアのMilaf Abdullah様からサンプル依頼です。\n各20g\n\n鹿児島A\n鹿児島1A\n鹿児島B\n\n※なければ同等品でおねがいします。\n（変更した場合は何に変更したか必ず連絡ください、\nフォルダのどこかにもメモを残しておいてください）\n※入金確認後でお願いします。（usd30)\n\nCompany name. : Greeny\nYour name :　Milaf Abdullah\nAddress : Saudi Arabia, Riyadh, ishbiliyah\nPostal code : 13225\nPhone number : 966559592669\nEmail address : "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:MilafAbdullah@gmail.com",
+                                "text": "MilafAbdullah@gmail.com"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,1143 @@
+[
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1753138344.197589",
+        "client_msg_id": "70d85453-2442-4b8a-8d7a-f665b59b2000",
+        "text": "<@U08RVRNBY00>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n本件、ご入金を確認致しました。\n・7\/21 [PayPal]\n・207 USD\n回収（入金）処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1752903854.620859",
+        "parent_user_id": "U08RVRNBY00",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tqDlt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U08RVRNBY00"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本件、ご入金を確認致しました。\n・7\/21 [PayPal]\n・207 USD\n回収（入金）処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U08RVRNBY00"
+                ],
+                "count": 1
+            },
+            {
+                "name": "入金完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U08RVRNBY00",
+        "type": "message",
+        "ts": "1753142053.631629",
+        "client_msg_id": "9b6cf560-4b13-456c-946e-c5acca7d9509",
+        "text": "<@U05KGS6HN9H>\nCC <@U0331FZS7JT>\n*TSE-CHS-005-25　の出荷可能日について、お知らせいただきたくお願い申し上げます*:woman-bowing:\n＊ギリギリ30日出荷希望されております。\n＊支払いについては、別途ご相談中の２件の返答あり次第、即入金予定です。\n\n*１）丸久小山園（４０g缶）の入庫可能日*\n*２）香岳園のUJI抹茶3種（ブレンド）の品種*\n\nお忙しい中申し訳ありません。。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g347f3e803ab",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/347f3e803abca8b6a7b724895864d138.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Hikako",
+            "real_name": "Hikako Hasegawa",
+            "display_name": "Hikako Hasegawa",
+            "team": "T033D70RR6H",
+            "name": "tousuien.hasegawa",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1752819587.066089",
+        "parent_user_id": "U08RVRNBY00",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/d3zq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nCC "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-CHS-005-25　の出荷可能日について、お知らせいただきたくお願い申し上げます",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "woman-bowing",
+                                "unicode": "1f647-200d-2640-fe0f",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n＊ギリギリ30日出荷希望されております。\n＊支払いについては、別途ご相談中の２件の返答あり次第、即入金予定です。\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "１）丸久小山園（４０g缶）の入庫可能日",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "２）香岳園のUJI抹茶3種（ブレンド）の品種",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nお忙しい中申し訳ありません。。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1753145202.595659",
+        "client_msg_id": "f0723613-c746-4b1f-b517-e91244100d0c",
+        "text": "<@U08RVRNBY00>\n<@U0331FZS7JT> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n1）小山園40g缶製品の件、プッシュ確認しておりますが、\nかなり立て込んでいる状況のようで、何時納期が分かるか\n（今週末？来週？）も現場次第で順次出荷との回答しか\n得られません。\n2）香岳園\/宇治抹茶3種（ブレンド）は以下です。\n　●2024年：宇治抹茶K17000うじひかり\t\n　→2025年：宇治抹茶K25000ブレンド\n　メイン品種：おくみどり　サブ品種：つゆひかり\n　●2024年：宇治抹茶K12000つゆひかり\t\n　→2025年：宇治抹茶K16000ブレンド\n　メイン品種：やぶきた　サブ品種：おくみどり\n　●2024年：宇治抹茶K10000さえみどり（滋賀県産）\t\n　→2025年：宇治抹茶K14000ブレンド\n　メイン品種：やぶきた　サブ品種：おくみどり",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1752819587.066089",
+        "parent_user_id": "U08RVRNBY00",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "euX3u",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U08RVRNBY00"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n1）小山園40g缶製品の件、プッシュ確認しておりますが、\nかなり立て込んでいる状況のようで、何時納期が分かるか\n（今週末？来週？）も現場次第で順次出荷との回答しか\n得られません。\n2）香岳園\/宇治抹茶3種（ブレンド）は以下です。\n　●2024年：宇治抹茶K17000うじひかり\t\n　→2025年：宇治抹茶K25000ブレンド\n　メイン品種：おくみどり　サブ品種：つゆひかり\n　●2024年：宇治抹茶K12000つゆひかり\t\n　→2025年：宇治抹茶K16000ブレンド\n　メイン品種：やぶきた　サブ品種：おくみどり\n　●2024年：宇治抹茶K10000さえみどり（滋賀県産）\t\n　→2025年：宇治抹茶K14000ブレンド\n　メイン品種：やぶきた　サブ品種：おくみどり"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U08RVRNBY00"
+                ],
+                "count": 1
+            },
+            {
+                "name": "あり",
+                "users": [
+                    "U08RVRNBY00"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1753151373.886299",
+        "client_msg_id": "14b8e609-eebc-4006-856d-1320b8f3d2bb",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\nサンプルUpper1とUpper2も追加になりました:pray:インボイス・管理表修正済みです。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1752477858.400999",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TcQIx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nサンプルUpper1とUpper2も追加になりました"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "pray",
+                                "unicode": "1f64f"
+                            },
+                            {
+                                "type": "text",
+                                "text": "インボイス・管理表修正済みです。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<@U0331FWGQRM>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n福通Gより請求書を取得しました。\n請求　926,976円\n見積　1,256,850円\nご確認をお願い致します。\n<https:\/\/grp-ssm9297.slack.com\/archives\/C033G42K9DG\/p1745543913887079?thread_ts=1745473284.354099&amp;cid=C033G42K9DG>",
+        "files": [
+            {
+                "id": "F096V7K1Z6E",
+                "created": 1753157602,
+                "timestamp": 1753157602,
+                "name": "福山通運G_桃翠園御中　7月度御請求書.pdf",
+                "title": "福山通運G_桃翠園御中　7月度御請求書.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U05KGS6HN9H",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 136514,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F096V7K1Z6E\/____________g___________________7__________________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F096V7K1Z6E\/download\/____________g___________________7__________________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F096V7K1Z6E-82310cdb1c\/____________g___________________7___________________thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 1286,
+                "thumb_pdf_h": 910,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F096V7K1Z6E\/____________g___________________7__________________.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F096V7K1Z6E-7964d43d7b",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U05KGS6HN9H",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2GwO6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n福通Gより請求書を取得しました。\n請求　926,976円\n見積　1,256,850円\nご確認をお願い致します。\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/grp-ssm9297.slack.com\/archives\/C033G42K9DG\/p1745543913887079?thread_ts=1745473284.354099&cid=C033G42K9DG"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1753157607.825479",
+        "client_msg_id": "df66d0c3-fea5-4ab1-a836-3fbb205a5847",
+        "thread_ts": "1748564040.687319",
+        "parent_user_id": "U0331FWGQRM",
+        "attachments": [
+            {
+                "from_url": "https:\/\/grp-ssm9297.slack.com\/archives\/C033G42K9DG\/p1745543913887079?thread_ts=1745473284.354099&amp;cid=C033G42K9DG",
+                "ts": "1745543913.887079",
+                "author_id": "U05KGS6HN9H",
+                "channel_id": "C033G42K9DG",
+                "channel_team": "T033D70RR6H",
+                "is_msg_unfurl": true,
+                "is_reply_unfurl": true,
+                "message_blocks": [
+                    {
+                        "team": "T033D70RR6H",
+                        "channel": "C033G42K9DG",
+                        "ts": "1745543913.887079",
+                        "message": {
+                            "blocks": [
+                                {
+                                    "type": "rich_text",
+                                    "block_id": "ZQ7vQ",
+                                    "elements": [
+                                        {
+                                            "type": "rich_text_section",
+                                            "elements": [
+                                                {
+                                                    "type": "user",
+                                                    "user_id": "U0331FWGQRM"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "\n"
+                                                },
+                                                {
+                                                    "type": "usergroup",
+                                                    "usergroup_id": "S073HEMKWV7"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " "
+                                                },
+                                                {
+                                                    "type": "usergroup",
+                                                    "usergroup_id": "S088LEJ1U5T"
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "\n依頼している3フォワーダーのうち、まず福通Ｇより概算費用の提示\nがありました。取り急ぎ報告致します。\n◆概算1,256,850円\n（当社引取り～キング・ハーリド空港着まで）\n\n使用想定の航空機ですが、大型ではない為貨物室広さも限られており、\n混載扱いではなく、ほぼチャーター扱いに近い積載になるそうです。\nまた、途中イスタンブール経由で給油等が必要であり、現地着までに\n5～7日程度を要する見込み（搬入タイミングでは更に時間を要する\n可能性も）です。"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "files": [
+                    {
+                        "id": "F08P6FSJFCP",
+                        "created": 1745543810,
+                        "timestamp": 1745543810,
+                        "name": "福通G【KIX-RUH　AIR】御試算書2025.4.25.pdf",
+                        "title": "福通G【KIX-RUH　AIR】御試算書2025.4.25.pdf",
+                        "mimetype": "application\/pdf",
+                        "filetype": "pdf",
+                        "pretty_type": "PDF",
+                        "user": "U05KGS6HN9H",
+                        "user_team": "T033D70RR6H",
+                        "editable": false,
+                        "size": 431259,
+                        "mode": "hosted",
+                        "is_external": false,
+                        "external_type": "",
+                        "is_public": true,
+                        "public_url_shared": false,
+                        "display_as_bot": false,
+                        "username": "",
+                        "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F08P6FSJFCP\/______g___kix-ruh___air_______________2025.4.25.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                        "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F08P6FSJFCP\/download\/______g___kix-ruh___air_______________2025.4.25.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                        "media_display_type": "unknown",
+                        "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F08P6FSJFCP-19e414e02e\/______g___kix-ruh___air_______________2025.4.25_thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                        "thumb_pdf_w": 910,
+                        "thumb_pdf_h": 1286,
+                        "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F08P6FSJFCP\/______g___kix-ruh___air_______________2025.4.25.pdf",
+                        "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F08P6FSJFCP-5aed1578b7",
+                        "comments_count": 0,
+                        "is_starred": false,
+                        "skipped_shares": true,
+                        "has_rich_preview": false,
+                        "file_access": "visible"
+                    }
+                ],
+                "id": 1,
+                "original_url": "https:\/\/grp-ssm9297.slack.com\/archives\/C033G42K9DG\/p1745543913887079?thread_ts=1745473284.354099&amp;cid=C033G42K9DG",
+                "fallback": "[April 24th, 2025 6:18 PM] tousuien05: <@U0331FWGQRM>\n<!subteam^S073HEMKWV7> <!subteam^S088LEJ1U5T>\n依頼している3フォワーダーのうち、まず福通Ｇより概算費用の提示\nがありました。取り急ぎ報告致します。\n◆概算1,256,850円\n（当社引取り～キング・ハーリド空港着まで）\n\n使用想定の航空機ですが、大型ではない為貨物室広さも限られており、\n混載扱いではなく、ほぼチャーター扱いに近い積載になるそうです。\nまた、途中イスタンブール経由で給油等が必要であり、現地着までに\n5～7日程度を要する見込み（搬入タイミングでは更に時間を要する\n可能性も）です。",
+                "text": "<@U0331FWGQRM>\n<!subteam^S073HEMKWV7> <!subteam^S088LEJ1U5T>\n依頼している3フォワーダーのうち、まず福通Ｇより概算費用の提示\nがありました。取り急ぎ報告致します。\n◆概算1,256,850円\n（当社引取り～キング・ハーリド空港着まで）\n\n使用想定の航空機ですが、大型ではない為貨物室広さも限られており、\n混載扱いではなく、ほぼチャーター扱いに近い積載になるそうです。\nまた、途中イスタンブール経由で給油等が必要であり、現地着までに\n5～7日程度を要する見込み（搬入タイミングでは更に時間を要する\n可能性も）です。",
+                "author_name": "Adachi",
+                "author_link": "https:\/\/grp-ssm9297.slack.com\/team\/U05KGS6HN9H",
+                "author_icon": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-48.png",
+                "author_subname": "Adachi",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "footer": "Slack の会話内のスレッド"
+            }
+        ]
+    },
+    {
+        "user": "U08N3SKSL75",
+        "type": "message",
+        "ts": "1753160264.858869",
+        "client_msg_id": "6705c034-e9eb-4108-9a93-6b1d6ba06e9d",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n1290 :flag-bh:バーレーン：RBB-Rabab Alsalat(Alibaba)様から注文をいただきました。\nTSE-RBB-004-25",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g385a5ea1fc7",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/385a5ea1fc7db8f0b42ecd922f43af6c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-72.png",
+            "first_name": "Kimura",
+            "real_name": "Kimura",
+            "display_name": "Kimura",
+            "team": "T033D70RR6H",
+            "name": "tousuien.kimura",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1753160264.858869",
+        "reply_count": 15,
+        "reply_users_count": 6,
+        "latest_reply": "1756366303.081039",
+        "reply_users": [
+            "U08N3SKSL75",
+            "U05KGS6HN9H",
+            "U0331FZTHEK",
+            "U08L89G6JSG",
+            "U033G4KN4TD",
+            "U0606SPN4BW"
+        ],
+        "replies": [
+            {
+                "user": "U08N3SKSL75",
+                "ts": "1753161159.311279"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1753163154.933369"
+            },
+            {
+                "user": "U08N3SKSL75",
+                "ts": "1753165181.568839"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1753225212.849499"
+            },
+            {
+                "user": "U08N3SKSL75",
+                "ts": "1753254604.742809"
+            },
+            {
+                "user": "U08N3SKSL75",
+                "ts": "1753670271.723799"
+            },
+            {
+                "user": "U08N3SKSL75",
+                "ts": "1754276438.398139"
+            },
+            {
+                "user": "U08L89G6JSG",
+                "ts": "1754355121.093209"
+            },
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1754963830.798649"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1754999422.159289"
+            },
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1755038743.699749"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1755104730.824239"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1756194735.666429"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1756286730.924299"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1756366303.081039"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CxMuE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n1290 "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-bh",
+                                "unicode": "1f1e7-1f1ed"
+                            },
+                            {
+                                "type": "text",
+                                "text": "バーレーン：RBB-Rabab Alsalat(Alibaba)様から注文をいただきました。\nTSE-RBB-004-25"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U08N3SKSL75",
+        "type": "message",
+        "ts": "1753161159.311279",
+        "client_msg_id": "e06331cb-9c81-47d8-a21c-1d3065017092",
+        "text": "<https:\/\/grp-ssm9297.slack.com\/admin\/user_groups|@hirakawa-adachi-yokoi-yamamoto> <https:\/\/grp-ssm9297.slack.com\/admin\/user_groups|@oka-matsui-furukawa-hayashi-kimura>\n下記へ発送手続き、および発送日のお知らせをお願いします。\n\n▼注文内容（計4種 + サンプル2袋）\n①Non-Organic Matcha Upper Grade-1 (50g tin, silver with label)\n```数量：20個\n原料：出雲抹茶G 1kg\n包材：中国缶シルバー\nラベル：胴＆蓋\n賞味期限：dd\/mm\/yyyy 1年```\n①Non-Organic Matcha Upper Grade-1 (30g tin, silver with label)\n```数量：30個\n原料：出雲抹茶G 0.9kg\n包材：中国缶シルバー\nラベル：胴＆蓋\n賞味期限：dd\/mm\/yyyy 1年```\n③Non-Organic Matcha Upper Grade-1 (100g zipbag white with label)\n```数量：10個\n原料：出雲抹茶G 1kg\n包材：清和50818\nラベル：表面のみ\n賞味期限：dd\/mm\/yyyy 1年```\n④Non-Organic Matcha Upper Grade-1 (250g zip bag)\n```数量: 1個\n原料：出雲抹茶G 0.25kg\n包材：吉村 AL-14\nラベル：品名ラベル\n賞味期限：dd\/mm\/yyyy 1年```\n2025サンプル　（10g x 2袋）\n```Non-Organic Matcha Upper grade -1\nNon-Organic Matcha Upper grade -2```\n\n箱：No.6Hx1\n発送：DHL *（先方手配）*\n決済：PayPal\n\n<@U0331FZTHEK>\n入金あり次第回収処理をお願いいたします:woman-bowing:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g385a5ea1fc7",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/385a5ea1fc7db8f0b42ecd922f43af6c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-72.png",
+            "first_name": "Kimura",
+            "real_name": "Kimura",
+            "display_name": "Kimura",
+            "team": "T033D70RR6H",
+            "name": "tousuien.kimura",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1753160264.858869",
+        "parent_user_id": "U08N3SKSL75",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VmOnN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/grp-ssm9297.slack.com\/admin\/user_groups",
+                                "text": "@hirakawa-adachi-yokoi-yamamoto"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/grp-ssm9297.slack.com\/admin\/user_groups",
+                                "text": "@oka-matsui-furukawa-hayashi-kimura"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n下記へ発送手続き、および発送日のお知らせをお願いします。\n\n▼注文内容（計4種 + サンプル2袋）\n①Non-Organic Matcha Upper Grade-1 (50g tin, silver with label)\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "数量：20個\n原料：出雲抹茶G 1kg\n包材：中国缶シルバー\nラベル：胴＆蓋\n賞味期限：dd\/mm\/yyyy 1年"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "①Non-Organic Matcha Upper Grade-1 (30g tin, silver with label)\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "数量：30個\n原料：出雲抹茶G 0.9kg\n包材：中国缶シルバー\nラベル：胴＆蓋\n賞味期限：dd\/mm\/yyyy 1年"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "③Non-Organic Matcha Upper Grade-1 (100g zipbag white with label)\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "数量：10個\n原料：出雲抹茶G 1kg\n包材：清和50818\nラベル：表面のみ\n賞味期限：dd\/mm\/yyyy 1年"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n④Non-Organic Matcha Upper Grade-1 (250g zip bag)\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "数量: 1個\n原料：出雲抹茶G 0.25kg\n包材：吉村 AL-14\nラベル：品名ラベル\n賞味期限：dd\/mm\/yyyy 1年"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n2025サンプル　（10g x 2袋）\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Non-Organic Matcha Upper grade -1\nNon-Organic Matcha Upper grade -2"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n\n箱：No.6Hx1\n発送：DHL "
+                            },
+                            {
+                                "type": "text",
+                                "text": "（先方手配）",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n決済：PayPal\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n入金あり次第回収処理をお願いいたします"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "woman-bowing",
+                                "unicode": "1f647-200d-2640-fe0f"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1753163154.933369",
+        "client_msg_id": "403efc26-93fc-4996-ab83-f19ca3c79c87",
+        "text": "<@U08N3SKSL75>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n◆30g\/50g\/100gラベル→カスタムラベル\n缶フタ用ラベルが合計31枚しかありません。\n御手配をお願い致します。\n　50g胴ラベル　在庫45枚\n　30g胴ラベル　在庫38枚\n　100g袋ラベル　在庫40枚\n※フタ用ラベル　在庫31枚\n◆250gラベル\n社内発行のラベルで宜しいでしょうか？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1753160264.858869",
+        "parent_user_id": "U08N3SKSL75",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ADl43",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U08N3SKSL75"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n◆30g\/50g\/100gラベル→カスタムラベル\n缶フタ用ラベルが合計31枚しかありません。\n御手配をお願い致します。\n　50g胴ラベル　在庫45枚\n　30g胴ラベル　在庫38枚\n　100g袋ラベル　在庫40枚\n※フタ用ラベル　在庫31枚\n◆250gラベル\n社内発行のラベルで宜しいでしょうか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U08N3SKSL75",
+        "type": "message",
+        "ts": "1753165037.226659",
+        "client_msg_id": "af36346c-36b9-47ef-a8f1-706756f79b98",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n1313 :flag-sa: サウジアラビア：BAQ-Bana alqarni(Alibaba)様から注文をいただきました。\nTSE-BAQ-004-25",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g385a5ea1fc7",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/385a5ea1fc7db8f0b42ecd922f43af6c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-72.png",
+            "first_name": "Kimura",
+            "real_name": "Kimura",
+            "display_name": "Kimura",
+            "team": "T033D70RR6H",
+            "name": "tousuien.kimura",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1753165037.226659",
+        "reply_count": 4,
+        "reply_users_count": 4,
+        "latest_reply": "1756706196.478469",
+        "reply_users": [
+            "U08N3SKSL75",
+            "U0331FZTHEK",
+            "U033G4KN4TD",
+            "U041RJKV5JA"
+        ],
+        "replies": [
+            {
+                "user": "U08N3SKSL75",
+                "ts": "1753165632.113259"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1753396963.103359"
+            },
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1754971182.425919"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1756706196.478469"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qUZsK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n1313 "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-sa",
+                                "unicode": "1f1f8-1f1e6"
+                            },
+                            {
+                                "type": "text",
+                                "text": " サウジアラビア：BAQ-Bana alqarni(Alibaba)様から注文をいただきました。\nTSE-BAQ-004-25"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U08N3SKSL75",
+        "type": "message",
+        "ts": "1753165181.568839",
+        "client_msg_id": "afd085e7-1e55-446b-bf21-02842aaf9919",
+        "text": "<@U05KGS6HN9H>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\nラベル在庫確認ありがとうございます。\n◆30g\/50g\/100gラベル→カスタムラベル\n＝＞ 缶フタ用ラベル50枚発注します。\n\n◆250gラベル\n社内発行の品名ラベルでお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g385a5ea1fc7",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/385a5ea1fc7db8f0b42ecd922f43af6c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-72.png",
+            "first_name": "Kimura",
+            "real_name": "Kimura",
+            "display_name": "Kimura",
+            "team": "T033D70RR6H",
+            "name": "tousuien.kimura",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1753160264.858869",
+        "parent_user_id": "U08N3SKSL75",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4DcK+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nラベル在庫確認ありがとうございます。\n◆30g\/50g\/100gラベル→カスタムラベル\n＝＞ 缶フタ用ラベル50枚発注します。\n\n◆250gラベル\n社内発行の品名ラベルでお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U05KGS6HN9H"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U05KGS6HN9H"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U08N3SKSL75",
+        "type": "message",
+        "ts": "1753165632.113259",
+        "client_msg_id": "efc99518-ee89-4873-a69b-8797706a2b98",
+        "text": "<https:\/\/grp-ssm9297.slack.com\/admin\/user_groups|@hirakawa-adachi-yamamoto-fuse> <https:\/\/grp-ssm9297.slack.com\/admin\/user_groups|@kanayama-fukui-miyoshi-yokoi-takuwa>\n下記へ発送手続き、および発送日のお知らせをお願いします。\n\n▼注文内容（計1種+2025サンプル4種）\n①Non organic Matcha Upper grade 2 (1kg bulk bag)　x2\n```原料：出雲抹茶R ２kg\n包材：吉村2760\n賞味期限：dd\/mm\/yyyy 1年\nラベル：品名ラベル```\n②2025年サンプル　（10g x 4袋）\n```Non-organic Matcha Upper grade -1\nNon-organic Matcha Upper grade -2\nNon-organic Matcha Middle grade -1\nNon-organic Matcha Middle grade -2```\n箱：No.6 E x 1\n発送：DHL\n決済：PayPal\n\n<https:\/\/grp-ssm9297.slack.com\/admin\/user_groups|@katayose-kamiya>\n入金あり次第回収処理をお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g385a5ea1fc7",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/385a5ea1fc7db8f0b42ecd922f43af6c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-72.png",
+            "first_name": "Kimura",
+            "real_name": "Kimura",
+            "display_name": "Kimura",
+            "team": "T033D70RR6H",
+            "name": "tousuien.kimura",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1753165037.226659",
+        "parent_user_id": "U08N3SKSL75",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PCWPd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/grp-ssm9297.slack.com\/admin\/user_groups",
+                                "text": "@hirakawa-adachi-yamamoto-fuse"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/grp-ssm9297.slack.com\/admin\/user_groups",
+                                "text": "@kanayama-fukui-miyoshi-yokoi-takuwa"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n下記へ発送手続き、および発送日のお知らせをお願いします。\n\n▼注文内容（計1種+2025サンプル4種）\n①Non organic Matcha Upper grade 2 (1kg bulk bag)　x2\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "原料：出雲抹茶R ２kg\n包材：吉村2760\n賞味期限：dd\/mm\/yyyy 1年\nラベル：品名ラベル"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n②2025年サンプル　（10g x 4袋）\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Non-organic Matcha Upper grade -1\nNon-organic Matcha Upper grade -2\nNon-organic Matcha Middle grade -1\nNon-organic Matcha Middle grade -2"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "箱：No.6 E x 1\n発送：DHL\n決済：PayPal\n\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/grp-ssm9297.slack.com\/admin\/user_groups",
+                                "text": "@katayose-kamiya"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n入金あり次第回収処理をお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            },
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,106 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1671087661.681409",
+        "client_msg_id": "827f7b4e-4bb5-446b-8a47-549fd0aa1528",
+        "text": "<@U03BLQ65GK0> cc <@U0331FZS7JT>\n出雲ほうじ茶パウダー：1450円→912円\n出雲ほうじ茶リーフは何円ですか？？？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1668504229.935469",
+        "parent_user_id": "U03BLQ65GK0",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Q4a",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出雲ほうじ茶パウダー：1450円→912円\n出雲ほうじ茶リーフは何円ですか？？？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1671088151.804989",
+        "client_msg_id": "755d8d9d-b338-4549-a689-39e9dd5c0140",
+        "text": "<@U03BLQ65GK0> 会長\nCC: <@U0331FWGQRM> 執行役\n\n併せて、\n松井執行役に年間製造量と、現時点の残数量をお伝えください。\n来年以降の生産量については\n何もなければ今年と同量を出雲精茶２茶で製造する予定で動きます。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1668504229.935469",
+        "parent_user_id": "U03BLQ65GK0",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "l7w",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 会長\nCC: "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\n\n併せて、\n松井執行役に年間製造量と、現時点の残数量をお伝えください。\n来年以降の生産量については\n何もなければ今年と同量を出雲精茶２茶で製造する予定で動きます。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

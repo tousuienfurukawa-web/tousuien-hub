@@ -1,0 +1,600 @@
+[
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1746707940.572129",
+        "client_msg_id": "98285dc4-35ce-47d6-82c1-6aa52eed041d",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n出荷日についてお問い合わせをいただいているのでご確認お願いいたします:sweat_drops:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1746176006.023559",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TrVMj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷日についてお問い合わせをいただいているのでご確認お願いいたします"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sweat_drops",
+                                "unicode": "1f4a6"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "確認致します",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1746709538.921029",
+        "client_msg_id": "eb7c7dbd-9fee-47b8-95c7-407b87a614b2",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-ODC-SPL-001-25*\n1149:flag-ph:フィリピン：ODC-Lyka Angeles(HP, alibaba)様からサンプル注文をいただきました。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1746709538.921029",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1746745295.390519",
+        "reply_users": [
+            "U066P20UQH1",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U066P20UQH1",
+                "ts": "1746709636.781179"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1746745295.390519"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Cz\/YO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-ODC-SPL-001-25",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n1149"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-ph",
+                                "unicode": "1f1f5-1f1ed"
+                            },
+                            {
+                                "type": "text",
+                                "text": "フィリピン：ODC-Lyka Angeles(HP, alibaba)様からサンプル注文をいただきました。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1746709636.781179",
+        "edited": {
+            "user": "U066P20UQH1",
+            "ts": "1746709647.000000"
+        },
+        "client_msg_id": "135dedf0-f9fc-4425-99ce-a2d3f56f62d2",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n:jp:*国内発送です。*\n発送可能日わかり次第共有お願いいたします:woman-bowing:\n\n宛先：\nOnegai Delivery Center\nLyka Angeles宛て\n289-0204\n千葉県香取郡神崎町神崎紫雲の丘27-7\n<tel:09012794910|090-1279-4910>\n\n▼注文内容（計7種）\n```Organic Matcha Upper grade - 1\nOrganic Matcha Upper grade - 2\nNon-organic Matcha Upper grade - 1\nNon-organic Matcha Upper grade - 2\nOrganic Kagoshima Hojicha Powder\nNon-organic Izumo Hojicha Powder\nNon-organic Uji Hojicha Powder```\n数量：1袋(20g)ずつ\n\n包材ラベル他通常サンプルと同様です。\n\n箱：ボタニカルx1\n発送：佐川\n決済：PayPal\n\n<!subteam^S08NN8M4LAZ|@katayose-kamiya>\n入金確認済みです。回収処理をお願いいたします:woman-bowing:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1746709538.921029",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mdhGz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "jp",
+                                "unicode": "1f1ef-1f1f5"
+                            },
+                            {
+                                "type": "text",
+                                "text": "国内発送です。",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n発送可能日わかり次第共有お願いいたします"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "woman-bowing",
+                                "unicode": "1f647-200d-2640-fe0f"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n宛先：\nOnegai Delivery Center\nLyka Angeles宛て\n289-0204\n千葉県香取郡神崎町神崎紫雲の丘27-7\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:09012794910",
+                                "text": "090-1279-4910"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n▼注文内容（計7種）\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Organic Matcha Upper grade - 1\nOrganic Matcha Upper grade - 2\nNon-organic Matcha Upper grade - 1\nNon-organic Matcha Upper grade - 2\nOrganic Kagoshima Hojicha Powder\nNon-organic Izumo Hojicha Powder\nNon-organic Uji Hojicha Powder"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "数量：1袋(20g)ずつ\n\n包材ラベル他通常サンプルと同様です。\n\n箱：ボタニカルx1\n発送：佐川\n決済：PayPal\n\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S08NN8M4LAZ"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n入金確認済みです。回収処理をお願いいたします"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "woman-bowing",
+                                "unicode": "1f647-200d-2640-fe0f"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1746745295.390519",
+        "client_msg_id": "6a1a3cd9-b8b3-4a3d-a6c1-c87c0193a0ed",
+        "text": "<@U066P20UQH1>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nご入金を確認致しました。\n・5\/8 [PayPal]\n・30 USD\n回収（入金）処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1746709538.921029",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "C4aeS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nご入金を確認致しました。\n・5\/8 [PayPal]\n・30 USD\n回収（入金）処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "pray",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "入金完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1746756209.870699",
+        "client_msg_id": "29df3aac-5890-4671-a4e2-eb7ffefd4ec9",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\nこちらお客様から出荷日確認の連絡が来ておりますのでご確認をお願いいたします:sweat_drops:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745214869.860489",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NN83I",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nこちらお客様から出荷日確認の連絡が来ておりますのでご確認をお願いいたします"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sweat_drops",
+                                "unicode": "1f4a6"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "確認致します",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U08N3SKSL75",
+        "type": "message",
+        "ts": "1746773216.838999",
+        "client_msg_id": "8583a26e-b557-4795-bd9d-36f4ae1c76b5",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n1057:flag-ae:UAE REM-Reem Albreiki(Alibaba)様からサンプル注文を頂きました。\n*TSE-REM-SPL-001-25*",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g385a5ea1fc7",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/385a5ea1fc7db8f0b42ecd922f43af6c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-72.png",
+            "first_name": "Kimura",
+            "real_name": "Kimura",
+            "display_name": "Kimura",
+            "team": "T033D70RR6H",
+            "name": "tousuien.kimura",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1746773216.838999",
+        "reply_count": 5,
+        "reply_users_count": 2,
+        "latest_reply": "1747028824.087279",
+        "reply_users": [
+            "U08N3SKSL75",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U08N3SKSL75",
+                "ts": "1746773346.705769"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1746774501.154979"
+            },
+            {
+                "user": "U08N3SKSL75",
+                "ts": "1747027845.710819"
+            },
+            {
+                "user": "U08N3SKSL75",
+                "ts": "1747027982.771819"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1747028824.087279"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1747028824.087279",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pEkkB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n1057"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-ae",
+                                "unicode": "1f1e6-1f1ea"
+                            },
+                            {
+                                "type": "text",
+                                "text": "UAE REM-Reem Albreiki(Alibaba)様からサンプル注文を頂きました。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-REM-SPL-001-25",
+                                "style": {
+                                    "bold": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U08N3SKSL75",
+        "type": "message",
+        "ts": "1746773346.705769",
+        "client_msg_id": "8fb5af6e-033f-4617-9f73-8e4befaa0507",
+        "text": "<https:\/\/grp-ssm9297.slack.com\/admin\/user_groups|@hirakawa-adachi-yokoi-yamamoto> <https:\/\/grp-ssm9297.slack.com\/admin\/user_groups|@oka-matsui-furukawa-hayashi-kimura>\n下記へ発送手続き、および発送日のお知らせをお願いします。\n\n▼サンプル内容 (計 8点)\n&lt;各20g&gt;\nOrganic Matcha Upper - 1\t鹿児島A\nOrganic Matcha Upper - 2\t鹿児島1A\nOrganic Matcha Middle - 1\t鹿児島B\nOrganic Matcha Middle - 2\t鹿児島C\nNon-organic Matcha Upper - 1\t出雲精茶G\nNon-organic Matcha Upper - 2\t出雲精茶R\nNon-organic Matcha Middle - 1\t出雲精茶T\nNon-organic Matcha Middle - 2\t出雲精茶N\n\n包材ラベル他通常サンプルと同様です。\n箱：ボタニカルx１\n発送：DHL\n決済：PayPal\n\n<https:\/\/grp-ssm9297.slack.com\/admin\/user_groups|@katayose-kamiya>\n入金確認済みです。回収処理をお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g385a5ea1fc7",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/385a5ea1fc7db8f0b42ecd922f43af6c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-72.png",
+            "first_name": "Kimura",
+            "real_name": "Kimura",
+            "display_name": "Kimura",
+            "team": "T033D70RR6H",
+            "name": "tousuien.kimura",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1746773216.838999",
+        "parent_user_id": "U08N3SKSL75",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YV1JS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/grp-ssm9297.slack.com\/admin\/user_groups",
+                                "text": "@hirakawa-adachi-yokoi-yamamoto"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/grp-ssm9297.slack.com\/admin\/user_groups",
+                                "text": "@oka-matsui-furukawa-hayashi-kimura"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n下記へ発送手続き、および発送日のお知らせをお願いします。\n\n▼サンプル内容 (計 8点)\n<各20g>\nOrganic Matcha Upper - 1\t鹿児島A\nOrganic Matcha Upper - 2\t鹿児島1A\nOrganic Matcha Middle - 1\t鹿児島B\nOrganic Matcha Middle - 2\t鹿児島C\nNon-organic Matcha Upper - 1\t出雲精茶G\nNon-organic Matcha Upper - 2\t出雲精茶R\nNon-organic Matcha Middle - 1\t出雲精茶T\nNon-organic Matcha Middle - 2\t出雲精茶N\n\n包材ラベル他通常サンプルと同様です。\n箱：ボタニカルx１\n発送：DHL\n決済：PayPal\n\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/grp-ssm9297.slack.com\/admin\/user_groups",
+                                "text": "@katayose-kamiya"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n入金確認済みです。回収処理をお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,83 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1742271081.974609",
+        "client_msg_id": "d1c30354-7fcf-45be-96cb-176550318899",
+        "text": "<@U041RJKV5JA>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n下記宛に、サンプルの発送をお願いします。\n---\nMs. Sarah Wilcox\n\n115 Woodland Park Rd.\nClarksburg, ON N0H1J0, Canada\nPhone Number : <tel:+14169390421|+1 (416) 939-0421>\n---\n【ラベル】\nOrganic Coconut Matcha (60:40) *2*\nTOUSUIEN Co., LTD\n\nにてお願いします。\n明日発送後、メーリスをお願いします。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1739323065.318869",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lJNXa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n下記宛に、サンプルの発送をお願いします。\n---\nMs. Sarah Wilcox\n\n115 Woodland Park Rd.\nClarksburg, ON N0H1J0, Canada\nPhone Number : "
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:+14169390421",
+                                "text": "+1 (416) 939-0421"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n---\n【ラベル】\nOrganic Coconut Matcha (60:40) "
+                            },
+                            {
+                                "type": "text",
+                                "text": "2",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nTOUSUIEN Co., LTD\n\nにてお願いします。\n明日発送後、メーリスをお願いします。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

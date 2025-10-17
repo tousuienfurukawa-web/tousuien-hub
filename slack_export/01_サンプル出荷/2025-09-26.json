@@ -1,0 +1,476 @@
+[
+    {
+        "user": "U08NVD403GV",
+        "type": "message",
+        "ts": "1758872828.284739",
+        "client_msg_id": "e5341597-7aea-4184-8399-2c0eafff5114",
+        "text": "<@U066P20UQH1>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-RNI-SPL-001-25-1*\n本日DHLにて出荷しました。\nAWB No.2739276131\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g631762386a6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/631762386a6de814719795fffc991b1e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-72.png",
+            "first_name": "Yamamoto",
+            "real_name": "Yamamoto",
+            "display_name": "山本",
+            "team": "T033D70RR6H",
+            "name": "tousuien.yamamoto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1755752221.172019",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ZMMes",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-RNI-SPL-001-25-1",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日DHLにて出荷しました。\nAWB No.2739276131\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "連絡完了",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1758873276.572449",
+        "client_msg_id": "bc70715b-48d8-4502-aa96-d409eac5bef3",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> \t\t\t\t\t\t\n:gb:イギリス：GRA-Graeme Boiardini(alibaba)様kらサンプル注文をいただきました。\t\t\t\t\n*TSE-GRA-SPL-002-25*\t",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1758873276.572449",
+        "reply_count": 3,
+        "reply_users_count": 3,
+        "latest_reply": "1759218232.865289",
+        "reply_users": [
+            "U0606SPN4BW",
+            "U033G4KN4TD",
+            "U08NVD403GV"
+        ],
+        "replies": [
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1758873337.381529"
+            },
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1759118371.626319"
+            },
+            {
+                "user": "U08NVD403GV",
+                "ts": "1759218232.865289"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "O64E3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \t\t\t\t\t\t\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "gb",
+                                "unicode": "1f1ec-1f1e7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "イギリス：GRA-Graeme Boiardini(alibaba)様kらサンプル注文をいただきました。\t\t\t\t\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-GRA-SPL-002-25\t",
+                                "style": {
+                                    "bold": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1758873337.381529",
+        "client_msg_id": "8db9f06b-4c78-47e2-975e-6eb604d7d02d",
+        "text": "<@U033G4KN4TD>\nハドルでご相談させていただいた件です。発送可能日のお知らせをお願いします！\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n▼注文内容\t(2種, 計2点)\t\t\t\t\t\n*① 1\tx\tOrganic Matcha Middle grade - 1*\tSPL5\t\t\t\n```使用原料:\t鹿児島製茶\t有機抹茶B\t100%\t\t\t\n原料必要量:\t10g\t\t\t\t\t\t\t\t\nラベル:\t品名ラベル\t\t\t\t```\n\t\t\t\t\t\t\n*② 1\tx\tOrganic Matcha Middle grade - 2*\tSPL6\t\t\t\n```使用原料:\t鹿児島製茶\t有機抹茶C\t100%\t\t\t\n原料必要量:\t10g\t\t\t\t\t\t\t\t\nラベル:\t品名ラベル\t\t\t\t\t```\n\t\t\t\t\t\t\t\n箱: ボタニカル\t\t\t\t\t\t\t\t\t\t\n発送:\tDHL\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n<!subteam^S08NN8M4LAZ|@katayose-kamiya>\t\t\t\t\t\t\n今回は無償提供です。よろしくお願いいたします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1758873276.572449",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zi9x6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nハドルでご相談させていただいた件です。発送可能日のお知らせをお願いします！\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n▼注文内容\t(2種, 計2点)\t\t\t\t\t\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "① 1\tx\tOrganic Matcha Middle grade - 1",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\tSPL5\t\t\t\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "使用原料:\t鹿児島製茶\t有機抹茶B\t100%\t\t\t\n原料必要量:\t10g\t\t\t\t\t\t\t\t\nラベル:\t品名ラベル\t\t\t\t"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\t\t\t\t\t\t\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "② 1\tx\tOrganic Matcha Middle grade - 2",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\tSPL6\t\t\t\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "使用原料:\t鹿児島製茶\t有機抹茶C\t100%\t\t\t\n原料必要量:\t10g\t\t\t\t\t\t\t\t\nラベル:\t品名ラベル\t\t\t\t\t"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\t\t\t\t\t\t\t\n箱: ボタニカル\t\t\t\t\t\t\t\t\t\t\n発送:\tDHL\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S08NN8M4LAZ"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\t\t\t\t\t\t\n今回は無償提供です。よろしくお願いいたします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "<@U0331FZS7JT>\n&gt; Sebastyan支払・注文管理20241024\n&gt; 配合比率反映済み\nとのことですが、\n&gt; Quotation_tousuien_20250911_2025price_strawberry_coconut raspberry\n&gt; に原価（自動計算の売価）反映済み\nこちらとの整合性が取れていない？ような気がするので、\nどれが正しいか教えてもらえますか？",
+        "files": [
+            {
+                "id": "F09H0B4753R",
+                "created": 1758944013,
+                "timestamp": 1758944013,
+                "name": "スクリーンショット 2025-09-27 12.30.29.png",
+                "title": "スクリーンショット 2025-09-27 12.30.29.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U0331FWGQRM",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 43954,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F09H0B4753R\/____________________________2025-09-27_12.30.29.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F09H0B4753R\/download\/____________________________2025-09-27_12.30.29.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09H0B4753R-74c060a5f1\/____________________________2025-09-27_12.30.29_64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09H0B4753R-74c060a5f1\/____________________________2025-09-27_12.30.29_80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09H0B4753R-74c060a5f1\/____________________________2025-09-27_12.30.29_360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 94,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09H0B4753R-74c060a5f1\/____________________________2025-09-27_12.30.29_480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 126,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09H0B4753R-74c060a5f1\/____________________________2025-09-27_12.30.29_160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09H0B4753R-74c060a5f1\/____________________________2025-09-27_12.30.29_720.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 189,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09H0B4753R-74c060a5f1\/____________________________2025-09-27_12.30.29_800.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 209,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09H0B4753R-74c060a5f1\/____________________________2025-09-27_12.30.29_960.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 251,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09H0B4753R-74c060a5f1\/____________________________2025-09-27_12.30.29_1024.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 268,
+                "original_w": 1119,
+                "original_h": 293,
+                "thumb_tiny": "AwANADC1bKDuznjHQkVZOe1V7X+L8KnIBxkZxzQAhXdjOePRjS4Hv+dLiigAPrUUw\/ck88cdfepajn\/1LUAf\/9k=",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F09H0B4753R\/____________________________2025-09-27_12.30.29.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F09H0B4753R-e67526292e",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F09J9CS5A48",
+                "created": 1758944016,
+                "timestamp": 1758944016,
+                "name": "スクリーンショット 2025-09-27 12.32.22.png",
+                "title": "スクリーンショット 2025-09-27 12.32.22.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U0331FWGQRM",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 59308,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F09J9CS5A48\/____________________________2025-09-27_12.32.22.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F09J9CS5A48\/download\/____________________________2025-09-27_12.32.22.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09J9CS5A48-cb45e5a50d\/____________________________2025-09-27_12.32.22_64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09J9CS5A48-cb45e5a50d\/____________________________2025-09-27_12.32.22_80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09J9CS5A48-cb45e5a50d\/____________________________2025-09-27_12.32.22_360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 86,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09J9CS5A48-cb45e5a50d\/____________________________2025-09-27_12.32.22_480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 115,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09J9CS5A48-cb45e5a50d\/____________________________2025-09-27_12.32.22_160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09J9CS5A48-cb45e5a50d\/____________________________2025-09-27_12.32.22_720.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 173,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09J9CS5A48-cb45e5a50d\/____________________________2025-09-27_12.32.22_800.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 192,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F09J9CS5A48-cb45e5a50d\/____________________________2025-09-27_12.32.22_960.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 231,
+                "original_w": 1016,
+                "original_h": 244,
+                "thumb_tiny": "AwAMADC98245Ax9akQALxTT1pyHK1lCm4ttjuRglHfjqw\/kKdGMDhtwxwT1p+BnNFWk7u4iKQbVT5cndTtpYkt9BxTyM0VQH\/9k=",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F09J9CS5A48\/____________________________2025-09-27_12.32.22.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F09J9CS5A48-7452a767cc",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bbUkH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_quote",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sebastyan支払・注文管理20241024\n配合比率反映済み"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "とのことですが、\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_quote",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Quotation_tousuien_20250911_2025price_strawberry_coconut raspberry\nに原価（自動計算の売価）反映済み"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "こちらとの整合性が取れていない？ような気がするので、\nどれが正しいか教えてもらえますか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1758944049.921239",
+        "client_msg_id": "8f50efdf-7a30-4329-82bd-c217f5c2d89c",
+        "thread_ts": "1757581939.960819",
+        "parent_user_id": "U0331FZS7JT",
+        "reactions": [
+            {
+                "name": "承知-1",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,444 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U05KGS6HN9H",
+        "text": "<@U05KGS6HN9H>さんがチャンネルに参加しました",
+        "type": "message",
+        "ts": "1690796789.305039"
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1690850217.516989",
+        "client_msg_id": "1cbab381-ca9d-4408-8d2e-c2adef4a19bb",
+        "text": "<@U05KGS6HN9H>\nよろしくお願いします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1690850217.516989",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1690850914.664699",
+        "reply_users": [
+            "U05KGS6HN9H",
+            "U0331FWGQRM"
+        ],
+        "replies": [
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1690850679.873559"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1690850914.664699"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1690850914.664699",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VEI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nよろしくお願いします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U033G4KN4TD",
+                    "U05KGS6HN9H"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1690850411.199409",
+        "client_msg_id": "38f7361a-3c2b-43bb-a142-722aa05aa9e2",
+        "text": "<@U033G4KN4TD>\nよろしくお願いします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1690850411.199409",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1690850969.326289",
+        "reply_users": [
+            "U033G4KN4TD",
+            "U0331FWGQRM"
+        ],
+        "replies": [
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1690850514.366769"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1690850969.326289"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1690850969.326289",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "f0Kg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nよろしくお願いします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1690850458.643159",
+        "client_msg_id": "bf8bdc44-1f38-418d-b99d-b5f8d78aa89c",
+        "text": "<@U0331FWGQRM>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1690647499.560669",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fz0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1690850514.366769",
+        "client_msg_id": "d84438c0-ec15-445b-a0b7-2c0c9fd15ae3",
+        "text": "よろしく御願いします",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1690850411.199409",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xCU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "よろしく御願いします"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1690850679.873559",
+        "client_msg_id": "673a7796-b26e-4791-96d0-d3e5e2d8060c",
+        "text": "<@U0331FWGQRM>\n\n宜しくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1690850217.516989",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dbQz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "",
+        "files": [
+            {
+                "id": "F05KJUW1HQD",
+                "created": 1690850911,
+                "timestamp": 1690850911,
+                "name": "nonorganic_matcha_water_1-2.jpg",
+                "title": "nonorganic_matcha_water_1-2.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U0331FWGQRM",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 14013,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F05KJUW1HQD\/nonorganic_matcha_water_1-2.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F05KJUW1HQD\/download\/nonorganic_matcha_water_1-2.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05KJUW1HQD-1e1489c080\/nonorganic_matcha_water_1-2_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05KJUW1HQD-1e1489c080\/nonorganic_matcha_water_1-2_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05KJUW1HQD-1e1489c080\/nonorganic_matcha_water_1-2_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 270,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05KJUW1HQD-1e1489c080\/nonorganic_matcha_water_1-2_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "original_w": 473,
+                "original_h": 355,
+                "thumb_tiny": "AwAkADCtHDJIMqvHqeBTzaygcbT7A1JPMxbYnAHHFQfODncfzpcwDTuUkMCCOxo5bhQSamJ8+M7vvoMg+oo3fZ0AUfvGGSfT2p3AaLWYjOAPqajeN4z8ykU7fJnO4\/nVmCTzgY5Bn+tK4EZXDnPrSkVaKR3I3xON3cUw2zAZdlVfUmoaZJBGNu9z0VTmmyjLhuzAEU26nTZ5UJyv8TetNtp02eVNwv8AC3pVW0HYeBUtsmZgakW238rIhX1Bp7SwWiHDB39BSSdxIy8kdKHYkckn60GkfpVlkdFFFAhR1p7dKjHWpG6UAf\/Z",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F05KJUW1HQD\/nonorganic_matcha_water_1-2.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F05KJUW1HQD-8034b46213",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FWGQRM",
+        "display_as_bot": false,
+        "type": "message",
+        "ts": "1690850914.664699",
+        "client_msg_id": "bed0c854-8c43-4d45-8f3e-348c56375862",
+        "thread_ts": "1690850217.516989",
+        "parent_user_id": "U0331FWGQRM"
+    },
+    {
+        "text": "",
+        "files": [
+            {
+                "id": "F05K7B1BB0X",
+                "created": 1690850966,
+                "timestamp": 1690850966,
+                "name": "nonorganic_matcha_water_1-2.jpg",
+                "title": "nonorganic_matcha_water_1-2.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U0331FWGQRM",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 14013,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F05K7B1BB0X\/nonorganic_matcha_water_1-2.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F05K7B1BB0X\/download\/nonorganic_matcha_water_1-2.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05K7B1BB0X-b823535c41\/nonorganic_matcha_water_1-2_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05K7B1BB0X-b823535c41\/nonorganic_matcha_water_1-2_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05K7B1BB0X-b823535c41\/nonorganic_matcha_water_1-2_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 270,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05K7B1BB0X-b823535c41\/nonorganic_matcha_water_1-2_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "original_w": 473,
+                "original_h": 355,
+                "thumb_tiny": "AwAkADCtHDJIMqvHqeBTzaygcbT7A1JPMxbYnAHHFQfODncfzpcwDTuUkMCCOxo5bhQSamJ8+M7vvoMg+oo3fZ0AUfvGGSfT2p3AaLWYjOAPqajeN4z8ykU7fJnO4\/nVmCTzgY5Bn+tK4EZXDnPrSkVaKR3I3xON3cUw2zAZdlVfUmoaZJBGNu9z0VTmmyjLhuzAEU26nTZ5UJyv8TetNtp02eVNwv8AC3pVW0HYeBUtsmZgakW238rIhX1Bp7SwWiHDB39BSSdxIy8kdKHYkckn60GkfpVlkdFFFAhR1p7dKjHWpG6UAf\/Z",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F05K7B1BB0X\/nonorganic_matcha_water_1-2.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F05K7B1BB0X-ecbb12098c",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FWGQRM",
+        "display_as_bot": false,
+        "type": "message",
+        "ts": "1690850969.326289",
+        "client_msg_id": "7517ec0b-4602-4de5-af2a-a63c409d838e",
+        "thread_ts": "1690850411.199409",
+        "parent_user_id": "U0331FWGQRM"
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1690853305.385759",
+        "client_msg_id": "058b927d-fbb3-43dc-9910-9fb6df2b39eb",
+        "text": "<@U05KGS6HN9H> <@U033G4KN4TD>\nCC：<@U041RJKV5JA>\n\nスキャンについて\n<http:\/\/192.168.0.200\/scan.htm>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uBaer",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nCC："
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nスキャンについて\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/192.168.0.200\/scan.htm"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

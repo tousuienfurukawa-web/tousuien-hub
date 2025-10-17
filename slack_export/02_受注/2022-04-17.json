@@ -1,0 +1,208 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U0331FWGQRM",
+        "text": "<@U0331FWGQRM>さんがチャンネルに参加しました",
+        "type": "message",
+        "ts": "1650244401.693959"
+    },
+    {
+        "subtype": "channel_purpose",
+        "user": "U0331FWGQRM",
+        "purpose": "受注内容を会長に共有",
+        "text": "がこのチャンネルの説明を「受注内容を会長に共有」に設定しました",
+        "type": "message",
+        "ts": "1650244402.000239"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U0331FZS7JT",
+        "text": "<@U0331FZS7JT>さんがチャンネルに参加しました",
+        "inviter": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1650244405.516409"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U0331FZTHEK",
+        "text": "<@U0331FZTHEK>さんがチャンネルに参加しました",
+        "inviter": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1650244405.591699"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U033G4KN4TD",
+        "text": "<@U033G4KN4TD>さんがチャンネルに参加しました",
+        "inviter": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1650244405.646099"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U03BLQ65GK0",
+        "text": "<@U03BLQ65GK0>さんがチャンネルに参加しました",
+        "type": "message",
+        "ts": "1650244426.281639"
+    },
+    {
+        "text": "<@U03BLQ65GK0>\n【ジーブリッジ_phoon huat】\n煎茶：4\/19PM入荷\nほうじ茶：在庫あり",
+        "files": [
+            {
+                "id": "F03BQHHFXFX",
+                "created": 1650244472,
+                "timestamp": 1650244472,
+                "name": "20220415発注書_メモ追記.pdf",
+                "title": "20220415発注書_メモ追記.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U0331FWGQRM",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 803820,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F03BQHHFXFX\/20220415______________________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F03BQHHFXFX\/download\/20220415______________________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F03BQHHFXFX-adfda3bfb6\/20220415_______________________thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 910,
+                "thumb_pdf_h": 1287,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F03BQHHFXFX\/20220415______________________.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F03BQHHFXFX-eb391dbc39",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FWGQRM",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "teK7c",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n【ジーブリッジ_phoon huat】\n煎茶：4\/19PM入荷\nほうじ茶：在庫あり"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1650244532.418459",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1650244590.000000"
+        },
+        "client_msg_id": "a74fceaf-ddf9-4405-a094-e7effccd8659",
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U033G4KN4TD",
+                    "U03BLQ65GK0"
+                ],
+                "count": 2
+            },
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "<@U03BLQ65GK0> 会長\nお疲れ様です。\nオランダ　4\/21（木）発送\n\n宇治抹茶　５kgx４　4\/19（火）原料着\n他の原料：在庫あり\n\nよろしくお願い致します。",
+        "files": [
+            {
+                "id": "F03BQHSA83F",
+                "created": 1650244808,
+                "timestamp": 1650244808,
+                "name": "TSE015-22invoice_signed.pdf",
+                "title": "TSE015-22invoice_signed.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U033G4KN4TD",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 22784,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F03BQHSA83F\/tse015-22invoice_signed.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F03BQHSA83F\/download\/tse015-22invoice_signed.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F03BQHSA83F-e5abc355cb\/tse015-22invoice_signed_thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 909,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F03BQHSA83F\/tse015-22invoice_signed.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F03BQHSA83F-ab741f48e7",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U033G4KN4TD",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MQzfo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 会長\nお疲れ様です。\nオランダ　4\/21（木）発送\n\n宇治抹茶　５kgx４　4\/19（火）原料着\n他の原料：在庫あり\n\nよろしくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1650244851.674849",
+        "client_msg_id": "eab8c3d7-2936-4165-8262-190617a7b609",
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U03BLQ65GK0"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

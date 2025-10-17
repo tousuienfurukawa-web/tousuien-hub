@@ -1,0 +1,136 @@
+[
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1703554763.865599",
+        "edited": {
+            "user": "U041RJKV5JA",
+            "ts": "1703555792.000000"
+        },
+        "client_msg_id": "eabea9f4-8f16-4b21-943e-a4c4a480ff34",
+        "text": "<@U0331FWGQRM>\n <@U05KGS6HN9H> <@U033G4KN4TD> cc: <@U0331FZS7JT>\nSOAAより回答をいただきました。\n・USDAやユーロリーフのマークを表示するのは不可\n　＜理由＞\n　輸入国の認証ではない為、不可との事です。\n　例えばお客様が商品をサウジアラビアからEU加盟国へ出荷するのが目的であっても、\n　当社は有機JASの認証しかとれない（外国格付け出来ない）とのことでした。\n・有機JASマークの表示は可\n　通常の有機同等性証明の為、取得可能\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1703179980.329089",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "abVbg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc: "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nSOAAより回答をいただきました。\n・USDAやユーロリーフのマークを表示するのは不可\n　＜理由＞\n　輸入国の認証ではない為、不可との事です。\n　例えばお客様が商品をサウジアラビアからEU加盟国へ出荷するのが目的であっても、\n　当社は有機JASの認証しかとれない（外国格付け出来ない）とのことでした。\n・有機JASマークの表示は可\n　通常の有機同等性証明の為、取得可能\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1703554844.727799",
+        "client_msg_id": "394A19E7-AD5A-49E2-9888-407D8D4CC458",
+        "text": "<@U041RJKV5JA> \n得た情報は常に理由も添えてお願いします。\n",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1703179980.329089",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hqDH\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \n得た情報は常に理由も添えてお願いします。\n"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

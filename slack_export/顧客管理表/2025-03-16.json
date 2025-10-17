@@ -1,0 +1,138 @@
+[
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1742167801.581079",
+        "client_msg_id": "45be37f9-c78d-4847-b3df-482bbf083590",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani> cc <@U03BLQ65GK0>\n*小分け製造指示書アップデート完了しました！本日から利用可能です！*\n\n利用方法は上記スレッド内画面収録動画の通りです。\n今後は*営業がinvoice作成時に小分け製造指示書も同時に土台作成する流れ*となります。\ninvoiceメモ同様、受注登録・商品登録の内容から引用した形になりますので、入力ミス・抜け漏れなどないよう、ダブルチェックをお願いします。\n特に、*商品登録は抜けている情報や曖昧な情報が多い*ので、最初の方は内容を確認しながら進めてください。\n\nフォーマットは\n```管理＞標準＞invoice, quotation, 履歴＞invoice, 小分け製造指示書```\nの中にあります。\n\nコピペする時間が省けた分、ダブルチェックして書類を格納するようにしましょう！！\n\n不明点などあればこのスレッドに返信お願いします。:woman-bowing:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1741229489.446079",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "as9mI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "小分け製造指示書アップデート完了しました！本日から利用可能です！",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n利用方法は上記スレッド内画面収録動画の通りです。\n今後は"
+                            },
+                            {
+                                "type": "text",
+                                "text": "営業がinvoice作成時に小分け製造指示書も同時に土台作成する流れ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "となります。\ninvoiceメモ同様、受注登録・商品登録の内容から引用した形になりますので、入力ミス・抜け漏れなどないよう、ダブルチェックをお願いします。\n特に、"
+                            },
+                            {
+                                "type": "text",
+                                "text": "商品登録は抜けている情報や曖昧な情報が多い",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "ので、最初の方は内容を確認しながら進めてください。\n\nフォーマットは\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "管理＞標準＞invoice, quotation, 履歴＞invoice, 小分け製造指示書"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "の中にあります。\n\nコピペする時間が省けた分、ダブルチェックして書類を格納するようにしましょう！！\n\n不明点などあればこのスレッドに返信お願いします。"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "woman-bowing",
+                                "unicode": "1f647-200d-2640-fe0f"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM",
+                    "U041RJKV5JA",
+                    "U033G4KN4TD"
+                ],
+                "count": 3
+            }
+        ]
+    }
+]

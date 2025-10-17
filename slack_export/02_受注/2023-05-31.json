@@ -1,0 +1,295 @@
+[
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1685520978.423949",
+        "client_msg_id": "f7a551ef-b60b-4bee-8ff9-3078a7a2cdf8",
+        "text": "<@U041RJKV5JA> 部長\nCC：<!channel>\n\nお疲れ様です。\n\n一点紅からサンプル注文が入りました。\nSencha Powder Grade A→出雲精茶K1-106やぶきた\nSencha Powder Grade B→出雲精茶K116EU\nSencha Powder Grade C→福井製茶（2022マル福-茶4号仕上）\n\nよろしく御願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Sfb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nCC："
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nお疲れ様です。\n\n一点紅からサンプル注文が入りました。\nSencha Powder Grade A→出雲精茶K1-106やぶきた\nSencha Powder Grade B→出雲精茶K116EU\nSencha Powder Grade C→福井製茶（2022マル福-茶4号仕上）\n\nよろしく御願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "eyes",
+                "users": [
+                    "U0331FWGQRM",
+                    "U0331FZS7JT"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1685521472.303889",
+        "client_msg_id": "57fa0aca-350e-4c35-a16b-9a79c496ae88",
+        "text": "<@U0331FWGQRM> 執行役\nCC：<@U041RJKV5JA> 部長\n\nお疲れ様です。\n本件、出荷完了です。\n佐川急便問い合わせ番号：4904-1085-9142\nよろしく御願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1685018716.015539",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ul8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\nCC："
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n\nお疲れ様です。\n本件、出荷完了です。\n佐川急便問い合わせ番号：4904-1085-9142\nよろしく御願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1685535418.020329",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1685538931.000000"
+        },
+        "client_msg_id": "bd539692-d511-44c3-be51-712b24c61d0d",
+        "text": "<@U041RJKV5JA> 部長\nCC：<!channel>\n\nスウェーデンの大野さんから注文（第２回）が入りました。\n前回同様、弊社以外の製品も一括で送付しますので\nよろしくお願いします。\n他社の分については、前回と同様の出荷手続きをお願い致します。\n※一部原料発注もありますので、よろしくお願いします。\n※前回と同じクラフト袋でOKです。\n※<@U03BLQ65GK0> 前回同様JASのシールを同梱願います。\n\nインボイス・パッキングリストが完成したら教えてください。\n\n尚、袖師窯の商品については梱包費用としてJPY+350\/個上乗せします。\n\n製品が届いたら、まとめて発送しますので\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1685535418.020329",
+        "reply_count": 7,
+        "reply_users_count": 3,
+        "latest_reply": "1688369786.772919",
+        "reply_users": [
+            "U041RJKV5JA",
+            "U0331FZS7JT",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1685610244.677739"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1686031504.233219"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1686897048.888189"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1687067931.315469"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1687264198.243969"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1688107763.540249"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1688369786.772919"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VaDa4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nCC："
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nスウェーデンの大野さんから注文（第２回）が入りました。\n前回同様、弊社以外の製品も一括で送付しますので\nよろしくお願いします。\n他社の分については、前回と同様の出荷手続きをお願い致します。\n※一部原料発注もありますので、よろしくお願いします。\n※前回と同じクラフト袋でOKです。\n※"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 前回同様JASのシールを同梱願います。\n\nインボイス・パッキングリストが完成したら教えてください。\n\n尚、袖師窯の商品については梱包費用としてJPY+350\/個上乗せします。\n\n製品が届いたら、まとめて発送しますので\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1685597782.540359",
+        "client_msg_id": "9a0a8e52-f793-4243-9ae5-9d5a21425735",
+        "text": "<@U0331FZS7JT> 社長\n本日、DHLにて発送しました。\nAWB NO. 9731131432\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1685201492.283149",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "61F",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\n本日、DHLにて発送しました。\nAWB NO. 9731131432\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

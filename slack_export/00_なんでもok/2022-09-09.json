@@ -1,0 +1,271 @@
+[
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1662709314.465349",
+        "client_msg_id": "6c5cb1d1-7023-4fb4-b559-e07f90d0eb55",
+        "text": "<@U0331FWGQRM> 執行役\nCC <@U0331FZS7JT> 社長 <@U03BLQ65GK0> 会長\nお疲れ様です。\n香港のTSUMIKI JAPAN様の件ですが、\n紅茶パウダーについてのお問合せが来ました。\n紅茶パウダーの情報をお教えていただけますでしょうか？\nよろしくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1662709314.465349",
+        "reply_count": 2,
+        "reply_users_count": 1,
+        "latest_reply": "1662734293.539159",
+        "reply_users": [
+            "U0331FWGQRM"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1662734189.545249"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1662734293.539159"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1662734293.539159",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zxE0=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\nCC "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長 "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 会長\nお疲れ様です。\n香港のTSUMIKI JAPAN様の件ですが、\n紅茶パウダーについてのお問合せが来ました。\n紅茶パウダーの情報をお教えていただけますでしょうか？\nよろしくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1662733654.933709",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1662734331.000000"
+        },
+        "client_msg_id": "3bb9cb04-acce-479e-97bf-87be89112826",
+        "text": "<@U033G4KN4TD>\nCC：<@U0331FZS7JT> 社長<@U03BLQ65GK0> 会長\n今日、社長が話していた通り、\nまずは、インドネシアにミルクの輸出が問題なく行えるかどうか、\n確認する必要があります。その上で、\n・Matcha+Sugar+Milk 　or　Matcha+Sugar\n・希望の価格帯　USD???\/kg\nの確認をする必要があります。\n\n上記を確認したのち、\n使用する抹茶の選定→原価決定→売価決定→invoice作成＆提出\n\nになるかと思います。\n\n※お客様が、\n卸売（Wholesale）希望であれば、\n（パッケージデザインの検討＆見積もり等は不要なので）\nここまでで良いかと思います。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1662700367.205929",
+        "parent_user_id": "U033G4KN4TD",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "E567",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nCC："
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 会長\n今日、社長が話していた通り、\nまずは、インドネシアにミルクの輸出が問題なく行えるかどうか、\n確認する必要があります。その上で、\n・Matcha+Sugar+Milk 　or　Matcha+Sugar\n・希望の価格帯　USD???\/kg\nの確認をする必要があります。\n\n上記を確認したのち、\n使用する抹茶の選定→原価決定→売価決定→invoice作成＆提出\n\nになるかと思います。\n\n※お客様が、\n卸売（Wholesale）希望であれば、\n（パッケージデザインの検討＆見積もり等は不要なので）\nここまでで良いかと思います。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1662734189.545249",
+        "client_msg_id": "51da1163-29a5-4f28-913a-47ffb8d862df",
+        "text": "<@U033G4KN4TD>\nCC <@U0331FZS7JT> 社長 <@U03BLQ65GK0> 会長\n\nジーブリッジに提案するときに聞いた情報では、\n紅茶パウダー1700円\/kg　でした。\n（紅茶原価1000円\/kg＋粉砕加工700円\/kg）\n卸売（Wholesale）希望であれば、ここまででOK。\n\n※ジーブリッジのようにOEMなどの小売商品を作る場合は、\n袋代＋脱酸素剤代＋シール代＋詰賃などを検討する必要があります",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1662709314.465349",
+        "parent_user_id": "U033G4KN4TD",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zCH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nCC "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長 "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 会長\n\nジーブリッジに提案するときに聞いた情報では、\n紅茶パウダー1700円\/kg　でした。\n（紅茶原価1000円\/kg＋粉砕加工700円\/kg）\n卸売（Wholesale）希望であれば、ここまででOK。\n\n※ジーブリッジのようにOEMなどの小売商品を作る場合は、\n袋代＋脱酸素剤代＋シール代＋詰賃などを検討する必要があります"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1662734293.539159",
+        "client_msg_id": "53d5e5a0-99fa-4d04-9b22-ad277e841653",
+        "text": "※見にくいですが、ジーブリッジの原価計算は\nエクセルの“原料売価自動計算（売価計算30gタブ）“に入ってます。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1662709314.465349",
+        "parent_user_id": "U033G4KN4TD",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sxn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "※見にくいですが、ジーブリッジの原価計算は\nエクセルの“原料売価自動計算（売価計算30gタブ）“に入ってます。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

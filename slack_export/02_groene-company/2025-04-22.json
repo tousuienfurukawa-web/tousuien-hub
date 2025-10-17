@@ -1,0 +1,176 @@
+[
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1745309656.820979",
+        "client_msg_id": "a4519149-a935-40c9-aad9-1baac54497e7",
+        "text": "<@U0331FWGQRM>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n本日、DHLにて出荷しました。\n出荷アイテム：1,2,3,4,5(香料),6(香料)\nAWB NO. 7007061843\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1744648140.429789",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tHYA4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日、DHLにて出荷しました。\n出荷アイテム：1,2,3,4,5(香料),6(香料)\nAWB NO. 7007061843\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1745383619.327339",
+        "client_msg_id": "c7dd206d-cf66-4d20-a0ae-fb677203aa75",
+        "text": "<@U0331FWGQRM>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n従来、原産地証明を出荷書類として取得しておりますが、\n手配している段階でINVOICEに記載のある、以下文言\n「PROD:POP2225001　BB:27.08.2026」が\n『もし製造番号や賞味期限であれば、商工会議所では\nサイン証明として保証できない内容』である為、原産地証明から\n割愛を求められております。\n\n前回（TSE003-25）は記載有りで発給いただいていたのですが、\n担当が変わりチェックが細かくなっているようで、\n足立「品名の一部ではないか？」\n→「品名に日付が含まれるのは、おかしいのでは」\n足立「品名のIzumo Matchaが出雲抹茶であることはどのように保証？」\n→「マニュアル通り典拠資料に基づき、品名を確認している」\n足立「証明から割愛することで、現地側で通関不具合は生じないか？」\n→「保証できる内容記載でしか、証明発給はできない」\n色々応酬したのですが、出雲商工会議所の上層部の日本商工会議所\nマニュアルに沿った対応しか不可との回答です…。\n\n発給してもらえないと出荷できませんので、証明書からは\n文言を割愛する方向で手配を進めます。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1744284058.007819",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "15iXt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n従来、原産地証明を出荷書類として取得しておりますが、\n手配している段階でINVOICEに記載のある、以下文言\n「PROD:POP2225001　BB:27.08.2026」が\n『もし製造番号や賞味期限であれば、商工会議所では\nサイン証明として保証できない内容』である為、原産地証明から\n割愛を求められております。\n\n前回（TSE003-25）は記載有りで発給いただいていたのですが、\n担当が変わりチェックが細かくなっているようで、\n足立「品名の一部ではないか？」\n→「品名に日付が含まれるのは、おかしいのでは」\n足立「品名のIzumo Matchaが出雲抹茶であることはどのように保証？」\n→「マニュアル通り典拠資料に基づき、品名を確認している」\n足立「証明から割愛することで、現地側で通関不具合は生じないか？」\n→「保証できる内容記載でしか、証明発給はできない」\n色々応酬したのですが、出雲商工会議所の上層部の日本商工会議所\nマニュアルに沿った対応しか不可との回答です…。\n\n発給してもらえないと出荷できませんので、証明書からは\n文言を割愛する方向で手配を進めます。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1745390956.509729",
+        "client_msg_id": "6fa1c687-ef1a-4610-ae15-bf25a7bc38b5",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n架電で連絡した通りですが、\n産地証明書から「PROD:POP2225001　BB:27.08.2026」が消える分には何も問題ないので、\nそれで進めてください。\n（毎度、産地証明書申請の度に、invoiceを修正しないといけないとなると、\nかなり手間だと思いましたが、そうではない、との事理解しました。）",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1744284058.007819",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LxmYC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n架電で連絡した通りですが、\n産地証明書から「PROD:POP2225001　BB:27.08.2026」が消える分には何も問題ないので、\nそれで進めてください。\n（毎度、産地証明書申請の度に、invoiceを修正しないといけないとなると、\nかなり手間だと思いましたが、そうではない、との事理解しました。）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U05KGS6HN9H"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

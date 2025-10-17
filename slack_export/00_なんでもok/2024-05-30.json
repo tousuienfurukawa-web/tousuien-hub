@@ -1,0 +1,1803 @@
+[
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1717059381.169399",
+        "client_msg_id": "b9017d6f-fbad-49f7-9b41-b6785bdf9fbd",
+        "text": "<https:\/\/docs.google.com\/spreadsheets\/d\/1ueevWQ0vsGnar-RKgVYsJF2L3Suwl-nExILcdnvxIFg\/edit#gid=1460765889>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Zw0GM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/docs.google.com\/spreadsheets\/d\/1ueevWQ0vsGnar-RKgVYsJF2L3Suwl-nExILcdnvxIFg\/edit#gid=1460765889"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<@U0331FWGQRM> <@U0331FZS7JT> <@U066P20UQH1> cc <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nありがとうございます、まずは触ってみますね！\n業務効率化(まずは送り状・コピペ業務低減)にあたり、顧客管理のDBとしてShopifyを使う方法も選択肢に入るのかも？\nといった仮定の元、検証する為に「受注処理専用サイト」なる物のテストを始めています。(スクショご参照, 謎の商品群は自社ブランド計画時の残骸なのでスルーでお願いしますw)\n\nSHIP&COは以前の自社ブランドの件に時にShopifyに追加するアプリの候補として存在は知っていましたので、連携のテストも同時に進めてみたいと思います。\n\n林さんも現在、Slackのワークフローを使用した業務改善に取り組まれていらっしゃるとお見受けしております。\n私の件とクロスする部分や連携できそうな所もありそうだな。と思っていますので模索するにあたり、どこかのタイミングでまたご相談させて頂ければと思います！\n（逆にご質問があればいつでもどうぞ！＾＾）",
+        "files": [
+            {
+                "id": "F075SANLBL3",
+                "created": 1717060636,
+                "timestamp": 1717060636,
+                "name": "スクリーンショット 2024-05-30 103740.png",
+                "title": "スクリーンショット 2024-05-30 103740.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 2023624,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F075SANLBL3\/____________________________2024-05-30_103740.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F075SANLBL3\/download\/____________________________2024-05-30_103740.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SANLBL3-eeb3ec4f3b\/____________________________2024-05-30_103740_64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SANLBL3-eeb3ec4f3b\/____________________________2024-05-30_103740_80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SANLBL3-eeb3ec4f3b\/____________________________2024-05-30_103740_360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 219,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SANLBL3-eeb3ec4f3b\/____________________________2024-05-30_103740_480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 292,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SANLBL3-eeb3ec4f3b\/____________________________2024-05-30_103740_160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SANLBL3-eeb3ec4f3b\/____________________________2024-05-30_103740_720.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 437,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SANLBL3-eeb3ec4f3b\/____________________________2024-05-30_103740_800.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 1317,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SANLBL3-eeb3ec4f3b\/____________________________2024-05-30_103740_960.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 583,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SANLBL3-eeb3ec4f3b\/____________________________2024-05-30_103740_1024.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 622,
+                "thumb_1024_h": 1024,
+                "original_w": 1407,
+                "original_h": 2316,
+                "thumb_tiny": "AwAwAB2\/JIqMARTfPT0NE8LSMCGA4qL7K+Pvj8qzfNfQCXz0x0NSIQ6hh0NVvsr4++PyqxEhSNVJyRTjzdQKGoSyJcoqSMgK9vrVY3E28L57j8a15FjJBdAx6AkZpNkBkKbE3AZ+7VgZXnzGQL574x61q2pLWyFmLHHU0hSELvMS\/wDfIqUAAAAYHpSAZK8a48xgMc8012SN3lIOdvX1FRyS2kpG9lbtyDTpXiZCuQwYYIDAUwIjeROmMPjPOMVaikEsSuoIB9apBLEfxEevJqeO4to0CLJwPrQB\/9k=",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F075SANLBL3\/____________________________2024-05-30_103740.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F075SANLBL3-f309220d57",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F075PGU585B",
+                "created": 1717060643,
+                "timestamp": 1717060643,
+                "name": "スクリーンショット 2024-05-30 103849.png",
+                "title": "スクリーンショット 2024-05-30 103849.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 849012,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F075PGU585B\/____________________________2024-05-30_103849.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F075PGU585B\/download\/____________________________2024-05-30_103849.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075PGU585B-42cef62d10\/____________________________2024-05-30_103849_64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075PGU585B-42cef62d10\/____________________________2024-05-30_103849_80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075PGU585B-42cef62d10\/____________________________2024-05-30_103849_360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 316,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075PGU585B-42cef62d10\/____________________________2024-05-30_103849_480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 421,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075PGU585B-42cef62d10\/____________________________2024-05-30_103849_160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075PGU585B-42cef62d10\/____________________________2024-05-30_103849_720.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 631,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075PGU585B-42cef62d10\/____________________________2024-05-30_103849_800.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 913,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075PGU585B-42cef62d10\/____________________________2024-05-30_103849_960.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 842,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075PGU585B-42cef62d10\/____________________________2024-05-30_103849_1024.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 898,
+                "thumb_1024_h": 1024,
+                "original_w": 1392,
+                "original_h": 1588,
+                "thumb_tiny": "AwAwACq5dTpboGdScnHFVv7Th\/55v+lLqwzAg\/2\/6VmpEScHgUAaP9pw\/wDPJ\/0q1DMs0QdVIBPQ1keVgVpWO37OikjJJwPxpXAtDBPFGB6CgKB0paYFDV\/+PdP9\/wDpWZHI2Nu48cgZrengjuFCyAkA564qD+zbb+63\/fRoAz925Qc5FX7QkQIQjN16HjrTxYQDop\/76NOzFbKEAbHUYUmkkBOKKiS4R3CgPk+qkVLTAKKKKACkNLRQAUUUUAf\/2Q==",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F075PGU585B\/____________________________2024-05-30_103849.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F075PGU585B-3fecaa86d8",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F075UU01Z7E",
+                "created": 1717060647,
+                "timestamp": 1717060647,
+                "name": "スクリーンショット 2024-05-30 104148.png",
+                "title": "スクリーンショット 2024-05-30 104148.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 894718,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F075UU01Z7E\/____________________________2024-05-30_104148.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F075UU01Z7E\/download\/____________________________2024-05-30_104148.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU01Z7E-cb9decdb5a\/____________________________2024-05-30_104148_64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU01Z7E-cb9decdb5a\/____________________________2024-05-30_104148_80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU01Z7E-cb9decdb5a\/____________________________2024-05-30_104148_360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 283,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU01Z7E-cb9decdb5a\/____________________________2024-05-30_104148_480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 377,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU01Z7E-cb9decdb5a\/____________________________2024-05-30_104148_160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU01Z7E-cb9decdb5a\/____________________________2024-05-30_104148_720.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 566,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU01Z7E-cb9decdb5a\/____________________________2024-05-30_104148_800.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 1018,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU01Z7E-cb9decdb5a\/____________________________2024-05-30_104148_960.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 754,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU01Z7E-cb9decdb5a\/____________________________2024-05-30_104148_1024.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 805,
+                "thumb_1024_h": 1024,
+                "original_w": 1416,
+                "original_h": 1802,
+                "thumb_tiny": "AwAwACW5cziAKSpOfSofty\/88j+Yo1HpHj1NUyMD\/wCvSAux3qvIqCMjJx1FWsr9KyIB\/pMf+8K11AIBKkexpgOxRiiigCpqC7hHgE8noKo+W391v++TWzRQBkQRsLiMkH7w7GtHz2\/54S\/kP8ampBQAA5AOCM9jS0UUAV7u5+zbMIX3Z6GnW05nQsU24OMZzSXVqtzsyxXbnpToIRAhAYnJzzQBLRRRQAUUUUAf\/9k=",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F075UU01Z7E\/____________________________2024-05-30_104148.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F075UU01Z7E-97c078a128",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F075UU0B4R2",
+                "created": 1717060651,
+                "timestamp": 1717060651,
+                "name": "スクリーンショット 2024-05-30 104308.png",
+                "title": "スクリーンショット 2024-05-30 104308.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 84452,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F075UU0B4R2\/____________________________2024-05-30_104308.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F075UU0B4R2\/download\/____________________________2024-05-30_104308.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU0B4R2-0305443f31\/____________________________2024-05-30_104308_64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU0B4R2-0305443f31\/____________________________2024-05-30_104308_80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU0B4R2-0305443f31\/____________________________2024-05-30_104308_360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 263,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU0B4R2-0305443f31\/____________________________2024-05-30_104308_480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 350,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU0B4R2-0305443f31\/____________________________2024-05-30_104308_160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU0B4R2-0305443f31\/____________________________2024-05-30_104308_720.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 525,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU0B4R2-0305443f31\/____________________________2024-05-30_104308_800.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 584,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU0B4R2-0305443f31\/____________________________2024-05-30_104308_960.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 700,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU0B4R2-0305443f31\/____________________________2024-05-30_104308_1024.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 747,
+                "original_w": 1402,
+                "original_h": 1023,
+                "thumb_tiny": "AwAjADDSbGOn6Ugx6fpTZzIseYhls05C5RS3BwM\/WgBcCjApaKAEwPSgAUtFABRRRQAUjHapJzwM8ClxRQBX+1J\/dl\/79mpYpBIuQGHOPmGKfRQAUUUUAFFFFABRRRQB\/9k=",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F075UU0B4R2\/____________________________2024-05-30_104308.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F075UU0B4R2-195df35e2a",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F075UU0HSJY",
+                "created": 1717060654,
+                "timestamp": 1717060654,
+                "name": "スクリーンショット 2024-05-30 104521.png",
+                "title": "スクリーンショット 2024-05-30 104521.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 73337,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F075UU0HSJY\/____________________________2024-05-30_104521.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F075UU0HSJY\/download\/____________________________2024-05-30_104521.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU0HSJY-e0ae4325db\/____________________________2024-05-30_104521_64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU0HSJY-e0ae4325db\/____________________________2024-05-30_104521_80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU0HSJY-e0ae4325db\/____________________________2024-05-30_104521_360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 273,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU0HSJY-e0ae4325db\/____________________________2024-05-30_104521_480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 363,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU0HSJY-e0ae4325db\/____________________________2024-05-30_104521_160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU0HSJY-e0ae4325db\/____________________________2024-05-30_104521_720.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 545,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU0HSJY-e0ae4325db\/____________________________2024-05-30_104521_800.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 606,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU0HSJY-e0ae4325db\/____________________________2024-05-30_104521_960.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 727,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075UU0HSJY-e0ae4325db\/____________________________2024-05-30_104521_1024.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 775,
+                "original_w": 1408,
+                "original_h": 1066,
+                "thumb_tiny": "AwAkADDSYAj0oCjHrQaWgBNo9BTGYK4XYTnuBwKkpD1oATj+7S\/hRSUAK3SjmmyMVXIQtz0FRiVv+eEn6U7CuTc0VD5zf88JKlByAcY9qAuLRRRSGLRRRQAUh60tIetABRRRQB\/\/2Q==",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F075UU0HSJY\/____________________________2024-05-30_104521.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F075UU0HSJY-dc9ed6a93d",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F075SAQBJUT",
+                "created": 1717060657,
+                "timestamp": 1717060657,
+                "name": "スクリーンショット 2024-05-30 104645.png",
+                "title": "スクリーンショット 2024-05-30 104645.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 88451,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F075SAQBJUT\/____________________________2024-05-30_104645.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F075SAQBJUT\/download\/____________________________2024-05-30_104645.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SAQBJUT-6f56b85806\/____________________________2024-05-30_104645_64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SAQBJUT-6f56b85806\/____________________________2024-05-30_104645_80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SAQBJUT-6f56b85806\/____________________________2024-05-30_104645_360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 164,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SAQBJUT-6f56b85806\/____________________________2024-05-30_104645_480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 218,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SAQBJUT-6f56b85806\/____________________________2024-05-30_104645_160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SAQBJUT-6f56b85806\/____________________________2024-05-30_104645_720.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 328,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SAQBJUT-6f56b85806\/____________________________2024-05-30_104645_800.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 364,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SAQBJUT-6f56b85806\/____________________________2024-05-30_104645_960.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 437,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SAQBJUT-6f56b85806\/____________________________2024-05-30_104645_1024.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 466,
+                "original_w": 1422,
+                "original_h": 647,
+                "thumb_tiny": "AwAVADC19mgPWJTS\/Y4P+ea\/lUi06gCL7LB\/zyWj7JB\/zyWpaQ80ARfY4P8Ankv5UfZIsjCgAdsVNRQAlLSUtABRRRQAUUUUAf\/Z",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F075SAQBJUT\/____________________________2024-05-30_104645.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F075SAQBJUT-a061225d73",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F075BT0UDC7",
+                "created": 1717060659,
+                "timestamp": 1717060659,
+                "name": "スクリーンショット 2024-05-30 104738.png",
+                "title": "スクリーンショット 2024-05-30 104738.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 171787,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F075BT0UDC7\/____________________________2024-05-30_104738.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F075BT0UDC7\/download\/____________________________2024-05-30_104738.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075BT0UDC7-8a5cc22d5f\/____________________________2024-05-30_104738_64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075BT0UDC7-8a5cc22d5f\/____________________________2024-05-30_104738_80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075BT0UDC7-8a5cc22d5f\/____________________________2024-05-30_104738_360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 328,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075BT0UDC7-8a5cc22d5f\/____________________________2024-05-30_104738_480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 438,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075BT0UDC7-8a5cc22d5f\/____________________________2024-05-30_104738_160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075BT0UDC7-8a5cc22d5f\/____________________________2024-05-30_104738_720.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 657,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075BT0UDC7-8a5cc22d5f\/____________________________2024-05-30_104738_800.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 730,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075BT0UDC7-8a5cc22d5f\/____________________________2024-05-30_104738_960.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 876,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075BT0UDC7-8a5cc22d5f\/____________________________2024-05-30_104738_1024.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 934,
+                "original_w": 1416,
+                "original_h": 1292,
+                "thumb_tiny": "AwArADC39ngPWJT+FBtIO0SflUi04gnGDj196AIvskP\/ADzX8qX7LB\/zyT8ql\/GkaRVOCT+RoAh+yQf88l\/Kl+zQj\/lmtSg5OexpTQA2l470lLzkY6UALS9qT8aa0aN1\/nQAvQ5pTSAY4HSlNADaU0lLQAmaKXAooABRRRQB\/9k=",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F075BT0UDC7\/____________________________2024-05-30_104738.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F075BT0UDC7-39b3ed78f7",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F075BT16B3R",
+                "created": 1717060662,
+                "timestamp": 1717060662,
+                "name": "スクリーンショット 2024-05-30 104947.png",
+                "title": "スクリーンショット 2024-05-30 104947.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 57775,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F075BT16B3R\/____________________________2024-05-30_104947.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F075BT16B3R\/download\/____________________________2024-05-30_104947.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075BT16B3R-2a199042f3\/____________________________2024-05-30_104947_64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075BT16B3R-2a199042f3\/____________________________2024-05-30_104947_80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075BT16B3R-2a199042f3\/____________________________2024-05-30_104947_360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 303,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075BT16B3R-2a199042f3\/____________________________2024-05-30_104947_480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 403,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075BT16B3R-2a199042f3\/____________________________2024-05-30_104947_160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075BT16B3R-2a199042f3\/____________________________2024-05-30_104947_720.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 605,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075BT16B3R-2a199042f3\/____________________________2024-05-30_104947_800.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 672,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075BT16B3R-2a199042f3\/____________________________2024-05-30_104947_960.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 807,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075BT16B3R-2a199042f3\/____________________________2024-05-30_104947_1024.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 861,
+                "original_w": 1167,
+                "original_h": 981,
+                "thumb_tiny": "AwAoADBKAciircUCNGrEdRQBUpCuT1P51f8As0XofzpPs8XofzNAFKipbhFjkwvTFRUAFX4P9Sn0qhVyKeNYlUtggelAFiioftMX94\/kaDcxgcHJ\/GgCC7\/1w+lQVJPIJHDD0qOgAooooAKKKKACiiigD\/\/Z",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F075BT16B3R\/____________________________2024-05-30_104947.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F075BT16B3R-dbd2b1ae67",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F075SAUR7J7",
+                "created": 1717060713,
+                "timestamp": 1717060713,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 87739,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F075SAUR7J7\/image.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F075SAUR7J7\/download\/image.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SAUR7J7-ba302e8933\/image_64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SAUR7J7-ba302e8933\/image_80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SAUR7J7-ba302e8933\/image_360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 289,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SAUR7J7-ba302e8933\/image_480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 385,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SAUR7J7-ba302e8933\/image_160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SAUR7J7-ba302e8933\/image_720.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 577,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SAUR7J7-ba302e8933\/image_800.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 998,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SAUR7J7-ba302e8933\/image_960.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 770,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075SAUR7J7-ba302e8933\/image_1024.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 821,
+                "thumb_1024_h": 1024,
+                "original_w": 950,
+                "original_h": 1185,
+                "thumb_tiny": "AwAwACaaG3haBGaPcx6mpRawH\/llj6mltv8Aj3j4qU4x0oAiNpb94x+Zo+yW\/wDzzH5mpTjGO5pRigDJmRUmdVGADTPzqW5\/4+JPrUdAGjbgG3iPfB5qcDHT+dRWn\/Hsn0qagBMk54oox70Y96AMu5\/4+JPrUdSXP\/HxJ9ajoA0rZQ1tHn0qcDFV7V0FugLKDj1qbzE\/vr+dADqKb5if31\/OjzE\/vr+dAGZc\/wDHxJ9ajqS4IM7kHIzUdAH\/2Q==",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F075SAUR7J7\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F075SAUR7J7-c8d9dc7c02",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vEfLn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nありがとうございます、まずは触ってみますね！\n業務効率化(まずは送り状・コピペ業務低減)にあたり、顧客管理のDBとしてShopifyを使う方法も選択肢に入るのかも？\nといった仮定の元、検証する為に「受注処理専用サイト」なる物のテストを始めています。(スクショご参照, 謎の商品群は自社ブランド計画時の残骸なのでスルーでお願いしますw)\n\nSHIP&COは以前の自社ブランドの件に時にShopifyに追加するアプリの候補として存在は知っていましたので、連携のテストも同時に進めてみたいと思います。\n\n林さんも現在、Slackのワークフローを使用した業務改善に取り組まれていらっしゃるとお見受けしております。\n私の件とクロスする部分や連携できそうな所もありそうだな。と思っていますので模索するにあたり、どこかのタイミングでまたご相談させて頂ければと思います！\n（逆にご質問があればいつでもどうぞ！＾＾）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1717060841.147609",
+        "edited": {
+            "user": "U0606SPN4BW",
+            "ts": "1717061441.000000"
+        },
+        "client_msg_id": "9be6423f-a2ea-4555-9a19-5c349a25e6af",
+        "thread_ts": "1716799550.479029",
+        "parent_user_id": "U066P20UQH1"
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1717062123.391509",
+        "client_msg_id": "14619249-994c-48cd-bdb0-d949a61adfbc",
+        "text": "<@U0606SPN4BW>\nそうですね、全く一緒かはわからないですが、ほぼ同じことやっちゃってる気がするので、どこかですり合わせはしたいですね！\n現場のあり方や動き方にも影響する(させたい)のと、一部機械化を導入するという話もある中なので、\nその辺りの情報共有もしながら、一番効率の良さそうな方法が取れれば良いなと思ってます。\nGPTとの連携の可能性なども相談したいなと思っておりましたので、来週早いうちに時間作りましょう！\n（明日は私が移動なので、、すみません。）\n<@U0331FWGQRM> <@U0331FZS7JT>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1716799550.479029",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5SqKF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nそうですね、全く一緒かはわからないですが、ほぼ同じことやっちゃってる気がするので、どこかですり合わせはしたいですね！\n現場のあり方や動き方にも影響する(させたい)のと、一部機械化を導入するという話もある中なので、\nその辺りの情報共有もしながら、一番効率の良さそうな方法が取れれば良いなと思ってます。\nGPTとの連携の可能性なども相談したいなと思っておりましたので、来週早いうちに時間作りましょう！\n（明日は私が移動なので、、すみません。）\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<!channel>\n今日のMTGの議事録（というほどでもなく話したことの殴り書きに近いですが）を共有しておきます！",
+        "files": [
+            {
+                "id": "F075PNSSUN9",
+                "created": 1717063133,
+                "timestamp": 1717063133,
+                "name": "0530営業*事務MTG.rtf",
+                "title": "0530営業*事務MTG.rtf",
+                "mimetype": "text\/rtf",
+                "filetype": "rtf",
+                "pretty_type": "Rich Text File",
+                "user": "U066P20UQH1",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 9309,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F075PNSSUN9\/0530_____________mtg.rtf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F075PNSSUN9\/download\/0530_____________mtg.rtf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F075PNSSUN9\/0530_____________mtg.rtf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F075PNSSUN9-9d82c5dd90",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U066P20UQH1",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QkKt1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n今日のMTGの議事録（というほどでもなく話したことの殴り書きに近いですが）を共有しておきます！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1717063136.551699",
+        "client_msg_id": "8ba9ffb6-6287-40f3-8473-59c283d7bc58",
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U041RJKV5JA",
+                    "U0331FZS7JT",
+                    "U0331FWGQRM",
+                    "U05KGS6HN9H",
+                    "U033G4KN4TD"
+                ],
+                "count": 5
+            },
+            {
+                "name": "eyes",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1717065743.054979",
+        "client_msg_id": "c08e5e66-ba1b-4819-9ebf-53faafc2f736",
+        "text": "<@U066P20UQH1> cc <@U0331FZS7JT> <@U0331FWGQRM>\n「業務改善」といった目指すところは同じなので、今は皆で最短ルートを探し当てる上でのリサーチ＆実証テストのフェーズにいる感じですよね！\n色んな目線・角度で検証して「これだね！」と決まれば、そこにリソースを集中させて前に進めて行くのをイメージしています。\n\n\"ほぼ同じことやっちゃってる気がする\"の点については着目している問題点が共通している意味において「認識が揃っている＝優先度が高い事項」と私的にはむしろポジティブ捉えています。＾＾\n短期的には非効率に感じるのが今のフェーズですが、長期的な目線では効率が高くなる必要な時間なる気がしています。\n(相互に進めているコトが見えている限りは、動きを見ながら立ち回りができるので全然問題ない)\n\nまた、それぞれの作業が今回の業務改善で採用に至らなくとも、得た知見は今後どこかで繋がっていきますので、いずれにしましても回収できると見ております。\n（自社ブランド計画でShopfy触ってたおかげで、今回のテストがスイスイ進む+新しい機能やサービスを触れられている。←今回も採用されないかもだけど、いずれどこかで役に立つ時が来るハズw)\n\n\n&gt;GPTとの連携の可能性なども相談したいなと思っておりましたので、\n\n・まずSlackのワークフローで何らかのルーティンを自動化したい。といった着目点は「ノーコードでプログラミングできるツールを使いこなしたい。」と言い換えることができます。\n\n古くからあるものであれば、ExcelマクロやVBAがありますが、最近出てきた物なら「Make」や「Zapier」といったプラットフォーム間を連携させるハブ的なサービスやAPIといった機能を私達も使っていけるようにしてく必要があるとみています。\n(とっつきにくい印象がありますが、以前であればプログラマーではないとできなかった領域が私達でも使える様になっていきていて、ココが突破口の１つになると見ています)\n*突破口=今の人数で数倍の対応・受注を裁く\n\nGPTによる自動化も、できそうな所から少しづつ入れていきたいですよね。＾＾\n\n\n&gt;来週早いうちに時間作りましょう！\n\n・そうですね！私の方からは現場の課題や問題点が全く見えないので、いかに情報を可視化・抽出することは外せないです。\n　今の課題・問題を、存在するサービスに置換していくプロセス考える上でも、来週中に情報共有MTGを一度お願いします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1716799550.479029",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8bPwQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n「業務改善」といった目指すところは同じなので、今は皆で最短ルートを探し当てる上でのリサーチ＆実証テストのフェーズにいる感じですよね！\n色んな目線・角度で検証して「これだね！」と決まれば、そこにリソースを集中させて前に進めて行くのをイメージしています。\n\n\"ほぼ同じことやっちゃってる気がする\"の点については着目している問題点が共通している意味において「認識が揃っている＝優先度が高い事項」と私的にはむしろポジティブ捉えています。＾＾\n短期的には非効率に感じるのが今のフェーズですが、長期的な目線では効率が高くなる必要な時間なる気がしています。\n(相互に進めているコトが見えている限りは、動きを見ながら立ち回りができるので全然問題ない)\n\nまた、それぞれの作業が今回の業務改善で採用に至らなくとも、得た知見は今後どこかで繋がっていきますので、いずれにしましても回収できると見ております。\n（自社ブランド計画でShopfy触ってたおかげで、今回のテストがスイスイ進む+新しい機能やサービスを触れられている。←今回も採用されないかもだけど、いずれどこかで役に立つ時が来るハズw)\n\n\n>GPTとの連携の可能性なども相談したいなと思っておりましたので、\n\n・まずSlackのワークフローで何らかのルーティンを自動化したい。といった着目点は「ノーコードでプログラミングできるツールを使いこなしたい。」と言い換えることができます。\n\n古くからあるものであれば、ExcelマクロやVBAがありますが、最近出てきた物なら「Make」や「Zapier」といったプラットフォーム間を連携させるハブ的なサービスやAPIといった機能を私達も使っていけるようにしてく必要があるとみています。\n(とっつきにくい印象がありますが、以前であればプログラマーではないとできなかった領域が私達でも使える様になっていきていて、ココが突破口の１つになると見ています)\n*突破口=今の人数で数倍の対応・受注を裁く\n\nGPTによる自動化も、できそうな所から少しづつ入れていきたいですよね。＾＾\n\n\n>来週早いうちに時間作りましょう！\n\n・そうですね！私の方からは現場の課題や問題点が全く見えないので、いかに情報を可視化・抽出することは外せないです。\n　今の課題・問題を、存在するサービスに置換していくプロセス考える上でも、来週中に情報共有MTGを一度お願いします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "eyes",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "pray",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "流石としか",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "ok_hand",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U075W0N1NGK",
+        "text": "<@U075W0N1NGK>さんがチャンネルに参加しました",
+        "type": "message",
+        "ts": "1717100227.622469"
+    },
+    {
+        "subtype": "bot_message",
+        "text": "【古川テスト中】\n受注処理の自動化テストです。\n「受注処理専用サイト」上で営業担当者が受注処理を完了すると、こんな感じでSlackのチャンネルに自動で書き込みをします♪\n\n\n\nご注文内容の確認 注文番号：\nZapier test 001\n\n-- \n+++————————————————————————————————————————————————————————————+++\n\nSatoshi Furukawa (Global-team)\ne-mail: <mailto:furukawa@tousuien.jp|furukawa@tousuien.jp>\n\nTOUSUIEN CO., LTD.\nAddress: 1482 Kaminaoe Hikawa-cho, Izumo city,\nShimane,699-0624, JAPAN\nTel: +81-853-72-0039\n\nEU Office\nAddress: Laan van S'-Gravenmade 40Y,\nDen Haag, 2495AJ, the Netherlands\n\nGlobal website: <https:\/\/tousuien-global.com>\nInstagram: <https:\/\/www.instagram.com\/tousuien_jpn\/>\nOur Tea Garden: <https:\/\/www.youtube.com\/watch?v=tNIsotWlN70>\n\n+++————————————————————————————————————————————————————————————+++\n\n",
+        "username": "受注処理専用サイト",
+        "attachments": [
+            {
+                "from_url": "https:\/\/tousuien-global.com\/",
+                "thumb_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0628\/6855\/3984\/files\/TOUSUIENglobal_logo.png?height=628&pad_color=ffffff&v=1654500324&width=1200",
+                "thumb_width": 1200,
+                "thumb_height": 628,
+                "service_icon": "http:\/\/tousuien-global.com\/cdn\/shop\/files\/favicon_6314c2b7-3aa7-499f-812d-60dc2cc7ffec_96x.png?v=1656649341",
+                "id": 1,
+                "original_url": "https:\/\/tousuien-global.com",
+                "fallback": "TOUSUIEN CO., LTD.: TOUSUIEN - good tea, good life -",
+                "text": "Tousuien is located in Izumo City, Shimane Prefecture, northwest of Japan. It was established in 1907. We have our own tea garden and factory, and produce matcha, hojicha, sencha, and all kinds of teas. In addition to selling our own products, we also sell wholesale and OEM products.",
+                "title": "TOUSUIEN - good tea, good life -",
+                "title_link": "https:\/\/tousuien-global.com\/",
+                "service_name": "TOUSUIEN CO., LTD."
+            },
+            {
+                "from_url": "https:\/\/www.youtube.com\/watch?v=tNIsotWlN70",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/tNIsotWlN70\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/tNIsotWlN70?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"【出雲抹茶】茶園風景\"><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/youtube.png",
+                "id": 2,
+                "original_url": "https:\/\/www.youtube.com\/watch?v=tNIsotWlN70",
+                "fallback": "YouTube Video: 【出雲抹茶】茶園風景",
+                "title": "【出雲抹茶】茶園風景",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=tNIsotWlN70",
+                "author_name": "出雲抹茶専門店桃翠園",
+                "author_link": "https:\/\/www.youtube.com\/@user-iz2or9nx8r",
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/"
+            }
+        ],
+        "type": "message",
+        "ts": "1717100227.790409",
+        "edited": {
+            "user": "B075FGYDWK1",
+            "ts": "1717100229.000000"
+        },
+        "bot_id": "B075FGYDWK1",
+        "app_id": "A024R9PQM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "s+hfr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "【古川テスト中】\n受注処理の自動化テストです。\n「受注処理専用サイト」上で営業担当者が受注処理を完了すると、こんな感じでSlackのチャンネルに自動で書き込みをします♪\n\n\n\n\n\nご注文内容の確認 注文番号：\nZapier test 001\n\n-- \n+++————————————————————————————————————————————————————————————+++\n\nSatoshi Furukawa (Global-team)\ne-mail: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:furukawa@tousuien.jp",
+                                "text": "furukawa@tousuien.jp"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nTOUSUIEN CO., LTD.\nAddress: 1482 Kaminaoe Hikawa-cho, Izumo city,\nShimane,699-0624, JAPAN\nTel: +81-853-72-0039\n\nEU Office\nAddress: Laan van S'-Gravenmade 40Y,\nDen Haag, 2495AJ, the Netherlands\n\nGlobal website: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/tousuien-global.com"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nInstagram: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.instagram.com\/tousuien_jpn\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nOur Tea Garden: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.youtube.com\/watch?v=tNIsotWlN70"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n+++————————————————————————————————————————————————————————————+++"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subtype": "bot_message",
+        "text": "【古川テスト中】\n受注処理の自動化テストです。\n「受注処理専用サイト」上で営業担当者が受注処理を完了すると、こんな感じでSlackのチャンネルに自動で書き込みをします♪\n\n\n\nご注文内容の確認　注文番号：#10231006\nご購入頂きありがとうございました！\n\n*****************************************************************\n受注処理専用サイト \n( <https:\/\/0080ff-4.myshopify.com?syclid=be55c3da-c34d-4e22-9e0b-da567f3d9c78> )\n\n*****************************************************************\n\n注文 #10231006\n\n-----------------\nご購入頂きありがとうございました！\n-----------------\n\n注文の発送準備を行なっております。商品を発送いたしましたら、改めてお知らせいたします。\n\n注文を表示する \n( <https:\/\/0080ff-4.myshopify.com\/78644740420\/orders\/727ccd9ffebada25390e337d3f3d212b\/authenticate?key=1a593a35973527e7c0697fad2ffa298e&amp;syclid=e776cd73-4766-4e46-8688-fecbae7c0b0a> )\n\n\nまたはショップにアクセスする \n( <https:\/\/0080ff-4.myshopify.com?syclid=78b5e80f-d219-4f84-81b3-e25ab21254e8> )\n\n\n注文概要\n----\n\n【 SAMPLE 】Organic Matcha Top grade - 1 \/ HEKISUIEN\n(16000KYOTO) ENGLISH × 10\n\n20g\n\nUS$10,00\n\n小計\n\nUS$10,00\n\n配送\n\nUS$0,00\n\n税金合計\n\nUS$0,00\n\n合計\n\nUS$10,00\n\n支払合計 (本日)\n\nUS$0,00\n\nお客様情報\n-----\n\n配送先住所\n-----\n\nFURUKAWASATOSHI\nLaan van 's-Gravenmade 40Y\n2495 AJ Den Haag\nオランダ\n\n請求先住所\n-----\n\nFURUKAWASATOSHI\nLaan van 's-Gravenmade 40Y\n2495 AJ Den Haag\nオランダ\n\n配送方法\n----\n\n無料（サンプル）\n\nご不明な点がございましたら、このメールにご返信いただくか、tousuien.furukawa@gmail.comまでご連絡ください。",
+        "username": "受注処理専用サイト",
+        "attachments": [
+            {
+                "from_url": "https:\/\/0080ff-4.myshopify.com\/?syclid=be55c3da-c34d-4e22-9e0b-da567f3d9c78",
+                "id": 1,
+                "original_url": "https:\/\/0080ff-4.myshopify.com?syclid=be55c3da-c34d-4e22-9e0b-da567f3d9c78",
+                "fallback": "受注処理専用サイト",
+                "text": "受注処理専用サイト",
+                "title": "受注処理専用サイト",
+                "title_link": "https:\/\/0080ff-4.myshopify.com\/?syclid=be55c3da-c34d-4e22-9e0b-da567f3d9c78",
+                "service_name": "0080ff-4.myshopify.com"
+            },
+            {
+                "from_url": "https:\/\/0080ff-4.myshopify.com\/?syclid=78b5e80f-d219-4f84-81b3-e25ab21254e8",
+                "id": 2,
+                "original_url": "https:\/\/0080ff-4.myshopify.com?syclid=78b5e80f-d219-4f84-81b3-e25ab21254e8",
+                "fallback": "受注処理専用サイト",
+                "text": "受注処理専用サイト",
+                "title": "受注処理専用サイト",
+                "title_link": "https:\/\/0080ff-4.myshopify.com\/?syclid=78b5e80f-d219-4f84-81b3-e25ab21254e8",
+                "service_name": "0080ff-4.myshopify.com"
+            }
+        ],
+        "type": "message",
+        "ts": "1717101823.329419",
+        "edited": {
+            "user": "B075FGYDWK1",
+            "ts": "1717101826.000000"
+        },
+        "bot_id": "B075FGYDWK1",
+        "app_id": "A024R9PQM",
+        "thread_ts": "1717101823.329419",
+        "reply_count": 3,
+        "reply_users_count": 2,
+        "latest_reply": "1717123517.068939",
+        "reply_users": [
+            "U0606SPN4BW",
+            "U0331FWGQRM"
+        ],
+        "replies": [
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1717102418.101369"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1717112224.714989"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1717123517.068939"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1717123517.068939",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rtlb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "【古川テスト中】\n受注処理の自動化テストです。\n「受注処理専用サイト」上で営業担当者が受注処理を完了すると、こんな感じでSlackのチャンネルに自動で書き込みをします♪\n\n\n\n\n\nご注文内容の確認　注文番号：#10231006\nご購入頂きありがとうございました！\n\n*****************************************************************\n受注処理専用サイト \n( "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/0080ff-4.myshopify.com?syclid=be55c3da-c34d-4e22-9e0b-da567f3d9c78"
+                            },
+                            {
+                                "type": "text",
+                                "text": " )\n\n*****************************************************************\n\n注文 #10231006\n\n-----------------\nご購入頂きありがとうございました！\n-----------------\n\n注文の発送準備を行なっております。商品を発送いたしましたら、改めてお知らせいたします。\n\n注文を表示する \n( "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/0080ff-4.myshopify.com\/78644740420\/orders\/727ccd9ffebada25390e337d3f3d212b\/authenticate?key=1a593a35973527e7c0697fad2ffa298e&amp;syclid=e776cd73-4766-4e46-8688-fecbae7c0b0a",
+                                "text": "https:\/\/0080ff-4.myshopify.com\/78644740420\/orders\/727ccd9ffebada25390e337d3f3d212b\/authenticate?key=1a593a35973527e7c0697fad2ffa298e&syclid=e776cd73-4766-4e46-8688-fecbae7c0b0a"
+                            },
+                            {
+                                "type": "text",
+                                "text": " )\n\n\n\nまたはショップにアクセスする \n( "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/0080ff-4.myshopify.com?syclid=78b5e80f-d219-4f84-81b3-e25ab21254e8"
+                            },
+                            {
+                                "type": "text",
+                                "text": " )\n\n\n\n注文概要\n----\n\n【 SAMPLE 】Organic Matcha Top grade - 1 \/ HEKISUIEN\n(16000KYOTO) ENGLISH × 10\n\n20g\n\nUS$10,00\n\n小計\n\nUS$10,00\n\n配送\n\nUS$0,00\n\n税金合計\n\nUS$0,00\n\n合計\n\nUS$10,00\n\n支払合計 (本日)\n\nUS$0,00\n\nお客様情報\n-----\n\n配送先住所\n-----\n\nFURUKAWASATOSHI\nLaan van 's-Gravenmade 40Y\n2495 AJ Den Haag\nオランダ\n\n請求先住所\n-----\n\nFURUKAWASATOSHI\nLaan van 's-Gravenmade 40Y\n2495 AJ Den Haag\nオランダ\n\n配送方法\n----\n\n無料（サンプル）\n\nご不明な点がございましたら、このメールにご返信いただくか、tousuien.furukawa@gmail.comまでご連絡ください。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1717102418.101369",
+        "edited": {
+            "user": "U0606SPN4BW",
+            "ts": "1717106157.000000"
+        },
+        "client_msg_id": "7f57a29a-6238-4e25-81f4-c70f8d23c007",
+        "text": "■開発中の「発注者用ページ」はコチラからご覧頂けます。\n(メールアドレス不要、右上のパスワード入力画面からどうぞ)\n\n\n*パスワード： kunijiro*\n\n\n▼受注処理専用サイト (発注用画面)\n<https:\/\/0080ff-4.myshopify.com\/?syclid=be55c3da-c34d-4e22-9e0b-da567f3d9c78>\n\n\n▼受注処理専用サイト (管理画面)\n<https:\/\/admin.shopify.com\/store\/0080ff-4\/orders>\n\n*メールアドレス：<mailto:furukawa@tousuien.jp|furukawa@tousuien.jp>*\n*パスワード：tousuien10*\n\n↑ 桃翠園共用アカウントにログインする用の暫定メアドです。運用のメドが立ち次第、変更予します。\n\n\n正式に採用・運用となるかは現時点では未定ですが、ぜひ自由にご覧頂き、色々触ってみてShopifyの管理画面の雰囲気をチェックしてみてください♪",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1717101823.329419",
+        "attachments": [
+            {
+                "from_url": "https:\/\/0080ff-4.myshopify.com\/?syclid=be55c3da-c34d-4e22-9e0b-da567f3d9c78",
+                "id": 1,
+                "original_url": "https:\/\/0080ff-4.myshopify.com\/?syclid=be55c3da-c34d-4e22-9e0b-da567f3d9c78",
+                "fallback": "受注処理専用サイト",
+                "text": "受注処理専用サイト",
+                "title": "受注処理専用サイト",
+                "title_link": "https:\/\/0080ff-4.myshopify.com\/?syclid=be55c3da-c34d-4e22-9e0b-da567f3d9c78",
+                "service_name": "0080ff-4.myshopify.com"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1nrG\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "■開発中の「発注者用ページ」はコチラからご覧頂けます。\n(メールアドレス不要、右上のパスワード入力画面からどうぞ)\n\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "パスワード： kunijiro",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n\n▼受注処理専用サイト (発注用画面)\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/0080ff-4.myshopify.com\/?syclid=be55c3da-c34d-4e22-9e0b-da567f3d9c78"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n\n▼受注処理専用サイト (管理画面)\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/admin.shopify.com\/store\/0080ff-4\/orders"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "メールアドレス：",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:furukawa@tousuien.jp",
+                                "text": "furukawa@tousuien.jp",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "パスワード：tousuien10",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n↑ 桃翠園共用アカウントにログインする用の暫定メアドです。運用のメドが立ち次第、変更予します。\n\n\n正式に採用・運用となるかは現時点では未定ですが、ぜひ自由にご覧頂き、色々触ってみてShopifyの管理画面の雰囲気をチェックしてみてください♪"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "",
+        "files": [
+            {
+                "id": "F075Z2SRQ6Q",
+                "created": 1717105532,
+                "timestamp": 1717105532,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 64010,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F075Z2SRQ6Q\/image.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F075Z2SRQ6Q\/download\/image.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075Z2SRQ6Q-1fbfb08142\/image_64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075Z2SRQ6Q-1fbfb08142\/image_80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075Z2SRQ6Q-1fbfb08142\/image_360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 197,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075Z2SRQ6Q-1fbfb08142\/image_480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 263,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075Z2SRQ6Q-1fbfb08142\/image_160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075Z2SRQ6Q-1fbfb08142\/image_720.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 394,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075Z2SRQ6Q-1fbfb08142\/image_800.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 438,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075Z2SRQ6Q-1fbfb08142\/image_960.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 526,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075Z2SRQ6Q-1fbfb08142\/image_1024.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 561,
+                "original_w": 1516,
+                "original_h": 830,
+                "thumb_tiny": "AwAaADCX\/Rf+eI\/75FBNoAT9nHH+yKbBEs7ENkrjPBxVoWsQGMH8SaAKaz2j\/dtc\/wDARTTc2eCPs2D\/ALoq2LSJSdqEfRqQ2Fu3JQ5\/3jQBWjuLeWRUW2GScdBU8iwKw3wp9AKkjsoI3DqpDDpyaSWLzSGUigdwtbf7Pn5ywx6U3+0YN23589Pu1YrJvgBe8DGcGgRofbYvVvypDfwqMnd+VZ1Nk+4aANNdQgbOC3AzyKz0uZDMArFVJ6Cqwp0P+tX60Af\/2Q==",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F075Z2SRQ6Q\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F075Z2SRQ6Q-7a9ebffecd",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F07699PEC0Z",
+                "created": 1717106216,
+                "timestamp": 1717106216,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U0606SPN4BW",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 147233,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F07699PEC0Z\/image.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F07699PEC0Z\/download\/image.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07699PEC0Z-a6464aa20e\/image_64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07699PEC0Z-a6464aa20e\/image_80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07699PEC0Z-a6464aa20e\/image_360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 144,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07699PEC0Z-a6464aa20e\/image_480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 192,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07699PEC0Z-a6464aa20e\/image_160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07699PEC0Z-a6464aa20e\/image_720.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 288,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07699PEC0Z-a6464aa20e\/image_800.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 320,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07699PEC0Z-a6464aa20e\/image_960.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 384,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07699PEC0Z-a6464aa20e\/image_1024.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 410,
+                "original_w": 1880,
+                "original_h": 752,
+                "thumb_tiny": "AwATADC39ngbrEp\/Cj7JB\/zyX8qlFLQBF9lg\/wCeS\/lR9mg\/55L+VS0h5xQBF9ltz\/yyX8qDaRdkAx6Cph0FGaAEpaSloAKKKKACiiigD\/\/Z",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F07699PEC0Z\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F07699PEC0Z-bf05c2828c",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1717112224.714989",
+        "client_msg_id": "61a13679-d2ef-4bca-b690-3836b7808c18",
+        "thread_ts": "1717101823.329419"
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1717117244.415229",
+        "edited": {
+            "user": "U041RJKV5JA",
+            "ts": "1717120246.000000"
+        },
+        "client_msg_id": "830bd397-af6a-4726-b35f-cf8457eba21d",
+        "text": "<@U0331FZS7JT>\n <@U066P20UQH1> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nジェトロより回答をいただきました。\n海外チームのアドレスへ返信いただいておりましたが、回答内容について確認したいことがありましたのでご報告が遅くなりました。\n【CPTPP (TPP11) 利用時に必要な書類】\n＜原産地証明書＞\n・自己申告制度（輸出者、生産者、輸入者のいずれでも作成可能）\n　~別途原産地証明書を添付する。~（原産地証明書にインボイス番号を記載する事により、原産地証明書との紐付けが出来る。）\n＊回答メールには“インボイスの書面に原産地である旨を記載することもできます”とありますが、誤りで別途原産地証明書の添付が必要となります。\n・輸入する産品の価額が1000米ドル相当以下の場合は、原産地証明書を提示しなくても特恵税率を適用できます。\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1716786046.305079",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YZiFn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nジェトロより回答をいただきました。\n海外チームのアドレスへ返信いただいておりましたが、回答内容について確認したいことがありましたのでご報告が遅くなりました。\n【CPTPP (TPP11) 利用時に必要な書類】\n＜原産地証明書＞\n・自己申告制度（輸出者、生産者、輸入者のいずれでも作成可能）\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "　別途原産地証明書を添付する。",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "（原産地証明書にインボイス番号を記載する事により、原産地証明書との紐付けが出来る。）\n＊回答メールには“インボイスの書面に原産地である旨を記載することもできます”とありますが、誤りで別途原産地証明書の添付が必要となります。\n・輸入する産品の価額が1000米ドル相当以下の場合は、原産地証明書を提示しなくても特恵税率を適用できます。\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nCPTPP（TPP11）利用時の、自己申告制度による原産地証明書サンプルフォームになります。",
+        "files": [
+            {
+                "id": "F075ZMWDSF6",
+                "created": 1717117720,
+                "timestamp": 1717117720,
+                "name": "TPP11_sample_form.xlsx",
+                "title": "TPP11_sample_form.xlsx",
+                "mimetype": "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "filetype": "xlsx",
+                "pretty_type": "Excel Spreadsheet",
+                "user": "U041RJKV5JA",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 17109,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F075ZMWDSF6\/tpp11_sample_form.xlsx?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F075ZMWDSF6\/download\/tpp11_sample_form.xlsx?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "converted_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075ZMWDSF6-fb6741978a\/tpp11_sample_form_converted.pdf?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F075ZMWDSF6-fb6741978a\/tpp11_sample_form_thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 909,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F075ZMWDSF6\/tpp11_sample_form.xlsx",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F075ZMWDSF6-5df25db7ad",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U041RJKV5JA",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6g8Yv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nCPTPP（TPP11）利用時の、自己申告制度による原産地証明書サンプルフォームになります。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1717117728.312839",
+        "client_msg_id": "82c91abd-2be7-4899-9231-29e3a6f98a75",
+        "thread_ts": "1716786046.305079",
+        "parent_user_id": "U0331FZS7JT"
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1717120093.414269",
+        "client_msg_id": "070bd57f-9edb-4e0a-b947-0c96f018a4d9",
+        "text": "<@U041RJKV5JA> <@U066P20UQH1>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n確認ありがとうございます。\n\n&gt; ＜原産地証明書＞\n&gt; ・自己申告制度（輸出者、生産者、輸入者のいずれでも作成可能）\n&gt; 　*別途*原産地証明書を添付する。（原産地証明書にインボイス番号を記載する事により、原産地証明書との紐付けが出来る。）\n上記の意味は*自己申告の原産地証明書*と、\nそれとは別途商工会議所なり、国から発行された原産地証明書が必要ということですか？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1716786046.305079",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2e\/n9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n確認ありがとうございます。\n\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_quote",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "＜原産地証明書＞\n・自己申告制度（輸出者、生産者、輸入者のいずれでも作成可能）\n　"
+                            },
+                            {
+                                "type": "text",
+                                "text": "別途",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "原産地証明書を添付する。（原産地証明書にインボイス番号を記載する事により、原産地証明書との紐付けが出来る。）"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "上記の意味は"
+                            },
+                            {
+                                "type": "text",
+                                "text": "自己申告の原産地証明書",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "と、\nそれとは別途商工会議所なり、国から発行された原産地証明書が必要ということですか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1717120335.677939",
+        "edited": {
+            "user": "U041RJKV5JA",
+            "ts": "1717120379.000000"
+        },
+        "client_msg_id": "b0394312-7592-4d2d-8450-35802e26295c",
+        "text": "<@U0331FZS7JT>\n <@U066P20UQH1> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nすみません。\n入力後消し忘れておりました。\n自己申告での原産地証明書だけで問題ございません。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1716786046.305079",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BovSe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nすみません。\n入力後消し忘れておりました。\n自己申告での原産地証明書だけで問題ございません。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1717123517.068939",
+        "client_msg_id": "49E38ABA-54C2-475B-BABD-A3A7BD574F8F",
+        "text": "<@U0606SPN4BW> <@U066P20UQH1> cc <@U0331FZS7JT>\nこの辺りの進め方について、\n一回MTGしますか！\n\nMTGの日時について、\n来週月曜日6\/3 17:00-19:00\nはいかがでしょうか？\n宜しくお願いします！\n\nーーー\n各々が、いろいろ探りながら、\nどのようなツールが新しく使えそうかテストされている最中かと思いますが、\n途中経過の情報共有を互いにしつつ、\n\n統一できるものは統一して、\nテストが引き続き必要なものはテストを継続するなど、\n\n方向性の目線を合わせられたらと思います。\n\n<@U0606SPN4BW> さん、何度もMTGをスキップしてしまってて申し訳ないです。:sweat_drops:\n\n<@U066P20UQH1>さん、現場みたり、来客対応したり、出張ばかりの中で申し訳ないです。:sweat_drops:\n\nーーーーー\nMTGでは、\n\n⚫︎今までの計画の振り返り\n\n⚫︎その計画を据えた上で、\n流れの中で増えてきた新しいツールの可能性や追加された業務\n\n⚫︎各自がいましていることを共有。\n\n⚫︎上記を踏まえて、\n受注〜出荷までのフローの中で、\n現在、どんな問題点（ボトルネック）があり、\nそれらのツールが、どの点に活用できそうなのか。\n\n⚫︎今後の予定、計画\n\nを会話できたらと思います。\nお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1717101823.329419",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NhaOq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nこの辺りの進め方について、\n一回MTGしますか！\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "MTGの日時について、"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "来週月曜日6\/3"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 17:00-19:00\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "はいかがでしょうか？"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "宜しくお願いします！"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nーーー\n各々が、いろいろ探りながら、\nどのようなツールが新しく使えそうかテストされている最中かと思いますが、\n途中経過の情報共有を互いにしつつ、\n\n統一できるものは統一して、\nテストが引き続き必要なものはテストを継続するなど、\n\n方向性の目線を合わせられたらと思います。\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん、何度もMTGをスキップしてしまってて申し訳ないです。"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sweat_drops",
+                                "unicode": "1f4a6"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "さん、現場みたり、来客対応したり、出張ばかりの中で申し訳ないです。"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sweat_drops",
+                                "unicode": "1f4a6"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nーーーーー\nMTGでは、\n\n⚫︎今までの計画の振り返り\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "⚫︎"
+                            },
+                            {
+                                "type": "text",
+                                "text": "その計画を据えた上で、\n流れの中で増えてきた新しいツールの可能性や追加された業務\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "⚫︎"
+                            },
+                            {
+                                "type": "text",
+                                "text": "各自がいましていることを共有。\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "⚫︎"
+                            },
+                            {
+                                "type": "text",
+                                "text": "上記を踏まえて、\n受注〜出荷までのフローの中で、\n現在、どんな問題点（ボトルネック）があり、\nそれらのツールが、"
+                            },
+                            {
+                                "type": "text",
+                                "text": "どの点に活用できそうなのか。"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "⚫︎"
+                            },
+                            {
+                                "type": "text",
+                                "text": "今後の予定、計画\n\nを会話できたらと思います。\nお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "あり",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "bow",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "よろしくお願いします",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

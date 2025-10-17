@@ -1,0 +1,235 @@
+[
+    {
+        "user": "U03BLQ65GK0",
+        "type": "message",
+        "ts": "1703342380.031409",
+        "client_msg_id": "3e7bf968-79c4-424a-ac22-8bb78a603539",
+        "text": "<@U0331FWGQRM> <@U0331FZS7JT> <@U05KGS6HN9H> <@U041RJKV5JA> <@U033G4KN4TD> <@U0331FZTHEK>\n先日の会議で挙がった、在庫管理表を同時に編集を行うことで記入内容が反映されないという問題について、\nスプレッドシートであれば同時編集を行ってもリアルタイムで反映されるため上記問題が起きないということから、\n下記URLに在庫管理表の内容のスプレッドシートを作成しました。\n使用方法はエクセル版とほぼ同じですが、画面上部にあるスライダーの使用感がエクセルとは異なりますので\nある程度慣れは必要かもしれません。\n恐らく問題なく使用できるとは思いますが、\n誤った計算式が入っていて入力内容が上手く反映できていないこともあるかもしれませんので、\n念のため1週間ぐらいは元のエクセルにも内容反映しておいて下さい。\n月曜日に改めて内容説明します。\nよろしくお願いします。\n<https:\/\/docs.google.com\/spreadsheets\/d\/122UyPuNIA7pux4paHCupjJIOoiLGe8s8ji8QwTheBzQ\/edit?usp=sharing>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "8126b71e44ec",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-04-17\/3403818627748_8126b71e44ec1508fdbd_72.png",
+            "first_name": "daiki",
+            "real_name": "daiki oka",
+            "display_name": "daiki",
+            "team": "T033D70RR6H",
+            "name": "daiki.oka",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1703342380.031409",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1703346070.600249",
+        "reply_users": [
+            "U0331FWGQRM"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1703346070.600249"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1703346070.600249",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gRQtO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n先日の会議で挙がった、在庫管理表を同時に編集を行うことで記入内容が反映されないという問題について、\nスプレッドシートであれば同時編集を行ってもリアルタイムで反映されるため上記問題が起きないということから、\n下記URLに在庫管理表の内容のスプレッドシートを作成しました。\n使用方法はエクセル版とほぼ同じですが、画面上部にあるスライダーの使用感がエクセルとは異なりますので\nある程度慣れは必要かもしれません。\n恐らく問題なく使用できるとは思いますが、\n誤った計算式が入っていて入力内容が上手く反映できていないこともあるかもしれませんので、\n念のため1週間ぐらいは元のエクセルにも内容反映しておいて下さい。\n月曜日に改めて内容説明します。\nよろしくお願いします。\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/docs.google.com\/spreadsheets\/d\/122UyPuNIA7pux4paHCupjJIOoiLGe8s8ji8QwTheBzQ\/edit?usp=sharing"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "eyes",
+                "users": [
+                    "U0331FWGQRM",
+                    "U0331FZS7JT"
+                ],
+                "count": 2
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U033G4KN4TD",
+                    "U0331FZTHEK",
+                    "U05KGS6HN9H"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1703346070.600249",
+        "client_msg_id": "08b1632d-9917-4b23-9737-1cb46933dc70",
+        "text": "<@U03BLQ65GK0> <@U0331FZS7JT> <@U05KGS6HN9H> <@U041RJKV5JA> <@U033G4KN4TD> <@U0331FZTHEK>\n<#C05KEJBJFAB|製造> の上部の関連ページに\nスプレッドシートを貼り付けておきました。\nもし違うチャンネルの方が使用しやすければ削除して、他のところに貼り付けてください。\n\n※スプレッドシートなどのURLを関連チャンネルに貼り付けるのはかなり便利なので、皆さん活用してみてください。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1703342380.031409",
+        "parent_user_id": "U03BLQ65GK0",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nDZuF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "channel",
+                                "channel_id": "C05KEJBJFAB"
+                            },
+                            {
+                                "type": "text",
+                                "text": " の上部の関連ページに\nスプレッドシートを貼り付けておきました。\nもし違うチャンネルの方が使用しやすければ削除して、他のところに貼り付けてください。\n\n※スプレッドシートなどのURLを関連チャンネルに貼り付けるのはかなり便利なので、皆さん活用してみてください。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U03BLQ65GK0"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U03BLQ65GK0",
+                    "U0331FZS7JT",
+                    "U041RJKV5JA",
+                    "U0331FZTHEK"
+                ],
+                "count": 4
+            }
+        ]
+    }
+]

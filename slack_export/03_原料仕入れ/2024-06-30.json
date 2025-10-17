@@ -1,0 +1,138 @@
+[
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1719814658.064369",
+        "client_msg_id": "a024590c-89b0-4529-b729-622cee1d562f",
+        "text": "<!channel>\n鹿児島製茶より有機碾茶Aの納品価格改定の連絡がございました。\n現状7750円→改定後8100円\nまた、有機抹茶は全て碾茶での納品となります。\n理由は、粉砕作業が立て込んでおり、新たな依頼を受けることが出来ない為です。\n取扱商品一覧表の価格を変更しております。\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1719814658.064369",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1719815215.219799",
+        "reply_users": [
+            "U0331FZS7JT"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1719815215.219799"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jJKn0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n鹿児島製茶より有機碾茶Aの納品価格改定の連絡がございました。\n現状7750円→改定後8100円\nまた、有機抹茶は全て碾茶での納品となります。\n理由は、粉砕作業が立て込んでおり、新たな依頼を受けることが出来ない為です。\n取扱商品一覧表の価格を変更しております。\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD",
+                    "U05KGS6HN9H"
+                ],
+                "count": 2
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1719815215.219799",
+        "client_msg_id": "90cf9ab1-15d1-403b-892f-011e1ab47a1e",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nであれば、ある程度事前に仕入れて、粉砕して在庫しなければなりませんね。\n抹茶原価も変更になると思うのでそちらの反映もお願いします。\n例)有機抹茶A¥9,000\/kg→¥8,482\/kg(8,100\/0.99+300)",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1719814658.064369",
+        "parent_user_id": "U041RJKV5JA",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FlU4p",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nであれば、ある程度事前に仕入れて、粉砕して在庫しなければなりませんね。\n抹茶原価も変更になると思うのでそちらの反映もお願いします。\n例)有機抹茶A¥9,000\/kg→¥8,482\/kg(8,100\/0.99+300)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U033G4KN4TD",
+                    "U05KGS6HN9H"
+                ],
+                "count": 3
+            }
+        ]
+    }
+]

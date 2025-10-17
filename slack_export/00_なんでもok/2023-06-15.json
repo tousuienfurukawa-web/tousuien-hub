@@ -1,0 +1,89 @@
+[
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1686876865.176749",
+        "client_msg_id": "2a78c73a-9e6b-463d-9432-58322e76af4c",
+        "text": "<@U0331FZS7JT> 社長\n　CC: <@U041RJKV5JA> 部長 <@U033G4KN4TD> さん\nお疲れ様です。\n本件、下記の通り入金を確認致しました。\nINVOICE\n・TSE-CHS-004_2-23-1　  JPY 16,700\n・TSE-CHS-004_2-23-2　 JPY 135,400\n　　　　計　　　　　　　JPY 152,100\n入金額 [当座預金]　　　　*JPY 130,800*\n差額　　　　　　　　　　  JPY 21,300\n※ご入金いただきましたが、差額が発生しております。\nすみませんが、ご確認お願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1686560700.876379",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "s0G8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\n　CC: "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長 "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\nお疲れ様です。\n本件、下記の通り入金を確認致しました。\nINVOICE\n・TSE-CHS-004_2-23-1　  JPY 16,700\n・TSE-CHS-004_2-23-2　 JPY 135,400\n　　　　計　　　　　　　JPY 152,100\n入金額 [当座預金]　　　　"
+                            },
+                            {
+                                "type": "text",
+                                "text": "JPY 130,800",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n差額　　　　　　　　　　  JPY 21,300\n※ご入金いただきましたが、差額が発生しております。\nすみませんが、ご確認お願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

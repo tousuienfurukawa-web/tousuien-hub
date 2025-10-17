@@ -1,0 +1,265 @@
+[
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1739960368.379459",
+        "client_msg_id": "04bfac78-7a03-4c6b-8225-61be1dbff279",
+        "text": "<@U041RJKV5JA> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:flag-za:南アフリカ向けの植物検疫証明書の取得について\n\n南ア、Monique Standerさんから「植物検疫証明書の取得を\"推奨\"します。取得は可能でしょうか？」と依頼をいただいています。\nつきましては農水省が南ア向けに、検疫証明書を発行しているか確認をお願いできますでしょうか？\n(本来不要な証明書を日本の農水省は発行しないけれども、現地の理解不足で提出を求められるパターンを事前に回避したい。)\nちなみにオーガニック抹茶を検討されています。\nよろしくお願いいたします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "I1ITS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-za",
+                                "unicode": "1f1ff-1f1e6"
+                            },
+                            {
+                                "type": "text",
+                                "text": "南アフリカ向けの植物検疫証明書の取得について\n\n南ア、Monique Standerさんから「植物検疫証明書の取得を\"推奨\"します。取得は可能でしょうか？」と依頼をいただいています。\nつきましては農水省が南ア向けに、検疫証明書を発行しているか確認をお願いできますでしょうか？\n(本来不要な証明書を日本の農水省は発行しないけれども、現地の理解不足で提出を求められるパターンを事前に回避したい。)\nちなみにオーガニック抹茶を検討されています。\nよろしくお願いいたします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "<@U066P20UQH1> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n日本食品衛生協会から検査結果が来ました。\nEU, US, 台湾, 日本　それぞれの国が定めている、\n栄養成分の数値の検査方法および算出方法が異なるようですので、\n上記４エリアそれぞれに使用可能な検査結果を入手しています。\n\nオーストラリアについては、どの数値が使用できるのか分かりませんが、\nとりあえず、何も言わずにUSの検査結果を出しておけば問題ないのかな？と思います。\n\nフォルダ\n検査結果＞栄養成分分析＞栄養成分_抹茶＞20250219_日本食品衛生協会_EU,US,台湾,日本\n\n※全部まとまったPDFで来たので、それぞれ分割しています。（なので重複しています）\n日本語と英語が同じPDFファイルに入っているので、提出する際は、そのまま出しても、\n日本語削除してもどちらでもいいかと思います。",
+        "files": [
+            {
+                "id": "F08E0D13X7U",
+                "created": 1739963445,
+                "timestamp": 1739963445,
+                "name": "Nutritional Analysis Results for US_20250219_AA24-13-07032.pdf",
+                "title": "Nutritional Analysis Results for US_20250219_AA24-13-07032.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U0331FWGQRM",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 545446,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F08E0D13X7U\/nutritional_analysis_results_for_us_20250219_aa24-13-07032.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F08E0D13X7U\/download\/nutritional_analysis_results_for_us_20250219_aa24-13-07032.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F08E0D13X7U-0a11260965\/nutritional_analysis_results_for_us_20250219_aa24-13-07032_thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 909,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F08E0D13X7U\/nutritional_analysis_results_for_us_20250219_aa24-13-07032.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F08E0D13X7U-0ac9fecc2b",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FWGQRM",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GX12D",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n日本食品衛生協会から検査結果が来ました。\nEU, US, 台湾, 日本　それぞれの国が定めている、\n栄養成分の数値の検査方法および算出方法が異なるようですので、\n上記４エリアそれぞれに使用可能な検査結果を入手しています。\n\nオーストラリアについては、どの数値が使用できるのか分かりませんが、\nとりあえず、何も言わずにUSの検査結果を出しておけば問題ないのかな？と思います。\n\nフォルダ\n検査結果＞栄養成分分析＞栄養成分_抹茶＞20250219_日本食品衛生協会_EU,US,台湾,日本\n\n※全部まとまったPDFで来たので、それぞれ分割しています。（なので重複しています）\n日本語と英語が同じPDFファイルに入っているので、提出する際は、そのまま出しても、\n日本語削除してもどちらでもいいかと思います。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1739963465.985069",
+        "client_msg_id": "01fe8ffa-ade4-408e-aaee-1370857119a8",
+        "thread_ts": "1737582217.528839",
+        "parent_user_id": "U066P20UQH1",
+        "reactions": [
+            {
+                "name": "あり",
+                "users": [
+                    "U066P20UQH1",
+                    "U0331FZS7JT"
+                ],
+                "count": 2
+            },
+            {
+                "name": "pray",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1740014404.185739",
+        "client_msg_id": "2bf341be-ecde-4356-9a10-ed6c227cbb62",
+        "text": "<@U0606SPN4BW>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n農林水産省、植物防疫課（山口様）へ確認しました。\n証明発給可否を判断をする上で、相手国側要求を理解する必要があり、\n例えば「現地でお客様が当局に確認した結果、発給を求められた」のであれば、\n先ずその経緯の分かるメールやり取りやHP典拠情報等の情報を、農水省に提示\nして確認してもらう必要があるとのことです。\nその確認結果で発給が必要であれば、発給は可能とのことでした。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vbPYD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n農林水産省、植物防疫課（山口様）へ確認しました。\n証明発給可否を判断をする上で、相手国側要求を理解する必要があり、\n例えば「現地でお客様が当局に確認した結果、発給を求められた」のであれば、\n先ずその経緯の分かるメールやり取りやHP典拠情報等の情報を、農水省に提示\nして確認してもらう必要があるとのことです。\nその確認結果で発給が必要であれば、発給は可能とのことでした。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "eyes",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知-1",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            },
+            {
+                "name": "連絡完了",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

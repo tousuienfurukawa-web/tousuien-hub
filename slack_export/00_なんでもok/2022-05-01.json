@@ -1,0 +1,67 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1651463056.282919",
+        "client_msg_id": "1b7e2861-77ef-40d5-b356-d799b9f1754c",
+        "text": "<@U033G4KN4TD>\nSGSの返答\n吉村（抹茶シール）の誤記訂正の連絡\n\nありがとうございます！！！:raised_hands:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Oj=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nSGSの返答\n吉村（抹茶シール）の誤記訂正の連絡\n\nありがとうございます！！！"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "raised_hands",
+                                "unicode": "1f64c"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "subtype": "channel_name",
+        "user": "U0331FWGQRM",
+        "old_name": "01なんでもok",
+        "name": "00_なんでもok",
+        "text": "チャンネル名を「01なんでもok」から「00_なんでもok」に変更しました",
+        "type": "message",
+        "ts": "1651467834.253719"
+    }
+]

@@ -1,0 +1,203 @@
+[
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1723186901.750769",
+        "edited": {
+            "user": "U05KGS6HN9H",
+            "ts": "1723187173.000000"
+        },
+        "client_msg_id": "e222d470-6321-4217-a548-c4d1c4615c87",
+        "text": "<@U03BLQ65GK0> <@U0331FWGQRM>\nメーカーに確認しましたが、1台で兼用可能はAとB。C或いはDは、それぞれ1台ずつ専用機\nで必要（つまりC用に1台、D用に1台が必要）との回答です。以下で見積取りましょうか？\nパターン①　A\/B兼用\nパターン②　C専用（参考）\nパターン③　D専用（参考）",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1721671264.599029",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8GadG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nメーカーに確認しましたが、1台で兼用可能はAとB。C或いはDは、それぞれ1台ずつ専用機\nで必要（つまりC用に1台、D用に1台が必要）との回答です。以下で見積取りましょうか？\nパターン①　A\/B兼用\nパターン②　C専用（参考）\nパターン③　D専用（参考）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U03BLQ65GK0",
+        "type": "message",
+        "ts": "1723188623.384039",
+        "client_msg_id": "7f29192a-c48e-4f37-8296-3fb4e37e984f",
+        "text": "<@U05KGS6HN9H>\n②と③取っても良いのですが（邪魔にはならないという意味で）、本当は①だけで良いということで良いです？\n（桃翠園としては①で製造を進めていくということで良いですか？）",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "8126b71e44ec",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-04-17\/3403818627748_8126b71e44ec1508fdbd_72.png",
+            "first_name": "daiki",
+            "real_name": "daiki oka",
+            "display_name": "daiki",
+            "team": "T033D70RR6H",
+            "name": "daiki.oka",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1721671264.599029",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LVlIy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n②と③取っても良いのですが（邪魔にはならないという意味で）、本当は①だけで良いということで良いです？\n（桃翠園としては①で製造を進めていくということで良いですか？）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1723190096.758749",
+        "client_msg_id": "a7b3f8cc-44e2-426e-992f-842fa5beef7a",
+        "text": "<@U03BLQ65GK0> <@U05KGS6HN9H> cc <@U0331FZS7JT>\n返信遅くなりすみません。\n1台で全てできるのであれば、\n全種類のアタッチメントが欲しい（見積もりだけでも）と思ったのですが、\n上記の状況を考慮すると、\n購入は今のところ、パターン①　A\/B兼用　だけで良さそうですね。\n\nその上で、\n&gt; 機構的に複雑な交換調整が必要のようで、1台で交換共有は\n&gt; 推奨できず、万一調整が上手くいかなかった場合には、機械破損に繋がる\nこれについて詳しく理解することができれば、\n（いやいや、全然自分達で交換できますやん。ってなれば）\nアタッチメントの交換を自分達で行い、１台で交換共有できるかもしれませんね。\nなぜ、“万一調整が上手くいかなかった場合“の様なことが起こりうるのか、\n今でなくても良いですが、知りたいなと思いました。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1721671264.599029",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LZlQA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n返信遅くなりすみません。\n1台で全てできるのであれば、\n全種類のアタッチメントが欲しい（見積もりだけでも）と思ったのですが、\n上記の状況を考慮すると、\n購入は今のところ、パターン①　A\/B兼用　だけで良さそうですね。\n\nその上で、\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_quote",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "機構的に複雑な交換調整が必要のようで、1台で交換共有は\n推奨できず、万一調整が上手くいかなかった場合には、機械破損に繋がる"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "これについて詳しく理解することができれば、\n（いやいや、全然自分達で交換できますやん。ってなれば）\nアタッチメントの交換を自分達で行い、１台で交換共有できるかもしれませんね。\nなぜ、“万一調整が上手くいかなかった場合“の様なことが起こりうるのか、\n今でなくても良いですが、知りたいなと思いました。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U05KGS6HN9H"
+                ],
+                "count": 1
+            },
+            {
+                "name": "了解です",
+                "users": [
+                    "U03BLQ65GK0"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U03BLQ65GK0"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

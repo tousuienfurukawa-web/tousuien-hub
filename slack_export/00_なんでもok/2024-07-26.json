@@ -1,0 +1,776 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1721978136.130649",
+        "client_msg_id": "31e1ea06-cde1-42cd-906f-4b1fa5ddfca2",
+        "text": "<@U041RJKV5JA>\n＜メモ＞\nスティックの件について、色々とごっちゃになっておりました。:sweat_drops:\n整理いたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1721978136.130649",
+        "reply_count": 4,
+        "reply_users_count": 2,
+        "latest_reply": "1722105680.948899",
+        "reply_users": [
+            "U0331FWGQRM",
+            "U041RJKV5JA"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1721978142.372239"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1721978575.990139"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1721978998.971529"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1722105680.948899"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1722105680.948899",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rN2C3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n＜メモ＞\nスティックの件について、色々とごっちゃになっておりました。"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sweat_drops",
+                                "unicode": "1f4a6"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n整理いたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1721978142.372239",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1721979157.000000"
+        },
+        "client_msg_id": "67b4e448-0df8-43f4-a644-398d734b8167",
+        "text": "*Sebastyan*:flag-ch:\nサイズ　希望　~3.0x10.5~ cm▶︎3.5x10.0 cm\n内容物　2 g\n▶︎静パックでは幅が 2.5 か 3.5しかできない。\n*▶︎上記を伝えたところ、3.5x10.0cmに変更するとのこと。*\n\n*Momatcha*:flag-sa:\nサイズ　希望は未確認。\n内容物　10g\n※静パックは、幅は2.5 or 3.5しか不可とのこと。\n3.5の場合、長さは15cmがminimumとのこと。\n\nよって、3.5x15 cm\n短くしたい場合は、8gにするなどして、短くすることは可能。\n（理論上は12cmになる？できるかどうかはテストして判断）\n▶︎各種サイズのサンプル待ち。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1721978136.130649",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EJPC2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sebastyan",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-ch",
+                                "unicode": "1f1e8-1f1ed",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nサイズ　希望　"
+                            },
+                            {
+                                "type": "text",
+                                "text": "3.0x10.5",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " cm▶︎3.5x10.0 cm\n内容物　2 g\n▶︎静パックでは幅が 2.5 か 3.5しかできない。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "▶︎上記を伝えたところ、3.5x10.0cmに変更するとのこと。",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Momatcha",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-sa",
+                                "unicode": "1f1f8-1f1e6",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nサイズ　希望は未確認。\n内容物　10g\n※静パックは、幅は2.5 or 3.5しか不可とのこと。\n3.5の場合、長さは15cmがminimumとのこと。\n\nよって、3.5x15 cm\n短くしたい場合は、8gにするなどして、短くすることは可能。\n（理論上は12cmになる？できるかどうかはテストして判断）\n▶︎各種サイズのサンプル待ち。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1721978575.990139",
+        "client_msg_id": "1236c864-03ca-4bf2-8781-9c7743144cd5",
+        "text": "<@U0331FWGQRM>\nMomatcha用原料の場合　内容物10gの場合は35mmのみとなります。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1721978136.130649",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "smQiU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nMomatcha用原料の場合　内容物10gの場合は35mmのみとなります。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1721978998.971529",
+        "client_msg_id": "0428c9cf-713d-464f-99c3-774cecbc2420",
+        "text": "*問い合わせ*\n\n・シールドラボ\n▶︎微粉末の場合、造粒（ぞうりゅう）が必要とのこと。\n　水を吹きつけて固まらせる（デキストリンなどを含む）\nその技術の一種で、サイクロデキストリンというものがあり、これはSebastyanに今後提案できそう。要テスト。\n溶解性が増すとのこと。難消化性のデキストリンらしくカロリーは低いとのこと。具体的な数字は不明。\n\n・アルテクノ工業\n▶︎微粉末の場合、造粒（ぞうりゅう）が必要とのこと。68%くらいのアルコールで造立するらしい。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1721978136.130649",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OFBXt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "問い合わせ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n・シールドラボ\n▶︎微粉末の場合、造粒（ぞうりゅう）が必要とのこと。\n　水を吹きつけて固まらせる（デキストリンなどを含む）\nその技術の一種で、サイクロデキストリンというものがあり、これはSebastyanに今後提案できそう。要テスト。\n溶解性が増すとのこと。難消化性のデキストリンらしくカロリーは低いとのこと。具体的な数字は不明。\n\n・アルテクノ工業\n▶︎微粉末の場合、造粒（ぞうりゅう）が必要とのこと。68%くらいのアルコールで造立するらしい。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n本日、サンプルAL-8→清和10349へ詰替えを行いました。\nよろしくお願いします。",
+        "files": [
+            {
+                "id": "F07EK3SNH0R",
+                "created": 1721981167,
+                "timestamp": 1721981167,
+                "name": "S__214368267.jpg",
+                "title": "S__214368267.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U033G4KN4TD",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 206971,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F07EK3SNH0R\/s__214368267.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F07EK3SNH0R\/download\/s__214368267.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07EK3SNH0R-d6c5dc5c17\/s__214368267_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07EK3SNH0R-d6c5dc5c17\/s__214368267_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07EK3SNH0R-d6c5dc5c17\/s__214368267_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 208,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07EK3SNH0R-d6c5dc5c17\/s__214368267_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 277,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07EK3SNH0R-d6c5dc5c17\/s__214368267_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07EK3SNH0R-d6c5dc5c17\/s__214368267_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 415,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07EK3SNH0R-d6c5dc5c17\/s__214368267_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 461,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07EK3SNH0R-d6c5dc5c17\/s__214368267_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 553,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07EK3SNH0R-d6c5dc5c17\/s__214368267_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 590,
+                "original_w": 1197,
+                "original_h": 690,
+                "thumb_tiny": "AwAbADBsXMi5q3xxwKrRRt8rjH41KPMODhP1oAkwueg\/Kj5d3QdPSmZkxnCdPU0mZBliq9PWgBk+AwwMcVETUsiO53YAwPWmNC4BJx+dICeAfu1+lOHCZ9qpKxx1P507ccYyfzpgW\/4Pwof7jfSqRd+m44+tLvfGNxx9aALh+6fpSkcH6VT81+m40CaTpuNAH\/\/Z",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F07EK3SNH0R\/s__214368267.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F07EK3SNH0R-011a480fbd",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U033G4KN4TD",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wz8hn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日、サンプルAL-8→清和10349へ詰替えを行いました。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1721981227.907489",
+        "client_msg_id": "53c65bd7-fb2b-40cb-aace-6d6212df5020",
+        "thread_ts": "1717593183.215839",
+        "parent_user_id": "U0331FWGQRM",
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U041RJKV5JA",
+                    "U0331FZS7JT",
+                    "U05KGS6HN9H",
+                    "U0331FWGQRM"
+                ],
+                "count": 4
+            },
+            {
+                "name": "了解しました-1",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            },
+            {
+                "name": "あり",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "pray",
+                "users": [
+                    "U066P20UQH1",
+                    "U0331FWGQRM"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1721984634.382609",
+        "client_msg_id": "0eb1480f-8b78-4cc7-b665-8f04b8adfc0a",
+        "text": "<@U033G4KN4TD>\nこれラベルって全部貼っちゃってますか？\n本来白の袋に変えることよりも、ラベルの内容に価格が記載されているとわかりやすいからついでに袋も白くしましょうかっていう感じだったと思うんですけど・・・・",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1717593183.215839",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IaMeb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nこれラベルって全部貼っちゃってますか？\n本来白の袋に変えることよりも、ラベルの内容に価格が記載されているとわかりやすいからついでに袋も白くしましょうかっていう感じだったと思うんですけど・・・・"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1721996369.443249",
+        "client_msg_id": "5DDB65E2-4C45-4355-BF32-FCF0E188F1CB",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani> \nやりながら微調整していきましょう。\n価格と言っても、\n缶あたりなのか、\nキロあたりなのかで違うので、\nグラムは書いても書いてなくてもいいと思うので、グラムを削除して、（あった方がいいですかね？:sweat_drops:）\nその空欄部分に価格を毎回手書きとかでもいいかもしれないですね！\n\nこれも、一案なので、やりながら決めていきましょう！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1717593183.215839",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VQtdE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \nやりながら微調整していきましょう。\n価格と言っても、\n缶あたりなのか、\nキロあたりなのかで違うので、\nグラムは書いても書いてなくてもいいと思うので、グラムを削除して、（あった方がいいですかね？"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sweat_drops",
+                                "unicode": "1f4a6"
+                            },
+                            {
+                                "type": "text",
+                                "text": "）\nその空欄部分に価格を毎回手書きとかでもいいかもしれないですね！\n\nこれも、一案なので、やりながら決めていきましょう！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "eyes",
+                "users": [
+                    "U066P20UQH1",
+                    "U0606SPN4BW"
+                ],
+                "count": 2
+            },
+            {
+                "name": "face_with_rolling_eyes",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD",
+                    "U041RJKV5JA"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1721998981.087339",
+        "client_msg_id": "c9620bbb-051d-4242-aa99-800bd4678a2f",
+        "text": "<@U0331FZTHEK>\n念の為の確認なのですが、\nメールでPaidの請求のメールがよく来てるのですが、\nPaidの支払いってされてます？？\n（シールのGraphicの支払いだと思います）\n\n<https:\/\/paid.jp\/v\/do\/member\/index>\nID : <mailto:matsui@tousuien.jp|matsui@tousuien.jp>\nPW : tousuien10",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1721998981.087339",
+        "reply_count": 3,
+        "reply_users_count": 2,
+        "latest_reply": "1722211454.197739",
+        "reply_users": [
+            "U0331FZTHEK",
+            "U0331FWGQRM"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1722207098.638969"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1722210881.273329"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1722211454.197739"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1722211454.197739",
+        "attachments": [
+            {
+                "from_url": "https:\/\/paid.jp\/v\/do\/member\/index",
+                "service_icon": "https:\/\/paid.jp\/s\/favicon.ico",
+                "id": 1,
+                "original_url": "https:\/\/paid.jp\/v\/do\/member\/index",
+                "fallback": "ログイン｜BtoB後払い\/企業間決済・請求代行「Paid（ペイド）」",
+                "text": "BtoB後払い\/企業間決済・請求代行Paid[ペイド]のログインページです。",
+                "title": "ログイン｜BtoB後払い\/企業間決済・請求代行「Paid（ペイド）」",
+                "title_link": "https:\/\/paid.jp\/v\/do\/member\/index",
+                "service_name": "paid.jp"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "760q+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n念の為の確認なのですが、\nメールでPaidの請求のメールがよく来てるのですが、\nPaidの支払いってされてます？？\n（シールのGraphicの支払いだと思います）\n\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/paid.jp\/v\/do\/member\/index"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nID : "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:matsui@tousuien.jp",
+                                "text": "matsui@tousuien.jp"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nPW : tousuien10"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1721999522.544089",
+        "client_msg_id": "34e263a1-e197-46fb-85b8-b9b45633299b",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n情報共有も兼ねて、\n*“Pulltop缶の蓋のシール（シリコン）部分がEUの食品衛生規格上問題ないかどうか“という問題*\nが昔から言われているのですが、\n（※奥村製缶はそれをクリアする為に、わざわざ缶の蓋部分を改良しています。つまりシール部分はEUのルールをクリアできないのです。）\n\n私的には、Pulltop缶については、食品に直接触れている部分については、\nステンレス（アルミ？）のみなので、\n衛生上全く問題ない。開封後Pulltop缶内で抹茶を保管するかどうかは、\nお客様の勝手。という解釈をしております。（完全に私の個人的な解釈です）\n\n今回、Ossu tea様から、本件のMSSDの様なものを要求されております。\nそして、Seal部分についても言及されています。\nまさに、今までふわっとしていた問題に直面してしまいました。。。w\n\nまた進捗報告します。\n私の対応と、Ossu teaのDavidからの返信を載せておきます。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1720628950.616259",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bXKyX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n情報共有も兼ねて、\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "“Pulltop缶の蓋のシール（シリコン）部分がEUの食品衛生規格上問題ないかどうか“という問題",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nが昔から言われているのですが、\n（※奥村製缶はそれをクリアする為に、わざわざ缶の蓋部分を改良しています。つまりシール部分はEUのルールをクリアできないのです。）\n\n私的には、Pulltop缶については、食品に直接触れている部分については、\nステンレス（アルミ？）のみなので、\n衛生上全く問題ない。開封後Pulltop缶内で抹茶を保管するかどうかは、\nお客様の勝手。という解釈をしております。（完全に私の個人的な解釈です）\n\n今回、Ossu tea様から、本件のMSSDの様なものを要求されております。\nそして、Seal部分についても言及されています。\nまさに、今までふわっとしていた問題に直面してしまいました。。。w\n\nまた進捗報告します。\n私の対応と、Ossu teaのDavidからの返信を載せておきます。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "eyes",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1721999611.588499",
+        "client_msg_id": "319e0ff0-9a49-43f8-ac0c-650c4dcbf62e",
+        "text": "（私）\n現在、缶の製造元に確認中で、まだ書類を入手しておりません。遅れていることをお詫び申し上げます。\n質問が一つあります：この製品はプルトップ缶に入っているので、シール部分が食品に直接触れることはなく、それゆえに関係ないと考えています。もしシール部分のデータが要求された場合、EUの基準に適合しない可能性があります。\nその場合、内部構造が若干変わりますが、別の缶を供給することは可能です。\nいずれにせよ、もう少しお待ちください。お待たせして申し訳ありません。\n\n（David）\n了解しました。彼らが言っているシールとは、缶の密封方法のことかもしれませんが、正確な意味は100%はっきりしません。\nあまり心配する必要はないと思いますが、缶が食品を入れるのに適していることを示す書類を手に入れることができれば、大丈夫だと思います。\n人間が消費する食品を安全に収納できることを確認する何か書類があれば、それで十分です。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1720628950.616259",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+rOA+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "（私）\n現在、缶の製造元に確認中で、まだ書類を入手しておりません。遅れていることをお詫び申し上げます。\n質問が一つあります：この製品はプルトップ缶に入っているので、シール部分が食品に直接触れることはなく、それゆえに関係ないと考えています。もしシール部分のデータが要求された場合、EUの基準に適合しない可能性があります。\nその場合、内部構造が若干変わりますが、別の缶を供給することは可能です。\nいずれにせよ、もう少しお待ちください。お待たせして申し訳ありません。\n\n（David）\n了解しました。彼らが言っているシールとは、缶の密封方法のことかもしれませんが、正確な意味は100%はっきりしません。\nあまり心配する必要はないと思いますが、缶が食品を入れるのに適していることを示す書類を手に入れることができれば、大丈夫だと思います。\n人間が消費する食品を安全に収納できることを確認する何か書類があれば、それで十分です。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "eyes",
+                "users": [
+                    "U066P20UQH1",
+                    "U0331FZS7JT",
+                    "U0606SPN4BW"
+                ],
+                "count": 3
+            }
+        ]
+    }
+]

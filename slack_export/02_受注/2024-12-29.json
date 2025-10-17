@@ -1,0 +1,71 @@
+[
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1735479400.636759",
+        "client_msg_id": "77c26077-a416-4a02-85e7-219e1f29d2de",
+        "text": "<@U041RJKV5JA> <@U066P20UQH1> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n先方から以下、機関名と住所の確認が取れました。\nお手続きをよろしくお願いいたします！\n\n当局の機関名：\nOffice National de Sécurité Sanitaire des Produits Alimentaires\n\n同住所：\nDirection Régionale de l'ONSSA de Casablanca\n43, Rue Nichakra Rahal\n20250 Casablanca, Maroc.",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1732166162.914439",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jHQ64",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n先方から以下、機関名と住所の確認が取れました。\nお手続きをよろしくお願いいたします！\n\n当局の機関名：\nOffice National de Sécurité Sanitaire des Produits Alimentaires\n\n同住所：\nDirection Régionale de l'ONSSA de Casablanca\n43, Rue Nichakra Rahal\n20250 Casablanca, Maroc."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

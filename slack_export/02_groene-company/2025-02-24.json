@@ -1,0 +1,153 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1740460282.963159",
+        "client_msg_id": "3e4bb352-a87e-433c-a344-c0e98cfba076",
+        "text": "<@U0331FZTHEK>\n支払いされたそうなので、入金確認できたら教えてください。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1737633277.810889",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TWJ6j",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n支払いされたそうなので、入金確認できたら教えてください。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "確認致します",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "<!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n原料（ひかわ）で納期予定に進展がありましたので、情報を\n更新共有致します。\n\n・国産有機ほうじ茶（リーフ）　不足6.23kg\n　→入荷予定　2\/27\n・国産有機ほうじ茶パウダー　不足~34.54~kg　不足39.545kg\n　→入荷予定　3\/5（30kg）、3\/17（20kg）",
+        "files": [
+            {
+                "id": "F08ETHM1XK7",
+                "created": 1740466595,
+                "timestamp": 1740466595,
+                "name": "20250225時点概要状況.pdf",
+                "title": "20250225時点概要状況.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U05KGS6HN9H",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 456800,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F08ETHM1XK7\/20250225__________________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F08ETHM1XK7\/download\/20250225__________________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F08ETHM1XK7-476af06a94\/20250225___________________thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 2180,
+                "thumb_pdf_h": 1542,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F08ETHM1XK7\/20250225__________________.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F08ETHM1XK7-5f70b574d7",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U05KGS6HN9H",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3MjZN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n原料（ひかわ）で納期予定に進展がありましたので、情報を\n更新共有致します。\n\n・国産有機ほうじ茶（リーフ）　不足6.23kg\n　→入荷予定　2\/27\n・国産有機ほうじ茶パウダー　不足"
+                            },
+                            {
+                                "type": "text",
+                                "text": "34.54",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "kg　不足39.545kg\n　→入荷予定　3\/5（30kg）、3\/17（20kg）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1740466603.828679",
+        "edited": {
+            "user": "U05KGS6HN9H",
+            "ts": "1740570181.000000"
+        },
+        "client_msg_id": "d1676f62-802d-4449-aaeb-c06894d522ce",
+        "thread_ts": "1739933418.597969",
+        "parent_user_id": "U0331FWGQRM",
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

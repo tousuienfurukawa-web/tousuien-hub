@@ -1,0 +1,236 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1678270742.800659",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1678270763.000000"
+        },
+        "client_msg_id": "e44b5e50-960d-4cd6-8ed9-1fbc7b174c0f",
+        "text": "<@U041RJKV5JA> <!channel>\nお疲れ様です。\nウクライナから注文がありましたので、\nインボイス・パッキングリスト完成の上、\n出荷可能日を教えてください。\n※Mr.Ivashchenko→2023→第６回\n※缶は在庫あるはずです。\n\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1678270742.800659",
+        "reply_count": 7,
+        "reply_users_count": 3,
+        "latest_reply": "1678662580.884519",
+        "reply_users": [
+            "U033G4KN4TD",
+            "U0331FZS7JT",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1678327325.212089"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1678330590.095419"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1678404948.502499"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1678415097.856379"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1678461609.465139"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1678489318.948259"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1678662580.884519"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VBF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nお疲れ様です。\nウクライナから注文がありましたので、\nインボイス・パッキングリスト完成の上、\n出荷可能日を教えてください。\n※Mr.Ivashchenko→2023→第６回\n※缶は在庫あるはずです。\n\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U041RJKV5JA",
+                    "U033G4KN4TD"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1678327325.212089",
+        "client_msg_id": "8505fed6-16b9-4a6b-91b6-b6033e4d1f15",
+        "text": "<@U0331FZS7JT> 社長\nCC：<@U041RJKV5JA> 部長\n\nお疲れ様です。\nインボイス・パッキングリスト完成致しました。\n出荷可能日：3\/10(金)\nよろしくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1678270742.800659",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Kgt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nCC："
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n\nお疲れ様です。\nインボイス・パッキングリスト完成致しました。\n出荷可能日：3\/10(金)\nよろしくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1678330590.095419",
+        "client_msg_id": "7A1861DE-608A-4E21-A461-6D8DCA03E81C",
+        "text": "<@U033G4KN4TD> <@U041RJKV5JA> \n\n了解です！ありがとうございます！\n１回目の振込があるまで、\n発送しなくて大丈夫なので！\n\nまた改めてお伝えしますね！\nよろしくお願いします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1678270742.800659",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dBjD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \n\n了解です！ありがとうございます！\n１回目の振込があるまで、\n発送しなくて大丈夫なので！\n\nまた改めてお伝えしますね！\nよろしくお願いします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

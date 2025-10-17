@@ -1,0 +1,82 @@
+[
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1749209587.386389",
+        "client_msg_id": "ab541992-01c2-4a85-bec9-7e3158a1a90d",
+        "text": "<@U041RJKV5JA> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n修正いただいたデータを共有させていただきます。\nお手数ですが、ご確認・再申請をよろしくお願いします！\n\n\n*ファイル内を確認したところ、データ上は下限をクリアしています。 ＾＾；\n\n・高さ 9 ㎜×幅13.5 ㎜ ← データ上はピッタリこの寸法です。\n・マークの周囲は縦の長さの 1\/10 の幅を余白とする ← 1mmあるのでOKそう。\n\n\n▼申請時の情報\n```・商品名: RINALYA HOJICHA\n・内容量：80g\n・包材：缶```\n以上、よろしくお願いいたします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1749047373.943369",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NY\/I8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n修正いただいたデータを共有させていただきます。\nお手数ですが、ご確認・再申請をよろしくお願いします！\n\n\n*ファイル内を確認したところ、データ上は下限をクリアしています。 ＾＾；\n\n・高さ 9 ㎜×幅13.5 ㎜ ← データ上はピッタリこの寸法です。\n・マークの周囲は縦の長さの 1\/10 の幅を余白とする ← 1mmあるのでOKそう。\n\n\n▼申請時の情報\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "・商品名: RINALYA HOJICHA\n・内容量：80g\n・包材：缶"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n以上、よろしくお願いいたします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

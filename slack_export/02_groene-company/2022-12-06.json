@@ -1,0 +1,150 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1670374574.523969",
+        "client_msg_id": "143f3a05-ad0f-437b-bbcd-a962f73e5f1c",
+        "text": "<@U041RJKV5JA>\n<!channel>\n\n下記注文が入りました。\n*TSE035-22ｶﾅﾀﾞBangoshi Tea*\n※今回もラベル無しです。\n※発送可能日を教えてください。\n\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1670374574.523969",
+        "reply_count": 5,
+        "reply_users_count": 3,
+        "latest_reply": "1670648430.936849",
+        "reply_users": [
+            "U041RJKV5JA",
+            "U0331FWGQRM",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1670375758.710479"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1670425557.286549"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1670501062.443949"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1670624104.212029"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1670648430.936849"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1670648430.936849",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wG9R",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n下記注文が入りました。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE035-22ｶﾅﾀﾞBangoshi Tea",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n※今回もラベル無しです。\n※発送可能日を教えてください。\n\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1670375758.710479",
+        "client_msg_id": "836005a4-935a-4c6d-adb5-8142126d7558",
+        "text": "<@U0331FWGQRM>\n発送可能日ですが、\n8日中迄に入金確認ができれば、9日発送が可能です。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1670374574.523969",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dPn\/f",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n発送可能日ですが、\n8日中迄に入金確認ができれば、9日発送が可能です。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,134 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1749829150.614759",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1749829176.000000"
+        },
+        "client_msg_id": "487e0721-3f49-417a-bf73-209880d13aef",
+        "text": "<@U041RJKV5JA> <@U08U8MMTH43>\nお客様からラベルを大きくして欲しいと依頼ありました。\n大きいラベルversionで再度撮影願います。よろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1749617141.831989",
+        "parent_user_id": "U08U8MMTH43",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "93yGw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U08U8MMTH43"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nお客様からラベルを大きくして欲しいと依頼ありました。\n大きいラベルversionで再度撮影願います。よろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1749834843.718379",
+        "client_msg_id": "63cbcba6-d050-4060-add0-34217f21e203",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nSebastyanの袋とsachetのフィルムロールの在庫管理ってどこでしてますか？\n在庫を聞かれております。宜しくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1749834843.718379",
+        "reply_count": 3,
+        "reply_users_count": 2,
+        "latest_reply": "1750204152.121659",
+        "reply_users": [
+            "U041RJKV5JA",
+            "U0331FWGQRM"
+        ],
+        "replies": [
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1750067318.141199"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1750165977.394729"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1750204152.121659"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1750219994.841062",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9EV0L",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nSebastyanの袋とsachetのフィルムロールの在庫管理ってどこでしてますか？\n在庫を聞かれております。宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1751522808.029249",
+        "client_msg_id": "23cf321d-e3a9-4d76-92ad-181d683e7297",
+        "text": "<@U08RVRNBY00>\n林さんの画面に映っているスプレッドシートです\n<https:\/\/docs.google.com\/spreadsheets\/d\/18MEmTbufMzD7xGD8-J8NyjvnoymQARiG4o7T1taPGfY\/edit?gid=1241715023#gid=1241715023>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1750316037.788359",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ug1b6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U08RVRNBY00"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n林さんの画面に映っているスプレッドシートです\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/docs.google.com\/spreadsheets\/d\/18MEmTbufMzD7xGD8-J8NyjvnoymQARiG4o7T1taPGfY\/edit?gid=1241715023#gid=1241715023"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

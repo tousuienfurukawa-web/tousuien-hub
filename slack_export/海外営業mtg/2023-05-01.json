@@ -1,0 +1,120 @@
+[
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1682996788.368599",
+        "client_msg_id": "0ce6d168-bea0-4ed9-87bd-cf6398d2e598",
+        "text": "<!channel>\n本日の営業会議ですが、海外チームからの報告事項はございません。\nスキップでよろしいでしょうか？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1682996788.368599",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1682997670.656949",
+        "reply_users": [
+            "U0331FWGQRM"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1682997670.656949"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1682997670.656949",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "duQB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日の営業会議ですが、海外チームからの報告事項はございません。\nスキップでよろしいでしょうか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1682997670.656949",
+        "client_msg_id": "2CE35806-A62B-4345-8AC8-ACC2A95794E1",
+        "text": "<@U041RJKV5JA> \n今回はスキップで大丈夫です。\n\nメモ程度でいいので、海外営業mtgのスレッドに報告事項や情報共有すべきことは、\nその都度メモとして残してください。\n海外営業mtgのスレッドはメモとして使用して頂いて大丈夫です。\n受注情報やサンプル出荷情報については、こちらからその都度連絡してますが、\n\n船便の出荷ついてや、\n台湾向けの注文、\nドイツ向けの注文\nneels様の注文\n\nなど、海外輸出の事務における知見というのはその都度溜まっているはずです。\n\n事務以外にも、製造における課題、\n前回のmtgで出た課題の進捗（原料の準備に手が取られているなど）\nも報告事項としてあると思います。\n\n次回からはその辺も意識して頂けると有意義な会議ができるかと思います。\n\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1682996788.368599",
+        "parent_user_id": "U041RJKV5JA",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Z0ml",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \n今回はスキップで大丈夫です。\n\nメモ程度でいいので、海外営業mtgのスレッドに報告事項や情報共有すべきことは、\nその都度メモとして残してください。\n海外営業mtgのスレッドはメモとして使用して頂いて大丈夫です。\n受注情報やサンプル出荷情報については、こちらからその都度連絡してますが、\n\n船便の出荷ついてや、\n台湾向けの注文、\nドイツ向けの注文\nneels様の注文\n\nなど、海外輸出の事務における知見というのはその都度溜まっているはずです。\n\n事務以外にも、製造における課題、\n前回のmtgで出た課題の進捗（原料の準備に手が取られているなど）\nも報告事項としてあると思います。\n\n次回からはその辺も意識して頂けると有意義な会議ができるかと思います。\n\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            },
+            {
+                "name": "eyes",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

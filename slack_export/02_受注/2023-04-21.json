@@ -1,0 +1,454 @@
+[
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1682066904.728449",
+        "client_msg_id": "2b774a48-c6eb-4e05-b57e-b3465f913fda",
+        "text": "<@U0331FZS7JT> 社長\nCC：<@U041RJKV5JA> 部長<@U0331FZTHEK> さん\n\nお疲れ様です。\nペガサスは基本土曜日に集荷依頼できないので、\n4\/24(月)に出荷させていただきたいのですが、\nよろしいでしょうか？\nよろしく御願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1681888967.558929",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "i5mI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nCC："
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\n\nお疲れ様です。\nペガサスは基本土曜日に集荷依頼できないので、\n4\/24(月)に出荷させていただきたいのですが、\nよろしいでしょうか？\nよろしく御願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "man-gesturing-ok",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1682067371.860129",
+        "client_msg_id": "eb35d10a-ac75-4ac9-a8fa-5c026e9f25f6",
+        "text": "<@U0331FZS7JT> 社長\n　CC: <@U041RJKV5JA> 部長 <@U033G4KN4TD> さん\nお疲れ様です。\n本件、入金を確認致しました。\n・4\/21 [PayPal]\n・449.00 USD\n回収(入金)処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1681888967.558929",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "J1Bi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\n　CC: "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長 "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\nお疲れ様です。\n本件、入金を確認致しました。\n・4\/21 [PayPal]\n・449.00 USD\n回収(入金)処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "入金完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1682069517.074729",
+        "client_msg_id": "30d9175a-3774-4115-ae0c-07aae18d29d9",
+        "text": "<@U041RJKV5JA> <!channel>\nシンガポール Sean様から注文です。\n原料は社長が注文してくださっています。\n\nNon organic sencha Grade F-1：16kg（4\/22土　着）\nNon organic sencha Grade D：4kg（4\/24月　着）\n\n添付するinvoiceの金額は安い方でお願いします。\nUSD80の方。\n\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1682069517.074729",
+        "reply_count": 9,
+        "reply_users_count": 5,
+        "latest_reply": "1682916895.647629",
+        "reply_users": [
+            "U0331FWGQRM",
+            "U0331FZTHEK",
+            "U041RJKV5JA",
+            "U033G4KN4TD",
+            "U0331FZS7JT"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1682072740.375779"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1682118381.145889"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1682145996.846179"
+            },
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1682322053.397629"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1682654755.966949"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1682670713.573179"
+            },
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1682915113.288169"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1682916391.139819"
+            },
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1682916895.647629"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1682916895.647629",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "B3eB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nシンガポール Sean様から注文です。\n原料は社長が注文してくださっています。\n\nNon organic sencha Grade F-1：16kg（4\/22土　着）\nNon organic sencha Grade D：4kg（4\/24月　着）\n\n添付するinvoiceの金額は安い方でお願いします。\nUSD80の方。\n\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            },
+            {
+                "name": "出荷完了",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1682072740.375779",
+        "client_msg_id": "F81B8038-4C22-4293-A3D2-9DE5B156104B",
+        "text": "<@U041RJKV5JA> \n送り先は下記先でお願いします\n\nName:\nNoordin Imam\n\nContact:\n<tel:+6590079804|+65 9007 9804>\n\n（もし電話番号を二つ入れられるならこれもおねがいします　<tel:+6596195725|+65 9619 5725> ）\n\nAddress:\nBLK 972 Hougang Street 91 #03-190\nSingapore 530972",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1682069517.074729",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QFU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \n送り先は下記先でお願いします\n\nName:\nNoordin Imam\n\nContact:\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:+6590079804",
+                                "text": "+65 9007 9804"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n（もし電話番号を二つ入れられるならこれもおねがいします　"
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:+6596195725",
+                                "text": "+65 9619 5725"
+                            },
+                            {
+                                "type": "text",
+                                "text": " ）\n\nAddress:\nBLK 972 Hougang Street 91 #03-190\nSingapore 530972"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1682118381.145889",
+        "client_msg_id": "ba3c0150-2ffc-46bf-9024-06c902252143",
+        "text": "<@U0331FWGQRM> 執行役\n　CC: <@U041RJKV5JA> 部長 <@U033G4KN4TD> さん\nおはようございます。\n本件、入金を確認致しました。\n・4\/21 [PayPal]\n・621.98 USD\n回収(入金)処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1682069517.074729",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lyl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\n　CC: "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長 "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\nおはようございます。\n本件、入金を確認致しました。\n・4\/21 [PayPal]\n・621.98 USD\n回収(入金)処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1682145996.846179",
+        "client_msg_id": "9d39014e-22f3-4eb6-85b2-59e7338bac75",
+        "text": "<@U0331FWGQRM> 執行役\nお疲れ様です。\n4月25日（火）に発送します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1682069517.074729",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JJA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\nお疲れ様です。\n4月25日（火）に発送します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

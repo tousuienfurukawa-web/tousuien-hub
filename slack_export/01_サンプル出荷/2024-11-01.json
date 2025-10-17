@@ -1,0 +1,315 @@
+[
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1730461615.957109",
+        "client_msg_id": "8ca0f00f-32de-4d0a-9542-50390b6e597b",
+        "text": "<@U05KGS6HN9H>\nこちらキャンセルでお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1728699838.985119",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hk0dx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nこちらキャンセルでお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "連絡完了",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1730465083.394529",
+        "client_msg_id": "91e9536b-8346-49a7-bf3a-479bd0198fa9",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:flag-au:オーストラリア Prin Glanville様からサンプル注文を頂きました。\n*TSE-PRN-SPL-001-24* ",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1730465083.394529",
+        "reply_count": 4,
+        "reply_users_count": 3,
+        "latest_reply": "1730877510.832799",
+        "reply_users": [
+            "U0606SPN4BW",
+            "U0331FZTHEK",
+            "U05KGS6HN9H"
+        ],
+        "replies": [
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1730465133.096509"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1730760631.801929"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1730775316.493089"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1730877510.832799"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1730877510.832799",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yodVX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-au",
+                                "unicode": "1f1e6-1f1fa"
+                            },
+                            {
+                                "type": "text",
+                                "text": "オーストラリア Prin Glanville様からサンプル注文を頂きました。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-PRN-SPL-001-24 ",
+                                "style": {
+                                    "bold": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U05KGS6HN9H",
+                    "U041RJKV5JA"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1730465133.096509",
+        "edited": {
+            "user": "U0606SPN4BW",
+            "ts": "1730465147.000000"
+        },
+        "client_msg_id": "21c32b7f-7c68-43ff-8b35-2c7371302587",
+        "text": "下記へ発送手続き、および発送日のお知らせをお願いします！\n\n\n<@U0331FZTHEK> 入金確認済 (PayPal ), 回収処理をお願いします！\n\n\n▼サンプル内容 (計 6点)\n<各20g>\nOrganic Matcha Upper - 1 鹿児島製茶 (鹿児島 A)\nOrganic Matcha Upper - 2 鹿児島製茶 (鹿児島 1A)\nOrganic Matcha Middle - 1 鹿児島製茶 (鹿児島 B)\nOrganic Matcha Middle - 2 鹿児島製茶 (鹿児島 C)\nOrganic Matcha Regular - 1 鹿児島製茶 (鹿児島D)\nOrganic Matcha Regular - 2 まるゑい (有機抹茶3000)\n\n\n袋指定なし、\nエージレス無し、\n品名ラベル貼り。\n価格表示：なし\n\n\n発送:DHL\n\n\n-----------------------------\nName: Prin Glanville\nAddress: 28 Edinburgh Dr, SKYE, VIC, 3977, Australia\nZip code: 3977\nPhone: <tel:+61432357619|+61 432 357 619>\ne-mail: <mailto:prin_glanville@hotmail.com|prin_glanville@hotmail.com>\n-----------------------------",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1730465083.394529",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Pr6Zi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "下記へ発送手続き、および発送日のお知らせをお願いします！\n\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 入金確認済 (PayPal ), 回収処理をお願いします！\n\n\n▼サンプル内容 (計 6点)\n<各20g>\nOrganic Matcha Upper - 1 鹿児島製茶 (鹿児島 A)\nOrganic Matcha Upper - 2 鹿児島製茶 (鹿児島 1A)\nOrganic Matcha Middle - 1 鹿児島製茶 (鹿児島 B)\nOrganic Matcha Middle - 2 鹿児島製茶 (鹿児島 C)\nOrganic Matcha Regular - 1 鹿児島製茶 (鹿児島D)\nOrganic Matcha Regular - 2 まるゑい (有機抹茶3000)\n\n\n袋指定なし、\nエージレス無し、\n品名ラベル貼り。\n価格表示：なし\n\n\n発送:DHL\n\n\n-----------------------------\nName: Prin Glanville\nAddress: 28 Edinburgh Dr, SKYE, VIC, 3977, Australia\nZip code: 3977\nPhone: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:+61432357619",
+                                "text": "+61 432 357 619"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\ne-mail: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:prin_glanville@hotmail.com",
+                                "text": "prin_glanville@hotmail.com"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n-----------------------------"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1730486190.694769",
+        "client_msg_id": "9786dd2d-d6fc-4b1d-a164-208f26c6b09c",
+        "text": "<@U041RJKV5JA> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nDHLで発送手続きを完了しましたので共有します！\n\nAWB:\nHL983553130JB",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1730397751.024059",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DeY1L",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nDHLで発送手続きを完了しましたので共有します！\n\nAWB:\nHL983553130JB"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "売上完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

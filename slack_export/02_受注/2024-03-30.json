@@ -1,0 +1,182 @@
+[
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1711782799.864029",
+        "client_msg_id": "42c42d0b-f811-49be-afc4-d758845dbf5d",
+        "text": "<@U0331FZS7JT>\nエクセルシート発送用INVOICEで、隠された行に\n数値が残っており、縦合計金額が一致しない為、\n金額修正のシートを作成し修正しております。\n（訂正前USD109.74→訂正後USD105.39）\nご確認お願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1711728380.841809",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1DZIl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nエクセルシート発送用INVOICEで、隠された行に\n数値が残っており、縦合計金額が一致しない為、\n金額修正のシートを作成し修正しております。\n（訂正前USD109.74→訂正後USD105.39）\nご確認お願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD>\nTSE-NDH-002-24\nタイのNadhaya様から注文です。\n~送り先は確認中です。~\n準備を宜しくお願いします。",
+        "files": [
+            {
+                "id": "F06SFF6R857",
+                "mode": "tombstone"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FWGQRM",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5Kgmh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nTSE-NDH-002-24\nタイのNadhaya様から注文です。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "送り先は確認中です。",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n準備を宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1711816576.938959",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1727252509.000000"
+        },
+        "client_msg_id": "a3e3d446-31b7-4342-8b34-c978ea584d7e",
+        "thread_ts": "1711816576.938959",
+        "reply_count": 7,
+        "reply_users_count": 3,
+        "latest_reply": "1712735755.444499",
+        "reply_users": [
+            "U05KGS6HN9H",
+            "U0331FWGQRM",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1711932338.989019"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1711964489.939589"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1712027272.390559"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1712034111.006379"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1712095563.692609"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1712537370.810219"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1712735755.444499"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1712735755.444499",
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD",
+                    "U041RJKV5JA",
+                    "U05KGS6HN9H"
+                ],
+                "count": 3
+            }
+        ]
+    }
+]

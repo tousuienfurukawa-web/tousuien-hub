@@ -1,0 +1,548 @@
+[
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1710832388.607449",
+        "client_msg_id": "b116bc62-8d8c-4671-bb9f-5df833ff42e6",
+        "text": "<@U0331FWGQRM>\n<@U041RJKV5JA> <@U033G4KN4TD>\n出荷可能日3\/27（水）でお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1710749625.624569",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cuF9H",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日3\/27（水）でお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1710835397.582859",
+        "client_msg_id": "2e9e36b8-cff4-45bb-8da7-ca056f3e196e",
+        "text": "<@U041RJKV5JA> <@U033G4KN4TD> <@U0331FZTHEK> <@U05KGS6HN9H>\nタイ：Trial Not Errorさんから注文（11,12回）です。\n発送可能日を教えてください。\n送り先（国内）は現在確認中です。\n\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1710835397.582859",
+        "reply_count": 6,
+        "reply_users_count": 3,
+        "latest_reply": "1711699034.181449",
+        "reply_users": [
+            "U0331FZTHEK",
+            "U05KGS6HN9H",
+            "U0331FZS7JT"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1710975552.364799"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1711004107.602629"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1711349991.394199"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1711356897.319639"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1711406653.658729"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1711699034.181449"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ETK28",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nタイ：Trial Not Errorさんから注文（11,12回）です。\n発送可能日を教えてください。\n送り先（国内）は現在確認中です。\n\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD",
+                    "U041RJKV5JA",
+                    "U05KGS6HN9H"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1710838474.329509",
+        "client_msg_id": "b972c53f-fbe8-4965-896d-93c6db8a42b1",
+        "text": "<@U0331FZTHEK>\n本件、送金の連絡がありました。\n\n<@U05KGS6HN9H>  <@U041RJKV5JA>\n発送よろしくお願いします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1709823524.333989",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NxmSM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本件、送金の連絡がありました。\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "  "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n発送よろしくお願いします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U05KGS6HN9H"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "確認致します",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1710886757.561599",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1711361460.000000"
+        },
+        "client_msg_id": "fccb64b1-dbc1-439a-85f2-73cab47ad73d",
+        "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD>\n*TSE-KLO-008-23*\nアメリカのNeels様から注文~予定~です。\n500袋（旧デザインの袋：今までと同じ）を使用。~（の予定）~\n\nこの場合の、出荷可能日を教えてください。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1710886757.561599",
+        "reply_count": 25,
+        "reply_users_count": 3,
+        "latest_reply": "1713998192.681849",
+        "reply_users": [
+            "U0331FWGQRM",
+            "U041RJKV5JA",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1711036206.319389"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1711089150.458989"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1711361510.332049"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1711587115.072519"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1711589085.933919"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1712492419.119319"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1712529232.744329"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1712543910.089539"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1712577373.019889"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1712639780.092979"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1712724729.039049"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1712726408.299759"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1712834588.025139"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1712880904.671539"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1713527015.778739"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1713579504.736579"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1713755572.667449"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1713790070.171199"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1713828946.173769"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1713841527.288609"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1713842484.857839"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1713869078.676619"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1713959224.001849"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1713964386.197759"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1713998192.681849"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1713998192.681849",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/q+yL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-KLO-008-23",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nアメリカのNeels様から注文"
+                            },
+                            {
+                                "type": "text",
+                                "text": "予定",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "です。\n500袋（旧デザインの袋：今までと同じ）を使用。"
+                            },
+                            {
+                                "type": "text",
+                                "text": "（の予定）",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nこの場合の、出荷可能日を教えてください。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD",
+                    "U041RJKV5JA",
+                    "U05KGS6HN9H"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1710900056.608869",
+        "client_msg_id": "0eccdfd4-52a4-4020-8228-63fb01f84b31",
+        "text": "<@U0331FZS7JT>\n<@U041RJKV5JA> <@U033G4KN4TD>\n本日3\/20（水）の佐川２個口で出荷しました。\nAWB No 491636717736\n宜しくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1709823524.333989",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QsN14",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日3\/20（水）の佐川２個口で出荷しました。\nAWB No 491636717736\n宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
