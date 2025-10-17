@@ -1,0 +1,316 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U066P20UQH1",
+        "text": "<@U066P20UQH1>さんがチャンネルに参加しました",
+        "type": "message",
+        "ts": "1752651840.494129"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U0331FZS7JT",
+        "text": "<@U0331FZS7JT>さんがチャンネルに参加しました",
+        "inviter": "U066P20UQH1",
+        "type": "message",
+        "ts": "1752651865.249069"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U0331FWGQRM",
+        "text": "<@U0331FWGQRM>さんがチャンネルに参加しました",
+        "inviter": "U066P20UQH1",
+        "type": "message",
+        "ts": "1752651865.381929"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U0840UVFVA8",
+        "text": "<@U0840UVFVA8>さんがチャンネルに参加しました",
+        "inviter": "U066P20UQH1",
+        "type": "message",
+        "ts": "1752651865.484589"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U05KGS6HN9H",
+        "text": "<@U05KGS6HN9H>さんがチャンネルに参加しました",
+        "inviter": "U066P20UQH1",
+        "type": "message",
+        "ts": "1752651865.592889"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U08N3SKSL75",
+        "text": "<@U08N3SKSL75>さんがチャンネルに参加しました",
+        "inviter": "U066P20UQH1",
+        "type": "message",
+        "ts": "1752651865.683769"
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1752652012.319029",
+        "client_msg_id": "1a7342f6-126b-4cd1-92ae-d69f36c2de52",
+        "text": "<!channel>\nお疲れ様です！\n中国の抹茶サプライヤー開拓について出張に向けて、リサーチの現状報告と、今後のスケジュール感について皆さんに相談させていただきたく、\n改めてMTGをさせていただければと思います！！\n*明日7\/17の朝10時〜10時半*でお時間いただければと思うんですが、ご都合いかがでしょうか？？\nよろしければスタンプいただければと思います:bow:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1752652012.319029",
+        "reply_count": 2,
+        "reply_users_count": 1,
+        "latest_reply": "1752717658.818609",
+        "reply_users": [
+            "U066P20UQH1"
+        ],
+        "replies": [
+            {
+                "user": "U066P20UQH1",
+                "ts": "1752713980.814879"
+            },
+            {
+                "user": "U066P20UQH1",
+                "ts": "1752717658.818609"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0SmbK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nお疲れ様です！\n中国の抹茶サプライヤー開拓について出張に向けて、リサーチの現状報告と、今後のスケジュール感について皆さんに相談させていただきたく、\n改めてMTGをさせていただければと思います！！\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "明日7\/17の朝10時〜10時半",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "でお時間いただければと思うんですが、ご都合いかがでしょうか？？\nよろしければスタンプいただければと思います"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "bow",
+                                "unicode": "1f647"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U08N3SKSL75"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知-1",
+                "users": [
+                    "U08N3SKSL75"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U05KGS6HN9H"
+                ],
+                "count": 1
+            },
+            {
+                "name": "saluting_face",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "USLACKBOT",
+        "subtype": "channel_tab_added",
+        "tab_id": "Ct095ZN9HP0D",
+        "tab_added_user_id": "U066P20UQH1",
+        "type": "message",
+        "ts": "1752652040.551419",
+        "text": "",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "sv41d8cd98f0",
+            "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/slackbot_72.png",
+            "first_name": "slackbot",
+            "real_name": "Slackbot",
+            "display_name": "Slackbot",
+            "team": "T033D70RR6H",
+            "name": "slackbot",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Zy3iU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Haruka Hayashi added すぷし as a tab"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1752713980.814879",
+        "client_msg_id": "563216c4-9099-4a94-8d16-563e7ac13f74",
+        "text": "MTG room こちらとなります！\n<https:\/\/meet.google.com\/ihr-jrcm-mwm>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1752652012.319029",
+        "parent_user_id": "U066P20UQH1",
+        "attachments": [
+            {
+                "from_url": "https:\/\/meet.google.com\/ihr-jrcm-mwm",
+                "thumb_url": "https:\/\/fonts.gstatic.com\/s\/i\/productlogos\/meet_2020q4\/v1\/web-96dp\/logo_meet_2020q4_color_2x_web_96dp.png",
+                "thumb_width": 192,
+                "thumb_height": 192,
+                "service_icon": "http:\/\/fonts.gstatic.com\/s\/i\/productlogos\/meet_2020q4\/v1\/web-24dp\/logo_meet_2020q4_color_1x_web_24dp.png",
+                "id": 1,
+                "original_url": "https:\/\/meet.google.com\/ihr-jrcm-mwm",
+                "fallback": "Meet",
+                "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+                "title": "Meet",
+                "title_link": "https:\/\/meet.google.com\/ihr-jrcm-mwm",
+                "service_name": "meet.google.com"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DE6Bo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "MTG room こちらとなります！\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/meet.google.com\/ihr-jrcm-mwm"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1752717658.818609",
+        "client_msg_id": "2c47e3f1-6fe2-47ab-aa97-9d6ebec18cf6",
+        "text": "<https:\/\/meet.google.com\/wdw-cdoo-fzf>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1752652012.319029",
+        "parent_user_id": "U066P20UQH1",
+        "attachments": [
+            {
+                "from_url": "https:\/\/meet.google.com\/wdw-cdoo-fzf",
+                "thumb_url": "https:\/\/fonts.gstatic.com\/s\/i\/productlogos\/meet_2020q4\/v1\/web-96dp\/logo_meet_2020q4_color_2x_web_96dp.png",
+                "thumb_width": 192,
+                "thumb_height": 192,
+                "service_icon": "http:\/\/fonts.gstatic.com\/s\/i\/productlogos\/meet_2020q4\/v1\/web-24dp\/logo_meet_2020q4_color_1x_web_24dp.png",
+                "id": 1,
+                "original_url": "https:\/\/meet.google.com\/wdw-cdoo-fzf",
+                "fallback": "Meet",
+                "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+                "title": "Meet",
+                "title_link": "https:\/\/meet.google.com\/wdw-cdoo-fzf",
+                "service_name": "meet.google.com"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+dbwY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/meet.google.com\/wdw-cdoo-fzf"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,78 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1727282369.667049",
+        "client_msg_id": "4269206a-c17f-4501-8daf-041c7d5314f6",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n理由はよく分かりませんが、\n100%抹茶（つまりFlavored matcha以外）の賞味期限は一致させてください。とのことです。\n賞味期限の管理が煩雑になるのを防ぎたいようです。\n\n例えば、下記です。\n*TSE-MTL-009-1（Shipped on 24th Sep.）*\n　　MATCHA LAND Bio Matcha 60g flat bag with Label x 4000bags\n\n*TSE-MTL-010（will ship on 4th Oct.）*\n　　MATCHA LAND Matcha 60g flat bag with Label x 50bags",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1719082785.965129",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "14YaG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n理由はよく分かりませんが、\n100%抹茶（つまりFlavored matcha以外）の賞味期限は一致させてください。とのことです。\n賞味期限の管理が煩雑になるのを防ぎたいようです。\n\n例えば、下記です。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-MTL-009-1（Shipped on 24th Sep.）",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n　　MATCHA LAND Bio Matcha 60g flat bag with Label x 4000bags\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-MTL-010（will ship on 4th Oct.）",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n　　MATCHA LAND Matcha 60g flat bag with Label x 50bags"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD",
+                    "U041RJKV5JA"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

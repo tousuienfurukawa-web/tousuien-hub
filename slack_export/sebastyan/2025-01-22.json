@@ -1,0 +1,162 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1737563819.872419",
+        "client_msg_id": "2a0c8fd1-e20d-4a69-b163-40de65de9c2d",
+        "text": "<@U0331FZS7JT> <@U03BLQ65GK0> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\nSebastyanから下記問い合わせです。\n代替品を使用していることが何か関係しているのか、\nそれともどの抹茶にもありうることなのか、どうでしょうか？\nーーーーーーーー\nB2に藻のような風味が少し感じられるという報告が寄せられることは非常にまれですが、これは何が原因なのでしょうか。\nまた、これを防ぐことはできるのでしょうか。\nーーーーーーーー",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1737563819.872419",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1737592087.972329",
+        "reply_users": [
+            "U0331FZS7JT"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1737592087.972329"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1737592087.972329",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gpNoN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nSebastyanから下記問い合わせです。\n代替品を使用していることが何か関係しているのか、\nそれともどの抹茶にもありうることなのか、どうでしょうか？\nーーーーーーーー\nB2に藻のような風味が少し感じられるという報告が寄せられることは非常にまれですが、これは何が原因なのでしょうか。\nまた、これを防ぐことはできるのでしょうか。\nーーーーーーーー"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "確認中",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1737592087.972329",
+        "client_msg_id": "39e14b59-b08e-4e5b-9fa8-0cea6684b0f1",
+        "text": "<@U0331FWGQRM>\n<@U03BLQ65GK0> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n\n藻のような風味について、肥料会社の方に肥料、気候、環境など何か考えられることは無いか、確認しました。\n---\n・被覆した抹茶ではどの抹茶でもあり得る\n・出雲の気候からよりそれが明確？かも。\n---\n\n抹茶の覆い香（成分：ジメチルスルフィド）が関係しているのでは無いか、ということでした。\n何軒かの取引先でもあった話とのことで、高品質な抹茶を出荷した先の海外のお客様から、海藻を入れてんの？といった問い合わせがあるとのことです（品評会では強い方が良いとされる）。\n山肌（日陰が多い地域）のお茶に特によくみられるとのことです。\n→つまり出雲精茶のお茶の比率減らす、無くしたら解決する？\n\n<@U03BLQ65GK0>\n代替品と出雲精茶のRを改めてその香りの違いをフォーカスして確認しましょう。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1737563819.872419",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "s0+Qi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n藻のような風味について、肥料会社の方に肥料、気候、環境など何か考えられることは無いか、確認しました。\n---\n・被覆した抹茶ではどの抹茶でもあり得る\n・出雲の気候からよりそれが明確？かも。\n---\n\n抹茶の覆い香（成分：ジメチルスルフィド）が関係しているのでは無いか、ということでした。\n何軒かの取引先でもあった話とのことで、高品質な抹茶を出荷した先の海外のお客様から、海藻を入れてんの？といった問い合わせがあるとのことです（品評会では強い方が良いとされる）。\n山肌（日陰が多い地域）のお茶に特によくみられるとのことです。\n→つまり出雲精茶のお茶の比率減らす、無くしたら解決する？\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n代替品と出雲精茶のRを改めてその香りの違いをフォーカスして確認しましょう。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "eyes",
+                "users": [
+                    "U03BLQ65GK0"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

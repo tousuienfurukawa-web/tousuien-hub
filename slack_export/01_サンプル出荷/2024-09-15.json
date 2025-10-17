@@ -1,0 +1,193 @@
+[
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1726422258.258019",
+        "client_msg_id": "61ae7ec3-2bfc-4188-add6-62f91693d017",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:fr:フランス Klara Markowska様からサンプル注文を頂きました。\n*TSE-KLM-SPL-01-24*",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1726422258.258019",
+        "reply_count": 3,
+        "reply_users_count": 2,
+        "latest_reply": "1726652709.838769",
+        "reply_users": [
+            "U0606SPN4BW",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1726422312.934819"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1726527954.494899"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1726652709.838769"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1726652709.838769",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EdjKh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "fr",
+                                "unicode": "1f1eb-1f1f7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "フランス Klara Markowska様からサンプル注文を頂きました。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-KLM-SPL-01-24",
+                                "style": {
+                                    "bold": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U05KGS6HN9H",
+                    "U033G4KN4TD",
+                    "U041RJKV5JA"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1726422312.934819",
+        "client_msg_id": "960a5809-6aae-4c7e-b983-9f6e215bc224",
+        "text": "オランダ事務所から、9\/17発送予定です！\n\n\n<@U0331FZTHEK> PayPal入金確認済(USD30), 回収処理をお願いします！\n\n\n▼サンプル内容 (計 4点)\n&lt;各20g&gt;\nOrganic Matcha Upper - 1 鹿児島製茶 (鹿児島 A)\nOrganic Matcha Upper - 2 鹿児島製茶 (鹿児島 1A)\nOrganic Matcha Middle - 1 鹿児島製茶 (鹿児島 B)\nOrganic Matcha Middle - 2 鹿児島製茶 (鹿児島 C)\n\n\n袋指定なし、エージレス無し、品名ラベル貼り。価格表示なし\n\n\n発送: DPD\n\n\n----------------------\nName: Klara Markowska\nAddress: 65 rue Chauvelot, 92240 Malakoff,\nCountry: France\ne-mail: <mailto:contact@vgboost.com|contact@vgboost.com>\nPhone: <tel:+33625193435|+33625193435>\n----------------------",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1726422258.258019",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Fo2HX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "オランダ事務所から、9\/17発送予定です！\n\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " PayPal入金確認済(USD30), 回収処理をお願いします！\n\n\n▼サンプル内容 (計 4点)\n<各20g>\nOrganic Matcha Upper - 1 鹿児島製茶 (鹿児島 A)\nOrganic Matcha Upper - 2 鹿児島製茶 (鹿児島 1A)\nOrganic Matcha Middle - 1 鹿児島製茶 (鹿児島 B)\nOrganic Matcha Middle - 2 鹿児島製茶 (鹿児島 C)\n\n\n袋指定なし、エージレス無し、品名ラベル貼り。価格表示なし\n\n\n発送: DPD\n\n\n----------------------\nName: Klara Markowska\nAddress: 65 rue Chauvelot, 92240 Malakoff,\nCountry: France\ne-mail: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:contact@vgboost.com",
+                                "text": "contact@vgboost.com"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nPhone: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:+33625193435",
+                                "text": "+33625193435"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n----------------------"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

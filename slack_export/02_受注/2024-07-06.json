@@ -1,0 +1,306 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1720283303.824579",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1720313487.000000"
+        },
+        "client_msg_id": "c240d2a5-d9aa-428b-be3c-99be1b760265",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse><@U0331FZTHEK>\nInvoice (TSE-BKK-002-24)\nInvoice (TSE-BKK-003-24)\nタイ：MTCH-bkk(21.5.30Insta)様より注文が入りました。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1720283303.824579",
+        "reply_count": 9,
+        "reply_users_count": 3,
+        "latest_reply": "1721205977.978559",
+        "reply_users": [
+            "U0331FZS7JT",
+            "U041RJKV5JA",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1720283337.635029"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1720422283.727139"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1720427596.258849"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1720481271.667839"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1720484351.876159"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1720488468.359179"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1720495782.833749"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1720497029.904189"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1721205977.978559"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AcfJ0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nInvoice (TSE-BKK-002-24)\nInvoice (TSE-BKK-003-24)\nタイ：MTCH-bkk(21.5.30Insta)様より注文が入りました。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U05KGS6HN9H",
+                    "U033G4KN4TD",
+                    "U041RJKV5JA"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1720283337.635029",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1720313509.000000"
+        },
+        "client_msg_id": "5e47913a-a34d-4781-8bb1-e5dbd3079339",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n発送可能日を教えて下さい。\n12kg：千葉のカーゴカンパニーへ送付(002)\n3kg：タイにEMSで直送(003)\n\n\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1720283303.824579",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XqUcg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n発送可能日を教えて下さい。\n12kg：千葉のカーゴカンパニーへ送付(002)\n3kg：タイにEMSで直送(003)\n\n\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1720313333.520099",
+        "client_msg_id": "fea7aa43-c7a4-4f4a-a47f-6a0aa79cc9bb",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse><@U0331FZTHEK>\nInvoice (TSE-CHS-006-24)\nタイ：Chaseki様より注文が入りました。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1720313333.520099",
+        "reply_count": 8,
+        "reply_users_count": 3,
+        "latest_reply": "1721113404.949159",
+        "reply_users": [
+            "U0331FZS7JT",
+            "U05KGS6HN9H",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1720313451.358059"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1720419460.818349"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1720511341.212759"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1720576679.284899"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1720586214.268089"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1720588914.149579"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1720601744.526009"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1721113404.949159"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nvq3T",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nInvoice (TSE-CHS-006-24)\nタイ：Chaseki様より注文が入りました。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U05KGS6HN9H",
+                    "U033G4KN4TD",
+                    "U041RJKV5JA"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1720313451.358059",
+        "client_msg_id": "ae6d0592-ab1a-44c4-9615-df88403d990e",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n可能であれば木曜日に製品が到着することを規模されていますが、可能でしょうか。\nご確認よろしくお願いします。\n※不可能だと思われる、茶筅などについても共有ください。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1720313333.520099",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7d1f4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n可能であれば木曜日に製品が到着することを規模されていますが、可能でしょうか。\nご確認よろしくお願いします。\n※不可能だと思われる、茶筅などについても共有ください。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

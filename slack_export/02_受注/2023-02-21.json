@@ -1,0 +1,275 @@
+[
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1677020892.595839",
+        "client_msg_id": "8a4ff148-de19-4784-b32a-14a57cd4b919",
+        "text": "<@U0331FZS7JT> 社長\n　CC: <@U041RJKV5JA> 部長 <@U03SGRNND5L> さん\nお疲れ様です。\nTSE-IV-003-23（ウクライナ：Ivashchenko 様）\n2\/21 入金[PayPal]を確認致しました。\nJPY11,700-（JPY22,500-の内）\n回収(入金)処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1676248574.494349",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=uR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\n　CC: "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長 "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03SGRNND5L"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\nお疲れ様です。\nTSE-IV-003-23（ウクライナ：Ivashchenko 様）\n2\/21 入金[PayPal]を確認致しました。\nJPY11,700-（JPY22,500-の内）\n回収(入金)処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1677022318.005429",
+        "client_msg_id": "31b1f94a-231d-49d6-8407-d4fb759bd12d",
+        "text": "<@U03SGRNND5L> さん\nCC：<@U041RJKV5JA>部長\n本件、シッピング用インボイスの宛名を個人名に、\nそれと住所を修正しています。\n修正したインボイスでお願いします。\n\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1676248574.494349",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bkS9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U03SGRNND5L"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\nCC："
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "部長\n本件、シッピング用インボイスの宛名を個人名に、\nそれと住所を修正しています。\n修正したインボイスでお願いします。\n\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U03SGRNND5L"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "<@U03SGRNND5L> さん\nCC：<@U041RJKV5JA>部長\n併せてお客様から連絡があり、\n今、ウクライナの税関で001-23がストップしている\nとのことです。\nつきましては、宛名を個人名に変える必要があるようですので\n記載用紙(紙かデータか不明)の入手の上、\n手続きをお願いします。\n下記、お客様からの連絡を日本語訳してお伝えします。\n------------------------\n【お客様】\n001-23について書きます\nEN 234 967 601 JP\n\nお願いがあります。 残念ながら、私の貨物は解放されていないのですが、税関から解放のためのヒントをもらいました。\n御社で受取人（私）のCN-17データを変更する申請書を提出し、新しい受取人のデータを示してほしいと言われました。\nATTN: Ivashchenko Vladyslav Romanovich\nADRESS:Kyiv, 1\/2 Dilova street\n03150 Ukraine\nPhone:+38 (063) 65 64 754\n E-mail:<mailto:ivaschenko132@gmail.com|ivaschenko132@gmail.com>\n※既にインボイスは修正\n※データは添付のとおり（但し日本で使えるかは不明）\n\n郵便局に問い合わせて、最終受取人を “PE Ivashchenko Vladyslav” → “Ivashchenko Vladyslav” に変更する必要があります。\n\n郵便局でこの用紙をもらえると思います。 この記載があれば、会社ではなく、個人として小包を受け取ることができるようになります。アカウントを変更する必要はありません。税関にはすでに話してあります。\n 申し訳ありませんが、これらは私たちの法律ですので協力をお願いします。\n--------------------\n\n以上です。\n002-23も001-23と同じ宛名なので、\n同じ状況が起きるかもしれません。\nそちらも事前に対処できるのであれば\nよろしくお願い致します。",
+        "files": [
+            {
+                "id": "F04R1A208JD",
+                "created": 1677023071,
+                "timestamp": 1677023071,
+                "name": "https:www.postnord.se:siteassets:pdf:blanketter:cn17_change_request_2010.pdf",
+                "title": "https:www.postnord.se:siteassets:pdf:blanketter:cn17_change_request_2010.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U0331FZS7JT",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 16478,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F04R1A208JD\/https_www.postnord.se_siteassets_pdf_blanketter_cn17_change_request_2010.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F04R1A208JD\/download\/https_www.postnord.se_siteassets_pdf_blanketter_cn17_change_request_2010.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F04R1A208JD-a942621703\/https_www.postnord.se_siteassets_pdf_blanketter_cn17_change_request_2010_thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 909,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F04R1A208JD\/https_www.postnord.se_siteassets_pdf_blanketter_cn17_change_request_2010.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F04R1A208JD-903644b8eb",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FZS7JT",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zwff",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U03SGRNND5L"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\nCC："
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "部長\n併せてお客様から連絡があり、\n今、ウクライナの税関で001-23がストップしている\nとのことです。\nつきましては、宛名を個人名に変える必要があるようですので\n記載用紙(紙かデータか不明)の入手の上、\n手続きをお願いします。\n下記、お客様からの連絡を日本語訳してお伝えします。\n------------------------\n【お客様】\n001-23について書きます\nEN 234 967 601 JP\n\nお願いがあります。 残念ながら、私の貨物は解放されていないのですが、税関から解放のためのヒントをもらいました。\n御社で受取人（私）のCN-17データを変更する申請書を提出し、新しい受取人のデータを示してほしいと言われました。\nATTN: Ivashchenko Vladyslav Romanovich\nADRESS:Kyiv, 1\/2 Dilova street\n03150 Ukraine\nPhone:+38 (063) 65 64 754\n E-mail:"
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:ivaschenko132@gmail.com",
+                                "text": "ivaschenko132@gmail.com"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n※既にインボイスは修正\n※データは添付のとおり（但し日本で使えるかは不明）\n\n郵便局に問い合わせて、最終受取人を “PE Ivashchenko Vladyslav” → “Ivashchenko Vladyslav” に変更する必要があります。\n\n郵便局でこの用紙をもらえると思います。 この記載があれば、会社ではなく、個人として小包を受け取ることができるようになります。アカウントを変更する必要はありません。税関にはすでに話してあります。\n 申し訳ありませんが、これらは私たちの法律ですので協力をお願いします。\n--------------------\n\n以上です。\n002-23も001-23と同じ宛名なので、\n同じ状況が起きるかもしれません。\nそちらも事前に対処できるのであれば\nよろしくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1677023075.692529",
+        "client_msg_id": "62a22648-7b16-427f-b502-e40696f0511d",
+        "thread_ts": "1676248574.494349",
+        "parent_user_id": "U0331FZS7JT"
+    },
+    {
+        "user": "U03SGRNND5L",
+        "type": "message",
+        "ts": "1677046780.660599",
+        "client_msg_id": "ee9afdb6-5571-43aa-9d22-e7957b5717f1",
+        "text": "<@U0331FZS7JT> 社長\nCC： <@U041RJKV5JA> 部長\nお疲れ様です。\nTSE-IV-003-23（ウクライナ：Ivashchenko 様）を\nEMSにて本日、出荷致しました。\nお問合せ番号：EN 241 145 314 JP　です。\n宜しくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "6c4f7745b891",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-08-07\/3904561660837_6c4f7745b8919f42488e_72.png",
+            "first_name": "足立",
+            "real_name": "足立",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "obayashi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1676248574.494349",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6Tz6h",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nCC： "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nお疲れ様です。\nTSE-IV-003-23（ウクライナ：Ivashchenko 様）を\nEMSにて本日、出荷致しました。\nお問合せ番号：EN 241 145 314 JP　です。\n宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

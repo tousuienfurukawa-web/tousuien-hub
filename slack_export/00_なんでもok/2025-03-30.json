@@ -1,0 +1,78 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1743384531.764549",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1743384715.000000"
+        },
+        "client_msg_id": "9f10ea21-894a-4663-9d10-640328da330f",
+        "text": "<!everyone>\nペガサスのログインパスワードの有効期限が切れたので\nパスワードを再設定しました。\n*新：tousuien10*\n旧：tousuien100\n\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bvtTb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "everyone"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nペガサスのログインパスワードの有効期限が切れたので\nパスワードを再設定しました。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "新：tousuien10",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n旧：tousuien100\n\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "pray",
+                "users": [
+                    "U066P20UQH1",
+                    "U0606SPN4BW"
+                ],
+                "count": 2
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U033G4KN4TD",
+                    "U05KGS6HN9H"
+                ],
+                "count": 3
+            }
+        ]
+    }
+]

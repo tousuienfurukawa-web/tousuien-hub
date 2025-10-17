@@ -1,0 +1,290 @@
+[
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1661810245.937659",
+        "client_msg_id": "58a89efa-4d4b-4e2b-b8c0-9360e9361ad3",
+        "text": "<@U0331FZS7JT> 社長\n　CC: <@U03BLQ65GK0> 会長 <@U03SGRNND5L> さん\nお疲れ様です。\n遅くなり申し訳ありません。\nEMS料金記載致しました。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1661810245.937659",
+        "reply_count": 5,
+        "reply_users_count": 2,
+        "latest_reply": "1662598938.727859",
+        "reply_users": [
+            "U0331FZS7JT",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1661830807.940619"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1661834375.509749"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1661901016.895429"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1662518381.308289"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1662598938.727859"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cKh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\n　CC: "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 会長 "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03SGRNND5L"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\nお疲れ様です。\n遅くなり申し訳ありません。\nEMS料金記載致しました。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1661810314.895229",
+        "client_msg_id": "6cefa430-e028-48c4-b6e7-cf56b7395764",
+        "text": "<@U0331FZS7JT> 社長\n　CC: <@U03SGRNND5L> さん <@U03BLQ65GK0> 会長\nお疲れ様です。\n遅くなり申し訳ありません。\n・注文内容変更 → ケースサイズ変更致しました。\n・DHL料金変更・記載致しました。\n・売掛金￥421→￥1(サンプル相殺)と￥420で処理する件、承知致しました。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1659766887.212199",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RMu8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\n　CC: "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03SGRNND5L"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 会長\nお疲れ様です。\n遅くなり申し訳ありません。\n・注文内容変更 → ケースサイズ変更致しました。\n・DHL料金変更・記載致しました。\n・売掛金￥421→￥1(サンプル相殺)と￥420で処理する件、承知致しました。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1661830807.940619",
+        "client_msg_id": "ea19e8d2-6171-4cdb-a609-28574120e5a1",
+        "text": "<@U0331FZTHEK> さん\nCC： <@U03BLQ65GK0> 会長 <@U03SGRNND5L> さん\n\nお疲れ様です。\n本件、抹茶（八女Grade H）が１kg追加となったので\n記載しています。\n送料が変更となると思うので、確認後改めて記載をお願いします。\n以上、よろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1661810245.937659",
+        "parent_user_id": "U0331FZTHEK",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jK8Mx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\nCC： "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 会長 "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03SGRNND5L"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\n\nお疲れ様です。\n本件、抹茶（八女Grade H）が１kg追加となったので\n記載しています。\n送料が変更となると思うので、確認後改めて記載をお願いします。\n以上、よろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1661834375.509749",
+        "client_msg_id": "367b1609-32df-4140-8d9f-a4fe93449460",
+        "text": "<@U0331FZS7JT> 社長\n　CC: <@U03BLQ65GK0> 会長 <@U03SGRNND5L> さん\nお疲れ様です。\nEMS送料 記載し直しました。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1661810245.937659",
+        "parent_user_id": "U0331FZTHEK",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0Cd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\n　CC: "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 会長 "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03SGRNND5L"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\nお疲れ様です。\nEMS送料 記載し直しました。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

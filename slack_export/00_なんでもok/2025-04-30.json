@@ -1,0 +1,346 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1746014696.259559",
+        "client_msg_id": "476ab2bd-33d3-413e-ba8f-df9ff316775c",
+        "text": "<!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <@U0331FZS7JT> <@U03BLQ65GK0> cc <!channel>\n確認したいことがあります。\n*リピートのお客様の場合について*ですが、\n原材料を準備（or仕入れ）する際、どのような基準で準備していますか？\n\n例えば、50kgの注文の場合、\n・50kgのみ製造（仕入れ）して、受注を処理する。\n・次回注文を見越して、100kg準備する。\n・次回とその次を見越して、150kg準備する。\n・基準が決まっていない。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1746014696.259559",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1746059234.607029",
+        "reply_users": [
+            "U0331FZS7JT",
+            "U0331FWGQRM"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1746027969.571929"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1746059234.607029"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1746059234.607029",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "K6opg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n確認したいことがあります。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "リピートのお客様の場合について",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "ですが、\n原材料を準備（or仕入れ）する際、どのような基準で準備していますか？\n\n例えば、50kgの注文の場合、\n・50kgのみ製造（仕入れ）して、受注を処理する。\n・次回注文を見越して、100kg準備する。\n・次回とその次を見越して、150kg準備する。\n・基準が決まっていない。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1746027969.571929",
+        "client_msg_id": "25abe14c-caa2-49da-ba3b-6f517ffdc1ff",
+        "text": "<@U0331FWGQRM> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <@U03BLQ65GK0> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n\n&gt; ・基準が決まっていない。\nです。\n例にある比較的よく動く原料については、\n・次回注文を見越して、100kg準備する。や\n・次回とその次を見越して、150kg準備する。\nや、それよりも多めに仕入れをするということもあります。\n\nですが、記載の通り「基準が決まっていない」ので、\n新規のお客様に該当原料を供給することになった場合に対応しても尚余裕があるよう\nリピートのお客様用に次回+その次+新規用に一定量の原料を見越して仕入れ(や粉砕)を行う必要があるかと思います。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1746014696.259559",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FF8fw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_quote",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "・基準が決まっていない。"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "です。\n例にある比較的よく動く原料については、\n・次回注文を見越して、100kg準備する。や\n・次回とその次を見越して、150kg準備する。\nや、それよりも多めに仕入れをするということもあります。\n\nですが、記載の通り「基準が決まっていない」ので、\n新規のお客様に該当原料を供給することになった場合に対応しても尚余裕があるよう\nリピートのお客様用に次回+その次+新規用に一定量の原料を見越して仕入れ(や粉砕)を行う必要があるかと思います。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1746050277.250579",
+        "client_msg_id": "4e906e40-c05f-4a9c-a9ce-0d7c3295bfe6",
+        "text": "<@U033G4KN4TD>\n500, from 30g\n500, Vanilla\n200 , from 100g\n\nの要望が来ておりますが、100g bagも入ってましたか？:sweat_drops:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745800572.801909",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "G8JJM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n500, from 30g\n500, Vanilla\n200 , from 100g\n\nの要望が来ておりますが、100g bagも入ってましたか？"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sweat_drops",
+                                "unicode": "1f4a6"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "確認致します",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1746059234.607029",
+        "client_msg_id": "8d68384b-4f33-45ca-9dba-2d2256fe8dd9",
+        "text": "<@U0331FZS7JT> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <@U03BLQ65GK0> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nある程度基準がなければ発注できないと思うので、\n*リピートのお客様の場合について、*\n月一以上注文があるお客様については、\n・今回＋次回＋その次の150kg準備する。\nそれ以上長いスパンのお客様は、\n・今回＋次回の100kg準備する。\n\nがいいかな？と思っております。\nこれは、全てのお客様に対してそうなので、\n共通する原料を使用する場合は、それについては別途加算する必要があります。\n\nA社　出雲抹茶R20kg\/order（1ヶ月に1回）\nB社　出雲抹茶R40kg\/order（2ヶ月に1回）\n→合計140kg分は要在庫\n\nこれであまりにも余が出る、キャッシュフローが怪しい、\nなどの懸念点があるのであれば、その際に別途検討させてください。\n\n尚、これをするためには受注内容のデータ管理が必要となります。\n在庫管理→発注の調達業務を誰がするのかも含めてまた相談させてください。\n宜しくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1746014696.259559",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XNwod",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nある程度基準がなければ発注できないと思うので、\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "リピートのお客様の場合について、",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n月一以上注文があるお客様については、\n・今回＋次回＋その次の150kg準備する。\nそれ以上長いスパンのお客様は、\n・今回＋次回の100kg準備する。\n\nがいいかな？と思っております。\nこれは、全てのお客様に対してそうなので、\n共通する原料を使用する場合は、それについては別途加算する必要があります。\n\nA社　出雲抹茶R20kg\/order（1ヶ月に1回）\nB社　出雲抹茶R40kg\/order（2ヶ月に1回）\n→合計140kg分は要在庫\n\nこれであまりにも余が出る、キャッシュフローが怪しい、\nなどの懸念点があるのであれば、その際に別途検討させてください。\n\n尚、これをするためには受注内容のデータ管理が必要となります。\n在庫管理→発注の調達業務を誰がするのかも含めてまた相談させてください。\n宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

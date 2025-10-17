@@ -1,0 +1,359 @@
+[
+    {
+        "user": "U03SGRNND5L",
+        "type": "message",
+        "ts": "1670203610.083119",
+        "client_msg_id": "5c7ee047-39e1-477b-b2e6-91b8783f6929",
+        "text": "<@U0331FZS7JT> 社長\nCC： <@U041RJKV5JA> 部長\nお疲れ様です。\nマカオ(CHAA様)の第８回発送手続きの\n・インボイスにDHL送料記入\n・パッキングリスト作成をしました。\nご確認をお願い致します。\n尚、発送可能日は12\/7（水）でございます。\n宜しくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "6c4f7745b891",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-08-07\/3904561660837_6c4f7745b8919f42488e_72.png",
+            "first_name": "足立",
+            "real_name": "足立",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "obayashi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1670074305.288709",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/xql",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nCC： "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nお疲れ様です。\nマカオ(CHAA様)の第８回発送手続きの\n・インボイスにDHL送料記入\n・パッキングリスト作成をしました。\nご確認をお願い致します。\n尚、発送可能日は12\/7（水）でございます。\n宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1670203678.703139",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1670203698.000000"
+        },
+        "client_msg_id": "51012cb9-5005-4411-a4a7-7cb5efc95a9c",
+        "text": "<@U041RJKV5JA> 部長\nCC：<!channel>\n\nお疲れ様です。\n注文が入りましたので、\n下記、確認をお願いします！\n【お客様】タイ：MTCH-bkk(21.5.30Insta)\n【注文内容】宇治抹茶つゆひかり（香岳園）¥12,000×４袋（1kg×４）\n【確認内容】来週12日（月）までに大阪のホテルに送ってくれないか？\n※10日（土）までに発送できれば間に合いますので、確認をお願いします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1670203678.703139",
+        "reply_count": 7,
+        "reply_users_count": 3,
+        "latest_reply": "1670811634.122939",
+        "reply_users": [
+            "U03SGRNND5L",
+            "U0331FZS7JT",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U03SGRNND5L",
+                "ts": "1670208811.278149"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1670217301.621129"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1670284948.437369"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1670285347.892729"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1670458980.005139"
+            },
+            {
+                "user": "U03SGRNND5L",
+                "ts": "1670574237.134929"
+            },
+            {
+                "user": "U03SGRNND5L",
+                "ts": "1670811634.122939"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/vR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nCC："
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nお疲れ様です。\n注文が入りましたので、\n下記、確認をお願いします！\n【お客様】タイ：MTCH-bkk(21.5.30Insta)\n【注文内容】宇治抹茶つゆひかり（香岳園）¥12,000×４袋（1kg×４）\n【確認内容】来週12日（月）までに大阪のホテルに送ってくれないか？\n※10日（土）までに発送できれば間に合いますので、確認をお願いします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            },
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1670203873.218659",
+        "client_msg_id": "ae251b27-6922-4cf6-bb99-23baa82704d7",
+        "text": "<@U03SGRNND5L> さん\n<@U041RJKV5JA> 部長\n\nお疲れ様です。\n確認ありがとうございます！\nそれでは、12\/7（水）でお客様にお伝えします！\n\nよろしくお願いいたします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1670074305.288709",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FxHb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U03SGRNND5L"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n\nお疲れ様です。\n確認ありがとうございます！\nそれでは、12\/7（水）でお客様にお伝えします！\n\nよろしくお願いいたします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U03SGRNND5L"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U03SGRNND5L",
+        "type": "message",
+        "ts": "1670208811.278149",
+        "client_msg_id": "f31c45b5-573f-4451-baa6-016f25846b73",
+        "text": "<@U0331FZS7JT> 社長\nCC： <@U041RJKV5JA> 部長、 <@U0331FZTHEK> さん\nお疲れ様です。\nタイ：MTCH-bkk(21.5.30Insta)様の\n宇治抹茶つゆひかり（香岳園）¥12,000×４袋（1kg×４）の\n原料入荷は12\/9（金）の予定です。\n宜しくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "6c4f7745b891",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-08-07\/3904561660837_6c4f7745b8919f42488e_72.png",
+            "first_name": "足立",
+            "real_name": "足立",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "obayashi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1670203678.703139",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rTi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nCC： "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長、 "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\nお疲れ様です。\nタイ：MTCH-bkk(21.5.30Insta)様の\n宇治抹茶つゆひかり（香岳園）¥12,000×４袋（1kg×４）の\n原料入荷は12\/9（金）の予定です。\n宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1670217301.621129",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1670437748.000000"
+        },
+        "client_msg_id": "ef3409f7-e5b6-4e58-aa59-741ae7385323",
+        "text": "<@U03SGRNND5L> さん\nCC： <@U041RJKV5JA> 部長、 <@U0331FZTHEK> さん\n\nお疲れ様です。\n了解です！\n送り先など確認していますので、改めて共有します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1670203678.703139",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2WNGD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U03SGRNND5L"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\nCC： "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長、 "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\n\nお疲れ様です。\n了解です！\n送り先など確認していますので、改めて共有します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U03SGRNND5L"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,94 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1672778621.070569",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1672779075.000000"
+        },
+        "client_msg_id": "49ae9664-fbfc-4faa-91fa-600eeb0f9fc1",
+        "text": "<@U041RJKV5JA> 部長\n<!channel>\n\nお疲れ様です。\nマカオから注文が入りました。\nインボイスに発送料の記入、パッキングリストを作成の上\n出荷可能日を教えてください。\nよろしくお願い致します。\n【お客様】マカオ→CHAA→発送手続き→2023→\n　第1回発送手続き（23.1.4 Invoice(TSE-CHA-23-001)）\n【その他】八女抹茶の発注、エージレス入\n\nよろしくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1672778621.070569",
+        "reply_count": 4,
+        "reply_users_count": 3,
+        "latest_reply": "1673057776.267849",
+        "reply_users": [
+            "U0331FZS7JT",
+            "U03SGRNND5L",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1672882450.359519"
+            },
+            {
+                "user": "U03SGRNND5L",
+                "ts": "1672893782.773109"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1672955549.155009"
+            },
+            {
+                "user": "U03SGRNND5L",
+                "ts": "1673057776.267849"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nQSu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n"
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nお疲れ様です。\nマカオから注文が入りました。\nインボイスに発送料の記入、パッキングリストを作成の上\n出荷可能日を教えてください。\nよろしくお願い致します。\n【お客様】マカオ→CHAA→発送手続き→2023→\n　第1回発送手続き（23.1.4 Invoice(TSE-CHA-23-001)）\n【その他】八女抹茶の発注、エージレス入\n\nよろしくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

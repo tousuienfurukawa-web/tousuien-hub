@@ -1,0 +1,775 @@
+[
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1687422756.099559",
+        "client_msg_id": "dd77b6d8-274e-4dd4-98ce-9b2e9f5b41ea",
+        "text": "<@U0331FZS7JT> 社長\nお疲れ様です。\n本日、佐川急便にて発送しました。\n伝票番号：4904-1343-8012\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1687181982.502969",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cVY\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nお疲れ様です。\n本日、佐川急便にて発送しました。\n伝票番号：4904-1343-8012\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1687435226.665809",
+        "client_msg_id": "B06C29B2-201E-442B-8F59-E20E2B6B6243",
+        "text": "<@U0331FZTHEK> さん\n本件、wise経由での入金連絡がありました。\nご確認、よろしくお願い致します。\n\n<https:\/\/wise.com\/en\/track\/3e113eefc9b74f779f64a3bc84f3b341?utm_source=web&amp;utm_medium=copy&amp;utm_content=moneyTracker|https:\/\/wise.com\/en\/track\/3e113eefc9b74f779f64a3bc84f3b341?utm_source=web&amp;utm_medium=copy&amp;utm_content=moneyTracker>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1682925927.335579",
+        "parent_user_id": "U0331FZS7JT",
+        "attachments": [
+            {
+                "from_url": "https:\/\/wise.com\/en\/track\/3e113eefc9b74f779f64a3bc84f3b341?utm_source=web&utm_medium=copy&utm_content=moneyTracker",
+                "image_url": "https:\/\/wise.com\/images\/social\/twitter-og.png",
+                "image_width": 2048,
+                "image_height": 1024,
+                "image_bytes": 26257,
+                "service_icon": "https:\/\/wise.com\/public-resources\/assets\/icons\/wise-personal\/apple_touch_icon.png",
+                "id": 1,
+                "original_url": "https:\/\/wise.com\/en\/track\/3e113eefc9b74f779f64a3bc84f3b341?utm_source=web&amp;utm_medium=copy&amp;utm_content=moneyTracker",
+                "fallback": "Wise: The clever new way to send money abroad",
+                "text": "Banks sting you with hidden charges when you send money abroad. But that’s yesterday’s problem. Say hello to Wise, the clever new way to move your money.",
+                "title": "The clever new way to send money abroad",
+                "title_link": "https:\/\/wise.com\/en\/track\/3e113eefc9b74f779f64a3bc84f3b341?utm_source=web&utm_medium=copy&utm_content=moneyTracker",
+                "service_name": "Wise"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=Po7g",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\n本件、wise経由での入金連絡がありました。\nご確認、よろしくお願い致します。\n\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/wise.com\/en\/track\/3e113eefc9b74f779f64a3bc84f3b341?utm_source=web&utm_medium=copy&utm_content=moneyTracker",
+                                "text": "https:\/\/wise.com\/en\/track\/3e113eefc9b74f779f64a3bc84f3b341?utm_source=web&utm_medium=copy&utm_content=moneyTracker"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1687452731.342989",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1687474215.000000"
+        },
+        "client_msg_id": "83a1e0d5-635a-4d24-a238-d086aa3b27a5",
+        "text": "<@U041RJKV5JA> 部長\n\nカナダo5tea(Mr. Pedro)(Insta)から注文（2023年第2回）がありました。\n内容は出雲抹茶R（22年産おくみどり）50g×300bag(15kg)。\nパッキングリストの作成とDHLの見積もりをお願いします。\n※DHL手配は先方（だったと思います。）\n\nチャック付きスタンドパック（AL-10?）かなと思います。\n~脱酸素剤or~窒素充填~or何もなしか、確認中~です。\n\n以上、よろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1687452731.342989",
+        "reply_count": 5,
+        "reply_users_count": 3,
+        "latest_reply": "1687994670.990089",
+        "reply_users": [
+            "U0331FZS7JT",
+            "U0331FZTHEK",
+            "U041RJKV5JA"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1687468883.959689"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1687474039.857469"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1687480606.007479"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1687487187.821269"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1687994670.990089"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xXN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n\nカナダo5tea(Mr. Pedro)(Insta)から注文（2023年第2回）がありました。\n内容は出雲抹茶R（22年産おくみどり）50g×300bag(15kg)。\nパッキングリストの作成とDHLの見積もりをお願いします。\n※DHL手配は先方（だったと思います。）\n\nチャック付きスタンドパック（AL-10?）かなと思います。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "脱酸素剤or",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "窒素充填"
+                            },
+                            {
+                                "type": "text",
+                                "text": "or何もなしか、確認中",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "です。\n\n以上、よろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1687468883.959689",
+        "client_msg_id": "455804F3-B642-4B24-A715-856372DB4953",
+        "text": "<@U0331FZTHEK> さん\n本件、ワイズ経由で入金連絡がありました。\nよろしくお願い致します。\n\n<https:\/\/wise.com\/en\/track\/14036632ced040daa38be2bbdd7a4952?utm_source=web&amp;utm_medium=copy&amp;utm_content=moneyTracker|https:\/\/wise.com\/en\/track\/14036632ced040daa38be2bbdd7a4952?utm_source=web&amp;utm_medium=copy&amp;utm_content=moneyTracker>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1687452731.342989",
+        "parent_user_id": "U0331FZS7JT",
+        "attachments": [
+            {
+                "from_url": "https:\/\/wise.com\/en\/track\/14036632ced040daa38be2bbdd7a4952?utm_source=web&utm_medium=copy&utm_content=moneyTracker",
+                "image_url": "https:\/\/wise.com\/images\/social\/twitter-og.png",
+                "image_width": 2048,
+                "image_height": 1024,
+                "image_bytes": 26257,
+                "service_icon": "https:\/\/wise.com\/public-resources\/assets\/icons\/wise-personal\/apple_touch_icon.png",
+                "id": 1,
+                "original_url": "https:\/\/wise.com\/en\/track\/14036632ced040daa38be2bbdd7a4952?utm_source=web&amp;utm_medium=copy&amp;utm_content=moneyTracker",
+                "fallback": "Wise: The clever new way to send money abroad",
+                "text": "Banks sting you with hidden charges when you send money abroad. But that’s yesterday’s problem. Say hello to Wise, the clever new way to move your money.",
+                "title": "The clever new way to send money abroad",
+                "title_link": "https:\/\/wise.com\/en\/track\/14036632ced040daa38be2bbdd7a4952?utm_source=web&utm_medium=copy&utm_content=moneyTracker",
+                "service_name": "Wise"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Rn9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\n本件、ワイズ経由で入金連絡がありました。\nよろしくお願い致します。\n\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/wise.com\/en\/track\/14036632ced040daa38be2bbdd7a4952?utm_source=web&utm_medium=copy&utm_content=moneyTracker",
+                                "text": "https:\/\/wise.com\/en\/track\/14036632ced040daa38be2bbdd7a4952?utm_source=web&utm_medium=copy&utm_content=moneyTracker"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1687474039.857469",
+        "client_msg_id": "9eb9dd9c-8808-4536-8284-25313b7d879c",
+        "text": "<@U041RJKV5JA> 部長\n\n本件、窒素充填での出荷となりました。\n出荷可能日を教えてください。\n\nよろしくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1687452731.342989",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "610L",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n\n本件、窒素充填での出荷となりました。\n出荷可能日を教えてください。\n\nよろしくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1687475712.601669",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1687475738.000000"
+        },
+        "client_msg_id": "2049b912-d073-4a44-82a0-925b6d35fa89",
+        "text": "<@U041RJKV5JA> 部長\nドイツ：BIOARG(HP)から問い合わせがありました。\n※詳しくはメール参照をお願いします。\n\n下記のそれぞれに要する時間の確認をお願いします。\n\n●まるゑい：有機抹茶１C\/1kg×375kgのリードタイム\n※コストが上がる場合は桃翠園で１kg詰め（窒素充填）で出荷しますので\n　バルク納品のリードタイムでOKです。\n●島根有機農業協会：有機同等性証明の申請後の時間\n●ビューロー：栄養成分の検査結果取得までの時間\n●上記数量のクーリエ料金（恐らくフェデックスが安いと思います。）\n※送り先はサンプルを送ったドイツの住所で確認をお願いします。\n●発送日から到着までのざっくりとした日数\n\n以上、よろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1687475712.601669",
+        "reply_count": 20,
+        "reply_users_count": 3,
+        "latest_reply": "1711952060.078539",
+        "reply_users": [
+            "U041RJKV5JA",
+            "U0331FZS7JT",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1687576091.649979"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1687687128.162749"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1687760971.146319"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1687916564.432069"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1689073544.676279"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1690789873.001669"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1690790242.138089"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1690790823.096919"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1690854141.687559"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1690863622.173029"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1690880339.078069"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1692692987.240179"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1693790493.405779"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1694061303.861949"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1694067328.506449"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1700715701.939159"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1700798911.798399"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1711705651.056689"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1711940626.966409"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1711952060.078539"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "y0h0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nドイツ：BIOARG(HP)から問い合わせがありました。\n※詳しくはメール参照をお願いします。\n\n下記のそれぞれに要する時間の確認をお願いします。\n\n●まるゑい：有機抹茶１C\/1kg×375kgのリードタイム\n※コストが上がる場合は桃翠園で１kg詰め（窒素充填）で出荷しますので\n　バルク納品のリードタイムでOKです。\n●島根有機農業協会：有機同等性証明の申請後の時間\n●ビューロー：栄養成分の検査結果取得までの時間\n●上記数量のクーリエ料金（恐らくフェデックスが安いと思います。）\n※送り先はサンプルを送ったドイツの住所で確認をお願いします。\n●発送日から到着までのざっくりとした日数\n\n以上、よろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1687480606.007479",
+        "client_msg_id": "9954ca09-cb4b-468a-9833-b592e42721be",
+        "text": "<@U0331FZS7JT> 社長\n　CC: <@U041RJKV5JA> 部長\nお疲れ様です。\n本件、入金を確認致しました。\n・6\/23 [当座預金：Wise経由]\n・174,000円\n回収(入金)処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1687452731.342989",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "D3yz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\n　CC: "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nお疲れ様です。\n本件、入金を確認致しました。\n・6\/23 [当座預金：Wise経由]\n・174,000円\n回収(入金)処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "入金完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1687487187.821269",
+        "client_msg_id": "35857bf5-af58-4429-a0a4-642b059946cd",
+        "text": "<@U0331FZS7JT> 社長\nお疲れ様です。\nパンキングリストを作成ました。\n・出荷可能日：6月27日（火）\n・DHL送料：32,613円（フォルダにスクショ入れております）\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1687452731.342989",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FvZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nお疲れ様です。\nパンキングリストを作成ました。\n・出荷可能日：6月27日（火）\n・DHL送料：32,613円（フォルダにスクショ入れております）\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1687488671.149469",
+        "client_msg_id": "6a0eaddc-4ae4-4bec-8150-7494ed315daf",
+        "text": "<@U0331FZS7JT> 社長\nお疲れ様です。\n本日、ゆうパックスマホ割にて発送しました。\nお問い合わせ番号：4488-0044-8655\n送料：1,130円\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1687244825.137119",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "elBdC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nお疲れ様です。\n本日、ゆうパックスマホ割にて発送しました。\nお問い合わせ番号：4488-0044-8655\n送料：1,130円\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1687501486.958379",
+        "client_msg_id": "53ef2f19-1849-4ced-ae8b-d4df63dd1dc5",
+        "text": "<@U0331FZS7JT> 社長\n　CC: <@U041RJKV5JA> 部長\nお疲れ様です。\n本件、6\/23 15:14現在 未だご入金(当座預金)が確認できません。\n上記URL開くと、下記のようなメッセージが現れます。\n----------------\nThis transfer is paused.\nSorry, we can't share tracking info yet. We're waiting for Green Panda Brands Pty Ltd to make some updates first — please check back soon.\n（この転送は一時停止されています。\n申し訳ございませんが、追跡情報はまだ共有できません。Green Panda Brands Pty Ltd が最初にいくつかの更新を行うのを待っています。すぐにもう一度確認してください。）\n----------------\n上手く送金されていないのかもしれません。\nすみませんが、ご確認お願いしたいのですが…。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1682925927.335579",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uU8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\n　CC: "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nお疲れ様です。\n本件、6\/23 15:14現在 未だご入金(当座預金)が確認できません。\n上記URL開くと、下記のようなメッセージが現れます。\n----------------\nThis transfer is paused.\nSorry, we can't share tracking info yet. We're waiting for Green Panda Brands Pty Ltd to make some updates first — please check back soon.\n（この転送は一時停止されています。\n申し訳ございませんが、追跡情報はまだ共有できません。Green Panda Brands Pty Ltd が最初にいくつかの更新を行うのを待っています。すぐにもう一度確認してください。）\n----------------\n上手く送金されていないのかもしれません。\nすみませんが、ご確認お願いしたいのですが…。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

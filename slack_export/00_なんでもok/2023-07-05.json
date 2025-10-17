@@ -1,0 +1,54 @@
+[
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1688547102.602009",
+        "client_msg_id": "380702d2-b66d-46a0-ba1d-5769ac2745e4",
+        "text": "<!channel>\nお疲れ様です。\nペガサスグローバルのログインパスワードを変更するよう画面で指示ありました。\n変更しないとログインできなかったため、下記に変更しました。\n旧：tousuien10 → 新：tousuien100\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CStk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nお疲れ様です。\nペガサスグローバルのログインパスワードを変更するよう画面で指示ありました。\n変更しないとログインできなかったため、下記に変更しました。\n旧：tousuien10 → 新：tousuien100\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT",
+                    "U0331FWGQRM"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

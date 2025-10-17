@@ -1,0 +1,213 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1692010505.794439",
+        "client_msg_id": "a2ab2208-58ab-4b4e-b166-1326449efb10",
+        "text": "<@U0331FZTHEK> さん\n本件、PayPalに入金（012,013）がありました。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1691845790.866289",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VoN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\n本件、PayPalに入金（012,013）がありました。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1692010945.981539",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1692011073.000000"
+        },
+        "client_msg_id": "a637ca4a-049f-467e-b90f-27d919e08716",
+        "text": "<@U041RJKV5JA> <@U033G4KN4TD> <@U05KGS6HN9H>\n本件の送り先を下記の通りお伝えします。\n\n-------------------------\n〈012〉\nName： ヤマグチ ユウイチロウ様\nPostal code：〒210-0831\nAddress: 神奈川県川崎市川崎区観音１丁目8-20 川崎大師No.202\nTel: <tel:07089687413|070-8968-7413>\n\n〈013〉\nName: Tukta様\nPostal code：〒170-0002\nAddress: 東京都豊島区巣鴨3-31-7 Miss Spa Thaimassage 久保田ビル401\nTel: <tel:0335760235|03-3576-0235>\n----------------------------\n以上、よろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1691845790.866289",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "x5G",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本件の送り先を下記の通りお伝えします。\n\n-------------------------\n〈012〉\nName： ヤマグチ ユウイチロウ様\nPostal code：〒210-0831\nAddress: 神奈川県川崎市川崎区観音１丁目8-20 川崎大師No.202\nTel: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:07089687413",
+                                "text": "070-8968-7413"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n〈013〉\nName: Tukta様\nPostal code：〒170-0002\nAddress: 東京都豊島区巣鴨3-31-7 Miss Spa Thaimassage 久保田ビル401\nTel: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:0335760235",
+                                "text": "03-3576-0235"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n----------------------------\n以上、よろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1692035693.766329",
+        "client_msg_id": "8ea97056-2567-457c-a26f-99426d454277",
+        "text": "<@U0331FZTHEK>\n本件、PayPalで支払いの確認ができました。\nよろしくお願いします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1691308458.388249",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TY=6B",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本件、PayPalで支払いの確認ができました。\nよろしくお願いします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

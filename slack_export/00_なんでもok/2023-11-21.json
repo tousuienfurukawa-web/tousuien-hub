@@ -1,0 +1,62 @@
+[
+    {
+        "user": "U03BLQ65GK0",
+        "type": "message",
+        "ts": "1700559038.108739",
+        "client_msg_id": "bb80d552-1b45-4010-97f3-5048f6cc69c1",
+        "text": "<@U0331FWGQRM>\n【進捗報告】\nシュリンクの機械のメーカーでは資材がなく、\n同じく大阪にある資材メーカーで製造テストをすることになりました。\nテストしてもらう内容は\n・袋をこちらでカットしなくて良い資材を使用する\n・見た目もある程度気にしつつ、シュリンクしやすい（作業効率が良い）もの\nという点を考慮して行ってもらいます。\nテスト自体は明日資材メーカーに向けてうちから送ったサンプル缶を持ち込んでもらい、\n缶の形状などを確認してもらった上でテスト結果の回答がいつできるのかを連絡してもらいます。\n（明日持ち込む人員がいなかった場合は送りになるので、その場合明後日の回答）",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "8126b71e44ec",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-04-17\/3403818627748_8126b71e44ec1508fdbd_72.png",
+            "first_name": "daiki",
+            "real_name": "daiki oka",
+            "display_name": "daiki",
+            "team": "T033D70RR6H",
+            "name": "daiki.oka",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1697581126.476569",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JXK3i",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n【進捗報告】\nシュリンクの機械のメーカーでは資材がなく、\n同じく大阪にある資材メーカーで製造テストをすることになりました。\nテストしてもらう内容は\n・袋をこちらでカットしなくて良い資材を使用する\n・見た目もある程度気にしつつ、シュリンクしやすい（作業効率が良い）もの\nという点を考慮して行ってもらいます。\nテスト自体は明日資材メーカーに向けてうちから送ったサンプル缶を持ち込んでもらい、\n缶の形状などを確認してもらった上でテスト結果の回答がいつできるのかを連絡してもらいます。\n（明日持ち込む人員がいなかった場合は送りになるので、その場合明後日の回答）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U066P20UQH1",
+        "text": "<@U066P20UQH1>さんがチャンネルに参加しました",
+        "type": "message",
+        "ts": "1700559311.372729"
+    }
+]

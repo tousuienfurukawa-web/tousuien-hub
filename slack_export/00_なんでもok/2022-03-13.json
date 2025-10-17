@@ -1,0 +1,104 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1647215835.857619",
+        "client_msg_id": "3f89b01b-fb6f-4505-9eda-27755438dd77",
+        "text": "<@U0331FZTHEK>\n仕入れ確認（仕入れ時、メール共有できないのでこちらに記載します）\n・宇治抹茶　¥6,000\/kg   ×１\n・八女抹茶（星の露）　¥20,600\/kg  500g(100g×５)\n・宇治抹茶    ¥2,500\/kg   ×25\n\n以上、よろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1647215835.857619",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1647389566.418349",
+        "reply_users": [
+            "U0331FZTHEK",
+            "U0331FZS7JT"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1647216000.329289"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1647389566.418349"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sF721",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n仕入れ確認（仕入れ時、メール共有できないのでこちらに記載します）\n・宇治抹茶　¥6,000\/kg   ×１\n・八女抹茶（星の露）　¥20,600\/kg  500g(100g×５)\n・宇治抹茶    ¥2,500\/kg   ×25\n\n以上、よろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1647216000.329289",
+        "client_msg_id": "ef46864d-cda2-4545-a99b-bac2559802a8",
+        "text": "ありがとうございます。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1647215835.857619",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Yz0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ありがとうございます。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

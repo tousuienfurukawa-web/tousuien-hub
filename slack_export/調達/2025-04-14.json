@@ -1,0 +1,147 @@
+[
+    {
+        "user": "U0840UVFVA8",
+        "type": "message",
+        "ts": "1744677081.722489",
+        "client_msg_id": "7bf83c76-7dc1-4ab3-80fc-b4531925e473",
+        "text": "<!channel>\n下記発注をお願いします！\n\n碧水園\n・国産有機抹茶10500　100kg\n（OST用在庫　約２回分）\n\nよろしくお願いします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g0c71d8d4168",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0c71d8d4168211b07b8a8e20b40c036c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "kanayama",
+            "real_name": "kanayama",
+            "display_name": "金山",
+            "team": "T033D70RR6H",
+            "name": "kanayama-is",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1744677081.722489",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1744702924.705039",
+        "reply_users": [
+            "U0331FZS7JT",
+            "U041RJKV5JA"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1744690094.235569"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1744702924.705039"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yKtOr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n下記発注をお願いします！\n\n碧水園\n・国産有機抹茶10500　100kg\n（OST用在庫　約２回分）\n\nよろしくお願いします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            },
+            {
+                "name": "原料_発注済",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1744690094.235569",
+        "client_msg_id": "364073a6-cfe7-4b7b-adce-4a8d35baab91",
+        "text": "<@U041RJKV5JA>\n注文されたようですね？\n発注後何かしらスタンプ押していただると助かります。\n\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1744677081.722489",
+        "parent_user_id": "U0840UVFVA8",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hLss9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n注文されたようですね？\n発注後何かしらスタンプ押していただると助かります。\n\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            },
+            {
+                "name": "man-bowing",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

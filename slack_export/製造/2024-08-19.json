@@ -1,0 +1,134 @@
+[
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1724120013.329749",
+        "client_msg_id": "90a38ad1-aec1-41a8-962f-37ebdd1fab37",
+        "text": "<@U0331FZS7JT> <@U0331FWGQRM>\n中国メーカーよりステック機のインクジェット用インクにつき\n確認が入っております。\n《訳》\nDXD-50Fのインクジェットプリンターには、標準備品として\n黒インキが2箱付きます（5th見積金額内）。それ以外に白インキも\n必要でしょうか？白はUSD180\/箱（5th見積に含まれず）です。\n何箱必要かご確認ご連絡をお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1721671264.599029",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6QG5\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n中国メーカーよりステック機のインクジェット用インクにつき\n確認が入っております。\n《訳》\nDXD-50Fのインクジェットプリンターには、標準備品として\n黒インキが2箱付きます（5th見積金額内）。それ以外に白インキも\n必要でしょうか？白はUSD180\/箱（5th見積に含まれず）です。\n何箱必要かご確認ご連絡をお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1724121716.821399",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1724141273.000000"
+        },
+        "client_msg_id": "8930271F-6429-4DC6-A1F1-BFE68BEB7EAC",
+        "text": "<@U05KGS6HN9H>\n白インクは必要ないのですが、\n提案可否検討用として、\nサンプルで一個つけてもらうか、\n最小数量購入がいいかと思います~が、~\n~どうでしょうか? <@U0331FZS7JT>~ ",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1721671264.599029",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "n7nkQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n白インクは必要ないのですが、\n提案可否検討用として、\nサンプルで一個つけてもらうか、\n最小数量購入がいいかと思います"
+                            },
+                            {
+                                "type": "text",
+                                "text": "が、",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "どうでしょうか? ",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " ",
+                                "style": {
+                                    "strike": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

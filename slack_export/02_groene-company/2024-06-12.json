@@ -1,0 +1,288 @@
+[
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1718182895.317629",
+        "client_msg_id": "77c54a0a-242d-4331-9510-057faa4c404d",
+        "text": "<@U0331FWGQRM>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n本日、佐川急便にて出荷しました。\nAWB NO. 491636725661\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1718002375.003189",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1Vj4C",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日、佐川急便にて出荷しました。\nAWB NO. 491636725661\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1718188388.512879",
+        "client_msg_id": "d0c0fb22-430e-42c2-bba1-912fe4182d67",
+        "text": "<@U0331FWGQRM>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nオーシャンリンクスの鍋谷様からメールが入っておりますが、\n確認いただいたところ、今回アメリカを経由しないとのこと\nですので、PNC申請無しとなります。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1715177693.967419",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wau\/E",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nオーシャンリンクスの鍋谷様からメールが入っておりますが、\n確認いただいたところ、今回アメリカを経由しないとのこと\nですので、PNC申請無しとなります。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1718259358.877239",
+        "client_msg_id": "e0f43a77-da56-49d2-acf2-bd2ea0f8899f",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE029-24* ｶﾅﾀﾞTeangle様から注文です。\n\n出荷可能日（製造日、賞味期限）が分かり次第教えてください。\n\nーーーーー\n製造日など暫定の書類を添付します。\n日付が分かったら教えてください。\n\n以下確認をお願いいたします。\n\n・TSE009-24と同様のGFR Pharma向けの注文\n・同等性証明が必要\n・インボイス、パッキングリスト、COAにProduction Date、Expiration Dateを入れる\n→ Expiration Dateは、Production date +2年-1day\n・下記の内容のラベルを袋と外箱の両方に貼る\n*Teangle Organic Matcha 49 (5KG)*\n*PO 確認中*\n*RAW. 210379*\n*Manufacturing date : （決まったら教えてください）*\n*Expiration date : （決まったら教えてください）*\n*Lot Number : TSE029-24*\n\n・出荷前にCOAと同等性PDFをメールで送る\n・出荷手配は先方が行う\n\nProduction Date、Expiration Dateは暫定的に入れていますが、決まりましたら修正しますので教えてください。\nPONumber は確認が取れ次第、ご連絡いたします。\n(書類に入っているPO Numberは暫定です）\nーーーーー",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1718259358.877239",
+        "reply_count": 6,
+        "reply_users_count": 2,
+        "latest_reply": "1719905239.948779",
+        "reply_users": [
+            "U05KGS6HN9H",
+            "U0331FWGQRM"
+        ],
+        "replies": [
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1718336681.957729"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1718340190.634279"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1718348142.636779"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1718351004.033009"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1719382398.587779"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1719905239.948779"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1719905239.948779",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "76aWk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE029-24",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " ｶﾅﾀﾞTeangle様から注文です。\n\n出荷可能日（製造日、賞味期限）が分かり次第教えてください。\n\nーーーーー\n製造日など暫定の書類を添付します。\n日付が分かったら教えてください。\n\n以下確認をお願いいたします。\n\n・TSE009-24と同様のGFR Pharma向けの注文\n・同等性証明が必要\n・インボイス、パッキングリスト、COAにProduction Date、Expiration Dateを入れる\n→ Expiration Dateは、Production date +2年-1day\n・下記の内容のラベルを袋と外箱の両方に貼る\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Teangle Organic Matcha 49 (5KG)",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "PO 確認中",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "RAW. 210379",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Manufacturing date : （決まったら教えてください）",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Expiration date : （決まったら教えてください）",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Lot Number : TSE029-24",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n・出荷前にCOAと同等性PDFをメールで送る\n・出荷手配は先方が行う\n\nProduction Date、Expiration Dateは暫定的に入れていますが、決まりましたら修正しますので教えてください。\nPONumber は確認が取れ次第、ご連絡いたします。\n(書類に入っているPO Numberは暫定です）\nーーーーー"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD",
+                    "U05KGS6HN9H"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

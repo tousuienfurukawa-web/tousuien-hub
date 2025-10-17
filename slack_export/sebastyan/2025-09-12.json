@@ -1,0 +1,93 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1757682300.928939",
+        "client_msg_id": "2971973d-b26f-44dc-9325-6c6526b26df7",
+        "text": "<!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nPure matchaの袋が日本に届いたようです。\n数日中に届くようです。（13ケース）\n<https:\/\/track.seino.co.jp\/cgi-bin\/gnpquery.pgm>\n追跡番号：0414825013",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1754352920.272569",
+        "parent_user_id": "U0331FWGQRM",
+        "attachments": [
+            {
+                "from_url": "https:\/\/track.seino.co.jp\/cgi-bin\/gnpquery.pgm",
+                "service_icon": "https:\/\/track.seino.co.jp\/favicon.ico",
+                "id": 1,
+                "original_url": "https:\/\/track.seino.co.jp\/cgi-bin\/gnpquery.pgm",
+                "fallback": "西濃運輸｜お届け状況確認",
+                "text": "西濃運輸の公式ホームページ。 お届け状況確認では、お客様の商品の情報（位置や状況）を、ご確認いただけるサービスです。",
+                "title": "西濃運輸｜お届け状況確認",
+                "title_link": "https:\/\/track.seino.co.jp\/cgi-bin\/gnpquery.pgm",
+                "service_name": "track.seino.co.jp"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IqT1L",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nPure matchaの袋が日本に届いたようです。\n数日中に届くようです。（13ケース）\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/track.seino.co.jp\/cgi-bin\/gnpquery.pgm"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n追跡番号：0414825013"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U033G4KN4TD",
+                    "U041RJKV5JA"
+                ],
+                "count": 2
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U033G4KN4TD",
+                    "U08L89G6JSG"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

@@ -1,0 +1,727 @@
+[
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1685610244.677739",
+        "client_msg_id": "74e5ebde-145a-47fd-aaf2-7f87e7c916a6",
+        "text": "<@U0331FZS7JT> 社長\n6月13日（火）発送可能です。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1685535418.020329",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ExHN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\n6月13日（火）発送可能です。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1685663682.225049",
+        "client_msg_id": "3586641d-04bd-4abe-a85b-cd6d61085b1c",
+        "text": "<@U041RJKV5JA> 部長\nCC：<!channel>\n\nお疲れ様です。\nカナダのWabisabi様より注文が入りました。\n\nMango Matcha(Mango 5%) 30g bag    200枚\n原料：まるゑい有機抹茶3000（95%）+キタママンゴーパウダー（5%）\nラベル：表→タマヤ円形Φ68mm　ミラシート\n                裏→タマヤ長方形小サイズ：60x95mm　ミラシート\n\nよろしく御願い致します。\n\n<@U0331FZTHEK> さん\nお疲れ様です。\n50％前払い、残り50%は14-28日後支払いという条件ですので、\n 400ドル（800ドルの50％）をwabisabi様へ請求書を送付していただけますか？\nよろしく御願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1685663682.225049",
+        "reply_count": 11,
+        "reply_users_count": 4,
+        "latest_reply": "1693177122.077319",
+        "reply_users": [
+            "U033G4KN4TD",
+            "U0331FZTHEK",
+            "U0331FZS7JT",
+            "U041RJKV5JA"
+        ],
+        "replies": [
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1686267737.936689"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1686269069.655989"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1687779191.591689"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1688168431.219709"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1688168475.108999"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1688540154.733429"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1688541141.239679"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1690494977.725909"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1690529404.947019"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1691847840.279929"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1693177122.077319"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IJt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nCC："
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nお疲れ様です。\nカナダのWabisabi様より注文が入りました。\n\nMango Matcha(Mango 5%) 30g bag    200枚\n原料：まるゑい有機抹茶3000（95%）+キタママンゴーパウダー（5%）\nラベル：表→タマヤ円形Φ68mm　ミラシート\n                裏→タマヤ長方形小サイズ：60x95mm　ミラシート\n\nよろしく御願い致します。\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\nお疲れ様です。\n50％前払い、残り50%は14-28日後支払いという条件ですので、\n 400ドル（800ドルの50％）をwabisabi様へ請求書を送付していただけますか？\nよろしく御願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "eyes",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1685665027.539979",
+        "client_msg_id": "44b8bc8f-a4a6-4d56-b328-db635d8cedaf",
+        "text": "<@U041RJKV5JA> 部長\nCC：<!channel>\n\nタイ（Trial not error様）から注文（第４回）がありました。\n６月５日に埼玉に届けて欲しいとのことです。\n可能でしょうか？\n\nご確認、情報共有、発送よろしくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1685665027.539979",
+        "reply_count": 10,
+        "reply_users_count": 3,
+        "latest_reply": "1685694333.468189",
+        "reply_users": [
+            "U0331FZS7JT",
+            "U041RJKV5JA",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1685681924.964819"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1685682007.474809"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1685682059.578919"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1685682424.771159"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1685682718.605229"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1685682752.099069"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1685688152.594269"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1685689724.715959"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1685690584.006629"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1685694333.468189"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1eecp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nCC："
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nタイ（Trial not error様）から注文（第４回）がありました。\n６月５日に埼玉に届けて欲しいとのことです。\n可能でしょうか？\n\nご確認、情報共有、発送よろしくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1685681924.964819",
+        "client_msg_id": "29467877-c1b6-4d6b-9575-c1f75f34ddac",
+        "text": "<@U041RJKV5JA> 部長\n\n本件、サンプル追加しています。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1685665027.539979",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EEj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n\n本件、サンプル追加しています。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1685682007.474809",
+        "client_msg_id": "b74eb250-9c45-41c9-86c9-8448f4ea680c",
+        "text": "<@U0331FZS7JT> 社長\n在庫がない商品がありますので、出荷可能日は6月5日（月）出荷となります。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1685665027.539979",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DnItz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\n在庫がない商品がありますので、出荷可能日は6月5日（月）出荷となります。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1685682059.578919",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1685682969.000000"
+        },
+        "client_msg_id": "eefb5536-0eef-47ad-9d21-64033d9ee255",
+        "text": "<@U041RJKV5JA> 部長\n今日注文して、*明日（桃翠園）出荷*は無理ですか？\n僕が発送対応しますが、無理です？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1685665027.539979",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UPWfO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n今日注文して、"
+                            },
+                            {
+                                "type": "text",
+                                "text": "明日（桃翠園）出荷",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "は無理ですか？\n僕が発送対応しますが、無理です？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1685682424.771159",
+        "client_msg_id": "31e00815-0bc8-41c9-8dc0-d41d4b46fa8f",
+        "text": "<@U0331FZS7JT> 社長\n本日注文して明日出荷、4日（日）AM桃翠園着は可能です。\nこれで手配してよろしいでしょうか？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1685665027.539979",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "up\/vs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\n本日注文して明日出荷、4日（日）AM桃翠園着は可能です。\nこれで手配してよろしいでしょうか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1685682718.605229",
+        "client_msg_id": "8784346c-36ad-499d-815e-f38c0799b14a",
+        "text": "<@U041RJKV5JA> 部長\nお願いします。\n佐川の手配もお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1685665027.539979",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FwLU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nお願いします。\n佐川の手配もお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1685682752.099069",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1685682829.000000"
+        },
+        "client_msg_id": "7fe9d0eb-1cf4-445a-ab99-10ea0b227e54",
+        "text": "<@U041RJKV5JA> 部長\nサプライヤーは本日出荷は対応してもらえない感じですか？\n日曜出荷で間に合うかが不透明なので聞いています。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1685665027.539979",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=T=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nサプライヤーは本日出荷は対応してもらえない感じですか？\n日曜出荷で間に合うかが不透明なので聞いています。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1685683250.487419",
+        "client_msg_id": "d1e63191-836c-435c-b211-821d084bddfe",
+        "text": "<@U041RJKV5JA> <@U033G4KN4TD>\n\nタイのtachu houseより注文がありました。\n*TSE-TAC-008-23_invoice*\n注文内容はフォルダ内のインボイス（エクセル）を確認ください。\n・Lot no.\/Man. date\/ Exp. dateを\nTSE-TAC-008-23_invoice_total_secret_Lot No_memo　に\n記入してください。\n\n・前回と同様にラベルを貼り付けてください。\n　商品\n　製造日・賞味期限・Lot No.\n\n・脱酸素剤を入れてください。\n・全て熱圧着の袋でOKです。（ジップロックタイプではない）\n・下記先へ発送ください。\n66\/9,Moo 8,Sub-district Khok kham, District Muang, Samutsakhon province, Thailand,\n74000\n\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1685683250.487419",
+        "reply_count": 6,
+        "reply_users_count": 3,
+        "latest_reply": "1686028657.306479",
+        "reply_users": [
+            "U041RJKV5JA",
+            "U0331FZTHEK",
+            "U0331FWGQRM"
+        ],
+        "replies": [
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1685698841.240769"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1685920883.558639"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1685946692.227059"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1685948121.403599"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1685948238.952639"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1686028657.306479"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1686028657.306479",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Thk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nタイのtachu houseより注文がありました。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-TAC-008-23_invoice",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n注文内容はフォルダ内のインボイス（エクセル）を確認ください。\n・Lot no.\/Man. date\/ Exp. dateを\nTSE-TAC-008-23_invoice_total_secret_Lot No_memo　に\n記入してください。\n\n・前回と同様にラベルを貼り付けてください。\n　商品\n　製造日・賞味期限・Lot No.\n\n・脱酸素剤を入れてください。\n・全て熱圧着の袋でOKです。（ジップロックタイプではない）\n・下記先へ発送ください。\n66\/9,Moo 8,Sub-district Khok kham, District Muang, Samutsakhon province, Thailand,\n74000\n\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1685688152.594269",
+        "client_msg_id": "0e685a38-715e-4ef9-adad-d364bd95413e",
+        "text": "<@U0331FZS7JT> 社長\n佐川の集荷ですが13時集荷が最終となります。\n出荷場に荷物を置いておいてください。\n\n水出し緑茶ですが、3g（タグ有、ITUMOシリーズ）、5g（タグ無）どちらでしょうか？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1685665027.539979",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "npNq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\n佐川の集荷ですが13時集荷が最終となります。\n出荷場に荷物を置いておいてください。\n\n水出し緑茶ですが、3g（タグ有、ITUMOシリーズ）、5g（タグ無）どちらでしょうか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

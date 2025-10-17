@@ -1,0 +1,236 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1681383868.776019",
+        "client_msg_id": "0d0c01de-9ee9-4fd2-bb28-d60034752235",
+        "text": "<@U041RJKV5JA> 部長\nCC：*<!channel>*\n\nウクライナから注文(019)がありました。\nインボイスに送料の記載\nパッキングリストを完成の上、\n発送可能日を教えてください。\n※A1(100g)×150pacsなのでボリュームディスカウントしています。\n    400JPY\/pac\n\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1681383868.776019",
+        "reply_count": 8,
+        "reply_users_count": 3,
+        "latest_reply": "1684743681.949399",
+        "reply_users": [
+            "U041RJKV5JA",
+            "U0331FZTHEK",
+            "U0331FZS7JT"
+        ],
+        "replies": [
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1681432903.403549"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1681772509.916439"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1681774823.749029"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1681775891.531339"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1681945655.015449"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1681949515.878499"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1681959211.333399"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1684743681.949399"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "spp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nCC："
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nウクライナから注文(019)がありました。\nインボイスに送料の記載\nパッキングリストを完成の上、\n発送可能日を教えてください。\n※A1(100g)×150pacsなのでボリュームディスカウントしています。\n    400JPY\/pac\n\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            },
+            {
+                "name": "出荷完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1681432903.403549",
+        "client_msg_id": "08082c24-1d5e-4407-bdc2-e2b618701626",
+        "text": "<@U0331FZS7JT> 社長\nインボイスに送料を記入しました。\n発送可能日は、４月１７日（月）になります。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1681383868.776019",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NWj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nインボイスに送料を記入しました。\n発送可能日は、４月１７日（月）になります。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1681452641.951519",
+        "client_msg_id": "61612910-a871-4cbe-a4cb-f9a44a24adb5",
+        "text": "<@U0331FZS7JT> 社長\nお疲れ様です。\n本日、TSE-IV-018-23をEMSにて出荷しました。\nTracking number : EN 249 709 144 JP\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1681341809.916199",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "myi=W",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\nお疲れ様です。\n本日、TSE-IV-018-23をEMSにて出荷しました。\nTracking number : EN 249 709 144 JP\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

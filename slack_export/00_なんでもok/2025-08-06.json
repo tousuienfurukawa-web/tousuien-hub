@@ -1,0 +1,162 @@
+[
+    {
+        "user": "U08L89G6JSG",
+        "type": "message",
+        "ts": "1754474364.729949",
+        "client_msg_id": "77d1f0e5-1a7d-4b2d-9e1d-7028c4ea1498",
+        "text": "<!channel>\n品質管理チームからお知らせです！\n比較画像をこちらのフォルダに保存していきますので\n必要な際はこちらをご確認お願いします:raised_hands:\n<https:\/\/drive.google.com\/open?id=1W6f76MylDJjKtAoGTjor_9HQ5bz8WJe0&amp;usp=drive_fs>\n桃翠園共有フォルダ＞品質管理＞比較写真",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "fed0a878533f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-03-31\/8678953673334_fed0a878533f1e7c9560_72.png",
+            "first_name": "yokoi",
+            "real_name": "yokoi",
+            "display_name": "横井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.yokoi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1754474364.729949",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1754530127.732759",
+        "reply_users": [
+            "U0331FWGQRM"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1754530127.732759"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1754530127.732759",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PwKcU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n品質管理チームからお知らせです！\n比較画像をこちらのフォルダに保存していきますので\n必要な際はこちらをご確認お願いします"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "raised_hands",
+                                "unicode": "1f64c"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/drive.google.com\/open?id=1W6f76MylDJjKtAoGTjor_9HQ5bz8WJe0&usp=drive_fs"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n桃翠園共有フォルダ＞品質管理＞比較写真"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "あり",
+                "users": [
+                    "U066P20UQH1",
+                    "U08RVRNBY00",
+                    "U0606SPN4BW",
+                    "U0331FZS7JT",
+                    "U08N3SKSL75",
+                    "U0331FWGQRM"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1754530127.732759",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1754530135.000000"
+        },
+        "client_msg_id": "b50e570d-3337-4fc5-a697-13ba393a1bc6",
+        "text": "<@U08L89G6JSG>\nありがとうございます。\n（フォルダの整理はまだ途中かもしれませんが、）\n撮影された写真を各担当が画像のみで品質評価をすることはできませんので、\n評価された方が、写真と共にその評価についてもテキストで残していただけると助かるかと思います。\n\n例）\nフォルダは抹茶の種類ごとに分ければ良いかと思いますが、\nフォルダ内の画像のネーミングについてはロット番号で管理されると良いかと思います。\n\nそのロット番号（画像）に基づくコメントリストが下記のようにあっても良いのかなと思いました。\n\n25D14　xxxxxx。???と比較して少し黄色っぽかったが許容範囲と判断した。\n25G31　xxxxxx。oooと比較して遜色なかった。\n25G31　xxxxxx。品質は基準内と判断した。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1754474364.729949",
+        "parent_user_id": "U08L89G6JSG",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2yfT6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U08L89G6JSG"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nありがとうございます。\n（フォルダの整理はまだ途中かもしれませんが、）\n撮影された写真を各担当が画像のみで品質評価をすることはできませんので、\n評価された方が、写真と共にその評価についてもテキストで残していただけると助かるかと思います。\n\n例）\nフォルダは抹茶の種類ごとに分ければ良いかと思いますが、\nフォルダ内の画像のネーミングについてはロット番号で管理されると良いかと思います。\n\nそのロット番号（画像）に基づくコメントリストが下記のようにあっても良いのかなと思いました。\n\n25D14　xxxxxx。???と比較して少し黄色っぽかったが許容範囲と判断した。\n25G31　xxxxxx。oooと比較して遜色なかった。\n25G31　xxxxxx。品質は基準内と判断した。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "eyes",
+                "users": [
+                    "U08L89G6JSG"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U08L89G6JSG"
+                ],
+                "count": 1
+            },
+            {
+                "name": "助かります",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

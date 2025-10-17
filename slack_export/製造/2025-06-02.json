@@ -1,0 +1,94 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U08V56G9U92",
+        "text": "<@U08V56G9U92>さんがチャンネルに参加しました",
+        "type": "message",
+        "ts": "1748914893.676079"
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1748929832.647659",
+        "client_msg_id": "52400c07-2eff-4469-9933-5af0d26699b1",
+        "text": "<@U03BLQ65GK0>\n<@U0331FZS7JT> <@U0331FWGQRM> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n6\/3時点での情報共有です。\nボールミル機械（40Fコンテナで8台、LCL混載で2台）、\n前航海からの遅れ（タイ港混雑影響）で上海出港日と\n神戸入港日が遅れております。\n《6\/3現在の動静》\n上海出港　6\/7（土）\n神戸入港　6\/10（火）午前予定\n引き続き最短での出雲精茶入れを目指します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745647826.720899",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dKN0P",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n6\/3時点での情報共有です。\nボールミル機械（40Fコンテナで8台、LCL混載で2台）、\n前航海からの遅れ（タイ港混雑影響）で上海出港日と\n神戸入港日が遅れております。\n《6\/3現在の動静》\n上海出港　6\/7（土）\n神戸入港　6\/10（火）午前予定\n引き続き最短での出雲精茶入れを目指します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U0331FWGQRM",
+                    "U0331FZS7JT"
+                ],
+                "count": 2
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

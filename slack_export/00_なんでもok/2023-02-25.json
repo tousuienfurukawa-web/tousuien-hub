@@ -1,0 +1,344 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1677344579.896789",
+        "client_msg_id": "fdb7a1c7-8606-4acc-8831-99a75dffbafc",
+        "text": "<@U041RJKV5JA> <@U03BLQ65GK0> cc : <!channel>\nお疲れ様です。\ngroene様からクレームの連絡が入りました。\n下記内容確認し、調査を進めてください。\n（優先順位最高れべるですI\nーーー\nKATO MATCHAで品質クレームです。\n（※松井：どの種類のKATO MATCHAなのかは確認中です）\n複数の顧客から以前に比べ、色が鮮やかでない、苦い海藻のような味\nといったクレームで、返金対応になっているものもあるようです。\nどの出荷分でそういったクレームになっているか聞いておりますが、\n何か原因となるようなことを把握していれば教えてください。\nインボイス番号など分かれば調査をお願いいたしますので\nーーー",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1677344579.896789",
+        "reply_count": 4,
+        "reply_users_count": 3,
+        "latest_reply": "1677375777.097009",
+        "reply_users": [
+            "U03BLQ65GK0",
+            "U0331FWGQRM",
+            "U0331FZS7JT"
+        ],
+        "replies": [
+            {
+                "user": "U03BLQ65GK0",
+                "ts": "1677372480.943269"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1677373141.868479"
+            },
+            {
+                "user": "U03BLQ65GK0",
+                "ts": "1677374494.528309"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1677375777.097009"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1677375777.097009",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3x=4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc : "
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nお疲れ様です。\ngroene様からクレームの連絡が入りました。\n下記内容確認し、調査を進めてください。\n（優先順位最高れべるですI\nーーー\nKATO MATCHAで品質クレームです。\n（※松井：どの種類のKATO MATCHAなのかは確認中です）\n複数の顧客から以前に比べ、色が鮮やかでない、苦い海藻のような味\nといったクレームで、返金対応になっているものもあるようです。\nどの出荷分でそういったクレームになっているか聞いておりますが、\n何か原因となるようなことを把握していれば教えてください。\nインボイス番号など分かれば調査をお願いいたしますので\nーーー"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U03BLQ65GK0"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U03BLQ65GK0",
+        "type": "message",
+        "ts": "1677372480.943269",
+        "client_msg_id": "c9522661-0257-4a56-9155-47684c07b10b",
+        "text": "<@U0331FWGQRM>\nロット毎の外観と官能審査を行っており、問題ないことを確認後に詰め作業に入っているので原因として思い当たることが現時点ではありません。\nどの出荷分等の情報が入りましたらそこから調査開始しますのでよろしくお願いします。\n\n<@U041RJKV5JA>\n可能性としては\n・官能審査時に比較する前ロットのサンプルが劣化していた\n　※ちなみにサンプルは冷蔵保管している\n・同ロット内で品質にバラつきがある\n・納品後常温等で長期間保管されたものが販売された\nなどが考えられます。\n出荷時のロットやその他の情報が出揃わないと何とも言えない（調べるポイントがしぼれない）のですが、他にもあれば共有をお願いします。\nその上で、立てた仮説について行える調査をしていきますのでよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "8126b71e44ec",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-04-17\/3403818627748_8126b71e44ec1508fdbd_72.png",
+            "first_name": "daiki",
+            "real_name": "daiki oka",
+            "display_name": "daiki",
+            "team": "T033D70RR6H",
+            "name": "daiki.oka",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1677344579.896789",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fBV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nロット毎の外観と官能審査を行っており、問題ないことを確認後に詰め作業に入っているので原因として思い当たることが現時点ではありません。\nどの出荷分等の情報が入りましたらそこから調査開始しますのでよろしくお願いします。\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n可能性としては\n・官能審査時に比較する前ロットのサンプルが劣化していた\n　※ちなみにサンプルは冷蔵保管している\n・同ロット内で品質にバラつきがある\n・納品後常温等で長期間保管されたものが販売された\nなどが考えられます。\n出荷時のロットやその他の情報が出揃わないと何とも言えない（調べるポイントがしぼれない）のですが、他にもあれば共有をお願いします。\nその上で、立てた仮説について行える調査をしていきますのでよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1677373141.868479",
+        "client_msg_id": "D7B89DE6-A90E-4AA7-8F29-390B9CB05736",
+        "text": "<@U03BLQ65GK0> \n有難うございます。\n\n“どの出荷分等の情報が入りましたらそこから調査開始します”\n→つまり、何が悪かったのかわかるまでは動きません。というスタンスはお客様に対し非常に悪印象を与えると思います。\n\nむしろ、\n○○のロットにそのようなクレームの原因となる理由があったかもしれません。大変申し訳ございません。\n\nのように、前向きに、真摯に向き合い、対応する姿勢が必要かと思います。\n\nまた、\n可能性としては、\n以降に列挙しているものが、\n本当に可能性としてあるのであれば、\nそここそ改善するべき点であります。\n\nこのようなことが、当たり前であるようなスタンスではなく、改善のチャンスだと前向きに取り組んでいただきたいです。\n\nそれはそれで置いておいて、\n今お客様から返信が来ました。\nーー\nクレームが続いて来ているのがこの２、３週間だそうで直近の注文分ではないか？(TSE004-23)とのことでした。\nお客様も自分たちで改めて品質、味のチェックをしてみるとおっしゃっています。\n\n御社側でも品質チェック等、確認をお願いできますでしょうか。\nーー\n\n宜しくお願いします",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1677344579.896789",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "oU3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \n有難うございます。\n\n“どの出荷分等の情報が入りましたらそこから調査開始します”\n→つまり、何が悪かったのかわかるまでは動きません。というスタンスはお客様に対し非常に悪印象を与えると思います。\n\nむしろ、\n○○のロットにそのようなクレームの原因となる理由があったかもしれません。大変申し訳ございません。\n\nのように、前向きに、真摯に向き合い、対応する姿勢が必要かと思います。\n\nまた、\n可能性としては、\n以降に列挙しているものが、\n本当に可能性としてあるのであれば、\nそここそ改善するべき点であります。\n\nこのようなことが、当たり前であるようなスタンスではなく、改善のチャンスだと前向きに取り組んでいただきたいです。\n\nそれはそれで置いておいて、\n今お客様から返信が来ました。\nーー\nクレームが続いて来ているのがこの２、３週間だそうで直近の注文分ではないか？(TSE004-23)とのことでした。\nお客様も自分たちで改めて品質、味のチェックをしてみるとおっしゃっています。\n\n御社側でも品質チェック等、確認をお願いできますでしょうか。\nーー\n\n宜しくお願いします"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U03BLQ65GK0",
+        "type": "message",
+        "ts": "1677374494.528309",
+        "client_msg_id": "c44ba049-aef9-4812-9843-d0559cb9c047",
+        "text": "<@U0331FWGQRM>\n言葉足らずでした。\n当然、先んじてクレームの可能性となる要因をお客様に伝え、調べられることを調べた上お客様への対応はマストであると考えています。\n情報が出てくれば更に詳細な調査を行いますという意味合いでした。\n改善のチャンスであることもそのとおりだと思います。サンプルの扱いや品質チェックの方法など見直したいと思います。\n\n直近の注文であるということであれば、保管してある前回発送した製品の残りを確認し、結果をまた共有します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "8126b71e44ec",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-04-17\/3403818627748_8126b71e44ec1508fdbd_72.png",
+            "first_name": "daiki",
+            "real_name": "daiki oka",
+            "display_name": "daiki",
+            "team": "T033D70RR6H",
+            "name": "daiki.oka",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1677344579.896789",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Dzt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n言葉足らずでした。\n当然、先んじてクレームの可能性となる要因をお客様に伝え、調べられることを調べた上お客様への対応はマストであると考えています。\n情報が出てくれば更に詳細な調査を行いますという意味合いでした。\n改善のチャンスであることもそのとおりだと思います。サンプルの扱いや品質チェックの方法など見直したいと思います。\n\n直近の注文であるということであれば、保管してある前回発送した製品の残りを確認し、結果をまた共有します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1677375777.097009",
+        "client_msg_id": "71683f33-660d-4d60-9e2f-ca139c943aae",
+        "text": "<@U03BLQ65GK0> <@U041RJKV5JA>\n【補足】\n&gt; （※松井：どの種類のKATO MATCHAなのかは確認中です）\n上記\n製品：KATO MATCHA Summer\n原料：抹茶１C（まるゑい）\nです。\n\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1677344579.896789",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Itc0S",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n【補足】\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_quote",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "（※松井：どの種類のKATO MATCHAなのかは確認中です）"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "上記\n製品：KATO MATCHA Summer\n原料：抹茶１C（まるゑい）\nです。\n\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U041RJKV5JA",
+                    "U03BLQ65GK0"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

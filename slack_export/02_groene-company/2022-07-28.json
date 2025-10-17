@@ -1,0 +1,61 @@
+[
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1659059134.815009",
+        "client_msg_id": "1fc7fd28-fa82-45e1-a884-f45fe5cb29ea",
+        "text": "<!channel>\nお疲れ様です。\n申し訳ございませんが、明日7\/30（土）、1日の休みをいただきたいと思います。\n明日出荷のGenuine Tea様の件について、\n集荷依頼が済んでおります。\n出荷書類も全部揃えました。\n片寄さんにお渡し致しております。\nよろしくお願いいたします。\n <@U0331FZTHEK> さん\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LMpa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nお疲れ様です。\n申し訳ございませんが、明日7\/30（土）、1日の休みをいただきたいと思います。\n明日出荷のGenuine Tea様の件について、\n集荷依頼が済んでおります。\n出荷書類も全部揃えました。\n片寄さんにお渡し致しております。\nよろしくお願いいたします。\n "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

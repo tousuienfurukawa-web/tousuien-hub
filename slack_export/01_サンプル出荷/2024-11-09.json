@@ -1,0 +1,206 @@
+[
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1731149608.088579",
+        "client_msg_id": "1f5eb466-b97e-4d08-8cef-94eb06245d30",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n*TSE-ALA-SPL-001-24*\n:flag-jo:ヨルダン（送り先はカナダ）：ALA-Alaa Naouri様からサンプル注文をいただきました。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1731149608.088579",
+        "reply_count": 5,
+        "reply_users_count": 3,
+        "latest_reply": "1731477402.278139",
+        "reply_users": [
+            "U066P20UQH1",
+            "U0331FZTHEK",
+            "U05KGS6HN9H"
+        ],
+        "replies": [
+            {
+                "user": "U066P20UQH1",
+                "ts": "1731149631.896439"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1731278659.224839"
+            },
+            {
+                "user": "U066P20UQH1",
+                "ts": "1731361549.401899"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1731364994.723989"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1731477402.278139"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1731477402.278139",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "b7txZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-ALA-SPL-001-24",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-jo",
+                                "unicode": "1f1ef-1f1f4"
+                            },
+                            {
+                                "type": "text",
+                                "text": "ヨルダン（送り先はカナダ）：ALA-Alaa Naouri様からサンプル注文をいただきました。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U05KGS6HN9H"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1731149631.896439",
+        "edited": {
+            "user": "U066P20UQH1",
+            "ts": "1731149644.000000"
+        },
+        "client_msg_id": "d93c08ca-ffa1-4507-a088-46026a7c15e2",
+        "text": "<@U0331FZTHEK>\n入金確認済みですので回収処理をお願いします:woman-bowing:\n\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n出荷可能日を教えてください:woman-bowing:\nラベル金額記載なしでOKです",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1731149608.088579",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kAngL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n入金確認済みですので回収処理をお願いします"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "woman-bowing",
+                                "unicode": "1f647-200d-2640-fe0f"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日を教えてください"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "woman-bowing",
+                                "unicode": "1f647-200d-2640-fe0f"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nラベル金額記載なしでOKです"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

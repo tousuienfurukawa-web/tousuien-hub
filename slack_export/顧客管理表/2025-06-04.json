@@ -1,0 +1,125 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U08RVRNBY00",
+        "text": "<@U08RVRNBY00>さんがチャンネルに参加しました",
+        "inviter": "U066P20UQH1",
+        "type": "message",
+        "ts": "1749024075.438009"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U08N3SKSL75",
+        "text": "<@U08N3SKSL75>さんがチャンネルに参加しました",
+        "inviter": "U066P20UQH1",
+        "type": "message",
+        "ts": "1749024075.583449"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U08U8MMTH43",
+        "text": "<@U08U8MMTH43>さんがチャンネルに参加しました",
+        "inviter": "U066P20UQH1",
+        "type": "message",
+        "ts": "1749024075.685049"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U08FZUNPSQ3",
+        "text": "<@U08FZUNPSQ3>さんがチャンネルに参加しました",
+        "inviter": "U066P20UQH1",
+        "type": "message",
+        "ts": "1749024075.792229"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U08L89G6JSG",
+        "text": "<@U08L89G6JSG>さんがチャンネルに参加しました",
+        "inviter": "U066P20UQH1",
+        "type": "message",
+        "ts": "1749024075.928769"
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1749026977.193179",
+        "client_msg_id": "cef974c2-c5b5-430a-b855-c05c4990ce20",
+        "text": "<@U08N3SKSL75> <@U08RVRNBY00> <@U08U8MMTH43> <@U08L89G6JSG>\nお疲れ様です！\n顧客管理表の利用において、フィルターの方法について案内しております。\n一度お目通しをお願いいたします:woman-bowing:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745558732.723149",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "A8G6a",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U08N3SKSL75"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U08RVRNBY00"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U08U8MMTH43"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U08L89G6JSG"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nお疲れ様です！\n顧客管理表の利用において、フィルターの方法について案内しております。\n一度お目通しをお願いいたします"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "woman-bowing",
+                                "unicode": "1f647-200d-2640-fe0f"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U08N3SKSL75",
+                    "U08RVRNBY00"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

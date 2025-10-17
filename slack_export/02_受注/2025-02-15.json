@@ -1,0 +1,332 @@
+[
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1739641647.488309",
+        "client_msg_id": "9483ec6c-842d-4efa-9aa7-ad0f1b373eba",
+        "text": "<@U041RJKV5JA> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nご確認ありがとうございます！\nShipping Invoiceに「日EU・EPA自己申告文」の記載をしました。\nよろしくお願いします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1739013043.615729",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tz5WM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nご確認ありがとうございます！\nShipping Invoiceに「日EU・EPA自己申告文」の記載をしました。\nよろしくお願いします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1739642372.242869",
+        "client_msg_id": "1fb56b0e-70f5-4b93-82f3-201d056849a1",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n:flag-th:タイのtachu houseより注文がありました。\n*TSE-TAC-009-25*",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1739642372.242869",
+        "reply_count": 8,
+        "reply_users_count": 3,
+        "latest_reply": "1742373946.406799",
+        "reply_users": [
+            "U0331FWGQRM",
+            "U0331FZTHEK",
+            "U05KGS6HN9H"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1739642556.199789"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1739642572.862699"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1740112106.062679"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1740216169.577919"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1740658202.023799"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1741607088.324819"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1742271055.871929"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1742373946.406799"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1742373946.406799",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5OgFx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-th",
+                                "unicode": "1f1f9-1f1ed"
+                            },
+                            {
+                                "type": "text",
+                                "text": "タイのtachu houseより注文がありました。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-TAC-009-25",
+                                "style": {
+                                    "bold": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U05KGS6HN9H",
+                    "U041RJKV5JA"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1739642556.199789",
+        "client_msg_id": "a413ab48-dcf9-40f3-a7ed-e5e01c1ade4e",
+        "text": "YAME D  50 G bag x 80 bag（星野：八女の露代替品）\nUJI C_O 50 G bag x 60 bag（茗広：宇治12000おくみどり）",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1739642372.242869",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "z1ML5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "YAME D  50 G bag x 80 bag（星野：八女の露代替品）\nUJI C_O 50 G bag x 60 bag（茗広：宇治12000おくみどり）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1739642572.862699",
+        "client_msg_id": "daac2aef-c9e0-47d7-b531-b0affe97aabc",
+        "text": "・産地証明書（Certificate of Origin）\n・植物検疫証明書（Phytosanitary Certificate）\n　※上記２点は入手し次第連絡ください。\n　※また、出荷書類として原本を添付してください。\n　※出荷書類はpdfでスキャンして保存してください。\n・HS CODE：0902.20\n・EMS発送\nーーーーーーーー\n注文内容はフォルダ内のインボイスを確認ください。\n・Lot no.\/Man. date\/ Exp. dateを\n　TSE-TAC-009-25_invoice_total_secret_Lot No_memo　に記入してください。\n・ラベルはバブルラップに一枚とのことです。商品には不要とのこと。\n※バブルバッグを使用しない場合は、プラスチックバッグに貼り付けでもOK。\n　商品\n　製造日・賞味期限・Lot No.\n・窒素充填してください。\n・前回同様、送り先住所にブランド名も追記してくださいとのことです。\n　TACHUHOUSE",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1739642372.242869",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HXyGU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "・産地証明書（Certificate of Origin）\n・植物検疫証明書（Phytosanitary Certificate）\n　※上記２点は入手し次第連絡ください。\n　※また、出荷書類として原本を添付してください。\n　※出荷書類はpdfでスキャンして保存してください。\n・HS CODE：0902.20\n・EMS発送\nーーーーーーーー\n注文内容はフォルダ内のインボイスを確認ください。\n・Lot no.\/Man. date\/ Exp. dateを\n　TSE-TAC-009-25_invoice_total_secret_Lot No_memo　に記入してください。\n・ラベルはバブルラップに一枚とのことです。商品には不要とのこと。\n※バブルバッグを使用しない場合は、プラスチックバッグに貼り付けでもOK。\n　商品\n　製造日・賞味期限・Lot No.\n・窒素充填してください。\n・前回同様、送り先住所にブランド名も追記してくださいとのことです。\n　TACHUHOUSE"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1739688211.459499",
+        "edited": {
+            "user": "U041RJKV5JA",
+            "ts": "1739786236.000000"
+        },
+        "client_msg_id": "1d789db5-9591-445d-b377-bac7fff59429",
+        "text": "<@U066P20UQH1>\n <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n出荷可能日：~3月6日（木）~2月27日（木）\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1739170341.412509",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qX\/MP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日："
+                            },
+                            {
+                                "type": "text",
+                                "text": "3月6日（木）",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "2月27日（木）\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "eyes",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

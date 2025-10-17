@@ -1,0 +1,779 @@
+[
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1704966819.841669",
+        "client_msg_id": "cef31fd3-8d16-4263-ad1f-eb7dd1dd0642",
+        "text": "<@U0331FWGQRM>\n <@U0606SPN4BW> <@U05KGS6HN9H> <@U033G4KN4TD>\n本件で使用予定のチョコレートパウダー、バニラパウダー共に有機原料として使用する事が出来ない事が分かりました。\n原因は、原料の中に有機商品には使用できない添加物が含まれている為です。\n非有機商品としてサンプル出荷した方がよろしいでしょうか。\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1704243956.474109",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DQzfM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本件で使用予定のチョコレートパウダー、バニラパウダー共に有機原料として使用する事が出来ない事が分かりました。\n原因は、原料の中に有機商品には使用できない添加物が含まれている為です。\n非有機商品としてサンプル出荷した方がよろしいでしょうか。\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1704972723.497909",
+        "client_msg_id": "adf46889-fa0a-418d-a106-0ad194fd8ebe",
+        "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD>\nサンプル出荷するかどうかはお客様に再度確認します。\n\n&gt; 原因は、原料の中に有機商品には使用できない添加物が含まれている為です。\n→具体的に使用できない添加物は“何”ですか？得た資料や情報があれば共有してください。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1704243956.474109",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "r\/Ydw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nサンプル出荷するかどうかはお客様に再度確認します。\n\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_quote",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "原因は、原料の中に有機商品には使用できない添加物が含まれている為です。"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "→具体的に使用できない添加物は“何”ですか？得た資料や情報があれば共有してください。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD>\nフランスのHeng Keren様にサンプル発送お願いします。\n\n- Company name ( brand name ) : HENG KEREN ( DRISNOS )\n- Your name : HENG KEREN\n- Address : 23 Rue de l’église\n- Postal code (Zip code) : 92000\n- City : NANTERRE\n- Phone number : <tel:+33782986491|+33 782986491>\n- Email address : <mailto:drisnosarea@gmail.com|drisnosarea@gmail.com>\n- EORI number : FR91327292800015",
+        "files": [
+            {
+                "id": "F06DGPHLKNX",
+                "created": 1704989761,
+                "timestamp": 1704989761,
+                "name": "Quotation_tousuien_20240111.pdf",
+                "title": "Quotation_tousuien_20240111.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U0331FWGQRM",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 115987,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F06DGPHLKNX\/quotation_tousuien_20240111.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F06DGPHLKNX\/download\/quotation_tousuien_20240111.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F06DGPHLKNX-f42f081aa6\/quotation_tousuien_20240111_thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 909,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F06DGPHLKNX\/quotation_tousuien_20240111.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F06DGPHLKNX-11f40518a1",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FWGQRM",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yH\/PA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nフランスのHeng Keren様にサンプル発送お願いします。\n\n- Company name ( brand name ) : HENG KEREN ( DRISNOS )\n- Your name : HENG KEREN\n- Address : 23 Rue de l’église\n- Postal code (Zip code) : 92000\n- City : NANTERRE\n- Phone number : "
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:+33782986491",
+                                "text": "+33 782986491"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- Email address : "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:drisnosarea@gmail.com",
+                                "text": "drisnosarea@gmail.com"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- EORI number : FR91327292800015"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1704989776.497469",
+        "client_msg_id": "85d94dc7-bad0-41d3-899d-9a6fdf25cc6d",
+        "thread_ts": "1704989776.497469",
+        "reply_count": 3,
+        "reply_users_count": 2,
+        "latest_reply": "1705396165.435029",
+        "reply_users": [
+            "U05KGS6HN9H",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1705045872.010019"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1705099937.136529"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1705396165.435029"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1705396165.435029",
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U05KGS6HN9H",
+                    "U041RJKV5JA",
+                    "U033G4KN4TD"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "text": "<@U0331FWGQRM>\n <@U05KGS6HN9H> <@U033G4KN4TD>\n有機商品に使用可能な添加物のリスト（有機加工食品の日本農林規格　別表1-1）があり、チョコレートパウダー、バニラパウダー共にリストに掲載の無い添加物が使用されております。\n＜チョコレートパウダー＞\n・ポリプレングリコール（溶剤）\n・アラビアガム（増粘安定剤）\n＜バニラパウダー＞\n・オクテニルコハク酸デンプンナトリウム（増粘安定剤）\n・グリセリン脂肪酸エステル（溶剤）\nまた、両パウダーに使用されているデキストリンについても遺伝子組み換え食品ではない証明も必要となります。\n資料を添付いたしますので、ご確認お願いいたします。",
+        "files": [
+            {
+                "id": "F06DKAP4Q10",
+                "created": 1705015639,
+                "timestamp": 1705015639,
+                "name": "有機加工食品の日本農林規格.pdf",
+                "title": "有機加工食品の日本農林規格.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U041RJKV5JA",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 160470,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F06DKAP4Q10\/_______________________________________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F06DKAP4Q10\/download\/_______________________________________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F06DKAP4Q10-c7dfd16893\/________________________________________thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 909,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F06DKAP4Q10\/_______________________________________.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F06DKAP4Q10-5842ce93f6",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F06DCM822PQ",
+                "created": 1705015641,
+                "timestamp": 1705015641,
+                "name": "チョコレートハ゜ウタ゛ーB3663_製品規格書.pdf",
+                "title": "チョコレートハ゜ウタ゛ーB3663_製品規格書.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U041RJKV5JA",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 38242,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F06DCM822PQ\/____________________________________b3663________________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F06DCM822PQ\/download\/____________________________________b3663________________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F06DCM822PQ-98eafdae86\/____________________________________b3663_________________thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 909,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F06DCM822PQ\/____________________________________b3663________________.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F06DCM822PQ-48fa6b23e8",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F06DGCRFJP7",
+                "created": 1705015643,
+                "timestamp": 1705015643,
+                "name": "ハ゛ニラハ゜ウタ゛ーB7355_製品規格書.pdf",
+                "title": "ハ゛ニラハ゜ウタ゛ーB7355_製品規格書.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U041RJKV5JA",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 35823,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F06DGCRFJP7\/______________________________b7355________________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F06DGCRFJP7\/download\/______________________________b7355________________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F06DGCRFJP7-00181787ec\/______________________________b7355_________________thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 909,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F06DGCRFJP7\/______________________________b7355________________.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F06DGCRFJP7-74246ce713",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U041RJKV5JA",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Js0JT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n有機商品に使用可能な添加物のリスト（有機加工食品の日本農林規格　別表1-1）があり、チョコレートパウダー、バニラパウダー共にリストに掲載の無い添加物が使用されております。\n＜チョコレートパウダー＞\n・ポリプレングリコール（溶剤）\n・アラビアガム（増粘安定剤）\n＜バニラパウダー＞\n・オクテニルコハク酸デンプンナトリウム（増粘安定剤）\n・グリセリン脂肪酸エステル（溶剤）\nまた、両パウダーに使用されているデキストリンについても遺伝子組み換え食品ではない証明も必要となります。\n資料を添付いたしますので、ご確認お願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1705015646.576679",
+        "client_msg_id": "8349f654-3db3-4518-a42d-c2d8716563b3",
+        "thread_ts": "1704243956.474109",
+        "parent_user_id": "U0606SPN4BW",
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "eyes",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1705029541.296389",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1705029557.000000"
+        },
+        "client_msg_id": "a5b7936a-64ee-46be-9ab0-401008a4a764",
+        "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD>\nサンプルについては、非有機で問題ないとのことです！\n（チョコもバニラも）\nよろしくお願いします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1704904945.157469",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mAV0m",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nサンプルについては、非有機で問題ないとのことです！\n（チョコもバニラも）\nよろしくお願いします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U033G4KN4TD"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1705032831.609359",
+        "client_msg_id": "fa9011c5-cccd-41a9-a99e-fedde0cb42f1",
+        "text": "<@U0331FWGQRM>\n <@U05KGS6HN9H> <@U033G4KN4TD>\nチョコレート、バニラ共に他のブレンド抹茶と同じ\n鹿児島製茶　有機抹茶Bを使用します。\nまた、配合割合は前回ご指示いただいた5％としますがよろしいでしょうか？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1704904945.157469",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4Fj4E",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nチョコレート、バニラ共に他のブレンド抹茶と同じ\n鹿児島製茶　有機抹茶Bを使用します。\nまた、配合割合は前回ご指示いただいた5％としますがよろしいでしょうか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1705033026.985039",
+        "client_msg_id": "F5B3092F-B025-4515-8F63-C01B2EDBCFCE",
+        "text": "<@U041RJKV5JA> \n抹茶についてokです！\n\nチョコとバニラについては5%ではかなり薄いらしいので、\n10 or 15%で <@U0331FZS7JT> に確認してもらえますか？\n※迷う場合は両方送ってください。\n\n宜しくお願い致します！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1704904945.157469",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TK\/zh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \n抹茶についてokです！\n\nチョコとバニラについては5%ではかなり薄いらしいので、\n10 or 15%で "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " に確認してもらえますか？\n※迷う場合は両方送ってください。\n\n宜しくお願い致します！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1705043073.677399",
+        "client_msg_id": "a8952dd9-7a09-431a-9c3f-7561e0037971",
+        "text": "<@U041RJKV5JA>\n<@U0331FWGQRM>\n10%と15%の両方の送付をお願いします。\nお客様に判断材料が多い方が良いと思うので。\n\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1704904945.157469",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "t10vu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n10%と15%の両方の送付をお願いします。\nお客様に判断材料が多い方が良いと思うので。\n\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1705045872.010019",
+        "client_msg_id": "d14cdc8e-dc64-4156-aa26-35d978b49404",
+        "text": "<@U0331FWGQRM>\n<@U041RJKV5JA> <@U033G4KN4TD>\n出荷可能日1\/16（火）にてお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1704989776.497469",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8WA8I",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日1\/16（火）にてお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,292 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1721490645.565809",
+        "client_msg_id": "C9830ABC-F52C-4708-BCD4-CA7E8FC6DA16",
+        "text": "*注文スケジュール、概要*",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1721490645.565809",
+        "reply_count": 5,
+        "reply_users_count": 1,
+        "latest_reply": "1724066285.518149",
+        "reply_users": [
+            "U0331FWGQRM"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1721490711.342229"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1721498549.493499"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1721498632.853029"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1721641581.692359"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1724066285.518149"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1724066285.518149",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "WenGu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "注文スケジュール、概要",
+                                "style": {
+                                    "bold": true,
+                                    "italic": false,
+                                    "strike": false
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1721490711.342229",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1721498532.000000"
+        },
+        "client_msg_id": "E575F0B0-6345-4370-89BE-F4AA67BC835A",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani> <@U03BLQ65GK0>\n\nFrom Sebastyan\n我々の生産スケジュールをご理解いただくためにお伝えしますと、最終製品は11月1日までにスイスの倉庫に到着する必要があります。\n\n順調に進めば、バッグの製造はまもなく開始され、9月15日頃に貴社の倉庫に出荷される予定です。その後、10月15日までに製造・出荷していただければと思います。\n\nフレーバーが完璧に仕上がれば、各フレーバーの注文はおおよそ3,000ユニットとなります：\n\n\t•\tマンゴー\n\t•\tバニラ\n\t•\tチャイ\n\t•\tシナモン\n\t•\tラズベリーココナッツ\n\t•\tピーチレモン\n\t•\tパイナップルレモン\n\t•\tストロベリーレモン\n\t•\tジンジャーレモン\nまた、非オーガニックのB2は約5,000ユニットの注文となります。\n\n製造リードタイムが30日であると想定していますので、バッグが到着するまでにフレーバーを完成させるための時間があと2か月あるという認識でよろしいでしょうか？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1721490645.565809",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sfmnc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nFrom Sebastyan\n我々の生産スケジュールをご理解いただくためにお伝えしますと、最終製品は11月1日までにスイスの倉庫に到着する必要があります。\n\n順調に進めば、バッグの製造はまもなく開始され、9月15日頃に貴社の倉庫に出荷される予定です。その後、10月15日までに製造・出荷していただければと思います。\n\nフレーバーが完璧に仕上がれば、各フレーバーの注文はおおよそ3,000ユニットとなります：\n\n\t•\tマンゴー\n\t•\tバニラ\n\t•\tチャイ\n\t•\tシナモン\n\t•\tラズベリーココナッツ\n\t•\tピーチレモン\n\t•\tパイナップルレモン\n\t•\tストロベリーレモン\n\t•\tジンジャーレモン\nまた、非オーガニックのB2は約5,000ユニットの注文となります。\n\n製造リードタイムが30日であると想定していますので、バッグが到着するまでにフレーバーを完成させるための時間があと2か月あるという認識でよろしいでしょうか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "flushed",
+                "users": [
+                    "U0331FZS7JT",
+                    "U066P20UQH1",
+                    "U03BLQ65GK0"
+                ],
+                "count": 3
+            },
+            {
+                "name": "eyes",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1721492056.824969",
+        "client_msg_id": "214DFFD7-996C-4EFC-8871-87362A51638B",
+        "text": "<@U0331FZS7JT> \n\nパイナップル、ピーチ、ストロベリーのフレーバーは既に調達できていますか？\nHave you already been able to source flavor for pineapple, peach and strawberry?",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1716682124.554169",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "SJbcn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \n\nパイナップル、ピーチ、ストロベリーのフレーバーは既に調達できていますか？\nHave you already been able to source flavor for pineapple, peach and strawberry?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "man-gesturing-ok",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1721498549.493499",
+        "client_msg_id": "D1C4A8D1-126E-457E-8AF6-667C0C086067",
+        "text": "To Sebastyan\nご連絡ありがとうございます。\n\n本プロジェクトのスケジュールについては理解しました。ご提示いただいた内容に大きな問題はないと考えています。\n\n主な懸念は、9月15日から10月15日の1か月間で27,000袋を梱包する必要があることです。\n\nこの点については、製造部門と十分に協議いたします。\n\nフレーバーの最終決定後に量産する必要があるため、フレーバーを完成させるための実際の期間は2か月未満となります。\n\nすべての材料は9月15日までに準備する必要があります。\n",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1721490645.565809",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9M85K",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "To Sebastyan\nご連絡ありがとうございます。\n\n本プロジェクトのスケジュールについては理解しました。ご提示いただいた内容に大きな問題はないと考えています。\n\n主な懸念は、9月15日から10月15日の1か月間で27,000袋を梱包する必要があることです。\n\nこの点については、製造部門と十分に協議いたします。\n\nフレーバーの最終決定後に量産する必要があるため、フレーバーを完成させるための実際の期間は2か月未満となります。\n\nすべての材料は9月15日までに準備する必要があります。\n"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1721498632.853029",
+        "client_msg_id": "F93D6324-9B14-4722-B3AE-D1C7B0D78B04",
+        "text": "From Sebastyan\n承知いたしました。これはあくまで理想的なシナリオを前提としています。例えば、ストロベリーやマンゴーの良いフレーバーが得られない場合、それらは生産せず、ブラックフライデー後に改良と完成を行います。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1721490645.565809",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IDMgI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "From Sebastyan\n承知いたしました。これはあくまで理想的なシナリオを前提としています。例えば、ストロベリーやマンゴーの良いフレーバーが得られない場合、それらは生産せず、ブラックフライデー後に改良と完成を行います。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

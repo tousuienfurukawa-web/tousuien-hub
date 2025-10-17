@@ -1,0 +1,43 @@
+[
+    {
+        "user": "U066P20UQH1",
+        "subtype": "document_unfurl",
+        "document_unfurl": {
+            "is_unfurled": true
+        },
+        "type": "message",
+        "ts": "1730856388.471379",
+        "text": "<https:\/\/chatgpt.com\/g\/g-lsIiRkwNc-tea-tasting-summary>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Gvp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/chatgpt.com\/g\/g-lsIiRkwNc-tea-tasting-summary"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

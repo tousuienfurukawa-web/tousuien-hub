@@ -1,0 +1,44 @@
+[
+    {
+        "user": "USLACKBOT",
+        "subtype": "list_record_comment",
+        "slack_list": {
+            "list_id": "F08ATAMUR16",
+            "list_record_id": "Rec089Q0FHKN3"
+        },
+        "type": "message",
+        "ts": "1737714204.709089",
+        "text": "A comment was added",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "sv41d8cd98f0",
+            "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/slackbot_72.png",
+            "first_name": "slackbot",
+            "real_name": "Slackbot",
+            "display_name": "Slackbot",
+            "team": "T033D70RR6H",
+            "name": "slackbot",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "iohY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "A comment was added"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

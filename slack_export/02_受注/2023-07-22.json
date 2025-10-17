@@ -1,0 +1,64 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1690081663.995879",
+        "client_msg_id": "a04fe531-a8d4-4157-b4ec-b905d03b8b18",
+        "text": "<@U041RJKV5JA> 部長\n\n本件の送り先は下記の通りです。\n\n\nスノラクム ウンリアン様\n〒116-0014\n東京都荒川区東日暮里2丁目32－10\n藤和日暮里コープ504\nTel: <tel:07075131117|070-7513-1117>\n\n明日出荷、よろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1689828374.483859",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "62x",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n\n本件の送り先は下記の通りです。\n\n\nスノラクム ウンリアン様\n〒116-0014\n東京都荒川区東日暮里2丁目32－10\n藤和日暮里コープ504\nTel: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:07075131117",
+                                "text": "070-7513-1117"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n明日出荷、よろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1684220584.741309",
+        "client_msg_id": "6608459d-65c1-4a5e-8949-9d2cdeb1cdd7",
+        "text": "<!channel>\n<https:\/\/us02web.zoom.us\/j\/85661564740?pwd=ZnZxV2hEUzhmbWtLUmNDbTJrdzhNQT09>\n\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "SE4f",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/us02web.zoom.us\/j\/85661564740?pwd=ZnZxV2hEUzhmbWtLUmNDbTJrdzhNQT09"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1684225613.249589",
+        "client_msg_id": "9c1683f5-13da-4ae0-86b2-888119a88e85",
+        "text": "メモ\n30kg までEMS\n30kg-500kg までクーリエ\n500kg-6000kg まで船便20ft（max 約6t）\n6000kg-12000kg まで船便40ft（max 約12t）\n\n※コスト感として、クーリエの送料は+1000円\/kg, 20ftコンテナの送料は+80円\/kg\n※コスト的には、20ft Rコンテナに10%の物量（約500kg程度）でもクーリエより安い。\n※リーファーは常温の約1.2倍の価格。\n※赤道を通過すると50度を超える。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xiE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "メモ\n30kg までEMS\n30kg-500kg までクーリエ\n500kg-6000kg まで船便20ft（max 約6t）\n6000kg-12000kg まで船便40ft（max 約12t）\n\n※コスト感として、クーリエの送料は+1000円\/kg, 20ftコンテナの送料は+80円\/kg\n※コスト的には、20ft Rコンテナに10%の物量（約500kg程度）でもクーリエより安い。\n※リーファーは常温の約1.2倍の価格。\n※赤道を通過すると50度を超える。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U041RJKV5JA",
+                    "U0331FZS7JT"
+                ],
+                "count": 2
+            },
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

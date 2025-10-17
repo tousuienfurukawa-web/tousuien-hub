@@ -1,0 +1,575 @@
+[
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1726652709.838769",
+        "client_msg_id": "a7ff3093-4e40-4157-b138-87d531be40a3",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nこちらDPD にてサンプル発送対応を完了しました！\nAWB: 05222072316186",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1726422258.258019",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qMf8f",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nこちらDPD にてサンプル発送対応を完了しました！\nAWB: 05222072316186"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1726678887.613239",
+        "client_msg_id": "a3b3d0dd-1b4f-4bc8-8ac9-f669ed45743a",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:flag-mx:メキシコ(配送先は:us:アメリカ) Samantha Segura様からサンプル注文を頂きました。\n*TSE-SMS-SPL-01-24*",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1726678887.613239",
+        "reply_count": 7,
+        "reply_users_count": 3,
+        "latest_reply": "1727478635.589259",
+        "reply_users": [
+            "U0606SPN4BW",
+            "U05KGS6HN9H",
+            "U066P20UQH1"
+        ],
+        "replies": [
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1726678957.440439"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1726710471.464139"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1726856954.155039"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1726872244.566619"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1726898377.911649"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1727478043.872939"
+            },
+            {
+                "user": "U066P20UQH1",
+                "ts": "1727478635.589259"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1727478635.589259",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HoKLr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-mx",
+                                "unicode": "1f1f2-1f1fd"
+                            },
+                            {
+                                "type": "text",
+                                "text": "メキシコ(配送先は"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "us",
+                                "unicode": "1f1fa-1f1f8"
+                            },
+                            {
+                                "type": "text",
+                                "text": "アメリカ) Samantha Segura様からサンプル注文を頂きました。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-SMS-SPL-01-24",
+                                "style": {
+                                    "bold": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U05KGS6HN9H",
+                    "U033G4KN4TD"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1726678957.440439",
+        "client_msg_id": "5f71e0ad-1879-460a-805d-c73c437c955c",
+        "text": "・請求送信前ですが準備をお願いします！\n\n\n<@U0331FZTHEK> 入金確認前 (PayPal USD30), 入金確認後、回収処理をお願いします！\n\n\n▼サンプル内容 (計 4点)\n&lt;各20g&gt;\nOrganic Matcha Upper - 1 鹿児島製茶 (鹿児島 A)\nOrganic Matcha Upper - 2 鹿児島製茶 (鹿児島 1A)\nNon Organic Matcha Upper - 1 出雲精茶G\nNon Organic Matcha Upper - 2 出雲精茶R\n\n\n・袋指定なし、\n・エージレス無し、\n・品名ラベル貼り、\n・価格表示なし\n\n\n発送: UPS\n\n\n------------------------\nYour name : Samantha Segura \/2202 ←（注：私書箱的な番号のようです）\nShipping address : Magoffin #1904, El Paso, Texas\nPostal code (Zip code) : 79901\nPhone number : 9154977020\nEmail address : <mailto:samantha.segurab@gmail.com|samantha.segurab@gmail.com>\nPhone:+1 9154977020\n------------------------",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1726678887.613239",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GAvkr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "・請求送信前ですが準備をお願いします！\n\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 入金確認前 (PayPal USD30), 入金確認後、回収処理をお願いします！\n\n\n▼サンプル内容 (計 4点)\n<各20g>\nOrganic Matcha Upper - 1 鹿児島製茶 (鹿児島 A)\nOrganic Matcha Upper - 2 鹿児島製茶 (鹿児島 1A)\nNon Organic Matcha Upper - 1 出雲精茶G\nNon Organic Matcha Upper - 2 出雲精茶R\n\n\n・袋指定なし、\n・エージレス無し、\n・品名ラベル貼り、\n・価格表示なし\n\n\n発送: UPS\n\n\n------------------------\nYour name : Samantha Segura \/2202 ←（注：私書箱的な番号のようです）\nShipping address : Magoffin #1904, El Paso, Texas\nPostal code (Zip code) : 79901\nPhone number : 9154977020\nEmail address : "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:samantha.segurab@gmail.com",
+                                "text": "samantha.segurab@gmail.com"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nPhone:+1 9154977020\n------------------------"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1726706070.043729",
+        "client_msg_id": "c37a982a-87ac-45d7-be9a-49f037bedd04",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:flag-co:コロンビア：Shake Bar様からサンプル注文をいただきました。\n*TSE-DVI-SPL-001-24*",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1726706070.043729",
+        "reply_count": 7,
+        "reply_users_count": 3,
+        "latest_reply": "1726898220.797739",
+        "reply_users": [
+            "U066P20UQH1",
+            "U0331FZTHEK",
+            "U05KGS6HN9H"
+        ],
+        "replies": [
+            {
+                "user": "U066P20UQH1",
+                "ts": "1726706104.704199"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1726708816.313409"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1726802856.541629"
+            },
+            {
+                "user": "U066P20UQH1",
+                "ts": "1726812721.655969"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1726814747.036259"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1726817176.808539"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1726898220.797739"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1726898220.797739",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5+KPL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-co",
+                                "unicode": "1f1e8-1f1f4"
+                            },
+                            {
+                                "type": "text",
+                                "text": "コロンビア：Shake Bar様からサンプル注文をいただきました。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-DVI-SPL-001-24",
+                                "style": {
+                                    "bold": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U05KGS6HN9H"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1726706104.704199",
+        "client_msg_id": "87ed78ae-ffa1-49b6-8f20-1b3e8392ec1b",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nインボイス作成済みですので、ご確認をお願いしいます！\n\n<@U0331FZTHEK>\n入金確認済みですので、回収処理をお願いします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1726706070.043729",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FgLHV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nインボイス作成済みですので、ご確認をお願いしいます！\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n入金確認済みですので、回収処理をお願いします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1726708816.313409",
+        "client_msg_id": "62f4f960-8b87-4f05-851d-0886feaf0171",
+        "text": "<@U066P20UQH1>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n ご入金を確認致しました。\n・9\/19 [PayPal]\n・30 USD\n回収（入金）処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1726706070.043729",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ckRM2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n ご入金を確認致しました。\n・9\/19 [PayPal]\n・30 USD\n回収（入金）処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "pray",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "入金完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1726710471.464139",
+        "edited": {
+            "user": "U05KGS6HN9H",
+            "ts": "1726711451.000000"
+        },
+        "client_msg_id": "751b9620-b686-45f4-a7d4-0231cdcf00ae",
+        "text": "<@U0606SPN4BW>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n出荷可能日9\/21（土）にてお願い致します。\nアメリカ向けPNC必要ですので、明日9\/20申請致します。\nもし入金確認取れず9\/21発送が不可となった場合、\nPNCが無効となる為、9\/24に送り状を再作成してPNCを\n再度申請予定となります。（9\/23日本祝日）\n発送はそれ以降となります点、ご了解のほどお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1726678887.613239",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "z7l7t",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日9\/21（土）にてお願い致します。\nアメリカ向けPNC必要ですので、明日9\/20申請致します。\nもし入金確認取れず9\/21発送が不可となった場合、\nPNCが無効となる為、9\/24に送り状を再作成してPNCを\n再度申請予定となります。（9\/23日本祝日）\n発送はそれ以降となります点、ご了解のほどお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知-1",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

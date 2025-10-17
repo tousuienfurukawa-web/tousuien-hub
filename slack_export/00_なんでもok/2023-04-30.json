@@ -1,0 +1,381 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1682857062.431799",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1682857083.000000"
+        },
+        "client_msg_id": "5b66893e-f056-43c0-b3ab-8b60e0b63112",
+        "text": "<@U041RJKV5JA>\n*サンプル袋＋サンプル商品*\n本件どうなってますか？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1682470955.871459",
+        "parent_user_id": "U033G4KN4TD",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+H2s",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "サンプル袋＋サンプル商品",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本件どうなってますか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1682858104.792359",
+        "client_msg_id": "d5198a16-97e6-4e78-8a7e-b63ce3986789",
+        "text": "<@U041RJKV5JA> cc <@U033G4KN4TD>\nフォルダ内にinvoiceを発見しました。\n4\/28に発送完了の旨、理解しました。\n・発送完了の連絡と、\n・フォルダ管理方法を統一して欲しいです。\n\nどのようなやり方でもいいのですが、\n変更する場合は連絡してください。\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1682470955.871459",
+        "parent_user_id": "U033G4KN4TD",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GWN5A",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nフォルダ内にinvoiceを発見しました。\n4\/28に発送完了の旨、理解しました。\n・発送完了の連絡と、\n・フォルダ管理方法を統一して欲しいです。\n\nどのようなやり方でもいいのですが、\n変更する場合は連絡してください。\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1682861291.363049",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1682861301.000000"
+        },
+        "client_msg_id": "11c80dc2-0e7d-4b40-969a-c850c6546d71",
+        "text": "<@U041RJKV5JA>　<@U033G4KN4TD>\nNeels様のオリジナル100g袋を\n今回は3000枚印刷しました。\n次回袋を追加印刷する際、裏面デザインを変更し、賞味期限とロット番号を印字しやすくレイアウトや色合いを変更してもらおうと思っています。（白っぽい背景にしてもらえるか検討しています。）\n\nその際、？x？mmのスペースがあれば良いか（茶詰め場の印字機でうまく印字できるのか）、確認してもらえますか。\n\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1682470955.871459",
+        "parent_user_id": "U033G4KN4TD",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6er",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "　"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nNeels様のオリジナル100g袋を\n今回は3000枚印刷しました。\n次回袋を追加印刷する際、裏面デザインを変更し、賞味期限とロット番号を印字しやすくレイアウトや色合いを変更してもらおうと思っています。（白っぽい背景にしてもらえるか検討しています。）\n\nその際、？x？mmのスペースがあれば良いか（茶詰め場の印字機でうまく印字できるのか）、確認してもらえますか。\n\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "<@U0331FWGQRM> 執行役\n印字スペースは3cm x 1.5cmでお願いします。\nまた、印刷不可の範囲がありますので、画像を添付いたします。\nご確認お願いします。",
+        "files": [
+            {
+                "id": "F055MS6C5UJ",
+                "created": 1682910224,
+                "timestamp": 1682910224,
+                "name": "DSC_1869.jpg",
+                "title": "DSC_1869.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U041RJKV5JA",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 4373663,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F055MS6C5UJ\/dsc_1869.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F055MS6C5UJ\/download\/dsc_1869.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F055MS6C5UJ-ecc4fcb558\/dsc_1869_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F055MS6C5UJ-ecc4fcb558\/dsc_1869_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F055MS6C5UJ-ecc4fcb558\/dsc_1869_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 270,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F055MS6C5UJ-ecc4fcb558\/dsc_1869_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 360,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F055MS6C5UJ-ecc4fcb558\/dsc_1869_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F055MS6C5UJ-ecc4fcb558\/dsc_1869_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 540,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F055MS6C5UJ-ecc4fcb558\/dsc_1869_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 1067,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F055MS6C5UJ-ecc4fcb558\/dsc_1869_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 720,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F055MS6C5UJ-ecc4fcb558\/dsc_1869_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 768,
+                "thumb_1024_h": 1024,
+                "original_w": 3120,
+                "original_h": 4160,
+                "thumb_tiny": "AwAwACS3IxWNjnmqLXc244cAfSrN3xavn2\/nVAcLlsdOB60gZKbmb\/nr+lSW80rSrvkJBOMVWOPaiE\/6THj+8KBGtRRmjNAyG8H+jN+H86ojaEHy5yKvXZzbNn2\/nVHa2BhSfwoAZzT4B\/pEeeeRSBW5BU\/lToQRcRZGOaANPFGKWimBBeEfZ2z7VWW72qq4GOOcmrcyGSMqMfjVJrOY8AqR9aQDxek87OfrTTN5txCcYwfX3pHtJ328IMDsafFaOHVnCjBB4NAF6ikzRmgD\/9k=",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F055MS6C5UJ\/dsc_1869.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F055MS6C5UJ-7cc350170c",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U041RJKV5JA",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Rqq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\n印字スペースは3cm x 1.5cmでお願いします。\nまた、印刷不可の範囲がありますので、画像を添付いたします。\nご確認お願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1682910249.506559",
+        "client_msg_id": "a9d1ec98-dce2-49f4-afa1-2e8a86b00943",
+        "thread_ts": "1682470955.871459",
+        "parent_user_id": "U033G4KN4TD",
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1682913623.452029",
+        "client_msg_id": "d7bf8c8f-8b7d-43fd-a593-d7696659226e",
+        "text": "<@U041RJKV5JA>\n確認ですが、\n3cm x 1.5cm　の空白を開けておけば、\nそこに狙い撃ちで印字ができると言う認識であっていますか？\n（狭くないかな？大丈夫かな？と思ったので確認です。）\n\n※ちなみに、現状の印字の文字サイズは何センチですか？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1682470955.871459",
+        "parent_user_id": "U033G4KN4TD",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/9e",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n確認ですが、\n3cm x 1.5cm　の空白を開けておけば、\nそこに狙い撃ちで印字ができると言う認識であっていますか？\n（狭くないかな？大丈夫かな？と思ったので確認です。）\n\n※ちなみに、現状の印字の文字サイズは何センチですか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1682918168.084439",
+        "client_msg_id": "4ac42db8-fa9f-42e4-b74b-fd7fcef7c00a",
+        "text": "<@U0331FWGQRM> 執行役\nほぼ決まった位置に印字することが可能ですので、\n3cm x 1.5cmあれば大丈夫です。\n現状の文字サイズは2.4㎝×0.6㎝です。\n当社の印字機で近いサイズに調整すると、2.1㎝×0.7㎝になります。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1682470955.871459",
+        "parent_user_id": "U033G4KN4TD",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Y=XN+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\nほぼ決まった位置に印字することが可能ですので、\n3cm x 1.5cmあれば大丈夫です。\n現状の文字サイズは2.4㎝×0.6㎝です。\n当社の印字機で近いサイズに調整すると、2.1㎝×0.7㎝になります。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

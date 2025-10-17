@@ -1,0 +1,123 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1709692816.366519",
+        "client_msg_id": "ffc3537d-158a-496a-8a05-83d491401ec8",
+        "text": "<@U0331FZTHEK>\nお客様から送金連絡がありました。\n着金しましたら教えてください。\n\nTSE048-23-1 &amp; TSE048-23-2\nTOTAL Amount : USD15812",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1708491923.655969",
+        "parent_user_id": "U0331FZTHEK",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ls7Jj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nお客様から送金連絡がありました。\n着金しましたら教えてください。\n\nTSE048-23-1 & TSE048-23-2\nTOTAL Amount : USD15812"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1709697692.478019",
+        "client_msg_id": "5830cccc-ca69-46eb-8bdd-af39a8151da3",
+        "text": "<@U0331FWGQRM> <@U0331FZS7JT>\nご入金頂きました。\n（山陰合銀より被仕向送金連絡有りました）\n・3\/6 [USD外貨普通預金]\n・USD 15,812.00\n　　048-23-1：USD 3,493.50\n　　048-23-2：USD 12,318.50\n計算書届き次第、回収（入金）処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1708491923.655969",
+        "parent_user_id": "U0331FZTHEK",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xS0ng",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nご入金頂きました。\n（山陰合銀より被仕向送金連絡有りました）\n・3\/6 [USD外貨普通預金]\n・USD 15,812.00\n　　048-23-1：USD 3,493.50\n　　048-23-2：USD 12,318.50\n計算書届き次第、回収（入金）処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

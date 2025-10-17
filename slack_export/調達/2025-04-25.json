@@ -1,0 +1,79 @@
+[
+    {
+        "user": "U0840UVFVA8",
+        "type": "message",
+        "ts": "1745646484.658669",
+        "client_msg_id": "8cf9357c-f6c5-4fa0-95bb-59d429353684",
+        "text": "<!channel>\n下記原料発注をお願いします。\n\n・鹿児島製茶 有機煎茶1A\n　TSE024-25で50kg使用\n　（現在庫：約1kg）\n\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g0c71d8d4168",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0c71d8d4168211b07b8a8e20b40c036c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "kanayama",
+            "real_name": "kanayama",
+            "display_name": "金山",
+            "team": "T033D70RR6H",
+            "name": "kanayama-is",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745646484.658669",
+        "reply_count": 2,
+        "reply_users_count": 1,
+        "latest_reply": "1745654014.089829",
+        "reply_users": [
+            "U0331FZS7JT"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1745653866.260839"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1745654014.089829"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KxheK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n下記原料発注をお願いします。\n\n・鹿児島製茶 有機煎茶1A\n　TSE024-25で50kg使用\n　（現在庫：約1kg）\n\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "man-gesturing-ok",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "原料_発注済",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

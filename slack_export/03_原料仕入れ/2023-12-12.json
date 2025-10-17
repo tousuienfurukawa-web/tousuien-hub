@@ -1,0 +1,62 @@
+[
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1702446188.575099",
+        "client_msg_id": "ba232238-ebc7-4ae1-a719-380ba536ae0d",
+        "text": "<@U0331FWGQRM>\n<!channel>\nGenuine teaで使用している「鹿児島製茶　有機煎茶1A」ですが、\n今回（TSE-048-23）使用分より製造ロット変更の為、納品価格が変更となっております。\n旧価格 1,450円\/㎏→新価格 1,500円\/kg\n連絡が遅くなり申し訳ありません。\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tf\/xJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nGenuine teaで使用している「鹿児島製茶　有機煎茶1A」ですが、\n今回（TSE-048-23）使用分より製造ロット変更の為、納品価格が変更となっております。\n旧価格 1,450円\/㎏→新価格 1,500円\/kg\n連絡が遅くなり申し訳ありません。\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT",
+                    "U0331FWGQRM"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

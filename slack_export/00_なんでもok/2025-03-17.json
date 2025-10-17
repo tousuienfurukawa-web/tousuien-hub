@@ -1,0 +1,310 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1742205469.567129",
+        "client_msg_id": "c30ad8c9-6dff-47a9-ab58-8884eb42946f",
+        "text": "<@U0331FWGQRM>\nこちら星野に確認したところ、どんなミルを使って粉砕しているかは\n企業秘密ということで教えてもらえませんでした:sweat_drops:\n常務に確認して教えてもらえなかったので、専務にも別途確認しましたが同じくダメでしたorz",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1742171160.658499",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ZslRT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nこちら星野に確認したところ、どんなミルを使って粉砕しているかは\n企業秘密ということで教えてもらえませんでした"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sweat_drops",
+                                "unicode": "1f4a6"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n常務に確認して教えてもらえなかったので、専務にも別途確認しましたが同じくダメでしたorz"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "sweat_drops",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1742274860.964639",
+        "client_msg_id": "1202baf9-1ecf-4687-b06b-a7e54818f154",
+        "text": "<!channel>\n3\/17-3\/18　12:00頃にGoogleドライブに不具合がありました。\nファイルが変（同じものが二つ作成されていて、新しい方に（1）の文字が名前についている）に\nなっていることがあります。\nこれは上記の不具合が理由です。\n新しい方を残し、不要なファイルは削除願います。宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1742274860.964639",
+        "reply_count": 2,
+        "reply_users_count": 1,
+        "latest_reply": "1742277099.018589",
+        "reply_users": [
+            "U066P20UQH1"
+        ],
+        "replies": [
+            {
+                "user": "U066P20UQH1",
+                "ts": "1742277077.630379"
+            },
+            {
+                "user": "U066P20UQH1",
+                "ts": "1742277099.018589"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1742277099.018589",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gwbmF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n3\/17-3\/18　12:00頃にGoogleドライブに不具合がありました。\nファイルが変（同じものが二つ作成されていて、新しい方に（1）の文字が名前についている）に\nなっていることがあります。\nこれは上記の不具合が理由です。\n新しい方を残し、不要なファイルは削除願います。宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U0331FZTHEK",
+                    "U0331FZS7JT",
+                    "U066P20UQH1",
+                    "U041RJKV5JA",
+                    "U05KGS6HN9H",
+                    "U033G4KN4TD"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1742277077.630379",
+        "edited": {
+            "user": "U066P20UQH1",
+            "ts": "1742277110.000000"
+        },
+        "client_msg_id": "5bcfb11d-f77a-47f9-9b62-f448345c4274",
+        "text": "<!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <@U03BLQ65GK0> <@U08FZUNPSQ3>\nさっき気づいたんですが、(1)の方が作成日が新しいんですが、(1)の方が情報が古いかもです。\n内容確認して、不要・重複分を削除した方が良いかも知れません。（また、私はなぜか自分が作成したデータしか削除ができないので、不要分は没フォルダ作ってそこに入れてます。）",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1742274860.964639",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3WnLJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U08FZUNPSQ3"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nさっき気づいたんですが、(1)の方が作成日が新しいんですが、(1)の方が情報が古いかもです。\n内容確認して、不要・重複分を削除した方が良いかも知れません。（また、私はなぜか自分が作成したデータしか削除ができないので、不要分は没フォルダ作ってそこに入れてます。）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "",
+        "files": [
+            {
+                "id": "F08HR006NR5",
+                "created": 1742277092,
+                "timestamp": 1742277092,
+                "name": "スクリーンショット 2025-03-18 14.48.27.png",
+                "title": "スクリーンショット 2025-03-18 14.48.27.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U066P20UQH1",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 1280450,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F08HR006NR5\/____________________________2025-03-18_14.48.27.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F08HR006NR5\/download\/____________________________2025-03-18_14.48.27.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F08HR006NR5-d8daafc640\/____________________________2025-03-18_14.48.27_64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F08HR006NR5-d8daafc640\/____________________________2025-03-18_14.48.27_80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F08HR006NR5-d8daafc640\/____________________________2025-03-18_14.48.27_360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 246,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F08HR006NR5-d8daafc640\/____________________________2025-03-18_14.48.27_480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 328,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F08HR006NR5-d8daafc640\/____________________________2025-03-18_14.48.27_160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F08HR006NR5-d8daafc640\/____________________________2025-03-18_14.48.27_720.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 720,
+                "thumb_720_h": 492,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F08HR006NR5-d8daafc640\/____________________________2025-03-18_14.48.27_800.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 547,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F08HR006NR5-d8daafc640\/____________________________2025-03-18_14.48.27_960.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 960,
+                "thumb_960_h": 656,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F08HR006NR5-d8daafc640\/____________________________2025-03-18_14.48.27_1024.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 700,
+                "original_w": 2954,
+                "original_h": 2018,
+                "thumb_tiny": "AwAgADC+uGzg9OtLtpsX3n+tSE8UAN2+tJjBwMU7NL3oAbtNIyZ6gce1SUjfdP0oAYoAyV79adzTIcDf9akJ44oATH4Zo5FGaWgBMmmvu2nsMHNPxTZeInx\/dNAH\/9k=",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F08HR006NR5\/____________________________2025-03-18_14.48.27.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F08HR006NR5-836500e13a",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U066P20UQH1",
+        "display_as_bot": false,
+        "type": "message",
+        "ts": "1742277099.018589",
+        "client_msg_id": "280d58d3-e5c5-4c84-9ca9-d3e19901388a",
+        "thread_ts": "1742274860.964639",
+        "parent_user_id": "U0331FWGQRM"
+    }
+]

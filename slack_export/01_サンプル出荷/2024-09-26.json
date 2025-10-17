@@ -1,0 +1,1041 @@
+[
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1727335919.002279",
+        "client_msg_id": "24628ac8-8539-4fa8-90b1-0cab06103b3f",
+        "text": "<@U066P20UQH1>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n出荷可能日10\/1（火）にてお願い致します。\n30g用の風袋（bag in tinに使用しているもの）は、サウジのMOMatcha様で\n30ｇ詰め（缶は40ｇ缶）に使用しているNo260を送付予定です。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1727185513.011059",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "q4f9D",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日10\/1（火）にてお願い致します。\n30g用の風袋（bag in tinに使用しているもの）は、サウジのMOMatcha様で\n30ｇ詰め（缶は40ｇ缶）に使用しているNo260を送付予定です。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知-1",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "pray",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1727338713.821319",
+        "edited": {
+            "user": "U0606SPN4BW",
+            "ts": "1727339741.000000"
+        },
+        "client_msg_id": "f245a0fc-0367-408a-84d9-08c031b1b701",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:flag-ch:スイス(発送先は:es:スペイン)の、Nicole Grossenbacher様からサンプル注文を頂きました。\n*TSE-NKG-SPL-001-24*",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1727338713.821319",
+        "reply_count": 3,
+        "reply_users_count": 2,
+        "latest_reply": "1727515458.956209",
+        "reply_users": [
+            "U0606SPN4BW",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1727338780.620129"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1727339682.816599"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1727515458.956209"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1727515458.956209",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "THI+D",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-ch",
+                                "unicode": "1f1e8-1f1ed"
+                            },
+                            {
+                                "type": "text",
+                                "text": "スイス(発送先は"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "es",
+                                "unicode": "1f1ea-1f1f8"
+                            },
+                            {
+                                "type": "text",
+                                "text": "スペイン)の、Nicole Grossenbacher様からサンプル注文を頂きました。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-NKG-SPL-001-24",
+                                "style": {
+                                    "bold": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD",
+                    "U05KGS6HN9H"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1727338780.620129",
+        "edited": {
+            "user": "U0606SPN4BW",
+            "ts": "1727368037.000000"
+        },
+        "client_msg_id": "4f0a40e0-a8ac-4a00-9376-3966f562436b",
+        "text": "オランダ事務所から本日発送予定、以下共有します！\n\n\n<@U0331FZTHEK> 入金確認済 (PayPal USD40), 回収処理をお願いします！\n\n\n▼サンプル内容 (計 6点)\n<各20g>\nOrganic Matcha Upper - 1 (鹿児島製茶 鹿児島 A)\nOrganic Matcha Upper - 2 (鹿児島製茶 鹿児島 1A)\nOrganic Matcha Middle - 1 (鹿児島製茶 鹿児島 B)\nOrganic Matcha Middle - 2 (鹿児島製茶 鹿児島 C)\nNon Organic Matcha Upper - 1 (出雲精茶G)\nNon Organic Matcha Upper - 2 (出雲精茶R)\n\n\n袋指定なし、\nエージレス無し、\n品名ラベル貼り。（価格表示：なし）\n\n\n発送: DHL\n\n\n---------------------------\nName: Nicole Grossenbacher\nAddress: Avenida Rosalia de Castro\n50, piso 5B,\n36600 Villagarcia de Arosa\nProvincia de Pontevedra\nSpain\nPhone number: <tel:+34697654182|+34 697 65 41 82>\ne-mail address: <mailto:nikkygrossenb@outlook.com|nikkygrossenb@outlook.com>\n---------------------------",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1727338713.821319",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tc\/JZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "オランダ事務所から本日発送予定、以下共有します！\n\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 入金確認済 (PayPal USD40), 回収処理をお願いします！\n\n\n▼サンプル内容 (計 6点)\n<各20g>\nOrganic Matcha Upper - 1 (鹿児島製茶 鹿児島 A)\nOrganic Matcha Upper - 2 (鹿児島製茶 鹿児島 1A)\nOrganic Matcha Middle - 1 (鹿児島製茶 鹿児島 B)\nOrganic Matcha Middle - 2 (鹿児島製茶 鹿児島 C)\nNon Organic Matcha Upper - 1 (出雲精茶G)\nNon Organic Matcha Upper - 2 (出雲精茶R)\n\n\n袋指定なし、\nエージレス無し、\n品名ラベル貼り。（価格表示：なし）\n\n\n発送: DHL\n\n\n---------------------------\nName: Nicole Grossenbacher\nAddress: Avenida Rosalia de Castro\n50, piso 5B,\n36600 Villagarcia de Arosa\nProvincia de Pontevedra\nSpain\nPhone number: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:+34697654182",
+                                "text": "+34 697 65 41 82"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\ne-mail address: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:nikkygrossenb@outlook.com",
+                                "text": "nikkygrossenb@outlook.com"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n---------------------------"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "eyes",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1727339682.816599",
+        "client_msg_id": "177d5f60-a103-4782-8ade-7e3170b61ff4",
+        "text": "<@U0606SPN4BW>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nご入金を確認致しました。\n・9\/26 [PayPal]\n・40 USD\n回収（入金）処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1727338713.821319",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nGA1P",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nご入金を確認致しました。\n・9\/26 [PayPal]\n・40 USD\n回収（入金）処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            },
+            {
+                "name": "入金完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1727365215.616529",
+        "client_msg_id": "d6c708e6-7245-4dbd-ba99-ec9201559f2a",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:flag-kw:クウェート Hanan Khaled alrashoud様からサンプル注文を頂きました。\n*TSE-HKA-SPL-001-24*",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1727365215.616529",
+        "reply_count": 4,
+        "reply_users_count": 3,
+        "latest_reply": "1727760122.091519",
+        "reply_users": [
+            "U0606SPN4BW",
+            "U0331FZTHEK",
+            "U05KGS6HN9H"
+        ],
+        "replies": [
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1727365261.201469"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1727391939.639779"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1727429640.721289"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1727760122.091519"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1727760122.091519",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2FeAE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-kw",
+                                "unicode": "1f1f0-1f1fc"
+                            },
+                            {
+                                "type": "text",
+                                "text": "クウェート Hanan Khaled alrashoud様からサンプル注文を頂きました。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-HKA-SPL-001-24",
+                                "style": {
+                                    "bold": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U05KGS6HN9H",
+                    "U033G4KN4TD",
+                    "U041RJKV5JA"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1727365261.201469",
+        "client_msg_id": "5062de62-dfd2-4b6a-b0e0-8917ba1a2c8b",
+        "text": "下記へ発送手続き、および発送日のお知らせをお願いします！\n\n\n<@U0331FZTHEK> 入金確認済み(PayPal USD30), 回収処理をお願いします！\n\n\n▼サンプル内容 (計 4点)\n&lt;各20g&gt;\nNon Organic Matcha Upper - 1 出雲精茶G\nNon Organic Matcha Upper - 2 出雲精茶R\nNon Organic Matcha Middle - 1 出雲精茶T\nNon Organic Matcha Middle - 2 出雲精茶N\n\n\n袋指定なし、\nエージレス無し、\n品名ラベル貼り、\n価格表示：なし\n\n\n発送:DHL\n\n\n------------------------\nBrand name: Glittery matcha\nName: Hanan Khaled alrashoud\nAddress: Mishrif bl1 st1 h12\nPostal code: 40151\nCountry: Kuwait\nPhone number: <tel:+96598873997|+965 98873997>\ne-mail address: <mailto:Zahraa.aqeel.ash@gmail.com|Zahraa.aqeel.ash@gmail.com>\n------------------------",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1727365215.616529",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eqYpl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "下記へ発送手続き、および発送日のお知らせをお願いします！\n\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 入金確認済み(PayPal USD30), 回収処理をお願いします！\n\n\n▼サンプル内容 (計 4点)\n<各20g>\nNon Organic Matcha Upper - 1 出雲精茶G\nNon Organic Matcha Upper - 2 出雲精茶R\nNon Organic Matcha Middle - 1 出雲精茶T\nNon Organic Matcha Middle - 2 出雲精茶N\n\n\n袋指定なし、\nエージレス無し、\n品名ラベル貼り、\n価格表示：なし\n\n\n発送:DHL\n\n\n------------------------\nBrand name: Glittery matcha\nName: Hanan Khaled alrashoud\nAddress: Mishrif bl1 st1 h12\nPostal code: 40151\nCountry: Kuwait\nPhone number: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:+96598873997",
+                                "text": "+965 98873997"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\ne-mail address: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:Zahraa.aqeel.ash@gmail.com",
+                                "text": "Zahraa.aqeel.ash@gmail.com",
+                                "unsafe": true
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n------------------------"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1727366787.137779",
+        "client_msg_id": "ed0db202-c654-402e-80af-3eea51fce371",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:flag-ca:カナダ Lisa Wilson様からサンプル注文を頂きました。\n*TSE-LWS-SPL-01-24*",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1727366787.137779",
+        "reply_count": 4,
+        "reply_users_count": 3,
+        "latest_reply": "1727760128.070409",
+        "reply_users": [
+            "U0606SPN4BW",
+            "U0331FZTHEK",
+            "U05KGS6HN9H"
+        ],
+        "replies": [
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1727366863.955709"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1727391952.703109"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1727429946.765759"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1727760128.070409"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1727760128.070409",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "usBDS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-ca",
+                                "unicode": "1f1e8-1f1e6"
+                            },
+                            {
+                                "type": "text",
+                                "text": "カナダ Lisa Wilson様からサンプル注文を頂きました。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-LWS-SPL-01-24",
+                                "style": {
+                                    "bold": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U05KGS6HN9H",
+                    "U033G4KN4TD",
+                    "U041RJKV5JA"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1727366863.955709",
+        "client_msg_id": "9d0a89c2-c23b-4ea7-a97a-560dc6388fbc",
+        "text": "下記へ発送手続き、および発送日のお知らせをお願いします！\n\n\n<@U0331FZTHEK> 入金確認済み, 回収処理をお願いします！\n\n\n▼サンプル内容 (計 6点)\n&lt;各20g&gt;\nOrganic Matcha Middle - 1 鹿児島製茶 (鹿児島 B)\nOrganic Matcha Middle - 2 鹿児島製茶 (鹿児島 C)\nOrganic Matcha Regular - 1 鹿児島製茶 (鹿児島 D)\nOrganic Matcha Regular - 2 まるゑい (有機抹茶3000)\nOrganic Matcha Lower - 1 まるゑい (有機抹茶ME2)\nOrganic Matcha Lower - 2 まるゑい (MEA1)\n\n\n・袋指定なし、\n・エージレス無し、\n・品名ラベル貼り。\n・ラベル印字：あり\n　Quotation_tousuien_20240902 (1kg bulk価格表示)\n\n\n発送:DHL\n\n\n------------------------\nBrand name: Sarjesa Inc\nName: Lisa Wilson\nAddress: 3104 - 1122 3rd street SE, Calgary, AB\nPostal code: T2G1H7\nCountry: Canada\nPhone number: <tel:+14038272850|+1 4038272850>\ne-mail address: <mailto:alexandra@sarjesa.com|alexandra@sarjesa.com>\n------------------------",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1727366787.137779",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0E8kh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "下記へ発送手続き、および発送日のお知らせをお願いします！\n\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 入金確認済み, 回収処理をお願いします！\n\n\n▼サンプル内容 (計 6点)\n<各20g>\nOrganic Matcha Middle - 1 鹿児島製茶 (鹿児島 B)\nOrganic Matcha Middle - 2 鹿児島製茶 (鹿児島 C)\nOrganic Matcha Regular - 1 鹿児島製茶 (鹿児島 D)\nOrganic Matcha Regular - 2 まるゑい (有機抹茶3000)\nOrganic Matcha Lower - 1 まるゑい (有機抹茶ME2)\nOrganic Matcha Lower - 2 まるゑい (MEA1)\n\n\n・袋指定なし、\n・エージレス無し、\n・品名ラベル貼り。\n・ラベル印字：あり\n　Quotation_tousuien_20240902 (1kg bulk価格表示)\n\n\n発送:DHL\n\n\n------------------------\nBrand name: Sarjesa Inc\nName: Lisa Wilson\nAddress: 3104 - 1122 3rd street SE, Calgary, AB\nPostal code: T2G1H7\nCountry: Canada\nPhone number: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:+14038272850",
+                                "text": "+1 4038272850"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\ne-mail address: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:alexandra@sarjesa.com",
+                                "text": "alexandra@sarjesa.com"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n------------------------"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1727391939.639779",
+        "client_msg_id": "97ac4cf8-c6a9-4778-9cc0-4d2327d2c8b0",
+        "text": "<@U0606SPN4BW>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nご入金を確認致しました。\n・9\/26 [PayPal]\n・30 USD\n回収（入金）処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1727365215.616529",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vpxs2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nご入金を確認致しました。\n・9\/26 [PayPal]\n・30 USD\n回収（入金）処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            },
+            {
+                "name": "入金完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1727391952.703109",
+        "client_msg_id": "cb865112-d94f-41a4-8dbc-2297d50af8e6",
+        "text": "<@U0606SPN4BW>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nご入金を確認致しました。\n・9\/27 [PayPal]\n・30 USD\n回収（入金）処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1727366787.137779",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mChOT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nご入金を確認致しました。\n・9\/27 [PayPal]\n・30 USD\n回収（入金）処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            },
+            {
+                "name": "入金完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1727393512.948319",
+        "client_msg_id": "49529428-3c3d-4d43-8b30-216af551e955",
+        "text": "<@U0331FZTHEK>\n入金ありましたので、回収処理お願いします！\n\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n出荷準備をお願いします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1727153100.313709",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "poLQl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n入金ありましたので、回収処理お願いします！\n\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷準備をお願いします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1727394109.080479",
+        "client_msg_id": "33c067f6-c46b-46bf-a2d7-041e8872d440",
+        "text": "<@U066P20UQH1>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n明日9\/28発送でお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1727153100.313709",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "chtlX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n明日9\/28発送でお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "pray",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZTHEK",
+        "type": "message",
+        "ts": "1727394550.052229",
+        "client_msg_id": "44d91338-6b69-42f1-8e83-0b274ea0f9ad",
+        "text": "<@U066P20UQH1>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nご入金を確認致しました。\n・9\/27 [PayPal]\n・30 USD\n回収（入金）処理致します。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "21cdbd6a05f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3115258488741_21cdbd6a05f9a69110f7_72.png",
+            "first_name": "Mitsunobu",
+            "real_name": "Mitsunobu Katayose",
+            "display_name": "片寄",
+            "team": "T033D70RR6H",
+            "name": "tousuien03",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1727153100.313709",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YbCV7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nご入金を確認致しました。\n・9\/27 [PayPal]\n・30 USD\n回収（入金）処理致します。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "pray",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "入金完了",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

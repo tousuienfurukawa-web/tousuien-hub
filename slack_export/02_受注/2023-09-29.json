@@ -1,0 +1,490 @@
+[
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1695974498.739549",
+        "client_msg_id": "ced8c038-a154-47b3-9987-1e274b323ca0",
+        "text": "<@U0331FZS7JT> 社長\n本日、UPSにて出荷しました。\nAWB NO. 1ZY008A28893966266\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1694722981.358469",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PAx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 社長\n本日、UPSにて出荷しました。\nAWB NO. 1ZY008A28893966266\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1695999152.719309",
+        "client_msg_id": "601656a0-c233-4047-9e4f-60878c2a9fc6",
+        "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD>\nタイのtachu houseより注文がありました。\n*TSE-TAC-027-23_invoice（発送：EMS）*\n\n注文内容はフォルダ内のインボイスを確認ください。\n\n*・HS CODE：*2101.20　\n*・Lot no.\/Man. date\/ Exp. dateを*\n　*TSE-TAC-027-23_invoice_total_secret_Lot No_memo　に記入してください。*\n*・前回と同様にラベルを貼り付けてください。*\n　商品\n　製造日・賞味期限・Lot No.\n*・脱酸素剤を入れてください。*\n*・下記先へ発送ください。*\n66\/9,Moo 8,Sub-district Khok kham, District Muang, Samutsakhon province, Thailand,\n74000",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1695999152.719309",
+        "reply_count": 4,
+        "reply_users_count": 3,
+        "latest_reply": "1696383060.059019",
+        "reply_users": [
+            "U0331FZTHEK",
+            "U05KGS6HN9H",
+            "U0331FWGQRM"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1696201751.952579"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1696222631.393569"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1696234251.276039"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1696383060.059019"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1696383060.059019",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ULRjp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nタイのtachu houseより注文がありました。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE-TAC-027-23_invoice（発送：EMS）",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n注文内容はフォルダ内のインボイスを確認ください。\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "・HS CODE：",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "2101.20　\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "・Lot no.\/Man. date\/ Exp. dateを",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "　TSE-TAC-027-23_invoice_total_secret_Lot No_memo　に記入してください。",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "・前回と同様にラベルを貼り付けてください。",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n　商品\n　製造日・賞味期限・Lot No.\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "・脱酸素剤を入れてください。",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "・下記先へ発送ください。",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n66\/9,Moo 8,Sub-district Khok kham, District Muang, Samutsakhon province, Thailand,\n74000"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1696003621.751699",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1696005234.000000"
+        },
+        "client_msg_id": "ff1419c5-9410-43a7-91b1-8c9ade48df9c",
+        "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD>\nアメリカCarmine Del Sordi(Alibaba)様から注文です。\n製造を進めてください。\n宜しくお願いします。\n100g x 100缶\n・碧翠園12000MIX\n・奥村製缶のストレージ缶（白マット）に 100g bagを入れる\n・ラベルはシール直送便で手配します。（２営業日で発送だから水曜着？）\n・有機ロゴマークが入っているので同等性証明が必要（ですよね？）",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1696003621.751699",
+        "reply_count": 30,
+        "reply_users_count": 4,
+        "latest_reply": "1698640764.543799",
+        "reply_users": [
+            "U0331FWGQRM",
+            "U0331FZTHEK",
+            "U041RJKV5JA",
+            "U03BLQ65GK0"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1696005340.564509"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1696400845.908039"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1696526830.710369"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1696547293.170019"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1696549124.496899"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1696632467.837179"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1696632844.974749"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1696644983.162739"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1696979150.003779"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1697028161.135419"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1697124898.511139"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1697156500.669239"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1697222023.358679"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1697226347.213919"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1697233419.671879"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1697461189.172069"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1697462917.131159"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1697463607.410879"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1697497595.400749"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1697500426.369579"
+            },
+            {
+                "user": "U03BLQ65GK0",
+                "ts": "1697511592.942839"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1697529499.741239"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1697677694.828039"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1698290496.674399"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1698304324.293059"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1698304483.411589"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1698626546.853949"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1698632911.901639"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1698634371.537149"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1698640764.543799"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1698640764.543799",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3Hx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nアメリカCarmine Del Sordi(Alibaba)様から注文です。\n製造を進めてください。\n宜しくお願いします。\n100g x 100缶\n・碧翠園12000MIX\n・奥村製缶のストレージ缶（白マット）に 100g bagを入れる\n・ラベルはシール直送便で手配します。（２営業日で発送だから水曜着？）\n・有機ロゴマークが入っているので同等性証明が必要（ですよね？）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "",
+        "files": [
+            {
+                "id": "F05UBRK50KG",
+                "created": 1696005336,
+                "timestamp": 1696005336,
+                "name": "スクリーンショット 2023-09-30 1.35.33.png",
+                "title": "スクリーンショット 2023-09-30 1.35.33.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U0331FWGQRM",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 121690,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F05UBRK50KG\/____________________________2023-09-30_1.35.33.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F05UBRK50KG\/download\/____________________________2023-09-30_1.35.33.png?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05UBRK50KG-3b6ffb2b26\/____________________________2023-09-30_1.35.33_64.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05UBRK50KG-3b6ffb2b26\/____________________________2023-09-30_1.35.33_80.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05UBRK50KG-3b6ffb2b26\/____________________________2023-09-30_1.35.33_360.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 360,
+                "thumb_360_h": 171,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05UBRK50KG-3b6ffb2b26\/____________________________2023-09-30_1.35.33_480.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 480,
+                "thumb_480_h": 228,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05UBRK50KG-3b6ffb2b26\/____________________________2023-09-30_1.35.33_160.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "original_w": 679,
+                "original_h": 322,
+                "thumb_tiny": "AwAWADC6zEMRnFPj5HPNMJwx71JGcr0xQBHK+DgYFJGQW6iklRGfLAk+xpESMOCA3sSaQiWQ\/u8jikXPGe\/vSuP3VIo6cdKYxskbM2Ubbxzx1pwU\/Lk\/dP506igCF8l2x60ill70rfeNJUk2JgS0fPWlHFNT7op1UUf\/2Q==",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F05UBRK50KG\/____________________________2023-09-30_1.35.33.png",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F05UBRK50KG-b3a0f3a817",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FWGQRM",
+        "display_as_bot": false,
+        "type": "message",
+        "ts": "1696005340.564509",
+        "client_msg_id": "eebcc8e1-39ff-4f4f-a4f5-eb75e92a46c7",
+        "thread_ts": "1696003621.751699",
+        "parent_user_id": "U0331FWGQRM"
+    }
+]

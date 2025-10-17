@@ -1,0 +1,912 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U0606SPN4BW",
+        "text": "<@U0606SPN4BW>さんがチャンネルに参加しました",
+        "type": "message",
+        "ts": "1696616194.916849"
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1696633260.046409",
+        "client_msg_id": "AF7699B7-21CD-4C2C-B405-4E40EC29FE97",
+        "text": "<@U041RJKV5JA> <@U033G4KN4TD> <@U03BLQ65GK0> \n本件ですが、進捗いかがでしょうか？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1694063007.387629",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YSge8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \n本件ですが、進捗いかがでしょうか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1696634482.030609",
+        "client_msg_id": "9018ab6e-5d6b-4139-a483-5476108aa08a",
+        "text": "<!everyone>  桃翠園の皆様、初めまして！\n:flag-nl:在オランダ・デンハーグの古川 敏と申します。\n\n突然ですがこの度、御社の海外向け事業を中心にご協力させて頂く運びとなりました。\nまずは本Slackに追加頂きましたので取り急ぎご挨拶とさせて頂きます。\n\n何かとお手数やご面倒をお掛けする場面も出でくるかと存じますが何卒よろしくお願い申し上げます:man-bowing:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1696634482.030609",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1696679159.497079",
+        "reply_users": [
+            "U03BLQ65GK0",
+            "U041RJKV5JA"
+        ],
+        "replies": [
+            {
+                "user": "U03BLQ65GK0",
+                "ts": "1696635729.838879"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1696679159.497079"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3Pz\/r",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "everyone"
+                            },
+                            {
+                                "type": "text",
+                                "text": "  桃翠園の皆様、初めまして！\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-nl",
+                                "unicode": "1f1f3-1f1f1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "在オランダ・デンハーグの古川 敏と申します。\n\n突然ですがこの度、御社の海外向け事業を中心にご協力させて頂く運びとなりました。\nまずは本Slackに追加頂きましたので取り急ぎご挨拶とさせて頂きます。\n\n何かとお手数やご面倒をお掛けする場面も出でくるかと存じますが何卒よろしくお願い申し上げます"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "man-bowing",
+                                "unicode": "1f647-200d-2642-fe0f"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "tada",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "star-struck",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1696634993.701379",
+        "client_msg_id": "9A90CE88-24BF-448E-B126-1D0B6D7D02C0",
+        "text": "<@U041RJKV5JA> <@U0331FZTHEK> <@U033G4KN4TD> <@U05KGS6HN9H> <@U03BLQ65GK0>\nCC： <@U0331FWGQRM>\n\n<@U0606SPN4BW>さん、自己紹介ありがとうございます。\n\n--情報共有--\n本日より、\n桃翠園から業務委託をお願いする形で古川様(拠点：オランダ)に海外事業の主に営業と物流の点でご協力いただくこととなりました。\n(上記の点、その他についてもこれからも意見交換しながら詰めていきます。)\n\nですので、Slack海外に古川様が参加されております。\n\n業務上で皆様に何か変更が出ることは\nありませんが、スラック上に名前が追加されておりますので、\nそのような背景であることを連絡しておきます。\n\n今後、情報が追加された場合は改めて共有します。\nよろしくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kWuZD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nCC： "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "さん、自己紹介ありがとうございます。\n\n--情報共有--\n本日より、\n桃翠園から業務委託をお願いする形で古川様"
+                            },
+                            {
+                                "type": "text",
+                                "text": "(拠点：オランダ)"
+                            },
+                            {
+                                "type": "text",
+                                "text": "に海外事業の主に営業と物流の点でご協力いただくこととなりました。\n(上記の点、その他についてもこれからも意見交換しながら詰めていきます。)\n\nですので、"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Slack海外に古川"
+                            },
+                            {
+                                "type": "text",
+                                "text": "様が"
+                            },
+                            {
+                                "type": "text",
+                                "text": "参加"
+                            },
+                            {
+                                "type": "text",
+                                "text": "されております"
+                            },
+                            {
+                                "type": "text",
+                                "text": "。"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n業務上で皆様に何か変更が出ることは\nありませんが、スラック上に名前が追加されておりますので、\nそのような背景であることを連絡しておきます。\n\n今後、情報が追加された場合は改めて共有します。\nよろしくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U05KGS6HN9H"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1696635266.793799",
+        "client_msg_id": "54549f30-cc9d-441e-a249-620f1dfc48e0",
+        "text": "<@U0331FZS7JT> <@U0331FWGQRM> \n\n▼以下、私の会社情報を共有させて頂きます。\n\n社名: JP Free Birds\n住所: Laan van 's-Gravenmade 40Y,\nDen Haag, 2495AJ, the Netherlands\ne-mail: <mailto:jpfreebirds@gmail.com|jpfreebirds@gmail.com>\n電話 :+31 06 8564 1964\nVAT nr: NL002475724B39\nEORI: NL379069647\n\n銀行口座: \nBIC: INGBNL2A\nIBAN: NL47 INGB 0006 9826 89",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1696635266.793799",
+        "reply_count": 13,
+        "reply_users_count": 3,
+        "latest_reply": "1698131793.787949",
+        "reply_users": [
+            "U0331FWGQRM",
+            "U041RJKV5JA",
+            "U0606SPN4BW"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1696637326.479229"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1696873722.773409"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1697092262.791279"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1697092826.004579"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1697095931.551179"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1697101577.125889"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1697110804.209639"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1697143227.368949"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1697272652.198839"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1697795942.927859"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1697901552.706649"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1698131612.733299"
+            },
+            {
+                "user": "U0606SPN4BW",
+                "ts": "1698131793.787949"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1698131793.787949",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nVvCc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \n\n▼以下、私の会社情報を共有させて頂きます。\n\n社名: JP Free Birds\n住所: Laan van 's-Gravenmade 40Y,\nDen Haag, 2495AJ, the Netherlands\ne-mail: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:jpfreebirds@gmail.com",
+                                "text": "jpfreebirds@gmail.com"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n電話 :+31 06 8564 1964\nVAT nr: NL002475724B39\nEORI: NL379069647\n\n銀行口座: \nBIC: INGBNL2A\nIBAN: NL47 INGB 0006 9826 89"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM",
+                    "U0331FZS7JT"
+                ],
+                "count": 2
+            },
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0606SPN4BW",
+        "type": "message",
+        "ts": "1696635507.583669",
+        "client_msg_id": "0a8734d6-4a8f-496a-8c35-43c2db11465e",
+        "text": "↑ <@U0331FZS7JT>  <@U0331FWGQRM>  EORI 番号、確認取れました。\nこれでサンプルはクーリエで上記住所宛にお送り頂けそうですね♪\nご用意が整い次第、日本から発送頂いてOKです。\n他、必要情報がございましたらお知らせくださればと存じます。\nよろしくお願いします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "823d8545f678",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6946592133062_823d8545f678615a3e0a_72.jpg",
+            "first_name": "SATOSHI",
+            "real_name": "SATOSHI FURUKAWA",
+            "display_name": "古川　敏",
+            "team": "T033D70RR6H",
+            "name": "jpfreebirds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FfMGV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "↑ "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "  "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "  EORI 番号、確認取れました。\nこれでサンプルはクーリエで上記住所宛にお送り頂けそうですね♪\nご用意が整い次第、日本から発送頂いてOKです。\n他、必要情報がございましたらお知らせくださればと存じます。\nよろしくお願いします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT",
+                    "U0331FWGQRM"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U03BLQ65GK0",
+        "type": "message",
+        "ts": "1696635729.838879",
+        "client_msg_id": "2a29d6c2-2081-42ef-b123-f36e655e7f42",
+        "text": "<@U0606SPN4BW>様\n桃翠園の岡 大樹（おか　だいき）と申します。\nこの度は当社の事業にご協力いただけるとのこと、誠にありがとうございます。\n私も簡単に自己紹介させていただきます。\n私は桃翠園の会長をしており、社長の兄でございます。\n主な業務は、原料や製造の方の統括を行っており、お客様へお届けする製品の品質であったり、供給量のコントロールなどを行っております。\n\n色々とお願いすることが出てくるかと思いますが、今後とも何卒よろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "8126b71e44ec",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-04-17\/3403818627748_8126b71e44ec1508fdbd_72.png",
+            "first_name": "daiki",
+            "real_name": "daiki oka",
+            "display_name": "daiki",
+            "team": "T033D70RR6H",
+            "name": "daiki.oka",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1696634482.030609",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9TpO7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "様\n桃翠園の岡 大樹（おか　だいき）と申します。\nこの度は当社の事業にご協力いただけるとのこと、誠にありがとうございます。\n私も簡単に自己紹介させていただきます。\n私は桃翠園の会長をしており、社長の兄でございます。\n主な業務は、原料や製造の方の統括を行っており、お客様へお届けする製品の品質であったり、供給量のコントロールなどを行っております。\n\n色々とお願いすることが出てくるかと思いますが、今後とも何卒よろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "heart_eyes",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1696637326.479229",
+        "client_msg_id": "69b32d5e-4c2d-4c79-af28-37c98393dfae",
+        "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD> cc <@U0606SPN4BW> <@U0331FZS7JT>\n古川様宛にサンプル発送をお願いいたします。\n（クーリエでお願いします。）\n10\/20までに必ず着くようにお願いします。\n何か問題があれば教えてください。\n\nーーーー\n*有機：TopからLower　10種*\n*非有機：TopからLower　10種*\n\nを20g 各10袋ずつ古川様にサンプルとして発送願います。\n（もし各10袋だと、数が多くて間に合わなそうなら、\n間に合う数を教えてください）\n\n下記缶5個ずつ\n*pull top 缶*：30g, 40g, 50g, 100gのpull top缶\n*mini top 缶*：各色\n\n*スティック*：無地白のやつ　20本\n\n*缶の帯ラベル*：テスト用5-10枚（30g, 40g用２種類？）\n　　　　　　　ossu tea 様のラベル4枚（Platinum grade）\n　　　　　　　Genuine様のラベル4枚\n\n*缶の蓋ラベル*：テスト用5-10枚\n　　　　　　　ossu tea 様のラベル4枚（Platinum grade）\n\n*チャック付きスタンド袋：各5枚*\n50g　白、黒、クラフト　（艶あり・なし）\n　∟ジーブリッジ様と同じサイズ\n100g　白、黒、クラフト　（艶あり・なし）\n　∟ W120xH210くらいのやつ\n250g　銀\n500g　銀\n\n*1kg bulk用アルミ蒸着袋*\n*1kg bulk用アルミ袋*\n\n*ダブルのダンボール全種類（6種類）*\n*缶の仕切り全種類*\n\n*TOUSUIENのテープ1個*\n\n*プチプチ：カット済みのやつ各種４枚ずつ*",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1696635266.793799",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pDra9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n古川様宛にサンプル発送をお願いいたします。\n（クーリエでお願いします。）\n10\/20までに必ず着くようにお願いします。\n何か問題があれば教えてください。\n\nーーーー\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "有機：TopからLower　10種",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "非有機：TopからLower　10種",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nを20g 各10袋ずつ古川様にサンプルとして発送願います。\n（もし各10袋だと、数が多くて間に合わなそうなら、\n間に合う数を教えてください）\n\n下記缶5個ずつ\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "pull top 缶",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "：30g, 40g, 50g, 100gのpull top缶\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "mini top 缶",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "：各色\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "スティック",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "：無地白のやつ　20本\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "缶の帯ラベル",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "：テスト用5-10枚（30g, 40g用２種類？）\n　　　　　　　ossu tea 様のラベル4枚（Platinum grade）\n　　　　　　　Genuine様のラベル4枚\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "缶の蓋ラベル",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "：テスト用5-10枚\n　　　　　　　ossu tea 様のラベル4枚（Platinum grade）\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "チャック付きスタンド袋：各5枚",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n50g　白、黒、クラフト　（艶あり・なし）\n　∟ジーブリッジ様と同じサイズ\n100g　白、黒、クラフト　（艶あり・なし）\n　∟ W120xH210くらいのやつ\n250g　銀\n500g　銀\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "1kg bulk用アルミ蒸着袋",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "1kg bulk用アルミ袋",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "ダブルのダンボール全種類（6種類）",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "缶の仕切り全種類",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TOUSUIENのテープ1個",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "プチプチ：カット済みのやつ各種４枚ずつ",
+                                "style": {
+                                    "bold": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            },
+            {
+                "name": "eyes",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "<@U0331FZS7JT>\n報告遅くなりすみません。\n現時点の進捗を表にまとめています。\n結果としておくひかりは1茶ですが仕入れることができそうです。\n※サンプルや単価の連絡がまだ来ないので改めて連絡しておきます。\nその他の品種は\n・存在は知っているが扱いがない or 卸すほどの量がない\n・取り扱っている茶問屋が（ネットで探す限りは）ない\nという状況です。\nよろしくお願いします。",
+        "files": [
+            {
+                "id": "F0608FKJHQU",
+                "created": 1696657802,
+                "timestamp": 1696657802,
+                "name": "単一品種調査内容.xlsx",
+                "title": "単一品種調査内容.xlsx",
+                "mimetype": "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "filetype": "xlsx",
+                "pretty_type": "Excel Spreadsheet",
+                "user": "U03BLQ65GK0",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 11945,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0608FKJHQU\/________________________.xlsx?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F0608FKJHQU\/download\/________________________.xlsx?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "converted_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0608FKJHQU-450dd64ca6\/_________________________converted.pdf?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F0608FKJHQU-450dd64ca6\/_________________________thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 909,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F0608FKJHQU\/________________________.xlsx",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F0608FKJHQU-02691fa131",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U03BLQ65GK0",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "R4Onv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n報告遅くなりすみません。\n現時点の進捗を表にまとめています。\n結果としておくひかりは1茶ですが仕入れることができそうです。\n※サンプルや単価の連絡がまだ来ないので改めて連絡しておきます。\nその他の品種は\n・存在は知っているが扱いがない or 卸すほどの量がない\n・取り扱っている茶問屋が（ネットで探す限りは）ない\nという状況です。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1696657822.824459",
+        "client_msg_id": "045b29ea-15fa-4051-a4d8-53d8105a8050",
+        "thread_ts": "1694063007.387629",
+        "parent_user_id": "U0331FZS7JT",
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

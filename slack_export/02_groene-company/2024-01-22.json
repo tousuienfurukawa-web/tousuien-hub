@@ -1,0 +1,706 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1705923894.030639",
+        "client_msg_id": "9bd7a9d6-4ebd-45c7-8f52-776c700edd3e",
+        "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD>\n・出荷可能日を教えてください。\n・invoiceの修正版を入手しましたので宜しくお願いします。\n\n※すでにご存知かもしれませんが、\nこのお客様は出荷用invoiceと契約時のinvoiceが異なります。\n\nこちらが出荷用インボイスです。（aがついている方。価格が安い方）\n*TSE002-24invoice_a*\n\n過去出荷分を確認しておいてください。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705805605.842639",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dfk8y",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n・出荷可能日を教えてください。\n・invoiceの修正版を入手しましたので宜しくお願いします。\n\n※すでにご存知かもしれませんが、\nこのお客様は出荷用invoiceと契約時のinvoiceが異なります。\n\nこちらが出荷用インボイスです。（aがついている方。価格が安い方）\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE002-24invoice_a",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n過去出荷分を確認しておいてください。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U05KGS6HN9H"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1705969123.104639",
+        "client_msg_id": "74e431f3-972c-4bcb-8541-142e64e37af2",
+        "text": "<@U0331FWGQRM>\n <@U05KGS6HN9H> <@U033G4KN4TD>\n商品完成日：1月26日（金）\n出荷可能日：1月29日（月）\n原産地証明書申請、ロット番号印字がありますので、1月24日（水）中までに修正後のインボイス・パッキングリストの入手をお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1704504859.189979",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tpKRv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n商品完成日：1月26日（金）\n出荷可能日：1月29日（月）\n原産地証明書申請、ロット番号印字がありますので、1月24日（水）中までに修正後のインボイス・パッキングリストの入手をお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1705970116.298959",
+        "client_msg_id": "f14e1787-8500-4cb7-81ef-035d5bcf13ee",
+        "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD>\n申し訳ないです。\n２分割にて発送となります:sweat_drops:\n当初、予定していた分を本日発送可能でしょうか。\n宜しくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1704504859.189979",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "SSw\/s",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n申し訳ないです。\n２分割にて発送となります"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sweat_drops",
+                                "unicode": "1f4a6"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n当初、予定していた分を本日発送可能でしょうか。\n宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1705971740.027049",
+        "client_msg_id": "dc056fb0-7f3a-4278-b38c-1ffe9adc892b",
+        "text": "<@U0331FWGQRM>\n<@U041RJKV5JA> <@U033G4KN4TD>\n出荷可能日2\/1（木）にてお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1705805605.842639",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AOfSH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日2\/1（木）にてお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD>\nTSE004-24ｶﾅﾀﾞGenuine Tea\n~（←TSE001-24の追加分）~\n~1月29日発送予定。~\n~PO番号が届いた際にはインボイスを修正する予定ですが、~\n~内容は添付の通りです。~\n\nー2023\/01\/31　invoice, packing list入手ーー\nTSE003が4月中旬頃到着予定のため、\nそれまでの間の商品をカバーするための注文を新た追加。\nーーーーーーーーーーーーーーーーーーーー\n\n※メモ\nTSE001-24　1\/23発送\n~TSE004-24　1\/29発送(一旦ストップ)~",
+        "files": [
+            {
+                "id": "F06F0CR8945",
+                "mode": "tombstone"
+            },
+            {
+                "id": "F06F3ALFU3C",
+                "mode": "tombstone"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NIu43",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nTSE004-24ｶﾅﾀﾞGenuine Tea\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "（←TSE001-24の追加分）",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "1月29日発送予定。",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "PO番号が届いた際にはインボイスを修正する予定ですが、",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "内容は添付の通りです。",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nー2023\/01\/31　invoice, packing list入手ーー\nTSE003が4月中旬頃到着予定のため、\nそれまでの間の商品をカバーするための注文を新た追加。\nーーーーーーーーーーーーーーーーーーーー\n\n※メモ\nTSE001-24　1\/23発送\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TSE004-24　1\/29発送(一旦ストップ)",
+                                "style": {
+                                    "strike": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1705977219.422729",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1706686225.000000"
+        },
+        "client_msg_id": "85e3c790-d443-4b5e-9021-5882be5f8743",
+        "thread_ts": "1705977219.422729",
+        "reply_count": 32,
+        "reply_users_count": 3,
+        "latest_reply": "1708754141.267119",
+        "reply_users": [
+            "U0331FWGQRM",
+            "U041RJKV5JA",
+            "U05KGS6HN9H"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1706054159.476689"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1706191601.367089"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1706223179.818309"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1706238806.281649"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1706240671.241139"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1706252216.196059"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1706252585.151129"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1706257344.351039"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1706284184.293559"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1706686662.350709"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1706745199.431159"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1706745335.414879"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1706745378.505879"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1706745807.807789"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1706746062.958579"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1706746246.912919"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1706746694.577049"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1706746798.711069"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1706762793.058819"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1706837072.846889"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1706867462.906229"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1707109578.323389"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1707179660.236679"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1707181938.369309"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1707219048.576259"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1707552775.764609"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1707557117.999669"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1707954969.808669"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1707964209.469829"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1707972822.178929"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1708058033.917419"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1708754141.267119"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1708754141.267119",
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD",
+                    "U041RJKV5JA"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1705995132.299869",
+        "client_msg_id": "a93d0a1a-c420-4afd-9eb6-aebc5d729692",
+        "text": "<@U0331FWGQRM>\n <@U05KGS6HN9H> <@U033G4KN4TD>\n本日、FedExにて出荷しました。\nAWB NO. 774900109267\nPNCの入手が間に合わなかった為、入手出来次第提出いたします。\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1704504859.189979",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lWjO6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日、FedExにて出荷しました。\nAWB NO. 774900109267\nPNCの入手が間に合わなかった為、入手出来次第提出いたします。\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1705995690.821189",
+        "client_msg_id": "460d34ef-c16f-4624-ad50-0aeec8836a2f",
+        "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD>\nありがとうございます！\nShipping documentが整い次第、連絡ください。\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1704504859.189979",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dqM71",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nありがとうございます！\nShipping documentが整い次第、連絡ください。\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

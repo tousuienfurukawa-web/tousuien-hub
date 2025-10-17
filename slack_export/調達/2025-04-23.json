@@ -1,0 +1,146 @@
+[
+    {
+        "user": "U0840UVFVA8",
+        "type": "message",
+        "ts": "1745461414.666439",
+        "edited": {
+            "user": "U0840UVFVA8",
+            "ts": "1745468382.000000"
+        },
+        "client_msg_id": "8e2f548d-aeb1-4102-9dfe-ff033a668896",
+        "text": "<!channel>\n下記原料発注をお願いします。\n\n・水宗園 有機抹茶7400　100kg\n　（現在庫：約40kg）\n\n・まるゑい 有機抹茶8000（ほぼ大野様用？）\n　数量はお任せします！\n　（現在庫：約5kg）\n\nよろしくお願いします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "g0c71d8d4168",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0c71d8d4168211b07b8a8e20b40c036c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "kanayama",
+            "real_name": "kanayama",
+            "display_name": "金山",
+            "team": "T033D70RR6H",
+            "name": "kanayama-is",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745461414.666439",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1745473467.230489",
+        "reply_users": [
+            "U0331FZS7JT"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1745473467.230489"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "a+lg5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n下記原料発注をお願いします。\n\n・水宗園 有機抹茶7400　100kg\n　（現在庫：約40kg）\n\n・まるゑい 有機抹茶8000（ほぼ大野様用？）\n　数量はお任せします！\n　（現在庫：約5kg）\n\nよろしくお願いします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "man-gesturing-ok",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "原料_発注済",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1745473467.230489",
+        "client_msg_id": "34dfa090-9e74-405f-89b1-a98ee8300667",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n・まるゑい 有機抹茶8000：100kg\n*6月12日(木)納品*",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745461414.666439",
+        "parent_user_id": "U0840UVFVA8",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "svnB9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n・まるゑい 有機抹茶8000：100kg\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "6月12日(木)納品",
+                                "style": {
+                                    "bold": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U08NVD403GV",
+        "text": "<@U08NVD403GV>さんがチャンネルに参加しました",
+        "inviter": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1745473476.952469"
+    }
+]

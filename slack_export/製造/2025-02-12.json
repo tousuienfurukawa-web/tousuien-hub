@@ -1,0 +1,83 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1739383614.976819",
+        "client_msg_id": "d096371f-9f99-4e42-8cc9-5005b613c0ca",
+        "text": "<!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <@U03BLQ65GK0> cc<@U0331FZS7JT>\n東陽機械製作所訪問について。\n\n時間：2\/18（火） 13:00\n\n〒４６３－００６８\n名古屋市守山区瀬古1丁目623番地\nTEL:052-793-1600\n\n大曽根駅のタクシーに上記を伝えれば間違いないとのこと。\n\n当日何かあれば、佐々木様の携帯まで\n連絡くださいとのこと。\n<tel:08036839564|080-3683-9564>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1738393740.183009",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Z4+KM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S088LEJ1U5T"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n東陽機械製作所訪問について。\n\n時間：2\/18（火） 13:00\n\n〒４６３－００６８\n名古屋市守山区瀬古1丁目623番地\nTEL:052-793-1600\n\n大曽根駅のタクシーに上記を伝えれば間違いないとのこと。\n\n当日何かあれば、佐々木様の携帯まで\n連絡くださいとのこと。\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:08036839564",
+                                "text": "080-3683-9564"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U03BLQ65GK0"
+                ],
+                "count": 1
+            },
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

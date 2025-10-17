@@ -1,0 +1,142 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1691020946.341479",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1691038534.000000"
+        },
+        "client_msg_id": "8f45b0a0-a0dd-43c7-b8b5-994cc6e4a949",
+        "text": "<@U041RJKV5JA> 部長\n<@U033G4KN4TD> さん\n\nイギリスのMatcha Unionにサンプル発送をお願いします。\n昨日渡したBlended Matcha(2種×3グレード：計６袋)\n\n現在お客様にEORIナンバーを確認しているので\n分かり次第反映、共有します。\n\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1691020946.341479",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1691183882.378999",
+        "reply_users": [
+            "U0331FZS7JT",
+            "U041RJKV5JA"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1691038421.596249"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1691183882.378999"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "I=tD4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\n\nイギリスのMatcha Unionにサンプル発送をお願いします。\n昨日渡したBlended Matcha(2種×3グレード：計６袋)\n\n現在お客様にEORIナンバーを確認しているので\n分かり次第反映、共有します。\n\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U033G4KN4TD"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1691038421.596249",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1691038660.000000"
+        },
+        "client_msg_id": "287e819c-f806-4d27-8004-f6a62b462eb0",
+        "text": "<@U041RJKV5JA> <@U033G4KN4TD>\n\nEORIナンバー届いたので\nインボイスに反映しました。\nINVOICE(TSE-MTU-SPL-003-23)\n\nパッキングリストの作成、ラベルの添付と明日の出荷手続きを進めてください。\n\n\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1691020946.341479",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zitc5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nEORIナンバー届いたので\nインボイスに反映しました。\nINVOICE(TSE-MTU-SPL-003-23)\n\nパッキングリストの作成、ラベルの添付と明日の出荷手続きを進めてください。\n\n\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

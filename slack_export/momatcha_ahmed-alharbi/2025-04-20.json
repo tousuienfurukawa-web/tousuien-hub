@@ -1,0 +1,84 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U08NVD403GV",
+        "text": "<@U08NVD403GV>さんがチャンネルに参加しました",
+        "type": "message",
+        "ts": "1745195461.324909"
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1745199345.549469",
+        "client_msg_id": "e7ab941a-19b4-4cb5-be6a-7dc31d9b18b4",
+        "text": "<@U066P20UQH1>\nMomatchaメモ\n紅茶ラテサンプルについて\n\nキタマ：ベルガモット依頼\nベルガモットパウダー\nベルガモット果汁パウダー\n何れもナチュラル\nサンプル確認後フィードバックします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745199345.549469",
+        "reply_count": 3,
+        "reply_users_count": 2,
+        "latest_reply": "1746767805.145569",
+        "reply_users": [
+            "U0331FZS7JT",
+            "U066P20UQH1"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1745468663.183939"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1745656896.308969"
+            },
+            {
+                "user": "U066P20UQH1",
+                "ts": "1746767805.145569"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fP2tQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nMomatchaメモ\n紅茶ラテサンプルについて\n\nキタマ：ベルガモット依頼\nベルガモットパウダー\nベルガモット果汁パウダー\n何れもナチュラル\nサンプル確認後フィードバックします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "pray",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

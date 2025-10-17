@@ -1,0 +1,539 @@
+[
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1709107994.573529",
+        "client_msg_id": "77c3b3d4-7d43-4a33-bc39-976d1ce949a2",
+        "text": "<@U0331FZS7JT>\n<@U041RJKV5JA> <@U033G4KN4TD>\n本日の佐川で出荷しました。\nAWB No 491636716852\n宜しくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1708869790.888399",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "doJhe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日の佐川で出荷しました。\nAWB No 491636716852\n宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1709125529.136399",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1709125545.000000"
+        },
+        "client_msg_id": "a7365168-bd8b-4759-a739-3cb1067561bd",
+        "text": "おそらく、\nKreuzlingen\n\nと言われていますが、\nTRACESが何かについて理解されていません。\nなので、下記質問を使用と思うのですが、\n合ってますかね？:sweat_drops:\nーーー\nTRACES システムを通じてCOI（Certificate of inspection）は発行しています。\nこの TRACES システムでのCOIの発行には、有機商品の「製造業者（Producer）」、「輸出業者（Exporter）」、「輸出先の輸入業者（Importer）」及び「最初の荷受人（First consignee）」の事前登録が必要となります。\n\nつきましては、輸入業者であるあなたはおそらく事前登録が必要だそうです。\nーーー",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1708521128.669289",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NMs5q",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "おそらく、\nKreuzlingen\n\nと言われていますが、\nTRACESが何かについて理解されていません。\nなので、下記質問を使用と思うのですが、\n合ってますかね？"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sweat_drops",
+                                "unicode": "1f4a6"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nーーー\nTRACES システムを通じてCOI（Certificate of inspection）は発行しています。\nこの TRACES システムでのCOIの発行には、有機商品の「製造業者（Producer）」、「輸出業者（Exporter）」、「輸出先の輸入業者（Importer）」及び「最初の荷受人（First consignee）」の事前登録が必要となります。\n\nつきましては、輸入業者であるあなたはおそらく事前登録が必要だそうです。\nーーー"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1709161016.279269",
+        "client_msg_id": "ebd77517-6b28-4805-b249-319690920169",
+        "text": "<@U0331FWGQRM>\nTRACESへの事前登録が必要です。\n上記内容で問題ございません。\nラベルの納期ですが、確認しましたら3月１日（金）午前到着となっておりましたので、\n午後より製造を行います。\n先方のTRACES登録完了後、有機同等性証明書を申請いたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1708521128.669289",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "y57GH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nTRACESへの事前登録が必要です。\n上記内容で問題ございません。\nラベルの納期ですが、確認しましたら3月１日（金）午前到着となっておりましたので、\n午後より製造を行います。\n先方のTRACES登録完了後、有機同等性証明書を申請いたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1709166301.061179",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1709168204.000000"
+        },
+        "client_msg_id": "a16ea021-b363-4d45-adb9-3330f0f526e4",
+        "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD>\nスイスのSebastyan M様から注文です。\n出荷可能日が分かり次第教えてください。\n\n※出荷先と請求先が異なっているので注意してください。\n※今回から、裏面に賞味期限を印字お願いします。（表示順序→day\/ month\/ year）\n　EXP : 29\/02\/2025",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1709166301.061179",
+        "reply_count": 14,
+        "reply_users_count": 3,
+        "latest_reply": "1710404687.944759",
+        "reply_users": [
+            "U05KGS6HN9H",
+            "U0331FWGQRM",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1709182162.214049"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1709183023.079589"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1709699669.464189"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1709702492.801159"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1709704005.104679"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1709704012.274139"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1710120841.043669"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1710135295.372189"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1710269554.627869"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1710310058.425179"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1710321384.302759"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1710321459.329889"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1710399900.303859"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1710404687.944759"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1710404687.944759",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PYHne",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nスイスのSebastyan M様から注文です。\n出荷可能日が分かり次第教えてください。\n\n※出荷先と請求先が異なっているので注意してください。\n※今回から、裏面に賞味期限を印字お願いします。（表示順序→day\/ month\/ year）\n　EXP : 29\/02\/2025"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U05KGS6HN9H",
+                    "U033G4KN4TD",
+                    "U041RJKV5JA"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "text": "<@U0331FWGQRM>\n<@U041RJKV5JA> <@U033G4KN4TD>\n出荷可能日は有機同等性証明取得後の3月14（木）で\nお願い致します。\n風袋裏面印字は添付（画像はイメージ）くらいで予定しております。\n印字内容はEXP 29\/02\/25で宜しいでしょうか？",
+        "files": [
+            {
+                "id": "F06MVGV6940",
+                "created": 1709182097,
+                "timestamp": 1709182097,
+                "name": "Matcha land_印字イメージ.pdf",
+                "title": "Matcha land_印字イメージ.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U05KGS6HN9H",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 94026,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F06MVGV6940\/matcha_land___________________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F06MVGV6940\/download\/matcha_land___________________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F06MVGV6940-713b992685\/matcha_land____________________thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 910,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F06MVGV6940\/matcha_land___________________.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F06MVGV6940-6f42ecac8b",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U05KGS6HN9H",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "162L7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日は有機同等性証明取得後の3月14（木）で\nお願い致します。\n風袋裏面印字は添付（画像はイメージ）くらいで予定しております。\n印字内容はEXP 29\/02\/25で宜しいでしょうか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1709182162.214049",
+        "client_msg_id": "6db779ef-7bed-431d-9ba5-3122704b231f",
+        "thread_ts": "1709166301.061179",
+        "parent_user_id": "U0331FWGQRM",
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1709183023.079589",
+        "client_msg_id": "4e00e5aa-15f4-4db9-b83c-0f26fff48725",
+        "text": "<@U05KGS6HN9H>\n賞味期限の日付は、13\/03\/2024\nでお願いします。\n実際に印字したものを写真お願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1709166301.061179",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4mXex",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n賞味期限の日付は、13\/03\/2024\nでお願いします。\n実際に印字したものを写真お願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1709191318.914349",
+        "client_msg_id": "aebcc8bb-e92d-4805-a3dd-82252e040762",
+        "text": "<@U0331FZS7JT>\n<@U041RJKV5JA> <@U033G4KN4TD>\n自由販売証明取得にあたってシステム入力に必要な\nピックアップ情報は以下となります。\n・出荷日\n・船便名、航空便名\n・送り状番号\n・輸入者名、住所\n・自由販売証明書を提出する輸出相手国の機関名、住所",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1708508747.750689",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xJrNK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n自由販売証明取得にあたってシステム入力に必要な\nピックアップ情報は以下となります。\n・出荷日\n・船便名、航空便名\n・送り状番号\n・輸入者名、住所\n・自由販売証明書を提出する輸出相手国の機関名、住所"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

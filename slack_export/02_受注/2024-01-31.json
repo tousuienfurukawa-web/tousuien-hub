@@ -1,0 +1,150 @@
+[
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1706691626.241239",
+        "client_msg_id": "497569e6-447a-4827-b3d6-d7e4853a764c",
+        "text": "<@U0331FZS7JT>\n<@U041RJKV5JA> <@U033G4KN4TD>\n本日1\/31佐川で出荷しました。\nAWB No 491636714822\n宜しくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1706505573.344039",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "B\/xWA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日1\/31佐川で出荷しました。\nAWB No 491636714822\n宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1706754965.303799",
+        "edited": {
+            "user": "U041RJKV5JA",
+            "ts": "1706755240.000000"
+        },
+        "client_msg_id": "7f355e7f-d38e-4323-bb4e-d457d1d148db",
+        "text": "<@U0331FWGQRM>\n <@U0331FZS7JT> <@U05KGS6HN9H> <@U033G4KN4TD>\n出荷可能日：3月8日（金）→3月11日（月）空港着\n各原料仕入れ先の有機JAS認証書と産地証明書入手後、有機商品認証手続きを行います。\n・有機商品認証手続き　2月5日（月）提出→2月14日（火）認証\n・ターメリック抹茶ブレンド　2月15日（木）\n・ターメリック抹茶製造　2月16日（金）\n・印字修正　2月14日（水）開始→2月22日（木）完了\n・有機同等性証明書申請　2月22日（木）提出→3月5日（火）取得",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1697826081.306389",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "e3ABP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日：3月8日（金）→3月11日（月）空港着\n各原料仕入れ先の有機JAS認証書と産地証明書入手後、有機商品認証手続きを行います。\n・有機商品認証手続き　2月5日（月）提出→2月14日（火）認証\n・ターメリック抹茶ブレンド　2月15日（木）\n・ターメリック抹茶製造　2月16日（金）\n・印字修正　2月14日（水）開始→2月22日（木）完了\n・有機同等性証明書申請　2月22日（木）提出→3月5日（火）取得"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

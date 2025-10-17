@@ -1,0 +1,89 @@
+[
+    {
+        "user": "U03BLQ65GK0",
+        "type": "message",
+        "ts": "1709263030.233859",
+        "edited": {
+            "user": "U03BLQ65GK0",
+            "ts": "1709265562.000000"
+        },
+        "client_msg_id": "151adefb-ed85-4ff7-be4b-2184dacd48a6",
+        "text": "<!channel>\n現在使用しているスプレッドシートの在庫管理表ですが、\n一つのシートの中で大きな容量のページが2つ入っていることから、\nスプレッドシート自体がとても重くなり、入力から反映までかなり時間がかかっていました。\nそのため、これまで一つのシート内で管理していた入庫と出庫を\nそれぞれ別のスプレッドシートに分けることにしました。\n使用方法はこれまでと同様ですので問題なく使用できるかと思います。\nよろしくお願いします。\n※本ページ上部にある管理表も変更しています\n\n入庫\n<https:\/\/docs.google.com\/spreadsheets\/d\/1NoCr4WktPL0rrBLP9vz1CuxTusgwOL-AUyuZLURCiVA\/edit#gid=943485998&fvid=568541386>\n\n出庫\n<https:\/\/docs.google.com\/spreadsheets\/d\/1Ruq2E71cHJb9olInsOBIUS2DvUnQI0DPeOErxFEO_pw\/edit#gid=1765478480&fvid=364633887>\n\n在庫状況\n<https:\/\/docs.google.com\/spreadsheets\/d\/1FsTgUFNB0LRZA-zX1djNrdPRC2edH2inEYux2OxqDZ4\/edit#gid=45730170>",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "8126b71e44ec",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-04-17\/3403818627748_8126b71e44ec1508fdbd_72.png",
+            "first_name": "daiki",
+            "real_name": "daiki oka",
+            "display_name": "daiki",
+            "team": "T033D70RR6H",
+            "name": "daiki.oka",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "SYGNX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n現在使用しているスプレッドシートの在庫管理表ですが、\n一つのシートの中で大きな容量のページが2つ入っていることから、\nスプレッドシート自体がとても重くなり、入力から反映までかなり時間がかかっていました。\nそのため、これまで一つのシート内で管理していた入庫と出庫を\nそれぞれ別のスプレッドシートに分けることにしました。\n使用方法はこれまでと同様ですので問題なく使用できるかと思います。\nよろしくお願いします。\n※本ページ上部にある管理表も変更しています\n\n入庫\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/docs.google.com\/spreadsheets\/d\/1NoCr4WktPL0rrBLP9vz1CuxTusgwOL-AUyuZLURCiVA\/edit#gid=943485998&fvid=568541386"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n出庫\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/docs.google.com\/spreadsheets\/d\/1Ruq2E71cHJb9olInsOBIUS2DvUnQI0DPeOErxFEO_pw\/edit#gid=1765478480&fvid=364633887"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n在庫状況\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/docs.google.com\/spreadsheets\/d\/1FsTgUFNB0LRZA-zX1djNrdPRC2edH2inEYux2OxqDZ4\/edit#gid=45730170"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD",
+                    "U05KGS6HN9H",
+                    "U0331FZS7JT"
+                ],
+                "count": 3
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U033G4KN4TD",
+                    "U0331FZTHEK",
+                    "U041RJKV5JA",
+                    "U05KGS6HN9H"
+                ],
+                "count": 4
+            }
+        ]
+    }
+]

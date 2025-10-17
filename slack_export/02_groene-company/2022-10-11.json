@@ -1,0 +1,135 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1665473953.532329",
+        "client_msg_id": "e2e65844-a072-4ec8-873b-0ec2941bb2de",
+        "text": "<@U033G4KN4TD>\n<https:\/\/www.post.japanpost.jp\/cgi-kokusai\/country.php?cid=162#tsujo>\n\nこのページでは◯になってますね・・・\nお客様が決めるかと思いますが、念の為に事前に確認できますか？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1665458216.840659",
+        "parent_user_id": "U0331FZS7JT",
+        "attachments": [
+            {
+                "from_url": "https:\/\/www.post.japanpost.jp\/cgi-kokusai\/country.php?cid=162#tsujo",
+                "service_icon": "https:\/\/www.post.japanpost.jp\/favicon.ico",
+                "id": 1,
+                "original_url": "https:\/\/www.post.japanpost.jp\/cgi-kokusai\/country.php?cid=162#tsujo",
+                "fallback": "国・地域別情報(国際郵便条件表) - 日本郵便",
+                "text": "郵便ホームページは、ゆうパックやゆうメール、手紙、はがき、書留、国際郵便などの郵便物の料金や、配達にかかる日数、荷物の状況の追跡、再配達の申し込みなどのサービスと、年賀や暑中見舞などのキャンペーン情報を案内しています。",
+                "title": "国・地域別情報(国際郵便条件表) - 日本郵便",
+                "title_link": "https:\/\/www.post.japanpost.jp\/cgi-kokusai\/country.php?cid=162#tsujo",
+                "service_name": "post.japanpost.jp"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NMKab",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.post.japanpost.jp\/cgi-kokusai\/country.php?cid=162#tsujo"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nこのページでは◯になってますね・・・\nお客様が決めるかと思いますが、念の為に事前に確認できますか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1665475248.386289",
+        "client_msg_id": "2024087e-8640-4414-afd3-93b3258f3e95",
+        "text": "<@U0331FWGQRM> <@U041RJKV5JA>\n先ほど、電話で確認いたしました。\n「差出不可」です。\nよろしくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1665458216.840659",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wMK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n先ほど、電話で確認いたしました。\n「差出不可」です。\nよろしくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

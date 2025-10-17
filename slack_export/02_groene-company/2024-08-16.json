@@ -1,0 +1,552 @@
+[
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1723797196.105139",
+        "client_msg_id": "a128e5dc-b57a-4a61-b54c-93c62d8b5b55",
+        "text": "<@U0331FWGQRM>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <@U0331FZS7JT>\n出荷日：8月17日（土）\nまた、有機抹茶25号の原価は昨年10月の確認時に2500円となっております。\n取扱商品一覧表を更新しております。\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1723416296.906339",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ViySq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷日：8月17日（土）\nまた、有機抹茶25号の原価は昨年10月の確認時に2500円となっております。\n取扱商品一覧表を更新しております。\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1723799156.220019",
+        "client_msg_id": "0f4c7093-7c4e-4272-b0c2-59578445e50d",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\nお客様のほうでパナマ向けの受注があったそうですが\n前回の商工会議所のサイン証明では、\n結局ダメだったようです。\n\n外務省認証のアポスティーユが要るとのことです。\n\n*1. まず前回のような商工会議所のサイン証明で（外務省認証の）アポスティーユが取得可能か*\n\n*2. 1が不可の場合、農水省発行のサイン証明で（外務省認証の）アポスティーユの取得可能か？*\n*（以前調査頂いた時の情報によると、農水省証明は新規注文が必要だったはずですが、今回受注があったっぽいのでこの可能性もあります）*\n\nアポスティーユを取得する方法として検索してみたところ下記が出てきました\n<https:\/\/certification.jp\/authentication\/10000\/>\nここでは厚生省発行となってますが、農水省同様に厚生省でも発行できる？\n\n*3. 2では新規注文が必要だが農水省は過去分で発行可能か？*\n\n簡単なのは1で、かつ、代行会社に依頼することですが、\n実際どうなのか調べてもらえませんか。\n代行会社も他にあるかもしれませんので、良さそうなところを探してみてください。\n\n代行会社にしても自社で取得にしても、\nちょっと費用がかかると思いますので\nそれはお客様にも説明し負担をお願いするつもりです。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1718979398.895279",
+        "parent_user_id": "U0331FWGQRM",
+        "attachments": [
+            {
+                "from_url": "https:\/\/certification.jp\/authentication\/10000\/",
+                "service_icon": "https:\/\/certification.jp\/certification2018\/wp-content\/themes\/certification\/assets\/images\/legacy\/apple-touch-icon.png",
+                "thumb_url": "https:\/\/certification.jp\/certification2018\/wp-content\/uploads\/2017\/09\/thumb-logo-orenge.jpg",
+                "thumb_width": 600,
+                "thumb_height": 600,
+                "id": 1,
+                "original_url": "https:\/\/certification.jp\/authentication\/10000\/",
+                "fallback": "アポスティーユ申請代行センター®: 厚生労働省が発行する自由販売証明書（Certificate of Free Sale）のアポスティーユ・駐日大使館領事認証 | アポスティーユ申請代行センター®",
+                "text": "自由販売証明書のアポスティーユ、大使館認証にお困りの方へ 厚生労働省が発行する自由販売証明書とは日本国内で製造、販売されている食品を海外に輸出する際に日本国内で問題なく流通していることを証明する文書のことです。 日本国内・・・",
+                "title": "厚生労働省が発行する自由販売証明書（Certificate of Free Sale）のアポスティーユ・駐日大使館領事認証 | アポスティーユ申請代行センター®",
+                "title_link": "https:\/\/certification.jp\/authentication\/10000\/",
+                "service_name": "アポスティーユ申請代行センター®"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8aSMa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nお客様のほうでパナマ向けの受注があったそうですが\n前回の商工会議所のサイン証明では、\n結局ダメだったようです。\n\n外務省認証のアポスティーユが要るとのことです。\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "1. まず前回のような商工会議所のサイン証明で（外務省認証の）アポスティーユが取得可能か",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "2. 1が不可の場合、農水省発行のサイン証明で（外務省認証の）アポスティーユの取得可能か？",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "（以前調査頂いた時の情報によると、農水省証明は新規注文が必要だったはずですが、今回受注があったっぽいのでこの可能性もあります）",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nアポスティーユを取得する方法として検索してみたところ下記が出てきました\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/certification.jp\/authentication\/10000\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nここでは厚生省発行となってますが、農水省同様に厚生省でも発行できる？\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "3. 2では新規注文が必要だが農水省は過去分で発行可能か？",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n簡単なのは1で、かつ、代行会社に依頼することですが、\n実際どうなのか調べてもらえませんか。\n代行会社も他にあるかもしれませんので、良さそうなところを探してみてください。\n\n代行会社にしても自社で取得にしても、\nちょっと費用がかかると思いますので\nそれはお客様にも説明し負担をお願いするつもりです。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            },
+            {
+                "name": "確認中",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1723799698.915219",
+        "client_msg_id": "34bd7e90-8266-4d5b-b778-a0761250b2d5",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nやはりこの様な要望が来ました。。。\nーーー\nこちらの注文についての出荷可能日についてですが、\nこのうちのいくらかをAIRに回す可能性があるとのことで、それぞれのアイテムの生産終了日を教えて頂けますでしょうか？\n（現時点では大体の日付で大丈夫です）\nーーー\nわかり次第教えてください。\n（ざっくりでOKです:sweat_drops:）",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1723414233.139499",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VVn89",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nやはりこの様な要望が来ました。。。\nーーー\nこちらの注文についての出荷可能日についてですが、\nこのうちのいくらかをAIRに回す可能性があるとのことで、それぞれのアイテムの生産終了日を教えて頂けますでしょうか？\n（現時点では大体の日付で大丈夫です）\nーーー\nわかり次第教えてください。\n（ざっくりでOKです"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sweat_drops",
+                                "unicode": "1f4a6"
+                            },
+                            {
+                                "type": "text",
+                                "text": "）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD",
+                    "U05KGS6HN9H",
+                    "U041RJKV5JA"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1723860350.757829",
+        "client_msg_id": "56130966-ad4d-46db-b0da-9797155640da",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <@U0331FWGQRM>\nｱﾒﾘｶ Jorge 様からサンプル依頼がありました。\n---------\nなるべく早く発送して頂けると大変助かります。\n発送可能日が分かりましたら教えてください。\n【サンプル】各30g程度お願い致します\n---------",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1723860350.757829",
+        "reply_count": 3,
+        "reply_users_count": 2,
+        "latest_reply": "1724045106.038149",
+        "reply_users": [
+            "U0331FZS7JT",
+            "U05KGS6HN9H"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1723860402.759759"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1723863229.044669"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1724045106.038149"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1724045106.038149",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KhNlr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nｱﾒﾘｶ Jorge 様からサンプル依頼がありました。\n---------\nなるべく早く発送して頂けると大変助かります。\n発送可能日が分かりましたら教えてください。\n【サンプル】各30g程度お願い致します\n---------"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1723860402.759759",
+        "client_msg_id": "195b237d-efb6-4152-8f99-4022f4be392c",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n1. Organic Matcha Regular grade\n水宗園　有機抹茶4200\n\n2. Organic Matcha Middle grade\nまるゑい　有機抹茶ME上\n\n3. Organic Matcha Upper grade\nまるゑい　有機抹茶8000\n\n4. Izumo Matcha Regular grade\n出雲抹茶P\n\n5. Izumo Matcha Middle grade\n出雲抹茶F\n\n6. Izumo Matcha Upper grade\n出雲抹茶R\n\n\n【送り先】\nMr. Angel Rincón\n\nAddress:\n5801 Preston oaks Rd\nApartment 2006\nDallas TX 75254\nUnited States\n\nPhone number: <tel:+18324176990|+1 (832) 417-6990>\n\n\n以上、よろしくお願いします。\n発送可能日の共有と、発送後のいつもの連絡をお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1723860350.757829",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ux12S",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n1. Organic Matcha Regular grade\n水宗園　有機抹茶4200\n\n2. Organic Matcha Middle grade\nまるゑい　有機抹茶ME上\n\n3. Organic Matcha Upper grade\nまるゑい　有機抹茶8000\n\n4. Izumo Matcha Regular grade\n出雲抹茶P\n\n5. Izumo Matcha Middle grade\n出雲抹茶F\n\n6. Izumo Matcha Upper grade\n出雲抹茶R\n\n\n【送り先】\nMr. Angel Rincón\n\nAddress:\n5801 Preston oaks Rd\nApartment 2006\nDallas TX 75254\nUnited States\n\nPhone number: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:+18324176990",
+                                "text": "+1 (832) 417-6990"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n\n以上、よろしくお願いします。\n発送可能日の共有と、発送後のいつもの連絡をお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "eyes",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1723863229.044669",
+        "client_msg_id": "f4618a83-eb21-4870-955e-2de3697e7f40",
+        "text": "<@U0331FZS7JT>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n8\/19（月）発送でお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1723860350.757829",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xmgYh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n8\/19（月）発送でお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1723865136.129119",
+        "client_msg_id": "97ae68a9-4978-4da8-b88a-af01ae6aea66",
+        "text": "<@U0331FWGQRM>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <@U0331FZS7JT>\n本日、DHLにて出荷しました。\nAWB NO. 9154342481\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1723416296.906339",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QsXi\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本日、DHLにて出荷しました。\nAWB NO. 9154342481\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

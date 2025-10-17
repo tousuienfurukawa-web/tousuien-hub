@@ -1,0 +1,183 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1676621312.734279",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1676622404.000000"
+        },
+        "client_msg_id": "0f35fbaa-a187-42eb-abdd-674e6cbdf022",
+        "text": "（案）\n出荷の際の情報伝達のタイミングについて\n→出荷後の報告ではなく、出荷準備が整ったら教えて下さい。\n→出荷日当日に、リマインド。\n→出荷完了後は、報告。\n\n※文章は不要で、スタンプ　でOK\n\n（例）\n●注文が入りました。出荷可能日を教えてください。\n　↓\n●00\/00出荷可能です。→:了解です:\n\n●先ほど出荷準備完了しました。\n予定通り00\/00に出荷します。→:了解です:\n\n当日リマインドとしてお願いします。 :本日出荷:\n報告としてお願いします。 :出荷完了:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1676547487.976729",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zbwt6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "（案）\n出荷の際の情報伝達のタイミングについて\n→出荷後の報告ではなく、出荷準備が整ったら教えて下さい。\n→出荷日当日に、リマインド。\n→出荷完了後は、報告。\n\n※文章は不要で、スタンプ　でOK\n\n（例）\n●注文が入りました。出荷可能日を教えてください。\n　↓\n●00\/00出荷可能です。→"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "了解です"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n●先ほど出荷準備完了しました。\n予定通り00\/00に出荷します。→"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "了解です"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n当日リマインドとしてお願いします。 "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "本日出荷"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n報告としてお願いします。 "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "出荷完了"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1676621344.335039",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1676622444.000000"
+        },
+        "client_msg_id": "fddc0150-73ec-41b5-8d65-eb48254aaf0e",
+        "text": "例）\n先ほど出荷準備完了しました。\n00\/00に出荷します。\n宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1676547487.976729",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "L2A",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "例）\n先ほど出荷準備完了しました。\n00\/00に出荷します。\n宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "本日出荷",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "出荷完了",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1676621516.918029",
+        "client_msg_id": "662ee953-66a4-4985-9527-714018df99e8",
+        "text": "メンション＆リアクションで通知されますので、\n出荷当日と出荷完了後にスタンプの連絡でOKです。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1676547487.976729",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fj27",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "メンション＆リアクションで通知されますので、\n出荷当日と出荷完了後にスタンプの連絡でOKです。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

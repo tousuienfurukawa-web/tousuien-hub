@@ -1,0 +1,120 @@
+[
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1722212192.197679",
+        "client_msg_id": "71c9aca2-2631-4ab3-937c-ea643fc0f2a3",
+        "text": "<@U05KGS6HN9H>\nサンプルが必要な場合は再度ご連絡くださいとお伝えしたので、一旦キャンセルで大丈夫です。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1720676206.324309",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "33u+A",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nサンプルが必要な場合は再度ご連絡くださいとお伝えしたので、一旦キャンセルで大丈夫です。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U05KGS6HN9H"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1722223068.104079",
+        "edited": {
+            "user": "U05KGS6HN9H",
+            "ts": "1722229605.000000"
+        },
+        "client_msg_id": "a082971c-65d3-4de5-af08-98206135e8e0",
+        "text": "<@U0606SPN4BW>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n出荷可能日7\/31にてお願い致します。\nデカフェ抹茶サンプルは白風袋（清和No10349）に詰める予定です。\n品名\/容量\/桃翠園ロゴをラベル印刷する予定ですが、単価表示は\n必要でしょうか？必要な場合、お客様へ提示されている単価を\nご教示お願い致します。\nシルバー缶は奥村40ｇ缶を予定します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1721944915.714599",
+        "parent_user_id": "U0606SPN4BW",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "71Bhi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0606SPN4BW"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n出荷可能日7\/31にてお願い致します。\nデカフェ抹茶サンプルは白風袋（清和No10349）に詰める予定です。\n品名\/容量\/桃翠園ロゴをラベル印刷する予定ですが、単価表示は\n必要でしょうか？必要な場合、お客様へ提示されている単価を\nご教示お願い致します。\nシルバー缶は奥村40ｇ缶を予定します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0606SPN4BW"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

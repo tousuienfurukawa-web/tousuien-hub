@@ -1,0 +1,78 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U08N3SKSL75",
+        "text": "<@U08N3SKSL75>さんがチャンネルに参加しました",
+        "type": "message",
+        "ts": "1744592905.266989"
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1744593950.801239",
+        "client_msg_id": "a065a8d7-f45a-48a0-8b35-c798488d2f7f",
+        "text": "<@U066P20UQH1> cc <@U0331FWGQRM>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n奥村製缶より連絡がございました。\nご確認お願いいたします。\n・MOQ：100\n・納期：受注後２ヵ月～２ヵ月半前後となります\n　　　　※３０g、４０g共に同納期となります",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1744275362.644839",
+        "parent_user_id": "U066P20UQH1",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ONR4H",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U066P20UQH1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n "
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n奥村製缶より連絡がございました。\nご確認お願いいたします。\n・MOQ：100\n・納期：受注後２ヵ月～２ヵ月半前後となります\n　　　　※３０g、４０g共に同納期となります"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "あり",
+                "users": [
+                    "U066P20UQH1"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

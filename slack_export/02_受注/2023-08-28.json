@@ -1,0 +1,376 @@
+[
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1693212141.265289",
+        "client_msg_id": "2d196701-da9d-47a4-ae21-63cf6c989862",
+        "text": "<@U0331FWGQRM> 執行役\nCC： <@U041RJKV5JA> 部長\nお疲れ様です。\n出荷可能日：8\/30（水）です。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1693149717.415379",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "z1HBJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\nCC： "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nお疲れ様です。\n出荷可能日：8\/30（水）です。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1693212252.733769",
+        "client_msg_id": "04703517-926c-404c-b082-a1d6d5ad2794",
+        "text": "<@U041RJKV5JA> <@U033G4KN4TD>\nお客様から下記要求がありました。\n（税関から色々イチャモンつけられてるそうです）\n・段ボールサイズを小さいものを使用してください\n・プチプチ（バブルラップ）にくるんで発送してください。\nとのことです。\n発送前には写真を見せたいので、撮り次第教えてください。\n段ボールについてはこれ以上小さい段ボールがないと思うので、\nダブルの段ボール出なくてもいいので、もっと小さいもので出荷してください。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1692973880.723139",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gEKdC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nお客様から下記要求がありました。\n（税関から色々イチャモンつけられてるそうです）\n・段ボールサイズを小さいものを使用してください\n・プチプチ（バブルラップ）にくるんで発送してください。\nとのことです。\n発送前には写真を見せたいので、撮り次第教えてください。\n段ボールについてはこれ以上小さい段ボールがないと思うので、\nダブルの段ボール出なくてもいいので、もっと小さいもので出荷してください。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD",
+                    "U041RJKV5JA"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "text": "これがいいらしいです（多分シングルのダンボールです）",
+        "files": [
+            {
+                "id": "F05PVM0ERLL",
+                "created": 1693216156,
+                "timestamp": 1693216156,
+                "name": "S__12976225.jpg",
+                "title": "S__12976225.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U0331FWGQRM",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 424657,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F05PVM0ERLL\/s__12976225.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F05PVM0ERLL\/download\/s__12976225.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05PVM0ERLL-a0bb643427\/s__12976225_64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05PVM0ERLL-a0bb643427\/s__12976225_80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05PVM0ERLL-a0bb643427\/s__12976225_360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 270,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05PVM0ERLL-a0bb643427\/s__12976225_480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 360,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05PVM0ERLL-a0bb643427\/s__12976225_160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05PVM0ERLL-a0bb643427\/s__12976225_720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 540,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05PVM0ERLL-a0bb643427\/s__12976225_800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 1067,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05PVM0ERLL-a0bb643427\/s__12976225_960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 720,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05PVM0ERLL-a0bb643427\/s__12976225_1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 768,
+                "thumb_1024_h": 1024,
+                "original_w": 1109,
+                "original_h": 1479,
+                "thumb_tiny": "AwAwACN08WI8oeB1FRhyrAg8ikNz5nyLnnvUjWzdmBqR2FF0\/cA0faA3GCCahMbDrjinCF0YFhwPehgiZly2fWk2+1SrjaPpS8VNyjNtVPmbuy\/zq405XPycDjOarwjbCPUmnH5icAn8KrckkaRX42496cZgykYPSo8rtwEOfXFRkgEg59xTdg1LAmXA4PSjzl9DTkA2DGOlOx7CouitSBE+RcnHFWg4wMNiqhlJHBwKnXhRz2qkJj9wHY5+lUrkYlJ9easmRQcZGaryMkjgHg0BsTRn5F+lOzTNuOBImPrRj\/bT86mw7n\/\/2Q==",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F05PVM0ERLL\/s__12976225.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F05PVM0ERLL-32a43705d7",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FWGQRM",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KfC0J",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "これがいいらしいです（多分シングルのダンボールです）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1693216164.929389",
+        "client_msg_id": "cd7e6f9e-f752-42ac-aed4-e2153dec83d4",
+        "thread_ts": "1692973880.723139",
+        "parent_user_id": "U0331FWGQRM",
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U033G4KN4TD"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1693265648.822909",
+        "client_msg_id": "87020ad1-3095-44af-b143-41f2debc443a",
+        "text": "<@U041RJKV5JA> <@U0331FZTHEK><@U033G4KN4TD><@U05KGS6HN9H>\nウクライナから注文（027）が入りました。\nパッキングリストの完成、送料を入れたインボイスの完成をお願いします。\n\nまた\n・原産地証明（商工会議所）\n・衛生証明書（商工会議所）\n・自由販売証明（農水省）\nの発行手続きをお願いします。\n\n出荷可能日を教えてください。\n\n以上、よろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1693265648.822909",
+        "reply_count": 4,
+        "reply_users_count": 2,
+        "latest_reply": "1698877411.948969",
+        "reply_users": [
+            "U041RJKV5JA",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1693362199.874079"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1693797764.382829"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1694410607.142239"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1698877411.948969"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bxr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nウクライナから注文（027）が入りました。\nパッキングリストの完成、送料を入れたインボイスの完成をお願いします。\n\nまた\n・原産地証明（商工会議所）\n・衛生証明書（商工会議所）\n・自由販売証明（農水省）\nの発行手続きをお願いします。\n\n出荷可能日を教えてください。\n\n以上、よろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U033G4KN4TD"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1693270613.233399",
+        "client_msg_id": "395c29cc-07c8-4cc5-b0f8-83d15ed71a1b",
+        "text": "<@U0331FWGQRM> 執行役\nCC： <@U041RJKV5JA> 部長\nお疲れ様です。\n・Lot no.\/Man. date\/ Exp. dateを\nTSE-TAC-022-23_invoice_total_secret_Lot No_memo　に記入しました。\n発送可能日：8月30日（水）\nよろしくお願いします。\nまた、梱包前に写真撮り次第ご連絡します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1692973880.723139",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wqH9i",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\nCC： "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 部長\nお疲れ様です。\n・Lot no.\/Man. date\/ Exp. dateを\nTSE-TAC-022-23_invoice_total_secret_Lot No_memo　に記入しました。\n発送可能日：8月30日（水）\nよろしくお願いします。\nまた、梱包前に写真撮り次第ご連絡します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

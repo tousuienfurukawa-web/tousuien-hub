@@ -1,0 +1,221 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1692774485.183939",
+        "client_msg_id": "3365c3df-4e56-4a8b-8a18-22008502222b",
+        "text": "<@U03BLQ65GK0>\nありがとうございます。\n\nちなみに、前回のサンプルでは品質（色）が良くなかったと思うのですが、どのような変更を行なったのでしょうか？\n念の為に確認させてください。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1692077266.358829",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BHRD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nありがとうございます。\n\nちなみに、前回のサンプルでは品質（色）が良くなかったと思うのですが、どのような変更を行なったのでしょうか？\n念の為に確認させてください。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U03BLQ65GK0",
+        "type": "message",
+        "ts": "1692775996.998639",
+        "client_msg_id": "53ebb41c-c02c-4971-8065-d1721d9d4052",
+        "text": "<@U0331FWGQRM>\n使用した原料の合組内容に問題があった（色の悪い物をブレンドしていた）ようなので、\n使用している原料内で色の悪い物を特定してもらい、\n品質に問題ない（色の良い）ロットの物を4種類送ってもらいました。\n4種類の内訳は\n・ターゲットと同等ではないかと和香園が（堀口副社長が）判断したもの\n・ターゲットよりも良いと判断したものを3種\nという内容でした。\n※事前にターゲットと、送ってもらうサンプルについては画像比較画像を送ってもらい、\n全くこちらが望まない品質の物が送られてくることが無いようにはしています。\n\nこの中からターゲット（前回の残り）と品質がほぼ同じ物を選ぶという形を取り、\n結果的にはターゲットと同品質のロットがあったので、それを今回発注しています。\n\nもし、送ってもらったサンプルに合格品が無かった場合には、\n今回のサンプル内でブレンドするという形を取るつもりでした。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "8126b71e44ec",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-04-17\/3403818627748_8126b71e44ec1508fdbd_72.png",
+            "first_name": "daiki",
+            "real_name": "daiki oka",
+            "display_name": "daiki",
+            "team": "T033D70RR6H",
+            "name": "daiki.oka",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1692077266.358829",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tVdI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n使用した原料の合組内容に問題があった（色の悪い物をブレンドしていた）ようなので、\n使用している原料内で色の悪い物を特定してもらい、\n品質に問題ない（色の良い）ロットの物を4種類送ってもらいました。\n4種類の内訳は\n・ターゲットと同等ではないかと和香園が（堀口副社長が）判断したもの\n・ターゲットよりも良いと判断したものを3種\nという内容でした。\n※事前にターゲットと、送ってもらうサンプルについては画像比較画像を送ってもらい、\n全くこちらが望まない品質の物が送られてくることが無いようにはしています。\n\nこの中からターゲット（前回の残り）と品質がほぼ同じ物を選ぶという形を取り、\n結果的にはターゲットと同品質のロットがあったので、それを今回発注しています。\n\nもし、送ってもらったサンプルに合格品が無かった場合には、\n今回のサンプル内でブレンドするという形を取るつもりでした。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1692776491.609049",
+        "client_msg_id": "4f204854-6c9b-4874-be59-237001ab7f55",
+        "text": "<@U03BLQ65GK0> 　cc <@U0331FZS7JT>\n合組についてまでこちらが口出し・関与する必要は全くないと思います。\n（それは和香園の仕事です）\n\n桃翠園で品質確認を今後も引き続き行うことは前提ですが、\n不適合品がそもそも和香園から出荷されてしまうことが問題なので、\n和香園内でその対策をとるよう指摘願います。\n\n※通常、今回のようなことが一度でもあったら大きい問題だと思うのですが、\n　感覚が麻痺しているのではないか、と思います。。。\n\nサプライヤー管理を宜しくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1692077266.358829",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xzY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U03BLQ65GK0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 　cc "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n合組についてまでこちらが口出し・関与する必要は全くないと思います。\n（それは和香園の仕事です）\n\n桃翠園で品質確認を今後も引き続き行うことは前提ですが、\n不適合品がそもそも和香園から出荷されてしまうことが問題なので、\n和香園内でその対策をとるよう指摘願います。\n\n※通常、今回のようなことが一度でもあったら大きい問題だと思うのですが、\n　感覚が麻痺しているのではないか、と思います。。。\n\nサプライヤー管理を宜しくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U03BLQ65GK0"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1692799882.749619",
+        "client_msg_id": "9abf938c-6f63-44ec-b1f0-168ecf0dbaf9",
+        "text": "<@U041RJKV5JA> <@U033G4KN4TD>\nCOA入手しましたのでフォルダに格納しています。\n宜しくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1692077266.358829",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Vp7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nCOA入手しましたのでフォルダに格納しています。\n宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

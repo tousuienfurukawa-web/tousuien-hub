@@ -1,0 +1,633 @@
+[
+    {
+        "user": "USLACKBOT",
+        "channel": "C033G42K9DG",
+        "room": {
+            "id": "R07M38W2343",
+            "name": "",
+            "media_server": "",
+            "created_by": "U0331FWGQRM",
+            "date_start": 1726125324,
+            "date_end": 1726129531,
+            "participants": [],
+            "participant_history": [
+                "U0331FWGQRM",
+                "U0331FZS7JT",
+                "U041RJKV5JA"
+            ],
+            "participants_events": {
+                "U0331FWGQRM": {
+                    "user_team": {},
+                    "joined": true,
+                    "camera_on": false,
+                    "camera_off": false,
+                    "screenshare_on": false,
+                    "screenshare_off": false
+                },
+                "U0331FZS7JT": {
+                    "user_team": {},
+                    "joined": true,
+                    "camera_on": false,
+                    "camera_off": false,
+                    "screenshare_on": false,
+                    "screenshare_off": false
+                },
+                "U041RJKV5JA": {
+                    "user_team": {},
+                    "joined": true,
+                    "camera_on": false,
+                    "camera_off": false,
+                    "screenshare_on": false,
+                    "screenshare_off": false
+                }
+            },
+            "participants_camera_on": [],
+            "participants_camera_off": [],
+            "participants_screenshare_on": [],
+            "participants_screenshare_off": [],
+            "canvas_thread_ts": "1726125324.925239",
+            "thread_root_ts": "1726125324.925239",
+            "channels": [
+                "C033G42K9DG"
+            ],
+            "is_dm_call": false,
+            "was_rejected": false,
+            "was_missed": false,
+            "was_accepted": false,
+            "has_ended": true,
+            "background_id": "THE_DREAM_OF_THE_FISH",
+            "canvas_background": "THE_DREAM_OF_THE_FISH",
+            "is_prewarmed": false,
+            "is_scheduled": false,
+            "recording": {
+                "can_record_summary": "unavailable"
+            },
+            "attached_file_ids": [],
+            "media_backend_type": "free_willy",
+            "display_id": "",
+            "external_unique_id": "e57f2be9-8479-4733-9f29-326a64ed2713",
+            "app_id": "A00",
+            "call_family": "huddle",
+            "pending_invitees": {},
+            "last_invite_status_by_user": {},
+            "knocks": {},
+            "huddle_link": "https:\/\/app.slack.com\/huddle\/T033D70RR6H\/C033G42K9DG"
+        },
+        "no_notifications": true,
+        "permalink": "https:\/\/grp-ssm9297.slack.com\/call\/R07M38W2343",
+        "subtype": "huddle_thread",
+        "type": "message",
+        "ts": "1726125324.925239",
+        "edited": {
+            "user": "USLACKBOT",
+            "ts": "1726129531.000000"
+        },
+        "text": "",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "sv41d8cd98f0",
+            "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/slackbot_72.png",
+            "first_name": "slackbot",
+            "real_name": "Slackbot",
+            "display_name": "Slackbot",
+            "team": "T033D70RR6H",
+            "name": "slackbot",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1726125324.925239",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1726125636.447049",
+        "reply_users": [
+            "U0331FWGQRM"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1726125636.447049"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1726125636.447049",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VZ2F3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ハドルミーティングが開始しました"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1726125636.447049",
+        "client_msg_id": "e8f36d13-a281-465e-a6aa-40eed7ac17f6",
+        "text": "<@U041RJKV5JA> 参加できますか？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1726125324.925239",
+        "parent_user_id": "USLACKBOT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "npNcD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 参加できますか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1726125971.242269",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1726128377.000000"
+        },
+        "client_msg_id": "42e4bdea-70f5-4912-bbec-f8a159d548ff",
+        "text": "メモ\n原価：10600円\/kg（2650円\/250g）\n(過去に18000円\/kgで提案)\n桃翠園→日本緑茶　卸値：4560円\/250g（利益42%）\n日本緑茶→海外客　売価：6080円\/250g\n\n（日本緑茶は25%上乗せしている）",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1726124104.450629",
+        "parent_user_id": "U041RJKV5JA",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0EAQa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "メモ\n原価：10600円\/kg（2650円\/250g）\n(過去に18000円\/kgで提案)\n桃翠園→日本緑茶　卸値：4560円\/250g（利益42%）\n日本緑茶→海外客　売価：6080円\/250g\n\n（日本緑茶は25%上乗せしている）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "",
+        "files": [
+            {
+                "id": "F07LWS4S9LN",
+                "created": 1726126804,
+                "timestamp": 1726126804,
+                "name": "商品.jpg",
+                "title": "商品.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U0331FWGQRM",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 64238,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F07LWS4S9LN\/______.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F07LWS4S9LN\/download\/______.jpg?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07LWS4S9LN-7e0c189e57\/_______64.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07LWS4S9LN-7e0c189e57\/_______80.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07LWS4S9LN-7e0c189e57\/_______360.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_360_w": 270,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07LWS4S9LN-7e0c189e57\/_______480.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_480_w": 360,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07LWS4S9LN-7e0c189e57\/_______160.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07LWS4S9LN-7e0c189e57\/_______720.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_720_w": 540,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07LWS4S9LN-7e0c189e57\/_______800.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_800_w": 800,
+                "thumb_800_h": 1066,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07LWS4S9LN-7e0c189e57\/_______960.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_960_w": 720,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07LWS4S9LN-7e0c189e57\/_______1024.jpg?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_1024_w": 768,
+                "thumb_1024_h": 1024,
+                "original_w": 1108,
+                "original_h": 1477,
+                "thumb_tiny": "AwAwACSNmCjJpBKD2pJfufjTAMUhk4bPang+1RopxUgwODTEOooooEQOMxmmxN\/CakA4qMKAeaRRJg5wKndNixr35JqNOCKlkOSM+lMQyiiigBmMUzgmpcUbBSGEYGRmntyaRVxTqZI3FGKdRQB\/\/9k=",
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F07LWS4S9LN\/______.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F07LWS4S9LN-1f2d927a26",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FWGQRM",
+        "display_as_bot": false,
+        "type": "message",
+        "ts": "1726127111.471469",
+        "client_msg_id": "991dbc1c-f51c-4800-93e9-d539f0f402b2",
+        "thread_ts": "1726124104.450629",
+        "parent_user_id": "U041RJKV5JA"
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1726145140.462629",
+        "client_msg_id": "3ca546e0-2fb7-4cb4-b948-913be0fe0b55",
+        "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nスイスのセバスチャンから質問なのですが、\nーーーー\n今年の有機農産物の出荷について、どのような配送サービスを利用したか教えてもらえますか？Ups\/dhl\/fedex？\nスイスの有機認証団体がそれらの貨物の通関\/輸入書類を探しているのですが、私は持っていません。\n→001,002はDHL。007はあなたが手配したforwarderを利用。と返信。\n\nDHLの連絡先はわかりますか？または、DHLの通関を担当する部署に連絡する方法はありますか？\n→我々はDHLジャパンにしか連絡できないので、現地担当者の連絡先（Eメール）を聞いてみる。と返信。\nーーーー\nとのことなので、\n現地DHLに直接連絡を取りたいそうなので、\nメールアドレスや電話番号など、連絡先を確認してもらえますか？\n\n要件をまとめると、\n現地の有機認証団体が、\n下記2件の通関\/輸入書類を必要としているとのこと。\nTSE-MTL-001-24\nTSE-MTL-002-24",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1726145140.462629",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1726213449.152699",
+        "reply_users": [
+            "U041RJKV5JA"
+        ],
+        "replies": [
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1726213449.152699"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1726213449.152699",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "X7SYu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nスイスのセバスチャンから質問なのですが、\nーーーー\n今年の有機農産物の出荷について、どのような配送サービスを利用したか教えてもらえますか？Ups\/dhl\/fedex？\nスイスの有機認証団体がそれらの貨物の通関\/輸入書類を探しているのですが、私は持っていません。\n→001,002はDHL。007はあなたが手配したforwarderを利用。と返信。\n\nDHLの連絡先はわかりますか？または、DHLの通関を担当する部署に連絡する方法はありますか？\n→我々はDHLジャパンにしか連絡できないので、現地担当者の連絡先（Eメール）を聞いてみる。と返信。\nーーーー\nとのことなので、\n現地DHLに直接連絡を取りたいそうなので、\nメールアドレスや電話番号など、連絡先を確認してもらえますか？\n\n要件をまとめると、\n現地の有機認証団体が、\n下記2件の通関\/輸入書類を必要としているとのこと。\nTSE-MTL-001-24\nTSE-MTL-002-24"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            },
+            {
+                "name": "確認中",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "<@U05KGS6HN9H><@U041RJKV5JA>\nこちらの送料をフェデックスで確認いただけますか？\nよろしくお願いします。\n送り先\nHanse-Service\nDratelnstraße 18,\n21109 Hamburg, Germany\n\nよろしくお願いします。",
+        "files": [
+            {
+                "id": "F07MXLRDMDW",
+                "created": 1726192802,
+                "timestamp": 1726192802,
+                "name": "見積依頼資料①5段積載.pdf",
+                "title": "見積依頼資料①5段積載.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U0331FZS7JT",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 286715,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F07MXLRDMDW\/_____________________5_________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F07MXLRDMDW\/download\/_____________________5_________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07MXLRDMDW-3b37806861\/_____________________5__________thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 1123,
+                "thumb_pdf_h": 1588,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F07MXLRDMDW\/_____________________5_________.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F07MXLRDMDW-f1001481c1",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U0331FZS7JT",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sDtSR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nこちらの送料をフェデックスで確認いただけますか？\nよろしくお願いします。\n送り先\nHanse-Service\nDratelnstraße 18,\n21109 Hamburg, Germany\n\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1726192804.810679",
+        "edited": {
+            "user": "U0331FZS7JT",
+            "ts": "1726192963.000000"
+        },
+        "client_msg_id": "d12045a5-22b9-49a3-8c77-9e7c1380058a",
+        "thread_ts": "1725376137.306619",
+        "parent_user_id": "U0331FZS7JT"
+    },
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1726195126.866089",
+        "client_msg_id": "6006364c-08fe-4c24-92e6-957ebcb4b5c9",
+        "text": "<@U0331FZS7JT>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nまずFedexにパレット荷姿貨物の扱いが可能か確認しました。\nパレット貨物の取り扱いはOKですが、航空機貨物室高さや機材の関係で\n荷姿でPT高を含め1500㎜H以内（受領1ｔ以内）である必要があるそうです。\n（No6：480×330×400H、パレット1100㎜×1100㎜×150㎜H）として\n\n・見積依頼図では、6箱\/段×4段+1箱＝5段積み→25箱\/PTで2150㎜H\n→1500㎜H以内の場合：6箱\/段×3段+PT高150㎜＝1350㎜H＝18箱\/PT\n\n当初見積もりではNo.6で250箱（25箱\/PT×10PT）の試算だったと\n思いますので、1500㎜H以内でPT積載する場合は\n250箱÷18箱＝14PT試算となります。\n\nFedexへの見積依頼数はこの14PT設定で宜しいでしょうか？",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1725376137.306619",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "osm0n",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nまずFedexにパレット荷姿貨物の扱いが可能か確認しました。\nパレット貨物の取り扱いはOKですが、航空機貨物室高さや機材の関係で\n荷姿でPT高を含め1500㎜H以内（受領1ｔ以内）である必要があるそうです。\n（No6：480×330×400H、パレット1100㎜×1100㎜×150㎜H）として\n\n・見積依頼図では、6箱\/段×4段+1箱＝5段積み→25箱\/PTで2150㎜H\n→1500㎜H以内の場合：6箱\/段×3段+PT高150㎜＝1350㎜H＝18箱\/PT\n\n当初見積もりではNo.6で250箱（25箱\/PT×10PT）の試算だったと\n思いますので、1500㎜H以内でPT積載する場合は\n250箱÷18箱＝14PT試算となります。\n\nFedexへの見積依頼数はこの14PT設定で宜しいでしょうか？"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1726196894.688399",
+        "client_msg_id": "1ddea7c7-39cd-4fb0-a65a-695d10475ada",
+        "text": "<@U05KGS6HN9H>\n確認、ありがとうございます。\nいえ、製品500kg の１パレットでお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1725376137.306619",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rtBTc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n確認、ありがとうございます。\nいえ、製品500kg の１パレットでお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<@U0331FZS7JT>\n<!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n碧翆園より缶入製品の価格改定につき案内が\n入っておりますので共有申し上げます。\n（主にChaseki様\/タイが多いと思われます）\nご確認のほど宜しくお願い致します。",
+        "files": [
+            {
+                "id": "F07M900U0CT",
+                "created": 1726196904,
+                "timestamp": 1726196904,
+                "name": "20240913缶製品価格改定案内.pdf",
+                "title": "20240913缶製品価格改定案内.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U05KGS6HN9H",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 575650,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F07M900U0CT\/20240913___________________________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F07M900U0CT\/download\/20240913___________________________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F07M900U0CT-387422b2b4\/20240913____________________________thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 910,
+                "thumb_pdf_h": 1287,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F07M900U0CT\/20240913___________________________.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F07M900U0CT-b2eec6d92f",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U05KGS6HN9H",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PWTwK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S072Q871SF9"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "usergroup",
+                                "usergroup_id": "S073HEMKWV7"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n碧翆園より缶入製品の価格改定につき案内が\n入っておりますので共有申し上げます。\n（主にChaseki様\/タイが多いと思われます）\nご確認のほど宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1726196916.539259",
+        "client_msg_id": "15a38ac8-a20b-467a-b5fb-a0d76c901d85",
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

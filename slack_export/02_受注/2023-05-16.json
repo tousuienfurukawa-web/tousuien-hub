@@ -1,0 +1,159 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1684282003.509429",
+        "client_msg_id": "fc2bf49a-e50f-4172-aec0-fc408384d714",
+        "text": "<@U041RJKV5JA>\n<!channel>\n\nタイ（trial not error(insta)）から注文(第３回)がありました。\n20日に埼玉に届けて欲しいそうですが、可能でしょうか？\n\nご確認、よろしくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1684282003.509429",
+        "reply_count": 4,
+        "reply_users_count": 3,
+        "latest_reply": "1684360633.770929",
+        "reply_users": [
+            "U033G4KN4TD",
+            "U0331FZS7JT",
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1684284698.905229"
+            },
+            {
+                "user": "U033G4KN4TD",
+                "ts": "1684310345.580059"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1684321946.570729"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1684360633.770929"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "x9GdQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nタイ（trial not error(insta)）から注文(第３回)がありました。\n20日に埼玉に届けて欲しいそうですが、可能でしょうか？\n\nご確認、よろしくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U041RJKV5JA",
+                    "U033G4KN4TD"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1684284698.905229",
+        "client_msg_id": "81f1524c-2020-4a95-90ab-405f1ca1bc33",
+        "text": "<@U0331FZS7JT>社長\nCC：<@U041RJKV5JA>部長\n\nお疲れ様です。\n在庫がありますので、本日発送、19日に到着可能です。\n本日発送いたしましょうか?\nよろしくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1684282003.509429",
+        "parent_user_id": "U0331FZS7JT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=S03",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "社長\nCC："
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "部長\n\nお疲れ様です。\n在庫がありますので、本日発送、19日に到着可能です。\n本日発送いたしましょうか?\nよろしくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "0af08fe0505342b0",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

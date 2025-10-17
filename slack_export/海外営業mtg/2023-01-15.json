@@ -1,0 +1,193 @@
+[
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1673829532.405199",
+        "client_msg_id": "00b31578-1aea-45a2-bd84-d6ed53d94d1e",
+        "text": "<!channel>\nお疲れ様です。\n本日16時からの営業会議ですが、報告、確認事項等はございますか？\nスタンプ:man-gesturing-ok::man-gesturing-no:での返信で結構です。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1673829532.405199",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1673843308.766879",
+        "reply_users": [
+            "U0331FWGQRM",
+            "U041RJKV5JA"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1673830120.209809"
+            },
+            {
+                "user": "U041RJKV5JA",
+                "ts": "1673843308.766879"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1673843308.766879",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3HtUR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nお疲れ様です。\n本日16時からの営業会議ですが、報告、確認事項等はございますか？\nスタンプ"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "man-gesturing-ok",
+                                "unicode": "1f646-200d-2642-fe0f"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "man-gesturing-no",
+                                "unicode": "1f645-200d-2642-fe0f"
+                            },
+                            {
+                                "type": "text",
+                                "text": "での返信で結構です。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "no_good",
+                "users": [
+                    "U0331FWGQRM",
+                    "U03SGRNND5L",
+                    "U0331FZS7JT"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1673830120.209809",
+        "client_msg_id": "97649357-D67B-4BBA-9722-C5C58A91AC96",
+        "text": "<@U041RJKV5JA> \n連絡遅くなりすみません。\n本日16:00出席できそうにないですので、もし開催した際は、議事録確認するようにします。\n私からは今週は無いです（来週シェアしたいことあります）",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1673829532.405199",
+        "parent_user_id": "U041RJKV5JA",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/VtVg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \n連絡遅くなりすみません。\n本日16:00出席できそうにないですので、もし開催した際は、議事録確認するようにします。\n私からは今週は無いです（来週シェアしたいことあります）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1673843308.766879",
+        "client_msg_id": "f317e519-ab95-431c-8c02-dda6cb260610",
+        "text": "お疲れ様です。\n本日の会議は中止といたします。\nなお、来週は開催しますのでよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1673829532.405199",
+        "parent_user_id": "U041RJKV5JA",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "u50C",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "お疲れ様です。\n本日の会議は中止といたします。\nなお、来週は開催しますのでよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U033G4KN4TD",
+                    "U0331FZTHEK"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

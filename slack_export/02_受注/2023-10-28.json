@@ -1,0 +1,164 @@
+[
+    {
+        "user": "U0331FZS7JT",
+        "type": "message",
+        "ts": "1698517361.281809",
+        "client_msg_id": "0fec8b88-81a2-4937-88f1-2c145e53f594",
+        "text": "<@U041RJKV5JA> <@U033G4KN4TD> <@U0331FZTHEK> <@U05KGS6HN9H>\n\nタイ：Trial Not Errorさんから注文（第24回）がありました。\n発送可能日を教えてください。\n送り先（国内）は現在確認中です。\n\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "2c9de1514f26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118160981555_2c9de1514f262063f72d_72.png",
+            "first_name": "Yuta",
+            "real_name": "Yuta Oka",
+            "display_name": "岡祐太",
+            "team": "T033D70RR6H",
+            "name": "yuta.oka.0915",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1698517361.281809",
+        "reply_count": 6,
+        "reply_users_count": 3,
+        "latest_reply": "1698839738.029019",
+        "reply_users": [
+            "U05KGS6HN9H",
+            "U0331FZTHEK",
+            "U0331FZS7JT"
+        ],
+        "replies": [
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1698629769.931199"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1698640707.858249"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1698792906.255909"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1698803294.058359"
+            },
+            {
+                "user": "U05KGS6HN9H",
+                "ts": "1698831591.098519"
+            },
+            {
+                "user": "U0331FZS7JT",
+                "ts": "1698839738.029019"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qU8Fy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nタイ：Trial Not Errorさんから注文（第24回）がありました。\n発送可能日を教えてください。\n送り先（国内）は現在確認中です。\n\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA",
+                    "U05KGS6HN9H"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1698518446.499879",
+        "client_msg_id": "7cd888f2-295d-4541-8730-9d19fbb8524b",
+        "text": "<@U05KGS6HN9H>\nスレッドで返信の形でお願いします:sweat_drops:",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1698403492.871399",
+        "parent_user_id": "USLACKBOT",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5i7OQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05KGS6HN9H"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nスレッドで返信の形でお願いします"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sweat_drops",
+                                "unicode": "1f4a6"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

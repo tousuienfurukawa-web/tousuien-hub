@@ -1,0 +1,212 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1666573281.349069",
+        "client_msg_id": "df934d23-0e92-40c8-b3a0-c6ef4f7ec1ae",
+        "text": "<@U041RJKV5JA>（CC：*<!channel>* ）\nTSE032-22ｶﾅﾀﾞBangoshi Tea\n注文が来ました。\n★納期分かり次第教えてください。\n★今回もラベル無しです。\n\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1666573281.349069",
+        "reply_count": 2,
+        "reply_users_count": 1,
+        "latest_reply": "1666847256.523279",
+        "reply_users": [
+            "U0331FZTHEK"
+        ],
+        "replies": [
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1666655496.153489"
+            },
+            {
+                "user": "U0331FZTHEK",
+                "ts": "1666847256.523279"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1666847256.523279",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LSmki",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "（CC："
+                            },
+                            {
+                                "type": "broadcast",
+                                "range": "channel",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " ）\nTSE032-22ｶﾅﾀﾞBangoshi Tea\n注文が来ました。\n★納期分かり次第教えてください。\n★今回もラベル無しです。\n\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1666585443.570679",
+        "client_msg_id": "11a04829-14fb-42af-a0c2-9c4f12eee6d5",
+        "text": "<@U0331FWGQRM> 執行役\nCC: <@U0331FZTHEK> さん\nお疲れ様です。\n送料をご連絡いたします。\n45,220円\nまた、発送可能日は10月27日（木）となります。\n\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1666585443.570679",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1666590735.033569",
+        "reply_users": [
+            "U0331FWGQRM"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1666590735.033569"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1666590735.033569",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Op+cd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\nCC: "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZTHEK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\nお疲れ様です。\n送料をご連絡いたします。\n45,220円\nまた、発送可能日は10月27日（木）となります。\n\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1666590735.033569",
+        "client_msg_id": "08b4b296-b448-48cc-9a0b-6987dc1bc714",
+        "text": "<@U041RJKV5JA>\nお疲れ様です。\n了解です。有難うございます。\n\n※伝え忘れておりましたが、\n　案件ごとにスレッドで返信お願いします！",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1666585443.570679",
+        "parent_user_id": "U041RJKV5JA",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sWXE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nお疲れ様です。\n了解です。有難うございます。\n\n※伝え忘れておりましたが、\n　案件ごとにスレッドで返信お願いします！"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

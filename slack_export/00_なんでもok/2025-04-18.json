@@ -1,0 +1,91 @@
+[
+    {
+        "user": "U066P20UQH1",
+        "type": "message",
+        "ts": "1745023621.984659",
+        "edited": {
+            "user": "U066P20UQH1",
+            "ts": "1745024214.000000"
+        },
+        "client_msg_id": "9f174cc9-a095-4887-8de3-f177f3a7f5e1",
+        "text": "<!channel>\nなぜか再度PayPalでパスワードリセットを要求されていたので、主任に再設定していただきました。\nご認識をお願いいたします。\n*新パスワード：TousuienG100*",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "179323cb3551",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-04-12\/6955353714228_179323cb3551f7c8ecfe_72.png",
+            "first_name": "Haruka",
+            "real_name": "Haruka Hayashi",
+            "display_name": "林遥香",
+            "team": "T033D70RR6H",
+            "name": "haru.nboc",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1745023621.984659",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1745401340.599669",
+        "reply_users": [
+            "U08N3SKSL75",
+            "U066P20UQH1"
+        ],
+        "replies": [
+            {
+                "user": "U08N3SKSL75",
+                "ts": "1745400821.835739"
+            },
+            {
+                "user": "U066P20UQH1",
+                "ts": "1745401340.599669"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zmJv4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "broadcast",
+                                "range": "channel"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nなぜか再度PayPalでパスワードリセットを要求されていたので、主任に再設定していただきました。\nご認識をお願いいたします。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "新パスワード：TousuienG100",
+                                "style": {
+                                    "bold": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            },
+            {
+                "name": "7e6ac2088523a821",
+                "users": [
+                    "U0331FZTHEK"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

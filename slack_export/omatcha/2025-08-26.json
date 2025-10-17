@@ -1,0 +1,421 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U0331FWGQRM",
+        "text": "<@U0331FWGQRM>さんがチャンネルに参加しました",
+        "type": "message",
+        "ts": "1756200700.876959"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U0331FZS7JT",
+        "text": "<@U0331FZS7JT>さんがチャンネルに参加しました",
+        "inviter": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1756200721.504179"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U066P20UQH1",
+        "text": "<@U066P20UQH1>さんがチャンネルに参加しました",
+        "inviter": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1756200721.592959"
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1756200876.848059",
+        "client_msg_id": "423cc6a2-9456-4eb1-a572-222ca7e7fb57",
+        "text": "2025\/08\/20 OMT webミーティングメモ\n■会議概要\n• 日時：2025年8月20日（水）\n• 形式：Webミーティング（Google Meet）\n• 参加者：松井、林遥香\n■出荷スケジュール\n• 第2回出荷開始日：10月初旬より開始予定（2週間おきに10,000袋 × 5回）\n• 供給予定量：\n•  9月：1t\n•  10月：2t\n•  11月：未定（要確認）\n•  12月：未定（要確認）\n■顧客要望・条件\n• 同じグレードの商品を希望（他グレード不可）\n• 必要量3t確保可能と伝達済み\n• 同一価格・同一クオリティ希望\n• 中国産抹茶は不可\n• 納期遅延が懸念されている（要確認）\n■新ブランド関連\n• サンプル試作中\n• 高品質・高価格での展開も検討中\n■展示会情報\n• 9月：東京開催のベジタリアン関連展示会に来場予定\n■共有リンク\n• MTG URL: <https:\/\/meet.google.com\/ezb-xzku-bxo>\n■次のアクション（要確認事項）\n1. 11月・12月の供給量スケジュール確定\n2. 納期遅延リスクの精査\n3. 新ブランドサンプルの完成・提示\n4. 展示会対応準備\n",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TQ6tP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025\/08\/20 OMT webミーティングメモ\n■会議概要\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "日時：2025年8月20日（水）"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "形式：Webミーティング（Google Meet）"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "参加者：松井、林遥香"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "■出荷スケジュール\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "第2回出荷開始日：10月初旬より開始予定（2週間おきに10,000袋 × 5回）"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "供給予定量："
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": " 9月：1t"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": " 10月：2t"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": " 11月：未定（要確認）"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": " 12月：未定（要確認）"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "■顧客要望・条件\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "同じグレードの商品を希望（他グレード不可）"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "必要量3t確保可能と伝達済み"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "同一価格・同一クオリティ希望"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "中国産抹茶は不可"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "納期遅延が懸念されている（要確認）"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "■新ブランド関連\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "サンプル試作中"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "高品質・高価格での展開も検討中"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "■展示会情報\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "9月：東京開催のベジタリアン関連展示会に来場予定"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "■共有リンク\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "MTG URL: "
+                                    },
+                                    {
+                                        "type": "link",
+                                        "url": "https:\/\/meet.google.com\/ezb-xzku-bxo"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "■次のアクション（要確認事項）\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "11月・12月の供給量スケジュール確定"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "納期遅延リスクの精査"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "新ブランドサンプルの完成・提示"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "展示会対応準備"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "ordered",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1756201930.745969",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1756201966.000000"
+        },
+        "client_msg_id": "7665d6e5-a26c-4b42-bf7a-12523eac5967",
+        "text": "Omatchaから問い合わせ\nーーーーーーーーー\n8月26日\n大量に供給可能な抹茶の作柄についてお知らせいただけますでしょうか？\nーーーーーーーーー\n→現在、現行品の製造を進めており、9月中に1t出荷に向けて製造している。\n　そして10月に2t出荷も計画通り進めている。\n　\n　これ以外に供給できる抹茶については、サンプルを準備しているよ。\n　これは月に200kgしか出荷できないと思う。（W品質の抹茶のこと）\n　これ以外にはもうない。理解してください。。\n　私たちとしても最大限努力しているし、もし抹茶があるなら今にでも出荷したい気持ちです。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "H68Gu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Omatchaから問い合わせ\nーーーーーーーーー\n8月26日\n大量に供給可能な抹茶の作柄についてお知らせいただけますでしょうか？\nーーーーーーーーー\n→現在、現行品の製造を進めており、9月中に1t出荷に向けて製造している。\n　そして10月に2t出荷も計画通り進めている。\n　\n　これ以外に供給できる抹茶については、サンプルを準備しているよ。\n　これは月に200kgしか出荷できないと思う。（W品質の抹茶のこと）\n　これ以外にはもうない。理解してください。。\n　私たちとしても最大限努力しているし、もし抹茶があるなら今にでも出荷したい気持ちです。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

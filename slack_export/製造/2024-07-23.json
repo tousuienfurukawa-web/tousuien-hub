@@ -1,0 +1,94 @@
+[
+    {
+        "user": "U03BLQ65GK0",
+        "type": "message",
+        "ts": "1721804362.748259",
+        "client_msg_id": "2816a09e-8ef9-48c9-a33e-aceb53a14585",
+        "text": "<@U0331FWGQRM> <@U033G4KN4TD>\n大樹 岡 さんがあなたをスケジュール済みの Zoom ミーティングに招待しています。\n\nトピック: 大樹 岡のパーソナルミーティングルーム\n\n参加 Zoom ミーティング\n<https:\/\/us05web.zoom.us\/j\/9361417572?pwd=S2hVR1huY216YUhxa05ZclhxQnlQUT09>\n\nミーティング ID: <tel:9361417572|936 141 7572>\nパスコード: 6up9SH",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "8126b71e44ec",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-04-17\/3403818627748_8126b71e44ec1508fdbd_72.png",
+            "first_name": "daiki",
+            "real_name": "daiki oka",
+            "display_name": "daiki",
+            "team": "T033D70RR6H",
+            "name": "daiki.oka",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1721804362.748259",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1721804579.679109",
+        "reply_users": [
+            "U0331FWGQRM"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1721804579.679109"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1721804579.679109",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DqMkI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n大樹 岡 さんがあなたをスケジュール済みの Zoom ミーティングに招待しています。\n\nトピック: 大樹 岡のパーソナルミーティングルーム\n\n参加 Zoom ミーティング\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/us05web.zoom.us\/j\/9361417572?pwd=S2hVR1huY216YUhxa05ZclhxQnlQUT09"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nミーティング ID: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:9361417572",
+                                "text": "936 141 7572"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nパスコード: 6up9SH"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

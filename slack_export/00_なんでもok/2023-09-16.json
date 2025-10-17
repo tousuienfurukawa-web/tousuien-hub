@@ -1,0 +1,115 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1694853532.142419",
+        "client_msg_id": "d0cf7d3d-2ada-4471-962e-cfaf4a9d2c89",
+        "text": "<@U041RJKV5JA> <@U033G4KN4TD>\n本件、進捗報告願います。\n宜しくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1694235437.739399",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "la3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n本件、進捗報告願います。\n宜しくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1694856330.615259",
+        "client_msg_id": "b6d1a9ab-e68c-4776-85f6-723c05e8790c",
+        "text": "<@U0331FWGQRM> 執行役\nCC： <@U033G4KN4TD> さん\n連絡が遅くなり申し訳ありません。\nミニトップ缶製造メーカー（マキノ製缶）では、蓋の天面にのみ単色シルク印刷が可能です。\n印刷範囲は蓋の縁から15mm内側に印刷が可能。\n\nタマヤに依頼した場合、協力工場にて\n・天面印刷：フルカラー印刷、シルク印刷可能\n・側面印刷：シルク印刷可能\n\nMOQ、見積り、ダイラインは依頼中です。\n催促はしておりますが、まだ届いておりません。\n休み明けに再度確認いたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1694235437.739399",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yfL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\nCC： "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\n連絡が遅くなり申し訳ありません。\nミニトップ缶製造メーカー（マキノ製缶）では、蓋の天面にのみ単色シルク印刷が可能です。\n印刷範囲は蓋の縁から15mm内側に印刷が可能。\n\nタマヤに依頼した場合、協力工場にて\n・天面印刷：フルカラー印刷、シルク印刷可能\n・側面印刷：シルク印刷可能\n\nMOQ、見積り、ダイラインは依頼中です。\n催促はしておりますが、まだ届いておりません。\n休み明けに再度確認いたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

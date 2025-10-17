@@ -1,0 +1,104 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1741222028.906569",
+        "client_msg_id": "6998a926-5dc4-4968-b8f6-5f6f9debed2a",
+        "text": "メモ\n静パック　印字文字数\n半角英数字12文字以内",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1741222028.906569",
+        "reply_count": 3,
+        "reply_users_count": 1,
+        "latest_reply": "1741754872.869699",
+        "reply_users": [
+            "U0331FWGQRM"
+        ],
+        "replies": [
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1741222084.580379"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1741753713.339059"
+            },
+            {
+                "user": "U0331FWGQRM",
+                "ts": "1741754872.869699"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1741754872.869699",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "avbsd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "メモ\n静パック　印字文字数\n半角英数字12文字以内"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1741222084.580379",
+        "client_msg_id": "84582a1c-187c-4469-aa8e-840be5978661",
+        "text": "※文字長さ32mm以内であればOK\n\n半角英数字2mm\/文字→16文字max??と思ったが、\n　安全を見て12文字以内とのこと。（全角なら6文字）\n（なので、1, 2文字くらいなら増えてもいけそう）",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1741222028.906569",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PnDB+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "※文字長さ32mm以内であればOK\n\n半角英数字2mm\/文字→16文字max??と思ったが、\n　安全を見て12文字以内とのこと。（全角なら6文字）\n（なので、1, 2文字くらいなら増えてもいけそう）"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

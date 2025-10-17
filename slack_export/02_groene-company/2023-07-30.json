@@ -1,0 +1,79 @@
+[
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1690783461.890909",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1690790176.000000"
+        },
+        "client_msg_id": "e9006d9b-dff5-4a6a-a76b-c51e0ce67785",
+        "text": "<@U041RJKV5JA>\nSANYOロジの呉様より要求されている、\n\n荷受人様（チェコ）の\n“EORI番号と電話番号が必要” の件につきまして、\n\n下記情報を入手しました。\nーーー\nPhone : <tel:+420604212799|+420-604-212-799>\nEORI : CZ24666807\nContact Person : Ms. Barbora Mackova\nーーー\n\n~EORI番号については現在確認中です。~\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1687797555.650589",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "g49",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nSANYOロジの呉様より要求されている、\n\n荷受人様（チェコ）の\n“EORI番号と電話番号が必要” の件につきまして、\n\n下記情報を入手しました。\nーーー\nPhone : "
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:+420604212799",
+                                "text": "+420-604-212-799"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nEORI : CZ24666807\nContact Person : Ms. Barbora Mackova\nーーー\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "EORI番号については現在確認中です。",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

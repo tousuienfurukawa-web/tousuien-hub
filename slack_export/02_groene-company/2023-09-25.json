@@ -1,0 +1,591 @@
+[
+    {
+        "user": "U041RJKV5JA",
+        "type": "message",
+        "ts": "1695626170.059729",
+        "client_msg_id": "b8a4d46a-c380-435f-ae94-09e3388fa4dd",
+        "text": "<@U0331FWGQRM> 執行役\nCC： <@U033G4KN4TD> さん\n本日、FedExにて出荷しました。\nAWB NO. 773485957134\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "aed9eafd9eee",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-09-11\/4078874890257_aed9eafd9eee277ba076_72.png",
+            "first_name": "Hirakawa",
+            "real_name": "Hirakawa",
+            "display_name": "平川",
+            "team": "T033D70RR6H",
+            "name": "tousuien.s006",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1693540580.088009",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5N6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\nCC： "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " さん\n本日、FedExにて出荷しました。\nAWB NO. 773485957134\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            },
+            {
+                "name": "eyes",
+                "users": [
+                    "U0331FZS7JT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U03BLQ65GK0",
+        "type": "message",
+        "ts": "1695631727.790669",
+        "client_msg_id": "a65ac90a-4116-44ea-85e9-ad0c86224f44",
+        "text": "<@U0331FWGQRM>\n以下回答します。\n*・EU煎茶パウダー（和香園）*\n*↳【単価】*\n　　*荒茶の単価550円\/kg*\n　　*→仕上げて歩留まり80％として計算すると750円\/kg*\n　　*→粉砕加工歩留まり99％として1,060円\/kg*\n　 *【年間供給可能量】*\n　　*1,584kg（荒茶で2ｔなので上記計算で粉末にすると1,584kg）*\n\n\n*・有機煎茶パウダー（ひかわの鹿児島産）*\n*↳【単価】*\n　　*仕上茶500円\/kg*\n　　*→粉砕加工歩留まり99％として808円\/kg*\n　 *【年間供給可能料】*\n　　*2ｔ*\n\n以上です。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "8126b71e44ec",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-04-17\/3403818627748_8126b71e44ec1508fdbd_72.png",
+            "first_name": "daiki",
+            "real_name": "daiki oka",
+            "display_name": "daiki",
+            "team": "T033D70RR6H",
+            "name": "daiki.oka",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1695605282.618359",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KTWDL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n以下回答します。\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "・EU煎茶パウダー（和香園）",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "↳【単価】",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "　　荒茶の単価550円\/kg",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "　　→仕上げて歩留まり80％として計算すると750円\/kg",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "　　→粉砕加工歩留まり99％として1,060円\/kg",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "　 【年間供給可能量】",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "　　1,584kg（荒茶で2ｔなので上記計算で粉末にすると1,584kg）",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "・有機煎茶パウダー（ひかわの鹿児島産）",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "↳【単価】",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "　　仕上茶500円\/kg",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "　　→粉砕加工歩留まり99％として808円\/kg",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "　 【年間供給可能料】",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n　　"
+                            },
+                            {
+                                "type": "text",
+                                "text": "2ｔ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n以上です。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1695640633.228099",
+        "client_msg_id": "58dc5e32-139c-43c4-9dcf-1ebf7c84a164",
+        "text": "<@U041RJKV5JA> <@U033G4KN4TD>\nサンプルラベルとパッケージ確定しました。\n平川部長の机の上に置いているので、それで進めてください。\n※すみませんが、余分な枚数はないので、慎重に貼り付けお願いします。\n※下記③は届き次第準備願います。\nサンプル① 50g Tin　（Genuine Teaと仕様は同じ。抹茶は50g）\nサンプル② 100g bag + ラベル（表裏）\nサンプル③ 100g bag（印刷袋）\n\nーーーー内容ーーーーー\n*サンプル① 50g Tin* \n缶：タマヤ　ミニトップ缶　白マット\nラベル：シール直送便\n帯　W156611（合成紙シール \/ マットラミネート \/ 4.9cm×20.5cm）\n\n*サンプル② 100g bag + ラベル（表裏）* \n袋：清和　商品No.50722 チャック付上質紙蒸着スタンド袋 120×200\n<https:\/\/www.seiwa-p.co.jp\/shop\/g\/g070002-50722?number_search=50722>\nラベル：シール直送便\n表　W156812（和紙シール \/ ラミネートなし \/ 13.04cm×11.03cm）\n裏　W156813（和紙シール \/ ラミネートなし \/ 13.04cm×11.03cm）\nーーーーーーーーーーー",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1694832074.604919",
+        "parent_user_id": "U0331FWGQRM",
+        "attachments": [
+            {
+                "from_url": "https:\/\/www.seiwa-p.co.jp\/shop\/g\/g070002-50722?number_search=50722",
+                "service_icon": "https:\/\/www.seiwa-p.co.jp\/images\/common\/webclipicon.png",
+                "thumb_url": "https:\/\/www.seiwa-p.co.jp\/img\/goods\/S\/S_070002_50722.jpg",
+                "thumb_width": 111,
+                "thumb_height": 111,
+                "id": 1,
+                "original_url": "https:\/\/www.seiwa-p.co.jp\/shop\/g\/g070002-50722?number_search=50722",
+                "fallback": "パッケージ通販: チャック付上質紙蒸着スタンド袋 120×200",
+                "text": "チャック付上質紙蒸着スタンド袋 120×200　　｜パッケージ通販（パケ通）は株式会社　清和が運営する包装資材の通販サイトです。",
+                "title": "チャック付上質紙蒸着スタンド袋 120×200",
+                "title_link": "https:\/\/www.seiwa-p.co.jp\/shop\/g\/g070002-50722?number_search=50722",
+                "service_name": "パッケージ通販"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1Ji",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nサンプルラベルとパッケージ確定しました。\n平川部長の机の上に置いているので、それで進めてください。\n※すみませんが、余分な枚数はないので、慎重に貼り付けお願いします。\n※下記③は届き次第準備願います。\nサンプル① 50g Tin　（Genuine Teaと仕様は同じ。抹茶は50g）\nサンプル② 100g bag + ラベル（表裏）\nサンプル③ 100g bag（印刷袋）\n\nーーーー内容ーーーーー\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "サンプル① 50g Tin ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n缶：タマヤ　ミニトップ缶　白マット\nラベル：シール直送便\n帯　W156611（合成紙シール \/ マットラミネート \/ 4.9cm×20.5cm）\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "サンプル② 100g bag + ラベル（表裏） ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n袋：清和　商品No.50722 チャック付上質紙蒸着スタンド袋 120×200\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.seiwa-p.co.jp\/shop\/g\/g070002-50722?number_search=50722"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nラベル：シール直送便\n表　W156812（和紙シール \/ ラミネートなし \/ 13.04cm×11.03cm）\n裏　W156813（和紙シール \/ ラミネートなし \/ 13.04cm×11.03cm）\nーーーーーーーーーーー"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "承知_致しました",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0331FWGQRM",
+        "type": "message",
+        "ts": "1695645419.049819",
+        "edited": {
+            "user": "U0331FWGQRM",
+            "ts": "1695683874.000000"
+        },
+        "client_msg_id": "d1d7f192-7c2b-44c7-9077-b88e5e9c2fb8",
+        "text": "<@U041RJKV5JA> <@U033G4KN4TD>\nメモ\n下記の通りまとめました。\n\nオリジナル包装可能\nMOQ：3900本\n原価：60.8円\/本（下記を足して）\n\nーーー原価内訳ーーー\n抹茶カプチーノ原価(15g)：30円\/15g　（2000円\/kg）\n袋代：14.3円\/本\n詰賃：15.4円\/本\n原料納品時送料20kg\/cs x 3cs：送料1400円\/cs x 3cs=4200円→1.1円\/本\n――――――――――\n\n（参考）\nMOQ：10000本\n原価：約49.5円\/本",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gf9d05f2cae1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "matsui",
+            "real_name": "matsui",
+            "display_name": "松井",
+            "team": "T033D70RR6H",
+            "name": "tousuien.matsui",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1694104470.179779",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pSUK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U041RJKV5JA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U033G4KN4TD"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nメモ\n下記の通りまとめました。\n\nオリジナル包装可能\nMOQ：3900本\n原価：60.8円\/本（下記を足して）\n\nーーー原価内訳ーーー\n抹茶カプチーノ原価(15g)：30円\/15g　（2000円\/kg）\n袋代：14.3円\/本\n詰賃：15.4円\/本\n原料納品時送料20kg\/cs x 3cs：送料1400円\/cs x 3cs=4200円→1.1円\/本\n――――――――――\n\n（参考）\nMOQ：10000本\n原価：約49.5円\/本"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "d130b000eb8d6784",
+                "users": [
+                    "U041RJKV5JA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U03BLQ65GK0",
+        "type": "message",
+        "ts": "1695699994.857679",
+        "client_msg_id": "0270996f-d7b4-4eb6-aa58-c82cd493ad42",
+        "text": "<@U0331FWGQRM> cc<@U0331FZS7JT>\n上記内容修正します。\n「有機煎茶パウダー（ひかわの鹿児島産）」 について\n現在桃翠園で扱いのある製品ですと\n「有機」ではなく「台湾対応」です。\n\n本品の残留農薬を調べたところ、\n台湾：◯\nEU：✕\nカナダ：✕\nアメリカ：✕\nという結果でした。\nよろしくお願いします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "8126b71e44ec",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-04-17\/3403818627748_8126b71e44ec1508fdbd_72.png",
+            "first_name": "daiki",
+            "real_name": "daiki oka",
+            "display_name": "daiki",
+            "team": "T033D70RR6H",
+            "name": "daiki.oka",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1695605282.618359",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mVyN4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " cc"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n上記内容修正します。\n「有機煎茶パウダー（ひかわの鹿児島産）」 について\n現在桃翠園で扱いのある製品ですと\n「有機」ではなく「台湾対応」です。\n\n本品の残留農薬を調べたところ、\n台湾：◯\nEU：✕\nカナダ：✕\nアメリカ：✕\nという結果でした。\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "<@U0331FZS7JT>\n現在ひかわから仕入れている秋冬番の残留農薬検査結果と、農水省が出している国別の残留農薬規格一覧表です。\n残留農薬規格一覧表内について\n・黄色で網掛：検出限界以上の数値となっているがカナダ基準値以内のもの\n・赤色で網掛け：検出限界以上の数値でカナダ基準値以上のもの\n\n※緑の網掛けは最初から入っていたので無視して下さい\nよろしくお願いします。",
+        "files": [
+            {
+                "id": "F05UKVANSL8",
+                "created": 1695711116,
+                "timestamp": 1695711116,
+                "name": "【ひかわ】秋冬番茶 グリーンティー折尾残留農薬検査結果.pdf",
+                "title": "【ひかわ】秋冬番茶 グリーンティー折尾残留農薬検査結果.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U03BLQ65GK0",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 355572,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F05UKVANSL8\/__________________________________________________________________________________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F05UKVANSL8\/download\/__________________________________________________________________________________.pdf?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05UKVANSL8-2a7ea46ec0\/___________________________________________________________________________________thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 909,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F05UKVANSL8\/__________________________________________________________________________________.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F05UKVANSL8-aed9f0f1bf",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            },
+            {
+                "id": "F05TU2JM2QM",
+                "created": 1695711245,
+                "timestamp": 1695711245,
+                "name": "zannou_kisei-73.xlsx",
+                "title": "zannou_kisei-73.xlsx",
+                "mimetype": "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "filetype": "xlsx",
+                "pretty_type": "Excel Spreadsheet",
+                "user": "U03BLQ65GK0",
+                "user_team": "T033D70RR6H",
+                "editable": false,
+                "size": 72022,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F05TU2JM2QM\/zannou_kisei-73.xlsx?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T033D70RR6H-F05TU2JM2QM\/download\/zannou_kisei-73.xlsx?token=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "media_display_type": "unknown",
+                "converted_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05TU2JM2QM-cc57d3e285\/zannou_kisei-73_converted.pdf?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T033D70RR6H-F05TU2JM2QM-cc57d3e285\/zannou_kisei-73_thumb_pdf.png?t=xoxe-3115238875221-9710624591398-9697214945543-aa82359f925d11baadb4ddc07b089467",
+                "thumb_pdf_w": 1286,
+                "thumb_pdf_h": 909,
+                "permalink": "https:\/\/grp-ssm9297.slack.com\/files\/U0331FWGQRM\/F05TU2JM2QM\/zannou_kisei-73.xlsx",
+                "permalink_public": "https:\/\/slack-files.com\/T033D70RR6H-F05TU2JM2QM-667a519e86",
+                "is_starred": false,
+                "skipped_shares": true,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U03BLQ65GK0",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1xP2f",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FZS7JT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n現在ひかわから仕入れている秋冬番の残留農薬検査結果と、農水省が出している国別の残留農薬規格一覧表です。\n残留農薬規格一覧表内について\n・黄色で網掛：検出限界以上の数値となっているがカナダ基準値以内のもの\n・赤色で網掛け：検出限界以上の数値でカナダ基準値以上のもの\n\n※緑の網掛けは最初から入っていたので無視して下さい\nよろしくお願いします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1695711329.658719",
+        "client_msg_id": "091cf143-09dd-4f87-9e4c-7195712568ab",
+        "thread_ts": "1695605282.618359",
+        "parent_user_id": "U0331FWGQRM",
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FZS7JT",
+                    "U0331FWGQRM"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

@@ -1,0 +1,97 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U03SGRNND5L",
+        "text": "<@U03SGRNND5L>さんがチャンネルに参加しました",
+        "type": "message",
+        "ts": "1659922187.509319"
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1659925376.047149",
+        "client_msg_id": "7b318aa9-1e10-448c-815d-d476b4993ef6",
+        "text": "<@U0331FWGQRM> 執行役\nお疲れ様です。\n下記の１点、確認させていただきたいと思います。\n※原産地証明書が必要でしょうか？\nよろしくお願い致します。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1659764566.036689",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RsQZT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 執行役\nお疲れ様です。\n下記の１点、確認させていただきたいと思います。\n※原産地証明書が必要でしょうか？\nよろしくお願い致します。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U033G4KN4TD",
+        "type": "message",
+        "ts": "1659927617.763439",
+        "client_msg_id": "f6744730-c9e7-4326-a342-62f38166c484",
+        "text": "<@U0331FWGQRM>\nお疲れ様です。\n同梱発送サンプルについて、\n「取引商品一覧表を確認した上で、香岳園さえみどり10000円のサンプル在庫がないみたいです。」\nよろしくお願いいたします。",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "b87877677a67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-02-16\/3118194883458_b87877677a672efe50f6_72.png",
+            "first_name": "Fukui",
+            "real_name": "Fukui",
+            "display_name": "福井",
+            "team": "T033D70RR6H",
+            "name": "tousuien04",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1659766735.432719",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wxcM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nお疲れ様です。\n同梱発送サンプルについて、\n「取引商品一覧表を確認した上で、香岳園さえみどり10000円のサンプル在庫がないみたいです。」\nよろしくお願いいたします。"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

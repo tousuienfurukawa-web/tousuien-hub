@@ -1,0 +1,66 @@
+[
+    {
+        "user": "U05KGS6HN9H",
+        "type": "message",
+        "ts": "1705291588.044649",
+        "client_msg_id": "3da28094-75a7-4357-bae9-2d58ba397858",
+        "text": "<@U0331FWGQRM>\n福通Gから確認と指摘（訂正依頼）が入っております。\n①Invoice上のUSD250は当社負担でOKですよね？\n（中国からの輸送諸経費）\n②Invoice番号に準じたPackingListの番号訂正依頼です。\nInvoice＝XMC20231207MX\nPackingList＝~XMC20231225MX~　→XMC20231207MX",
+        "team": "T033D70RR6H",
+        "user_team": "T033D70RR6H",
+        "source_team": "T033D70RR6H",
+        "user_profile": {
+            "avatar_hash": "gc4e7258333f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Adachi",
+            "real_name": "Adachi",
+            "display_name": "足立",
+            "team": "T033D70RR6H",
+            "name": "tousuien05",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1703949815.495039",
+        "parent_user_id": "U0331FWGQRM",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fs+Hl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0331FWGQRM"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n福通Gから確認と指摘（訂正依頼）が入っております。\n①Invoice上のUSD250は当社負担でOKですよね？\n（中国からの輸送諸経費）\n②Invoice番号に準じたPackingListの番号訂正依頼です。\nInvoice＝XMC20231207MX\nPackingList＝"
+                            },
+                            {
+                                "type": "text",
+                                "text": "XMC20231225MX",
+                                "style": {
+                                    "strike": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "　→XMC20231207MX"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "了解です",
+                "users": [
+                    "U0331FWGQRM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]
