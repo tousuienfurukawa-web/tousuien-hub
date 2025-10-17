@@ -517,7 +517,10 @@ def main(argv: Optional[List[str]] = None) -> int:
         safe = re.sub(r"[^A-Za-z0-9_.-]+", "_", invoice)
         out_path = os.path.join(out_dir, f"{safe}.md")
 
-    if out_path:
+    # Support writing to stdout explicitly with '-', 'stdout', or '/dev/stdout'
+    if out_path in {"-", "stdout", "/dev/stdout"}:
+        sys.stdout.write(body)
+    elif out_path:
         os.makedirs(os.path.dirname(out_path), exist_ok=True)
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(body)
