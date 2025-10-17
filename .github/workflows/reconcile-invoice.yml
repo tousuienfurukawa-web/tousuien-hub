@@ -1,0 +1,68 @@
+name: Reconcile invoice report
+
+on:
+  workflow_dispatch:
+    inputs:
+      invoice:
+        description: 'Invoice ID (e.g., TSE-BGV-058-25)'
+        required: true
+      excel:
+        description: 'Excel path (default: Customer Management_latest.xlsx)'
+        required: false
+        default: 'Customer Management_latest.xlsx'
+      slack_zip:
+        description: 'Slack export zip path (default: 海外 Slack export Feb 17 2022 - Oct 16 2025.zip)'
+        required: false
+        default: '海外 Slack export Feb 17 2022 - Oct 16 2025.zip'
+      format:
+        description: 'Output format (md/json)'
+        required: false
+        default: 'md'
+  schedule:
+    - cron: '30 18 * * *'  # 03:30 JST every day (adjust as needed)
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run reconciliation
+        env:
+          INVOICE_ID: ${{ inputs.invoice }}
+          EXCEL_PATH: ${{ inputs.excel }}
+          SLACK_ZIP: ${{ inputs.slack_zip }}
+          FORMAT: ${{ inputs.format }}
+        run: |
+          python scripts/reconcile_invoice.py \
+            --excel "${EXCEL_PATH:-Customer Management_latest.xlsx}" \
+            --slack-zip "${SLACK_ZIP:-海外 Slack export Feb 17 2022 - Oct 16 2025.zip}" \
+            --invoice "${INVOICE_ID}" \
+            --format "${FORMAT:-md}" \
+            --out-file "reports/${INVOICE_ID}.${FORMAT:-md}"
+
+      - name: Commit report artifact
+        if: success()
+        run: |
+          if [ -n "${{ inputs.invoice }}" ]; then
+            git config user.name "github-actions"
+            git config user.email "github-actions@users.noreply.github.com"
+          fi
+          git add reports || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: add reconciliation report for ${{ inputs.invoice }}"
+            git push
+          fi
