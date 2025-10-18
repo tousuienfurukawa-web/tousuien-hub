@@ -26,12 +26,12 @@ ZIP_PATH = find_zip_file()
 
 # ユーザーIDから名前へのマッピング（拡張版）
 USER_MAPPING = {
-    "U0606SPN4BW": "古川",
+    "U0606SPN4BW": "古川敏",
     "U08U8MMTH43": "林",
     "U066P2OUQH1": "林遥香",
     "U0331FZTHEK": "片寄",
-    "U06P2OUQH1": "林遥香",
-    "U0606SPN4BW": "古川敏",
+    # スクリーンショットで確認したID
+    "U066P20UQH1": "林遥香",
     # 必要に応じて追加
 }
 
@@ -39,6 +39,9 @@ def clean_slack_text(text):
     """Slackの特殊記法をクリーンアップ"""
     if not text:
         return ""
+    
+    # Markdownの太字 *text* を削除
+    text = re.sub(r'\*([^\*]+)\*', r'\1', text)
     
     # ユーザーメンション <@U123456> を削除
     text = re.sub(r'<@[A-Z0-9]+>', '', text)
@@ -179,8 +182,15 @@ async def get_slack_thread(invoice: str, format: str = Query("json")):
         # ファイル名をデコード（文字化け対策）
         file_name = thread['file']
         try:
-            # UTF-8でデコードを試みる
-            file_name = file_name.encode('cp437').decode('utf-8')
+            # Shift-JIS/CP932でデコードを試みる（日本語Windows対応）
+            file_name_bytes = file_name.encode('latin-1')
+            try:
+                file_name = file_name_bytes.decode('utf-8')
+            except:
+                try:
+                    file_name = file_name_bytes.decode('shift-jis')
+                except:
+                    file_name = file_name_bytes.decode('cp932', errors='ignore')
         except:
             pass
         
