@@ -3,7 +3,8 @@ from fastapi.responses import PlainTextResponse, JSONResponse
 import zipfile
 import json
 import os
-from pathlib import Path
+import re
+from datetime import datetime
 
 app = FastAPI(title="Tousuien Hub API on Render")
 
@@ -14,7 +15,6 @@ def find_zip_file():
         "./slack_export_latest.zip",
         "/app/slack_export_latest.zip",
         "../slack_export_latest.zip",
-        "海外 Slack export 最新.zip",
     ]
     
     for path in candidates:
@@ -24,13 +24,54 @@ def find_zip_file():
 
 ZIP_PATH = find_zip_file()
 
-# ユーザーIDから名前へのマッピング
+# ユーザーIDから名前へのマッピング（拡張版）
 USER_MAPPING = {
     "U0606SPN4BW": "古川",
     "U08U8MMTH43": "林",
+    "U066P2OUQH1": "林遥香",
     "U0331FZTHEK": "片寄",
+    "U06P2OUQH1": "林遥香",
+    "U0606SPN4BW": "古川敏",
     # 必要に応じて追加
 }
+
+def clean_slack_text(text):
+    """Slackの特殊記法をクリーンアップ"""
+    if not text:
+        return ""
+    
+    # ユーザーメンション <@U123456> を削除
+    text = re.sub(r'<@[A-Z0-9]+>', '', text)
+    
+    # チームメンション <!subteam^...> を削除
+    text = re.sub(r'<!subteam\^[A-Z0-9]+\|@[a-z\-]+>', '', text)
+    
+    # チャンネルメンション <#C123456|channel> を削除
+    text = re.sub(r'<#[A-Z0-9]+\|[a-z\-]+>', '', text)
+    
+    # 絵文字コード :emoji: を削除
+    text = re.sub(r':[a-z_\-]+:', '', text)
+    
+    # URL <http://...> から <>を削除
+    text = re.sub(r'<(https?://[^>]+)>', r'\1', text)
+    
+    # 複数のタブ・スペースを1つに
+    text = re.sub(r'\t+', ' ', text)
+    text = re.sub(r' +', ' ', text)
+    
+    # 複数の改行を整理
+    lines = [line.strip() for line in text.split('\n') if line.strip()]
+    text = '\n'.join(lines)
+    
+    return text.strip()
+
+def format_timestamp(ts):
+    """タイムスタンプを日本語日時に変換"""
+    try:
+        dt = datetime.fromtimestamp(float(ts))
+        return dt.strftime('%Y年%m月%d日 %H:%M')
+    except:
+        return ""
 
 @app.get("/")
 async def root():
@@ -84,20 +125,32 @@ async def get_slack_thread(invoice: str, format: str = Query("json")):
                         for msg in data:
                             text = msg.get("text", "")
                             if invoice in text:
-                                thread_ts = msg.get("ts")
+                                thread_ts = msg.get("thread_ts") or msg.get("ts")
                                 
-                                # 同じスレッドのメッセージを収集
-                                thread_messages = [
-                                    m for m in data 
-                                    if m.get("thread_ts") == thread_ts or m.get("ts") == thread_ts
-                                ]
+                                # 同じスレッドの全メッセージを収集
+                                # 親メッセージ + 返信メッセージ
+                                thread_messages = []
                                 
-                                threads.append({
-                                    "file": name,
-                                    "thread_ts": thread_ts,
-                                    "messages": thread_messages
-                                })
-                                break  # 1ファイル内で最初に見つかったスレッドのみ
+                                # まず親メッセージを追加
+                                parent_msg = None
+                                for m in data:
+                                    if m.get("ts") == thread_ts:
+                                        parent_msg = m
+                                        thread_messages.append(m)
+                                        break
+                                
+                                # 次に返信メッセージを追加
+                                for m in data:
+                                    if m.get("thread_ts") == thread_ts and m.get("ts") != thread_ts:
+                                        thread_messages.append(m)
+                                
+                                if thread_messages:
+                                    threads.append({
+                                        "file": name,
+                                        "thread_ts": thread_ts,
+                                        "messages": thread_messages
+                                    })
+                                break
                 
                 except json.JSONDecodeError:
                     continue
@@ -123,25 +176,31 @@ async def get_slack_thread(invoice: str, format: str = Query("json")):
     text_output = f"📄 スレッド：{invoice}\n{'='*60}\n\n"
     
     for thread in threads:
-        text_output += f"📁 ファイル: {thread['file']}\n\n"
+        # ファイル名をデコード（文字化け対策）
+        file_name = thread['file']
+        try:
+            # UTF-8でデコードを試みる
+            file_name = file_name.encode('cp437').decode('utf-8')
+        except:
+            pass
+        
+        text_output += f"📁 ファイル: {file_name}\n\n"
         
         # メッセージをタイムスタンプ順にソート
         sorted_messages = sorted(thread["messages"], key=lambda x: float(x.get("ts", 0)))
         
-        for m in sorted_messages:
+        for i, m in enumerate(sorted_messages):
             user_id = m.get("user", "不明")
             user_name = USER_MAPPING.get(user_id, user_id)
             text = m.get("text", "")
+            timestamp = format_timestamp(m.get("ts", ""))
             
-            # Slackの特殊記法をクリーンアップ
-            text = text.replace("<!subteam^", "@")
-            text = text.replace(">", "")
-            text = text.replace("|", " ")
-            text = text.replace("\t", " ")
+            # テキストをクリーンアップ
+            text = clean_slack_text(text)
             
-            # 複数の改行を整理
-            lines = [line.strip() for line in text.split("\n") if line.strip()]
-            text = "\n".join(lines)
+            # 空のメッセージはスキップ
+            if not text:
+                continue
             
             # TOUSUIEN側（社内）の発言を🟢で色付け
             if user_id in USER_MAPPING:
@@ -149,6 +208,13 @@ async def get_slack_thread(invoice: str, format: str = Query("json")):
             else:
                 prefix = f"👤 {user_name}"
             
-            text_output += f"{prefix}:\n{text}\n\n{'-'*60}\n\n"
+            # タイムスタンプを追加
+            if timestamp:
+                prefix += f" ({timestamp})"
+            
+            # 親メッセージと返信を区別
+            indent = "" if i == 0 else "  ↳ "
+            
+            text_output += f"{indent}{prefix}:\n{text}\n\n{'-'*60}\n\n"
     
     return PlainTextResponse(text_output, media_type="text/plain; charset=utf-8")
