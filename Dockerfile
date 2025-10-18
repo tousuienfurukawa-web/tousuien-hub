@@ -10,12 +10,23 @@ RUN pip install --no-cache-dir -r requirements.txt
 # アプリコードをコピー
 COPY app ./app
 
-# SlackデータZIPをコピー（ワイルドカードで柔軟に対応）
-COPY slack_export*.zip ./ 2>/dev/null || true
-COPY *.zip ./ 2>/dev/null || true
+# SlackデータZIPをコピー（存在する場合のみ）
+# まず全体を一時ディレクトリにコピーしてからZIPだけ抽出
+COPY . /tmp/build/
+RUN if ls /tmp/build/slack_export*.zip 1> /dev/null 2>&1; then \
+        cp /tmp/build/slack_export*.zip /app/; \
+    elif ls /tmp/build/*.zip 1> /dev/null 2>&1; then \
+        cp /tmp/build/*.zip /app/; \
+    fi && \
+    rm -rf /tmp/build
 
 # デバッグ：ファイルが正しくコピーされたか確認
-RUN ls -la /app && echo "Files in /app directory"
+RUN ls -la /app && echo "=== Files in /app directory ===" && \
+    if ls /app/*.zip 1> /dev/null 2>&1; then \
+        echo "✅ ZIP file found:" && ls -lh /app/*.zip; \
+    else \
+        echo "⚠️ No ZIP file found"; \
+    fi
 
 # ポート設定
 EXPOSE 10000
