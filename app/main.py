@@ -17,7 +17,8 @@ client = WebClient(token=slack_token)
 channels = {
     "なんでもOK": "C033G42K9DG",
     "サンプル出荷": "C05G1KRTDF1",
-    "groene-company": "C033G4QF8BD"
+    "groene-company": "C033G4QF8BD",
+    "受注": "C03C62NBSDP"
 }
 
 def fetch_messages(channel_name, channel_id):
