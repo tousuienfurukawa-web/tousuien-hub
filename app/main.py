@@ -13,6 +13,8 @@ if not slack_token:
 
 client = WebClient(token=slack_token)
 
+# OpenAI は現時点では使用しない（将来的に追加予定）
+
 # 対象チャンネル一覧
 channels = {
     "なんでもOK": "C033G42K9DG",
