@@ -13,7 +13,7 @@ def safe_extract(zip_ref, dest):
     """日本語ファイル名の文字化けを修正しながら展開"""
     for zip_info in zip_ref.infolist():
         try:
-            fixed_name = zip_info.filename.encode('cp437').decode('utf-8')
+            fixed_name = zip_info.filename.encode("cp437").decode("utf-8")
         except Exception:
             fixed_name = zip_info.filename
         target_path = os.path.join(dest, fixed_name)
@@ -31,7 +31,6 @@ if os.path.exists(SRC):
             for file in files:
                 if not file.endswith(".json"):
                     continue
-
                 path = os.path.join(root, file)
                 try:
                     with open(path, "r", encoding="utf-8") as f:
@@ -40,20 +39,28 @@ if os.path.exists(SRC):
                     print(f"⚠️ JSON読み込み失敗: {file} ({e})")
                     continue
 
-                # Slackエクスポートは、リスト or 辞書のどちらもあり得る
+                # Slackファイルの構造を正規化
                 if isinstance(data, dict):
                     data = [data]
+                if not isinstance(data, list):
+                    continue
 
                 for msg in data:
+                    # 文字列やリストはスキップ
                     if not isinstance(msg, dict):
-                        continue  # str や list を無視
-                    text = msg.get("text", "")
+                        continue
+
+                    text = msg.get("text")
                     if not isinstance(text, str):
                         continue
 
                     if "TSE-" in text:
-                        parts = text.split("TSE-")[1].split()[0].split("\n")[0]
-                        inv_code = "TSE-" + parts
+                        try:
+                            parts = text.split("TSE-")[1].split()[0].split("\n")[0]
+                            inv_code = "TSE-" + parts
+                        except Exception:
+                            continue
+
                         dest_path = os.path.join(DEST, f"{inv_code}.json")
 
                         if os.path.exists(dest_path):
@@ -69,6 +76,6 @@ if os.path.exists(SRC):
 
         print(f"✅ Extracted {found} messages from Slack export into {DEST}")
     except Exception as e:
-        print("⚠️ Extraction failed:", e)
+        print("⚠️ Extraction failed unexpectedly:", e)
 else:
     print("⚠️ No slack_export_latest.zip found.")
