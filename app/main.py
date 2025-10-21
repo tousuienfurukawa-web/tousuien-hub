@@ -9,20 +9,12 @@ from fastapi.responses import HTMLResponse, FileResponse
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 
-# ======================================================
-# 🚀 FastAPI アプリ設定
-# ======================================================
 app = FastAPI()
 
-# Slackクライアント設定
+# Slack設定
 slack_token = os.getenv("SLACK_BOT_TOKEN")
-if not slack_token:
-    print("⚠️ SLACK_BOT_TOKEN が未設定のため、Slack API 同期は無効です。")
-    client = None
-else:
-    client = WebClient(token=slack_token)
+client = WebClient(token=slack_token) if slack_token else None
 
-# Slack対象チャンネル一覧
 channels = {
     "なんでもOK": "C033G42K9DG",
     "サンプル出荷": "C05G1KRTDF1",
@@ -32,89 +24,53 @@ channels = {
 
 ZIP_FILE_PATH = Path("slack_export_latest.zip")
 
-# ======================================================
-# 🧾 Slack API 同期ロジック
-# ======================================================
+# ========================= Slack同期 =========================
 def fetch_messages(channel_name, channel_id):
     if not client:
         return []
-
     try:
-        print(f"🔄 {channel_name}（{channel_id}） のメッセージを取得中...")
-        response = client.conversations_history(channel=channel_id, limit=200)
-        messages = response.get("messages", [])
-        print(f"✅ {channel_name}: {len(messages)} 件のメッセージを取得しました。")
-        return messages
-
+        res = client.conversations_history(channel=channel_id, limit=200)
+        return res.get("messages", [])
     except SlackApiError as e:
-        error_msg = e.response.get('error', 'unknown')
-        print(f"⚠️ {channel_name} エラー: {error_msg}")
+        print(f"⚠️ {channel_name}: {e.response.get('error')}")
         return []
 
 def sync_slack_messages():
-    if not client:
-        print("⚠️ Slack API機能が無効です。")
-        return {"error": "Slack API disabled"}
-
-    all_messages = []
-    success_count = 0
-    error_count = 0
-
-    print("=" * 50)
-    print("📡 Slack同期処理を開始します")
-    print("=" * 50)
-
+    all_msgs, success, error = [], 0, 0
     for name, cid in channels.items():
         msgs = fetch_messages(name, cid)
         if msgs:
-            all_messages.extend(msgs)
-            success_count += 1
+            all_msgs.extend(msgs)
+            success += 1
         else:
-            error_count += 1
+            error += 1
         time.sleep(1)
+    return {"success": success, "error": error, "total": len(all_msgs)}
 
-    print("=" * 50)
-    print(f"📦 結果: 成功 {success_count}件 / エラー {error_count}件")
-    print(f"📦 合計 {len(all_messages)} 件のメッセージを収集しました")
-    print("=" * 50)
-
-    return {
-        "success": success_count,
-        "error": error_count,
-        "total_messages": len(all_messages)
-    }
-
-# ======================================================
-# 🌐 FastAPI エンドポイント
-# ======================================================
 @app.get("/")
 async def root():
     return {
         "status": "ok",
-        "message": "Tousuien Hub API is running 🚀",
-        "slack_api_enabled": slack_token is not None,
-        "zip_file_found": ZIP_FILE_PATH.exists()
+        "zip_found": ZIP_FILE_PATH.exists(),
+        "slack_api_enabled": client is not None
     }
 
 @app.get("/sync")
-async def trigger_sync():
-    """Slack APIからメッセージ同期"""
-    result = sync_slack_messages()
-    return {"status": "completed", "result": result}
+async def sync():
+    return sync_slack_messages()
 
-# ======================================================
-# 📦 SlackエクスポートZIP検索（JSON出力）
-# ======================================================
+# ========================= スレッド検索(JSON) =========================
 @app.get("/slack/thread/{invoice_id}")
-async def get_slack_thread(invoice_id: str):
-    """SlackエクスポートZIPから受注番号スレッドを検索"""
+async def get_thread(invoice_id: str):
     if not ZIP_FILE_PATH.exists():
-        return {"error": "ZIP file not found"}
+        return {"error": "ZIP not found"}
 
     try:
         with zipfile.ZipFile(ZIP_FILE_PATH, "r") as z:
+            all_files = z.namelist()
             matches = []
-            for name in z.namelist():
+
+            for name in all_files:
                 if not name.endswith(".json"):
                     continue
                 try:
@@ -123,7 +79,6 @@ async def get_slack_thread(invoice_id: str):
                 except Exception:
                     continue
 
-                # 💡 想定外フォーマット（文字列・dictなど）はスキップ
                 if not isinstance(data, list):
                     continue
 
@@ -131,31 +86,59 @@ async def get_slack_thread(invoice_id: str):
                     if not isinstance(msg, dict):
                         continue
                     text = msg.get("text", "")
-                    if invoice_id in text:
-                        matches.append({
-                            "file": name,
-                            "user": msg.get("user"),
-                            "text": text
-                        })
+                    if invoice_id not in text:
+                        continue
+
+                    entry = {
+                        "file": name,
+                        "channel": name.split("/")[0] if "/" in name else "(root)",
+                        "user": msg.get("user", ""),
+                        "text": text,
+                        "ts": msg.get("ts", ""),
+                        "replies": []
+                    }
+
+                    ts = msg.get("ts")
+                    if ts:
+                        # replies探索
+                        thread_path_new = f"{entry['channel']}/threads/{ts}.json"
+                        thread_path_old = f"{ts}.json"
+                        for tpath in [thread_path_new, thread_path_old]:
+                            if tpath in all_files:
+                                try:
+                                    with z.open(tpath) as tf:
+                                        replies = json.load(tf)
+                                        if isinstance(replies, list):
+                                            for r in replies:
+                                                if not isinstance(r, dict):
+                                                    continue
+                                                entry["replies"].append({
+                                                    "user": r.get("user", ""),
+                                                    "text": r.get("text", "")
+                                                })
+                                except Exception as e:
+                                    print(f"⚠️ replies読込失敗: {tpath} ({e})")
+                    matches.append(entry)
 
             if not matches:
                 return {"status": "not found", "invoice": invoice_id}
+
             return {"invoice": invoice_id, "count": len(matches), "messages": matches}
+
     except Exception as e:
         return {"error": str(e)}
 
-# ======================================================
-# 🌸 Slack風HTML出力（人間が読みやすい）
-# ======================================================
+# ========================= Slack風HTML出力 =========================
 @app.get("/slack/thread_html/{invoice_id}", response_class=HTMLResponse)
-async def get_slack_thread_html(invoice_id: str):
-    """SlackエクスポートZIPをSlack風HTMLに整形表示"""
+async def get_thread_html(invoice_id: str):
     if not ZIP_FILE_PATH.exists():
         return "<h3>⚠️ ZIP file not found</h3>"
 
     with zipfile.ZipFile(ZIP_FILE_PATH, "r") as z:
+        all_files = z.namelist()
         matches = []
-        for name in z.namelist():
+
+        for name in all_files:
             if not name.endswith(".json"):
                 continue
             try:
@@ -163,46 +146,74 @@ async def get_slack_thread_html(invoice_id: str):
                     data = json.load(f)
             except Exception:
                 continue
-
-            # 💡 想定外フォーマットスキップ
             if not isinstance(data, list):
                 continue
-
             for msg in data:
                 if not isinstance(msg, dict):
                     continue
                 text = msg.get("text", "")
-                if invoice_id in text:
-                    matches.append({
-                        "file": name,
-                        "user": msg.get("user"),
-                        "text": text.replace("\n", "<br>")
-                    })
+                if invoice_id not in text:
+                    continue
+
+                entry = {
+                    "file": name,
+                    "channel": name.split("/")[0] if "/" in name else "(root)",
+                    "user": msg.get("user", ""),
+                    "text": text.replace("\n", "<br>"),
+                    "ts": msg.get("ts", ""),
+                    "replies": []
+                }
+
+                ts = msg.get("ts")
+                if ts:
+                    thread_path_new = f"{entry['channel']}/threads/{ts}.json"
+                    thread_path_old = f"{ts}.json"
+                    for tpath in [thread_path_new, thread_path_old]:
+                        if tpath in all_files:
+                            try:
+                                with z.open(tpath) as tf:
+                                    replies = json.load(tf)
+                                    if isinstance(replies, list):
+                                        for r in replies:
+                                            if not isinstance(r, dict):
+                                                continue
+                                            entry["replies"].append({
+                                                "user": r.get("user", ""),
+                                                "text": r.get("text", "").replace("\n", "<br>")
+                                            })
+                            except Exception:
+                                continue
+                matches.append(entry)
 
         if not matches:
             return f"<h3>❌ 該当スレッドが見つかりません（{invoice_id}）</h3>"
 
         html = f"<h2>🧾 受注番号：{invoice_id}</h2>"
-        html += "<style>body{font-family:sans-serif;} .msg{border:1px solid #ccc;padding:10px;margin:10px;border-radius:8px;background:#f9f9f9;} .user{color:#0366d6;font-weight:bold;}</style>"
+        html += """
+        <style>
+        body{font-family: 'Segoe UI',sans-serif;line-height:1.6;background:#f4f4f9;padding:20px;}
+        .msg{background:#fff;border-radius:10px;margin:15px 0;padding:12px 18px;box-shadow:0 1px 3px rgba(0,0,0,0.1);}
+        .user{color:#0073e6;font-weight:bold;margin-bottom:4px;}
+        .reply{margin-left:30px;background:#f8f8ff;}
+        .file{font-size:0.8em;color:#888;}
+        </style>
+        """
         for m in matches:
-            html += f"<div class='msg'><p class='user'>👤 {m['user']}</p><p>{m['text']}</p><small>{m['file']}</small></div>"
+            html += f"<div class='msg'><div class='user'>👤 {m['user']}</div><div>{m['text']}</div><div class='file'>{m['file']}</div>"
+            if m['replies']:
+                html += "<div style='margin-top:8px;'><b>💬 スレッド返信:</b>"
+                for r in m['replies']:
+                    html += f"<div class='msg reply'><div class='user'>↪ {r['user']}</div><div>{r['text']}</div></div>"
+                html += "</div>"
+            html += "</div>"
         return html
 
-# ======================================================
-# 📦 ZIPファイル提供
-# ======================================================
+# ========================= ZIP提供 =========================
 @app.get("/slack_export_latest.zip")
 async def get_zip():
     if not ZIP_FILE_PATH.exists():
-        return {"error": "ZIP file not found"}
-    return FileResponse(
-        path=str(ZIP_FILE_PATH),
-        media_type="application/zip",
-        filename="slack_export_latest.zip"
-    )
+        return {"error": "ZIP not found"}
+    return FileResponse(str(ZIP_FILE_PATH), media_type="application/zip", filename="slack_export_latest.zip")
 
-# ======================================================
-# 🏁 CLI実行時（ローカルで同期確認用）
-# ======================================================
 if __name__ == "__main__":
     sync_slack_messages()
