@@ -4,37 +4,13 @@ import json
 import zipfile
 from pathlib import Path
 from fastapi import FastAPI
-from fastapi.responses import HTMLResponse, FileResponse
-from slack_sdk import WebClient
-from slack_sdk.errors import SlackApiError
+from fastapi.responses import HTMLResponse
 
-# ==================================================
-# 🚀 FastAPI アプリ定義
-# ==================================================
 app = FastAPI()
-
-# ==================================================
-# 💾 グローバル設定
-# ==================================================
 ZIP_FILE_PATH = Path("slack_export_latest.zip")
-slack_token = os.getenv("SLACK_BOT_TOKEN")
-client = WebClient(token=slack_token) if slack_token else None
-
 
 # ==================================================
-# ✅ トップページ（動作確認用）
-# ==================================================
-@app.get("/")
-async def root():
-    return {
-        "status": "ok",
-        "zip_found": ZIP_FILE_PATH.exists(),
-        "slack_api_enabled": client is not None
-    }
-
-
-# ==================================================
-# 💬 Slackスレッド取得（旧/新構造 + 文字化け + replies対応 + ゆらぎ検索）
+# 💬 Slackスレッド取得（文字化け・旧新対応・replies完全復旧版）
 # ==================================================
 @app.get("/slack/thread/{invoice_id}")
 async def get_slack_thread(invoice_id: str):
@@ -66,7 +42,7 @@ async def get_slack_thread(invoice_id: str):
                     if not text:
                         continue
 
-                    # ▼ ゆらぎ対応検索
+                    # ▼ ゆらぎ対応
                     normalized_invoice = (
                         invoice_id.strip()
                         .lower()
@@ -96,11 +72,17 @@ async def get_slack_thread(invoice_id: str):
                     if not ts:
                         continue
 
-                    # ▼ スレッド配下（threads/）を全探索（文字化け含む）
-                    thread_candidates = [
-                        f for f in all_files
-                        if "threads/" in f and f.endswith(f"{ts}.json")
-                    ]
+                    # ▼ threadsフォルダを「文字化けも含めて」全探索
+                    thread_candidates = []
+                    for f in all_files:
+                        # ファイル名をUTF-8で再デコードして比較
+                        decoded = None
+                        try:
+                            decoded = f.encode("cp437").decode("utf-8", errors="ignore")
+                        except Exception:
+                            decoded = f
+                        if "thread" in decoded.lower() and decoded.endswith(f"{ts}.json"):
+                            thread_candidates.append(f)
 
                     for tpath in thread_candidates:
                         try:
@@ -130,10 +112,11 @@ async def get_slack_thread(invoice_id: str):
 
 
 # ==================================================
-# 🧾 SlackスレッドHTML表示（Slack風カードレイアウト）
+# 🧾 SlackスレッドHTML出力
 # ==================================================
 @app.get("/slack/thread_html/{invoice_id}", response_class=HTMLResponse)
 async def get_slack_thread_html(invoice_id: str):
+    """Slack風HTMLでスレッドを表示"""
     if not ZIP_FILE_PATH.exists():
         return "<h3>⚠️ ZIP file not found</h3>"
 
@@ -161,7 +144,6 @@ async def get_slack_thread_html(invoice_id: str):
                 if not text:
                     continue
 
-                # ▼ ゆらぎ対応
                 normalized_invoice = (
                     invoice_id.strip()
                     .lower()
@@ -191,11 +173,14 @@ async def get_slack_thread_html(invoice_id: str):
                 if not ts:
                     continue
 
-                # ▼ threads配下すべて探索（文字化け対応）
-                thread_candidates = [
-                    f for f in all_files
-                    if "threads/" in f and f.endswith(f"{ts}.json")
-                ]
+                thread_candidates = []
+                for f in all_files:
+                    try:
+                        decoded = f.encode("cp437").decode("utf-8", errors="ignore")
+                    except Exception:
+                        decoded = f
+                    if "thread" in decoded.lower() and decoded.endswith(f"{ts}.json"):
+                        thread_candidates.append(f)
 
                 for tpath in thread_candidates:
                     try:
@@ -217,15 +202,14 @@ async def get_slack_thread_html(invoice_id: str):
         if not matches:
             return f"<h3>❌ 該当スレッドが見つかりません（{invoice_id}）</h3>"
 
-        # ▼ HTML出力（Slack風カード）
         html = f"<h2>🧾 受注番号：{invoice_id}</h2>"
         html += """
         <style>
-        body{font-family:Segoe UI, sans-serif;line-height:1.6;background:#f7f7fa;padding:25px;}
-        .msg{background:#fff;border-radius:8px;margin:15px 0;padding:12px 18px;box-shadow:0 1px 4px rgba(0,0,0,0.08);}
-        .user{color:#0073e6;font-weight:bold;margin-bottom:4px;}
+        body{font-family:Segoe UI, sans-serif;background:#f8f8fc;padding:30px;}
+        .msg{background:#fff;border-radius:8px;margin:12px 0;padding:14px 18px;box-shadow:0 1px 4px rgba(0,0,0,0.08);}
+        .user{color:#0073e6;font-weight:bold;}
         .reply{margin-left:25px;background:#f9f9ff;}
-        .file{font-size:0.8em;color:#999;}
+        .file{font-size:0.8em;color:#888;}
         </style>
         """
 
