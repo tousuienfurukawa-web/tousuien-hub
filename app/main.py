@@ -2,7 +2,6 @@
 import os
 import json
 import zipfile
-import time
 from pathlib import Path
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse, FileResponse
@@ -10,7 +9,7 @@ from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 
 # ==================================================
-# 🚀 FastAPI アプリ定義（最初に置く！）
+# 🚀 FastAPI アプリ定義
 # ==================================================
 app = FastAPI()
 
@@ -21,8 +20,9 @@ ZIP_FILE_PATH = Path("slack_export_latest.zip")
 slack_token = os.getenv("SLACK_BOT_TOKEN")
 client = WebClient(token=slack_token) if slack_token else None
 
+
 # ==================================================
-# ✅ ヘルスチェック（トップページ）
+# ✅ トップページ（動作確認用）
 # ==================================================
 @app.get("/")
 async def root():
@@ -32,8 +32,9 @@ async def root():
         "slack_api_enabled": client is not None
     }
 
+
 # ==================================================
-# 💬 スレッド取得（旧・新Slack構造対応＋ゆらぎ検索対応）
+# 💬 Slackスレッド取得（旧/新構造 + 文字化け + replies対応 + ゆらぎ検索）
 # ==================================================
 @app.get("/slack/thread/{invoice_id}")
 async def get_slack_thread(invoice_id: str):
@@ -65,7 +66,7 @@ async def get_slack_thread(invoice_id: str):
                     if not text:
                         continue
 
-                    # ▼▼▼ Codex式 ゆらぎ対応検索 ▼▼▼
+                    # ▼ ゆらぎ対応検索
                     normalized_invoice = (
                         invoice_id.strip()
                         .lower()
@@ -81,7 +82,6 @@ async def get_slack_thread(invoice_id: str):
                         and f"tse-{normalized_invoice}" not in text_norm
                     ):
                         continue
-                    # ▲▲▲
 
                     entry = {
                         "file": name,
@@ -96,38 +96,38 @@ async def get_slack_thread(invoice_id: str):
                     if not ts:
                         continue
 
-                    # threadsディレクトリを旧・新両対応で探索
-                    possible_paths = [
-                        f"{entry['channel']}/threads/{ts}.json",  # 新形式
-                        f"threads/{ts}.json",                     # 旧形式
-                        f"{ts}.json"                              # 最古構造
+                    # ▼ スレッド配下（threads/）を全探索（文字化け含む）
+                    thread_candidates = [
+                        f for f in all_files
+                        if "threads/" in f and f.endswith(f"{ts}.json")
                     ]
 
-                    for tpath in possible_paths:
-                        if tpath in all_files:
-                            try:
-                                with z.open(tpath) as tf:
-                                    replies = json.load(tf)
-                                    if isinstance(replies, list):
-                                        for r in replies:
-                                            if not isinstance(r, dict):
-                                                continue
-                                            entry["replies"].append({
-                                                "user": r.get("user", ""),
-                                                "text": r.get("text", ""),
-                                                "ts": r.get("ts", "")
-                                            })
-                            except Exception as e:
-                                print(f"⚠️ スレッド読込失敗: {tpath} ({e})")
+                    for tpath in thread_candidates:
+                        try:
+                            with z.open(tpath) as tf:
+                                replies = json.load(tf)
+                                if isinstance(replies, list):
+                                    for r in replies:
+                                        if not isinstance(r, dict):
+                                            continue
+                                        entry["replies"].append({
+                                            "user": r.get("user", ""),
+                                            "text": r.get("text", ""),
+                                            "ts": r.get("ts", "")
+                                        })
+                        except Exception as e:
+                            print(f"⚠️ スレッド読込失敗: {tpath} ({e})")
 
                     matches.append(entry)
 
             if not matches:
                 return {"status": "not found", "invoice": invoice_id}
+
             return {"invoice": invoice_id, "count": len(matches), "messages": matches}
 
     except Exception as e:
         return {"error": str(e)}
+
 
 # ==================================================
 # 🧾 SlackスレッドHTML表示（Slack風カードレイアウト）
@@ -161,7 +161,7 @@ async def get_slack_thread_html(invoice_id: str):
                 if not text:
                     continue
 
-                # ゆらぎ対応
+                # ▼ ゆらぎ対応
                 normalized_invoice = (
                     invoice_id.strip()
                     .lower()
@@ -191,32 +191,33 @@ async def get_slack_thread_html(invoice_id: str):
                 if not ts:
                     continue
 
-                possible_paths = [
-                    f"{entry['channel']}/threads/{ts}.json",
-                    f"threads/{ts}.json",
-                    f"{ts}.json"
+                # ▼ threads配下すべて探索（文字化け対応）
+                thread_candidates = [
+                    f for f in all_files
+                    if "threads/" in f and f.endswith(f"{ts}.json")
                 ]
 
-                for tpath in possible_paths:
-                    if tpath in all_files:
-                        try:
-                            with z.open(tpath) as tf:
-                                replies = json.load(tf)
-                                if isinstance(replies, list):
-                                    for r in replies:
-                                        if not isinstance(r, dict):
-                                            continue
-                                        entry["replies"].append({
-                                            "user": r.get("user", ""),
-                                            "text": r.get("text", "").replace("\n", "<br>")
-                                        })
-                        except Exception:
-                            continue
+                for tpath in thread_candidates:
+                    try:
+                        with z.open(tpath) as tf:
+                            replies = json.load(tf)
+                            if isinstance(replies, list):
+                                for r in replies:
+                                    if not isinstance(r, dict):
+                                        continue
+                                    entry["replies"].append({
+                                        "user": r.get("user", ""),
+                                        "text": r.get("text", "").replace("\n", "<br>")
+                                    })
+                    except Exception:
+                        continue
+
                 matches.append(entry)
 
         if not matches:
             return f"<h3>❌ 該当スレッドが見つかりません（{invoice_id}）</h3>"
 
+        # ▼ HTML出力（Slack風カード）
         html = f"<h2>🧾 受注番号：{invoice_id}</h2>"
         html += """
         <style>
@@ -236,4 +237,5 @@ async def get_slack_thread_html(invoice_id: str):
                     html += f"<div class='msg reply'><div class='user'>↪ {r['user']}</div><div>{r['text']}</div></div>"
                 html += "</div>"
             html += "</div>"
+
         return html
