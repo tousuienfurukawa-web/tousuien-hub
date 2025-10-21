@@ -1,12 +1,16 @@
 from flask import Flask, jsonify, request
 import os
+import sys
 import subprocess
 from datetime import datetime
+
+# 相対インポートを可能にする
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 app = Flask(__name__)
 
 # --- Blueprintをインポート・登録 ---
-from app.slack_thread import bp as slack_bp
+from slack_thread import bp as slack_bp
 app.register_blueprint(slack_bp)
 
 @app.route("/", methods=["GET"])
@@ -29,7 +33,7 @@ def run_gpt_autopush():
     if AUTH_TOKEN and incoming != f"Bearer {AUTH_TOKEN}":
         return jsonify({"error": "Unauthorized"}), 401
     
-    subprocess.Popen(["python", "app/gpt_autopush.py"])
+    subprocess.Popen(["python", "gpt_autopush.py"])
     return jsonify({
         "status": "started",
         "message": "gpt_autopush.py triggered successfully.",
