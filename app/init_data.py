@@ -40,9 +40,11 @@ if os.path.exists(SRC):
 
         for root, _, files in os.walk(RAW_DIR):
             for file in files:
+                path = os.path.join(root, file)
                 if not file.endswith(".json"):
                     continue
-                path = os.path.join(root, file)
+                if not os.path.isfile(path):  # ディレクトリを除外
+                    continue
                 try:
                     with open(path, "r", encoding="utf-8") as f:
                         data = json.load(f)
@@ -80,7 +82,7 @@ if os.path.exists(SRC):
                                 json.dump({"messages": [msg]}, out, ensure_ascii=False, indent=2)
 
                         found += 1
-                    except Exception as e:
+                    except Exception:
                         skipped += 1
                         continue
 
