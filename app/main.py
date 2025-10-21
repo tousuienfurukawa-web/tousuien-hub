@@ -1,17 +1,22 @@
 # -*- coding: utf-8 -*-
 import os
+import time
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
-import time
+from fastapi import FastAPI
+
+# ======================================
+# 🚀 FastAPI アプリ設定
+# ======================================
+app = FastAPI()
 
 # Slackクライアント設定
 slack_token = os.getenv("SLACK_BOT_TOKEN")
-
 if not slack_token:
-    print("❌ エラー: SLACK_BOT_TOKEN が設定されていません")
-    exit(1)
-
-client = WebClient(token=slack_token)
+    print("⚠️ SLACK_BOT_TOKEN が設定されていません。Slack同期APIは無効です。")
+    client = None
+else:
+    client = WebClient(token=slack_token)
 
 # 対象チャンネル一覧
 channels = {
@@ -21,7 +26,13 @@ channels = {
     "受注": "C03C62NBSDP"
 }
 
+# ======================================
+# 🧩 Slack メッセージ取得関数
+# ======================================
 def fetch_messages(channel_name, channel_id):
+    if not client:
+        return []
+
     try:
         print(f"🔄 {channel_name}（{channel_id}） のメッセージを取得中...")
         response = client.conversations_history(channel=channel_id, limit=200)
@@ -32,23 +43,30 @@ def fetch_messages(channel_name, channel_id):
     except SlackApiError as e:
         error_msg = e.response.get('error', 'unknown')
         print(f"⚠️ {channel_name} エラー: {error_msg}")
-        
+
         if error_msg == "channel_not_found":
             print(f"   → チャンネルID {channel_id} が見つかりません")
             print(f"   → Botがチャンネルに追加されているか確認してください")
         elif error_msg == "not_in_channel":
             print(f"   → Botがチャンネル {channel_id} に参加していません")
-        
+
         return []
 
-def main():
-    print("=" * 50)
-    print("📡 Slack同期処理を開始します")
-    print("=" * 50)
-    
+# ======================================
+# 📦 Slack同期処理
+# ======================================
+def sync_slack_messages():
+    if not client:
+        print("⚠️ Slack API機能が無効です。")
+        return {"error": "Slack API disabled"}
+
     all_messages = []
     success_count = 0
     error_count = 0
+
+    print("=" * 50)
+    print("📡 Slack同期処理を開始します")
+    print("=" * 50)
 
     for name, cid in channels.items():
         msgs = fetch_messages(name, cid)
@@ -63,9 +81,33 @@ def main():
     print(f"📦 結果: 成功 {success_count}件 / エラー {error_count}件")
     print(f"📦 合計 {len(all_messages)} 件のメッセージを収集しました")
     print("=" * 50)
-    
-    if error_count > 0:
-        print("⚠️ 一部のチャンネルでエラーが発生しましたが、処理は完了しました")
 
+    return {
+        "success": success_count,
+        "error": error_count,
+        "total_messages": len(all_messages)
+    }
+
+# ======================================
+# 🌐 FastAPI エンドポイント
+# ======================================
+@app.get("/")
+async def root():
+    """Renderヘルスチェック & ステータス確認"""
+    return {
+        "status": "ok",
+        "slack_api_enabled": slack_token is not None,
+        "message": "Tousuien Hub API is running 🚀"
+    }
+
+@app.get("/sync")
+async def trigger_sync():
+    """Slack同期を手動トリガー"""
+    result = sync_slack_messages()
+    return {"status": "completed", "result": result}
+
+# ======================================
+# 🏁 CLI実行時にも直接動かせるように
+# ======================================
 if __name__ == "__main__":
-    main()
+    sync_slack_messages()
