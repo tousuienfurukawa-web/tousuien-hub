@@ -122,9 +122,14 @@ async def get_slack_thread(invoice_id: str):
                         data = json.load(f)
                 except Exception:
                     continue
+
+                # 💡 想定外フォーマット（文字列・dictなど）はスキップ
                 if not isinstance(data, list):
                     continue
+
                 for msg in data:
+                    if not isinstance(msg, dict):
+                        continue
                     text = msg.get("text", "")
                     if invoice_id in text:
                         matches.append({
@@ -132,6 +137,7 @@ async def get_slack_thread(invoice_id: str):
                             "user": msg.get("user"),
                             "text": text
                         })
+
             if not matches:
                 return {"status": "not found", "invoice": invoice_id}
             return {"invoice": invoice_id, "count": len(matches), "messages": matches}
@@ -157,9 +163,14 @@ async def get_slack_thread_html(invoice_id: str):
                     data = json.load(f)
             except Exception:
                 continue
+
+            # 💡 想定外フォーマットスキップ
             if not isinstance(data, list):
                 continue
+
             for msg in data:
+                if not isinstance(msg, dict):
+                    continue
                 text = msg.get("text", "")
                 if invoice_id in text:
                     matches.append({
