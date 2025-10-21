@@ -3,9 +3,10 @@ import os
 import zipfile
 import json
 import time
+from datetime import datetime
 from pathlib import Path
 from fastapi import FastAPI
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, HTMLResponse
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 
@@ -127,11 +128,11 @@ async def trigger_sync():
     return {"status": "sync completed"}
 
 # ======================================================
-# 🧾 SlackエクスポートZIPから受注番号を検索するエンドポイント
+# 🧾 SlackエクスポートZIPから受注番号を検索（JSON形式）
 # ======================================================
 @app.get("/slack/thread/{invoice_id}")
 async def get_slack_thread(invoice_id: str):
-    """SlackエクスポートZIP内から受注番号スレッドを検索して表示"""
+    """SlackエクスポートZIP内から受注番号スレッドを検索してJSONで返す"""
     if not ZIP_FILE_PATH.exists():
         return {"error": "ZIP file not found"}
 
@@ -139,10 +140,7 @@ async def get_slack_thread(invoice_id: str):
         with zipfile.ZipFile(ZIP_FILE_PATH, "r") as z:
             matches = []
             for name in z.namelist():
-                # フォルダ名が文字化けしている可能性があるため再デコード
                 decoded_name = name.encode("cp437").decode("utf-8", errors="ignore")
-
-                # JSONファイルのみを対象
                 if not decoded_name.endswith(".json"):
                     continue
 
@@ -171,6 +169,60 @@ async def get_slack_thread(invoice_id: str):
 
     except Exception as e:
         return {"error": str(e)}
+
+# ======================================================
+# 🌸 SlackエクスポートZIPから受注番号を検索（HTML形式）
+# ======================================================
+@app.get("/slack/thread_html/{invoice_id}", response_class=HTMLResponse)
+async def get_slack_thread_html(invoice_id: str):
+    """SlackエクスポートZIP内の受注スレッドをHTMLで表示"""
+    if not ZIP_FILE_PATH.exists():
+        return "<h3>⚠️ ZIPファイルが見つかりません。</h3>"
+
+    try:
+        with zipfile.ZipFile(ZIP_FILE_PATH, "r") as z:
+            matches = []
+            for name in z.namelist():
+                decoded_name = name.encode("cp437").decode("utf-8", errors="ignore")
+                if not decoded_name.endswith(".json"):
+                    continue
+                with z.open(name) as f:
+                    try:
+                        data = json.load(f)
+                        for msg in data:
+                            if invoice_id in msg.get("text", ""):
+                                matches.append({
+                                    "channel": decoded_name.split("/")[0],
+                                    "user": msg.get("user", ""),
+                                    "text": msg.get("text", ""),
+                                    "ts": msg.get("ts", "")
+                                })
+                    except Exception:
+                        continue
+
+        if not matches:
+            return f"<h3>❌ 該当スレッドが見つかりません（{invoice_id}）</h3>"
+
+        html = f"<h2>🧾 受注番号：{invoice_id}</h2>"
+        for msg in matches:
+            text = msg["text"].replace("\n", "<br>")
+            text = text.replace(":flag-th:", "🇹🇭")
+            text = text.replace("<!subteam^", "@").replace(">", "")
+            ts = msg.get("ts", "")
+            date_str = datetime.fromtimestamp(float(ts.split('.')[0])).strftime("%Y-%m-%d %H:%M:%S") if ts else ""
+            html += f"""
+            <div style='border:1px solid #ccc; border-radius:8px; padding:10px; margin:10px; background:#f9f9f9;'>
+                <p><b>チャンネル：</b>{msg['channel']}</p>
+                <p><b>投稿者：</b>{msg['user']}</p>
+                <p><b>本文：</b><br>{text}</p>
+                <p><i>投稿日：{date_str}</i></p>
+            </div>
+            """
+
+        return f"<body style='font-family: sans-serif; background:#fff; color:#333;'>{html}</body>"
+
+    except Exception as e:
+        return f"<h3>⚠️ エラー: {e}</h3>"
 
 # ======================================================
 # 🚀 起動時イベント
