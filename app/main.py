@@ -10,7 +10,7 @@ app = FastAPI()
 ZIP_FILE_PATH = Path("slack_export_latest.zip")
 
 # ==================================================
-# 💬 Slackスレッド取得（修正版）
+# 💬 Slackスレッド取得（threadsフォルダ・旧新対応）
 # ==================================================
 @app.get("/slack/thread/{invoice_id}")
 async def get_slack_thread(invoice_id: str):
@@ -29,7 +29,7 @@ async def get_slack_thread(invoice_id: str):
                     # チャンネルディレクトリ名を取得 (例: "general")
                     channel_dir = name.split("/")[0] if "/" in name else "(root)"
                     if channel_dir == "(root)":
-                        continue # ルートのjsonファイルは通常チャンネルデータではない
+                        continue  # ルートのjsonファイルは通常チャンネルデータではない
 
                     with z.open(name) as f:
                         data = json.load(f)
@@ -66,7 +66,7 @@ async def get_slack_thread(invoice_id: str):
 
                     entry = {
                         "file": name,
-                        "channel": channel_dir, # 取得済みのものを利用
+                        "channel": channel_dir,
                         "user": msg.get("user", ""),
                         "text": text,
                         "ts": msg.get("ts", ""),
@@ -75,17 +75,28 @@ async def get_slack_thread(invoice_id: str):
 
                     ts = msg.get("ts")
                     if not ts:
-                        matches.append(entry) # スレッドがなくても親は追加
+                        matches.append(entry)
                         continue
 
-                    # --- スレッド検索ロジック (修正) ---
-                    # 探すべきスレッドファイルのパス (例: "general/12345.678.json")
-                    expected_thread_path = f"{channel_dir}/{ts}.json"
+                    # --- スレッド検索ロジック ---
+                    expected_thread_path = f"{channel_dir}/threads/{ts}.json"
 
-                    # ZIP内の全ファイルリスト (all_files) に期待するパスが存在するか確認
-                    if expected_thread_path in all_files:
+                    # ファイル名の文字化けにも対応（cp437→utf-8）
+                    thread_candidates = []
+                    for f in all_files:
                         try:
-                            with z.open(expected_thread_path) as tf:
+                            decoded = f.encode("cp437").decode("utf-8", errors="ignore")
+                        except Exception:
+                            decoded = f
+                        if (
+                            "thread" in decoded.lower()
+                            and decoded.split("/")[-1].startswith(ts)
+                        ):
+                            thread_candidates.append(f)
+
+                    for tpath in thread_candidates:
+                        try:
+                            with z.open(tpath) as tf:
                                 replies = json.load(tf)
                                 if isinstance(replies, list):
                                     for r in replies:
@@ -97,8 +108,7 @@ async def get_slack_thread(invoice_id: str):
                                             "ts": r.get("ts", "")
                                         })
                         except Exception as e:
-                            print(f"⚠️ スレッド読込失敗: {expected_thread_path} ({e})")
-                    # --- スレッド検索ロジック (ここまで) ---
+                            print(f"⚠️ スレッド読込失敗: {tpath} ({e})")
 
                     matches.append(entry)
 
@@ -112,11 +122,10 @@ async def get_slack_thread(invoice_id: str):
 
 
 # ==================================================
-# 🧾 SlackスレッドHTML出力（修正版）
+# 🧾 SlackスレッドHTML出力（Slack風＋replies表示）
 # ==================================================
 @app.get("/slack/thread_html/{invoice_id}", response_class=HTMLResponse)
 async def get_slack_thread_html(invoice_id: str):
-    """Slack風HTMLでスレッドを表示"""
     if not ZIP_FILE_PATH.exists():
         return "<h3>⚠️ ZIP file not found</h3>"
 
@@ -128,11 +137,9 @@ async def get_slack_thread_html(invoice_id: str):
             if not name.endswith(".json"):
                 continue
             try:
-                # チャンネルディレクトリ名を取得 (例: "general")
                 channel_dir = name.split("/")[0] if "/" in name else "(root)"
                 if channel_dir == "(root)":
-                    continue # ルートのjsonファイルは通常チャンネルデータではない
-                
+                    continue
                 with z.open(name) as f:
                     data = json.load(f)
             except Exception:
@@ -144,7 +151,6 @@ async def get_slack_thread_html(invoice_id: str):
             for msg in data:
                 if not isinstance(msg, dict):
                     continue
-
                 text = msg.get("text", "")
                 if not text:
                     continue
@@ -167,7 +173,7 @@ async def get_slack_thread_html(invoice_id: str):
 
                 entry = {
                     "file": name,
-                    "channel": channel_dir, # 取得済みのものを利用
+                    "channel": channel_dir,
                     "user": msg.get("user", ""),
                     "text": text.replace("\n", "<br>"),
                     "ts": msg.get("ts", ""),
@@ -176,17 +182,21 @@ async def get_slack_thread_html(invoice_id: str):
 
                 ts = msg.get("ts")
                 if not ts:
-                    matches.append(entry) # スレッドがなくても親は追加
+                    matches.append(entry)
                     continue
 
-                # --- スレッド検索ロジック (修正) ---
-                # 探すべきスレッドファイルのパス (例: "general/12345.678.json")
-                expected_thread_path = f"{channel_dir}/{ts}.json"
-
-                # ZIP内の全ファイルリスト (all_files) に期待するパスが存在するか確認
-                if expected_thread_path in all_files:
+                thread_candidates = []
+                for f in all_files:
                     try:
-                        with z.open(expected_thread_path) as tf:
+                        decoded = f.encode("cp437").decode("utf-8", errors="ignore")
+                    except Exception:
+                        decoded = f
+                    if "thread" in decoded.lower() and decoded.split("/")[-1].startswith(ts):
+                        thread_candidates.append(f)
+
+                for tpath in thread_candidates:
+                    try:
+                        with z.open(tpath) as tf:
                             replies = json.load(tf)
                             if isinstance(replies, list):
                                 for r in replies:
@@ -196,10 +206,8 @@ async def get_slack_thread_html(invoice_id: str):
                                         "user": r.get("user", ""),
                                         "text": r.get("text", "").replace("\n", "<br>")
                                     })
-                    except Exception as e:
-                        print(f"⚠️ スレッド読込失敗: {expected_thread_path} ({e})")
+                    except Exception:
                         continue
-                # --- スレッド検索ロジック (ここまで) ---
 
                 matches.append(entry)
 
@@ -228,13 +236,17 @@ async def get_slack_thread_html(invoice_id: str):
 
         return html
 
-# --- 実行用 (ターミナルで `python main.py` と実行する場合) ---
+
+# ==================================================
+# 🚀 ローカル or Render起動時のメイン
+# ==================================================
 if __name__ == "__main__":
     import uvicorn
-    # ZIPファイルがこのスクリプトと同じ場所にあることを確認してください
     if not ZIP_FILE_PATH.exists():
-        print(f"--- ⚠️  エラー ⚠️ ---")
+        print(f"--- ⚠️ エラー ⚠️ ---")
         print(f"Slackエクスポートファイル ({ZIP_FILE_PATH}) が見つかりません。")
         print(f"このスクリプトと同じディレクトリに配置してください。")
     else:
-        print(f"✅
+        print(f"✅ {ZIP_FILE_PATH} を読み込みます。")
+        print("🚀 サーバーを起動します...")
+        uvicorn.run(app, host="0.0.0.0", port=10000)
