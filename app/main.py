@@ -1,14 +1,17 @@
 # -*- coding: utf-8 -*-
 import os
 import zipfile
+import json
+import time
 from pathlib import Path
 from fastapi import FastAPI
 from fastapi.responses import FileResponse
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
-import time
 
-# FastAPIアプリケーション
+# ======================================================
+# 🚀 FastAPI アプリケーション設定
+# ======================================================
 app = FastAPI()
 
 # Slackクライアント設定（オプショナル）
@@ -20,7 +23,7 @@ else:
     client = None
     print("⚠️ SLACK_BOT_TOKEN が設定されていません。zipファイルのみ使用します。")
 
-# 対象チャンネル一覧
+# 対象チャンネル一覧（Slack API使用時のみ）
 channels = {
     "なんでもOK": "C033G42K9DG",
     "サンプル出荷": "C05G1KRTDF1",
@@ -28,7 +31,11 @@ channels = {
     "受注": "C03C62NBSDP"
 }
 
+# ======================================================
+# ⚙️ Slack API 関連関数
+# ======================================================
 def fetch_messages(channel_name, channel_id):
+    """Slack APIから特定チャンネルのメッセージを取得"""
     if not client:
         print("⚠️ Slack APIが無効です。SLACK_BOT_TOKENを設定してください。")
         return []
@@ -45,10 +52,8 @@ def fetch_messages(channel_name, channel_id):
         
         if error_msg == "channel_not_found":
             print(f"   → チャンネルID {channel_id} が見つかりません")
-            print(f"   → Botがチャンネルに追加されているか確認してください")
         elif error_msg == "not_in_channel":
             print(f"   → Botがチャンネル {channel_id} に参加していません")
-        
         return []
 
 def sync_slack_messages():
@@ -82,9 +87,14 @@ def sync_slack_messages():
     if error_count > 0:
         print("⚠️ 一部のチャンネルでエラーが発生しましたが、処理は完了しました")
 
-# zipファイルのパスを確認
+# ======================================================
+# 📦 ZIPファイル設定
+# ======================================================
 ZIP_FILE_PATH = Path("slack_export_latest.zip")
 
+# ======================================================
+# 🌐 エンドポイント
+# ======================================================
 @app.get("/")
 async def root():
     """ルートエンドポイント"""
@@ -97,7 +107,7 @@ async def root():
 
 @app.get("/slack_export_latest.zip")
 async def get_slack_export():
-    """zipファイルを提供するエンドポイント"""
+    """ZIPファイルをダウンロード"""
     if not ZIP_FILE_PATH.exists():
         return {"error": "ZIP file not found"}
     
@@ -116,7 +126,55 @@ async def trigger_sync():
     sync_slack_messages()
     return {"status": "sync completed"}
 
-# 起動時の処理
+# ======================================================
+# 🧾 SlackエクスポートZIPから受注番号を検索するエンドポイント
+# ======================================================
+@app.get("/slack/thread/{invoice_id}")
+async def get_slack_thread(invoice_id: str):
+    """SlackエクスポートZIP内から受注番号スレッドを検索して表示"""
+    if not ZIP_FILE_PATH.exists():
+        return {"error": "ZIP file not found"}
+
+    try:
+        with zipfile.ZipFile(ZIP_FILE_PATH, "r") as z:
+            matches = []
+            for name in z.namelist():
+                # フォルダ名が文字化けしている可能性があるため再デコード
+                decoded_name = name.encode("cp437").decode("utf-8", errors="ignore")
+
+                # JSONファイルのみを対象
+                if not decoded_name.endswith(".json"):
+                    continue
+
+                with z.open(name) as f:
+                    try:
+                        data = json.load(f)
+                        for msg in data:
+                            if invoice_id in msg.get("text", ""):
+                                matches.append({
+                                    "channel": decoded_name.split("/")[0],
+                                    "user": msg.get("user", ""),
+                                    "text": msg.get("text", ""),
+                                    "ts": msg.get("ts", "")
+                                })
+                    except Exception:
+                        continue
+
+            if not matches:
+                return {"status": "not found", "invoice": invoice_id}
+
+            return {
+                "invoice": invoice_id,
+                "count": len(matches),
+                "messages": matches
+            }
+
+    except Exception as e:
+        return {"error": str(e)}
+
+# ======================================================
+# 🚀 起動時イベント
+# ======================================================
 @app.on_event("startup")
 async def startup_event():
     print("🚀 アプリケーション起動中...")
