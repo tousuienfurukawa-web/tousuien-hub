@@ -19,4 +19,6 @@ COPY . .
 ENV PORT=10000
 
 # 起動コマンド（Flaskアプリ）
+RUN python app/init_data.py
 CMD ["python", "app/run_autopush.py"]
+
