@@ -12,14 +12,12 @@ os.makedirs(RAW_DIR, exist_ok=True)
 def safe_extract(zip_ref, dest):
     """日本語ファイル名の文字化けを修正しながら展開"""
     for zip_info in zip_ref.infolist():
-        # ファイル名をcp437→utf-8へ変換（Slackエクスポート用）
         try:
             fixed_name = zip_info.filename.encode('cp437').decode('utf-8')
         except Exception:
             fixed_name = zip_info.filename
         target_path = os.path.join(dest, fixed_name)
-        if not os.path.exists(os.path.dirname(target_path)):
-            os.makedirs(os.path.dirname(target_path), exist_ok=True)
+        os.makedirs(os.path.dirname(target_path), exist_ok=True)
         with zip_ref.open(zip_info) as source, open(target_path, "wb") as target:
             target.write(source.read())
 
@@ -33,6 +31,7 @@ if os.path.exists(SRC):
             for file in files:
                 if not file.endswith(".json"):
                     continue
+
                 path = os.path.join(root, file)
                 try:
                     with open(path, "r", encoding="utf-8") as f:
@@ -41,8 +40,17 @@ if os.path.exists(SRC):
                     print(f"⚠️ JSON読み込み失敗: {file} ({e})")
                     continue
 
+                # Slackエクスポートは、リスト or 辞書のどちらもあり得る
+                if isinstance(data, dict):
+                    data = [data]
+
                 for msg in data:
+                    if not isinstance(msg, dict):
+                        continue  # str や list を無視
                     text = msg.get("text", "")
+                    if not isinstance(text, str):
+                        continue
+
                     if "TSE-" in text:
                         parts = text.split("TSE-")[1].split()[0].split("\n")[0]
                         inv_code = "TSE-" + parts
@@ -51,7 +59,7 @@ if os.path.exists(SRC):
                         if os.path.exists(dest_path):
                             with open(dest_path, "r", encoding="utf-8") as ex:
                                 old = json.load(ex)
-                            old["messages"].append(msg)
+                            old.setdefault("messages", []).append(msg)
                             with open(dest_path, "w", encoding="utf-8") as out:
                                 json.dump(old, out, ensure_ascii=False, indent=2)
                         else:
