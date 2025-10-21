@@ -52,7 +52,6 @@ if os.path.exists(SRC):
 
                 for msg in normalize_data(data):
                     try:
-                        # ここをtry内に移動 → メッセージごとに個別防御
                         if not isinstance(msg, dict):
                             skipped += 1
                             continue
