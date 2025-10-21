@@ -9,8 +9,20 @@ from fastapi.responses import HTMLResponse
 app = FastAPI()
 ZIP_FILE_PATH = Path("slack_export_latest.zip")
 
+def find_thread_candidates(all_files, ts):
+    candidates = []
+    for f in all_files:
+        try:
+            decoded = f.encode("cp437").decode("utf-8", errors="ignore")
+        except Exception:
+            decoded = f
+        # 旧形式の threads フォルダ または 新形式の thread フォルダ 両方に対応
+        if ("/threads/" in decoded.lower() or "/thread/" in decoded.lower()) and decoded.endswith(f"{ts}.json"):
+            candidates.append(f)
+    return candidates
+
 # ==================================================
-# 💬 Slackスレッド取得（threadsフォルダ・旧新対応）
+# 💬 Slackスレッド取得（返信確実取得 + 複数threadフォルダ対応）
 # ==================================================
 @app.get("/slack/thread/{invoice_id}")
 async def get_slack_thread(invoice_id: str):
@@ -22,94 +34,88 @@ async def get_slack_thread(invoice_id: str):
             all_files = z.namelist()
             matches = []
 
+            # 全メッセージをtsで辞書化（返信検索用）
+            ts_map = {}
             for name in all_files:
                 if not name.endswith(".json"):
                     continue
                 try:
-                    # チャンネルディレクトリ名を取得 (例: "general")
-                    channel_dir = name.split("/")[0] if "/" in name else "(root)"
-                    if channel_dir == "(root)":
-                        continue  # ルートのjsonファイルは通常チャンネルデータではない
-
                     with z.open(name) as f:
                         data = json.load(f)
                 except Exception:
                     continue
+                if not isinstance(data, list):
+                    continue
+                for msg in data:
+                    if isinstance(msg, dict) and "ts" in msg:
+                        ts_map[msg["ts"]] = msg
 
+            for name in all_files:
+                if not name.endswith(".json"):
+                    continue
+                try:
+                    with z.open(name) as f:
+                        data = json.load(f)
+                except Exception:
+                    continue
                 if not isinstance(data, list):
                     continue
 
                 for msg in data:
                     if not isinstance(msg, dict):
                         continue
-
                     text = msg.get("text", "")
                     if not text:
                         continue
 
-                    # ▼ ゆらぎ対応
                     normalized_invoice = (
-                        invoice_id.strip()
-                        .lower()
-                        .replace("tse-", "")
-                        .replace("ts-", "")
-                        .replace("t-", "")
-                        .replace(" ", "")
+                        invoice_id.strip().lower().replace("tse-", "").replace("ts-", "").replace("t-", "").replace(" ", "")
                     )
                     text_norm = text.lower().replace(" ", "")
-                    if (
-                        normalized_invoice not in text_norm
-                        and invoice_id.lower() not in text_norm
-                        and f"tse-{normalized_invoice}" not in text_norm
-                    ):
+                    if (normalized_invoice not in text_norm and invoice_id.lower() not in text_norm and f"tse-{normalized_invoice}" not in text_norm):
                         continue
 
                     entry = {
                         "file": name,
-                        "channel": channel_dir,
+                        "channel": name.split("/")[0] if "/" in name else "(root)",
                         "user": msg.get("user", ""),
                         "text": text,
                         "ts": msg.get("ts", ""),
                         "replies": []
                     }
 
+                    # まず repliesフィールドがあれば返信TSを取得し本文を付与
+                    for reply_ref in msg.get("replies", []):
+                        reply_ts = reply_ref.get("ts")
+                        if reply_ts and reply_ts in ts_map:
+                            reply_msg = ts_map[reply_ts]
+                            entry["replies"].append({
+                                "user": reply_msg.get("user", ""),
+                                "text": reply_msg.get("text", ""),
+                                "ts": reply_ts
+                            })
+
+                    # さらに旧新スレッドフォルダの両方を探索して返信JSONがあれば合成する
                     ts = msg.get("ts")
-                    if not ts:
-                        matches.append(entry)
-                        continue
-
-                    # --- スレッド検索ロジック ---
-                    expected_thread_path = f"{channel_dir}/threads/{ts}.json"
-
-                    # ファイル名の文字化けにも対応（cp437→utf-8）
-                    thread_candidates = []
-                    for f in all_files:
-                        try:
-                            decoded = f.encode("cp437").decode("utf-8", errors="ignore")
-                        except Exception:
-                            decoded = f
-                        if (
-                            "thread" in decoded.lower()
-                            and decoded.split("/")[-1].startswith(ts)
-                        ):
-                            thread_candidates.append(f)
-
-                    for tpath in thread_candidates:
-                        try:
-                            with z.open(tpath) as tf:
-                                replies = json.load(tf)
-                                if isinstance(replies, list):
-                                    for r in replies:
-                                        if not isinstance(r, dict):
-                                            continue
-                                        entry["replies"].append({
-                                            "user": r.get("user", ""),
-                                            "text": r.get("text", ""),
-                                            "ts": r.get("ts", "")
-                                        })
-                        except Exception as e:
-                            print(f"⚠️ スレッド読込失敗: {tpath} ({e})")
-
+                    if ts:
+                        thread_candidates = find_thread_candidates(all_files, ts)
+                        for tpath in thread_candidates:
+                            try:
+                                with z.open(tpath) as tf:
+                                    replies = json.load(tf)
+                                    if isinstance(replies, list):
+                                        for r in replies:
+                                            if not isinstance(r, dict):
+                                                continue
+                                            # 返信がまだなければ追加
+                                            if not any(r.get("ts") == rep["ts"] for rep in entry["replies"]):
+                                                entry["replies"].append({
+                                                    "user": r.get("user", ""),
+                                                    "text": r.get("text", ""),
+                                                    "ts": r.get("ts", "")
+                                                })
+                            except Exception:
+                                continue
                     matches.append(entry)
 
             if not matches:
@@ -120,9 +126,8 @@ async def get_slack_thread(invoice_id: str):
     except Exception as e:
         return {"error": str(e)}
 
-
 # ==================================================
-# 🧾 SlackスレッドHTML出力（Slack風＋replies表示）
+# 🧾 SlackスレッドHTML出力（返信確実取得 + 複数threadフォルダ対応）
 # ==================================================
 @app.get("/slack/thread_html/{invoice_id}", response_class=HTMLResponse)
 async def get_slack_thread_html(invoice_id: str):
@@ -131,37 +136,45 @@ async def get_slack_thread_html(invoice_id: str):
 
     with zipfile.ZipFile(ZIP_FILE_PATH, "r") as z:
         all_files = z.namelist()
-        matches = []
 
+        # tsでメッセージ辞書化
+        ts_map = {}
         for name in all_files:
             if not name.endswith(".json"):
                 continue
             try:
-                channel_dir = name.split("/")[0] if "/" in name else "(root)"
-                if channel_dir == "(root)":
-                    continue
                 with z.open(name) as f:
                     data = json.load(f)
             except Exception:
                 continue
+            if not isinstance(data, list):
+                continue
+            for msg in data:
+                if isinstance(msg, dict) and "ts" in msg:
+                    ts_map[msg["ts"]] = msg
 
+        matches = []
+        for name in all_files:
+            if not name.endswith(".json"):
+                continue
+            try:
+                with z.open(name) as f:
+                    data = json.load(f)
+            except Exception:
+                continue
             if not isinstance(data, list):
                 continue
 
             for msg in data:
                 if not isinstance(msg, dict):
                     continue
+
                 text = msg.get("text", "")
                 if not text:
                     continue
 
                 normalized_invoice = (
-                    invoice_id.strip()
-                    .lower()
-                    .replace("tse-", "")
-                    .replace("ts-", "")
-                    .replace("t-", "")
-                    .replace(" ", "")
+                    invoice_id.strip().lower().replace("tse-", "").replace("ts-", "").replace("t-", "").replace(" ", "")
                 )
                 text_norm = text.lower().replace(" ", "")
                 if (
@@ -173,41 +186,43 @@ async def get_slack_thread_html(invoice_id: str):
 
                 entry = {
                     "file": name,
-                    "channel": channel_dir,
+                    "channel": name.split("/")[0] if "/" in name else "(root)",
                     "user": msg.get("user", ""),
                     "text": text.replace("\n", "<br>"),
                     "ts": msg.get("ts", ""),
                     "replies": []
                 }
 
+                # repliesフィールドから返信を取得
+                for reply_ref in msg.get("replies", []):
+                    reply_ts = reply_ref.get("ts")
+                    if reply_ts and reply_ts in ts_map:
+                        reply_msg = ts_map[reply_ts]
+                        entry["replies"].append({
+                            "user": reply_msg.get("user", ""),
+                            "text": reply_msg.get("text", "").replace("\n", "<br>")
+                        })
+
+                # 旧新スレッドフォルダ両方を探索してスレッド返信JSON追加
                 ts = msg.get("ts")
-                if not ts:
-                    matches.append(entry)
-                    continue
-
-                thread_candidates = []
-                for f in all_files:
-                    try:
-                        decoded = f.encode("cp437").decode("utf-8", errors="ignore")
-                    except Exception:
-                        decoded = f
-                    if "thread" in decoded.lower() and decoded.split("/")[-1].startswith(ts):
-                        thread_candidates.append(f)
-
-                for tpath in thread_candidates:
-                    try:
-                        with z.open(tpath) as tf:
-                            replies = json.load(tf)
-                            if isinstance(replies, list):
-                                for r in replies:
-                                    if not isinstance(r, dict):
-                                        continue
-                                    entry["replies"].append({
-                                        "user": r.get("user", ""),
-                                        "text": r.get("text", "").replace("\n", "<br>")
-                                    })
-                    except Exception:
-                        continue
+                if ts:
+                    thread_candidates = find_thread_candidates(all_files, ts)
+                    for tpath in thread_candidates:
+                        try:
+                            with z.open(tpath) as tf:
+                                replies = json.load(tf)
+                                if isinstance(replies, list):
+                                    for r in replies:
+                                        if not isinstance(r, dict):
+                                            continue
+                                        # 重複防止
+                                        if not any(r.get("ts") == rep.get("ts") for rep in entry["replies"]):
+                                            entry["replies"].append({
+                                                "user": r.get("user", ""),
+                                                "text": r.get("text", "").replace("\n", "<br>")
+                                            })
+                        except Exception:
+                            continue
 
                 matches.append(entry)
 
@@ -235,7 +250,6 @@ async def get_slack_thread_html(invoice_id: str):
             html += "</div>"
 
         return html
-
 
 # ==================================================
 # 🚀 ローカル or Render起動時のメイン
