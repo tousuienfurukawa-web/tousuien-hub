@@ -1,222 +1,71 @@
 # -*- coding: utf-8 -*-
 import os
-import zipfile
-import json
-from datetime import datetime
-from pathlib import Path
-from fastapi import FastAPI
-from fastapi.responses import FileResponse, HTMLResponse
+from slack_sdk import WebClient
+from slack_sdk.errors import SlackApiError
+import time
 
-# ======================================================
-# 🚀 FastAPI アプリケーション設定
-# ======================================================
-app = FastAPI()
+# Slackクライアント設定
+slack_token = os.getenv("SLACK_BOT_TOKEN")
 
-# ZIPファイルのパス
-ZIP_FILE_PATH = Path("slack_export_latest.zip")
+if not slack_token:
+    print("❌ エラー: SLACK_BOT_TOKEN が設定されていません")
+    exit(1)
 
-# ======================================================
-# 🧾 JSON出力（全フォルダ・旧形式対応）
-# ======================================================
-@app.get("/slack/thread/{invoice_id}")
-async def get_slack_thread(invoice_id: str):
-    """SlackエクスポートZIP内の全ファイル（旧形式・新形式両対応）から受注番号を検索しJSONで返す"""
-    if not ZIP_FILE_PATH.exists():
-        return {"error": "ZIP file not found"}
+client = WebClient(token=slack_token)
 
+# 対象チャンネル一覧
+channels = {
+    "なんでもOK": "C033G42K9DG",
+    "サンプル出荷": "C05G1KRTDF1",
+    "groene-company": "C033G4QF8BD",
+    "受注": "C03C62NBSDP"
+}
+
+def fetch_messages(channel_name, channel_id):
     try:
-        with zipfile.ZipFile(ZIP_FILE_PATH, "r") as z:
-            matches = []
-            all_files = z.namelist()
+        print(f"🔄 {channel_name}（{channel_id}） のメッセージを取得中...")
+        response = client.conversations_history(channel=channel_id, limit=200)
+        messages = response.get("messages", [])
+        print(f"✅ {channel_name}: {len(messages)} 件のメッセージを取得しました。")
+        return messages
 
-            for name in all_files:
-                try:
-                    decoded_name = name.encode("cp437").decode("utf-8", errors="ignore")
-                except Exception:
-                    decoded_name = name
+    except SlackApiError as e:
+        error_msg = e.response.get('error', 'unknown')
+        print(f"⚠️ {channel_name} エラー: {error_msg}")
+        
+        if error_msg == "channel_not_found":
+            print(f"   → チャンネルID {channel_id} が見つかりません")
+            print(f"   → Botがチャンネルに追加されているか確認してください")
+        elif error_msg == "not_in_channel":
+            print(f"   → Botがチャンネル {channel_id} に参加していません")
+        
+        return []
 
-                if not decoded_name.endswith(".json"):
-                    continue
+def main():
+    print("=" * 50)
+    print("📡 Slack同期処理を開始します")
+    print("=" * 50)
+    
+    all_messages = []
+    success_count = 0
+    error_count = 0
 
-                try:
-                    with z.open(name) as f:
-                        data = json.load(f)
-                except Exception:
-                    continue
+    for name, cid in channels.items():
+        msgs = fetch_messages(name, cid)
+        if msgs:
+            all_messages.extend(msgs)
+            success_count += 1
+        else:
+            error_count += 1
+        time.sleep(1)
 
-                if not isinstance(data, list):
-                    continue
+    print("=" * 50)
+    print(f"📦 結果: 成功 {success_count}件 / エラー {error_count}件")
+    print(f"📦 合計 {len(all_messages)} 件のメッセージを収集しました")
+    print("=" * 50)
+    
+    if error_count > 0:
+        print("⚠️ 一部のチャンネルでエラーが発生しましたが、処理は完了しました")
 
-                for msg in data:
-                    text = msg.get("text", "")
-                    if invoice_id not in text:
-                        continue
-
-                    entry = {
-                        "file": decoded_name,
-                        "channel": decoded_name.split("/")[0] if "/" in decoded_name else "(root)",
-                        "user": msg.get("user", ""),
-                        "text": text,
-                        "ts": msg.get("ts", ""),
-                        "replies": []
-                    }
-
-                    ts = msg.get("ts")
-                    if ts:
-                        thread_path_new = f"{entry['channel']}/threads/{ts}.json"
-                        thread_path_old = f"{ts}.json"
-
-                        for tpath in [thread_path_new, thread_path_old]:
-                            if tpath in all_files:
-                                try:
-                                    with z.open(tpath) as tf:
-                                        replies = json.load(tf)
-                                        if isinstance(replies, list):
-                                            for r in replies:
-                                                entry["replies"].append({
-                                                    "user": r.get("user", ""),
-                                                    "text": r.get("text", "")
-                                                })
-                                except Exception:
-                                    pass
-
-                    matches.append(entry)
-
-            if not matches:
-                return {"status": "not found", "invoice": invoice_id}
-
-            return {
-                "invoice": invoice_id,
-                "count": len(matches),
-                "messages": matches
-            }
-
-    except Exception as e:
-        return {"error": str(e)}
-
-
-# ======================================================
-# 🌸 HTML出力（Slack風整形表示・スレッド返信対応）
-# ======================================================
-@app.get("/slack/thread_html/{invoice_id}", response_class=HTMLResponse)
-async def get_slack_thread_html(invoice_id: str):
-    """SlackエクスポートZIPのスレッドをHTML整形で表示（旧形式・新形式両対応）"""
-    if not ZIP_FILE_PATH.exists():
-        return "<h3>⚠️ ZIPファイルが見つかりません。</h3>"
-
-    try:
-        with zipfile.ZipFile(ZIP_FILE_PATH, "r") as z:
-            matches = []
-            all_files = z.namelist()
-
-            for name in all_files:
-                try:
-                    decoded_name = name.encode("cp437").decode("utf-8", errors="ignore")
-                except Exception:
-                    decoded_name = name
-
-                if not decoded_name.endswith(".json"):
-                    continue
-
-                try:
-                    with z.open(name) as f:
-                        data = json.load(f)
-                except Exception:
-                    continue
-
-                if not isinstance(data, list):
-                    continue
-
-                for msg in data:
-                    text = msg.get("text", "")
-                    if invoice_id not in text:
-                        continue
-
-                    entry = {
-                        "file": decoded_name,
-                        "channel": decoded_name.split("/")[0] if "/" in decoded_name else "(root)",
-                        "user": msg.get("user", ""),
-                        "text": text.replace("\n", "<br>"),
-                        "ts": msg.get("ts", ""),
-                        "replies": []
-                    }
-
-                    ts = msg.get("ts")
-                    if ts:
-                        thread_path_new = f"{entry['channel']}/threads/{ts}.json"
-                        thread_path_old = f"{ts}.json"
-
-                        for tpath in [thread_path_new, thread_path_old]:
-                            if tpath in all_files:
-                                try:
-                                    with z.open(tpath) as tf:
-                                        replies = json.load(tf)
-                                        if isinstance(replies, list):
-                                            for r in replies:
-                                                entry["replies"].append({
-                                                    "user": r.get("user", ""),
-                                                    "text": r.get("text", "").replace("\n", "<br>")
-                                                })
-                                except Exception:
-                                    pass
-
-                    matches.append(entry)
-
-            if not matches:
-                return f"<h3>❌ 該当スレッドが見つかりません（{invoice_id}）</h3>"
-
-            # --- HTML構築 ---
-            html = f"<h2>🧾 受注番号：{invoice_id}</h2>"
-            html += "<style>body{font-family:sans-serif;background:#fff;color:#333;} .msg{border:1px solid #ccc;border-radius:8px;padding:10px;margin:10px;background:#f9f9f9;} .reply{margin-left:20px;border-left:3px solid #ccc;padding-left:10px;background:#fff;} .user{font-weight:bold;color:#0366d6;} </style>"
-
-            for msg in matches:
-                ts = msg.get("ts", "")
-                date_str = ""
-                if ts:
-                    date_str = datetime.fromtimestamp(float(ts.split('.')[0])).strftime("%Y-%m-%d %H:%M:%S")
-
-                html += f"""
-                <div class='msg'>
-                    <p><span class='user'>👤 {msg['user']}</span> <small>({msg['channel']})</small></p>
-                    <p>{msg['text']}</p>
-                    <p><i>🕒 {date_str}</i></p>
-                """
-
-                if msg["replies"]:
-                    html += "<div class='reply'><b>💬 スレッド返信:</b>"
-                    for r in msg["replies"]:
-                        html += f"<p><span class='user'>👤 {r['user']}</span> {r['text']}</p>"
-                    html += "</div>"
-
-                html += "</div>"
-
-            return html
-
-    except Exception as e:
-        return f"<h3>⚠️ エラー: {e}</h3>"
-
-
-# ======================================================
-# 📦 ZIPダウンロード確認
-# ======================================================
-@app.get("/slack_export_latest.zip")
-async def get_slack_export():
-    """ZIPファイルをダウンロード"""
-    if not ZIP_FILE_PATH.exists():
-        return {"error": "ZIP file not found"}
-    return FileResponse(
-        path=str(ZIP_FILE_PATH),
-        media_type="application/zip",
-        filename="slack_export_latest.zip"
-    )
-
-# ======================================================
-# 🚀 起動時ログ
-# ======================================================
-@app.on_event("startup")
-async def startup_event():
-    print("🚀 アプリケーション起動中...")
-    if ZIP_FILE_PATH.exists():
-        print(f"✅ ZIP found: {ZIP_FILE_PATH}")
-    else:
-        print("⚠️ ZIP file not found at startup")
+if __name__ == "__main__":
+    main()
