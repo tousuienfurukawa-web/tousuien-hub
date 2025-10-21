@@ -4,31 +4,89 @@ import json
 
 SRC = "/app/slack_export_latest.zip"
 DEST = "/app/data/slack_threads"
+RAW_DIR = "/app/data/slack_raw"
 
 os.makedirs(DEST, exist_ok=True)
+os.makedirs(RAW_DIR, exist_ok=True)
+
+def safe_extract(zip_ref, dest):
+    """日本語ファイル名の文字化けを修正しながら展開"""
+    for zip_info in zip_ref.infolist():
+        try:
+            fixed_name = zip_info.filename.encode("cp437").decode("utf-8")
+        except Exception:
+            fixed_name = zip_info.filename
+        target_path = os.path.join(dest, fixed_name)
+        os.makedirs(os.path.dirname(target_path), exist_ok=True)
+        with zip_ref.open(zip_info) as source, open(target_path, "wb") as target:
+            target.write(source.read())
+
+def normalize_data(data):
+    """Slack JSONデータを常にリスト化"""
+    if isinstance(data, dict):
+        return [data]
+    elif isinstance(data, list):
+        return data
+    else:
+        return []
 
 if os.path.exists(SRC):
     try:
         with zipfile.ZipFile(SRC, "r") as zip_ref:
-            zip_ref.extractall("/app/data/slack_raw")
+            safe_extract(zip_ref, RAW_DIR)
 
-        # 簡易処理: 各チャンネルJSONから TSE- を含むスレッドを抽出
-        for root, _, files in os.walk("/app/data/slack_raw"):
+        found = 0
+        skipped = 0
+
+        for root, _, files in os.walk(RAW_DIR):
             for file in files:
                 if not file.endswith(".json"):
                     continue
-                with open(os.path.join(root, file), "r", encoding="utf-8") as f:
-                    data = json.load(f)
-                for msg in data:
-                    text = msg.get("text", "")
-                    if "TSE-" in text:
-                        inv = text.split("TSE-")[1].split()[0]
-                        inv_code = "TSE-" + inv
-                        out_path = os.path.join(DEST, f"{inv_code}.json")
-                        with open(out_path, "w", encoding="utf-8") as out:
-                            json.dump({"messages": [msg]}, out, ensure_ascii=False, indent=2)
-        print("✅ Slack threads extracted successfully.")
+                path = os.path.join(root, file)
+                try:
+                    with open(path, "r", encoding="utf-8") as f:
+                        data = json.load(f)
+                    if data is None:
+                        raise ValueError("JSON returned None")
+                except Exception as e:
+                    print(f"⚠️ JSON読み込み失敗: {file} ({e})")
+                    continue
+
+                for msg in normalize_data(data):
+                    try:
+                        if not isinstance(msg, dict):
+                            skipped += 1
+                            continue
+                        text = msg.get("text")
+                        if not isinstance(text, str):
+                            skipped += 1
+                            continue
+                        if "TSE-" not in text:
+                            skipped += 1
+                            continue
+
+                        parts = text.split("TSE-")[1].split()[0].split("\n")[0]
+                        inv_code = "TSE-" + parts
+                        dest_path = os.path.join(DEST, f"{inv_code}.json")
+
+                        if os.path.exists(dest_path):
+                            with open(dest_path, "r", encoding="utf-8") as ex:
+                                old = json.load(ex)
+                            old.setdefault("messages", []).append(msg)
+                            with open(dest_path, "w", encoding="utf-8") as out:
+                                json.dump(old, out, ensure_ascii=False, indent=2)
+                        else:
+                            with open(dest_path, "w", encoding="utf-8") as out:
+                                json.dump({"messages": [msg]}, out, ensure_ascii=False, indent=2)
+
+                        found += 1
+                    except Exception as e:
+                        skipped += 1
+                        continue
+
+        print(f"✅ Extracted {found} messages from Slack export into {DEST}")
+        print(f"⚙️ Skipped {skipped} invalid entries")
     except Exception as e:
-        print("⚠️ Extraction failed:", e)
+        print("⚠️ Extraction failed unexpectedly:", e)
 else:
     print("⚠️ No slack_export_latest.zip found.")
