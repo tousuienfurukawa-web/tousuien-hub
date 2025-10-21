@@ -128,54 +128,11 @@ async def trigger_sync():
     return {"status": "sync completed"}
 
 # ======================================================
-# 🧾 SlackエクスポートZIPから受注番号を検索（JSON形式）
-# ======================================================
-@app.get("/slack/thread/{invoice_id}")
-async def get_slack_thread(invoice_id: str):
-    """SlackエクスポートZIP内から受注番号スレッドを検索してJSONで返す"""
-    if not ZIP_FILE_PATH.exists():
-        return {"error": "ZIP file not found"}
-
-    try:
-        with zipfile.ZipFile(ZIP_FILE_PATH, "r") as z:
-            matches = []
-            for name in z.namelist():
-                decoded_name = name.encode("cp437").decode("utf-8", errors="ignore")
-                if not decoded_name.endswith(".json"):
-                    continue
-
-                with z.open(name) as f:
-                    try:
-                        data = json.load(f)
-                        for msg in data:
-                            if invoice_id in msg.get("text", ""):
-                                matches.append({
-                                    "channel": decoded_name.split("/")[0],
-                                    "user": msg.get("user", ""),
-                                    "text": msg.get("text", ""),
-                                    "ts": msg.get("ts", "")
-                                })
-                    except Exception:
-                        continue
-
-            if not matches:
-                return {"status": "not found", "invoice": invoice_id}
-
-            return {
-                "invoice": invoice_id,
-                "count": len(matches),
-                "messages": matches
-            }
-
-    except Exception as e:
-        return {"error": str(e)}
-
-# ======================================================
-# 🌸 SlackエクスポートZIPから受注番号を検索（HTML形式）
+# 🧾 SlackエクスポートZIPから受注番号を検索（HTML形式・スレッド返信対応）
 # ======================================================
 @app.get("/slack/thread_html/{invoice_id}", response_class=HTMLResponse)
 async def get_slack_thread_html(invoice_id: str):
-    """SlackエクスポートZIP内の受注スレッドをHTMLで表示"""
+    """SlackエクスポートZIP内の受注スレッドをHTMLで表示（スレッド返信対応）"""
     if not ZIP_FILE_PATH.exists():
         return "<h3>⚠️ ZIPファイルが見つかりません。</h3>"
 
@@ -204,20 +161,48 @@ async def get_slack_thread_html(invoice_id: str):
             return f"<h3>❌ 該当スレッドが見つかりません（{invoice_id}）</h3>"
 
         html = f"<h2>🧾 受注番号：{invoice_id}</h2>"
+
         for msg in matches:
+            ts = msg.get("ts", "")
             text = msg["text"].replace("\n", "<br>")
             text = text.replace(":flag-th:", "🇹🇭")
-            text = text.replace("<!subteam^", "@").replace(">", "")
-            ts = msg.get("ts", "")
-            date_str = datetime.fromtimestamp(float(ts.split('.')[0])).strftime("%Y-%m-%d %H:%M:%S") if ts else ""
+
+            # --- スレッド返信を読み込む ---
+            thread_replies = []
+            thread_path = f"{msg['channel']}/threads/{ts}.json"
+            if thread_path in z.namelist():
+                with z.open(thread_path) as tf:
+                    try:
+                        replies = json.load(tf)
+                        for r in replies:
+                            thread_replies.append({
+                                "user": r.get("user", ""),
+                                "text": r.get("text", "").replace("\n", "<br>")
+                            })
+                    except Exception:
+                        pass
+
+            # --- HTML整形 ---
+            date_str = ""
+            if ts:
+                date_str = datetime.fromtimestamp(float(ts.split('.')[0])).strftime("%Y-%m-%d %H:%M:%S")
+
             html += f"""
             <div style='border:1px solid #ccc; border-radius:8px; padding:10px; margin:10px; background:#f9f9f9;'>
                 <p><b>チャンネル：</b>{msg['channel']}</p>
                 <p><b>投稿者：</b>{msg['user']}</p>
                 <p><b>本文：</b><br>{text}</p>
                 <p><i>投稿日：{date_str}</i></p>
-            </div>
             """
+
+            if thread_replies:
+                html += "<div style='margin-left:20px; border-left:3px solid #ccc; padding-left:10px; background:#fff;'>"
+                html += "<p><b>💬 スレッド返信:</b></p>"
+                for r in thread_replies:
+                    html += f"<p>👤 {r['user']}：{r['text']}</p>"
+                html += "</div>"
+
+            html += "</div>"
 
         return f"<body style='font-family: sans-serif; background:#fff; color:#333;'>{html}</body>"
 
