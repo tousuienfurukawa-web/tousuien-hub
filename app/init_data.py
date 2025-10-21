@@ -10,13 +10,16 @@ os.makedirs(DEST, exist_ok=True)
 os.makedirs(RAW_DIR, exist_ok=True)
 
 def safe_extract(zip_ref, dest):
-    """日本語ファイル名の文字化けを修正しながら展開"""
+    """日本語ファイル名の文字化けを修正しながら展開（ディレクトリは除外）"""
     for zip_info in zip_ref.infolist():
         try:
             fixed_name = zip_info.filename.encode("cp437").decode("utf-8")
         except Exception:
             fixed_name = zip_info.filename
         target_path = os.path.join(dest, fixed_name)
+        if zip_info.is_dir():
+            os.makedirs(target_path, exist_ok=True)
+            continue
         os.makedirs(os.path.dirname(target_path), exist_ok=True)
         with zip_ref.open(zip_info) as source, open(target_path, "wb") as target:
             target.write(source.read())
@@ -43,7 +46,7 @@ if os.path.exists(SRC):
                 path = os.path.join(root, file)
                 if not file.endswith(".json"):
                     continue
-                if not os.path.isfile(path):  # ディレクトリを除外
+                if not os.path.isfile(path):  # ← ここでディレクトリ除外
                     continue
                 try:
                     with open(path, "r", encoding="utf-8") as f:
