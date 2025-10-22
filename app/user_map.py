@@ -8,10 +8,10 @@ from pathlib import Path
 ZIP_FILE_PATH = Path("slack_export_latest.zip")
 
 # ------------------------------------------------------------
-# 🔹 手動定義マッピング（users.json に無いときの補完）
+# 🔹 手動定義マッピング（users.json に無い or 日本語優先で上書き）
 # ------------------------------------------------------------
 USER_MAP = {
-    "U08N3SKSL75": "木村",
+    "U08N3SKSL75": "木村",       # ← 修正済（末村 → 木村）
     "U08RVNRBY0O": "長谷川",
     "U0331FZS7JT": "岡 祐太",
     "U0331FWGQRM": "松井",
@@ -23,10 +23,10 @@ USER_MAP = {
 }
 
 # ------------------------------------------------------------
-# 🔹 users.json から自動でマッピングを追加
+# 🔹 users.json から自動マッピングを追加
 # ------------------------------------------------------------
 def load_user_map_from_zip(zip_path: Path) -> dict:
-    """SlackエクスポートZIP内の users.json からID→表示名マップを生成"""
+    """SlackエクスポートZIP内の users.json から ID→表示名 を取得"""
     if not zip_path.exists():
         return USER_MAP
 
@@ -44,16 +44,18 @@ def load_user_map_from_zip(zip_path: Path) -> dict:
     except Exception as e:
         print(f"[WARN] Failed to load users.json from ZIP: {e}")
 
+    # 🔹 日本語手動定義を最終的に優先
+    user_map.update(USER_MAP)
     return user_map
 
-# ZIPから自動反映
-USER_MAP = load_user_map_from_zip(ZIP_FILE_PATH)
 
 # ------------------------------------------------------------
-# 🔹 名前解決関数（共通利用）
+# 🔹 公開API: ID→名前変換
 # ------------------------------------------------------------
+USER_MAP = load_user_map_from_zip(ZIP_FILE_PATH)
+
 def resolve_user_name(user_id: str) -> str:
-    """Slackの user_id を人間の名前に変換（未登録ならそのまま）"""
+    """Slack IDを人間の名前に変換（未登録ならそのまま）"""
     if not user_id:
         return "不明"
     return USER_MAP.get(user_id, user_id)
