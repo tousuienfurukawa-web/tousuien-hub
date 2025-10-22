@@ -45,6 +45,8 @@ def extract_thread_from_zip(invoice_id):
                 continue
 
             for msg in data:
+                if not isinstance(msg, dict):  # ← 修正ポイント
+                    continue
                 text = msg.get("text", "")
                 if not isinstance(text, str) or normalized_invoice not in normalize_invoice_text(text):
                     continue
@@ -54,6 +56,8 @@ def extract_thread_from_zip(invoice_id):
                 thread_messages = [msg]
 
                 for other_msg in data:
+                    if not isinstance(other_msg, dict):  # ← 修正ポイント
+                        continue
                     if other_msg.get("thread_ts", other_msg.get("ts", "")) == thread_ts and other_msg.get("ts") != ts:
                         thread_messages.append(other_msg)
 
@@ -64,6 +68,8 @@ def extract_thread_from_zip(invoice_id):
                             thread_data = json.load(thread_file)
                             if isinstance(thread_data, list):
                                 for tmsg in thread_data:
+                                    if not isinstance(tmsg, dict):  # ← 修正ポイント
+                                        continue
                                     if tmsg.get("ts") != ts and not any(m.get("ts") == tmsg.get("ts") for m in thread_messages):
                                         thread_messages.append(tmsg)
                     except:
@@ -104,7 +110,6 @@ def generate_gpt_summary(messages):
         status_parts.append("入金確認済み")
     elif re.search(r"(入金|支払い)", joined_text):
         status_parts.append("入金未確認")
-
     if re.search(r"(PL|PackingList|Packing)", joined_text):
         status_parts.append("パッキングリスト修正完了")
 
@@ -119,7 +124,6 @@ def generate_gpt_summary(messages):
         actions.append("💰 入金額は未確認。インボイスと照合が必要です")
     else:
         actions.append("💰 入金状況の確認が必要です")
-
     if re.search(r"\d{4}-\d{2}-\d{2}", joined_text):
         actions.append("📅 納期の確認が必要です")
     if re.search(r"\d+\s?(tins|bags|個|缶)", joined_text):
@@ -154,72 +158,81 @@ async def get_slack_thread_html(invoice_id: str, mode: str = Query(default="repo
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
-        /* スタイルは前半に含まれています */
-        </style>
-    </head>
-    <body>
-    <div class="container">
-        <div class="header">
-            <h1>📋 {invoice_id}</h1>
-            <div class="meta">
-                投稿者: {first_msg.get('user', '不明')} | 
-                最終更新: {format_timestamp(msgs[-1].get('ts', '')) if msgs else '不明'}
-            </div>
-        </div>
-
-        <div class="section">
-            <h2>🧠 GPT要約</h2>
-            <div class="status-box">
-                <strong>現状:</strong> {gpt_info['status']}
-            </div>
-            <h3 style="font-size: 16px; margin-bottom: 12px;">次のアクション</h3>
-            <ul class="action-list">
-                {''.join(f'<li>{action}</li>' for action in gpt_info['actions'])}
-            </ul>
-            {f'<div class="note"><strong>⚠️ 注意:</strong> ' + ', '.join(gpt_info['notes']) + '</div>' if gpt_info['notes'] else ''}
-        </div>
-
-        <div class="section">
-            <h2>💬 主なやり取り概要</h2>
-    """
-
-    for idx, thread in enumerate(msgs):
-        all_msgs = thread.get("all_messages", [])
-        html += f"""
-        <div style="margin-bottom: 24px;">
-            <div style="background: #f3f4f6; padding: 8px 12px; border-radius: 4px; margin-bottom: 8px; font-size: 14px;">
-                スレッド {idx + 1}: {len(all_msgs)}件のメッセージ
-            </div>
-        """
-        for msg in all_msgs:
-            is_first = msg.get("ts") == thread.get("ts")
-            style = "message" if is_first else "reply"
-            html += f"""
-            <div class="{style}">
-                <div class="message-header">
-                    <span class="message-user">{msg.get('user', '不明')}</span>
-                    <span class="message-time">{format_timestamp(msg.get('ts', ''))}</span>
-                </div>
-                <div class="message-text">{msg.get('text', '').replace('<', '&lt;').replace('>', '&gt;')}</div>
-            </div>
-            """
-        html += "</div>"
-
-    html += f"""
-        </div>
-        <div class="section" style="text-align: right; color: #666; font-size: 13px;">
-            出典: Slackスレッド整形データ（<code>{invoice_id}</code>）
-        </div>
-    </div>
-    </body>
-    </html>
-    """
-    return html
-
-if __name__ == "__main__":
-    import uvicorn
-    if not ZIP_FILE_PATH.exists():
-        print("⚠️ slack_export_latest.zip が見つかりません。")
-    else:
-        print("✅ ZIPファイル読み込み成功。")
-    uvicorn.run(app, host="0.0.0.0", port=int(os.environ.get("PORT", 10000)))
+        body {{
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans JP", sans-serif;
+            background: #f5f5f5;
+            color: #1a1a1a;
+            padding: 20px;
+            line-height: 1.6;
+        }}
+        .container {{
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }}
+        .header {{
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 24px;
+        }}
+        .header h1 {{ font-size: 24px; margin-bottom: 8px; }}
+        .header .meta {{ opacity: 0.9; font-size: 14px; }}
+        .section {{
+            padding: 24px;
+            border-bottom: 1px solid #e5e5e5;
+        }}
+        .section:last-child {{ border-bottom: none; }}
+        .section h2 {{
+            font-size: 18px;
+            margin-bottom: 16px;
+            color: #667eea;
+        }}
+        .message {{
+            background: #f9fafb;
+            border-left: 3px solid #667eea;
+            padding: 12px 16px;
+            margin-bottom: 12px;
+            border-radius: 4px;
+        }}
+        .message-header {{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 13px;
+        }}
+        .message-user {{
+            font-weight: 600;
+            color: #667eea;
+        }}
+        .message-time {{ color: #666; }}
+        .message-text {{
+            color: #333;
+            white-space: pre-wrap;
+        }}
+        .reply {{
+            background: white;
+            border-left: 3px solid #94a3b8;
+            padding: 10px 14px;
+            margin: 8px 0 8px 24px;
+            border-radius: 4px;
+        }}
+        .status-box {{
+            background: #f0f9ff;
+            border-left: 4px solid #0ea5e9;
+            padding: 16px;
+            border-radius: 4px;
+            margin-bottom: 16px;
+        }}
+        .action-list {{ list-style: none; }}
+        .action-list li {{
+            padding: 8px 0;
+            padding-left: 24px;
+            position: relative;
+        }}
+        .action-list li:before {{
+            content: "▸";
+            position: absolute;
+            left:
