@@ -122,10 +122,6 @@ def extract_thread_from_zip(invoice_id):
 # 🧠 GPT風要約（内部生成、実データに基づく）
 # ==================================================
 def generate_gpt_summary(messages):
-    """
-    Slackスレッド本文をもとに、GPT風の要約・提案・コメントを生成。
-    ※ 実データベースに基づく内容のみ（ハルシネーション禁止）
-    """
     joined_text = "\n".join(m.get("text", "") for m in messages if m.get("text"))
 
     summary_parts = []
@@ -153,7 +149,7 @@ def generate_gpt_summary(messages):
     }
 
 # ==================================================
-# 🧾 HTML出力：raw / report モード対応（Slack風デザイン）
+# 🧾 HTML出力（Slack風カードUI）
 # ==================================================
 @app.get("/slack/thread_html/{invoice_id}", response_class=HTMLResponse)
 async def get_slack_thread_html(invoice_id: str, mode: str = Query(default="raw")):
@@ -165,7 +161,6 @@ async def get_slack_thread_html(invoice_id: str, mode: str = Query(default="raw"
 
     msgs = data["messages"]
 
-    # 🎨 Slack風カードUI CSS
     html = """
     <style>
     body {
@@ -200,20 +195,15 @@ async def get_slack_thread_html(invoice_id: str, mode: str = Query(default="raw"
       font-size: 0.85em;
       margin-right: 6px;
     }
-    .highlight { color: #047857; font-weight: 500; }
     </style>
     """
 
-    # ✅ mode=raw の場合は原文出力
     if mode == "raw":
         for m in msgs:
             html += f"<div><b>{m['user']}</b>: {m['text'].replace(chr(10), '<br>')}</div><hr>"
         return html
 
-    # 🧠 GPT要約生成
     gpt_info = generate_gpt_summary(msgs)
-
-    # 💡 案件概要
     first_msg = msgs[0] if msgs else {}
     user = first_msg.get("user", "不明")
     date_last = msgs[-1].get("ts", "不明")
@@ -224,10 +214,7 @@ async def get_slack_thread_html(invoice_id: str, mode: str = Query(default="raw"
       <p><span class="badge">投稿者</span> {user}　
       <span class="badge">最終更新</span> {date_last}</p>
     </div>
-    """
 
-    # 💬 コメント要約
-    html += f"""
     <div class="card">
       <h2>💬 コメント要約</h2>
       <ul>
@@ -238,29 +225,12 @@ async def get_slack_thread_html(invoice_id: str, mode: str = Query(default="raw"
             html += f"<li>{text[:150]}</li>"
     html += "</ul></div>"
 
-    # 🧠 GPT要約
     html += f"""
-    <div class="card">
-      <h2>🧠 GPT要約</h2>
-      <p>{gpt_info['summary']}</p>
-    </div>
-    """
-
-    # 🧭 次のアクション
-    html += "<div class='card'><h2>🧭 次のアクション</h2><ul>"
-    for act in gpt_info["next_actions"]:
-        html += f"<li>{act}</li>"
-    html += "</ul></div>"
-
-    # 💬 GPTコメント
-    html += f"""
-    <div class="card">
-      <h2>💬 GPTコメント</h2>
-      <p>{gpt_info['comment']}</p>
-    </div>
-    """
-
-    html += f"""
+    <div class="card"><h2>🧠 GPT要約</h2><p>{gpt_info['summary']}</p></div>
+    <div class="card"><h2>🧭 次のアクション</h2><ul>
+    {''.join(f'<li>{a}</li>' for a in gpt_info['next_actions'])}
+    </ul></div>
+    <div class="card"><h2>💬 GPTコメント</h2><p>{gpt_info['comment']}</p></div>
     <div style='text-align:right;margin-top:20px;font-size:0.9em;color:#666;'>
       <p>出典：Slackスレッド整形データ（<code>{invoice_id}</code>）</p>
     </div>
