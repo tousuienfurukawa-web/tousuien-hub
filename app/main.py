@@ -7,26 +7,11 @@ from datetime import datetime
 from fastapi import FastAPI, Query
 from fastapi.responses import HTMLResponse
 
+# ✅ Slackユーザー名変換を共通化
+from user_map import resolve_user_name
+
 app = FastAPI()
 ZIP_FILE_PATH = Path("slack_export_latest.zip")
-
-# ------------------------------------------------------------
-# 🔹 SlackユーザーID → 表示名マッピング
-# ------------------------------------------------------------
-USER_MAP = {
-    "U0331FWGQRM": "（例）山田 太郎",
-    "U0331FZTHEK": "（例）佐藤 花子",
-    "U041RJKV5JA": "（例）中村 一郎",
-    "U05KGS6HN9H": "（例）田中 美咲",
-    "U0606SPN4BW": "（例）鈴木 健",
-    "U082R7FU1V": "（例）高橋 優",
-    "U08U8MMTH43": "（例）渡辺 真理",
-}
-
-def resolve_user_name(user_id: str) -> str:
-    if not user_id:
-        return "不明"
-    return USER_MAP.get(user_id, user_id)
 
 def normalize_invoice_text(text: str) -> str:
     return text.lower().replace("-", "").replace(" ", "").replace("_", "")
@@ -42,7 +27,7 @@ def escape_html(text: str) -> str:
     return (text or "").replace("<", "&lt;").replace(">", "&gt;")
 
 # ------------------------------------------------------------
-# 🔹 Slack ZIPからスレッド抽出（堅牢版）
+# 🔹 Slack ZIPからスレッド抽出
 # ------------------------------------------------------------
 def extract_thread_from_zip(invoice_id):
     if not ZIP_FILE_PATH.exists():
@@ -56,26 +41,20 @@ def extract_thread_from_zip(invoice_id):
         for name in all_files:
             if not name.endswith(".json"):
                 continue
-
             try:
                 with z.open(name) as f:
                     data = json.load(f)
-            except Exception as e:
+            except Exception:
                 continue
-
-            # ✅ JSONがlistでない場合スキップ
             if not isinstance(data, list):
                 continue
 
             for msg in data:
-                # ✅ dict型でない要素をスキップ
                 if not isinstance(msg, dict):
                     continue
-
                 text = msg.get("text", "")
                 if not text:
                     continue
-
                 if normalized_invoice not in normalize_invoice_text(text):
                     continue
 
@@ -83,7 +62,6 @@ def extract_thread_from_zip(invoice_id):
                 thread_ts = msg.get("thread_ts", ts)
                 thread_messages = [msg]
 
-                # スレッド返信を集約
                 for other_msg in data:
                     if not isinstance(other_msg, dict):
                         continue
@@ -102,7 +80,7 @@ def extract_thread_from_zip(invoice_id):
         return {"invoice": invoice_id, "messages": matches}
 
 # ------------------------------------------------------------
-# 🔹 要約生成
+# 🔹 要約（reportモード）
 # ------------------------------------------------------------
 def generate_gpt_summary(messages):
     all_texts = []
@@ -121,12 +99,12 @@ def generate_gpt_summary(messages):
     return {"status": status, "actions": actions, "notes": []}
 
 # ------------------------------------------------------------
-# 🔹 HTML生成（report / raw両対応）
+# 🔹 HTML生成（report / raw）
 # ------------------------------------------------------------
 def build_report_html(invoice_id, msgs, gpt_info):
     total_threads = len(msgs)
     total_messages = sum(len(m.get("all_messages", [])) for m in msgs)
-    participants = sorted({resolve_user_name(m.get("user")) for t in msgs for m in t.get("all_messages", [])})
+    participants = sorted({m.get("user") for t in msgs for m in t.get("all_messages", [])})
     latest_ts = max((float(m.get("ts", 0)) for t in msgs for m in t.get("all_messages", []) if m.get("ts")), default=0)
     last_updated = format_timestamp(latest_ts)
 
@@ -159,17 +137,34 @@ def build_report_html(invoice_id, msgs, gpt_info):
 def build_raw_html(invoice_id, msgs):
     html_msgs = ""
     for t in msgs:
-        html_msgs += f"<h3>💬 スレッド開始: {escape_html(t['text'])}</h3>"
+        html_msgs += f"<h2>💬 スレッド開始: {escape_html(t['text'])}</h2>"
         for m in t["all_messages"]:
-            user = resolve_user_name(m.get("user"))
+            user = m.get("user")
             ts = format_timestamp(m.get("ts"))
             text = escape_html(m.get("text", ""))
-            html_msgs += f"<div style='margin:6px 0;padding:4px;border-bottom:1px solid #eee;'><strong>{user}</strong> ({ts})<br>{text}</div>"
+            html_msgs += f"""
+            <div class='msg'>
+              <div class='bubble'>
+                <div class='meta'><strong>{user}</strong> <span>{ts}</span></div>
+                <div class='text'>{text}</div>
+              </div>
+            </div>
+            """
     html = f"""
     <!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8">
-    <style>body{{font-family:'Noto Sans JP',sans-serif;padding:20px;}}</style></head>
-    <body><h1>📋 {invoice_id}</h1>{html_msgs}
-    <hr><p style='color:#64748b;font-size:12px;'>mode=raw (Tousuien Hub)</p></body></html>
+    <style>
+      body{{font-family:'Noto Sans JP',sans-serif;background:#f9fafb;margin:0;padding:24px;}}
+      h1,h2{{color:#0f172a;}}
+      .msg{{margin:12px 0;}}
+      .bubble{{background:white;border-radius:12px;padding:12px 16px;max-width:80%;box-shadow:0 2px 8px rgba(0,0,0,0.05);}}
+      .meta{{font-size:13px;color:#64748b;margin-bottom:4px;}}
+      .text{{white-space:pre-wrap;word-break:break-word;}}
+    </style></head>
+    <body>
+      <h1>📋 {invoice_id}</h1>
+      {html_msgs}
+      <hr><p style='color:#64748b;font-size:12px;'>mode=raw (Tousuien Hub)</p>
+    </body></html>
     """
     return html
 
@@ -192,13 +187,6 @@ async def get_slack_thread_html(invoice_id: str, mode: str = Query(default="repo
         gpt_info = generate_gpt_summary(msgs)
         return build_report_html(invoice_id, msgs, gpt_info)
 
-# ------------------------------------------------------------
-# 🔹 アプリ起動
-# ------------------------------------------------------------
 if __name__ == "__main__":
     import uvicorn
-    if not ZIP_FILE_PATH.exists():
-        print("⚠️ slack_export_latest.zip が見つかりません。")
-    else:
-        print("✅ ZIPファイル読み込み成功。")
     uvicorn.run(app, host="0.0.0.0", port=int(os.environ.get("PORT", 10000)))
