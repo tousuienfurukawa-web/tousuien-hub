@@ -118,15 +118,20 @@ def build_report_html(invoice_id, msgs, gpt_info):
     last_updated = format_timestamp(latest_ts)
 
     html = f"""
-    <!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8">
-    <style>
-      body{{font-family:"Noto Sans JP",sans-serif;background:#f8fafc;color:#0f172a;padding:24px;line-height:1.6;}}
-      .card{{max-width:760px;margin:0 auto;background:white;border-radius:12px;padding:28px;box-shadow:0 10px 30px rgba(0,0,0,0.05);}}
-      h1{{font-size:24px;margin-bottom:8px;}}
-      .summary{{background:#eff6ff;border-left:5px solid #3b82f6;padding:16px;border-radius:8px;margin-bottom:24px;}}
-      .stat{{background:#f1f5f9;border-radius:8px;padding:12px;margin:8px 0;}}
-      .footer{{text-align:right;color:#64748b;font-size:12px;margin-top:24px;}}
-    </style></head><body>
+    <!DOCTYPE html>
+    <html lang="ja">
+    <head>
+      <meta charset="UTF-8">
+      <style>
+        body {{font-family:"Noto Sans JP",sans-serif;background:#f8fafc;color:#0f172a;padding:24px;line-height:1.6;}}
+        .card {{max-width:760px;margin:0 auto;background:white;border-radius:12px;padding:28px;box-shadow:0 10px 30px rgba(0,0,0,0.05);}}
+        h1 {{font-size:24px;margin-bottom:8px;}}
+        .summary {{background:#eff6ff;border-left:5px solid #3b82f6;padding:16px;border-radius:8px;margin-bottom:24px;}}
+        .stat {{background:#f1f5f9;border-radius:8px;padding:12px;margin:8px 0;}}
+        .footer {{text-align:right;color:#64748b;font-size:12px;margin-top:24px;}}
+      </style>
+    </head>
+    <body>
       <div class="card">
         <h1>📋 {invoice_id}</h1>
         <p style="color:#475569;">最終更新: {last_updated}</p>
@@ -139,7 +144,8 @@ def build_report_html(invoice_id, msgs, gpt_info):
         <div class="stat"><strong>関係者:</strong> {", ".join(participants[:10])}</div>
         <div class="footer">Slackスレッド要約ビュー（{invoice_id}）</div>
       </div>
-    </body></html>
+    </body>
+    </html>
     """
     return html
 
@@ -155,4 +161,80 @@ def build_raw_html(invoice_id, msgs):
             html_msgs += f"""
             <div class='msg'>
               <div class='bubble'>
-                <div class='meta'><strong>{user}</strong> <span>{ts
+                <div class='meta'><strong>{user}</strong> <span>{ts}</span></div>
+                <div class='text'>{text}</div>
+              </div>
+            </div>
+            """
+
+    html = f"""
+    <!DOCTYPE html>
+    <html lang="ja">
+    <head>
+      <meta charset="UTF-8">
+      <style>
+        body {{
+          font-family: 'Noto Sans JP', sans-serif;
+          background: #f9fafb;
+          margin: 0;
+          padding: 24px;
+        }}
+        h1, h2 {{
+          color: #0f172a;
+        }}
+        .msg {{
+          margin: 12px 0;
+        }}
+        .bubble {{
+          background: white;
+          border-radius: 12px;
+          padding: 12px 16px;
+          max-width: 80%;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }}
+        .meta {{
+          font-size: 13px;
+          color: #64748b;
+          margin-bottom: 4px;
+        }}
+        .text {{
+          white-space: pre-wrap;
+          word-break: break-word;
+        }}
+      </style>
+    </head>
+    <body>
+      <h1>📋 {invoice_id}</h1>
+      {html_msgs}
+      <hr>
+      <p style='color:#64748b;font-size:12px;'>mode=raw (Tousuien Hub)</p>
+    </body>
+    </html>
+    """
+    return html
+
+# ------------------------------------------------------------
+# 🔹 エンドポイント
+# ------------------------------------------------------------
+@app.get("/slack/thread_html/{invoice_id}", response_class=HTMLResponse)
+async def get_slack_thread_html(invoice_id: str, mode: str = Query(default="report")):
+    data = extract_thread_from_zip(invoice_id)
+    if "error" in data:
+        return f"<h3>❌ {data['error']}</h3>"
+    if not data.get("messages"):
+        return f"<h3>❌ スレッドが見つかりません（{invoice_id}）</h3>"
+
+    msgs = data["messages"]
+
+    if mode == "raw":
+        return build_raw_html(invoice_id, msgs)
+    else:
+        gpt_info = generate_gpt_summary(msgs)
+        return build_report_html(invoice_id, msgs, gpt_info)
+
+# ------------------------------------------------------------
+# 🔹 アプリ起動
+# ------------------------------------------------------------
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=int(os.environ.get("PORT", 10000)))
