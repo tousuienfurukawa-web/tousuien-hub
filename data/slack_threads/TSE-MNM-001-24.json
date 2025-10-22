@@ -1,0 +1,107 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1720684506.916169",
+      "client_msg_id": "1f93f146-9ebc-4c18-ba80-b5d40569751d",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <@U0331FZTHEK>\nTSE-MNM-001-24_Invoice_PackingList\n:flag-om:オマーン：minimo Speciality Coffee様から注文（サンプル含む）です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1720684506.916169",
+      "reply_count": 5,
+      "reply_users_count": 3,
+      "latest_reply": "1721290125.525059",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U05KGS6HN9H",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1720684568.161069"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1720747650.348619"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1720761563.412479"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1720856282.444439"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1721290125.525059"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "FIAtQ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0331FZTHEK"
+                },
+                {
+                  "type": "text",
+                  "text": "\nTSE-MNM-001-24_Invoice_PackingList\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-om",
+                  "unicode": "1f1f4-1f1f2"
+                },
+                {
+                  "type": "text",
+                  "text": "オマーン：minimo Speciality Coffee様から注文（サンプル含む）です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U033G4KN4TD",
+            "U05KGS6HN9H",
+            "U041RJKV5JA"
+          ],
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

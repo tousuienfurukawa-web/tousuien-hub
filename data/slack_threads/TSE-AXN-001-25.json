@@ -1,0 +1,120 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1745468900.835569",
+      "edited": {
+        "user": "U066P20UQH1",
+        "ts": "1745628221.000000"
+      },
+      "client_msg_id": "b36429e3-34f2-4a97-9de8-58b301c5350f",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-AXN-001-25*\n:us:アメリカ：AXN-Axel Nussbaumer (William Wahoff)様から注文をいただきました。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1745468900.835569",
+      "reply_count": 9,
+      "reply_users_count": 4,
+      "latest_reply": "1746871725.940829",
+      "reply_users": [
+        "U066P20UQH1",
+        "U0331FZTHEK",
+        "U05KGS6HN9H",
+        "U033G4KN4TD"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1745469013.926549"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1745621787.065689"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1745622332.507819"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1745910317.857979"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1746596093.094569"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1746602712.805099"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1746687698.657299"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1746744244.400059"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1746871725.940829"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "SVL19",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-AXN-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "us",
+                  "unicode": "1f1fa-1f1f8"
+                },
+                {
+                  "type": "text",
+                  "text": "アメリカ：AXN-Axel Nussbaumer (William Wahoff)様から注文をいただきました。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

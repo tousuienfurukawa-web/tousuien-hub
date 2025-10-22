@@ -1,0 +1,117 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1738782270.791619",
+      "client_msg_id": "e7f3483b-0076-4b04-818b-748edb640f2a",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:flag-sa:サウジアラビア Bana Alqarni様から注文を頂きました。\n*TSE-BAQ-001-25*  ",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1738782270.791619",
+      "reply_count": 4,
+      "reply_users_count": 3,
+      "latest_reply": "1739867671.767809",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1738782344.824289"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1738805618.054149"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1739146083.503609"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1739867671.767809"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1739867671.767809",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "tK1fF",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " cc "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S072Q871SF9"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-sa",
+                  "unicode": "1f1f8-1f1e6"
+                },
+                {
+                  "type": "text",
+                  "text": "サウジアラビア Bana Alqarni様から注文を頂きました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-BAQ-001-25  ",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U05KGS6HN9H"
+          ],
+          "count": 2
+        },
+        {
+          "name": "donee",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

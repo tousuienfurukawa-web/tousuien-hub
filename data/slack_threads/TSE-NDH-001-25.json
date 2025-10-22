@@ -1,0 +1,732 @@
+{
+  "messages": [
+    {
+      "user": "U041RJKV5JA",
+      "type": "message",
+      "ts": "1737716223.775419",
+      "client_msg_id": "2492200d-cdc3-43ba-aa45-975f975eed25",
+      "text": "<@U0331FWGQRM>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*＜TSE-NDH-001-25-1＞*\n本日、佐川急便にて出荷しました。\nAWB NO. 491768190852\nよろしくお願いいたします。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "aed9eafd9eee",
+        "image_72": "https://avatars.slack-edge.com/2022-09-11/4078874890257_aed9eafd9eee277ba076_72.png",
+        "first_name": "Hirakawa",
+        "real_name": "Hirakawa",
+        "display_name": "平川",
+        "team": "T033D70RR6H",
+        "name": "tousuien.s006",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1736270825.626119",
+      "parent_user_id": "U0331FWGQRM",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "oYXa+",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0331FWGQRM"
+                },
+                {
+                  "type": "text",
+                  "text": "\n "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "＜TSE-NDH-001-25-1＞",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n本日、佐川急便にて出荷しました。\nAWB NO. 491768190852\nよろしくお願いいたします。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "raised_hands",
+          "users": [
+            "U0331FWGQRM"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1737096946.698859",
+      "client_msg_id": "ef034f7b-74e8-4864-83c2-57aeb33a6a23",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n分割出荷でお願いします。\nTSE-NDH-001-25 について、下記のように２つに分けました。\n（追加の支払いは要求しません）\n\n下記でお客様に連絡します。\n• *TSE-NDH-001-25-1:* 発送予定日：1月24日\n• *TSE-NDH-001-25-2:* 発送予定日：2月6日\n宜しくお願い致します。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1736270825.626119",
+      "parent_user_id": "U0331FWGQRM",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "l2WEC",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n分割出荷でお願いします。\nTSE-NDH-001-25 について、下記のように２つに分けました。\n（追加の支払いは要求しません）\n\n下記でお客様に連絡します。\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "TSE-NDH-001-25-1:",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " 発送予定日：1月24日"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "TSE-NDH-001-25-2:",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " 発送予定日：2月6日"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n宜しくお願い致します。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U033G4KN4TD",
+            "U05KGS6HN9H"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1737096946.698859",
+      "client_msg_id": "ef034f7b-74e8-4864-83c2-57aeb33a6a23",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n分割出荷でお願いします。\nTSE-NDH-001-25 について、下記のように２つに分けました。\n（追加の支払いは要求しません）\n\n下記でお客様に連絡します。\n• *TSE-NDH-001-25-1:* 発送予定日：1月24日\n• *TSE-NDH-001-25-2:* 発送予定日：2月6日\n宜しくお願い致します。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1736270825.626119",
+      "parent_user_id": "U0331FWGQRM",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "l2WEC",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n分割出荷でお願いします。\nTSE-NDH-001-25 について、下記のように２つに分けました。\n（追加の支払いは要求しません）\n\n下記でお客様に連絡します。\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "TSE-NDH-001-25-1:",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " 発送予定日：1月24日"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "TSE-NDH-001-25-2:",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " 発送予定日：2月6日"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n宜しくお願い致します。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U033G4KN4TD",
+            "U05KGS6HN9H"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1737096946.698859",
+      "client_msg_id": "ef034f7b-74e8-4864-83c2-57aeb33a6a23",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n分割出荷でお願いします。\nTSE-NDH-001-25 について、下記のように２つに分けました。\n（追加の支払いは要求しません）\n\n下記でお客様に連絡します。\n• *TSE-NDH-001-25-1:* 発送予定日：1月24日\n• *TSE-NDH-001-25-2:* 発送予定日：2月6日\n宜しくお願い致します。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1736270825.626119",
+      "parent_user_id": "U0331FWGQRM",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "l2WEC",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n分割出荷でお願いします。\nTSE-NDH-001-25 について、下記のように２つに分けました。\n（追加の支払いは要求しません）\n\n下記でお客様に連絡します。\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "TSE-NDH-001-25-1:",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " 発送予定日：1月24日"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "TSE-NDH-001-25-2:",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " 発送予定日：2月6日"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n宜しくお願い致します。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U033G4KN4TD",
+            "U05KGS6HN9H"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1736270825.626119",
+      "client_msg_id": "274778fd-374e-40d1-a3f7-0adacf7196a8",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n:flag-th:タイ Nadhaya様から注文です。\nTSE-NDH-001-25\n※~ケース内に価格の安いinvoiceを入れてください。~←不要\n※国内発送です\n※全てに脱酸素剤入れる。\n※ラベルはプラスチックバッグに貼り付ける。\n　個別には貼り付けない。\n※これも混同を防ぐために、袋にLot noを印字したいです。\n　写真を送りたいので撮影したら教えてください。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1736270825.626119",
+      "reply_count": 15,
+      "reply_users_count": 5,
+      "latest_reply": "1738835289.065829",
+      "reply_users": [
+        "U0331FWGQRM",
+        "U0331FZTHEK",
+        "U05KGS6HN9H",
+        "U03BLQ65GK0",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1736270837.451439"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1736271025.926469"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1736313446.489529"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1736560045.283809"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1736560470.590879"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1737096946.698859"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1737098069.738369"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1737363062.834489"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1737365976.644599"
+        },
+        {
+          "user": "U03BLQ65GK0",
+          "ts": "1737444195.287039"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1737444587.629939"
+        },
+        {
+          "user": "U03BLQ65GK0",
+          "ts": "1737444697.798009"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1737716223.775419"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1738299573.763869"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1738835289.065829"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1738835289.065829",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ZlJUn",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-th",
+                  "unicode": "1f1f9-1f1ed"
+                },
+                {
+                  "type": "text",
+                  "text": "タイ Nadhaya様から注文です。\nTSE-NDH-001-25\n※"
+                },
+                {
+                  "type": "text",
+                  "text": "ケース内に価格の安いinvoiceを入れてください。",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "←不要\n※国内発送です\n※全てに脱酸素剤入れる。\n※ラベルはプラスチックバッグに貼り付ける。\n　個別には貼り付けない。\n※これも混同を防ぐために、袋にLot noを印字したいです。\n　写真を送りたいので撮影したら教えてください。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U05KGS6HN9H",
+      "type": "message",
+      "ts": "1738835289.065829",
+      "client_msg_id": "f3b396b8-bfc9-471b-95df-0f678f499e47",
+      "text": "<@U0331FWGQRM>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n*＜TSE-NDH-001-25-2＞*\n本日2/6の佐川で出荷しました。\nAWB No 491768192005\n宜しくお願い致します。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gc4e7258333f",
+        "image_72": "https://secure.gravatar.com/avatar/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+        "first_name": "Adachi",
+        "real_name": "Adachi",
+        "display_name": "足立",
+        "team": "T033D70RR6H",
+        "name": "tousuien05",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1736270825.626119",
+      "parent_user_id": "U0331FWGQRM",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "1l/2k",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0331FWGQRM"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "＜TSE-NDH-001-25-2＞",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n本日2/6の佐川で出荷しました。\nAWB No 491768192005\n宜しくお願い致します。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "<@U0331FWGQRM>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n*＜TSE-NDH-001-25-2＞*\n※2月製造分（原料あじさい入荷待ち）\nLot番号は、TachuHouse様と同様に裏面風袋番号の並びに\n印字するように致します。（品目枝番も含め7桁予定です）",
+      "files": [
+        {
+          "id": "F08AY06DY4E",
+          "created": 1738299537,
+          "timestamp": 1738299537,
+          "name": "Nadhaya Lot印字.jpg",
+          "title": "Nadhaya Lot印字.jpg",
+          "mimetype": "image/jpeg",
+          "filetype": "jpg",
+          "pretty_type": "JPEG",
+          "user": "U05KGS6HN9H",
+          "user_team": "T033D70RR6H",
+          "editable": false,
+          "size": 2719140,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T033D70RR6H-F08AY06DY4E/nadhaya_lot______.jpg?token=xoxe-3115238875221-9737284359442-9735461212898-2817b73f07ac9792d2ef0223c7a005ab",
+          "url_private_download": "https://files.slack.com/files-pri/T033D70RR6H-F08AY06DY4E/download/nadhaya_lot______.jpg?token=xoxe-3115238875221-9737284359442-9735461212898-2817b73f07ac9792d2ef0223c7a005ab",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T033D70RR6H-F08AY06DY4E-5e9634383a/nadhaya_lot_______64.jpg?t=xoxe-3115238875221-9737284359442-9735461212898-2817b73f07ac9792d2ef0223c7a005ab",
+          "thumb_80": "https://files.slack.com/files-tmb/T033D70RR6H-F08AY06DY4E-5e9634383a/nadhaya_lot_______80.jpg?t=xoxe-3115238875221-9737284359442-9735461212898-2817b73f07ac9792d2ef0223c7a005ab",
+          "thumb_360": "https://files.slack.com/files-tmb/T033D70RR6H-F08AY06DY4E-5e9634383a/nadhaya_lot_______360.jpg?t=xoxe-3115238875221-9737284359442-9735461212898-2817b73f07ac9792d2ef0223c7a005ab",
+          "thumb_360_w": 360,
+          "thumb_360_h": 270,
+          "thumb_480": "https://files.slack.com/files-tmb/T033D70RR6H-F08AY06DY4E-5e9634383a/nadhaya_lot_______480.jpg?t=xoxe-3115238875221-9737284359442-9735461212898-2817b73f07ac9792d2ef0223c7a005ab",
+          "thumb_480_w": 480,
+          "thumb_480_h": 360,
+          "thumb_160": "https://files.slack.com/files-tmb/T033D70RR6H-F08AY06DY4E-5e9634383a/nadhaya_lot_______160.jpg?t=xoxe-3115238875221-9737284359442-9735461212898-2817b73f07ac9792d2ef0223c7a005ab",
+          "thumb_720": "https://files.slack.com/files-tmb/T033D70RR6H-F08AY06DY4E-5e9634383a/nadhaya_lot_______720.jpg?t=xoxe-3115238875221-9737284359442-9735461212898-2817b73f07ac9792d2ef0223c7a005ab",
+          "thumb_720_w": 720,
+          "thumb_720_h": 540,
+          "thumb_800": "https://files.slack.com/files-tmb/T033D70RR6H-F08AY06DY4E-5e9634383a/nadhaya_lot_______800.jpg?t=xoxe-3115238875221-9737284359442-9735461212898-2817b73f07ac9792d2ef0223c7a005ab",
+          "thumb_800_w": 800,
+          "thumb_800_h": 600,
+          "thumb_960": "https://files.slack.com/files-tmb/T033D70RR6H-F08AY06DY4E-5e9634383a/nadhaya_lot_______960.jpg?t=xoxe-3115238875221-9737284359442-9735461212898-2817b73f07ac9792d2ef0223c7a005ab",
+          "thumb_960_w": 960,
+          "thumb_960_h": 720,
+          "thumb_1024": "https://files.slack.com/files-tmb/T033D70RR6H-F08AY06DY4E-5e9634383a/nadhaya_lot_______1024.jpg?t=xoxe-3115238875221-9737284359442-9735461212898-2817b73f07ac9792d2ef0223c7a005ab",
+          "thumb_1024_w": 1024,
+          "thumb_1024_h": 768,
+          "original_w": 4032,
+          "original_h": 3024,
+          "thumb_tiny": "AwAkADCqiPI21Bk1IbSf+5+op9j/AMfP/ATWg3TmgDLNrN/c/UUn2ab+5+orU2DtSYxUXdxmZ9ln/ufqKa8MkYy6kCtQ1Xvf+Pf/AIEKoCGwP+kj/dNaDdazrL5bgEnHBrQZlyPmH50xDj0pBSF1/vL+dIGX+8v50ABqven/AEY/UVOzL/eH51WvWUwgBgSW7GkA0Ivkk45rPbqa0v8Al3as1uppgJRRRQA6hetJ6Uq/eoA//9k=",
+          "permalink": "https://grp-ssm9297.slack.com/files/U0331FWGQRM/F08AY06DY4E/nadhaya_lot______.jpg",
+          "permalink_public": "https://slack-files.com/T033D70RR6H-F08AY06DY4E-a4d163a43b",
+          "is_starred": false,
+          "skipped_shares": true,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        }
+      ],
+      "upload": false,
+      "user": "U05KGS6HN9H",
+      "display_as_bot": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "nJsfn",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0331FWGQRM"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "＜TSE-NDH-001-25-2＞",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n※2月製造分（原料あじさい入荷待ち）\nLot番号は、TachuHouse様と同様に裏面風袋番号の並びに\n印字するように致します。（品目枝番も含め7桁予定です）"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "message",
+      "ts": "1738299573.763869",
+      "client_msg_id": "11a50fb3-4be8-4cf6-b917-54ed396bb149",
+      "thread_ts": "1736270825.626119",
+      "parent_user_id": "U0331FWGQRM",
+      "reactions": [
+        {
+          "name": "おおお",
+          "users": [
+            "U0331FWGQRM"
+          ],
+          "count": 1
+        },
+        {
+          "name": "ok",
+          "users": [
+            "U0331FWGQRM"
+          ],
+          "count": 1
+        },
+        {
+          "name": "d130b000eb8d6784",
+          "users": [
+            "U0331FWGQRM"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

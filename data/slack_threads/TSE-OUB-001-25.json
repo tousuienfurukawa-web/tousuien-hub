@@ -1,0 +1,122 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1740701634.780679",
+      "client_msg_id": "a2875e59-5160-4fbd-a6a7-8982b4def21e",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-OUB-001-25*\n:flag-au:　オーストラリア：OUB-Meg / Lauren /The Matcha Moment (HP)様から注文がありました",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1740701634.780679",
+      "reply_count": 6,
+      "reply_users_count": 3,
+      "latest_reply": "1742193894.384499",
+      "reply_users": [
+        "U066P20UQH1",
+        "U0331FZTHEK",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1740702248.710449"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1740703481.061349"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1740807467.453119"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1741695739.597219"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1742013451.210119"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1742193894.384499"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "0zUre",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-OUB-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-au",
+                  "unicode": "1f1e6-1f1fa",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "　オーストラリア：OUB-Meg / Lauren /The Matcha Moment (HP)様から注文がありました"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA"
+          ],
+          "count": 1
+        },
+        {
+          "name": "チェックキラ",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

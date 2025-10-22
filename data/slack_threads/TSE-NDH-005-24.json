@@ -1,0 +1,99 @@
+{
+  "messages": [
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1728521673.031089",
+      "edited": {
+        "user": "U0331FWGQRM",
+        "ts": "1728521752.000000"
+      },
+      "client_msg_id": "ffbf619d-6573-4711-9914-fe987b1c1ce3",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nTSE-NDH-005-24\n:flag-th:タイのNadhaya様から注文です。\n※星野製茶もくれん（50g x 10袋）\n※白マット袋（清和50349）",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1728521673.031089",
+      "reply_count": 4,
+      "reply_users_count": 3,
+      "latest_reply": "1729151366.621039",
+      "reply_users": [
+        "U0331FZTHEK",
+        "U0331FWGQRM",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1728643573.578719"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1728643907.960979"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1728695933.206189"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1729151366.621039"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1729151366.621039",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "MimMd",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\nTSE-NDH-005-24\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-th",
+                  "unicode": "1f1f9-1f1ed"
+                },
+                {
+                  "type": "text",
+                  "text": "タイのNadhaya様から注文です。\n※星野製茶もくれん（50g x 10袋）\n※白マット袋（清和50349）"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U05KGS6HN9H"
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

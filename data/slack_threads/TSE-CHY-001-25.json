@@ -1,0 +1,116 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1736316556.116919",
+      "client_msg_id": "a56b9f22-b78b-4924-a74c-06014ddeb033",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-CHY-001-25*\n:de:ドイツ：Chaya 久下様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1736316556.116919",
+      "reply_count": 7,
+      "reply_users_count": 3,
+      "latest_reply": "1737443532.904319",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U05KGS6HN9H",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1736317132.857009"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1736839387.444629"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1736995489.615859"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1737031357.015449"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1737032684.556339"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1737423328.134919"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1737443532.904319"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "CLxO/",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-CHY-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "de",
+                  "unicode": "1f1e9-1f1ea"
+                },
+                {
+                  "type": "text",
+                  "text": "ドイツ：Chaya 久下様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U05KGS6HN9H"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

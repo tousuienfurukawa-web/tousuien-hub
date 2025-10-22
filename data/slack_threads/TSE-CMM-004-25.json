@@ -1,0 +1,135 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1743553552.252919",
+      "edited": {
+        "user": "U0331FZS7JT",
+        "ts": "1743753903.000000"
+      },
+      "client_msg_id": "13c690ce-0938-4eee-8339-bfb741834091",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-CMM-004-25*\n891:flag-cz:チェコ：Martin様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1743553552.252919",
+      "reply_count": 7,
+      "reply_users_count": 4,
+      "latest_reply": "1750145974.644229",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U033G4KN4TD",
+        "U05KGS6HN9H",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1743553706.018159"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1743728970.957359"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1744596547.120799"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1744933649.128469"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1745054745.108749"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1746583624.741319"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1750145974.644229"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "T75JW",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-CMM-004-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n891"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-cz",
+                  "unicode": "1f1e8-1f1ff"
+                },
+                {
+                  "type": "text",
+                  "text": "チェコ：Martin様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "ivpl作成済",
+          "users": [
+            "U0331FZS7JT"
+          ],
+          "count": 1
+        },
+        {
+          "name": "管理表入力済",
+          "users": [
+            "U0331FZS7JT"
+          ],
+          "count": 1
+        },
+        {
+          "name": "指示書作成済",
+          "users": [
+            "U0331FZS7JT"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

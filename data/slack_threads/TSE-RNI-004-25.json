@@ -1,0 +1,133 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1759850071.774759",
+      "client_msg_id": "1fafb9d6-ec55-440e-a9e7-4da549d6e280",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <@U066P20UQH1>\n:flag-pf:タヒチ（フランス領ポリネシア）：RNI-Nicolas ROGEZ(alibaba)様から注文をいただきました。\t\t\t\t\n*TSE-RNI-004-25*\t",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1759850071.774759",
+      "reply_count": 10,
+      "reply_users_count": 5,
+      "latest_reply": "1760691360.388299",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK",
+        "U05KGS6HN9H",
+        "U066P20UQH1",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1759850126.341309"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1759850486.240479"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1759851417.346419"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1759883854.002609"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1760100427.511499"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1760165660.577959"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1760172016.496109"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1760661118.006479"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1760662837.272509"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1760691360.388299"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "TRtKk",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U066P20UQH1"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-pf",
+                  "unicode": "1f1f5-1f1eb"
+                },
+                {
+                  "type": "text",
+                  "text": "タヒチ（フランス領ポリネシア）：RNI-Nicolas ROGEZ(alibaba)様から注文をいただきました。\t\t\t\t\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-RNI-004-25\t",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

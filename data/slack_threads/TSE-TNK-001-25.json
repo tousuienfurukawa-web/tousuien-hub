@@ -1,0 +1,118 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1741805895.777819",
+      "client_msg_id": "dd512955-d964-41a9-a14e-e980e84eb01a",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:flag-gr:ギリシャ TNK-Rania Meintani (Tanuki Matcha)様から注文(予定)を頂きました。\n*TSE-TNK-001-25*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1741805895.777819",
+      "reply_count": 6,
+      "reply_users_count": 4,
+      "latest_reply": "1743030364.226049",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK",
+        "U05KGS6HN9H",
+        "U066P20UQH1"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1741806027.627789"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1741906142.672299"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1741912006.894679"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1742373132.502459"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1742376721.729889"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1743030364.226049"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1743030364.226049",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "9XBqk",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " cc "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S072Q871SF9"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-gr",
+                  "unicode": "1f1ec-1f1f7"
+                },
+                {
+                  "type": "text",
+                  "text": "ギリシャ TNK-Rania Meintani (Tanuki Matcha)様から注文(予定)を頂きました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-TNK-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "donee",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

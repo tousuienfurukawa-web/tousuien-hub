@@ -1,0 +1,144 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1740988606.169999",
+      "client_msg_id": "3cde7e65-f9c8-42fc-8c99-6714a917195d",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-RNI-001-25*\n:flag-pf:タヒチ：RNI-Nicolas ROGEZ(alibaba)様から注文をいただきました",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1740988606.169999",
+      "reply_count": 6,
+      "reply_users_count": 3,
+      "latest_reply": "1742881214.365269",
+      "reply_users": [
+        "U066P20UQH1",
+        "U0331FZTHEK",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1740989347.938999"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1741036772.931159"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1741043019.262179"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1741049102.274699"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1742278997.760019"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1742881214.365269"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Vsh2e",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-RNI-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-pf",
+                  "unicode": "1f1f5-1f1eb",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "タヒチ：RNI-Nicolas ROGEZ(alibaba)様から注文をいただきました"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "pあり",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        },
+        {
+          "name": "p発注済",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        },
+        {
+          "name": "管理表入力済",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        },
+        {
+          "name": "ivpl作成済",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        },
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U05KGS6HN9H"
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

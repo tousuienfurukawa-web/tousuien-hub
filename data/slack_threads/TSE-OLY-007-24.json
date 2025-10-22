@@ -1,0 +1,139 @@
+{
+  "messages": [
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1728829101.463479",
+      "edited": {
+        "user": "U0331FWGQRM",
+        "ts": "1730361085.000000"
+      },
+      "client_msg_id": "bb777715-43a3-42c4-9195-135815a58357",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-OLY-007-24*\n:gb:イギリスのOlly様から注文~予定~です。~（10月末か11月頭に出荷希望）~\n準備をお願いします。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1728829101.463479",
+      "reply_count": 6,
+      "reply_users_count": 3,
+      "latest_reply": "1731393436.617199",
+      "reply_users": [
+        "U0331FWGQRM",
+        "U0331FZTHEK",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1730361069.364159"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1730780234.466499"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1730909832.573629"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1730953556.375279"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1731052568.740809"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1731393436.617199"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1731393436.617199",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "QLRu+",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-OLY-007-24",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "gb",
+                  "unicode": "1f1ec-1f1e7"
+                },
+                {
+                  "type": "text",
+                  "text": "イギリスのOlly様から注文"
+                },
+                {
+                  "type": "text",
+                  "text": "予定",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "です。"
+                },
+                {
+                  "type": "text",
+                  "text": "（10月末か11月頭に出荷希望）",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n準備をお願いします。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

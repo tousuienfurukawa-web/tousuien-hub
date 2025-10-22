@@ -1,0 +1,171 @@
+{
+  "messages": [
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1727283258.315199",
+      "client_msg_id": "a1800612-d024-4541-a395-ae5090a02f18",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n:flag-th:タイのtachu houseより注文がありました。\n*TSE-TAC-035-24*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1727283258.315199",
+      "reply_count": 6,
+      "reply_users_count": 3,
+      "latest_reply": "1728715762.452989",
+      "reply_users": [
+        "U0331FWGQRM",
+        "U05KGS6HN9H",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1727283289.900459"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1727333358.849389"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1727406142.991239"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1728255869.296359"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1728631674.609779"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1728715762.452989"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1728715762.452989",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "UKaoY",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-th",
+                  "unicode": "1f1f9-1f1ed"
+                },
+                {
+                  "type": "text",
+                  "text": "タイのtachu houseより注文がありました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-TAC-035-24",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U05KGS6HN9H",
+            "U033G4KN4TD"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "user": "U05KGS6HN9H",
+      "type": "message",
+      "ts": "1727406142.991239",
+      "client_msg_id": "919fd2be-cea5-4dd2-ab97-1c844d385b40",
+      "text": "<@U0331FWGQRM>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nLot no./Man. date/ Exp. dateを\nTSE-TAC-035-24_invoice_total_secret_Lot No_memo　に\n記入しました。ご確認お願い致します。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gc4e7258333f",
+        "image_72": "https://secure.gravatar.com/avatar/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+        "first_name": "Adachi",
+        "real_name": "Adachi",
+        "display_name": "足立",
+        "team": "T033D70RR6H",
+        "name": "tousuien05",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1727283258.315199",
+      "parent_user_id": "U0331FWGQRM",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "fblrp",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0331FWGQRM"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\nLot no./Man. date/ Exp. dateを\nTSE-TAC-035-24_invoice_total_secret_Lot No_memo　に\n記入しました。ご確認お願い致します。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "d130b000eb8d6784",
+          "users": [
+            "U0331FWGQRM"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

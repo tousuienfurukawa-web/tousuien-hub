@@ -1,0 +1,112 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1741520404.384389",
+      "edited": {
+        "user": "U0331FZS7JT",
+        "ts": "1741520567.000000"
+      },
+      "client_msg_id": "20de381f-0f45-43bc-b02c-2f270d44bd05",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-BAN-003-25*\n:flag-my:マレーシア：BAN-Ban(Insta)様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1741520404.384389",
+      "reply_count": 4,
+      "reply_users_count": 4,
+      "latest_reply": "1743488912.727359",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U0331FZTHEK",
+        "U05KGS6HN9H",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1741520504.407009"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1741561601.852149"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1742196836.108269"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1743488912.727359"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "yZ0Z0",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-BAN-003-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-my",
+                  "unicode": "1f1f2-1f1fe",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "マレーシア：BAN-Ban(Insta)様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

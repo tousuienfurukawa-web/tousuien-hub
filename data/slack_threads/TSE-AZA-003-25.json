@@ -1,0 +1,115 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1747419657.164909",
+      "client_msg_id": "4cf9a853-ef35-42f2-a0f9-8bf21ed8dfd0",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <@U066P20UQH1>\n1182 :flag-kz: カザフスタン：AZA-Azamat Kassenov(alibaba)様から注文をいただきました。\n*TSE-AZA-003-25*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1747419657.164909",
+      "reply_count": 8,
+      "reply_users_count": 3,
+      "latest_reply": "1748396826.659099",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U05KGS6HN9H",
+        "U066P20UQH1"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1747419774.992519"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1747419855.783339"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1747707613.018169"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1747734386.299789"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1747737576.833509"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1747737660.937019"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1747919054.992639"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1748396826.659099"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "IROnX",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U066P20UQH1"
+                },
+                {
+                  "type": "text",
+                  "text": "\n1182 "
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-kz",
+                  "unicode": "1f1f0-1f1ff"
+                },
+                {
+                  "type": "text",
+                  "text": " カザフスタン：AZA-Azamat Kassenov(alibaba)様から注文をいただきました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-AZA-003-25",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

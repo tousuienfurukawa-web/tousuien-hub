@@ -1,0 +1,183 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1733409496.441389",
+      "edited": {
+        "user": "USLACKBOT",
+        "ts": "1734073834.000000"
+      },
+      "client_msg_id": "60cfc811-23a3-4ae2-837c-f553a3c1681d",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:flag-nl:オランダ Solaiman Aakouk様から注文を頂きました。\n*TSE-SOL-003-24*  ",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1733409496.441389",
+      "reply_count": 21,
+      "reply_users_count": 4,
+      "latest_reply": "1734150706.640779",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U05KGS6HN9H",
+        "U0331FZTHEK",
+        "U066P20UQH1"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1733409858.087449"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1733439372.541259"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1733441512.098759"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1733465306.942589"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1733469290.108399"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1733479390.874549"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1733739628.163129"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1733739679.659949"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1733740088.063209"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1733741038.363779"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1733743698.546039"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1733744232.644549"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1733744425.839809"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1733938536.185109"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1734007684.824069"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1734048875.374159"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1734067986.687809"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1734068115.739569"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1734073559.591859"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1734073750.185449"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1734150706.640779"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1734150706.640779",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qlqfz",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " cc "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S072Q871SF9"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-nl",
+                  "unicode": "1f1f3-1f1f1"
+                },
+                {
+                  "type": "text",
+                  "text": "オランダ Solaiman Aakouk様から注文を頂きました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-SOL-003-24  ",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U05KGS6HN9H",
+            "U033G4KN4TD"
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

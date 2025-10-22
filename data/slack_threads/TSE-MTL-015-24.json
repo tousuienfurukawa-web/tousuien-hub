@@ -1,0 +1,157 @@
+{
+  "messages": [
+    {
+      "user": "U041RJKV5JA",
+      "type": "message",
+      "ts": "1728371472.569399",
+      "client_msg_id": "d328bd38-9c1e-455b-844d-53dca7203b6a",
+      "text": "<@U0331FWGQRM>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n本日、DHLにてサンプルを出荷しました。\nTSE-MTL-012-24：AWB No. 8228835941\nTSE-MTL-013-24：AWB No. 8228835952\nTSE-MTL-014-24：AWB No. 8228835974\nTSE-MTL-015-24：AWB No. 8228835985",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "aed9eafd9eee",
+        "image_72": "https://avatars.slack-edge.com/2022-09-11/4078874890257_aed9eafd9eee277ba076_72.png",
+        "first_name": "Hirakawa",
+        "real_name": "Hirakawa",
+        "display_name": "平川",
+        "team": "T033D70RR6H",
+        "name": "tousuien.s006",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1725552154.808459",
+      "parent_user_id": "U0331FWGQRM",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "1pKqB",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0331FWGQRM"
+                },
+                {
+                  "type": "text",
+                  "text": "\n "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n本日、DHLにてサンプルを出荷しました。\nTSE-MTL-012-24：AWB No. 8228835941\nTSE-MTL-013-24：AWB No. 8228835952\nTSE-MTL-014-24：AWB No. 8228835974\nTSE-MTL-015-24：AWB No. 8228835985"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "d130b000eb8d6784",
+          "users": [
+            "U0331FWGQRM"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "text": "<@U0331FWGQRM>\n昨日出荷しましたドイツ Alica Jäger向けの伝票番号が変更となりました。\nTSE-MTL-015-24：AWB No. 8228835985→AWB No. 8229330406\n理由は、荷受人様のお名前がドイツ語で記載されており、そのままペガサスのシステムで取り込んだところ\nドイツ語の部分のみ表示されなくなってしまったので、ペガサスの貨物部により英字にて再発行を行ったとの事です。\n添付の画像をフォルダに格納しておきます。\nよろしくお願いいたします。",
+      "files": [
+        {
+          "id": "F07RPUUGZTJ",
+          "created": 1728445206,
+          "timestamp": 1728445206,
+          "name": "新送り状番号.png",
+          "title": "新送り状番号.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U041RJKV5JA",
+          "user_team": "T033D70RR6H",
+          "editable": false,
+          "size": 96413,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T033D70RR6H-F07RPUUGZTJ/__________________.png?token=xoxe-3115238875221-9737284359442-9735461212898-2817b73f07ac9792d2ef0223c7a005ab",
+          "url_private_download": "https://files.slack.com/files-pri/T033D70RR6H-F07RPUUGZTJ/download/__________________.png?token=xoxe-3115238875221-9737284359442-9735461212898-2817b73f07ac9792d2ef0223c7a005ab",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T033D70RR6H-F07RPUUGZTJ-4f6c83221f/___________________64.png?t=xoxe-3115238875221-9737284359442-9735461212898-2817b73f07ac9792d2ef0223c7a005ab",
+          "thumb_80": "https://files.slack.com/files-tmb/T033D70RR6H-F07RPUUGZTJ-4f6c83221f/___________________80.png?t=xoxe-3115238875221-9737284359442-9735461212898-2817b73f07ac9792d2ef0223c7a005ab",
+          "thumb_360": "https://files.slack.com/files-tmb/T033D70RR6H-F07RPUUGZTJ-4f6c83221f/___________________360.png?t=xoxe-3115238875221-9737284359442-9735461212898-2817b73f07ac9792d2ef0223c7a005ab",
+          "thumb_360_w": 308,
+          "thumb_360_h": 360,
+          "thumb_480": "https://files.slack.com/files-tmb/T033D70RR6H-F07RPUUGZTJ-4f6c83221f/___________________480.png?t=xoxe-3115238875221-9737284359442-9735461212898-2817b73f07ac9792d2ef0223c7a005ab",
+          "thumb_480_w": 410,
+          "thumb_480_h": 480,
+          "thumb_160": "https://files.slack.com/files-tmb/T033D70RR6H-F07RPUUGZTJ-4f6c83221f/___________________160.png?t=xoxe-3115238875221-9737284359442-9735461212898-2817b73f07ac9792d2ef0223c7a005ab",
+          "original_w": 551,
+          "original_h": 645,
+          "thumb_tiny": "AwAwACm852nAGcf7RoDEHhf/AB405zwRg9KROuP5UBcjlllUDag/ItRFNMyMWjyewxt/nU+fY0Zx2NAEayOWw0eB67galppALBiDmnUANkICGoBIM8EZ9M1HdXXlTEbXOOOBUX9oDOdkn0wKAL6s5IymPfIp9Zn2/kfLLx7Dmpbe5M8u0b1xz8wHNAF7NFRBTkfN/KpaAGkfN97HtSDj+PP1plwsjbfK9881AUuc9T+dAFwH1YUjbT1P61UKXGeN1WYVYJ+85bJoAcAvHPT3p1GB6CigD//Z",
+          "permalink": "https://grp-ssm9297.slack.com/files/U0331FWGQRM/F07RPUUGZTJ/__________________.png",
+          "permalink_public": "https://slack-files.com/T033D70RR6H-F07RPUUGZTJ-0e76d209f8",
+          "is_starred": false,
+          "skipped_shares": true,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        }
+      ],
+      "upload": false,
+      "user": "U041RJKV5JA",
+      "display_as_bot": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "sxcUx",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0331FWGQRM"
+                },
+                {
+                  "type": "text",
+                  "text": "\n昨日出荷しましたドイツ Alica Jäger向けの伝票番号が変更となりました。\nTSE-MTL-015-24：AWB No. 8228835985→AWB No. 8229330406\n理由は、荷受人様のお名前がドイツ語で記載されており、そのままペガサスのシステムで取り込んだところ\nドイツ語の部分のみ表示されなくなってしまったので、ペガサスの貨物部により英字にて再発行を行ったとの事です。\n添付の画像をフォルダに格納しておきます。\nよろしくお願いいたします。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "message",
+      "ts": "1728445565.051029",
+      "client_msg_id": "c6fe1bef-8c2b-4ad7-86cd-b32f7809473a",
+      "thread_ts": "1725552154.808459",
+      "parent_user_id": "U0331FWGQRM",
+      "reactions": [
+        {
+          "name": "了解です",
+          "users": [
+            "U0331FWGQRM"
+          ],
+          "count": 1
+        },
+        {
+          "name": "d130b000eb8d6784",
+          "users": [
+            "U0331FWGQRM"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

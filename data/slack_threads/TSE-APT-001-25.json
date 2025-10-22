@@ -1,0 +1,146 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1739863929.099769",
+      "client_msg_id": "20935e86-7ff2-41b6-9eb7-2138d4ad3d78",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <@U0606SPN4BW>\n*TSE-APT-001-25*\n:gb:イギリス：APT-Andrius Alimas(alibaba)様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1739863929.099769",
+      "reply_count": 12,
+      "reply_users_count": 4,
+      "latest_reply": "1742310162.637659",
+      "reply_users": [
+        "U066P20UQH1",
+        "U0331FZTHEK",
+        "U0606SPN4BW",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1739864014.651929"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1739864025.810749"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1739918655.218169"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1739926840.361149"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1740743423.414089"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1740999275.877479"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1741309546.209919"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1741311481.829939"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1741932001.181359"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1741932940.495579"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1742292716.572559"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1742310162.637659"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "yhhpK",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0606SPN4BW"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-APT-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "gb",
+                  "unicode": "1f1ec-1f1e7"
+                },
+                {
+                  "type": "text",
+                  "text": "イギリス：APT-Andrius Alimas(alibaba)様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U05KGS6HN9H"
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

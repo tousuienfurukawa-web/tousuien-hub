@@ -1,0 +1,108 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1738605808.716879",
+      "client_msg_id": "cd2bfd80-d9a8-4cad-8b54-7ac3e8aef736",
+      "text": ":flag-ph:フィリピン、 Sahara Casteel 様から注文を頂きました。\n*TSE-BGV-007-25*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1738605808.716879",
+      "reply_count": 6,
+      "reply_users_count": 3,
+      "latest_reply": "1740047353.833189",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1738605914.298129"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1738622997.608199"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1739004390.699239"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1739145627.489499"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1739933022.390889"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1740047353.833189"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "wzu7+",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "flag-ph",
+                  "unicode": "1f1f5-1f1ed"
+                },
+                {
+                  "type": "text",
+                  "text": "フィリピン、 Sahara Casteel 様から注文を頂きました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-BGV-007-25",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U05KGS6HN9H"
+          ],
+          "count": 2
+        },
+        {
+          "name": "donee",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

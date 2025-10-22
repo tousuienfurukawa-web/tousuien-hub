@@ -1,0 +1,118 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1754536354.943379",
+      "client_msg_id": "543973bd-09d7-4e83-823c-bb7adce5240e",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n*TSE-WSM-004-25*\n:flag-ca:カナダ：WSM-Wabi-Sabi Matcha Inc.様から注文をいただきました。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1754536354.943379",
+      "reply_count": 7,
+      "reply_users_count": 6,
+      "latest_reply": "1760549149.051819",
+      "reply_users": [
+        "U066P20UQH1",
+        "U033G4KN4TD",
+        "U095LLEH09G",
+        "U08U8MMTH43",
+        "U09DF1SDTQR",
+        "U0606SPN4BW"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1754536622.833309"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1757308013.501819"
+        },
+        {
+          "user": "U095LLEH09G",
+          "ts": "1757999980.992469"
+        },
+        {
+          "user": "U08U8MMTH43",
+          "ts": "1758005000.020889"
+        },
+        {
+          "user": "U09DF1SDTQR",
+          "ts": "1758072926.242099"
+        },
+        {
+          "user": "U095LLEH09G",
+          "ts": "1758073694.890799"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1760549149.051819"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "2GRER",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-WSM-004-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-ca",
+                  "unicode": "1f1e8-1f1e6"
+                },
+                {
+                  "type": "text",
+                  "text": "カナダ：WSM-Wabi-Sabi Matcha Inc.様から注文をいただきました。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

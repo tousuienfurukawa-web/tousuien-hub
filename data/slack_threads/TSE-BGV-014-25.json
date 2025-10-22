@@ -1,0 +1,124 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1740848629.047239",
+      "client_msg_id": "5e32c10f-5b4a-400b-92d5-af4c83be8a17",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:flag-ph:フィリピン BGV-Sahara Casteel様から注文(予定)を頂きました。\n*TSE-BGV-014-25*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1740848629.047239",
+      "reply_count": 4,
+      "reply_users_count": 3,
+      "latest_reply": "1743422011.071669",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1740848735.552129"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1741332873.018429"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1741932450.040579"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1743422011.071669"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1743422011.071669",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qyy+I",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " cc "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S072Q871SF9"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-ph",
+                  "unicode": "1f1f5-1f1ed"
+                },
+                {
+                  "type": "text",
+                  "text": "フィリピン BGV-Sahara Casteel様から注文(予定)を頂きました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-BGV-014-25",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U05KGS6HN9H"
+          ],
+          "count": 2
+        },
+        {
+          "name": "管理表入力済",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        },
+        {
+          "name": "ivpl作成済",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

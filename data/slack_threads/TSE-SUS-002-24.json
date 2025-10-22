@@ -1,0 +1,119 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1731906005.888969",
+      "client_msg_id": "d15c1056-546b-4aae-966b-5cf0738194a3",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n*TSE-SUS-002-24*\n:flag-mx:メキシコ（輸出先はアメリカ）：SUS-Eva Lepe(alibaba)様から注文予定です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1731906005.888969",
+      "reply_count": 5,
+      "reply_users_count": 5,
+      "latest_reply": "1732940459.406399",
+      "reply_users": [
+        "U066P20UQH1",
+        "U0331FZTHEK",
+        "U0606SPN4BW",
+        "U041RJKV5JA",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1731906033.384469"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1731915836.305659"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1732377772.630329"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1732519389.902289"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1732940459.406399"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1733037708.212657",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "+jLK5",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S072Q871SF9"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-SUS-002-24",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-mx",
+                  "unicode": "1f1f2-1f1fd"
+                },
+                {
+                  "type": "text",
+                  "text": "メキシコ（輸出先はアメリカ）：SUS-Eva Lepe(alibaba)様から注文予定です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

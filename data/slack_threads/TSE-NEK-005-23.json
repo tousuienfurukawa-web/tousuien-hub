@@ -1,0 +1,80 @@
+{
+  "messages": [
+    {
+      "user": "U05KGS6HN9H",
+      "type": "message",
+      "ts": "1701142812.280859",
+      "client_msg_id": "022ab7d5-58e9-47c2-9e9a-d5d781138482",
+      "text": "<@U0331FZS7JT>\n<@U041RJKV5JA> <@U033G4KN4TD>\nTSE-NEK-005-23の出荷可能日は\n12/5（火）にてお願い致します。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gc4e7258333f",
+        "image_72": "https://secure.gravatar.com/avatar/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+        "first_name": "Adachi",
+        "real_name": "Adachi",
+        "display_name": "足立",
+        "team": "T033D70RR6H",
+        "name": "tousuien05",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1701071688.121979",
+      "parent_user_id": "U0331FZS7JT",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "VoTVd",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0331FZS7JT"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "user",
+                  "user_id": "U041RJKV5JA"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U033G4KN4TD"
+                },
+                {
+                  "type": "text",
+                  "text": "\nTSE-NEK-005-23の出荷可能日は\n12/5（火）にてお願い致します。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "了解です",
+          "users": [
+            "U0331FZS7JT"
+          ],
+          "count": 1
+        },
+        {
+          "name": "d130b000eb8d6784",
+          "users": [
+            "U0331FZS7JT"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

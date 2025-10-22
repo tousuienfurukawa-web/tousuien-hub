@@ -1,0 +1,135 @@
+{
+  "messages": [
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1736433176.266399",
+      "edited": {
+        "user": "U0331FWGQRM",
+        "ts": "1737539086.000000"
+      },
+      "client_msg_id": "5a435c7f-129a-422e-8383-60f9456d94ef",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-OLY-001-25*\n:gb:イギリスのOlly様から注文~予定~です。~（1月20日頃）~\n原料準備を進めてください。（念の為に75kgで準備してください）\n※今回はおそらく50kgですが、近々75kg/orderにするそうで、\nその後は100kg/orderになっていきそうらしいです。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1736433176.266399",
+      "reply_count": 5,
+      "reply_users_count": 3,
+      "latest_reply": "1738082982.453969",
+      "reply_users": [
+        "U0331FWGQRM",
+        "U041RJKV5JA",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1737539071.306499"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1737587611.003839"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1737953538.422119"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1737963845.929939"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1738082982.453969"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1738082982.453969",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "YQuEa",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-OLY-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "gb",
+                  "unicode": "1f1ec-1f1e7"
+                },
+                {
+                  "type": "text",
+                  "text": "イギリスのOlly様から注文"
+                },
+                {
+                  "type": "text",
+                  "text": "予定",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "です。"
+                },
+                {
+                  "type": "text",
+                  "text": "（1月20日頃）",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n原料準備を進めてください。（念の為に75kgで準備してください）\n※今回はおそらく50kgですが、近々75kg/orderにするそうで、\nその後は100kg/orderになっていきそうらしいです。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

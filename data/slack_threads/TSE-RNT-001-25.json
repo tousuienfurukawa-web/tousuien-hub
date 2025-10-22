@@ -1,0 +1,116 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1744987817.277539",
+      "client_msg_id": "f10968bd-c21e-437a-b970-6bfa92227dc1",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-RNT-001-25*\n:flag-hu:ハンガリー：RNT-Judit Kristof (HP→Whats)、前任はRenata Grebely様から注文をいただきました。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1744987817.277539",
+      "reply_count": 6,
+      "reply_users_count": 4,
+      "latest_reply": "1746169135.334229",
+      "reply_users": [
+        "U066P20UQH1",
+        "U0331FZTHEK",
+        "U0840UVFVA8",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1744987995.720459"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1744988677.202919"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1745024172.027799"
+        },
+        {
+          "user": "U0840UVFVA8",
+          "ts": "1745406267.323639"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1746168416.522959"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1746169135.334229"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "SfX6j",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-RNT-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-hu",
+                  "unicode": "1f1ed-1f1fa",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "ハンガリー：RNT-Judit Kristof (HP→Whats)、前任はRenata Grebely様から注文をいただきました。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

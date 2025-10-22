@@ -1,0 +1,126 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1743064253.673449",
+      "client_msg_id": "720e2bce-0baa-4322-8825-877da8267cfd",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-TEN-001-25*\n:gb:イギリス：Tencha様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1743064253.673449",
+      "reply_count": 4,
+      "reply_users_count": 4,
+      "latest_reply": "1745054777.473619",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U033G4KN4TD",
+        "U0331FZTHEK",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1743064457.772409"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1743992759.892499"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1744090017.884869"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1745054777.473619"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "SZcBv",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-TEN-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "gb",
+                  "unicode": "1f1ec-1f1e7"
+                },
+                {
+                  "type": "text",
+                  "text": "イギリス：Tencha様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "ivpl作成済",
+          "users": [
+            "U0331FZS7JT"
+          ],
+          "count": 1
+        },
+        {
+          "name": "管理表入力済",
+          "users": [
+            "U0331FZS7JT"
+          ],
+          "count": 1
+        },
+        {
+          "name": "指示書作成済",
+          "users": [
+            "U0331FZS7JT"
+          ],
+          "count": 1
+        },
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U05KGS6HN9H"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

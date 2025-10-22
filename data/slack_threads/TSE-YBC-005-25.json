@@ -1,0 +1,117 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1749177242.407219",
+      "client_msg_id": "5f51cd4f-9e09-4371-99ce-afe15ccba388",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n*TSE-YBC-005-25*\n1231:flag-pa:パナマ（:us:宛）：YBC-Biotea House, yasibit様から注文をいただきました。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1749177242.407219",
+      "reply_count": 5,
+      "reply_users_count": 4,
+      "latest_reply": "1750415979.370079",
+      "reply_users": [
+        "U066P20UQH1",
+        "U0331FZTHEK",
+        "U033G4KN4TD",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1749177310.303849"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1749422929.212769"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1750028133.225159"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1750036771.814119"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1750415979.370079"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "4dTkN",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-YBC-005-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n1231"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-pa",
+                  "unicode": "1f1f5-1f1e6"
+                },
+                {
+                  "type": "text",
+                  "text": "パナマ（"
+                },
+                {
+                  "type": "emoji",
+                  "name": "us",
+                  "unicode": "1f1fa-1f1f8"
+                },
+                {
+                  "type": "text",
+                  "text": "宛）：YBC-Biotea House, yasibit様から注文をいただきました。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

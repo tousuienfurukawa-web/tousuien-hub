@@ -1,0 +1,98 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1721608733.829919",
+      "client_msg_id": "eb2ed537-f299-491c-8999-f46c4090ba7e",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <@U0331FZTHEK>\nTSE-CHS-007-24\nタイ：Chaseki様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1721608733.829919",
+      "reply_count": 5,
+      "reply_users_count": 3,
+      "latest_reply": "1722416397.972589",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U05KGS6HN9H",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1721608805.438999"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1721724059.185139"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1721797227.367859"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1721978951.964909"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1722416397.972589"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "xMgIn",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0331FZTHEK"
+                },
+                {
+                  "type": "text",
+                  "text": "\nTSE-CHS-007-24\nタイ：Chaseki様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U033G4KN4TD",
+            "U041RJKV5JA",
+            "U05KGS6HN9H"
+          ],
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

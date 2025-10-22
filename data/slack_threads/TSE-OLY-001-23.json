@@ -1,0 +1,100 @@
+{
+  "messages": [
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1685449157.800879",
+      "client_msg_id": "3ef478c5-0d31-4c47-87a1-82bcae10ac7f",
+      "text": "<@U041RJKV5JA> <@U033G4KN4TD>\n本件出荷書類に同等性証明はつけていますか？\n出荷書類はどれを見ればわかるのですか？\n\nGroene様と同様に、出荷書類は一つにまとめて、\nTSE-OLY-001-23\nの名前で保存してください。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1683892599.145839",
+      "parent_user_id": "U0331FWGQRM",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "9I2D",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U041RJKV5JA"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U033G4KN4TD"
+                },
+                {
+                  "type": "text",
+                  "text": "\n本件出荷書類に同等性証明はつけていますか？\n出荷書類はどれを見ればわかるのですか？\n\nGroene様と同様に、出荷書類は一つにまとめて、\nTSE-OLY-001-23\nの名前で保存してください。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U041RJKV5JA",
+      "type": "message",
+      "ts": "1685488561.023979",
+      "client_msg_id": "1ca98a99-2385-4e0a-a865-419b02004664",
+      "text": "<@U0331FWGQRM> 執行役\nOlly様　発送手続きフォルダに出荷書類をまとめました。\nファイル名：TSE-OLY-001-23\nご確認お願いします。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "aed9eafd9eee",
+        "image_72": "https://avatars.slack-edge.com/2022-09-11/4078874890257_aed9eafd9eee277ba076_72.png",
+        "first_name": "Hirakawa",
+        "real_name": "Hirakawa",
+        "display_name": "平川",
+        "team": "T033D70RR6H",
+        "name": "tousuien.s006",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1683892599.145839",
+      "parent_user_id": "U0331FWGQRM",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "R=Us",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0331FWGQRM"
+                },
+                {
+                  "type": "text",
+                  "text": " 執行役\nOlly様　発送手続きフォルダに出荷書類をまとめました。\nファイル名：TSE-OLY-001-23\nご確認お願いします。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1736270885.608419",
+      "client_msg_id": "9f563422-a3c2-4b75-8af5-8a0151105caa",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-NEK-001-25*\n:flag-my:マレーシア：NEK-Maison Hime(Insta)/Fumi様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1736270885.608419",
+      "reply_count": 4,
+      "reply_users_count": 3,
+      "latest_reply": "1737544479.661429",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U05KGS6HN9H",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1736272033.307819"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1736838601.422069"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1736913596.793449"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1737544479.661429"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "AzAIB",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-NEK-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-my",
+                  "unicode": "1f1f2-1f1fe"
+                },
+                {
+                  "type": "text",
+                  "text": "マレーシア：NEK-Maison Hime(Insta)/Fumi様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U05KGS6HN9H"
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1751205650.923889",
+      "client_msg_id": "dcc4dae9-ecf4-4603-b5cb-4e6a4de477f2",
+      "text": "*<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>* *<!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>* \n*1283*:flag-th:タイ：CHS -Chaseki様から注文です。\nTSE-CHS-004-25",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1751205650.923889",
+      "reply_count": 4,
+      "reply_users_count": 3,
+      "latest_reply": "1751604335.887189",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U0331FZTHEK",
+        "U08U8MMTH43"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1751205834.306349"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1751237422.191649"
+        },
+        {
+          "user": "U08U8MMTH43",
+          "ts": "1751358251.843309"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1751604335.887189"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "gJPZd",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "1283",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-th",
+                  "unicode": "1f1f9-1f1ed"
+                },
+                {
+                  "type": "text",
+                  "text": "タイ：CHS -Chaseki様から注文です。\nTSE-CHS-004-25"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "messages": [
+    {
+      "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD>\nTSE-NDH-002-24\nタイのNadhaya様から注文です。\n~送り先は確認中です。~\n準備を宜しくお願いします。",
+      "files": [
+        {
+          "id": "F06SFF6R857",
+          "mode": "tombstone"
+        }
+      ],
+      "upload": false,
+      "user": "U0331FWGQRM",
+      "display_as_bot": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "5Kgmh",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U041RJKV5JA"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U05KGS6HN9H"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U033G4KN4TD"
+                },
+                {
+                  "type": "text",
+                  "text": "\nTSE-NDH-002-24\nタイのNadhaya様から注文です。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "送り先は確認中です。",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n準備を宜しくお願いします。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "message",
+      "ts": "1711816576.938959",
+      "edited": {
+        "user": "U0331FWGQRM",
+        "ts": "1727252509.000000"
+      },
+      "client_msg_id": "a3e3d446-31b7-4342-8b34-c978ea584d7e",
+      "thread_ts": "1711816576.938959",
+      "reply_count": 7,
+      "reply_users_count": 3,
+      "latest_reply": "1712735755.444499",
+      "reply_users": [
+        "U05KGS6HN9H",
+        "U0331FWGQRM",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1711932338.989019"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1711964489.939589"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1712027272.390559"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1712034111.006379"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1712095563.692609"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1712537370.810219"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1712735755.444499"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1712735755.444499",
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U033G4KN4TD",
+            "U041RJKV5JA",
+            "U05KGS6HN9H"
+          ],
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

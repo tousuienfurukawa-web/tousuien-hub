@@ -1,0 +1,135 @@
+{
+  "messages": [
+    {
+      "user": "U08RVRNBY00",
+      "type": "message",
+      "ts": "1752903854.620859",
+      "client_msg_id": "0fdd62fb-9602-4b47-b1f0-5b34dee928a5",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <@U0331FWGQRM>\n*1346*:flag-ph:　*フィリピン AJAーMatcha2425　Nell様から注文いただきました。*\nTSE-AJA-004-25",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "g347f3e803ab",
+        "image_72": "https://secure.gravatar.com/avatar/347f3e803abca8b6a7b724895864d138.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+        "first_name": "Hikako",
+        "real_name": "Hikako Hasegawa",
+        "display_name": "Hikako Hasegawa",
+        "team": "T033D70RR6H",
+        "name": "tousuien.hasegawa",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1752903854.620859",
+      "reply_count": 8,
+      "reply_users_count": 4,
+      "latest_reply": "1756110292.330749",
+      "reply_users": [
+        "U08RVRNBY00",
+        "U05KGS6HN9H",
+        "U0331FZTHEK",
+        "U033G4KN4TD"
+      ],
+      "replies": [
+        {
+          "user": "U08RVRNBY00",
+          "ts": "1752904210.231249"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1752912896.812889"
+        },
+        {
+          "user": "U08RVRNBY00",
+          "ts": "1752913441.573259"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1753138344.197589"
+        },
+        {
+          "user": "U08RVRNBY00",
+          "ts": "1753833124.181729"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1754028238.120959"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1754122086.424009"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1756110292.330749"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1756110292.330749",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "kpljq",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0331FWGQRM"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "1346",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-ph",
+                  "unicode": "1f1f5-1f1ed",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "　フィリピン AJAーMatcha2425　Nell様から注文いただきました。",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nTSE-AJA-004-25"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

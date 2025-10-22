@@ -1,0 +1,134 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1742374645.675399",
+      "client_msg_id": "145714dc-9210-4260-8ee3-fe941f2ff6dc",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-MTK-003-25*\n:flag-au:オーストラリア：MTK-Matcha Kona/Eddy Tjandra様から注文予定です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1742374645.675399",
+      "reply_count": 7,
+      "reply_users_count": 4,
+      "latest_reply": "1744155215.524619",
+      "reply_users": [
+        "U066P20UQH1",
+        "U05KGS6HN9H",
+        "U0331FZTHEK",
+        "U033G4KN4TD"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1742374886.232819"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1742968547.705109"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1743030281.781479"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1743058660.545619"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1743661064.409339"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1743667039.667279"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1744155215.524619"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "deV/0",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-MTK-003-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-au",
+                  "unicode": "1f1e6-1f1fa",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "オーストラリア：MTK-Matcha Kona/Eddy Tjandra様から注文予定です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "管理表入力済",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        },
+        {
+          "name": "ivpl作成済",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        },
+        {
+          "name": "指示書作成済",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

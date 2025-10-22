@@ -1,0 +1,132 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1738196261.032389",
+      "client_msg_id": "f4594a2b-e741-4d5d-8817-3a525cc61be7",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n*TSE-NGD-001-25*\n:flag-au: オーストラリア：NGD-Bailey D (alibaba, 本名Ngoc Dinh) から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1738196261.032389",
+      "reply_count": 4,
+      "reply_users_count": 3,
+      "latest_reply": "1738998212.739809",
+      "reply_users": [
+        "U066P20UQH1",
+        "U0331FZTHEK",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1738196329.182579"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1738197378.561989"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1738563801.802939"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1738998212.739809"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1738998212.739809",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "nPJLs",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S072Q871SF9"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-NGD-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-au",
+                  "unicode": "1f1e6-1f1fa",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "オーストラリア：NGD-Bailey D (alibaba, 本名Ngoc Dinh) から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U05KGS6HN9H"
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

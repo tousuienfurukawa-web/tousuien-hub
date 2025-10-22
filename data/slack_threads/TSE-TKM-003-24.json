@@ -1,0 +1,109 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1729582295.151779",
+      "client_msg_id": "df1cbcd4-fc1a-422a-8f94-b0b88efb63fb",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-TKM-003-24*\n:flag-hk:香港：月見JAPAN様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1729582295.151779",
+      "reply_count": 5,
+      "reply_users_count": 3,
+      "latest_reply": "1730275867.595109",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U041RJKV5JA",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1729653817.436129"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1729817324.267189"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1730099024.058739"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1730168557.605849"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1730275867.595109"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "eACVO",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-TKM-003-24",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-hk",
+                  "unicode": "1f1ed-1f1f0"
+                },
+                {
+                  "type": "text",
+                  "text": "香港：月見JAPAN様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U05KGS6HN9H"
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

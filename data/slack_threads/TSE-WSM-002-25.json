@@ -1,0 +1,921 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1740967741.535919",
+      "client_msg_id": "eecf0987-9657-4c7b-8263-938a2bdeaa7a",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-WSM-002-25*\n:flag-ca:カナダ：WSM-Wabi-Sabi Matcha Inc.様から注文をいただきました",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1740967741.535919",
+      "reply_count": 13,
+      "reply_users_count": 5,
+      "latest_reply": "1743488994.629799",
+      "reply_users": [
+        "U066P20UQH1",
+        "U0331FZTHEK",
+        "U0606SPN4BW",
+        "U05KGS6HN9H",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1740968066.268499"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1740970436.245209"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1740970729.373199"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1741718597.762589"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1741932915.518509"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1742629068.226269"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1742696926.385509"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1743191898.354379"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1743205326.797349"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1743209517.557339"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1743209827.365399"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1743239483.840889"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1743488994.629799"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "bO5k8",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-WSM-002-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-ca",
+                  "unicode": "1f1e8-1f1e6"
+                },
+                {
+                  "type": "text",
+                  "text": "カナダ：WSM-Wabi-Sabi Matcha Inc.様から注文をいただきました"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "ivpl作成済",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        },
+        {
+          "name": "管理表入力済",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        },
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA"
+          ],
+          "count": 1
+        },
+        {
+          "name": "pあり",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        },
+        {
+          "name": "p発注済",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1740187312.713519",
+      "edited": {
+        "user": "U066P20UQH1",
+        "ts": "1740967704.000000"
+      },
+      "client_msg_id": "ebf17919-1bea-480d-b3a9-8bf2d630f63a",
+      "text": "~<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>~\n~*TSE-WSM-002-25*~\n:flag-ca: ~カナダ：WSM-Wabi-Sabi Matcha Inc.様から注文予定です~",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1740187312.713519",
+      "reply_count": 7,
+      "reply_users_count": 3,
+      "latest_reply": "1741140666.703039",
+      "reply_users": [
+        "U066P20UQH1",
+        "U0331FZS7JT",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1740187385.461359"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1740646537.833609"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1740813374.892199"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1740821868.515329"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1740961026.022449"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1740961492.580719"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1741140666.703039"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "VQr7P",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-WSM-002-25",
+                  "style": {
+                    "bold": true,
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-ca",
+                  "unicode": "1f1e8-1f1e6",
+                  "style": {
+                    "bold": true,
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " ",
+                  "style": {
+                    "bold": true,
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "カナダ：WSM-Wabi-Sabi Matcha Inc.様から注文予定です",
+                  "style": {
+                    "strike": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U095LLEH09G",
+      "type": "message",
+      "ts": "1757999980.992469",
+      "client_msg_id": "96d104f5-594c-4b81-92ef-dc40498ea2a5",
+      "text": "<@U066P20UQH1> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n9/16：注文内容一部変更\n・注文個数→60個から30個に変更。\n・ラベル→新ラベル発注予定のところ、以前使用したラベルを再使用に変更\n・箱→HからQに変更\n\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n恐れ入りますが、以下、各種ラベルの在庫数を教えていただけますでしょうか？\n①WSM-30g tin lid_250303\n②WSM-30g tin body_250303\n（※TSE-WSM-002-25で使用したラベルの在庫数）\nよろしくお願いいたします:woman-bowing::skin-tone-2:",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "ae87b26efedc",
+        "image_72": "https://avatars.slack-edge.com/2025-07-13/9205392762673_ae87b26efedc7814f01e_72.png",
+        "first_name": "Shizuka",
+        "real_name": "Shizuka Kawatani",
+        "display_name": "Shizuka Kawatani",
+        "team": "T033D70RR6H",
+        "name": "tousuien.kawatani",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1754536354.943379",
+      "parent_user_id": "U066P20UQH1",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ZFmjz",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U066P20UQH1"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\n9/16：注文内容一部変更\n・注文個数→60個から30個に変更。\n・ラベル→新ラベル発注予定のところ、以前使用したラベルを再使用に変更\n・箱→HからQに変更\n\n"
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n恐れ入りますが、以下、各種ラベルの在庫数を教えていただけますでしょうか？\n①WSM-30g tin lid_250303\n②WSM-30g tin body_250303\n（※TSE-WSM-002-25で使用したラベルの在庫数）\nよろしくお願いいたします"
+                },
+                {
+                  "type": "emoji",
+                  "name": "woman-bowing",
+                  "unicode": "1f647-1f3fb-200d-2640-fe0f",
+                  "skin_tone": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1741718597.762589",
+      "client_msg_id": "d3762453-2f70-4d44-a29e-4aae3527071b",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <@U0331FZTHEK> <@U066P20UQH1>\nPatriceさんから住所の変更依頼がありましたので共有します！\n以下、修正済みですが、もし*印刷済みの書類がある場合は差し替え*をお願いいたします。\n\n\n修正*前：*\n335 Ave Taniata, Saint-Romuald, G6W 5M6\n\n修正*後:*\n335 Ave Taniata, *Lévis*, G6W 5M6\n\n\n・Excelファイル(TSE-WSM-002-25)、*修正済み*。\n・顧客管理表、*修正済み。*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1740967741.535919",
+      "parent_user_id": "U066P20UQH1",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "OFHOG",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0331FZTHEK"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U066P20UQH1"
+                },
+                {
+                  "type": "text",
+                  "text": "\nPatriceさんから住所の変更依頼がありましたので共有します！\n以下、修正済みですが、もし"
+                },
+                {
+                  "type": "text",
+                  "text": "印刷済みの書類がある場合は差し替え",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "をお願いいたします。\n\n\n修正"
+                },
+                {
+                  "type": "text",
+                  "text": "前：",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n335 Ave Taniata, Saint-Romuald, G6W 5M6\n\n修正"
+                },
+                {
+                  "type": "text",
+                  "text": "後:",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n335 Ave Taniata, "
+                },
+                {
+                  "type": "text",
+                  "text": "Lévis",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ", G6W 5M6\n\n\n・Excelファイル(TSE-WSM-002-25)、"
+                },
+                {
+                  "type": "text",
+                  "text": "修正済み",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "。\n・顧客管理表、"
+                },
+                {
+                  "type": "text",
+                  "text": "修正済み。",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <@U066P20UQH1>\n*&lt; Invoice: Bill To, Ship To の内容変更のお知らせです &gt;*\n当日の変更となり申し訳ございません。\n先方の依頼により、InvoiceのBill ToとShip To に内容が変更ありました:sweat_drops:\n\nつきましては、大変お手数ですが送り状など作成済み・印刷済みの書類の差し替えをお願い致します！:man-bowing:\n(先方には「発送日当日の変更となるため、スケジュールされている 4/1に遅れがでる可能性。」について触れてあります。←現時点では未読ですが。。)\nExcelファイルは \"TSE-WSM-002-25_住所変更0329\" となります。(変更前のファイルは没フォルダに入れました)\n\n以上、よろしくお願いいたします！",
+      "files": [
+        {
+          "id": "F08KY2V51KN",
+          "created": 1743191251,
+          "timestamp": 1743191251,
+          "name": "TSE-WSM-002-25_住所変更0329.pdf",
+          "title": "TSE-WSM-002-25_住所変更0329.pdf",
+          "mimetype": "application/pdf",
+          "filetype": "pdf",
+          "pretty_type": "PDF",
+          "user": "U0606SPN4BW",
+          "user_team": "T033D70RR6H",
+          "editable": false,
+          "size": 317746,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T033D70RR6H-F08KY2V51KN/tse-wsm-002-25_____________0329.pdf?token=xoxe-3115238875221-9737284359442-9735461212898-2817b73f07ac9792d2ef0223c7a005ab",
+          "url_private_download": "https://files.slack.com/files-pri/T033D70RR6H-F08KY2V51KN/download/tse-wsm-002-25_____________0329.pdf?token=xoxe-3115238875221-9737284359442-9735461212898-2817b73f07ac9792d2ef0223c7a005ab",
+          "media_display_type": "unknown",
+          "thumb_pdf": "https://files.slack.com/files-tmb/T033D70RR6H-F08KY2V51KN-9928f4407b/tse-wsm-002-25_____________0329_thumb_pdf.png?t=xoxe-3115238875221-9737284359442-9735461212898-2817b73f07ac9792d2ef0223c7a005ab",
+          "thumb_pdf_w": 909,
+          "thumb_pdf_h": 1286,
+          "permalink": "https://grp-ssm9297.slack.com/files/U0331FWGQRM/F08KY2V51KN/tse-wsm-002-25_____________0329.pdf",
+          "permalink_public": "https://slack-files.com/T033D70RR6H-F08KY2V51KN-bf2a0df136",
+          "is_starred": false,
+          "skipped_shares": true,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        }
+      ],
+      "upload": false,
+      "user": "U0606SPN4BW",
+      "display_as_bot": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "zLf52",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U066P20UQH1"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "< Invoice: Bill To, Ship To の内容変更のお知らせです >",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n当日の変更となり申し訳ございません。\n先方の依頼により、InvoiceのBill ToとShip To に内容が変更ありました"
+                },
+                {
+                  "type": "emoji",
+                  "name": "sweat_drops",
+                  "unicode": "1f4a6"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nつきましては、大変お手数ですが送り状など作成済み・印刷済みの書類の差し替えをお願い致します！"
+                },
+                {
+                  "type": "emoji",
+                  "name": "man-bowing",
+                  "unicode": "1f647-200d-2642-fe0f"
+                },
+                {
+                  "type": "text",
+                  "text": "\n(先方には「発送日当日の変更となるため、スケジュールされている 4/1に遅れがでる可能性。」について触れてあります。←現時点では未読ですが。。)\nExcelファイルは \"TSE-WSM-002-25_住所変更0329\" となります。(変更前のファイルは没フォルダに入れました)\n\n以上、よろしくお願いいたします！"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "message",
+      "ts": "1743191898.354379",
+      "client_msg_id": "687bd491-e281-4e7a-8bd7-22e123a326bd",
+      "thread_ts": "1740967741.535919",
+      "parent_user_id": "U066P20UQH1"
+    },
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1742696926.385509",
+      "client_msg_id": "3a3cd0b9-a692-4a76-b5c3-7a3dfbb3e014",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <@U066P20UQH1>\n↑上記の住所変更は次回となりました。\nつきましては、今回は下記のままとなります。現状からの変更はありません。\nよろしくお願いいたします！\n\n```修正後:\n335 Ave Taniata, Lévis, G6W 5M6\n\n・Excelファイル(TSE-WSM-002-25)、修正済み。\n・顧客管理表、修正済み。```",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1740967741.535919",
+      "parent_user_id": "U066P20UQH1",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "t7tgq",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U066P20UQH1"
+                },
+                {
+                  "type": "text",
+                  "text": "\n↑上記の住所変更は次回となりました。\nつきましては、今回は下記のままとなります。現状からの変更はありません。\nよろしくお願いいたします！\n\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_preformatted",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "修正後:\n335 Ave Taniata, Lévis, G6W 5M6\n\n・Excelファイル(TSE-WSM-002-25)、修正済み。\n・顧客管理表、修正済み。"
+                }
+              ],
+              "border": 0
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1740649530.531479",
+      "edited": {
+        "user": "U0331FZS7JT",
+        "ts": "1740700869.000000"
+      },
+      "client_msg_id": "8d304af5-8d26-4b6c-9bae-482c3c2083d4",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <@U03BLQ65GK0>\n急ぎ対応または確認して欲しい内容をまとめましたので、\n確認をお願いします。\nで、少しミーティングしましょう。\n\n*▼サンプル*\nサウジ\nTSE-LOL-SPL-001-25\nサンプル4種　各20g\n◯①NO Upp1 出雲抹茶G\n◯②NO Upp1 出雲抹茶R\n◯③NO Upp1 出雲抹茶T\n*~バニラ場所確認~OK*④NO Vanilla matcha 鹿児島B90%×キタマバニラ10%\n\n*→明日2/28発送*\n\n-------\nベトナム\nTSE-CAO-SPL-001-25\n各種50gでお願いします。\n*~確認~ OK*鹿児島1A\n◯ 鹿児島B\n◯ 鹿児島D\n袋：清和10966（白艶）\nラベル：品名ラベル\n印字・窒素・エージレス：指定なし\n箱：ボタニカル×1\n*→明日2/28発送*\n------\n\n*▼注文*\nオランダ Jinbo Cafe pengfei shen\nTSE-JIN-001-25\n①新製品: 30袋 x (1kg zip bag,シルバー):Non-organic Upper grade 2 (出雲精茶R) - JIN3*→代替品在庫(1000kg)OK*\n袋指定: シルバー\nエージレス：無し\n品名ラベル貼り：表面あり\n賞味期限印字：なし\n②新製品: 5袋 x (1kg zip bag,シルバー):Non-organic Regular grade 2 (出雲精茶W) - JIN4→*在庫(175kg)OK*\n袋指定: シルバー\nエージレス：無し\n品名ラベル貼り：表面あり\n賞味期限の印字：なし\n③リピート製品(価格が異なる為、商品コードはJIN5)：\n  300缶 x 50g缶 (ホワイト), Non-organic Upper grade 2 (出雲精茶R) - JIN5→*原料在庫OK（製缶のスケジュール確認）*\n  カスタムラベル:あり (胴・フタ) ← 2/22追記 ※胴ラベルは新デザインとなります。\n\n*→出雲抹茶である必要はない*\n\n------\n\nカナダ：ワビサビ\nTSE-WSM-002-25\n鹿児島B 1kg bulk bag ×16bag （16kg）*→茗広 から3/1に35kg納品*\n袋指定なし\n\n~有機抹茶Bの在庫確認~\n*発送日確認*\n-----\nTSE-SOL-004-25\nオランダ SOL-Solaiman Aakouk(alibaba) 様\n\n出雲抹茶G1kg×10袋\n追加で10袋（計20kg同日出荷可能か）→*可能（出雲精茶で今粉砕中）*\n~不可能な場合はいつなら可能か~\n*出荷可能日　3/10（月）*\n-----\n\nメモ：セバスチャン用のRの代替品：1000kg程度在庫あり",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "m/O3c",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U03BLQ65GK0"
+                },
+                {
+                  "type": "text",
+                  "text": "\n急ぎ対応または確認して欲しい内容をまとめましたので、\n確認をお願いします。\nで、少しミーティングしましょう。\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "▼サンプル",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nサウジ\nTSE-LOL-SPL-001-25\nサンプル4種　各20g\n◯①NO Upp1 出雲抹茶G\n◯②NO Upp1 出雲抹茶R\n◯③NO Upp1 出雲抹茶T\n"
+                },
+                {
+                  "type": "text",
+                  "text": "バニラ場所確認",
+                  "style": {
+                    "bold": true,
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "OK",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "④NO Vanilla matcha 鹿児島B90%×キタマバニラ10%\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "→明日2/28発送",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n-------\nベトナム\nTSE-CAO-SPL-001-25\n各種50gでお願いします。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "確認",
+                  "style": {
+                    "bold": true,
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " OK",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "鹿児島1A\n◯ 鹿児島B\n◯ 鹿児島D\n袋：清和10966（白艶）\nラベル：品名ラベル\n印字・窒素・エージレス：指定なし\n箱：ボタニカル×1\n"
+                },
+                {
+                  "type": "text",
+                  "text": "→明日2/28発送",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n------\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "▼注文",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nオランダ Jinbo Cafe pengfei shen\nTSE-JIN-001-25\n①新製品: 30袋 x (1kg zip bag,シルバー):Non-organic Upper grade 2 (出雲精茶R) - JIN3"
+                },
+                {
+                  "type": "text",
+                  "text": "→代替品在庫(1000kg)OK",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n袋指定: シルバー\nエージレス：無し\n品名ラベル貼り：表面あり\n賞味期限印字：なし\n②新製品: 5袋 x (1kg zip bag,シルバー):Non-organic Regular grade 2 (出雲精茶W) - JIN4→"
+                },
+                {
+                  "type": "text",
+                  "text": "在庫(175kg)OK",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n袋指定: シルバー\nエージレス：無し\n品名ラベル貼り：表面あり\n賞味期限の印字：なし\n③リピート製品(価格が異なる為、商品コードはJIN5)：\n  300缶 x 50g缶 (ホワイト), Non-organic Upper grade 2 (出雲精茶R) - JIN5→"
+                },
+                {
+                  "type": "text",
+                  "text": "原料在庫OK（製缶のスケジュール確認）",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n  カスタムラベル:あり (胴・フタ) ← 2/22追記 ※胴ラベルは新デザインとなります。\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "→出雲抹茶である必要はない",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n------\n\nカナダ：ワビサビ\nTSE-WSM-002-25\n鹿児島B 1kg bulk bag ×16bag （16kg）"
+                },
+                {
+                  "type": "text",
+                  "text": "→茗広 から3/1に35kg納品",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n袋指定なし\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "有機抹茶Bの在庫確認",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "発送日確認",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n-----\nTSE-SOL-004-25\nオランダ SOL-Solaiman Aakouk(alibaba) 様\n\n出雲抹茶G1kg×10袋\n追加で10袋（計20kg同日出荷可能か）→"
+                },
+                {
+                  "type": "text",
+                  "text": "可能（出雲精茶で今粉砕中）",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "不可能な場合はいつなら可能か",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "出荷可能日　3/10（月）",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n-----\n\nメモ：セバスチャン用のRの代替品：1000kg程度在庫あり"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1756830711.796929",
+      "client_msg_id": "d25585fa-3656-4dfe-8ff4-cc37fb70898e",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> \t\t\t\t\n:flag-ae:UAE MAM-Maha Ali (alibaba)から注文予定をいただきました。\t\t\t\t\n*TSE-MAM-005-25*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1756830711.796929",
+      "reply_count": 9,
+      "reply_users_count": 4,
+      "latest_reply": "1760604446.203869",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK",
+        "U05KGS6HN9H",
+        "U09DF1SDTQR"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1756830813.618119"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1756857904.215039"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1756860810.970119"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1756864145.004869"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1756921919.957279"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1756926888.255879"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1757401520.110329"
+        },
+        {
+          "user": "U09DF1SDTQR",
+          "ts": "1758696765.618359"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1760604446.203869"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "wWmHD",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": " \t\t\t\t\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-ae",
+                  "unicode": "1f1e6-1f1ea"
+                },
+                {
+                  "type": "text",
+                  "text": "UAE MAM-Maha Ali (alibaba)から注文予定をいただきました。\t\t\t\t\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-MAM-005-25",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

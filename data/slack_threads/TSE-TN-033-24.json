@@ -1,0 +1,113 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1734670288.593059",
+      "edited": {
+        "user": "U0331FZS7JT",
+        "ts": "1734670296.000000"
+      },
+      "client_msg_id": "6e37e094-fc58-457d-bdb7-a7613f7bb4bc",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-TN-033-24*\n:flag-th:タイ：TN-Dark's mood cafe(Mr.Thanin Niyomjinda)様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1734670288.593059",
+      "reply_count": 4,
+      "reply_users_count": 3,
+      "latest_reply": "1736119887.347329",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U05KGS6HN9H",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1734670354.961069"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1735009525.661039"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1735374537.622149"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1736119887.347329"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "v4jUg",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-TN-033-24",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-th",
+                  "unicode": "1f1f9-1f1ed",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "タイ：TN-Dark's mood cafe(Mr.Thanin Niyomjinda)様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U033G4KN4TD",
+            "U05KGS6HN9H"
+          ],
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

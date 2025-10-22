@@ -1,0 +1,124 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1739806852.080879",
+      "edited": {
+        "user": "U0331FZS7JT",
+        "ts": "1739806862.000000"
+      },
+      "client_msg_id": "072e2ee0-cf97-4dbb-b996-5158dda4484c",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-UOA-001-25*\n:flag-vn:ベトナム：UOA-matcha.uoa(insta)様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1739806852.080879",
+      "reply_count": 6,
+      "reply_users_count": 3,
+      "latest_reply": "1740735675.228609",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U041RJKV5JA",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1739807338.710669"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1740555405.337509"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1740700060.092019"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1740700253.473069"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1740702396.623039"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1740735675.228609"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "5Gsye",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-UOA-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-vn",
+                  "unicode": "1f1fb-1f1f3"
+                },
+                {
+                  "type": "text",
+                  "text": "ベトナム：UOA-matcha.uoa(insta)様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U05KGS6HN9H"
+          ],
+          "count": 2
+        },
+        {
+          "name": "donee",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

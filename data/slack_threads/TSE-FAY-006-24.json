@@ -1,0 +1,134 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1724813607.353269",
+      "client_msg_id": "613500b0-dd2f-4195-81e0-183068f95948",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:flag-sa:Fay様から受注予定です。\n*TSE-FAY-006-24　（作成中）*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1724813607.353269",
+      "reply_count": 10,
+      "reply_users_count": 3,
+      "latest_reply": "1725515402.778309",
+      "reply_users": [
+        "U066P20UQH1",
+        "U05KGS6HN9H",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1724813718.820249"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1724817797.037749"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1724822611.329269"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1724823102.385799"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1724839184.798929"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1725266655.671669"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1725432358.302089"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1725436725.286809"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1725438479.947459"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1725515402.778309"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1725515402.778309",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "aMtli",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S072Q871SF9"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-sa",
+                  "unicode": "1f1f8-1f1e6"
+                },
+                {
+                  "type": "text",
+                  "text": "Fay様から受注予定です。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-FAY-006-24　（作成中）",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U05KGS6HN9H",
+            "U033G4KN4TD"
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1743758122.384049",
+      "client_msg_id": "dfbd2c66-7821-4634-9208-52c52894393d",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:fr:フランス MMR-Mael Matmour様から注文を頂きました。\n*TSE-MMR-001-25* ",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1743758122.384049",
+      "reply_count": 10,
+      "reply_users_count": 6,
+      "latest_reply": "1745565477.586189",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK",
+        "U033G4KN4TD",
+        "U066P20UQH1",
+        "U0840UVFVA8",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1743758254.199029"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1743758512.419059"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1743759343.242319"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1743989716.963189"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1743991212.927569"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1744713143.371999"
+        },
+        {
+          "user": "U0840UVFVA8",
+          "ts": "1744716273.712289"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1745483655.514769"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1745485654.170559"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1745565477.586189"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1745565477.586189",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "tihFy",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " cc "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S072Q871SF9"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-fr",
+                  "unicode": "1f1eb-1f1f7"
+                },
+                {
+                  "type": "text",
+                  "text": "フランス MMR-Mael Matmour様から注文を頂きました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-MMR-001-25 ",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

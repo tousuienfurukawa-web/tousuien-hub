@@ -1,0 +1,125 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1745040076.961319",
+      "edited": {
+        "user": "U066P20UQH1",
+        "ts": "1750735077.000000"
+      },
+      "client_msg_id": "58d5e998-cd95-4585-8e38-e9d92841a1d1",
+      "text": "~<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>~\n~*TSE-KAM-001-25*~\n:de:~ドイツ：KAM-Kamila Howel (Whats, alibaba名de1360782841nuks)様から注文をいただきました。~",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1745040076.961319",
+      "reply_count": 6,
+      "reply_users_count": 2,
+      "latest_reply": "1750735069.154479",
+      "reply_users": [
+        "U066P20UQH1",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1745040393.198849"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1745047415.540029"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1745048828.617299"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1745298543.428129"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1750725023.479739"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1750735069.154479"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "yQmzc",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-KAM-001-25",
+                  "style": {
+                    "bold": true,
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "de",
+                  "unicode": "1f1e9-1f1ea",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "ドイツ：KAM-Kamila Howel (Whats, alibaba名de1360782841nuks)様から注文をいただきました。",
+                  "style": {
+                    "strike": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

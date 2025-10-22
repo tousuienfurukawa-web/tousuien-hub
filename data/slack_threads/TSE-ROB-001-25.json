@@ -1,0 +1,121 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1739374257.836889",
+      "edited": {
+        "user": "U0606SPN4BW",
+        "ts": "1739376065.000000"
+      },
+      "client_msg_id": "eae08fb0-0ca5-44b4-b8f1-543ae00d0370",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:gb:イギリス Roberto Mottola様からサンプル注文を頂きました。\n*TSE-ROB-001-25*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1739374257.836889",
+      "reply_count": 4,
+      "reply_users_count": 3,
+      "latest_reply": "1739867656.652009",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1739374316.212649"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1739402243.504989"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1739526811.988579"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1739867656.652009"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1739867656.652009",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "9Wi4c",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " cc "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S072Q871SF9"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "gb",
+                  "unicode": "1f1ec-1f1e7"
+                },
+                {
+                  "type": "text",
+                  "text": "イギリス Roberto Mottola様からサンプル注文を頂きました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-ROB-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U05KGS6HN9H",
+            "U041RJKV5JA"
+          ],
+          "count": 2
+        },
+        {
+          "name": "済",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

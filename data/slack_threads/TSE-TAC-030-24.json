@@ -1,0 +1,176 @@
+{
+  "messages": [
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1724638736.444029",
+      "client_msg_id": "ce438336-03eb-47b6-838a-ce311a2ed3bf",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n:flag-th:タイのtachu houseより注文がありました。\n*TSE-TAC-030-24*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1724638736.444029",
+      "reply_count": 7,
+      "reply_users_count": 3,
+      "latest_reply": "1726214073.936779",
+      "reply_users": [
+        "U0331FWGQRM",
+        "U05KGS6HN9H",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1724638764.813399"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1724669894.522199"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1724891058.642929"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1725934897.909389"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1725942336.679509"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1725950116.319779"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1726214073.936779"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1726214073.936779",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "gb4k8",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-th",
+                  "unicode": "1f1f9-1f1ed"
+                },
+                {
+                  "type": "text",
+                  "text": "タイのtachu houseより注文がありました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-TAC-030-24",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U033G4KN4TD",
+            "U05KGS6HN9H"
+          ],
+          "count": 3
+        }
+      ]
+    },
+    {
+      "user": "U05KGS6HN9H",
+      "type": "message",
+      "ts": "1724669894.522199",
+      "client_msg_id": "7898f6ce-384e-432f-9938-b8885d7de8f1",
+      "text": "<@U0331FWGQRM>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n出荷可能日9/11にてお願い致します。\n9/6（金） 茶詰め作業\n9/9～10 　WEB 検疫（これからの申請の為、仮予定）\n9/11 （水）検疫証明取得→　出荷\n・Lot no./Man. date/ Exp. dateを\nTSE-TAC-030-24_invoice_total_secret_Lot No_memo　に記入して\nおります。ご確認お願い致します。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gc4e7258333f",
+        "image_72": "https://secure.gravatar.com/avatar/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+        "first_name": "Adachi",
+        "real_name": "Adachi",
+        "display_name": "足立",
+        "team": "T033D70RR6H",
+        "name": "tousuien05",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1724638736.444029",
+      "parent_user_id": "U0331FWGQRM",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Wj01B",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0331FWGQRM"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n出荷可能日9/11にてお願い致します。\n9/6（金） 茶詰め作業\n9/9～10 　WEB 検疫（これからの申請の為、仮予定）\n9/11 （水）検疫証明取得→　出荷\n・Lot no./Man. date/ Exp. dateを\nTSE-TAC-030-24_invoice_total_secret_Lot No_memo　に記入して\nおります。ご確認お願い致します。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "d130b000eb8d6784",
+          "users": [
+            "U0331FWGQRM"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

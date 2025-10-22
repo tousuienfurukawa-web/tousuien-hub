@@ -1,0 +1,162 @@
+{
+  "messages": [
+    {
+      "user": "U05KGS6HN9H",
+      "type": "message",
+      "ts": "1759358911.267789",
+      "client_msg_id": "ddb98355-07fe-4fbf-b85b-377e07d25f43",
+      "text": "<@U095LLEH09G>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\nTSE-JHL-001-25（ブルネイ）とも関連致しますが、念の為事前に\n先方が必要とされるような書類が無いか、ご確認いただけますと助かります。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gc4e7258333f",
+        "image_72": "https://secure.gravatar.com/avatar/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+        "first_name": "Adachi",
+        "real_name": "Adachi",
+        "display_name": "足立",
+        "team": "T033D70RR6H",
+        "name": "tousuien05",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1756884342.135539",
+      "parent_user_id": "U095LLEH09G",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "A7CWe",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U095LLEH09G"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\nTSE-JHL-001-25（ブルネイ）とも関連致しますが、念の為事前に\n先方が必要とされるような書類が無いか、ご確認いただけますと助かります。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1756965851.997739",
+      "client_msg_id": "e090e077-dbed-4b34-ba41-1d6accd5781b",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n*TSE-JHL-001-25*\n:flag-bn:ブルネイ：JHL-Mori Enterprise / Jun Hong Lim（alibaba)様から注文予定です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1756965851.997739",
+      "reply_count": 4,
+      "reply_users_count": 2,
+      "latest_reply": "1756974613.468709",
+      "reply_users": [
+        "U066P20UQH1",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1756965961.884939"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1756969345.882949"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1756971741.666569"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1756974613.468709"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "tFO5N",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-JHL-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-bn",
+                  "unicode": "1f1e7-1f1f3"
+                },
+                {
+                  "type": "text",
+                  "text": "ブルネイ：JHL-Mori Enterprise / Jun Hong Lim（alibaba)様から注文予定です。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

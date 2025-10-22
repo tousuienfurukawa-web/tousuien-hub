@@ -1,0 +1,124 @@
+{
+  "messages": [
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1736266661.234529",
+      "edited": {
+        "user": "U0331FWGQRM",
+        "ts": "1736266671.000000"
+      },
+      "client_msg_id": "8d2c92b7-689d-4059-a05e-3134cbbd98fd",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:flag-ph:フィリピン Sahara Casteel(アリババ名 Brigitte Ventures, 国旗アメリカ) 様から注文を頂きました。\n*TSE-BGV-001-25*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1736266661.234529",
+      "reply_count": 6,
+      "reply_users_count": 5,
+      "latest_reply": "1736923750.849099",
+      "reply_users": [
+        "U0331FWGQRM",
+        "U0331FZTHEK",
+        "U066P20UQH1",
+        "U05KGS6HN9H",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1736267003.202989"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1736272183.064479"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1736295661.285119"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1736304564.450009"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1736570784.748369"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1736923750.849099"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1736923750.849099",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ccvNy",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " cc "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S072Q871SF9"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-ph",
+                  "unicode": "1f1f5-1f1ed"
+                },
+                {
+                  "type": "text",
+                  "text": "フィリピン Sahara Casteel(アリババ名 Brigitte Ventures, 国旗アメリカ) 様から注文を頂きました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-BGV-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U05KGS6HN9H"
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

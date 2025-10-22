@@ -1,0 +1,145 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1739337171.247719",
+      "client_msg_id": "9ea8f3fa-11f6-4fc4-a480-1201e9269483",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-ZHJ-001-25*\n:flag-ae:UAE：ZHJ-Zahra Jama様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1739337171.247719",
+      "reply_count": 12,
+      "reply_users_count": 4,
+      "latest_reply": "1740752758.494919",
+      "reply_users": [
+        "U066P20UQH1",
+        "U0331FZTHEK",
+        "U041RJKV5JA",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1739337706.972759"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1739339114.825859"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1739513453.325039"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1739596261.080779"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1739603790.888739"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1739775627.568269"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1739841219.153939"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1740188338.067829"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1740197806.355359"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1740200229.202409"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1740469865.911369"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1740752758.494919"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "lxNAI",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-ZHJ-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-ae",
+                  "unicode": "1f1e6-1f1ea"
+                },
+                {
+                  "type": "text",
+                  "text": "UAE：ZHJ-Zahra Jama様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U05KGS6HN9H",
+            "U041RJKV5JA"
+          ],
+          "count": 2
+        },
+        {
+          "name": "donee",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

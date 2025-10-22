@@ -1,0 +1,130 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1755010869.997369",
+      "edited": {
+        "user": "U0606SPN4BW",
+        "ts": "1755015783.000000"
+      },
+      "client_msg_id": "82412f0c-cddb-461d-8a41-48890f6011e8",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n1450 :flag-sg:シンガポール TFL-Lee Tian Fu(アリババ名 TF Lee)様から注文をいただきました。\n*TSE-TFL-001-25*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1755010869.997369",
+      "reply_count": 10,
+      "reply_users_count": 6,
+      "latest_reply": "1758266643.961859",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK",
+        "U08NVD403GV",
+        "U05KGS6HN9H",
+        "U08L89G6JSG",
+        "U08U8MMTH43"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1755010973.691419"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1755065563.195609"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1755609284.123889"
+        },
+        {
+          "user": "U08NVD403GV",
+          "ts": "1756345060.888959"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1757505731.756849"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1757546953.795819"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1757574897.359019"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1757581627.806709"
+        },
+        {
+          "user": "U08L89G6JSG",
+          "ts": "1757664578.643939"
+        },
+        {
+          "user": "U08U8MMTH43",
+          "ts": "1758266643.961859"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "4sfn9",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\n1450 "
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-sg",
+                  "unicode": "1f1f8-1f1ec"
+                },
+                {
+                  "type": "text",
+                  "text": "シンガポール TFL-Lee Tian Fu(アリババ名 TF Lee)様から注文をいただきました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-TFL-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

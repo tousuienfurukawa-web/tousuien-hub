@@ -1,0 +1,129 @@
+{
+  "messages": [
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1743746591.532039",
+      "edited": {
+        "user": "U0331FWGQRM",
+        "ts": "1752468477.000000"
+      },
+      "client_msg_id": "e09a620a-2010-4ef5-bee1-0211c3ad9bb4",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n910:flag-ch:スイスのSebastyan様から注文です。\n~TSE-MTL-008-25（ドイツonline store向け）~\n→TSE-MTL-010-25に結合（008は廃盤）",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1743746591.532039",
+      "reply_count": 9,
+      "reply_users_count": 4,
+      "latest_reply": "1752222348.073209",
+      "reply_users": [
+        "U0331FWGQRM",
+        "U033G4KN4TD",
+        "U0331FZTHEK",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1743746729.651229"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1745329866.960009"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1745384027.050419"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1747180349.205339"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1748020039.287679"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1750463962.333199"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1750517731.278709"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1752189159.940779"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1752222348.073209"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1752222348.073209",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "WGSsQ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\n910"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-ch",
+                  "unicode": "1f1e8-1f1ed"
+                },
+                {
+                  "type": "text",
+                  "text": "スイスのSebastyan様から注文です。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-MTL-008-25（ドイツonline store向け）",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n→TSE-MTL-010-25に結合（008は廃盤）"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

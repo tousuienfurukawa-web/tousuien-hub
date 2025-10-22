@@ -1,0 +1,91 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1683740291.569229",
+      "client_msg_id": "678ce040-bbac-4aa2-9c56-25f3d2654609",
+      "text": "<@U041RJKV5JA> 部長\nCC：<!channel>\n\nタイ：vampire(11.1insta)から注文（Invoice(TSE-MET-002-23) ）がありました。\n前回同様の１kg×１です。\n発送用のインボイスを添付の上、EMSで発送をお願いします。\n発送可能日の共有をお願いします。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1683740291.569229",
+      "reply_count": 4,
+      "reply_users_count": 2,
+      "latest_reply": "1683783769.557999",
+      "reply_users": [
+        "U033G4KN4TD",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1683764113.564199"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1683766791.809409"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1683780467.894609"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1683783769.557999"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "TX7Nk",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U041RJKV5JA"
+                },
+                {
+                  "type": "text",
+                  "text": " 部長\nCC："
+                },
+                {
+                  "type": "broadcast",
+                  "range": "channel"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nタイ：vampire(11.1insta)から注文（Invoice(TSE-MET-002-23) ）がありました。\n前回同様の１kg×１です。\n発送用のインボイスを添付の上、EMSで発送をお願いします。\n発送可能日の共有をお願いします。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

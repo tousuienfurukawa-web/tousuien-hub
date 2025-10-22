@@ -1,0 +1,889 @@
+{
+  "messages": [
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1706585561.437979",
+      "client_msg_id": "ccb4bc25-6192-405f-abe7-3f8379e2593b",
+      "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD>\nタイのtachu houseより注文がありました。\n*TSE-TAC-007-24_invoice（発送：EMS）*\n注文内容はフォルダ内のインボイスを確認ください。\n\n-----\n:star:~脱酸素剤を入れてください。窒素充填してください。~\n脱酸素剤、窒素充填共に不要\n*・HS CODE：*2101.20　\n*・Lot no./Man. date/ Exp. dateを*\n　*TSE-TAC-005-24_invoice_total_secret_Lot No_memo　に記入してください。*\n*・前回と同様にラベルを貼り付けてください。*\n　商品\n　製造日・賞味期限・Lot No.",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1706585561.437979",
+      "reply_count": 4,
+      "reply_users_count": 2,
+      "latest_reply": "1707115967.997369",
+      "reply_users": [
+        "U05KGS6HN9H",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1706599141.895649"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1706604147.675909"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1706828277.940719"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1707115967.997369"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1707115967.997369",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "aD4um",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U041RJKV5JA"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U05KGS6HN9H"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U033G4KN4TD"
+                },
+                {
+                  "type": "text",
+                  "text": "\nタイのtachu houseより注文がありました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-TAC-007-24_invoice（発送：EMS）",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n注文内容はフォルダ内のインボイスを確認ください。\n\n-----\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "star",
+                  "unicode": "2b50",
+                  "style": {
+                    "bold": true,
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "脱酸素剤を入れてください。窒素充填してください。",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n脱酸素剤、窒素充填共に不要\n"
+                },
+                {
+                  "type": "text",
+                  "text": "・HS CODE：",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "2101.20　\n"
+                },
+                {
+                  "type": "text",
+                  "text": "・Lot no./Man. date/ Exp. dateを",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "　TSE-TAC-005-24_invoice_total_secret_Lot No_memo　に記入してください。",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "・前回と同様にラベルを貼り付けてください。",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n　商品\n　製造日・賞味期限・Lot No."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U033G4KN4TD",
+            "U041RJKV5JA",
+            "U05KGS6HN9H"
+          ],
+          "count": 3
+        }
+      ]
+    },
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1705600145.401299",
+      "client_msg_id": "633C5292-8876-4874-9B81-77CEF9C445FA",
+      "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD>\nタイのtachu houseより注文がありました。\n*TSE-TAC-005-24_invoice（発送：EMS）*\n\n注文内容はフォルダ内のインボイスを確認ください。\n\n*・HS CODE：*2101.20　\n*・Lot no./Man. date/ Exp. dateを*\n　*TSE-TAC-005-24_invoice_total_secret_Lot No_memo　に記入してください。*\n*・前回と同様にラベルを貼り付けてください。*\n　商品\n　製造日・賞味期限・Lot No.\n*・脱酸素剤を入れてください。~窒素充填してください。~*\n*・下記先へ発送ください。*\n66/9,Moo 8,Sub-district Khok kham, District Muang, Samutsakhon province, Thailand,\n74000 （編集済み）",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1705600145.401299",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1706077369.228759",
+      "reply_users": [
+        "U041RJKV5JA",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1705625243.345079"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1705877656.022919"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1706077369.228759"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1706077369.228759",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "4SpPV",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U041RJKV5JA"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U05KGS6HN9H"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U033G4KN4TD"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "タイのtachu houseより注文がありました。"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-TAC-00",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "5",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "-24_invoice（発送：EMS）",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "注文内容はフォルダ内のインボイスを確認ください。"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "・HS CODE：",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "2101.20　"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "・Lot no./Man. date/ Exp. dateを",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "　TSE",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "-",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "TAC-00",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "5",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "-24_invoice_total_secret_Lot No_memo　に記入してください。",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "・前回と同様にラベルを貼り付けてください。",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "　商品"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "　製造日・賞味期限・Lot No."
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "・脱酸素剤を入れてください。",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "窒素充填してください。",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "・下記先へ発送ください。",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "66/9,Moo 8,Sub-district Khok kham, District Muang, Samutsakhon province, Thailand,"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "74000 （編集済み）"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U033G4KN4TD",
+            "U05KGS6HN9H"
+          ],
+          "count": 3
+        }
+      ]
+    },
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1705600145.401299",
+      "client_msg_id": "633C5292-8876-4874-9B81-77CEF9C445FA",
+      "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD>\nタイのtachu houseより注文がありました。\n*TSE-TAC-005-24_invoice（発送：EMS）*\n\n注文内容はフォルダ内のインボイスを確認ください。\n\n*・HS CODE：*2101.20　\n*・Lot no./Man. date/ Exp. dateを*\n　*TSE-TAC-005-24_invoice_total_secret_Lot No_memo　に記入してください。*\n*・前回と同様にラベルを貼り付けてください。*\n　商品\n　製造日・賞味期限・Lot No.\n*・脱酸素剤を入れてください。~窒素充填してください。~*\n*・下記先へ発送ください。*\n66/9,Moo 8,Sub-district Khok kham, District Muang, Samutsakhon province, Thailand,\n74000 （編集済み）",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1705600145.401299",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1706077369.228759",
+      "reply_users": [
+        "U041RJKV5JA",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1705625243.345079"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1705877656.022919"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1706077369.228759"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1706077369.228759",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "4SpPV",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U041RJKV5JA"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U05KGS6HN9H"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U033G4KN4TD"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "タイのtachu houseより注文がありました。"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-TAC-00",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "5",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "-24_invoice（発送：EMS）",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "注文内容はフォルダ内のインボイスを確認ください。"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "・HS CODE：",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "2101.20　"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "・Lot no./Man. date/ Exp. dateを",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "　TSE",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "-",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "TAC-00",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "5",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "-24_invoice_total_secret_Lot No_memo　に記入してください。",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "・前回と同様にラベルを貼り付けてください。",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "　商品"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "　製造日・賞味期限・Lot No."
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "・脱酸素剤を入れてください。",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "窒素充填してください。",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "・下記先へ発送ください。",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n",
+                  "style": {
+                    "bold": true,
+                    "italic": false,
+                    "strike": false
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "66/9,Moo 8,Sub-district Khok kham, District Muang, Samutsakhon province, Thailand,"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "74000 （編集済み）"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U033G4KN4TD",
+            "U05KGS6HN9H"
+          ],
+          "count": 3
+        }
+      ]
+    },
+    {
+      "user": "U041RJKV5JA",
+      "type": "message",
+      "ts": "1705625243.345079",
+      "client_msg_id": "37f13f68-485d-44c7-843c-86b95e6cd57d",
+      "text": "<@U0331FWGQRM>\n <@U05KGS6HN9H> <@U033G4KN4TD>\nLot no./Man. date/ Exp. dateを\nTSE-TAC-005-24_invoice_total_secret_Lot No_memo に記入しました。\n出荷可能日：1月24日（水）\nよろしくお願いいたします。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "aed9eafd9eee",
+        "image_72": "https://avatars.slack-edge.com/2022-09-11/4078874890257_aed9eafd9eee277ba076_72.png",
+        "first_name": "Hirakawa",
+        "real_name": "Hirakawa",
+        "display_name": "平川",
+        "team": "T033D70RR6H",
+        "name": "tousuien.s006",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1705600145.401299",
+      "parent_user_id": "U0331FWGQRM",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "IgwLe",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0331FWGQRM"
+                },
+                {
+                  "type": "text",
+                  "text": "\n "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U05KGS6HN9H"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U033G4KN4TD"
+                },
+                {
+                  "type": "text",
+                  "text": "\nLot no./Man. date/ Exp. dateを\nTSE-TAC-005-24_invoice_total_secret_Lot No_memo に記入しました。\n出荷可能日：1月24日（水）\nよろしくお願いいたします。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

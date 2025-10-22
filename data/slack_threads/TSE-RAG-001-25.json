@@ -1,0 +1,100 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1744277127.541559",
+      "client_msg_id": "67aa3c2f-4aa8-4d51-b492-a32d8e97a6f8",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-RAG-001-25*\n:flag-sa: サウジアラビア：RAG-Raghad(alibaba)様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1744277127.541559",
+      "reply_count": 5,
+      "reply_users_count": 4,
+      "latest_reply": "1744960825.531589",
+      "reply_users": [
+        "U066P20UQH1",
+        "U0331FZTHEK",
+        "U033G4KN4TD",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1744277263.179569"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1744281267.447689"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1744680196.196129"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1744757141.227039"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1744960825.531589"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ufwzZ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-RAG-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-sa",
+                  "unicode": "1f1f8-1f1e6"
+                },
+                {
+                  "type": "text",
+                  "text": " サウジアラビア：RAG-Raghad(alibaba)様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

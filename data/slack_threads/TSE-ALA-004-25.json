@@ -1,0 +1,115 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1757410472.627189",
+      "client_msg_id": "29f57242-6e0c-4110-aa50-33d60853082a",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n*TSE-ALA-004-25*\n:flag-jo:ヨルダン：ALA-Alaa Naouri(alibaba→whats)様から注文をいただきました。\n出荷先はスウェーデン宛です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1757410472.627189",
+      "reply_count": 7,
+      "reply_users_count": 3,
+      "latest_reply": "1758092764.152909",
+      "reply_users": [
+        "U066P20UQH1",
+        "U05KGS6HN9H",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1757410554.840379"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1758010005.272109"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1758068907.566959"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1758069559.869479"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1758091456.986579"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1758092149.856829"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1758092764.152909"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "tGGzl",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-ALA-004-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-jo",
+                  "unicode": "1f1ef-1f1f4"
+                },
+                {
+                  "type": "text",
+                  "text": "ヨルダン：ALA-Alaa Naouri(alibaba→whats)様から注文をいただきました。\n出荷先はスウェーデン宛です。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

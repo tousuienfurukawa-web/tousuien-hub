@@ -1,0 +1,319 @@
+{
+  "messages": [
+    {
+      "user": "U033G4KN4TD",
+      "type": "message",
+      "ts": "1753858345.443759",
+      "client_msg_id": "8d04c15e-713e-4f4a-a7ba-f7084230b117",
+      "text": "<@U08RVRNBY00>\nTSE-SAR-006-25より007を優先した方がよろしいでしょうか？",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "b87877677a67",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118194883458_b87877677a672efe50f6_72.png",
+        "first_name": "Fukui",
+        "real_name": "Fukui",
+        "display_name": "福井",
+        "team": "T033D70RR6H",
+        "name": "tousuien04",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1753426359.861209",
+      "parent_user_id": "U08RVRNBY00",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "QdeJZ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U08RVRNBY00"
+                },
+                {
+                  "type": "text",
+                  "text": "\nTSE-SAR-006-25より007を優先した方がよろしいでしょうか？"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U08RVRNBY00",
+      "type": "message",
+      "ts": "1753866562.081519",
+      "client_msg_id": "e853c6ad-d213-460a-9f36-d5fa2b85329e",
+      "text": "<@U033G4KN4TD>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <@U0331FZS7JT>\nご連絡ありがとうございます。:woman-bowing:\n\n*１）SAR-SPL-001-25の同梱について*\n一番早くに納品されるものへ同梱願います。\n\n２）*TSE-SAR-006-25の出荷日について*\n*先方より10kgでも何かしら８月半ばまでに送って欲しいと言われており、こちらは難しいでしょうか？*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "g347f3e803ab",
+        "image_72": "https://secure.gravatar.com/avatar/347f3e803abca8b6a7b724895864d138.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+        "first_name": "Hikako",
+        "real_name": "Hikako Hasegawa",
+        "display_name": "Hikako Hasegawa",
+        "team": "T033D70RR6H",
+        "name": "tousuien.hasegawa",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1746712233.052859",
+      "parent_user_id": "U0331FZS7JT",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "dj1FX",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U033G4KN4TD"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0331FZS7JT"
+                },
+                {
+                  "type": "text",
+                  "text": "\nご連絡ありがとうございます。"
+                },
+                {
+                  "type": "emoji",
+                  "name": "woman-bowing",
+                  "unicode": "1f647-200d-2640-fe0f"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "１）SAR-SPL-001-25の同梱について",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n一番早くに納品されるものへ同梱願います。\n\n２）"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-SAR-006-25の出荷日について",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "先方より10kgでも何かしら８月半ばまでに送って欲しいと言われており、こちらは難しいでしょうか？",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1746712233.052859",
+      "client_msg_id": "43313a25-2c15-4ec6-af59-5faad1734a81",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n*TSE-SAR-006-25*\n1148:flag-my:マレーシア：Sarah様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1746712233.052859",
+      "reply_count": 20,
+      "reply_users_count": 5,
+      "latest_reply": "1756276370.923349",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U033G4KN4TD",
+        "U08RVRNBY00",
+        "U041RJKV5JA",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1746712403.859189"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1747271652.712449"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1753864185.903859"
+        },
+        {
+          "user": "U08RVRNBY00",
+          "ts": "1753866562.081519"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1753868469.289559"
+        },
+        {
+          "user": "U08RVRNBY00",
+          "ts": "1753938390.194629"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1754011455.922589"
+        },
+        {
+          "user": "U08RVRNBY00",
+          "ts": "1754022178.289119"
+        },
+        {
+          "user": "U08RVRNBY00",
+          "ts": "1754022249.702339"
+        },
+        {
+          "user": "U08RVRNBY00",
+          "ts": "1755827142.907209"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1755909836.329739"
+        },
+        {
+          "user": "U08RVRNBY00",
+          "ts": "1755910018.852009"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1755910085.378549"
+        },
+        {
+          "user": "U08RVRNBY00",
+          "ts": "1755910237.824199"
+        },
+        {
+          "user": "U08RVRNBY00",
+          "ts": "1755913720.574249"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1755929690.732709"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1756273106.394309"
+        },
+        {
+          "user": "U08RVRNBY00",
+          "ts": "1756275012.320699"
+        },
+        {
+          "user": "U08RVRNBY00",
+          "ts": "1756275809.780179"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1756276370.923349"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ek/7l",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-SAR-006-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n1148"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-my",
+                  "unicode": "1f1f2-1f1fe"
+                },
+                {
+                  "type": "text",
+                  "text": "マレーシア：Sarah様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

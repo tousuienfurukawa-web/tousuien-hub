@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1726763675.869729",
+      "edited": {
+        "user": "USLACKBOT",
+        "ts": "1727942384.000000"
+      },
+      "client_msg_id": "6543bfb9-93a8-47ae-8849-d24a2b0003d0",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:us:アメリカ Ian Steger様からご注文を頂きました。\n*TSE-IST-003-24*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1726763675.869729",
+      "reply_count": 13,
+      "reply_users_count": 4,
+      "latest_reply": "1728108911.269389",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK",
+        "U05KGS6HN9H",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1726763739.447939"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1726791382.531329"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1726823283.895849"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1726823553.707329"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1726906706.061499"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1726907614.155099"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1726908870.313509"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1727455125.624309"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1727672512.504439"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1727942319.698089"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1727946512.132839"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1727949262.338299"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1728108911.269389"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1728696404.904592",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "8qwId",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " cc "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S072Q871SF9"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "us",
+                  "unicode": "1f1fa-1f1f8"
+                },
+                {
+                  "type": "text",
+                  "text": "アメリカ Ian Steger様からご注文を頂きました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-IST-003-24",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U05KGS6HN9H",
+            "U041RJKV5JA",
+            "U033G4KN4TD"
+          ],
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

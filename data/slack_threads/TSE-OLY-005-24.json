@@ -1,0 +1,88 @@
+{
+  "messages": [
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1723539748.172959",
+      "client_msg_id": "89f86e84-f5ee-4fe7-9c02-5622a5e4739e",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nイギリスのOlly様から注文です。\nTSE-OLY-005-24",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1723539748.172959",
+      "reply_count": 4,
+      "reply_users_count": 4,
+      "latest_reply": "1724395147.520199",
+      "reply_users": [
+        "U0331FWGQRM",
+        "U05KGS6HN9H",
+        "U0331FZTHEK",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1723539763.750809"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1723797095.530159"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1724035668.712219"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1724395147.520199"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1724395147.520199",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "jcM51",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\nイギリスのOlly様から注文です。\nTSE-OLY-005-24"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U033G4KN4TD",
+            "U05KGS6HN9H"
+          ],
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

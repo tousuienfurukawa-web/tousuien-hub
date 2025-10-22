@@ -1,0 +1,150 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1742195672.579999",
+      "client_msg_id": "aaad11ea-eb9a-4739-8b81-5050981ee09f",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-EX-001-25*\n:flag-tw:台湾：恩實有限公司様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1742195672.579999",
+      "reply_count": 15,
+      "reply_users_count": 5,
+      "latest_reply": "1745986598.819009",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U0331FZTHEK",
+        "U03BLQ65GK0",
+        "U033G4KN4TD",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1742195898.713319"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1743553933.559319"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1743568610.339039"
+        },
+        {
+          "user": "U03BLQ65GK0",
+          "ts": "1743584083.665019"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1743586965.032589"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1743644656.124249"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1743651832.014109"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1743991461.202069"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1743994046.152469"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1743994321.081629"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1744952240.212159"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1744957041.358989"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1744957695.624539"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1745817246.895599"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1745986598.819009"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "59NmA",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-EX-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-tw",
+                  "unicode": "1f1f9-1f1fc"
+                },
+                {
+                  "type": "text",
+                  "text": "台湾：恩實有限公司様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

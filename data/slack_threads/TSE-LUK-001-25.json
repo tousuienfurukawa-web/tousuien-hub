@@ -1,0 +1,64 @@
+{
+  "messages": [
+    {
+      "user": "U041RJKV5JA",
+      "type": "message",
+      "ts": "1740481908.031869",
+      "client_msg_id": "06f642ea-3128-4221-a716-76f49f7565d4",
+      "text": "<@U066P20UQH1>\n <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n出荷可能日：2月27日（木）\n出荷書類のインボイスNO.が「TSE-LUK-001-25」となっております。\n「SPL」の記載がありませんが、この番号で送り状を作成してもよろしいでしょうか。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "aed9eafd9eee",
+        "image_72": "https://avatars.slack-edge.com/2022-09-11/4078874890257_aed9eafd9eee277ba076_72.png",
+        "first_name": "Hirakawa",
+        "real_name": "Hirakawa",
+        "display_name": "平川",
+        "team": "T033D70RR6H",
+        "name": "tousuien.s006",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1739971139.878899",
+      "parent_user_id": "U0606SPN4BW",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "hbrZh",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U066P20UQH1"
+                },
+                {
+                  "type": "text",
+                  "text": "\n "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n出荷可能日：2月27日（木）\n出荷書類のインボイスNO.が「TSE-LUK-001-25」となっております。\n「SPL」の記載がありませんが、この番号で送り状を作成してもよろしいでしょうか。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

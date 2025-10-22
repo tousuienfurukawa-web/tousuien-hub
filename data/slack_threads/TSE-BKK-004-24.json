@@ -1,0 +1,121 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1726647807.793399",
+      "client_msg_id": "0d4f8a61-b6dd-49b0-abb1-2c1c6251ff52",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*Invoice (TSE-BKK-004-24)* \n:flag-th:タイ：BKK-MTCH-bkk様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1726647807.793399",
+      "reply_count": 8,
+      "reply_users_count": 3,
+      "latest_reply": "1727171092.120629",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U05KGS6HN9H",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1726647919.184699"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1726729139.552239"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1726730402.041989"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1726736679.794649"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1726738645.378009"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1726738745.252589"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1726738782.640489"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1727171092.120629"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "OpHoI",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "Invoice (TSE-BKK-004-24) ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-th",
+                  "unicode": "1f1f9-1f1ed"
+                },
+                {
+                  "type": "text",
+                  "text": "タイ：BKK-MTCH-bkk様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U05KGS6HN9H"
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

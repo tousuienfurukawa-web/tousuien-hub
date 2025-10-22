@@ -1,0 +1,100 @@
+{
+  "messages": [
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1744980809.498289",
+      "edited": {
+        "user": "U0331FWGQRM",
+        "ts": "1744985911.000000"
+      },
+      "client_msg_id": "08d23d19-0c15-416f-b725-5986deab432b",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n:flag-th:タイのtachu houseより注文がありました。\n*TSE-TAC-022-25*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1744980809.498289",
+      "reply_count": 5,
+      "reply_users_count": 3,
+      "latest_reply": "1747208354.400699",
+      "reply_users": [
+        "U033G4KN4TD",
+        "U05KGS6HN9H",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1745398082.067719"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1745453476.774829"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1745535077.282609"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1747109483.604229"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1747208354.400699"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1747208354.400699",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "XQst2",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-th",
+                  "unicode": "1f1f9-1f1ed"
+                },
+                {
+                  "type": "text",
+                  "text": "タイのtachu houseより注文がありました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-TAC-022-25",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1734672515.562329",
+      "client_msg_id": "039aca37-d0cc-4e06-b12c-f647d6f0d7ab",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-NTM-008-24*\n:flag-au:オーストラリア：Jarrod Herscu(alibaba)様から注文です。\n※送り先：オーストラリア",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1734672515.562329",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1735280773.356509",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1734672692.496499"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1734932577.511179"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1735280773.356509"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "LcZVT",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-NTM-008-24",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-au",
+                  "unicode": "1f1e6-1f1fa"
+                },
+                {
+                  "type": "text",
+                  "text": "オーストラリア：Jarrod Herscu(alibaba)様から注文です。\n※送り先：オーストラリア"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U033G4KN4TD"
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

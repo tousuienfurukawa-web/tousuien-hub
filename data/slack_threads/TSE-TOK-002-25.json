@@ -1,0 +1,100 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1749561750.362029",
+      "client_msg_id": "17753e8a-7aa6-4d20-b693-5faca4438d65",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n1232 :flag-gr:ギリシャ TOK-Andrii Nazimov様(WhatsApp)から注文を頂きました。\n*TSE-TOK-002-25*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1749561750.362029",
+      "reply_count": 6,
+      "reply_users_count": 4,
+      "latest_reply": "1750846993.536339",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK",
+        "U033G4KN4TD",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1749561859.821049"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1749595744.337399"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1749640907.080629"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1749716417.388569"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1750144062.335789"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1750846993.536339"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "exl2N",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n1232 "
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-gr",
+                  "unicode": "1f1ec-1f1f7"
+                },
+                {
+                  "type": "text",
+                  "text": "ギリシャ TOK-Andrii Nazimov様(WhatsApp)から注文を頂きました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-TOK-002-25",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

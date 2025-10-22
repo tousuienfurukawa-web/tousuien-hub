@@ -1,0 +1,106 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1758091650.328169",
+      "client_msg_id": "3fa7e20a-c0f4-4d58-a7d4-d1d9799ece5e",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n*TSE-SMS-005-25*\n:flag-mx:メキシコ：SMS-samantha segura（宛先はアメリカ）様から注文をいただきました。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1758091650.328169",
+      "reply_count": 5,
+      "reply_users_count": 2,
+      "latest_reply": "1760422179.850029",
+      "reply_users": [
+        "U066P20UQH1",
+        "U08U8MMTH43"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1758091881.013789"
+        },
+        {
+          "user": "U08U8MMTH43",
+          "ts": "1758159770.147709"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1758159964.614859"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1758867422.557829"
+        },
+        {
+          "user": "U08U8MMTH43",
+          "ts": "1760422179.850029"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "KFRDT",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-SMS-005-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-mx",
+                  "unicode": "1f1f2-1f1fd"
+                },
+                {
+                  "type": "text",
+                  "text": "メキシコ：SMS-samantha segura（宛先はアメリカ）様から注文をいただきました。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

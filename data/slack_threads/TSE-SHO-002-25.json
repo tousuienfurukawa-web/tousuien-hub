@@ -1,0 +1,102 @@
+{
+  "messages": [
+    {
+      "user": "U08RVRNBY00",
+      "type": "message",
+      "ts": "1754705091.005379",
+      "client_msg_id": "cfc10c3e-b2ee-49e4-bf97-35c03f06ba75",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n*TSE-SHO-002-25*\n1445:flag-th:タイ ：SHO-Shinji Matcha Dojo and café様から注文をいただきました。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "g347f3e803ab",
+        "image_72": "https://secure.gravatar.com/avatar/347f3e803abca8b6a7b724895864d138.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+        "first_name": "Hikako",
+        "real_name": "Hikako Hasegawa",
+        "display_name": "Hikako Hasegawa",
+        "team": "T033D70RR6H",
+        "name": "tousuien.hasegawa",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1754705091.005379",
+      "reply_count": 4,
+      "reply_users_count": 2,
+      "latest_reply": "1757981655.953119",
+      "reply_users": [
+        "U08RVRNBY00",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U08RVRNBY00",
+          "ts": "1754705233.336859"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1754708113.658749"
+        },
+        {
+          "user": "U08RVRNBY00",
+          "ts": "1756199761.064119"
+        },
+        {
+          "user": "U08RVRNBY00",
+          "ts": "1757981655.953119"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "jsk2W",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-SHO-002-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n1445"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-th",
+                  "unicode": "1f1f9-1f1ed"
+                },
+                {
+                  "type": "text",
+                  "text": "タイ ：SHO-Shinji Matcha Dojo and café様から注文をいただきました。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

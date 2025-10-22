@@ -1,0 +1,166 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1741756452.576629",
+      "client_msg_id": "d23fe74e-6fb9-4efb-8469-90a676725b6f",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-RKM-001-25*\n:us:アメリカ：RKM-Ryokomatcha/ Brenna Hirshorn(Abbot Kinney)様から注文です。\n**3/17出荷目標です。*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1741756452.576629",
+      "reply_count": 6,
+      "reply_users_count": 3,
+      "latest_reply": "1742264693.533069",
+      "reply_users": [
+        "U066P20UQH1",
+        "U0331FZTHEK",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1741757397.285319"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1741757419.883579"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1741762145.262719"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1742193906.649989"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1742263318.808449"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1742264693.533069"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "HmRC6",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-RKM-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "us",
+                  "unicode": "1f1fa-1f1f8"
+                },
+                {
+                  "type": "text",
+                  "text": "アメリカ：RKM-Ryokomatcha/ Brenna Hirshorn(Abbot Kinney)様から注文です。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "*3/17出荷目標です。",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "管理表入力済",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        },
+        {
+          "name": "ivpl作成済",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1741857338.008859",
+      "client_msg_id": "badd72c2-08da-49ba-a250-d7325cc171fd",
+      "text": "TSE-RKM-001-25　林\nTSE012-25 松井\nTSE-MTK-002-25 林",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1741857295.099229",
+      "parent_user_id": "U066P20UQH1",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "rynJ0",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "TSE-RKM-001-25　林\nTSE012-25 松井\nTSE-MTK-002-25 林"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

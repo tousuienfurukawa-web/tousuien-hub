@@ -1,0 +1,825 @@
+{
+  "messages": [
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1751588100.387729",
+      "client_msg_id": "3ee7a45e-ac92-4af5-b439-f48608ffc0d5",
+      "text": "<!channel>\nTSE-OST-004-25\n丸信製造のラベルの色が薄い",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "XITIp",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "channel"
+                },
+                {
+                  "type": "text",
+                  "text": "\nTSE-OST-004-25\n丸信製造のラベルの色が薄い"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1747126757.485039",
+      "edited": {
+        "user": "U0331FWGQRM",
+        "ts": "1747184123.000000"
+      },
+      "client_msg_id": "4046b079-6793-4f31-948d-befa55c6a278",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\nTSE-OST-004-25\n1172:gb:Ossu tea様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1747126757.485039",
+      "reply_count": 49,
+      "reply_users_count": 8,
+      "latest_reply": "1755648382.655019",
+      "reply_users": [
+        "U0331FWGQRM",
+        "U082RF7UF1V",
+        "U033G4KN4TD",
+        "U0840UVFVA8",
+        "U0331FZTHEK",
+        "U041RJKV5JA",
+        "U05KGS6HN9H",
+        "U08L89G6JSG"
+      ],
+      "replies": [
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1747126826.222169"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1747214207.868139"
+        },
+        {
+          "user": "U082RF7UF1V",
+          "ts": "1747376861.041319"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1748580755.974429"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1748586813.649629"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1748587498.905939"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1748926208.159609"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1748926666.558449"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1748955050.372299"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1748993040.315429"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1749173940.603569"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1749481862.520179"
+        },
+        {
+          "user": "U0840UVFVA8",
+          "ts": "1749533192.065759"
+        },
+        {
+          "user": "U082RF7UF1V",
+          "ts": "1749540128.767589"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1749815607.014609"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1750027510.384309"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1750059941.002079"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1750068617.850039"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1750089737.756449"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1750124851.719439"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1750242781.253709"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1750466362.153809"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1750517711.442489"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1750642876.527229"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1750845548.726429"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1750845597.444959"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1750845827.729599"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1750898908.137309"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1751269699.176119"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1751274415.017039"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1751471635.610909"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1751503798.180279"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1751505033.879669"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1751506509.198619"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1751561615.017809"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1751585816.388419"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1751586707.576049"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1751619351.835119"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1751620446.084349"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1751846665.959599"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1751870048.957949"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1751871542.661019"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1751934479.493219"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1751934982.924769"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1751969835.234269"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1752711361.936799"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1753278994.256529"
+        },
+        {
+          "user": "U08L89G6JSG",
+          "ts": "1753343610.796879"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1755648382.655019"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1755648382.655019",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Dhznu",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\nTSE-OST-004-25\n1172"
+                },
+                {
+                  "type": "emoji",
+                  "name": "gb",
+                  "unicode": "1f1ec-1f1e7"
+                },
+                {
+                  "type": "text",
+                  "text": "Ossu tea様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1747126826.222169",
+      "edited": {
+        "user": "U0331FWGQRM",
+        "ts": "1749819423.000000"
+      },
+      "client_msg_id": "fe7b77a9-ae08-4ad9-ba3a-34f8dc9e9964",
+      "text": "下記注文がありましたので取り急ぎご連絡いたします！\n> ~• 1700 x 40g tins of Golden Grade Matcha (Organic Matcha TQ-3)~\n> ~• 2700 x 40g tins of Golden Grade Matcha (Organic Matcha TQ-3)~\n> ~• 300 x 40g tins of Platinum Grade Matcha (Organic Matcha TQ-2)~\n~6月16日（月）出荷希望とのことですので宜しくお願い致します。~\n↓\n> *6月16日(月)出荷分（TSE-OST-004-25-1）*\n> ・Golden Grade Matcha（TQ-3）40g缶 × 1,300個\n> ・Platinum Grade Matcha（TQ-2）40g缶 × 300個\n> \n> *6月30日(月)出荷分（TSE-OST-004-25-2）*\n> ・Golden Grade Matcha（TQ-3）40g缶 × 3,000個\n> ・Golden Grade Matcha（TQ-3）100g bag × 10袋\n> 　ラベル\n> 　ーーーーーーーーーーーー\n> 　Organic Golden Grade Matcha\n> 　ーーーーーーーーーーーー",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1747126757.485039",
+      "parent_user_id": "U0331FWGQRM",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "NFSbK",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "下記注文がありましたので取り急ぎご連絡いたします！\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_quote",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "• 1700 x 40g tins of Golden Grade Matcha (Organic Matcha TQ-3)",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "• 2700 x 40g tins of Golden Grade Matcha (Organic Matcha TQ-3)",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "• 300 x 40g tins of Platinum Grade Matcha (Organic Matcha TQ-2)",
+                  "style": {
+                    "strike": true
+                  }
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "6月16日（月）出荷希望とのことですので宜しくお願い致します。",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n↓\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_quote",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "6月16日(月)出荷分（TSE-OST-004-25-1）",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n・Golden Grade Matcha（TQ-3）40g缶 × 1,300個\n・Platinum Grade Matcha（TQ-2）40g缶 × 300個\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "6月30日(月)出荷分（TSE-OST-004-25-2）",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n・Golden Grade Matcha（TQ-3）40g缶 × 3,000個\n・Golden Grade Matcha（TQ-3）100g bag × 10袋\n　ラベル\n　ーーーーーーーーーーーー\n　Organic Golden Grade Matcha\n　ーーーーーーーーーーーー"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1747126826.222169",
+      "edited": {
+        "user": "U0331FWGQRM",
+        "ts": "1749819423.000000"
+      },
+      "client_msg_id": "fe7b77a9-ae08-4ad9-ba3a-34f8dc9e9964",
+      "text": "下記注文がありましたので取り急ぎご連絡いたします！\n> ~• 1700 x 40g tins of Golden Grade Matcha (Organic Matcha TQ-3)~\n> ~• 2700 x 40g tins of Golden Grade Matcha (Organic Matcha TQ-3)~\n> ~• 300 x 40g tins of Platinum Grade Matcha (Organic Matcha TQ-2)~\n~6月16日（月）出荷希望とのことですので宜しくお願い致します。~\n↓\n> *6月16日(月)出荷分（TSE-OST-004-25-1）*\n> ・Golden Grade Matcha（TQ-3）40g缶 × 1,300個\n> ・Platinum Grade Matcha（TQ-2）40g缶 × 300個\n> \n> *6月30日(月)出荷分（TSE-OST-004-25-2）*\n> ・Golden Grade Matcha（TQ-3）40g缶 × 3,000個\n> ・Golden Grade Matcha（TQ-3）100g bag × 10袋\n> 　ラベル\n> 　ーーーーーーーーーーーー\n> 　Organic Golden Grade Matcha\n> 　ーーーーーーーーーーーー",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1747126757.485039",
+      "parent_user_id": "U0331FWGQRM",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "NFSbK",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "下記注文がありましたので取り急ぎご連絡いたします！\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_quote",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "• 1700 x 40g tins of Golden Grade Matcha (Organic Matcha TQ-3)",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "• 2700 x 40g tins of Golden Grade Matcha (Organic Matcha TQ-3)",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "• 300 x 40g tins of Platinum Grade Matcha (Organic Matcha TQ-2)",
+                  "style": {
+                    "strike": true
+                  }
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "6月16日（月）出荷希望とのことですので宜しくお願い致します。",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n↓\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_quote",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "6月16日(月)出荷分（TSE-OST-004-25-1）",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n・Golden Grade Matcha（TQ-3）40g缶 × 1,300個\n・Platinum Grade Matcha（TQ-2）40g缶 × 300個\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "6月30日(月)出荷分（TSE-OST-004-25-2）",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n・Golden Grade Matcha（TQ-3）40g缶 × 3,000個\n・Golden Grade Matcha（TQ-3）100g bag × 10袋\n　ラベル\n　ーーーーーーーーーーーー\n　Organic Golden Grade Matcha\n　ーーーーーーーーーーーー"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "U041RJKV5JA",
+      "type": "message",
+      "ts": "1750059941.002079",
+      "client_msg_id": "cbcd1338-21f9-4b88-9a5f-57a7875a0384",
+      "text": "<@U0331FWGQRM>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n【TSE-OST-004-25-1】\n本日、UPSにて出荷しました。\nAWB NO. 1Z219Y8R0411185088\nよろしくお願いいたします。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "aed9eafd9eee",
+        "image_72": "https://avatars.slack-edge.com/2022-09-11/4078874890257_aed9eafd9eee277ba076_72.png",
+        "first_name": "Hirakawa",
+        "real_name": "Hirakawa",
+        "display_name": "平川",
+        "team": "T033D70RR6H",
+        "name": "tousuien.s006",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1747126757.485039",
+      "parent_user_id": "U0331FWGQRM",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Z1VuM",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0331FWGQRM"
+                },
+                {
+                  "type": "text",
+                  "text": "\n "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n【TSE-OST-004-25-1】\n本日、UPSにて出荷しました。\nAWB NO. 1Z219Y8R0411185088\nよろしくお願いいたします。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1749173940.603569",
+      "edited": {
+        "user": "U0331FWGQRM",
+        "ts": "1749174180.000000"
+      },
+      "client_msg_id": "c357c3e8-6aa3-42d0-b559-070a0f812eb9",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n出荷方法が分納に確定になりました。よろしくお願いします。\nなので、6/16出荷に向けて準備をよろしくお願いします。\n ・Golden Grade Matcha（TQ-3）40g缶 × 1,300個\n ・Platinum Grade Matcha（TQ-2）40g缶 × 300個\n\nただ、残りの1400缶を6/23出荷ではなく、\n1400缶▶︎3000缶に+1600缶して、6/30出荷に変更可能ですか？\nと、問い合わせがありました。可能ですか？ご確認願います。\n\nーーーーーーーーーーーー\n*TSE-OST-004-25のご注文内容*\n ・Golden Grade Matcha（Organic Matcha TQ-3）40g缶 × 2,700個\n ・Platinum Grade Matcha（Organic Matcha TQ-2）40g缶 × 300個\n*6月16日出荷分*\n ・Golden Grade Matcha（TQ-3）40g缶 × 1,300個\n ・Platinum Grade Matcha（TQ-2）40g缶 × 300個\n↓\n~*6月23日出荷分*~\n ~・Golden Grade Matcha（TQ-3）40g缶 × 1,400個~\n↓\n*6月30日出荷分（先方希望/可否確認願います）*\n ・Golden Grade Matcha（TQ-3）40g缶 × 3,000個\nーーーーーーーーーーーー",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1747126757.485039",
+      "parent_user_id": "U0331FWGQRM",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ALoSt",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\n出荷方法が分納に確定になりました。よろしくお願いします。\nなので、6/16出荷に向けて準備をよろしくお願いします。\n ・Golden Grade Matcha（TQ-3）40g缶 × 1,300個\n ・Platinum Grade Matcha（TQ-2）40g缶 × 300個\n\nただ、残りの1400缶を6/23出荷ではなく、\n1400缶▶︎3000缶に+1600缶して、6/30出荷に変更可能ですか？\nと、問い合わせがありました。可能ですか？ご確認願います。\n\nーーーーーーーーーーーー\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-OST-004-25のご注文内容",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n ・Golden Grade Matcha（Organic Matcha TQ-3）40g缶 × 2,700個\n ・Platinum Grade Matcha（Organic Matcha TQ-2）40g缶 × 300個\n"
+                },
+                {
+                  "type": "text",
+                  "text": "6月16日出荷分",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n ・Golden Grade Matcha（TQ-3）40g缶 × 1,300個\n ・Platinum Grade Matcha（TQ-2）40g缶 × 300個\n↓\n"
+                },
+                {
+                  "type": "text",
+                  "text": "6月23日出荷分",
+                  "style": {
+                    "bold": true,
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": " ・Golden Grade Matcha（TQ-3）40g缶 × 1,400個",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n↓\n"
+                },
+                {
+                  "type": "text",
+                  "text": "6月30日出荷分（先方希望/可否確認願います）",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n ・Golden Grade Matcha（TQ-3）40g缶 × 3,000個\nーーーーーーーーーーーー"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1748955050.372299",
+      "client_msg_id": "21c23617-137a-42f1-9e05-55866e9021d2",
+      "text": "<!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n6月10日に取り急ぎ3000缶を出荷できるようです。\nおそらく翌週6/16には缶はあると思います。\n\n下記のように1400缶だけ後から出荷するように\n先方に提案しようと思います。\n１週間（約5日）で1400缶製造可能ですか？\n\n*TSE-OST-004-25のご注文内容*\n ・Golden Grade Matcha（Organic Matcha TQ-3）40g缶 × 2,700個\n ・Platinum Grade Matcha（Organic Matcha TQ-2）40g缶 × 300個\n*6月16日出荷分*\n ・Golden Grade Matcha（TQ-3）40g缶 × 1,300個\n ・Platinum Grade Matcha（TQ-2）40g缶 × 300個\n*6月23日出荷分*\n ・Golden Grade Matcha（TQ-3）40g缶 × 1,400個",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1747126757.485039",
+      "parent_user_id": "U0331FWGQRM",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "gZFI1",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\n6月10日に取り急ぎ3000缶を出荷できるようです。\nおそらく翌週6/16には缶はあると思います。\n\n下記のように1400缶だけ後から出荷するように\n先方に提案しようと思います。\n１週間（約5日）で1400缶製造可能ですか？\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-OST-004-25のご注文内容",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n ・Golden Grade Matcha（Organic Matcha TQ-3）40g缶 × 2,700個\n ・Platinum Grade Matcha（Organic Matcha TQ-2）40g缶 × 300個\n"
+                },
+                {
+                  "type": "text",
+                  "text": "6月16日出荷分",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n ・Golden Grade Matcha（TQ-3）40g缶 × 1,300個\n ・Platinum Grade Matcha（TQ-2）40g缶 × 300個\n"
+                },
+                {
+                  "type": "text",
+                  "text": "6月23日出荷分",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n ・Golden Grade Matcha（TQ-3）40g缶 × 1,400個"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

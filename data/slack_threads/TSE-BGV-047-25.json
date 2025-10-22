@@ -1,0 +1,806 @@
+{
+  "messages": [
+    {
+      "user": "U08U8MMTH43",
+      "type": "message",
+      "ts": "1760075830.413509",
+      "client_msg_id": "d8a3d195-feea-4ba3-84b5-ade7e55a69b4",
+      "text": "<@U0606SPN4BW>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n*TSE-BGV-047-25*\n本日、DHLにて出荷しました。\nAWB No.2739276186\nよろしくお願いいたします。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "22a826d23669",
+        "image_72": "https://avatars.slack-edge.com/2025-05-28/8954451860855_22a826d236694d5f657b_72.png",
+        "first_name": "fuse",
+        "real_name": "fuse",
+        "display_name": "布施美穂",
+        "team": "T033D70RR6H",
+        "name": "tousuien.fuse",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1754487714.769459",
+      "parent_user_id": "U0606SPN4BW",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "KWCR1",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0606SPN4BW"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-BGV-047-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n本日、DHLにて出荷しました。\nAWB No.2739276186\nよろしくお願いいたします。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "ありかとう",
+          "users": [
+            "U0606SPN4BW"
+          ],
+          "count": 1
+        },
+        {
+          "name": "連絡完了",
+          "users": [
+            "U0606SPN4BW"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "U08N3SKSL75",
+      "type": "message",
+      "ts": "1757294436.110529",
+      "client_msg_id": "b2ccb96f-dd44-4446-9aa5-ad80ac11ef5c",
+      "text": "<!subteam^S08NN8M4LAZ|@katayose-kamiya>\nTSE-BGV-047-25\n入金ありましたので、回収処理お願いします！",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "g385a5ea1fc7",
+        "image_72": "https://secure.gravatar.com/avatar/385a5ea1fc7db8f0b42ecd922f43af6c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-72.png",
+        "first_name": "Kimura",
+        "real_name": "Kimura",
+        "display_name": "Kimura",
+        "team": "T033D70RR6H",
+        "name": "tousuien.kimura",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1754487714.769459",
+      "parent_user_id": "U0606SPN4BW",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "tzVbw",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S08NN8M4LAZ"
+                },
+                {
+                  "type": "text",
+                  "text": "\nTSE-BGV-047-25\n入金ありましたので、回収処理お願いします！"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "d130b000eb8d6784",
+          "users": [
+            "U0331FZTHEK"
+          ],
+          "count": 1
+        },
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U0331FZTHEK"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "U08L89G6JSG",
+      "type": "message",
+      "ts": "1758343755.116499",
+      "client_msg_id": "5873fc69-a9f2-4dc2-a886-69f272e79fed",
+      "text": "<@U08N3SKSL75> <@U0606SPN4BW>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n出荷予定日\n*TSE-BGV-047-25　10/10(金)*\n*TSE-BGV-048-25　10/16(木)*\n*TSE-BGV-049-25　10/22(水)*\nよろしくお願いします！",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "fed0a878533f",
+        "image_72": "https://avatars.slack-edge.com/2025-03-31/8678953673334_fed0a878533f1e7c9560_72.png",
+        "first_name": "yokoi",
+        "real_name": "yokoi",
+        "display_name": "横井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.yokoi",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1754487714.769459",
+      "parent_user_id": "U0606SPN4BW",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "/W+fS",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U08N3SKSL75"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0606SPN4BW"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\n出荷予定日\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-BGV-047-25　10/10(金)",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-BGV-048-25　10/16(木)",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-BGV-049-25　10/22(水)",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nよろしくお願いします！"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "あり",
+          "users": [
+            "U08N3SKSL75"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1754487714.769459",
+      "client_msg_id": "c283a5e4-4c4e-4d08-a912-daa8f14344bc",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <@U08N3SKSL75>\n:flag-ph:フィリピン：BGV-Sahara Casteel (alibaba名 Brigitte Ventures)様から注文をいただきました。\n*TSE-BGV-047-25*\n*TSE-BGV-048-25*\n*TSE-BGV-049-25*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1754487714.769459",
+      "reply_count": 11,
+      "reply_users_count": 6,
+      "latest_reply": "1760594788.389879",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U08N3SKSL75",
+        "U0331FZTHEK",
+        "U08L89G6JSG",
+        "U08U8MMTH43",
+        "U066P20UQH1"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1754488092.969699"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1754500020.951589"
+        },
+        {
+          "user": "U08N3SKSL75",
+          "ts": "1755934267.819139"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1755963184.427839"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1756076364.339079"
+        },
+        {
+          "user": "U08N3SKSL75",
+          "ts": "1757294436.110529"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1757318345.731729"
+        },
+        {
+          "user": "U08L89G6JSG",
+          "ts": "1758343755.116499"
+        },
+        {
+          "user": "U08U8MMTH43",
+          "ts": "1760075830.413509"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1760404915.599049"
+        },
+        {
+          "user": "U08U8MMTH43",
+          "ts": "1760594788.389879"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "r7TXZ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08N3SKSL75"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-ph",
+                  "unicode": "1f1f5-1f1ed"
+                },
+                {
+                  "type": "text",
+                  "text": "フィリピン：BGV-Sahara Casteel (alibaba名 Brigitte Ventures)様から注文をいただきました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-BGV-047-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-BGV-048-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-BGV-049-25",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1754488092.969699",
+      "edited": {
+        "user": "U0606SPN4BW",
+        "ts": "1754496917.000000"
+      },
+      "client_msg_id": "a80e499b-6f35-45e5-a346-39ae19f37fea",
+      "text": "下記へ発送手続き、および発送日のお知らせをお願いします！\n\n\n<!subteam^S08NN8M4LAZ|@katayose-kamiya>\n入金確認前です(PayPal), 入金確認後に回収処理をお願い致します！\n\n\n▼注文内容\n`TSE-BGV-047-25`\n*①1 x Organic Matcha Upper grade 1 (1 kg bulk bag)*\n```包材：吉村2760\nラベル：品名ラベル\n賞味期限：なし```\n\n*②1 x Organic Matcha Upper grade 2 (1kg bag)*\n```包材：吉村2760\nラベル：品名ラベル\n賞味期限：なし```\n\n*③1 x Non organic Matcha Upper Grade - 1 (1kg bulk bag)*\n```包材：吉村2760\nラベル：品名ラベル\n賞味期限：なし```\n箱：No,6　Q\n発送：DHL\n\n\n`TSE-BGV-048-25`\n*①1 x Organic Matcha Upper grade 1 (1 kg bulk bag)*\n```包材：吉村2760\nラベル：品名ラベル\n賞味期限：なし```\n\n*②1 x Non organic Matcha Upper Grade - 1 (1kg bulk bag)*\n```包材：吉村2760\nラベル：品名ラベル\n賞味期限：なし```\n\n*③1 x Non-organic Uji Matcha grade T (1kg bulk bag)*\n```包材：吉村2760\nラベル：品名ラベル\n賞味期限：なし```\n箱：No,6　Q\n発送：DHL\n\n\n`TSE-BGV-049-25`\n*①1 x Organic Matcha Upper grade 1 (1 kg bag)*\n```包材：吉村2760\nラベル：品名ラベル\n賞味期限：なし```\n\n*②1 x Non organic Matcha Upper Grade - 2 (1kg bulk bag)*\n```包材：吉村2760\nラベル：品名ラベル\n賞味期限：なし```\n\n*③1 x Non-organic Uji Matcha grade T (1kg bulk bag)*\n```包材：吉村2760\nラベル：品名ラベル\n賞味期限：なし```\n箱：No,6　Q\n発送：DHL\n\n\n`特記事項`\n*宛先毎回異なる。直近の発送から2-3日間隔を空けて発送する。*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1754487714.769459",
+      "parent_user_id": "U0606SPN4BW",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "0DT6F",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "下記へ発送手続き、および発送日のお知らせをお願いします！\n\n\n"
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S08NN8M4LAZ"
+                },
+                {
+                  "type": "text",
+                  "text": "\n入金確認前です(PayPal), 入金確認後に回収処理をお願い致します！\n\n\n▼注文内容\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-BGV-047-25",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "①1 x Organic Matcha Upper grade 1 (1 kg bulk bag)",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_preformatted",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "包材：吉村2760\nラベル：品名ラベル\n賞味期限：なし"
+                }
+              ],
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "②1 x Organic Matcha Upper grade 2 (1kg bag)",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_preformatted",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "包材：吉村2760\nラベル：品名ラベル\n賞味期限：なし"
+                }
+              ],
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "③1 x Non organic Matcha Upper Grade - 1 (1kg bulk bag)",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_preformatted",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "包材：吉村2760\nラベル：品名ラベル\n賞味期限：なし"
+                }
+              ],
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "箱：No,6　Q\n発送：DHL\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-BGV-048-25",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "①1 x Organic Matcha Upper grade 1 (1 kg bulk bag)",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_preformatted",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "包材：吉村2760\nラベル：品名ラベル\n賞味期限：なし"
+                }
+              ],
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "②1 x Non organic Matcha Upper Grade - 1 (1kg bulk bag)",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_preformatted",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "包材：吉村2760\nラベル：品名ラベル\n賞味期限：なし"
+                }
+              ],
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "③1 x Non-organic Uji Matcha grade T (1kg bulk bag)",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_preformatted",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "包材：吉村2760\nラベル：品名ラベル\n賞味期限：なし"
+                }
+              ],
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "箱：No,6　Q\n発送：DHL\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-BGV-049-25",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "①1 x Organic Matcha Upper grade 1 (1 kg bag)",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_preformatted",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "包材：吉村2760\nラベル：品名ラベル\n賞味期限：なし"
+                }
+              ],
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "②1 x Non organic Matcha Upper Grade - 2 (1kg bulk bag)",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_preformatted",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "包材：吉村2760\nラベル：品名ラベル\n賞味期限：なし"
+                }
+              ],
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "③1 x Non-organic Uji Matcha grade T (1kg bulk bag)",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_preformatted",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "包材：吉村2760\nラベル：品名ラベル\n賞味期限：なし"
+                }
+              ],
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "箱：No,6　Q\n発送：DHL\n\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "特記事項",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "宛先毎回異なる。直近の発送から2-3日間隔を空けて発送する。",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "あり",
+          "users": [
+            "U08N3SKSL75"
+          ],
+          "count": 1
+        },
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U0331FZTHEK"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

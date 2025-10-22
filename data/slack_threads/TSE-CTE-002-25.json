@@ -1,0 +1,112 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1740136634.228639",
+      "client_msg_id": "b643511a-5170-41e3-89ee-64cd54059214",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-CTE-002-25*\n:flag-th:タイ：CTE-CHAEN TEA Experience 様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1740136634.228639",
+      "reply_count": 8,
+      "reply_users_count": 4,
+      "latest_reply": "1744883099.833979",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U0331FZTHEK",
+        "U033G4KN4TD",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1740137350.817949"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1740457807.225509"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1742003381.355959"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1742192863.711639"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1742277835.583339"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1743406618.987439"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1743984005.632149"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1744883099.833979"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "SxhCe",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-CTE-002-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-th",
+                  "unicode": "1f1f9-1f1ed"
+                },
+                {
+                  "type": "text",
+                  "text": "タイ：CTE-CHAEN TEA Experience 様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

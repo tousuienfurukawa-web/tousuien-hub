@@ -1,0 +1,116 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1753360817.422149",
+      "client_msg_id": "691eb5c9-ca79-4750-a3b2-fd1645658622",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n1364 :flag-nl:オランダ THJ-Theeje, Sheng Hu (メール)様から注文予定を頂きました。\n*TSE-THJ-003-25*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1753360817.422149",
+      "reply_count": 8,
+      "reply_users_count": 4,
+      "latest_reply": "1758007691.952929",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK",
+        "U033G4KN4TD",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1753361073.933999"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1753369275.619309"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1753396936.663589"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1755679767.014949"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1756265867.153729"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1757307076.193499"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1757316674.510879"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1758007691.952929"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "lZ1RR",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\n1364 "
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-nl",
+                  "unicode": "1f1f3-1f1f1"
+                },
+                {
+                  "type": "text",
+                  "text": "オランダ THJ-Theeje, Sheng Hu (メール)様から注文予定を頂きました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-THJ-003-25",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

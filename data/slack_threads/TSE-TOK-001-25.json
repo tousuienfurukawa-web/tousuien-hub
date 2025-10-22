@@ -1,0 +1,137 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1740770458.972709",
+      "client_msg_id": "c7754480-d937-4ef0-b03b-816b004bb0c6",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:flag-gr:ギリシャ TOK-Andrii Nazimov様から注文を頂きました。\n*TSE-TOK-001-25*  ",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1740770458.972709",
+      "reply_count": 9,
+      "reply_users_count": 4,
+      "latest_reply": "1742827517.947159",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK",
+        "U066P20UQH1",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1740770663.835589"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1740786010.526849"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1740807818.023139"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1740977103.173739"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1740986189.482719"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1741542776.773889"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1741864622.169029"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1742277885.686999"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1742827517.947159"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1742827517.947159",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "KenHE",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " cc "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S072Q871SF9"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-gr",
+                  "unicode": "1f1ec-1f1f7"
+                },
+                {
+                  "type": "text",
+                  "text": "ギリシャ TOK-Andrii Nazimov様から注文を頂きました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-TOK-001-25  ",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "チェックキラ",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        },
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

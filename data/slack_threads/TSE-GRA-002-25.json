@@ -1,0 +1,115 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1758890084.984149",
+      "client_msg_id": "311397be-acfc-4882-832d-641dc2cee6c3",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> \tcc <@U0331FZS7JT> <@U066P20UQH1> \t\t\t\n:gb:イギリス：GRA-Graeme Boiardini(alibaba→Whats)様から注文予定をいただきました。\t\t\t\t\n*TSE-GRA-002-25*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1758890084.984149",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1759304453.327639",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1758890160.369669"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1759304453.327639"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "VD06O",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": " \tcc "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0331FZS7JT"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U066P20UQH1"
+                },
+                {
+                  "type": "text",
+                  "text": " \t\t\t\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "gb",
+                  "unicode": "1f1ec-1f1e7"
+                },
+                {
+                  "type": "text",
+                  "text": "イギリス：GRA-Graeme Boiardini(alibaba→Whats)様から注文予定をいただきました。\t\t\t\t\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-GRA-002-25",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U0331FZS7JT"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

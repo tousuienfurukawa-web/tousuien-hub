@@ -1,0 +1,146 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1730734570.199009",
+      "edited": {
+        "user": "U0606SPN4BW",
+        "ts": "1731415022.000000"
+      },
+      "client_msg_id": "6325b0ef-3878-4d23-88da-89a3da45d41c",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:flag-ca:カナダ Mario Vitali (~お届け先名：Catherine Johnson~)様から注文を頂きました。\n*TSE-CFM-004-24*  ",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1730734570.199009",
+      "reply_count": 9,
+      "reply_users_count": 4,
+      "latest_reply": "1732258432.830629",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK",
+        "U066P20UQH1",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1730734646.708259"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1731415746.813169"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1731451671.255299"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1731522641.516659"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1731537704.306339"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1731609100.657809"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1731631888.724269"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1732080623.655809"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1732258432.830629"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1732258432.830629",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "a9IO9",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " cc "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S072Q871SF9"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-ca",
+                  "unicode": "1f1e8-1f1e6"
+                },
+                {
+                  "type": "text",
+                  "text": "カナダ Mario Vitali ("
+                },
+                {
+                  "type": "text",
+                  "text": "お届け先名：Catherine Johnson",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ")様から注文を頂きました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-CFM-004-24  ",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U05KGS6HN9H",
+            "U041RJKV5JA"
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

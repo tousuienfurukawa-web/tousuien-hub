@@ -1,0 +1,108 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1733116828.161839",
+      "edited": {
+        "user": "U0331FZS7JT",
+        "ts": "1733116848.000000"
+      },
+      "client_msg_id": "6c32cca3-c2cb-4a6a-b008-532e48a6c720",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-SAR-005-24*\n:flag-my:マレーシア：Sarah様から注文です。\n※国内手渡し",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1733116828.161839",
+      "reply_count": 4,
+      "reply_users_count": 3,
+      "latest_reply": "1734311865.492989",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U05KGS6HN9H",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1733117015.777499"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1733142870.907019"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1733188581.030509"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1734311865.492989"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "XO1Gf",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-SAR-005-24",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-my",
+                  "unicode": "1f1f2-1f1fe"
+                },
+                {
+                  "type": "text",
+                  "text": "マレーシア：Sarah様から注文です。\n※国内手渡し"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U033G4KN4TD"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

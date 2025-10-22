@@ -1,0 +1,120 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1723377502.288199",
+      "client_msg_id": "203c5967-fcec-48fe-836f-4f627816eb4d",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <@U0331FZTHEK>\nTSE-MNM-002-24_Invoice_PackingList\n:flag-om:オマーン：minimo Speciality Coffee様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1723377502.288199",
+      "reply_count": 8,
+      "reply_users_count": 4,
+      "latest_reply": "1724311388.326789",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U0331FZTHEK",
+        "U066P20UQH1",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1723377544.132859"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1723848119.151039"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1724034030.863419"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1724046204.523029"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1724046587.609979"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1724046876.800559"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1724052079.606889"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1724311388.326789"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "XMDRv",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0331FZTHEK"
+                },
+                {
+                  "type": "text",
+                  "text": "\nTSE-MNM-002-24_Invoice_PackingList\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-om",
+                  "unicode": "1f1f4-1f1f2"
+                },
+                {
+                  "type": "text",
+                  "text": "オマーン：minimo Speciality Coffee様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U033G4KN4TD",
+            "U05KGS6HN9H"
+          ],
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

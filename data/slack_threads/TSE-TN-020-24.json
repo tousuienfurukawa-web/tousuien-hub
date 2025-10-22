@@ -1,0 +1,110 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1724339820.908859",
+      "client_msg_id": "28f0bac1-b0d0-4a40-9601-5f16086e0da4",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-TN-020-24*\nタイ：Dark's mood cafe様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1724339820.908859",
+      "reply_count": 7,
+      "reply_users_count": 4,
+      "latest_reply": "1725350183.286589",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U041RJKV5JA",
+        "U0331FZTHEK",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1724340181.655569"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1724391353.657659"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1724395595.949819"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1725070579.845019"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1725204630.890459"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1725231626.269769"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1725350183.286589"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "i1SMH",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-TN-020-24",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nタイ：Dark's mood cafe様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U033G4KN4TD",
+            "U05KGS6HN9H"
+          ],
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

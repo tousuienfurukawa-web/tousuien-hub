@@ -1,0 +1,157 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1736005407.552189",
+      "client_msg_id": "f7af9949-5d96-4112-9ae7-056c78fb92e3",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-SAR-001-25*\n:flag-my:マレーシア：Sarah様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1736005407.552189",
+      "reply_count": 5,
+      "reply_users_count": 3,
+      "latest_reply": "1736812929.765999",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U041RJKV5JA",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1736005956.174029"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1736152694.141709"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1736220327.688949"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1736489225.801189"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1736812929.765999"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "BGpCX",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-SAR-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-my",
+                  "unicode": "1f1f2-1f1fe"
+                },
+                {
+                  "type": "text",
+                  "text": "マレーシア：Sarah様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U05KGS6HN9H"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "user": "U05KGS6HN9H",
+      "type": "message",
+      "ts": "1743216324.292709",
+      "edited": {
+        "user": "U05KGS6HN9H",
+        "ts": "1743216370.000000"
+      },
+      "client_msg_id": "93e58618-19ea-4650-9ba3-9c8503fdce63",
+      "text": "<@U0331FZS7JT>\n指示書データありがとうございます。\n念の為の確認ですが、\n①IZUMO MATCHA OKUMIDORI Grade F Café\n　→製造LOT印字無し\nI②ZUMO MATCHA OKUMIDORI Grade F - 30g White tin Café\nI③ZUMO MATCHA Grade B - Vanilla Matcha blended 500g\n　→製造LOT印字有り\n\n※①は前々回TSE-SAR-001-25ではLOT印字しているようです。\n　印字無しでOKでしょうか？",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gc4e7258333f",
+        "image_72": "https://secure.gravatar.com/avatar/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+        "first_name": "Adachi",
+        "real_name": "Adachi",
+        "display_name": "足立",
+        "team": "T033D70RR6H",
+        "name": "tousuien05",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1743127974.883569",
+      "parent_user_id": "U0331FZS7JT",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ygAvo",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0331FZS7JT"
+                },
+                {
+                  "type": "text",
+                  "text": "\n指示書データありがとうございます。\n念の為の確認ですが、\n①IZUMO MATCHA OKUMIDORI Grade F Café\n　→製造LOT印字無し\nI②ZUMO MATCHA OKUMIDORI Grade F - 30g White tin Café\nI③ZUMO MATCHA Grade B - Vanilla Matcha blended 500g\n　→製造LOT印字有り\n\n※①は前々回TSE-SAR-001-25ではLOT印字しているようです。\n　印字無しでOKでしょうか？"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

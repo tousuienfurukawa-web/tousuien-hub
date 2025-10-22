@@ -1,0 +1,101 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1719988327.559419",
+      "client_msg_id": "8b9c4cc1-ee31-46b8-8c5f-45163771bae7",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse><@U0331FZTHEK>\nInvoice(TSE-MET-002-24)\nタイ：vampire(11.1insta)様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1719988327.559419",
+      "reply_count": 7,
+      "reply_users_count": 3,
+      "latest_reply": "1720421715.609609",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U0331FZTHEK",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1719988362.429879"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1719994430.342799"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1719996992.665499"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1720055104.691379"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1720073427.718799"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1720074785.788629"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1720421715.609609"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "mci20",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0331FZTHEK"
+                },
+                {
+                  "type": "text",
+                  "text": "\nInvoice(TSE-MET-002-24)\nタイ：vampire(11.1insta)様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U033G4KN4TD",
+            "U041RJKV5JA"
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

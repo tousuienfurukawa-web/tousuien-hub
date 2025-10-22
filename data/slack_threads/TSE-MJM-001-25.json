@@ -1,0 +1,117 @@
+{
+  "messages": [
+    {
+      "user": "U08RVRNBY00",
+      "type": "message",
+      "ts": "1753779533.156759",
+      "client_msg_id": "d232c7d4-1ce2-45d8-b628-1c70466eeaf0",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n:flag-my: マレーシア：MJM-IYudai Murayama(alibaba)様から注文定です。\n*TSE-MJM-001-25*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "g347f3e803ab",
+        "image_72": "https://secure.gravatar.com/avatar/347f3e803abca8b6a7b724895864d138.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+        "first_name": "Hikako",
+        "real_name": "Hikako Hasegawa",
+        "display_name": "Hikako Hasegawa",
+        "team": "T033D70RR6H",
+        "name": "tousuien.hasegawa",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1753779533.156759",
+      "reply_count": 8,
+      "reply_users_count": 5,
+      "latest_reply": "1757487367.476979",
+      "reply_users": [
+        "U08RVRNBY00",
+        "U0331FZTHEK",
+        "U066P20UQH1",
+        "U033G4KN4TD",
+        "U08U8MMTH43"
+      ],
+      "replies": [
+        {
+          "user": "U08RVRNBY00",
+          "ts": "1753780047.048989"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1753780076.083529"
+        },
+        {
+          "user": "U08RVRNBY00",
+          "ts": "1753952697.449129"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1754035509.183309"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1756173821.502129"
+        },
+        {
+          "user": "U08U8MMTH43",
+          "ts": "1757054727.501899"
+        },
+        {
+          "user": "U08RVRNBY00",
+          "ts": "1757059613.274739"
+        },
+        {
+          "user": "U08U8MMTH43",
+          "ts": "1757487367.476979"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "BQqVm",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-my",
+                  "unicode": "1f1f2-1f1fe"
+                },
+                {
+                  "type": "text",
+                  "text": " マレーシア：MJM-IYudai Murayama(alibaba)様から注文定です。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-MJM-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

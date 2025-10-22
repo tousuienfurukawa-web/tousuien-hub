@@ -1,0 +1,194 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1737562738.279119",
+      "client_msg_id": "c69fd7f3-6632-4f22-b260-6d4f05ef6e54",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:flag-ph:フィリピン BGV-Sahara Casteel様から注文予定を頂きました。\n*TSE-BGV-003-25* ",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1737562738.279119",
+      "reply_count": 6,
+      "reply_users_count": 3,
+      "latest_reply": "1738653158.240359",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1737562895.228349"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1737563022.964089"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1737563887.463469"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1737588303.150079"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1737704703.117749"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1738653158.240359"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1738653158.240359",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "9Jd+/",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " cc "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S072Q871SF9"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-ph",
+                  "unicode": "1f1f5-1f1ed"
+                },
+                {
+                  "type": "text",
+                  "text": "フィリピン BGV-Sahara Casteel様から注文予定を頂きました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-BGV-003-25 ",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U05KGS6HN9H",
+            "U041RJKV5JA"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n&lt; ※Shipping Invoice について &gt;\nShipping Invoiceの調整を依頼されていますので、以下のShipping Invoiceをご使用をお願いします！\n(誤使用防止のため、TSE-BGV-003-25 の Shipping Invoice は非表示にしてあります)",
+      "files": [
+        {
+          "id": "F089CTZ74VD",
+          "created": 1737563685,
+          "timestamp": 1737563685,
+          "name": "TSE-BGV-003-25_shipping invoie.pdf",
+          "title": "TSE-BGV-003-25_shipping invoie.pdf",
+          "mimetype": "application/pdf",
+          "filetype": "pdf",
+          "pretty_type": "PDF",
+          "user": "U0606SPN4BW",
+          "user_team": "T033D70RR6H",
+          "editable": false,
+          "size": 332510,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T033D70RR6H-F089CTZ74VD/tse-bgv-003-25_shipping_invoie.pdf?token=xoxe-3115238875221-9737284359442-9735461212898-2817b73f07ac9792d2ef0223c7a005ab",
+          "url_private_download": "https://files.slack.com/files-pri/T033D70RR6H-F089CTZ74VD/download/tse-bgv-003-25_shipping_invoie.pdf?token=xoxe-3115238875221-9737284359442-9735461212898-2817b73f07ac9792d2ef0223c7a005ab",
+          "media_display_type": "unknown",
+          "thumb_pdf": "https://files.slack.com/files-tmb/T033D70RR6H-F089CTZ74VD-451f30e158/tse-bgv-003-25_shipping_invoie_thumb_pdf.png?t=xoxe-3115238875221-9737284359442-9735461212898-2817b73f07ac9792d2ef0223c7a005ab",
+          "thumb_pdf_w": 909,
+          "thumb_pdf_h": 1286,
+          "permalink": "https://grp-ssm9297.slack.com/files/U0331FWGQRM/F089CTZ74VD/tse-bgv-003-25_shipping_invoie.pdf",
+          "permalink_public": "https://slack-files.com/T033D70RR6H-F089CTZ74VD-aef527b75a",
+          "is_starred": false,
+          "skipped_shares": true,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        }
+      ],
+      "upload": false,
+      "user": "U0606SPN4BW",
+      "display_as_bot": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "DSbqN",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n< ※Shipping Invoice について >\nShipping Invoiceの調整を依頼されていますので、以下のShipping Invoiceをご使用をお願いします！\n(誤使用防止のため、TSE-BGV-003-25 の Shipping Invoice は非表示にしてあります)"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "message",
+      "ts": "1737563887.463469",
+      "client_msg_id": "1acd6f4d-e3c7-4949-8e48-7747ac66fa32",
+      "thread_ts": "1737562738.279119",
+      "parent_user_id": "U0606SPN4BW",
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

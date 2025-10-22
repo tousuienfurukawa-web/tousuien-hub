@@ -1,0 +1,100 @@
+{
+  "messages": [
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1741772199.360889",
+      "edited": {
+        "user": "U0331FWGQRM",
+        "ts": "1741772216.000000"
+      },
+      "client_msg_id": "076225d2-5804-4b9c-8120-582f963403d6",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-OLY-004-25*　（50kg）\n:gb:イギリスのOlly様から注文です。\n2025/3/14あたりに入金があると思います。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1741772199.360889",
+      "reply_count": 4,
+      "reply_users_count": 3,
+      "latest_reply": "1742536491.832359",
+      "reply_users": [
+        "U0331FWGQRM",
+        "U0331FZTHEK",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1742007305.867869"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1742177235.082399"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1742186481.467339"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1742536491.832359"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1742536491.832359",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "eZz7q",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-OLY-004-25　",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "（50kg）\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "gb",
+                  "unicode": "1f1ec-1f1e7"
+                },
+                {
+                  "type": "text",
+                  "text": "イギリスのOlly様から注文です。\n2025/3/14あたりに入金があると思います。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

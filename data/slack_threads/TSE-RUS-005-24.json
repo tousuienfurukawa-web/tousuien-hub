@@ -1,0 +1,102 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1723519684.533409",
+      "client_msg_id": "175784bb-06fa-4d4c-a994-06cb368c9ba8",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <@U0331FZTHEK>\nTSE-RUS-005-24\nインドネシア：Ms.Caitlin Rusli(Insta)様から注文が入りました。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1723519684.533409",
+      "reply_count": 6,
+      "reply_users_count": 3,
+      "latest_reply": "1724919553.003599",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U0331FZTHEK",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1723519710.581879"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1723783258.969139"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1723853028.180109"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1724659282.091509"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1724746707.005209"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1724919553.003599"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "lpuX0",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0331FZTHEK"
+                },
+                {
+                  "type": "text",
+                  "text": "\nTSE-RUS-005-24\nインドネシア：Ms.Caitlin Rusli(Insta)様から注文が入りました。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U033G4KN4TD",
+            "U05KGS6HN9H"
+          ],
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

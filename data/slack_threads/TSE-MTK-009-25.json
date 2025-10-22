@@ -1,0 +1,119 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1758795922.410249",
+      "client_msg_id": "1be726b7-eb29-4c6e-9f66-e302e0230baa",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <@U066P20UQH1> \t\t\t\t\t\n:flag-au:オーストラリア：MTK-Matcha Kona/Eddy Tjandra様から注文予定をいただきました。\t\t\t\t\n*TSE-MTK-009-25*\t",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1758795922.410249",
+      "reply_count": 5,
+      "reply_users_count": 2,
+      "latest_reply": "1761032805.916639",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U066P20UQH1"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1758796004.644749"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1758853786.471199"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1759290724.672499"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1761004693.169509"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1761032805.916639"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "vCOkE",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U066P20UQH1"
+                },
+                {
+                  "type": "text",
+                  "text": " \t\t\t\t\t\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-au",
+                  "unicode": "1f1e6-1f1fa"
+                },
+                {
+                  "type": "text",
+                  "text": "オーストラリア：MTK-Matcha Kona/Eddy Tjandra様から注文予定をいただきました。\t\t\t\t\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-MTK-009-25\t",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "d130b000eb8d6784",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

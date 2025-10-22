@@ -1,0 +1,127 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1728957930.978089",
+      "client_msg_id": "663e237e-8978-4afa-80b4-ad3fc3762e07",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:flag-ae:UAE：MAL-Mona Alhashimi  様から注文予定です。\n*TSE-MAL-001-24*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1728957930.978089",
+      "reply_count": 8,
+      "reply_users_count": 4,
+      "latest_reply": "1731476927.449409",
+      "reply_users": [
+        "U066P20UQH1",
+        "U0331FZTHEK",
+        "U0606SPN4BW",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1728957974.169969"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1729730588.575229"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1730633271.332439"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1730789191.163329"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1730791406.091799"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1730793550.358559"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1730794493.753379"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1731476927.449409"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1731476927.449409",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "XC/L6",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S072Q871SF9"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-ae",
+                  "unicode": "1f1e6-1f1ea"
+                },
+                {
+                  "type": "text",
+                  "text": "UAE：MAL-Mona Alhashimi  様から注文予定です。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-MAL-001-24",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U05KGS6HN9H",
+            "U041RJKV5JA"
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1753358718.486079",
+      "client_msg_id": "4b4fa083-9bbb-4bcb-814b-2d9d452fe7ff",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n1363 :flag-ae:UAE-Zahra Jama(WhatsApp)様から注文予定をいただきました。\n*TSE-ZHJ-002-25*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1753358718.486079",
+      "reply_count": 10,
+      "reply_users_count": 5,
+      "latest_reply": "1757398309.115279",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK",
+        "U041RJKV5JA",
+        "U066P20UQH1",
+        "U033G4KN4TD"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1753358863.144639"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1753396928.100349"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1753411229.532269"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1753427146.205759"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1754042373.527759"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1754271927.328959"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1755511149.523559"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1755523668.713919"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1755560195.203149"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1757398309.115279"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "e4OOR",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\n1363 "
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-ae",
+                  "unicode": "1f1e6-1f1ea"
+                },
+                {
+                  "type": "text",
+                  "text": "UAE-Zahra Jama(WhatsApp)様から注文予定をいただきました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-ZHJ-002-25",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

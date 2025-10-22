@@ -1,0 +1,150 @@
+{
+  "messages": [
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1710428584.415059",
+      "client_msg_id": "45b9730c-a6b4-4c28-b90c-84ec45e81571",
+      "text": "<@U041RJKV5JA> <@U05KGS6HN9H> <@U033G4KN4TD>\nタイのtachu houseより注文がありました。\n*TSE-TAC-012-24_invoice（発送：EMS）*\n\n*️今回も産地証明書（Certificate of Origin）をつけてくださいとのことです*\n\nーーーーーーーー\n注文内容はフォルダ内のインボイスを確認ください。\n\n・HS CODE：0902.10   *←*　\n・Lot no./Man. date/ Exp. dateを\n　TSE-TAC-0012-24_invoice_total_secret_Lot No_memo　に記入してください。\n・前回と同様にラベルを貼り付けてください。\n　商品\n　製造日・賞味期限・Lot No.\n~・脱酸素剤を入れてください~。窒素充填してください。\n\n・下記先へ発送ください。\n66/9,Moo 8,Sub-district Khok kham, District Muang, Samutsakhon province, Thailand,\n74000",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1710428584.415059",
+      "reply_count": 5,
+      "reply_users_count": 3,
+      "latest_reply": "1711175048.358909",
+      "reply_users": [
+        "U05KGS6HN9H",
+        "U0331FZTHEK",
+        "U0331FWGQRM"
+      ],
+      "replies": [
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1710465501.410569"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1710466115.037559"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1710716361.434119"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1710751886.324359"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1711175048.358909"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1711175048.358909",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "9LP5T",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U041RJKV5JA"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U05KGS6HN9H"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U033G4KN4TD"
+                },
+                {
+                  "type": "text",
+                  "text": "\nタイのtachu houseより注文がありました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-TAC-012-24_invoice（発送：EMS）",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\n"
+                },
+                {
+                  "type": "text",
+                  "text": "️今回も産地証明書（Certificate of Origin）をつけてくださいとのことです",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nーーーーーーーー\n注文内容はフォルダ内のインボイスを確認ください。\n\n・HS CODE：0902.10   "
+                },
+                {
+                  "type": "text",
+                  "text": "←",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "　\n・Lot no./Man. date/ Exp. dateを\n　TSE-TAC-0012-24_invoice_total_secret_Lot No_memo　に記入してください。\n・前回と同様にラベルを貼り付けてください。\n　商品\n　製造日・賞味期限・Lot No.\n"
+                },
+                {
+                  "type": "text",
+                  "text": "・脱酸素剤を入れてください",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "。窒素充填してください。\n\n・下記先へ発送ください。\n66/9,Moo 8,Sub-district Khok kham, District Muang, Samutsakhon province, Thailand,\n74000"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U033G4KN4TD",
+            "U05KGS6HN9H"
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

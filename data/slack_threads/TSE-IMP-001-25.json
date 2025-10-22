@@ -1,0 +1,130 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1736495495.432169",
+      "edited": {
+        "user": "U0331FZS7JT",
+        "ts": "1736632540.000000"
+      },
+      "client_msg_id": "83f43b6b-d692-43b7-9d31-20a9fb101d3a",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-IMP-001-25*\n:gb:イギリス：IMP-Impact Foods Int'l Ltd.（大野さん紹介）様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1736495495.432169",
+      "reply_count": 9,
+      "reply_users_count": 4,
+      "latest_reply": "1753929468.476349",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U0331FZTHEK",
+        "U041RJKV5JA",
+        "U08N3SKSL75"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1736496220.340939"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1737096941.213969"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1737097205.747079"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1738180061.791079"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1739184702.705679"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1739782634.250339"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1740130274.164169"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1740458922.400979"
+        },
+        {
+          "user": "U08N3SKSL75",
+          "ts": "1753929468.476349"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1753929468.476349",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "SsGfk",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-IMP-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "gb",
+                  "unicode": "1f1ec-1f1e7"
+                },
+                {
+                  "type": "text",
+                  "text": "イギリス：IMP-Impact Foods Int'l Ltd.（大野さん紹介）様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U05KGS6HN9H"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

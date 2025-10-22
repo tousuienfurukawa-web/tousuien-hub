@@ -1,0 +1,104 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1748079125.872829",
+      "client_msg_id": "c7adada0-d101-4d83-a26b-6572468cde95",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-SMS-006-25*\n1197:flag-mx:メキシコ：SMS-samantha segura（宛先はアメリカ）様から注文をいただきました。\n*005-25に他の製品と一緒に注文をいただいていましたが、取り急ぎほうじ茶だけ先に受注することになったので、006-25としています。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1748079125.872829",
+      "reply_count": 6,
+      "reply_users_count": 4,
+      "latest_reply": "1752565432.125489",
+      "reply_users": [
+        "U066P20UQH1",
+        "U0331FZTHEK",
+        "U033G4KN4TD",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1748079282.701089"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1748213326.770659"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1750034941.193159"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1750036024.714279"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1750917618.755499"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1752565432.125489"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "NXbnm",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-SMS-006-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n1197"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-mx",
+                  "unicode": "1f1f2-1f1fd"
+                },
+                {
+                  "type": "text",
+                  "text": "メキシコ：SMS-samantha segura（宛先はアメリカ）様から注文をいただきました。\n*005-25に他の製品と一緒に注文をいただいていましたが、取り急ぎほうじ茶だけ先に受注することになったので、006-25としています。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

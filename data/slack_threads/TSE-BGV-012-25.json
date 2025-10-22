@@ -1,0 +1,137 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1740630863.368289",
+      "client_msg_id": "5c48230c-f1c7-405a-b410-5e743a6eb9c1",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-BGV-012-25*\n:flag-ph: フィリピン：BGV-Sahara Casteel (alibaba名 Brigitte Ventures)様から注文*予定*です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1740630863.368289",
+      "reply_count": 5,
+      "reply_users_count": 4,
+      "latest_reply": "1743658905.074999",
+      "reply_users": [
+        "U066P20UQH1",
+        "U0331FZTHEK",
+        "U05KGS6HN9H",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1740631021.226689"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1740946227.989089"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1740956151.571729"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1741931923.192809"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1743658905.074999"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "GdPLK",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-BGV-012-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-ph",
+                  "unicode": "1f1f5-1f1ed",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "フィリピン：BGV-Sahara Casteel (alibaba名 Brigitte Ventures)様から注文"
+                },
+                {
+                  "type": "text",
+                  "text": "予定",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA"
+          ],
+          "count": 1
+        },
+        {
+          "name": "チェックキラ",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

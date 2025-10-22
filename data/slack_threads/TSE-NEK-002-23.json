@@ -1,0 +1,91 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1686493708.085219",
+      "edited": {
+        "user": "U0331FZS7JT",
+        "ts": "1686493895.000000"
+      },
+      "client_msg_id": "ad530900-61b8-4f3e-a131-8362240891c9",
+      "text": "<@U0331FZTHEK> さん\n先日来社されたマレーシアのMaison Hime(Fumeeさん)\nからペイパルで入金がありました。\nTSE-NEK-002-23\n※USD 547.3\n\n処理をよろしくお願いします。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1686493708.085219",
+      "reply_count": 3,
+      "reply_users_count": 3,
+      "latest_reply": "1686552474.294799",
+      "reply_users": [
+        "U0331FZTHEK",
+        "U041RJKV5JA",
+        "U0331FZS7JT"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1686526718.806419"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1686528386.272229"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1686552474.294799"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "RQA",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0331FZTHEK"
+                },
+                {
+                  "type": "text",
+                  "text": " さん\n先日来社されたマレーシアのMaison Hime(Fumeeさん)\nからペイパルで入金がありました。\nTSE-NEK-002-23\n※USD 547.3\n\n処理をよろしくお願いします。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "d130b000eb8d6784",
+          "users": [
+            "U0331FZTHEK"
+          ],
+          "count": 1
+        },
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U0331FZTHEK"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

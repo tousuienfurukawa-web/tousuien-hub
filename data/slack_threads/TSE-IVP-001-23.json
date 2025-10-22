@@ -1,0 +1,248 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1678838413.435879",
+      "edited": {
+        "user": "U0331FZS7JT",
+        "ts": "1678838581.000000"
+      },
+      "client_msg_id": "e627e184-ef28-4227-94ea-8777164b339c",
+      "text": "<@U041RJKV5JA> <!channel>\nポーランド（Ms. Anastasia Chervinska(ウクライナ(Ivaschenko)客)）から\n注文がありました。\nTSE-IVP-001-23 Invoice_Packing Listを\n確認の上、それぞれ完成を願います。\n差額については次回ウクライナの009から差し引きます。\nお客様のEORI番号は確認中。\n発送可能日を教えてください。\n\nよろしくお願いします。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1678838413.435879",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1678847018.677849",
+      "reply_users": [
+        "U03SGRNND5L",
+        "U0331FZS7JT"
+      ],
+      "replies": [
+        {
+          "user": "U03SGRNND5L",
+          "ts": "1678845448.577579"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1678847018.677849"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "k0U",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U041RJKV5JA"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "broadcast",
+                  "range": "channel"
+                },
+                {
+                  "type": "text",
+                  "text": "\nポーランド（Ms. Anastasia Chervinska(ウクライナ(Ivaschenko)客)）から\n注文がありました。\nTSE-IVP-001-23 Invoice_Packing Listを\n確認の上、それぞれ完成を願います。\n差額については次回ウクライナの009から差し引きます。\nお客様のEORI番号は確認中。\n発送可能日を教えてください。\n\nよろしくお願いします。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "7e6ac2088523a821",
+          "users": [
+            "U041RJKV5JA"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "U03SGRNND5L",
+      "type": "message",
+      "ts": "1678845448.577579",
+      "client_msg_id": "cae6754e-59bd-47c1-b253-577b2846eaf5",
+      "text": "<@U0331FZS7JT> 社長\nCC: <@U041RJKV5JA> 部長\nお疲れ様です。\nTSE-IVP-001-23 Invoice_Packing Listを作成しました。\n発送可能日は3月16日（木）です。\n宜しくお願いします。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "6c4f7745b891",
+        "image_72": "https://avatars.slack-edge.com/2022-08-07/3904561660837_6c4f7745b8919f42488e_72.png",
+        "first_name": "足立",
+        "real_name": "足立",
+        "display_name": "足立",
+        "team": "T033D70RR6H",
+        "name": "obayashi",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1678838413.435879",
+      "parent_user_id": "U0331FZS7JT",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "pRs",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0331FZS7JT"
+                },
+                {
+                  "type": "text",
+                  "text": " 社長\nCC: "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U041RJKV5JA"
+                },
+                {
+                  "type": "text",
+                  "text": " 部長\nお疲れ様です。\nTSE-IVP-001-23 Invoice_Packing Listを作成しました。\n発送可能日は3月16日（木）です。\n宜しくお願いします。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "了解です",
+          "users": [
+            "U0331FZS7JT"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1680001299.107189",
+      "edited": {
+        "user": "U0331FZS7JT",
+        "ts": "1680002267.000000"
+      },
+      "client_msg_id": "c3c757b1-5193-41fd-b065-2b0ce5bab82b",
+      "text": "<@U041RJKV5JA>部長\n <!channel>\n\nポーランドのMs. Anastasia Chervinska(ウクライナ(Ivaschenko)客)\n（TSE-IVP-001-23 Invoice_Packing List）の件ですが、\nEORIナンバーを記載しました。\n入金後、発送の手続きをお願いします。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1680001299.107189",
+      "reply_count": 6,
+      "reply_users_count": 3,
+      "latest_reply": "1681204314.657809",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U0331FZTHEK",
+        "U033G4KN4TD"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1681132534.438289"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1681168308.161899"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1681171054.722009"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1681172088.417229"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1681172169.946379"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1681204314.657809"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "BE=i",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U041RJKV5JA"
+                },
+                {
+                  "type": "text",
+                  "text": "部長\n "
+                },
+                {
+                  "type": "broadcast",
+                  "range": "channel"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nポーランドのMs. Anastasia Chervinska(ウクライナ(Ivaschenko)客)\n（TSE-IVP-001-23 Invoice_Packing List）の件ですが、\nEORIナンバーを記載しました。\n入金後、発送の手続きをお願いします。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "7e6ac2088523a821",
+          "users": [
+            "U041RJKV5JA"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

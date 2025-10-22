@@ -1,0 +1,120 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1726551175.495739",
+      "client_msg_id": "ce31ac68-7b07-412c-ac86-00fb36dd9f69",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-YOS-005-24*\n:flag-se:スウェーデン：大野さんから注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1726551175.495739",
+      "reply_count": 8,
+      "reply_users_count": 3,
+      "latest_reply": "1728608854.571559",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U03BLQ65GK0",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1726551274.103699"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1726555797.690349"
+        },
+        {
+          "user": "U03BLQ65GK0",
+          "ts": "1726709037.614619"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1727256643.399499"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1727502239.818219"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1727794588.972669"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1728518453.431589"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1728608854.571559"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "TK8Fj",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-YOS-005-24",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-se",
+                  "unicode": "1f1f8-1f1ea"
+                },
+                {
+                  "type": "text",
+                  "text": "スウェーデン：大野さんから注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

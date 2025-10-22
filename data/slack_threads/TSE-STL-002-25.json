@@ -1,0 +1,104 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1751258705.256249",
+      "client_msg_id": "9d52f6da-91f6-4276-b7a7-89870e5c5ba0",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n*TSE-STL-002-25*\n:flag-au:オーストラリア：STL-Song Tinh(alibaba名Sunny Le→ whats)様から注文をいただきました。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1751258705.256249",
+      "reply_count": 4,
+      "reply_users_count": 4,
+      "latest_reply": "1752213577.157459",
+      "reply_users": [
+        "U066P20UQH1",
+        "U0331FZTHEK",
+        "U033G4KN4TD",
+        "U08U8MMTH43"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1751258779.532979"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1751263973.294879"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1751596073.444919"
+        },
+        {
+          "user": "U08U8MMTH43",
+          "ts": "1752213577.157459"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "k4RpH",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-STL-002-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-au",
+                  "unicode": "1f1e6-1f1fa"
+                },
+                {
+                  "type": "text",
+                  "text": "オーストラリア：STL-Song Tinh(alibaba名Sunny Le→ whats)様から注文をいただきました。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1720379543.238219",
+      "edited": {
+        "user": "U0331FZS7JT",
+        "ts": "1720379709.000000"
+      },
+      "client_msg_id": "5a95eff0-628f-4b6c-adb9-c32a45465488",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse><@U0331FZTHEK>\n24.7.8 Invoice(TSE-CHA-004-24)\nマカオ：CHAA(Insta)様から注文が入りました。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1720379543.238219",
+      "reply_count": 4,
+      "reply_users_count": 3,
+      "latest_reply": "1720588954.243979",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U05KGS6HN9H",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1720379578.387259"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1720406902.575669"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1720411867.409339"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1720588954.243979"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "vDIc0",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0331FZTHEK"
+                },
+                {
+                  "type": "text",
+                  "text": "\n24.7.8 Invoice(TSE-CHA-004-24)\nマカオ：CHAA(Insta)様から注文が入りました。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U05KGS6HN9H",
+            "U033G4KN4TD",
+            "U041RJKV5JA"
+          ],
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

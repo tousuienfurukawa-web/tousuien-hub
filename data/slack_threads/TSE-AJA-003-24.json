@@ -1,0 +1,137 @@
+{
+  "messages": [
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1730347670.130849",
+      "client_msg_id": "8dec7118-fba0-4f34-8d1f-fc1a7b0b1dd2",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-AJA-003-24*\n:flag-ph:フィリピン：Apple Alviar様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1730347670.130849",
+      "reply_count": 12,
+      "reply_users_count": 3,
+      "latest_reply": "1733245071.221369",
+      "reply_users": [
+        "U0331FWGQRM",
+        "U0331FZTHEK",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1730347875.147709"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1730348061.887099"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1730519168.080209"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1730784364.253509"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1730909670.136999"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1731279470.722129"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1732925576.646589"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1733156692.244059"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1733197900.890869"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1733202231.909099"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1733206056.012999"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1733245071.221369"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1733245071.221369",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "57OK2",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-AJA-003-24",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-ph",
+                  "unicode": "1f1f5-1f1ed"
+                },
+                {
+                  "type": "text",
+                  "text": "フィリピン：Apple Alviar様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

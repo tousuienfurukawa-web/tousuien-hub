@@ -1,0 +1,116 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1741016391.752559",
+      "client_msg_id": "d649e10a-dfc0-477a-a06d-9c457fb6c69a",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-TKM-002-25*\n:flag-hk: 香港：TSUKIMI JAPAN様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1741016391.752559",
+      "reply_count": 5,
+      "reply_users_count": 3,
+      "latest_reply": "1742199298.955619",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U0331FZTHEK",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1741016541.487649"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1741248459.978339"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1741933368.139739"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1741934778.037999"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1742199298.955619"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "+dQb4",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-TKM-002-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-hk",
+                  "unicode": "1f1ed-1f1f0"
+                },
+                {
+                  "type": "text",
+                  "text": " 香港：TSUKIMI JAPAN様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U05KGS6HN9H"
+          ],
+          "count": 2
+        },
+        {
+          "name": "出荷完了",
+          "users": [
+            "U05KGS6HN9H"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

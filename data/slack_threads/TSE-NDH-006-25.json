@@ -1,0 +1,94 @@
+{
+  "messages": [
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1741185151.381149",
+      "client_msg_id": "e37612ff-92bf-44e8-8e68-1ade1f004837",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nTSE-NDH-006-25\n:flag-th:タイのNadhaya様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1741185151.381149",
+      "reply_count": 6,
+      "reply_users_count": 4,
+      "latest_reply": "1743758994.445289",
+      "reply_users": [
+        "U0331FWGQRM",
+        "U0331FZTHEK",
+        "U05KGS6HN9H",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1741185174.962809"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1741222221.615959"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1742196479.821579"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1743421830.752449"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1743490789.194589"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1743758994.445289"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1743758994.445289",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "2Ve11",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\nTSE-NDH-006-25\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-th",
+                  "unicode": "1f1f9-1f1ed"
+                },
+                {
+                  "type": "text",
+                  "text": "タイのNadhaya様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1740057921.833639",
+      "client_msg_id": "5e7a94c3-7e80-4ff2-87ae-018a40e905d6",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-FAY-002-25*\n:flag-sa: サウジアラビア：FAY-Fay .f3mlk様から注文予定です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1740057921.833639",
+      "reply_count": 8,
+      "reply_users_count": 3,
+      "latest_reply": "1741240719.069009",
+      "reply_users": [
+        "U066P20UQH1",
+        "U041RJKV5JA",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1740058400.426259"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1740098394.662419"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1740439274.389009"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1740885538.565949"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1740956063.278439"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1741018038.746039"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1741035538.008749"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1741240719.069009"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Ud9zQ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-FAY-002-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-sa",
+                  "unicode": "1f1f8-1f1e6",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "サウジアラビア：FAY-Fay .f3mlk様から注文予定です。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

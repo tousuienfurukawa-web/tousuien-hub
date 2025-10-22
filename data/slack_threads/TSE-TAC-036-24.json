@@ -1,0 +1,155 @@
+{
+  "messages": [
+    {
+      "user": "U05KGS6HN9H",
+      "type": "message",
+      "ts": "1741673294.190259",
+      "client_msg_id": "b8ed72c1-4dc3-431c-a9b7-2e033b75705d",
+      "text": "<@U0331FWGQRM>\n前回TSE-TAC-036-24（茶筌10本）はGift（No Commercial Value）で\n発送しているようです。今回もNo Commercialでよろしいでしょうか？",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gc4e7258333f",
+        "image_72": "https://secure.gravatar.com/avatar/c4e7258333f2958f831d063db85b4542.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+        "first_name": "Adachi",
+        "real_name": "Adachi",
+        "display_name": "足立",
+        "team": "T033D70RR6H",
+        "name": "tousuien05",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1740675845.453329",
+      "parent_user_id": "U0331FWGQRM",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "7Gss7",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0331FWGQRM"
+                },
+                {
+                  "type": "text",
+                  "text": "\n前回TSE-TAC-036-24（茶筌10本）はGift（No Commercial Value）で\n発送しているようです。今回もNo Commercialでよろしいでしょうか？"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1727350019.164449",
+      "client_msg_id": "800311ed-2657-4848-906d-3bf37042d91f",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n:flag-th:タイのtachu houseより注文がありました。\n*TSE-TAC-036-24*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1727350019.164449",
+      "reply_count": 6,
+      "reply_users_count": 3,
+      "latest_reply": "1728632916.935479",
+      "reply_users": [
+        "U0331FWGQRM",
+        "U041RJKV5JA",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1727350072.571809"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1727404880.010769"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1727405392.205619"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1728255882.834849"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1728531587.275339"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1728632916.935479"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1728632916.935479",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "KTtQ4",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-th",
+                  "unicode": "1f1f9-1f1ed"
+                },
+                {
+                  "type": "text",
+                  "text": "タイのtachu houseより注文がありました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-TAC-036-24",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U033G4KN4TD",
+            "U041RJKV5JA",
+            "U05KGS6HN9H"
+          ],
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

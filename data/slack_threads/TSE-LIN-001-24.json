@@ -1,0 +1,130 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1734877202.732829",
+      "client_msg_id": "4ef6e3e2-ce15-4f22-a79c-c5229a661aba",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:fr:フランス Linda Kaddour Hocine(TEYA Matcha)様から注文を頂きました。\n*TSE-LIN-001-24*  ",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1734877202.732829",
+      "reply_count": 9,
+      "reply_users_count": 3,
+      "latest_reply": "1737091757.168619",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1734877301.134329"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1734877456.341909"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1734908020.368589"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1734942394.533179"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1735264042.868509"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1735286587.908039"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1736226409.857659"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1736226518.095939"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1737091757.168619"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1737091757.168619",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qJHy1",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " cc "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S072Q871SF9"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "fr",
+                  "unicode": "1f1eb-1f1f7"
+                },
+                {
+                  "type": "text",
+                  "text": "フランス Linda Kaddour Hocine(TEYA Matcha)様から注文を頂きました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-LIN-001-24  ",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U05KGS6HN9H",
+            "U041RJKV5JA"
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1739421702.664689",
+      "client_msg_id": "5b925559-cc2a-4078-859c-e1da85f44585",
+      "text": "<@U041RJKV5JA> <@U0331FWGQRM> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nインボイス修正しました。TSE-MOM-003-25_invoice_2というエクセルです。\n古いものは没に入れてます。\n\n<@U0331FZTHEK>\n修正後の請求用インボイスの通り、追加の商品と送料の差額（USD 145.95）の請求をします。入金がありましたら回収処理をお願いいたします。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1739357046.315099",
+      "parent_user_id": "U066P20UQH1",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "LSsb6",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U041RJKV5JA"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0331FWGQRM"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\nインボイス修正しました。TSE-MOM-003-25_invoice_2というエクセルです。\n古いものは没に入れてます。\n\n"
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0331FZTHEK"
+                },
+                {
+                  "type": "text",
+                  "text": "\n修正後の請求用インボイスの通り、追加の商品と送料の差額（USD 145.95）の請求をします。入金がありましたら回収処理をお願いいたします。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U0331FZTHEK",
+            "U041RJKV5JA"
+          ],
+          "count": 2
+        },
+        {
+          "name": "d130b000eb8d6784",
+          "users": [
+            "U0331FWGQRM"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1738592098.122849",
+      "client_msg_id": "2190481a-5b1d-4be4-b1db-f8552fa24c29",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-MOM-003-25（014-24と同じ）*\n:flag-sa:サウジアラビアMomatchaから注文予定です。\n鹿児島１A　1kg x 10 bag\n※ラベル：白黒ラベル\n※白色ジッパーバッグ",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1738592098.122849",
+      "reply_count": 4,
+      "reply_users_count": 3,
+      "latest_reply": "1739865782.808169",
+      "reply_users": [
+        "U0331FZTHEK",
+        "U0331FWGQRM",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1738728018.500329"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1738886847.057969"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1738906331.845259"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1739865782.808169"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1739865782.808169",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "xyvoB",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-MOM-003-25（014-24と同じ）",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-sa",
+                  "unicode": "1f1f8-1f1e6"
+                },
+                {
+                  "type": "text",
+                  "text": "サウジアラビアMomatchaから注文予定です。\n鹿児島１A　1kg x 10 bag\n※ラベル：白黒ラベル\n※白色ジッパーバッグ"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA"
+          ],
+          "count": 1
+        },
+        {
+          "name": "donee",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

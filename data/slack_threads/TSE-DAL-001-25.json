@@ -1,0 +1,113 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1744511605.293589",
+      "edited": {
+        "user": "U066P20UQH1",
+        "ts": "1744511766.000000"
+      },
+      "client_msg_id": "2c1f664b-3994-4c99-a018-2da5aa843456",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-DAL-001-25*\n:flag-kw:クウェート（出荷先はヨルダン:flag-jo:）：DAL-Dania Alzubairi(alibaba名Dania A (国旗ヨルダン→アメリカ国旗に)様から注文をいただきました。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1744511605.293589",
+      "reply_count": 5,
+      "reply_users_count": 4,
+      "latest_reply": "1745396155.384759",
+      "reply_users": [
+        "U066P20UQH1",
+        "U0331FZTHEK",
+        "U033G4KN4TD",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1744511756.999629"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1744584295.941169"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1744876179.955659"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1744885195.925949"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1745396155.384759"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "2rntH",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-DAL-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-kw",
+                  "unicode": "1f1f0-1f1fc"
+                },
+                {
+                  "type": "text",
+                  "text": "クウェート（出荷先はヨルダン"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-jo",
+                  "unicode": "1f1ef-1f1f4"
+                },
+                {
+                  "type": "text",
+                  "text": "）：DAL-Dania Alzubairi(alibaba名Dania A (国旗ヨルダン→アメリカ国旗に)様から注文をいただきました。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1732296832.935999",
+      "client_msg_id": "c4c4bda2-3bb3-437e-90b3-563bc7fefdf4",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:flag-ch:スイス Audrey Rieder (Bmatcha) 様より注文を頂きました。\n*TSE-CTP-006-24* ",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1732296832.935999",
+      "reply_count": 9,
+      "reply_users_count": 4,
+      "latest_reply": "1734150593.653349",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK",
+        "U05KGS6HN9H",
+        "U033G4KN4TD"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1732296878.040299"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1732297371.855729"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1732523094.405279"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1732592200.466709"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1732596613.353119"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1732609539.357609"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1732955631.805799"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1734109170.759969"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1734150593.653349"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1734150593.653349",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "VUs4y",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " cc "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S072Q871SF9"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-ch",
+                  "unicode": "1f1e8-1f1ed"
+                },
+                {
+                  "type": "text",
+                  "text": "スイス Audrey Rieder (Bmatcha) 様より注文を頂きました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-CTP-006-24 ",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U05KGS6HN9H"
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

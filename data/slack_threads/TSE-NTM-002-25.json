@@ -1,0 +1,162 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1740795060.791999",
+      "edited": {
+        "user": "U0331FZS7JT",
+        "ts": "1740795208.000000"
+      },
+      "client_msg_id": "8f55d0a5-d4fe-4db3-afd7-f8652dd1788d",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-NTM-002-25*\n:flag-au:オーストラリア：Jarrod Herscu(alibaba)様から注文です。\n※送り先：カナダのアマゾンFBA",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1740795060.791999",
+      "reply_count": 4,
+      "reply_users_count": 2,
+      "latest_reply": "1741673436.945929",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1740795189.584149"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1741452167.428979"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1741603409.250199"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1741673436.945929"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "MNXy2",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-NTM-002-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-au",
+                  "unicode": "1f1e6-1f1fa"
+                },
+                {
+                  "type": "text",
+                  "text": "オーストラリア：Jarrod Herscu(alibaba)様から注文です。\n※送り先：カナダのアマゾンFBA"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1741452167.428979",
+      "client_msg_id": "bf0cab00-31d0-4297-8af8-3bcbbfdefa4a",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nカナダFBA向けのラベルを入手したので共有します。\n発送手続きフォルダに\n*TSE-NTM-002-25_Canada Shipment Label_08.03.25*\nのタイトルで格納しています。\nPNCの申請があると思うので火曜出荷で問題ないでしょうか？\n\nご確認、よろしくお願いします。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1740795060.791999",
+      "parent_user_id": "U0331FZS7JT",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "lZChQ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\nカナダFBA向けのラベルを入手したので共有します。\n発送手続きフォルダに\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-NTM-002-25_Canada Shipment Label_08.03.25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nのタイトルで格納しています。\nPNCの申請があると思うので火曜出荷で問題ないでしょうか？\n\nご確認、よろしくお願いします。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

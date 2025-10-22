@@ -1,0 +1,153 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1743491825.034019",
+      "edited": {
+        "user": "U066P20UQH1",
+        "ts": "1743745386.000000"
+      },
+      "client_msg_id": "5cfb888b-6dd3-4226-8857-d1b9c71e22b1",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-NAT-001-25*\n:flag-th:タイのNAT-Ploykarin Jitphakdi様から注文~予定~*確定しました*。250404\n*国内発送*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1743491825.034019",
+      "reply_count": 11,
+      "reply_users_count": 4,
+      "latest_reply": "1744624844.806339",
+      "reply_users": [
+        "U066P20UQH1",
+        "U033G4KN4TD",
+        "U0331FZTHEK",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1743491989.946409"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1743580043.658579"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1743586183.827729"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1743720170.673169"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1743745091.682699"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1743992400.993829"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1744010722.336069"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1744357860.152209"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1744358514.211999"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1744359149.485599"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1744624844.806339"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "xmadf",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-NAT-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-th",
+                  "unicode": "1f1f9-1f1ed"
+                },
+                {
+                  "type": "text",
+                  "text": "タイのNAT-Ploykarin Jitphakdi様から注文"
+                },
+                {
+                  "type": "text",
+                  "text": "予定",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "確定しました",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "。250404\n"
+                },
+                {
+                  "type": "text",
+                  "text": "国内発送",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

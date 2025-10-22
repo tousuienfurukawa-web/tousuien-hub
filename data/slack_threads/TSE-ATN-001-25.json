@@ -1,0 +1,149 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1737426493.938639",
+      "client_msg_id": "fc70a085-e3d2-4d78-a90c-aa2197af1579",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n*TSE-ATN-001-25*\n:us:ATN-Andrew Thay(alibaba)様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1737426493.938639",
+      "reply_count": 10,
+      "reply_users_count": 3,
+      "latest_reply": "1738837904.278539",
+      "reply_users": [
+        "U066P20UQH1",
+        "U0331FZTHEK",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1737427316.640729"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1737427795.910219"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1737510017.682809"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1737510099.629999"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1737526610.238959"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1737527734.510749"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1737697448.820109"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1737697765.108589"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1737699215.373459"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1738837904.278539"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1738837904.278539",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "elcju",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S072Q871SF9"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-ATN-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "us",
+                  "unicode": "1f1fa-1f1f8",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "ATN-Andrew Thay(alibaba)様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U05KGS6HN9H",
+            "U041RJKV5JA"
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "messages": [
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1729673902.617459",
+      "client_msg_id": "c1549aaf-7d77-4053-9f38-cf5add502bea",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n:flag-nl:オランダ：theeje （Sheng Hu）さんから注文です。\nTSE-THJ-004-24",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1729673902.617459",
+      "reply_count": 8,
+      "reply_users_count": 3,
+      "latest_reply": "1730784845.505569",
+      "reply_users": [
+        "U0331FWGQRM",
+        "U041RJKV5JA",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1729673915.377279"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1729841858.070749"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1729862416.428529"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1730421910.194259"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1730434082.466019"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1730445646.456719"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1730448198.713649"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1730784845.505569"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1730784845.505569",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "F4DKI",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-nl",
+                  "unicode": "1f1f3-1f1f1"
+                },
+                {
+                  "type": "text",
+                  "text": "オランダ：theeje （Sheng Hu）さんから注文です。\nTSE-THJ-004-24"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U05KGS6HN9H"
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

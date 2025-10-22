@@ -1,0 +1,108 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1741305040.638859",
+      "edited": {
+        "user": "U0331FZS7JT",
+        "ts": "1741310436.000000"
+      },
+      "client_msg_id": "beb3f5a0-8177-4700-8e62-901cdb34dfcb",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-HAS-001-25*\n:flag-ae:UAE：HAS-Hassan Hamieh (Ms.AZUMA紹介)様より\nサンプル注文をいただきました。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1741305040.638859",
+      "reply_count": 4,
+      "reply_users_count": 3,
+      "latest_reply": "1742190172.275989",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U0331FZTHEK",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1741305167.627659"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1741819876.550679"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1741924982.242979"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1742190172.275989"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "6VRXS",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-HAS-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-ae",
+                  "unicode": "1f1e6-1f1ea"
+                },
+                {
+                  "type": "text",
+                  "text": "UAE：HAS-Hassan Hamieh (Ms.AZUMA紹介)様より\nサンプル注文をいただきました。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

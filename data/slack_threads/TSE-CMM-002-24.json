@@ -1,0 +1,215 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1735023452.088099",
+      "client_msg_id": "cb142c58-124e-4565-b0c4-aba38f9bf624",
+      "text": "<@U05KGS6HN9H>\n<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\nRevised は無視して下さい。\n*TSE-CMM-002-24の使用をお願いします。*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1734141809.870339",
+      "parent_user_id": "U0331FZS7JT",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "1wYoA",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U05KGS6HN9H"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\nRevised は無視して下さい。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-CMM-002-24の使用をお願いします。",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U05KGS6HN9H"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1734141809.870339",
+      "edited": {
+        "user": "U0331FZS7JT",
+        "ts": "1734141829.000000"
+      },
+      "client_msg_id": "695f4a43-6b51-45fb-8d79-d5ddb704d3b8",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-CMM-002-24*\n:flag-cz:チェコ：CMM-Martin Špimr様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1734141809.870339",
+      "reply_count": 13,
+      "reply_users_count": 4,
+      "latest_reply": "1736468402.201949",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U05KGS6HN9H",
+        "U0331FZTHEK",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1734192263.833109"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1734409789.048709"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1735021614.951529"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1735023452.088099"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1735087478.653159"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1735093902.606329"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1736208143.167469"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1736267786.490479"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1736297270.173639"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1736318669.896939"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1736413641.299349"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1736417538.512159"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1736468402.201949"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "OCGq3",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-CMM-002-24",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-cz",
+                  "unicode": "1f1e8-1f1ff"
+                },
+                {
+                  "type": "text",
+                  "text": "チェコ：CMM-Martin Špimr様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U05KGS6HN9H",
+            "U033G4KN4TD",
+            "U041RJKV5JA"
+          ],
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

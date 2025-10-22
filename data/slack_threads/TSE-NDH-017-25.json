@@ -1,0 +1,101 @@
+{
+  "messages": [
+    {
+      "user": "U08RVRNBY00",
+      "type": "message",
+      "ts": "1760944516.182819",
+      "client_msg_id": "dee0b13f-a2d1-4acc-93ab-b020d8fac89e",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\ncc:<@U0331FWGQRM>\n*TSE-NDH-017-25*\n:flag-th:タイ NDH-Nadhaya 様から注文いただきました。\n(Uji)",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "g347f3e803ab",
+        "image_72": "https://secure.gravatar.com/avatar/347f3e803abca8b6a7b724895864d138.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+        "first_name": "Hikako",
+        "real_name": "Hikako Hasegawa",
+        "display_name": "Hikako Hasegawa",
+        "team": "T033D70RR6H",
+        "name": "tousuien.hasegawa",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1760944516.182819",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1760944734.587789",
+      "reply_users": [
+        "U08RVRNBY00"
+      ],
+      "replies": [
+        {
+          "user": "U08RVRNBY00",
+          "ts": "1760944734.587789"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1760944734.587789",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Vk69M",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\ncc:"
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0331FWGQRM"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-NDH-017-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-th",
+                  "unicode": "1f1f9-1f1ed",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "タイ NDH-Nadhaya 様から注文いただきました。\n(Uji)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

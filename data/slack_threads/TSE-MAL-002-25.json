@@ -1,0 +1,102 @@
+{
+  "messages": [
+    {
+      "user": "U095LLEH09G",
+      "type": "message",
+      "ts": "1756703477.564759",
+      "client_msg_id": "a70be8c2-f767-4ae1-acff-900319497a10",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n*TSE-MAL-002-25*\n:flag-ae:UAE, MAL-Mona Alhashimi様(Whats)から注文予定です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "ae87b26efedc",
+        "image_72": "https://avatars.slack-edge.com/2025-07-13/9205392762673_ae87b26efedc7814f01e_72.png",
+        "first_name": "Shizuka",
+        "real_name": "Shizuka Kawatani",
+        "display_name": "Shizuka Kawatani",
+        "team": "T033D70RR6H",
+        "name": "tousuien.kawatani",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1756703477.564759",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1758518613.837859",
+      "reply_users": [
+        "U095LLEH09G"
+      ],
+      "replies": [
+        {
+          "user": "U095LLEH09G",
+          "ts": "1756703758.612019"
+        },
+        {
+          "user": "U095LLEH09G",
+          "ts": "1758518613.837859"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1758518613.837859",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "u2Pol",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S072Q871SF9"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-MAL-002-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-ae",
+                  "unicode": "1f1e6-1f1ea"
+                },
+                {
+                  "type": "text",
+                  "text": "UAE, MAL-Mona Alhashimi様(Whats)から注文予定です。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

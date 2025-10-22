@@ -1,0 +1,129 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1747418485.427249",
+      "client_msg_id": "5575aee4-28ae-4410-83af-0fb7ac92002e",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>　<@U066P20UQH1>\n1179 :flag-ph:フィリピン：KIA-Kia Alampay(alibaba)様(発送先は日本)から注文をいただきました。\n*TSE-KIA-003-25*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1747418485.427249",
+      "reply_count": 11,
+      "reply_users_count": 5,
+      "latest_reply": "1750935090.902929",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK",
+        "U05KGS6HN9H",
+        "U066P20UQH1",
+        "U033G4KN4TD"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1747418661.243639"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1747630266.854559"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1747706155.131069"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1747727810.051499"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1749433258.358639"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1749513388.040259"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1750058392.442239"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1750149593.596229"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1750226070.121159"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1750233475.830579"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1750935090.902929"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "nptBI",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "　"
+                },
+                {
+                  "type": "user",
+                  "user_id": "U066P20UQH1"
+                },
+                {
+                  "type": "text",
+                  "text": "\n1179 "
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-ph",
+                  "unicode": "1f1f5-1f1ed"
+                },
+                {
+                  "type": "text",
+                  "text": "フィリピン：KIA-Kia Alampay(alibaba)様(発送先は日本)から注文をいただきました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-KIA-003-25",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

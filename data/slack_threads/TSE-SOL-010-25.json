@@ -1,0 +1,100 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1746315758.821219",
+      "client_msg_id": "3c5ec431-df44-42a0-864b-5053dd2d0a28",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-SOL-010-25*\n1115:flag-nl:オランダ：SOL-Solaiman Aakouk(alibaba)様から注文予定です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1746315758.821219",
+      "reply_count": 5,
+      "reply_users_count": 4,
+      "latest_reply": "1752910475.296539",
+      "reply_users": [
+        "U066P20UQH1",
+        "U05KGS6HN9H",
+        "U0606SPN4BW",
+        "U033G4KN4TD"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1746315945.123819"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1747811163.388899"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1751900242.015389"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1752889297.071929"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1752910475.296539"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "/s9y0",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-SOL-010-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n1115"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-nl",
+                  "unicode": "1f1f3-1f1f1"
+                },
+                {
+                  "type": "text",
+                  "text": "オランダ：SOL-Solaiman Aakouk(alibaba)様から注文予定です。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

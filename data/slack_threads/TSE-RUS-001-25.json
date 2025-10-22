@@ -1,0 +1,121 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1738244765.298339",
+      "client_msg_id": "4e05ae31-f63e-438d-9b25-872804c70bfd",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-RUS-001-25*\n:flag-id:インドネシア：Ms.Caitlin Rusli(Insta)様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1738244765.298339",
+      "reply_count": 8,
+      "reply_users_count": 3,
+      "latest_reply": "1740457092.120769",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U041RJKV5JA",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1738245017.484659"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1738546053.965419"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1739326703.394879"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1739429678.147309"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1740182261.624379"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1740183593.176119"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1740183722.139659"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1740457092.120769"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "YdOpl",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-RUS-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-id",
+                  "unicode": "1f1ee-1f1e9"
+                },
+                {
+                  "type": "text",
+                  "text": "インドネシア：Ms.Caitlin Rusli(Insta)様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U05KGS6HN9H",
+            "U041RJKV5JA"
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

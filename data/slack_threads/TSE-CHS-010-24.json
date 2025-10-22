@@ -1,0 +1,135 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1725656527.906539",
+      "client_msg_id": "1454b676-819f-4e50-bc3d-7ca88cc156d4",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-CHS-010-24*\n:flag-th:タイ：Chaseki様から注文をいただきました。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1725656527.906539",
+      "reply_count": 11,
+      "reply_users_count": 4,
+      "latest_reply": "1726649708.507329",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U033G4KN4TD",
+        "U0331FZTHEK",
+        "U05KGS6HN9H"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1725656589.377179"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1725936330.387689"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1725937171.407119"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1725953565.276559"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1726023181.566519"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1726129382.092159"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1726200160.591869"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1726223872.481149"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1726224883.382639"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1726532518.781879"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1726649708.507329"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "uyAwR",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-CHS-010-24",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-th",
+                  "unicode": "1f1f9-1f1ed"
+                },
+                {
+                  "type": "text",
+                  "text": "タイ：Chaseki様から注文をいただきました。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U05KGS6HN9H",
+            "U041RJKV5JA",
+            "U033G4KN4TD"
+          ],
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

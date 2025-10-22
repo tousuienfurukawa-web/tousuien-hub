@@ -1,0 +1,108 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1753459522.673129",
+      "client_msg_id": "7dc5f1da-f793-454f-84b3-5f57600b058f",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n:flag-om:オマーン：MNM-Ahmed様(WhatsApp)から注文予定を頂きました。\n*TSE-MNM-003-25*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1753459522.673129",
+      "reply_count": 6,
+      "reply_users_count": 4,
+      "latest_reply": "1756451161.192619",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK",
+        "U066P20UQH1",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1753459611.896299"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1753656406.625239"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1754275256.832249"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1755842239.963059"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1756106769.341729"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1756451161.192619"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "sooZn",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-om",
+                  "unicode": "1f1f4-1f1f2"
+                },
+                {
+                  "type": "text",
+                  "text": "オマーン：MNM-Ahmed様(WhatsApp)から注文予定を頂きました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-MNM-003-25",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

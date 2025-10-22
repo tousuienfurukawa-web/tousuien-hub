@@ -1,0 +1,133 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1750236195.577409",
+      "edited": {
+        "user": "U066P20UQH1",
+        "ts": "1750398867.000000"
+      },
+      "client_msg_id": "c8ed6b60-9742-48c3-bb10-ee588d2f8fce",
+      "text": "~<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>~ ~<!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>~\n~*TSE-NAT-003-25*~\n:flag-th:~タイ：NAT-Ploykarin Jitphakdi旧：Natthachapim Jitphakdi(alibaba)様から注文予定です。~\n~*先に納期を確認させてください*~",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1750236195.577409",
+      "reply_count": 4,
+      "reply_users_count": 1,
+      "latest_reply": "1750398857.710169",
+      "reply_users": [
+        "U066P20UQH1"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1750236259.349789"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1750317323.871429"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1750319530.604639"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1750398857.710169"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "5TVyx",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " ",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-NAT-003-25",
+                  "style": {
+                    "bold": true,
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-th",
+                  "unicode": "1f1f9-1f1ed",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "タイ：NAT-Ploykarin Jitphakdi旧：Natthachapim Jitphakdi(alibaba)様から注文予定です。",
+                  "style": {
+                    "strike": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "先に納期を確認させてください",
+                  "style": {
+                    "bold": true,
+                    "strike": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

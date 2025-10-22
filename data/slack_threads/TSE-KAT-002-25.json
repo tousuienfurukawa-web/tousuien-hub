@@ -1,0 +1,111 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1760062086.837689",
+      "client_msg_id": "d8714e91-2298-4ad7-9480-549e9a369df2",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n*TSE-KAT-002-25*\n:flag-nl: オランダ：KAT-Katerina (WhatsApp)様から注文をいただきました。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1760062086.837689",
+      "reply_count": 6,
+      "reply_users_count": 3,
+      "latest_reply": "1760518970.685689",
+      "reply_users": [
+        "U066P20UQH1",
+        "U0331FZTHEK",
+        "U08L89G6JSG"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1760062192.172299"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1760166260.460619"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1760395428.615879"
+        },
+        {
+          "user": "U08L89G6JSG",
+          "ts": "1760411148.131049"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1760482857.792289"
+        },
+        {
+          "user": "U08L89G6JSG",
+          "ts": "1760518970.685689"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ph4zr",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-KAT-002-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-nl",
+                  "unicode": "1f1f3-1f1f1"
+                },
+                {
+                  "type": "text",
+                  "text": " オランダ：KAT-Katerina (WhatsApp)様から注文をいただきました。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

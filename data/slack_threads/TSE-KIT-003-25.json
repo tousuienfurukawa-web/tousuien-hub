@@ -1,0 +1,121 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1757644664.763119",
+      "client_msg_id": "cb1d28cb-f82c-4de3-9be9-58196415caec",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n*TSE-KIT-003-25*\n:flag-th:タイ：KIT-Kittipojn(HP→Whatsapp)様から注文をいただきました。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1757644664.763119",
+      "reply_count": 8,
+      "reply_users_count": 5,
+      "latest_reply": "1760163227.498639",
+      "reply_users": [
+        "U066P20UQH1",
+        "U0331FZTHEK",
+        "U08U8MMTH43",
+        "U09DF1SDTQR",
+        "U08L89G6JSG"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1757644905.520379"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1757658804.067829"
+        },
+        {
+          "user": "U08U8MMTH43",
+          "ts": "1757660075.491559"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1757660317.792509"
+        },
+        {
+          "user": "U09DF1SDTQR",
+          "ts": "1759135004.627239"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1759818727.693719"
+        },
+        {
+          "user": "U08L89G6JSG",
+          "ts": "1759825843.711619"
+        },
+        {
+          "user": "U08L89G6JSG",
+          "ts": "1760163227.498639"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "tANJB",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-KIT-003-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-th",
+                  "unicode": "1f1f9-1f1ed"
+                },
+                {
+                  "type": "text",
+                  "text": "タイ：KIT-Kittipojn(HP→Whatsapp)様から注文をいただきました。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

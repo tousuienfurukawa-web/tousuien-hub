@@ -1,0 +1,125 @@
+{
+  "messages": [
+    {
+      "user": "U066P20UQH1",
+      "type": "message",
+      "ts": "1738381872.919419",
+      "client_msg_id": "5bfd13f2-b5c4-47c2-b905-cce4533a9b90",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-ROL-001-25*\n:flag-lb: レバノン：ROL-rola amin(alibaba)様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "179323cb3551",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6955353714228_179323cb3551f7c8ecfe_72.png",
+        "first_name": "Haruka",
+        "real_name": "Haruka Hayashi",
+        "display_name": "林遥香",
+        "team": "T033D70RR6H",
+        "name": "haru.nboc",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1738381872.919419",
+      "reply_count": 7,
+      "reply_users_count": 4,
+      "latest_reply": "1738830305.963129",
+      "reply_users": [
+        "U066P20UQH1",
+        "U0331FZTHEK",
+        "U041RJKV5JA",
+        "U0606SPN4BW"
+      ],
+      "replies": [
+        {
+          "user": "U066P20UQH1",
+          "ts": "1738382059.260779"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1738536480.291809"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1738660288.551889"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1738660677.671469"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1738661270.024699"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1738664144.016439"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1738830305.963129"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "YLeMj",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-ROL-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-lb",
+                  "unicode": "1f1f1-1f1e7"
+                },
+                {
+                  "type": "text",
+                  "text": " レバノン：ROL-rola amin(alibaba)様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U05KGS6HN9H"
+          ],
+          "count": 2
+        },
+        {
+          "name": "donee",
+          "users": [
+            "U066P20UQH1"
+          ],
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1748428735.186779",
+      "client_msg_id": "77f4e0e1-8854-442f-b333-1d60d7cef7dc",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n:flag-nl:オランダ MCG-Michael Girgis様から注文予定を頂きました。\n*TSE-MCG-003-25* ",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1748428735.186779",
+      "reply_count": 6,
+      "reply_users_count": 4,
+      "latest_reply": "1749103271.409139",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK",
+        "U041RJKV5JA",
+        "U033G4KN4TD"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1748428758.725759"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1748559123.925389"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1748567787.163139"
+        },
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1748589649.726519"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1748914922.171899"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1749103271.409139"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "K6aMb",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-nl",
+                  "unicode": "1f1f3-1f1f1"
+                },
+                {
+                  "type": "text",
+                  "text": "オランダ MCG-Michael Girgis様から注文予定を頂きました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-MCG-003-25 ",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

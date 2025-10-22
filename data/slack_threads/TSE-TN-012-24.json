@@ -1,0 +1,96 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1715774610.451379",
+      "edited": {
+        "user": "U0331FZS7JT",
+        "ts": "1715774630.000000"
+      },
+      "client_msg_id": "0dbe703b-4828-42d2-b35f-0aa490627dcd",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <@U0331FZTHEK>\nTSE-TN-012-24\nタイ：Dark's mood cafe(Mr.Thanin Niyomjinda)様から注文が入りました（12回）。\n25日に羽田近くのローソン受け取り希望です。\n\nよろしくお願いします。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1715774610.451379",
+      "reply_count": 4,
+      "reply_users_count": 2,
+      "latest_reply": "1716337527.126219",
+      "reply_users": [
+        "U05KGS6HN9H",
+        "U0331FZTHEK"
+      ],
+      "replies": [
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1715821011.187449"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1715831008.576299"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1716158701.137659"
+        },
+        {
+          "user": "U05KGS6HN9H",
+          "ts": "1716337527.126219"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "45hvY",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U0331FZTHEK"
+                },
+                {
+                  "type": "text",
+                  "text": "\nTSE-TN-012-24\nタイ：Dark's mood cafe(Mr.Thanin Niyomjinda)様から注文が入りました（12回）。\n25日に羽田近くのローソン受け取り希望です。\n\nよろしくお願いします。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U05KGS6HN9H",
+            "U033G4KN4TD"
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

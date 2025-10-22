@@ -1,0 +1,97 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1749580063.378889",
+      "client_msg_id": "41d10917-36fe-4aac-bcbd-8ce2a5658daf",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n1237 :flag-be:ベルギー ANI-Anis Farvaque様(alibaba)から注文を頂きました。\n*TSE-ANI-001-25*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1749580063.378889",
+      "reply_count": 5,
+      "reply_users_count": 5,
+      "latest_reply": "1752472662.907359",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK",
+        "U08N3SKSL75",
+        "U033G4KN4TD",
+        "U08U8MMTH43"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1749580163.709319"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1749599995.567969"
+        },
+        {
+          "user": "U08N3SKSL75",
+          "ts": "1750827052.417829"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1750920909.830439"
+        },
+        {
+          "user": "U08U8MMTH43",
+          "ts": "1752472662.907359"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "/6y+q",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n1237 "
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-be",
+                  "unicode": "1f1e7-1f1ea"
+                },
+                {
+                  "type": "text",
+                  "text": "ベルギー ANI-Anis Farvaque様(alibaba)から注文を頂きました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-ANI-001-25",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

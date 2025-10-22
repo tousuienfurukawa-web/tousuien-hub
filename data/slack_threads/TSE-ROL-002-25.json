@@ -1,0 +1,100 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1755015485.999309",
+      "client_msg_id": "714148d3-0604-4b47-a98d-69fd8d467d66",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou>\n:flag-lb: レバノン：ROL-rola amin(alibaba)様から注文予定をいただきました。\n*TSE-ROL-002-25*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1755015485.999309",
+      "reply_count": 4,
+      "reply_users_count": 4,
+      "latest_reply": "1757487270.642899",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK",
+        "U033G4KN4TD",
+        "U08U8MMTH43"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1755015569.803009"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1755038925.569089"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1756878730.637599"
+        },
+        {
+          "user": "U08U8MMTH43",
+          "ts": "1757487270.642899"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "4S66s",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-lb",
+                  "unicode": "1f1f1-1f1e7"
+                },
+                {
+                  "type": "text",
+                  "text": " レバノン：ROL-rola amin(alibaba)様から注文予定をいただきました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-ROL-002-25",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

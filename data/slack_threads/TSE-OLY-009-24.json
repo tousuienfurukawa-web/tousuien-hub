@@ -1,0 +1,114 @@
+{
+  "messages": [
+    {
+      "user": "U0331FWGQRM",
+      "type": "message",
+      "ts": "1734529568.440819",
+      "client_msg_id": "0f5e460f-d8ae-492f-ada2-5eae91732522",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-OLY-009-24*\n:gb:イギリスのOlly様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "gf9d05f2cae1",
+        "image_72": "https://secure.gravatar.com/avatar/f9d05f2cae161f657bb1248fc85b5235.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+        "first_name": "matsui",
+        "real_name": "matsui",
+        "display_name": "松井",
+        "team": "T033D70RR6H",
+        "name": "tousuien.matsui",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1734529568.440819",
+      "reply_count": 6,
+      "reply_users_count": 3,
+      "latest_reply": "1736405073.304939",
+      "reply_users": [
+        "U0331FWGQRM",
+        "U0331FZTHEK",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1734529653.533279"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1734662639.094319"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1734669713.871049"
+        },
+        {
+          "user": "U0331FWGQRM",
+          "ts": "1735139260.793039"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1735166832.919249"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1736405073.304939"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1736405073.304939",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "39cNx",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-OLY-009-24",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "gb",
+                  "unicode": "1f1ec-1f1e7"
+                },
+                {
+                  "type": "text",
+                  "text": "イギリスのOlly様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U033G4KN4TD",
+            "U041RJKV5JA"
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

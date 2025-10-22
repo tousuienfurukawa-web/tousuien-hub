@@ -1,0 +1,292 @@
+{
+  "messages": [
+    {
+      "user": "U041RJKV5JA",
+      "type": "message",
+      "ts": "1730416026.012799",
+      "client_msg_id": "74afab81-e90f-4870-9127-2e827f18b63f",
+      "text": "<@U0606SPN4BW>\n <!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n賞味期限の印字は下記で行います。\nご確認お願いします。\n・TSE-CTP-003-24 : EXP 4/11/2025\n・TSE-CTP-004-24 : EXP 14/1/2025",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "aed9eafd9eee",
+        "image_72": "https://avatars.slack-edge.com/2022-09-11/4078874890257_aed9eafd9eee277ba076_72.png",
+        "first_name": "Hirakawa",
+        "real_name": "Hirakawa",
+        "display_name": "平川",
+        "team": "T033D70RR6H",
+        "name": "tousuien.s006",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1729091638.036919",
+      "parent_user_id": "U0606SPN4BW",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "fppmm",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0606SPN4BW"
+                },
+                {
+                  "type": "text",
+                  "text": "\n "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n賞味期限の印字は下記で行います。\nご確認お願いします。\n・TSE-CTP-003-24 : EXP 4/11/2025\n・TSE-CTP-004-24 : EXP 14/1/2025"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知-1",
+          "users": [
+            "U0606SPN4BW"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1730473819.205389",
+      "client_msg_id": "08413652-730e-4da7-bbd4-c1a75ee0b113",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> cc <!subteam^S072Q871SF9|@oka-matsui-furukawa-hayashi-kimura-hasegawa-kawatani>\n:flag-ch:スイス Audrey Rieder様から注文をいただきました。\n*TSE-CTP-004-24*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1730473819.205389",
+      "reply_count": 3,
+      "reply_users_count": 3,
+      "latest_reply": "1731655777.574089",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U0331FZTHEK",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1730473924.101159"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1730800587.817629"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1731655777.574089"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": true,
+      "last_read": "1731655777.574089",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "3b41N",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " cc "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S072Q871SF9"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-ch",
+                  "unicode": "1f1e8-1f1ed"
+                },
+                {
+                  "type": "text",
+                  "text": "スイス Audrey Rieder様から注文をいただきました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-CTP-004-24",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U05KGS6HN9H"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1730474197.549169",
+      "client_msg_id": "9d2fa415-968a-4196-9b90-03799be7f407",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n別送となる有機製品と追加分40缶について別途、受注スレッドを立てました！\n\n▼受注スレッド: TSE-CTP-004-24\n<https://grp-ssm9297.slack.com/archives/C03C62NBSDP/p1730473819205389>",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1729091638.036919",
+      "parent_user_id": "U0606SPN4BW",
+      "attachments": [
+        {
+          "from_url": "https://grp-ssm9297.slack.com/archives/C03C62NBSDP/p1730473819205389",
+          "ts": "1730473819.205389",
+          "author_id": "U0606SPN4BW",
+          "channel_id": "C03C62NBSDP",
+          "channel_team": "T033D70RR6H",
+          "is_msg_unfurl": true,
+          "is_thread_root_unfurl": true,
+          "message_blocks": [
+            {
+              "team": "T033D70RR6H",
+              "channel": "C03C62NBSDP",
+              "ts": "1730473819.205389",
+              "message": {
+                "blocks": [
+                  {
+                    "type": "rich_text",
+                    "block_id": "3b41N",
+                    "elements": [
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "usergroup",
+                            "usergroup_id": "S073HEMKWV7"
+                          },
+                          {
+                            "type": "text",
+                            "text": " cc "
+                          },
+                          {
+                            "type": "usergroup",
+                            "usergroup_id": "S072Q871SF9"
+                          },
+                          {
+                            "type": "text",
+                            "text": "\n"
+                          },
+                          {
+                            "type": "emoji",
+                            "name": "flag-ch",
+                            "unicode": "1f1e8-1f1ed"
+                          },
+                          {
+                            "type": "text",
+                            "text": "スイス Audrey Rieder様から注文をいただきました。\n"
+                          },
+                          {
+                            "type": "text",
+                            "text": "TSE-CTP-004-24",
+                            "style": {
+                              "bold": true
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "id": 1,
+          "original_url": "https://grp-ssm9297.slack.com/archives/C03C62NBSDP/p1730473819205389",
+          "fallback": "[November 1st, 2024 8:10 AM] jpfreebirds: <!subteam^S073HEMKWV7> cc <!subteam^S072Q871SF9>\n:flag-ch:スイス Audrey Rieder様から注文をいただきました。\n*TSE-CTP-004-24*",
+          "text": "<!subteam^S073HEMKWV7> cc <!subteam^S072Q871SF9>\n:flag-ch:スイス Audrey Rieder様から注文をいただきました。\n*TSE-CTP-004-24*",
+          "author_name": "SATOSHI FURUKAWA",
+          "author_link": "https://grp-ssm9297.slack.com/team/U0606SPN4BW",
+          "author_icon": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_48.jpg",
+          "author_subname": "SATOSHI FURUKAWA",
+          "mrkdwn_in": [
+            "text"
+          ],
+          "footer": "Slack の会話内のスレッド"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "XTbCs",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n別送となる有機製品と追加分40缶について別途、受注スレッドを立てました！\n\n▼受注スレッド: TSE-CTP-004-24\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://grp-ssm9297.slack.com/archives/C03C62NBSDP/p1730473819205389"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

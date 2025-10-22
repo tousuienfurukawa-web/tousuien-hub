@@ -1,0 +1,129 @@
+{
+  "messages": [
+    {
+      "user": "U0606SPN4BW",
+      "type": "message",
+      "ts": "1753348254.682359",
+      "edited": {
+        "user": "U0606SPN4BW",
+        "ts": "1753348363.000000"
+      },
+      "client_msg_id": "3ae6ac71-34a2-4eb0-a38c-a56cb708a1f1",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse> <!subteam^S088LEJ1U5T|@kanayama-fukui-miyoshi-yokoi-takuwa-hara-imaoka-agou> <@U066P20UQH1>\n1368 :flag-nz:ニュージーランド LKM-Louise Kim(alibaba)様から注文予定をいただきました。\n*TSE-LKM-002-25*",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "823d8545f678",
+        "image_72": "https://avatars.slack-edge.com/2024-04-12/6946592133062_823d8545f678615a3e0a_72.jpg",
+        "first_name": "SATOSHI",
+        "real_name": "SATOSHI FURUKAWA",
+        "display_name": "古川　敏",
+        "team": "T033D70RR6H",
+        "name": "jpfreebirds",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1753348254.682359",
+      "reply_count": 8,
+      "reply_users_count": 5,
+      "latest_reply": "1754632346.049539",
+      "reply_users": [
+        "U0606SPN4BW",
+        "U066P20UQH1",
+        "U0331FZTHEK",
+        "U033G4KN4TD",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0606SPN4BW",
+          "ts": "1753348345.757339"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1753352834.440579"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1753398757.448199"
+        },
+        {
+          "user": "U033G4KN4TD",
+          "ts": "1754004666.305959"
+        },
+        {
+          "user": "U066P20UQH1",
+          "ts": "1754006640.880209"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1754544333.444159"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1754556582.245639"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1754632346.049539"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "f/UyK",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S088LEJ1U5T"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U066P20UQH1"
+                },
+                {
+                  "type": "text",
+                  "text": "\n1368 "
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-nz",
+                  "unicode": "1f1f3-1f1ff"
+                },
+                {
+                  "type": "text",
+                  "text": "ニュージーランド LKM-Louise Kim(alibaba)様から注文予定をいただきました。\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-LKM-002-25",
+                  "style": {
+                    "bold": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

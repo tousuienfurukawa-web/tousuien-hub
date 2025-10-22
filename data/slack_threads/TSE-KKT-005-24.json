@@ -1,0 +1,126 @@
+{
+  "messages": [
+    {
+      "user": "U0331FZS7JT",
+      "type": "message",
+      "ts": "1734196783.654609",
+      "client_msg_id": "14485b28-3c4c-499e-8499-1ca46bc27a4d",
+      "text": "<!subteam^S073HEMKWV7|@hirakawa-adachi-yamamoto-fuse>\n*TSE-KKT-005-24*\n:flag-au:オーストラリア：Kenko Tea 様から注文です。",
+      "team": "T033D70RR6H",
+      "user_team": "T033D70RR6H",
+      "source_team": "T033D70RR6H",
+      "user_profile": {
+        "avatar_hash": "2c9de1514f26",
+        "image_72": "https://avatars.slack-edge.com/2022-02-16/3118160981555_2c9de1514f262063f72d_72.png",
+        "first_name": "Yuta",
+        "real_name": "Yuta Oka",
+        "display_name": "岡祐太",
+        "team": "T033D70RR6H",
+        "name": "yuta.oka.0915",
+        "is_restricted": false,
+        "is_ultra_restricted": false
+      },
+      "thread_ts": "1734196783.654609",
+      "reply_count": 9,
+      "reply_users_count": 3,
+      "latest_reply": "1738653092.812199",
+      "reply_users": [
+        "U0331FZS7JT",
+        "U0331FZTHEK",
+        "U041RJKV5JA"
+      ],
+      "replies": [
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1734196907.159229"
+        },
+        {
+          "user": "U0331FZTHEK",
+          "ts": "1734336184.013039"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1734595784.383049"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1736520194.737119"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1736578396.520089"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1736838649.761089"
+        },
+        {
+          "user": "U0331FZS7JT",
+          "ts": "1737974894.753469"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1738222444.982999"
+        },
+        {
+          "user": "U041RJKV5JA",
+          "ts": "1738653092.812199"
+        }
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "RBtuN",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "usergroup",
+                  "usergroup_id": "S073HEMKWV7"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "TSE-KKT-005-24",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "flag-au",
+                  "unicode": "1f1e6-1f1fa"
+                },
+                {
+                  "type": "text",
+                  "text": "オーストラリア：Kenko Tea 様から注文です。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "承知_致しました",
+          "users": [
+            "U041RJKV5JA",
+            "U033G4KN4TD",
+            "U05KGS6HN9H"
+          ],
+          "count": 3
+        }
+      ]
+    }
+  ]
+}
