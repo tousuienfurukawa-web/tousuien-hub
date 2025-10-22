@@ -1,80 +1,110 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Tousuien Slack Summary Bot (BGV対応・安定版)
--------------------------------------------
+Tousuien Slack Summary Bot (BGV対応・ウォームアップ付き安定版)
+-------------------------------------------------------------
 Author: Tousuien / ChatGPT-5
-Version: 1.1.0
+Version: 1.2.0
 Date: 2025-10-22
 
 概要:
 Tousuien Hub API（https://tousuien-hub.onrender.com/slack/thread/...）から
-Slackスレッドを取得し、GPT要約を抽出してレポート化します。
+Slackスレッドを取得し、GPT要約を抽出して一覧化します。
 
-特徴:
-- 「BGV」などのキーワード入力だけで該当スレッドを年度を跨いで検索
-- 年度サフィックス (-25, -26) 対応
-- タイムアウト＆例外処理つきでハング防止
-- コマンドライン or API連携どちらでも実行可
+改良点:
+- Renderスリープ対策としてウォームアップPingを自動実行
+- タイムアウトを30秒に延長（cold start対応）
+- 通信失敗時は最大3回リトライ
+- 初回実行はテスト件数を減らして素早く確認可
 """
 
 import re
+import time
 import requests
 from typing import List, Dict, Tuple
 
-# Tousuien Hub API endpoint
-HUB_URL = "https://tousuien-hub.onrender.com/slack/thread/"
+# ============================================================
+# 設定
+# ============================================================
+
+HUB_BASE = "https://tousuien-hub.onrender.com"
+HUB_URL = f"{HUB_BASE}/slack/thread/"
+YEARS = ["25", "26"]  # 年度サフィックス (-25=2025年, -26=2026年)
+MAX_RETRY = 3         # リトライ回数
+TIMEOUT = 30          # 秒
+TEST_MODE = True      # Trueの間は最初の10件だけ取得（動作確認用）
 
 # ============================================================
-# 1️⃣ ユーティリティ関数群
+# 1️⃣ ウォームアップ Ping
+# ============================================================
+
+def warmup_ping():
+    """
+    Render（onrender.com）のスリープ対策。
+    APIを事前に叩いてcold startを解除。
+    """
+    print("🔔 Sending warm-up ping to Tousuien Hub...")
+    try:
+        resp = requests.get(HUB_BASE, timeout=10)
+        if resp.status_code == 200:
+            print("✅ Hub warm-up successful.\n")
+        else:
+            print(f"⚠️ Hub responded with status {resp.status_code} (still waking up)\n")
+    except Exception as e:
+        print(f"⚠️ Warm-up ping failed: {e}\n")
+
+
+# ============================================================
+# 2️⃣ ユーティリティ関数
 # ============================================================
 
 def detect_invoice_patterns(keyword: str) -> List[str]:
     """
     年度対応のインボイス番号パターンを生成。
-    例: 'BGV' → ['TSE-BGV-001-25', 'TSE-BGV-002-25', ..., '-26']
+    例: 'BGV' → ['TSE-BGV-001-25', ..., '-26']
     """
-    years = ['25', '26']  # 対象年度（直近2期分）
-    patterns = [fr"TSE-{keyword.upper()}-\d{{3}}-{year}" for year in years]
-    return patterns
+    return [fr"TSE-{keyword.upper()}-\d{{3}}-{year}" for year in YEARS]
 
 
 def get_slack_thread_html(invoice_id: str) -> str:
     """
-    Tousuien Hub から対象スレッドHTMLを取得（タイムアウト＆例外対応）
+    Tousuien Hub から対象スレッドHTMLを取得（タイムアウト＆リトライ対応）
     """
     url = f"{HUB_URL}{invoice_id}"
-    try:
-        resp = requests.get(url, timeout=10)  # 10秒でタイムアウト
-        resp.raise_for_status()
-        return resp.text
-    except requests.Timeout:
-        print(f"⏳ Timeout: {invoice_id}")
-        return ""
-    except requests.RequestException as e:
-        print(f"⚠️ Error fetching {invoice_id}: {e}")
-        return ""
+    for attempt in range(MAX_RETRY):
+        try:
+            resp = requests.get(url, timeout=TIMEOUT)
+            resp.raise_for_status()
+            return resp.text
+        except requests.Timeout:
+            print(f"⏳ Timeout ({attempt+1}/{MAX_RETRY}): {invoice_id}, retrying in 5s...")
+            time.sleep(5)
+        except requests.RequestException as e:
+            print(f"⚠️ Error fetching {invoice_id}: {e}")
+            break
+    return ""
 
 
 # ============================================================
-# 2️⃣ データ抽出・整形ロジック
+# 3️⃣ データ抽出・整形
 # ============================================================
 
 def fetch_slack_threads(keyword: str) -> List[Tuple[str, str]]:
     """
-    指定キーワード（例: 'BGV'）に該当するスレッドをすべて取得
+    指定キーワード（例: BGV）に該当するスレッドをすべて取得
     """
-    print(f"🔍 Searching Slack Hub for keyword: {keyword.upper()}")
+    print(f"🔍 Searching Tousuien Hub for keyword: {keyword.upper()}")
     threads = []
-    for year in ['25', '26']:
-        for i in range(1, 200):  # 001〜199まで探索
+    for year in YEARS:
+        limit = 10 if TEST_MODE else 200
+        for i in range(1, limit):
             invoice_id = f"TSE-{keyword.upper()}-{i:03d}-{year}"
             html = get_slack_thread_html(invoice_id)
             if "GPT要約" in html:
                 print(f"✅ Found: {invoice_id}")
                 threads.append((invoice_id, html))
     if not threads:
-        print(f"⚠️ No threads found for {keyword.upper()}.")
+        print(f"⚠️ No threads found for {keyword.upper()}.\n")
     return threads
 
 
@@ -97,15 +127,12 @@ def summarize_threads(keyword: str) -> List[Dict[str, str]]:
     summaries = []
     for invoice_id, html in threads:
         summary = extract_gpt_summary(html)
-        summaries.append({
-            "Invoice": invoice_id,
-            "Summary": summary
-        })
+        summaries.append({"Invoice": invoice_id, "Summary": summary})
     return summaries
 
 
 # ============================================================
-# 3️⃣ 出力整形
+# 4️⃣ 出力整形
 # ============================================================
 
 def generate_summary_report(keyword: str) -> str:
@@ -124,7 +151,7 @@ def generate_summary_report(keyword: str) -> str:
 
 
 # ============================================================
-# 4️⃣ メイン処理
+# 5️⃣ メイン処理
 # ============================================================
 
 if __name__ == "__main__":
@@ -134,5 +161,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     print("🚀 Tousuien Slack Summary Bot started.\n")
+    warmup_ping()
     report = generate_summary_report(args.keyword)
     print(report)
