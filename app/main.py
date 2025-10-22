@@ -45,7 +45,7 @@ def extract_thread_from_zip(invoice_id):
                 continue
 
             for msg in data:
-                if not isinstance(msg, dict):  # ← 修正ポイント
+                if not isinstance(msg, dict):
                     continue
                 text = msg.get("text", "")
                 if not isinstance(text, str) or normalized_invoice not in normalize_invoice_text(text):
@@ -56,7 +56,7 @@ def extract_thread_from_zip(invoice_id):
                 thread_messages = [msg]
 
                 for other_msg in data:
-                    if not isinstance(other_msg, dict):  # ← 修正ポイント
+                    if not isinstance(other_msg, dict):
                         continue
                     if other_msg.get("thread_ts", other_msg.get("ts", "")) == thread_ts and other_msg.get("ts") != ts:
                         thread_messages.append(other_msg)
@@ -68,7 +68,7 @@ def extract_thread_from_zip(invoice_id):
                             thread_data = json.load(thread_file)
                             if isinstance(thread_data, list):
                                 for tmsg in thread_data:
-                                    if not isinstance(tmsg, dict):  # ← 修正ポイント
+                                    if not isinstance(tmsg, dict):
                                         continue
                                     if tmsg.get("ts") != ts and not any(m.get("ts") == tmsg.get("ts") for m in thread_messages):
                                         thread_messages.append(tmsg)
@@ -151,88 +151,98 @@ async def get_slack_thread_html(invoice_id: str, mode: str = Query(default="repo
     first_msg = msgs[0] if msgs else {}
     gpt_info = generate_gpt_summary(msgs)
 
-    html = f"""
-    <!DOCTYPE html>
-    <html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-        body {{
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans JP", sans-serif;
-            background: #f5f5f5;
-            color: #1a1a1a;
-            padding: 20px;
-            line-height: 1.6;
-        }}
-        .container {{
-            max-width: 900px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-            overflow: hidden;
-        }}
-        .header {{
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 24px;
-        }}
-        .header h1 {{ font-size: 24px; margin-bottom: 8px; }}
-        .header .meta {{ opacity: 0.9; font-size: 14px; }}
-        .section {{
-            padding: 24px;
-            border-bottom: 1px solid #e5e5e5;
-        }}
-        .section:last-child {{ border-bottom: none; }}
-        .section h2 {{
-            font-size: 18px;
-            margin-bottom: 16px;
-            color: #667eea;
-        }}
-        .message {{
-            background: #f9fafb;
-            border-left: 3px solid #667eea;
-            padding: 12px 16px;
-            margin-bottom: 12px;
-            border-radius: 4px;
-        }}
-        .message-header {{
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 8px;
-            font-size: 13px;
-        }}
-        .message-user {{
-            font-weight: 600;
-            color: #667eea;
-        }}
-        .message-time {{ color: #666; }}
-        .message-text {{
-            color: #333;
-            white-space: pre-wrap;
-        }}
-        .reply {{
-            background: white;
-            border-left: 3px solid #94a3b8;
-            padding: 10px 14px;
-            margin: 8px 0 8px 24px;
-            border-radius: 4px;
-        }}
-        .status-box {{
-            background: #f0f9ff;
-            border-left: 4px solid #0ea5e9;
-            padding: 16px;
-            border-radius: 4px;
-            margin-bottom: 16px;
-        }}
-        .action-list {{ list-style: none; }}
-        .action-list li {{
-            padding: 8px 0;
-            padding-left: 24px;
-            position: relative;
-        }}
-        .action-list li:before {{
-            content: "▸";
-            position: absolute;
-            left:
+    html = f"""<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans JP", sans-serif;
+    background: #f5f5f5;
+    color: #1a1a1a;
+    padding: 20px;
+    line-height: 1.6;
+}}
+.container {{
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    overflow: hidden;
+}}
+.header {{
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 24px;
+}}
+.header h1 {{ font-size: 24px; margin-bottom: 8px; }}
+.header .meta {{ opacity: 0.9; font-size: 14px; }}
+.section {{
+    padding: 24px;
+    border-bottom: 1px solid #e5e5e5;
+}}
+.section:last-child {{ border-bottom: none; }}
+.section h2 {{
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: #667eea;
+}}
+.message {{
+    background: #f9fafb;
+    border-left: 3px solid #667eea;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+}}
+.message-header {{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 13px;
+}}
+.message-user {{
+    font-weight: 600;
+    color: #667eea;
+}}
+.message-time {{ color: #666; }}
+.message-text {{
+    color: #333;
+    white-space: pre-wrap;
+}}
+.reply {{
+    background: white;
+    border-left: 3px solid #94a3b8;
+    padding: 10px 14px;
+    margin: 8px 0 8px 24px;
+    border-radius: 4px;
+}}
+.status-box {{
+    background: #f0f9ff;
+    border-left: 4px solid #0ea5e9;
+    padding: 16px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}}
+.action-list {{ list-style: none; }}
+.action-list li {{
+    padding: 8px 0;
+    padding-left: 24px;
+    position: relative;
+}}
+.action-list li:before {{
+    content: "▸";
+    position: absolute;
+    left: 8px;
+    color: #667eea;
+}}
+.note {{
+    background: #fff7ed;
+    border-left: 4px solid #fb923c;
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 12px;
+    font-size: 14px;
+}}
+</style
