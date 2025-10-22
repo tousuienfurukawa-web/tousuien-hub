@@ -7,12 +7,15 @@ from datetime import datetime
 from fastapi import FastAPI, Query
 from fastapi.responses import HTMLResponse
 
-# ✅ Slackユーザー名変換を共通化
+# ✅ Slackユーザー名マッピング共通モジュール
 from user_map import resolve_user_name
 
 app = FastAPI()
 ZIP_FILE_PATH = Path("slack_export_latest.zip")
 
+# ------------------------------------------------------------
+# 🔹 基本ユーティリティ
+# ------------------------------------------------------------
 def normalize_invoice_text(text: str) -> str:
     return text.lower().replace("-", "").replace(" ", "").replace("_", "")
 
@@ -27,7 +30,7 @@ def escape_html(text: str) -> str:
     return (text or "").replace("<", "&lt;").replace(">", "&gt;")
 
 # ------------------------------------------------------------
-# 🔹 Slack ZIPからスレッド抽出
+# 🔹 Slack ZIPからスレッド抽出（ユーザー名反映版）
 # ------------------------------------------------------------
 def extract_thread_from_zip(invoice_id):
     if not ZIP_FILE_PATH.exists():
@@ -62,12 +65,18 @@ def extract_thread_from_zip(invoice_id):
                 thread_ts = msg.get("thread_ts", ts)
                 thread_messages = [msg]
 
+                # スレッド内の返信も収集
                 for other_msg in data:
                     if not isinstance(other_msg, dict):
                         continue
                     other_thread_ts = other_msg.get("thread_ts", other_msg.get("ts"))
                     if other_thread_ts == thread_ts and other_msg.get("ts") != ts:
                         thread_messages.append(other_msg)
+
+                # 🔹 各メッセージの user_id → 実名変換
+                thread_messages = [
+                    {**m, "user": resolve_user_name(m.get("user"))} for m in thread_messages
+                ]
 
                 matches.append({
                     "user": resolve_user_name(msg.get("user")),
@@ -80,7 +89,7 @@ def extract_thread_from_zip(invoice_id):
         return {"invoice": invoice_id, "messages": matches}
 
 # ------------------------------------------------------------
-# 🔹 要約（reportモード）
+# 🔹 要約モード（report）
 # ------------------------------------------------------------
 def generate_gpt_summary(messages):
     all_texts = []
@@ -134,6 +143,7 @@ def build_report_html(invoice_id, msgs, gpt_info):
     """
     return html
 
+
 def build_raw_html(invoice_id, msgs):
     html_msgs = ""
     for t in msgs:
@@ -145,48 +155,4 @@ def build_raw_html(invoice_id, msgs):
             html_msgs += f"""
             <div class='msg'>
               <div class='bubble'>
-                <div class='meta'><strong>{user}</strong> <span>{ts}</span></div>
-                <div class='text'>{text}</div>
-              </div>
-            </div>
-            """
-    html = f"""
-    <!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8">
-    <style>
-      body{{font-family:'Noto Sans JP',sans-serif;background:#f9fafb;margin:0;padding:24px;}}
-      h1,h2{{color:#0f172a;}}
-      .msg{{margin:12px 0;}}
-      .bubble{{background:white;border-radius:12px;padding:12px 16px;max-width:80%;box-shadow:0 2px 8px rgba(0,0,0,0.05);}}
-      .meta{{font-size:13px;color:#64748b;margin-bottom:4px;}}
-      .text{{white-space:pre-wrap;word-break:break-word;}}
-    </style></head>
-    <body>
-      <h1>📋 {invoice_id}</h1>
-      {html_msgs}
-      <hr><p style='color:#64748b;font-size:12px;'>mode=raw (Tousuien Hub)</p>
-    </body></html>
-    """
-    return html
-
-# ------------------------------------------------------------
-# 🔹 エンドポイント
-# ------------------------------------------------------------
-@app.get("/slack/thread_html/{invoice_id}", response_class=HTMLResponse)
-async def get_slack_thread_html(invoice_id: str, mode: str = Query(default="report")):
-    data = extract_thread_from_zip(invoice_id)
-    if "error" in data:
-        return f"<h3>❌ {data['error']}</h3>"
-    if not data.get("messages"):
-        return f"<h3>❌ スレッドが見つかりません（{invoice_id}）</h3>"
-
-    msgs = data["messages"]
-
-    if mode == "raw":
-        return build_raw_html(invoice_id, msgs)
-    else:
-        gpt_info = generate_gpt_summary(msgs)
-        return build_report_html(invoice_id, msgs, gpt_info)
-
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=int(os.environ.get("PORT", 10000)))
+                <div class='meta'><strong>{user}</strong> <span>{ts
