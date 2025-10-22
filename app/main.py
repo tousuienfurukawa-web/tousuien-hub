@@ -24,12 +24,20 @@ def find_thread_candidates(all_files, ts):
     return candidates
 
 # ==================================================
-# 💬 Slackスレッド抽出（返信を含む完全展開）
+# 🧩 invoice表記ゆれ対応 正規化関数
+# ==================================================
+def normalize_invoice_text(text: str) -> str:
+    """ハイフン・大文字小文字・スペースを無視して正規化"""
+    return text.lower().replace("-", "").replace(" ", "").replace("_", "")
+
+# ==================================================
+# 💬 Slackスレッド抽出（柔軟マッチ + 返信を含む完全展開）
 # ==================================================
 def extract_thread_from_zip(invoice_id):
     if not ZIP_FILE_PATH.exists():
         return {"error": "ZIP file not found"}
 
+    normalized_invoice = normalize_invoice_text(invoice_id)
     with zipfile.ZipFile(ZIP_FILE_PATH, "r") as z:
         all_files = z.namelist()
         ts_map = {}
@@ -67,14 +75,14 @@ def extract_thread_from_zip(invoice_id):
                 if not text:
                     continue
 
-                normalized_invoice = (
-                    invoice_id.strip().lower().replace("tse-", "").replace("ts-", "").replace("t-", "").replace(" ", "")
-                )
-                text_norm = text.lower().replace(" ", "")
+                text_norm = normalize_invoice_text(text)
+
+                # --- 柔軟マッチ条件 ---
                 if (
                     normalized_invoice not in text_norm
-                    and invoice_id.lower() not in text_norm
-                    and f"tse-{normalized_invoice}" not in text_norm
+                    and f"tse{normalized_invoice}" not in text_norm
+                    and f"ts{normalized_invoice}" not in text_norm
+                    and f"{normalized_invoice}".replace("tse", "").replace("ts", "") not in text_norm
                 ):
                     continue
 
@@ -107,6 +115,7 @@ def extract_thread_from_zip(invoice_id):
                         except Exception:
                             continue
                 matches.append(entry)
+
         return {"invoice": invoice_id, "messages": matches, "count": len(matches)}
 
 # ==================================================
