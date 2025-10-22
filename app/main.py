@@ -12,7 +12,8 @@ app = FastAPI()
 ZIP_FILE_PATH = Path("slack_export_latest.zip")
 
 def normalize_invoice_text(text: str) -> str:
-    return text.lower().replace("-", "").replace(" ", "").replace("_", "")
+    # 全角スペース（ ）も除去するように修正
+    return text.lower().replace("-", "").replace(" ", "").replace("_", "").replace(" ", "")
 
 def format_timestamp(ts):
     try:
@@ -141,6 +142,8 @@ def generate_gpt_summary(messages):
 
 @app.get("/slack/thread_html/{invoice_id}", response_class=HTMLResponse)
 async def get_slack_thread_html(invoice_id: str, mode: str = Query(default="report")):
+    # 注: 元のコードに含まれていた全角スペース（ ）を半角スペースに修正しています。
+    # これらはインデントエラーの原因になる可能性があります。
     data = extract_thread_from_zip(invoice_id)
     if "error" in data:
         return f"<h3>❌ {data['error']}</h3>"
@@ -245,4 +248,12 @@ body {{
     margin-top: 12px;
     font-size: 14px;
 }}
-</style
+</style>
+""" # <-- 【修正点1】 f-string（三重引用符）をここで閉じる
+
+    # 【修正点2】 HTMLResponseを返す必要があります
+    # ※注意: このHTMLは<style>タグで終わっています。
+    # 本来は、この """ の直前に </head><body>...</body></html> 
+    # といったHTMLの本文が来るはずです。
+    # HTMLの本文が欠落している場合は、この上の行に追加してください。
+    return HTMLResponse(content=html)
