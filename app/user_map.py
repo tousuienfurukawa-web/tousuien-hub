@@ -7,26 +7,38 @@ from pathlib import Path
 # SlackエクスポートZIPファイルの場所
 ZIP_FILE_PATH = Path("slack_export_latest.zip")
 
-# ------------------------------------------------------------
-# 🔹 手動定義マッピング（users.json に無い or 日本語優先で上書き）
-# ------------------------------------------------------------
+# ================================================================
+# 手動定義マッピング（users.json に無いOR 日本語補完して上書き）
+# ================================================================
 USER_MAP = {
-    "U08N3SKSL75": "木村",       # ← 修正済（末村 → 木村）
-    "U08RVNRBY0O": "長谷川",
-    "U0331FZS7JT": "岡 祐太",
-    "U0331FWGQRM": "松井",
-    "U033G4KN4TD": "福井",
-    "U03BLQ65GK0": "会長",
-    "U08FZUNPSQ3": "神谷",
-    "U0331FZTHEK": "片寄",
-    "U066P20UQH1": "林 遥香",
+    "U8N3KSXL57": "木村",
+    "U88NRYABY0": "阪前川",
+    "U8331F25TF1": "岡 裕太",
+    "U8331K4NQWB": "林",
+    "U8331GKWQRP": "松井",
+    "U83L05G5GK3": "金子",
+    "U88LP06SU": "西本",
+    "U8331FZTHEK": "片寄",
+    "U066P2UQH1": "林 進喜",
+
+    # 追記分
+    "U08NVD403GV": "山本",
+    "U08U8MMTH43": "布施 美穂",
+    "U041RJKV5JA": "平川",
+    "U05KGS6HN9H": "足立",
+    "U0606SPN4BW": "古川 敏",
+    "U082RF7UF1V": "三好",
+    "U09DVFN4NM6": "今岡",
+    "U09DF1SDTQR": "原 理恵",
+    "U09DVFQM0AC": "吾郷 友佳子",
+    "U08V56G9U92": "多久和",
 }
 
-# ------------------------------------------------------------
-# 🔹 users.json から自動マッピングを追加
-# ------------------------------------------------------------
+# ================================================================
+# users.json から自動マッピングを追加
+# ================================================================
 def load_user_map_from_zip(zip_path: Path) -> dict:
-    """SlackエクスポートZIP内の users.json から ID→表示名 を取得"""
+    """SlackエクスポートZIP内の users.json から表示名を取得"""
     if not zip_path.exists():
         return USER_MAP
 
@@ -39,23 +51,9 @@ def load_user_map_from_zip(zip_path: Path) -> dict:
                     for u in users:
                         uid = u.get("id")
                         name = u.get("real_name") or u.get("name")
-                        if uid and name:
+                        if uid and name and uid not in user_map:
                             user_map[uid] = name
     except Exception as e:
-        print(f"[WARN] Failed to load users.json from ZIP: {e}")
+        print(f"Error loading user map: {e}")
 
-    # 🔹 日本語手動定義を最終的に優先
-    user_map.update(USER_MAP)
     return user_map
-
-
-# ------------------------------------------------------------
-# 🔹 公開API: ID→名前変換
-# ------------------------------------------------------------
-USER_MAP = load_user_map_from_zip(ZIP_FILE_PATH)
-
-def resolve_user_name(user_id: str) -> str:
-    """Slack IDを人間の名前に変換（未登録ならそのまま）"""
-    if not user_id:
-        return "不明"
-    return USER_MAP.get(user_id, user_id)
