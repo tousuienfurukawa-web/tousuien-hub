@@ -57,3 +57,12 @@ def load_user_map_from_zip(zip_path: Path) -> dict:
         print(f"Error loading user map: {e}")
 
     return user_map
+
+# ---------------------------------------------------------------
+# 🔹 resolve_user_name: user_idを実名に変換するユーティリティ
+# ---------------------------------------------------------------
+def resolve_user_name(user_id: str) -> str:
+    if not user_id:
+        return "（不明）"
+    return USER_MAP.get(user_id, user_id)
+
