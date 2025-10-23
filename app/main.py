@@ -8,9 +8,9 @@ from datetime import datetime
 from fastapi import FastAPI, Query
 from fastapi.responses import HTMLResponse
 
-# ✅ 修正済み import（Render対応）
-from app.user_map import resolve_user_name
-from app.gpt5_summary import generate_slack_summary
+# ✅ 修正版（同一フォルダ構成に合わせたimport）
+from user_map import resolve_user_name
+from gpt5_summary import generate_slack_summary
 
 app = FastAPI()
 ZIP_FILE_PATH = Path("slack_export_latest.zip")
