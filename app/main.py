@@ -5,8 +5,8 @@ import zipfile
 import requests
 from pathlib import Path
 from datetime import datetime
-from fastapi import FastAPI
-from fastapi.responses import HTMLResponse
+from fastapi import FastAPI, UploadFile, File
+from fastapi.responses import HTMLResponse, JSONResponse
 
 # ✅ 修正版（同一フォルダ構成に合わせたimport）
 from user_map import resolve_user_name
@@ -14,6 +14,8 @@ from gpt5_summary import generate_slack_summary
 
 app = FastAPI()
 ZIP_FILE_PATH = Path("slack_export_latest.zip")
+CACHE_DIR = Path("cache_slack_threads")
+CACHE_DIR.mkdir(exist_ok=True)
 
 # ------------------------------------------------------------
 # 🔹 基本ユーティリティ
@@ -32,26 +34,21 @@ def escape_html(text: str) -> str:
     return (text or "").replace("<", "&lt;").replace(">", "&gt;")
 
 # ------------------------------------------------------------
-# 🔹 Slackスレッド抽出（Render API優先 + ZIPフォールバック）
+# 🔹 Slackスレッド抽出（ZIPファイルから）
 # ------------------------------------------------------------
 def extract_thread_from_zip(invoice_id):
     normalized_invoice = normalize_invoice_text(invoice_id)
-    render_url = f"https://tousuien-hub.onrender.com/api/slack_threads/{invoice_id}.json"
+    cache_path = CACHE_DIR / f"{invoice_id}.json"
 
-    # ✅ Render API経由で取得を試行
-    try:
-        res = requests.get(render_url, timeout=5)
-        if res.status_code == 200:
-            print(f"[INFO] Fetched from Render API: {invoice_id}")
-            return res.json()
-    except Exception as e:
-        print(f"[WARN] Render API fetch failed: {e}")
+    # ✅ キャッシュがあれば再利用
+    if cache_path.exists():
+        with open(cache_path, "r", encoding="utf-8") as f:
+            return json.load(f)
 
-    # ✅ フォールバック：ZIPから抽出
     if not ZIP_FILE_PATH.exists():
         return {"error": "ZIP file not found"}
 
-    print(f"[INFO] Fallback to ZIP extraction for: {invoice_id}")
+    print(f"[INFO] Extracting from ZIP for: {invoice_id}")
     with zipfile.ZipFile(ZIP_FILE_PATH, "r") as z:
         all_files = z.namelist()
         matches = []
@@ -80,7 +77,6 @@ def extract_thread_from_zip(invoice_id):
                 thread_ts = msg.get("thread_ts", ts)
                 thread_messages = [msg]
 
-                # スレッド内の返信も収集
                 for other_msg in data:
                     if not isinstance(other_msg, dict):
                         continue
@@ -88,7 +84,6 @@ def extract_thread_from_zip(invoice_id):
                     if other_thread_ts == thread_ts and other_msg.get("ts") != ts:
                         thread_messages.append(other_msg)
 
-                # 🔹 各メッセージの user_id → 実名変換
                 thread_messages = [
                     {**m, "user": resolve_user_name(m.get("user"))} for m in thread_messages
                 ]
@@ -101,10 +96,16 @@ def extract_thread_from_zip(invoice_id):
                     "all_messages": thread_messages,
                 })
 
-        return {"invoice": invoice_id, "messages": matches}
+    data = {"invoice": invoice_id, "messages": matches}
+
+    # ✅ JSONキャッシュとして保存
+    with open(cache_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    return data
 
 # ------------------------------------------------------------
-# 🔹 HTML生成（raw, report両方を共用）
+# 🔹 HTML生成
 # ------------------------------------------------------------
 def build_raw_html(invoice_id, msgs):
     html_msgs = ""
@@ -155,7 +156,7 @@ def build_report_html(invoice_id, msgs, gpt_info):
     return html
 
 # ------------------------------------------------------------
-# 🔹 エンドポイント（raw＋GPT-5要約の統合表示）
+# 🔹 HTML出力エンドポイント
 # ------------------------------------------------------------
 @app.get("/slack/thread_html/{invoice_id}", response_class=HTMLResponse)
 async def get_slack_thread_html(invoice_id: str):
@@ -166,9 +167,8 @@ async def get_slack_thread_html(invoice_id: str):
         return f"<h3>❌ スレッドが見つかりません（{invoice_id}）</h3>"
 
     msgs = data["messages"]
-    # Raw(全文)表示
     raw_html_section = build_raw_html(invoice_id, msgs)
-    # GPT-5要約
+
     all_thread_messages = []
     for m in msgs:
         all_thread_messages.extend(m.get("all_messages", []))
@@ -180,7 +180,6 @@ async def get_slack_thread_html(invoice_id: str):
     }
     summary_html_section = build_report_html(invoice_id, msgs, gpt_info)
 
-    # 2つを1ページで返す
     combined_html = f"""
     <!DOCTYPE html>
     <html lang="ja">
@@ -211,6 +210,27 @@ async def get_slack_thread_html(invoice_id: str):
     </html>
     """
     return HTMLResponse(content=combined_html)
+
+# ------------------------------------------------------------
+# 🔹 新機能: JSONエンドポイント（自動キャッシュ対応）
+# ------------------------------------------------------------
+@app.get("/api/slack_threads/{invoice_id}.json", response_class=JSONResponse)
+async def get_slack_thread_json(invoice_id: str):
+    data = extract_thread_from_zip(invoice_id)
+    return data
+
+# ------------------------------------------------------------
+# 🔹 ZIPアップロード用エンドポイント（Renderダッシュボードからcurlで更新OK）
+# ------------------------------------------------------------
+@app.post("/api/upload_zip")
+async def upload_zip(file: UploadFile = File(...)):
+    content = await file.read()
+    with open(ZIP_FILE_PATH, "wb") as f:
+        f.write(content)
+    # アップロード後にキャッシュをリセット
+    for p in CACHE_DIR.glob("*.json"):
+        p.unlink()
+    return {"status": "✅ ZIP uploaded successfully. Cache cleared."}
 
 # ------------------------------------------------------------
 # 🔹 アプリ起動
