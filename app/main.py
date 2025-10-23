@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
+import re
 import json
 import zipfile
 import requests
@@ -8,7 +9,7 @@ from datetime import datetime
 from fastapi import FastAPI, UploadFile, File
 from fastapi.responses import HTMLResponse, JSONResponse
 
-# ✅ 修正版（同一フォルダ構成に合わせたimport）
+# ✅ ローカルモジュール
 from user_map import resolve_user_name
 from gpt5_summary import generate_slack_summary
 
@@ -34,26 +35,20 @@ def escape_html(text: str) -> str:
     return (text or "").replace("<", "&lt;").replace(">", "&gt;")
 
 # ------------------------------------------------------------
-# 🔹 Slackスレッド抽出（ZIPファイルから）
+# 🔹 あいまい検索機能
 # ------------------------------------------------------------
-def extract_thread_from_zip(invoice_id):
-    normalized_invoice = normalize_invoice_text(invoice_id)
-    cache_path = CACHE_DIR / f"{invoice_id}.json"
-
-    # ✅ キャッシュがあれば再利用
-    if cache_path.exists():
-        with open(cache_path, "r", encoding="utf-8") as f:
-            return json.load(f)
+def find_invoice_candidates(keyword: str):
+    """
+    keyword（例: ist, ist00125）から該当するインボイス候補を返す。
+    """
+    normalized_kw = normalize_invoice_text(keyword)
+    candidates = []
 
     if not ZIP_FILE_PATH.exists():
-        return {"error": "ZIP file not found"}
+        return candidates
 
-    print(f"[INFO] Extracting from ZIP for: {invoice_id}")
     with zipfile.ZipFile(ZIP_FILE_PATH, "r") as z:
-        all_files = z.namelist()
-        matches = []
-
-        for name in all_files:
+        for name in z.namelist():
             if not name.endswith(".json"):
                 continue
             try:
@@ -65,8 +60,47 @@ def extract_thread_from_zip(invoice_id):
                 continue
 
             for msg in data:
-                if not isinstance(msg, dict):
+                text = msg.get("text", "")
+                if not text:
                     continue
+                norm_text = normalize_invoice_text(text)
+                if normalized_kw in norm_text:
+                    m = re.search(r"TSE-[A-Z0-9]+-\d{3}-\d{2}", text)
+                    if m:
+                        invoice = m.group(0)
+                        if invoice not in candidates:
+                            candidates.append(invoice)
+    return candidates
+
+# ------------------------------------------------------------
+# 🔹 ZIPからスレッド抽出
+# ------------------------------------------------------------
+def extract_thread_from_zip(invoice_id):
+    normalized_invoice = normalize_invoice_text(invoice_id)
+    cache_path = CACHE_DIR / f"{invoice_id}.json"
+
+    if cache_path.exists():
+        with open(cache_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+
+    if not ZIP_FILE_PATH.exists():
+        return {"error": "ZIP file not found"}
+
+    print(f"[INFO] Extracting from ZIP for: {invoice_id}")
+    matches = []
+    with zipfile.ZipFile(ZIP_FILE_PATH, "r") as z:
+        for name in z.namelist():
+            if not name.endswith(".json"):
+                continue
+            try:
+                with z.open(name) as f:
+                    data = json.load(f)
+            except Exception:
+                continue
+            if not isinstance(data, list):
+                continue
+
+            for msg in data:
                 text = msg.get("text", "")
                 if not text:
                     continue
@@ -97,11 +131,8 @@ def extract_thread_from_zip(invoice_id):
                 })
 
     data = {"invoice": invoice_id, "messages": matches}
-
-    # ✅ JSONキャッシュとして保存
     with open(cache_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-
     return data
 
 # ------------------------------------------------------------
@@ -123,15 +154,7 @@ def build_raw_html(invoice_id, msgs):
               </div>
             </div>
             """
-    html = f"""
-    <div>
-      <h1>📋 {invoice_id}</h1>
-      {html_msgs}
-      <hr>
-      <p style='color:#64748b;font-size:12px;'>mode=raw (Tousuien Hub)</p>
-    </div>
-    """
-    return html
+    return f"<div><h1>📋 {invoice_id}</h1>{html_msgs}</div>"
 
 def build_report_html(invoice_id, msgs, gpt_info):
     total_threads = len(msgs)
@@ -139,95 +162,97 @@ def build_report_html(invoice_id, msgs, gpt_info):
     participants = sorted({m.get("user") for t in msgs for m in t.get("all_messages", [])})
     latest_ts = max((float(m.get("ts", 0)) for t in msgs for m in t.get("all_messages", []) if m.get("ts")), default=0)
     last_updated = format_timestamp(latest_ts)
-    html = f"""
+    return f"""
       <div class="card">
         <h2>🧠 要約ビュー: {invoice_id}</h2>
         <p style="color:#475569;">最終更新: {last_updated}</p>
-        <div class="summary">
-          <strong>🧠 GPT-5要約:</strong><br>
-          {escape_html(gpt_info["status"])}
-        </div>
+        <div class="summary">{escape_html(gpt_info["status"])}</div>
         <div class="stat"><strong>スレッド数:</strong> {total_threads}</div>
         <div class="stat"><strong>総メッセージ数:</strong> {total_messages}</div>
         <div class="stat"><strong>関係者:</strong> {", ".join(participants[:10])}</div>
-        <div class="footer">Slackスレッド要約ビュー（{invoice_id}）</div>
       </div>
     """
-    return html
 
 # ------------------------------------------------------------
-# 🔹 HTML出力エンドポイント
+# 🔹 HTML & GPT出力（曖昧検索対応）
 # ------------------------------------------------------------
-@app.get("/slack/thread_html/{invoice_id}", response_class=HTMLResponse)
-async def get_slack_thread_html(invoice_id: str):
-    data = extract_thread_from_zip(invoice_id)
-    if "error" in data:
-        return f"<h3>❌ {data['error']}</h3>"
-    if not data.get("messages"):
-        return f"<h3>❌ スレッドが見つかりません（{invoice_id}）</h3>"
+@app.get("/slack/thread_html/{keyword}", response_class=HTMLResponse)
+async def get_slack_thread_html(keyword: str):
+    candidates = find_invoice_candidates(keyword)
 
-    msgs = data["messages"]
-    raw_html_section = build_raw_html(invoice_id, msgs)
+    # 1️⃣ 候補が1件だけなら通常どおり詳細表示
+    if len(candidates) == 1:
+        invoice_id = candidates[0]
+        data = extract_thread_from_zip(invoice_id)
+        if "error" in data:
+            return f"<h3>❌ {data['error']}</h3>"
+        if not data.get("messages"):
+            return f"<h3>❌ スレッドが見つかりません（{invoice_id}）</h3>"
 
-    all_thread_messages = []
-    for m in msgs:
-        all_thread_messages.extend(m.get("all_messages", []))
-    gpt_result = generate_slack_summary(invoice_id, all_thread_messages)
-    gpt_info = {
-        "status": gpt_result.get("summary", "⚠️ 要約生成中にエラーが発生しました"),
-        "actions": ["📋 全文表示は上記"],
-        "notes": []
-    }
-    summary_html_section = build_report_html(invoice_id, msgs, gpt_info)
+        msgs = data["messages"]
+        raw_html_section = build_raw_html(invoice_id, msgs)
+        all_thread_messages = [m for t in msgs for m in t.get("all_messages", [])]
+        gpt_result = generate_slack_summary(invoice_id, all_thread_messages)
+        gpt_info = {"status": gpt_result.get("summary", "⚠️ 要約生成中にエラーが発生しました")}
+        summary_html_section = build_report_html(invoice_id, msgs, gpt_info)
 
-    combined_html = f"""
-    <!DOCTYPE html>
-    <html lang="ja">
-    <head>
-      <meta charset="UTF-8">
-      <title>{invoice_id} | Slackスレッド全ビュー</title>
-      <style>
-        body {{ font-family:"Noto Sans JP",sans-serif; background:#f8fafc; color:#0f172a; }}
-        .container {{ max-width: 900px; margin: auto; padding:24px; }}
-        .section-title {{ margin-top:32px; font-size:22px; }}
-        .divider {{ margin:32px 0 16px 0; border-bottom:2px solid #e5e7eb; }}
-        .card {{ background:white;border-radius:12px;padding:28px;box-shadow:0 10px 30px rgba(0,0,0,0.05); }}
-        .summary {{background:#eff6ff;border-left:5px solid #3b82f6;padding:16px;border-radius:8px;margin-bottom:24px;white-space:pre-wrap;}}
-        .stat {{background:#f1f5f9;border-radius:8px;padding:12px;margin:8px 0;}}
-        .footer {{text-align:right;color:#64748b;font-size:12px;margin-top:24px;}}
-      </style>
-    </head>
-    <body>
-      <div class="container">
-        <div class="section-title">💬 全文表示（Raw）</div>
-        <div class="divider"></div>
-        {raw_html_section}
-        <div class="section-title">🧠 GPT-5要約</div>
-        <div class="divider"></div>
-        {summary_html_section}
-      </div>
-    </body>
-    </html>
-    """
-    return HTMLResponse(content=combined_html)
+        return HTMLResponse(f"""
+        <html><head><meta charset='utf-8'><title>{invoice_id}</title></head>
+        <body><div class='container'>
+        <h2>💬 全文表示（Raw）</h2>{raw_html_section}
+        <h2>🧠 GPT-5要約</h2>{summary_html_section}
+        </div></body></html>
+        """)
+
+    # 2️⃣ 複数候補 → 企業単位で要約生成
+    elif len(candidates) > 1:
+        # 全インボイスの内容をまとめて要約
+        all_texts = []
+        for inv in candidates:
+            data = extract_thread_from_zip(inv)
+            for t in data.get("messages", []):
+                for m in t.get("all_messages", []):
+                    txt = f"{inv}: {m.get('user')} - {m.get('text', '')}"
+                    all_texts.append(txt)
+        joined_text = "\n".join(all_texts)
+
+        # GPTで企業全体の概要を要約
+        gpt_result = generate_slack_summary(
+            f"{keyword.upper()}_SUMMARY",
+            [{"text": joined_text}]
+        )
+        summary_text = gpt_result.get("summary", "⚠️ 要約生成に失敗しました。")
+
+        html_list = "<ul>" + "".join(
+            f"<li><a href='/slack/thread_html/{inv}'>{inv}</a></li>" for inv in candidates
+        ) + "</ul>"
+
+        return HTMLResponse(f"""
+        <html><head><meta charset='utf-8'><title>{keyword.upper()} 概要</title></head>
+        <body>
+        <h1>🏢 {keyword.upper()} 関連スレッド一覧</h1>
+        {html_list}
+        <h2>🧠 企業概要・近況要約</h2>
+        <div style='background:#eff6ff;padding:16px;border-left:5px solid #3b82f6;white-space:pre-wrap;'>{escape_html(summary_text)}</div>
+        </body></html>
+        """)
+
+    # 3️⃣ 候補ゼロ
+    return HTMLResponse(f"<h3>❌ 該当するスレッドが見つかりません（{keyword}）</h3>")
 
 # ------------------------------------------------------------
-# 🔹 新機能: JSONエンドポイント（自動キャッシュ対応）
+# 🔹 JSON API & ZIPアップロード
 # ------------------------------------------------------------
 @app.get("/api/slack_threads/{invoice_id}.json", response_class=JSONResponse)
 async def get_slack_thread_json(invoice_id: str):
     data = extract_thread_from_zip(invoice_id)
     return data
 
-# ------------------------------------------------------------
-# 🔹 ZIPアップロード用エンドポイント（Renderダッシュボードからcurlで更新OK）
-# ------------------------------------------------------------
 @app.post("/api/upload_zip")
 async def upload_zip(file: UploadFile = File(...)):
     content = await file.read()
     with open(ZIP_FILE_PATH, "wb") as f:
         f.write(content)
-    # アップロード後にキャッシュをリセット
     for p in CACHE_DIR.glob("*.json"):
         p.unlink()
     return {"status": "✅ ZIP uploaded successfully. Cache cleared."}
