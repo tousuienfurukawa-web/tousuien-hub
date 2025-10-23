@@ -4,5 +4,6 @@ python-multipart
 slack_sdk
 flask
 requests
-openai
+openai>=1.0.0
+
 
