@@ -3,11 +3,11 @@ import os
 import re
 import json
 import zipfile
-import requests
 from pathlib import Path
 from datetime import datetime
-from fastapi import FastAPI, UploadFile, File
+from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.responses import HTMLResponse, JSONResponse
+from pydantic import BaseModel
 
 # ✅ ローカルモジュール
 from user_map import resolve_user_name
@@ -35,12 +35,9 @@ def escape_html(text: str) -> str:
     return (text or "").replace("<", "&lt;").replace(">", "&gt;")
 
 # ------------------------------------------------------------
-# 🔹 あいまい検索機能（安全版）
+# 🔹 あいまい検索機能
 # ------------------------------------------------------------
 def find_invoice_candidates(keyword: str):
-    """
-    keyword（例: ist, ist00125）から該当するインボイス候補を返す。
-    """
     normalized_kw = normalize_invoice_text(keyword)
     candidates = []
 
@@ -58,12 +55,10 @@ def find_invoice_candidates(keyword: str):
                 print(f"[WARN] JSON load error in {name}: {e}")
                 continue
 
-            # JSONがリストでない場合はスキップ
             if not isinstance(data, list):
                 continue
 
             for msg in data:
-                # ✅ dict or str に応じて安全に取得
                 if isinstance(msg, dict):
                     text = msg.get("text", "")
                 elif isinstance(msg, str):
@@ -200,7 +195,6 @@ def build_report_html(invoice_id, msgs, gpt_info):
 async def get_slack_thread_html(keyword: str):
     candidates = find_invoice_candidates(keyword)
 
-    # 1️⃣ 候補が1件だけなら通常どおり詳細表示
     if len(candidates) == 1:
         invoice_id = candidates[0]
         data = extract_thread_from_zip(invoice_id)
@@ -224,7 +218,6 @@ async def get_slack_thread_html(keyword: str):
         </div></body></html>
         """)
 
-    # 2️⃣ 複数候補 → 企業単位で要約生成
     elif len(candidates) > 1:
         all_texts = []
         for inv in candidates:
@@ -235,10 +228,7 @@ async def get_slack_thread_html(keyword: str):
                     all_texts.append(txt)
         joined_text = "\n".join(all_texts)
 
-        gpt_result = generate_slack_summary(
-            f"{keyword.upper()}_SUMMARY",
-            [{"text": joined_text}]
-        )
+        gpt_result = generate_slack_summary(f"{keyword.upper()}_SUMMARY", [{"text": joined_text}])
         summary_text = gpt_result.get("summary", "⚠️ 要約生成に失敗しました。")
 
         html_list = "<ul>" + "".join(
@@ -255,7 +245,6 @@ async def get_slack_thread_html(keyword: str):
         </body></html>
         """)
 
-    # 3️⃣ 候補ゼロ
     return HTMLResponse(f"<h3>❌ 該当するスレッドが見つかりません（{keyword}）</h3>")
 
 # ------------------------------------------------------------
@@ -274,6 +263,32 @@ async def upload_zip(file: UploadFile = File(...)):
     for p in CACHE_DIR.glob("*.json"):
         p.unlink()
     return {"status": "✅ ZIP uploaded successfully. Cache cleared."}
+
+# ------------------------------------------------------------
+# ✅ Render向けヘルスチェック & JITプラグインAPI
+# ------------------------------------------------------------
+@app.get("/")
+def healthcheck():
+    return {"status": "ok", "message": "Tousuien Hub is live 🚀"}
+
+class SlackRequest(BaseModel):
+    invoice: str
+    mode: str | None = "raw"
+
+@app.post("/jit_plugin/get_slack_thread_html")
+def get_slack_thread_html_jit(req: SlackRequest):
+    try:
+        data = extract_thread_from_zip(req.invoice)
+        if "error" in data:
+            raise HTTPException(status_code=404, detail=data["error"])
+        return {
+            "invoice": req.invoice,
+            "mode": req.mode,
+            "messages": data.get("messages", []),
+            "summary": f"{req.invoice} のスレッドデータを取得しました。",
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 # ------------------------------------------------------------
 # 🔹 アプリ起動
