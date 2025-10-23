@@ -2,6 +2,7 @@
 import os
 import json
 import zipfile
+import requests  # ✅ 追加
 from pathlib import Path
 from datetime import datetime
 from fastapi import FastAPI, Query
@@ -9,6 +10,9 @@ from fastapi.responses import HTMLResponse
 
 # ✅ Slackユーザー名マッピング共通モジュール
 from user_map import resolve_user_name
+
+# ✅ GPT-5要約モジュール
+from gpt5_summary import generate_slack_summary  # ✅ 追加
 
 app = FastAPI()
 ZIP_FILE_PATH = Path("slack_export_latest.zip")
@@ -30,17 +34,17 @@ def escape_html(text: str) -> str:
     return (text or "").replace("<", "&lt;").replace(">", "&gt;")
 
 # ------------------------------------------------------------
-# 🔹 Slackスレッド抽出（ZIP or Render APIフォールバック対応）
+# 🔹 Slackスレッド抽出（Render API優先 + ZIPフォールバック）
 # ------------------------------------------------------------
 def extract_thread_from_zip(invoice_id):
     normalized_invoice = normalize_invoice_text(invoice_id)
 
-    # ✅ Render環境の場合は、ローカルZIPではなくAPI経由で取得
+    # ✅ Render環境：API経由でJSON取得を試行
     render_url = f"https://tousuien-hub.onrender.com/api/slack_threads/{invoice_id}.json"
     try:
-        import requests
         res = requests.get(render_url, timeout=5)
         if res.status_code == 200:
+            print(f"[INFO] Fetched from Render API: {invoice_id}")
             return res.json()
     except Exception as e:
         print(f"[WARN] Render API fetch failed: {e}")
@@ -49,9 +53,11 @@ def extract_thread_from_zip(invoice_id):
     if not ZIP_FILE_PATH.exists():
         return {"error": "ZIP file not found"}
 
+    print(f"[INFO] Fallback to ZIP extraction for: {invoice_id}")
     with zipfile.ZipFile(ZIP_FILE_PATH, "r") as z:
         all_files = z.namelist()
         matches = []
+
         for name in all_files:
             if not name.endswith(".json"):
                 continue
@@ -86,8 +92,7 @@ def extract_thread_from_zip(invoice_id):
 
                 # 🔹 各メッセージの user_id → 実名変換
                 thread_messages = [
-                    {**m, "user": resolve_user_name(m.get("user"))}
-                    for m in thread_messages
+                    {**m, "user": resolve_user_name(m.get("user"))} for m in thread_messages
                 ]
 
                 matches.append({
@@ -99,25 +104,6 @@ def extract_thread_from_zip(invoice_id):
                 })
 
         return {"invoice": invoice_id, "messages": matches}
-
-# ------------------------------------------------------------
-# 🔹 要約モード（report）
-# ------------------------------------------------------------
-def generate_gpt_summary(messages):
-    all_texts = []
-    for m in messages:
-        all_texts.append(m.get("text", ""))
-        for msg in m.get("all_messages", []):
-            all_texts.append(msg.get("text", ""))
-    joined = "\n".join(all_texts)
-
-    if any(x in joined for x in ["出荷完了", "発送完了"]):
-        status = "✅ 出荷完了済み"
-    else:
-        status = "⚠️ 明確な進捗報告がSlack上に見つかりません"
-
-    actions = ["📋 スレッド内容を確認してください（AIによる推測なし）"]
-    return {"status": status, "actions": actions, "notes": []}
 
 # ------------------------------------------------------------
 # 🔹 HTML生成（report / raw）
@@ -138,7 +124,7 @@ def build_report_html(invoice_id, msgs, gpt_info):
         body {{font-family:"Noto Sans JP",sans-serif;background:#f8fafc;color:#0f172a;padding:24px;line-height:1.6;}}
         .card {{max-width:760px;margin:0 auto;background:white;border-radius:12px;padding:28px;box-shadow:0 10px 30px rgba(0,0,0,0.05);}}
         h1 {{font-size:24px;margin-bottom:8px;}}
-        .summary {{background:#eff6ff;border-left:5px solid #3b82f6;padding:16px;border-radius:8px;margin-bottom:24px;}}
+        .summary {{background:#eff6ff;border-left:5px solid #3b82f6;padding:16px;border-radius:8px;margin-bottom:24px;white-space:pre-wrap;}}
         .stat {{background:#f1f5f9;border-radius:8px;padding:12px;margin:8px 0;}}
         .footer {{text-align:right;color:#64748b;font-size:12px;margin-top:24px;}}
       </style>
@@ -148,8 +134,8 @@ def build_report_html(invoice_id, msgs, gpt_info):
         <h1>📋 {invoice_id}</h1>
         <p style="color:#475569;">最終更新: {last_updated}</p>
         <div class="summary">
-          <strong>🧠 現状:</strong> {escape_html(gpt_info["status"])}<br>
-          <strong>次のアクション:</strong><ul>{"".join(f"<li>{escape_html(a)}</li>" for a in gpt_info["actions"])}</ul>
+          <strong>🧠 GPT-5要約:</strong><br>
+          {escape_html(gpt_info["status"])}
         </div>
         <div class="stat"><strong>スレッド数:</strong> {total_threads}</div>
         <div class="stat"><strong>総メッセージ数:</strong> {total_messages}</div>
@@ -226,7 +212,7 @@ def build_raw_html(invoice_id, msgs):
     return html
 
 # ------------------------------------------------------------
-# 🔹 エンドポイント
+# 🔹 エンドポイント（GPT-5要約対応版）
 # ------------------------------------------------------------
 @app.get("/slack/thread_html/{invoice_id}", response_class=HTMLResponse)
 async def get_slack_thread_html(invoice_id: str, mode: str = Query(default="report")):
@@ -241,7 +227,20 @@ async def get_slack_thread_html(invoice_id: str, mode: str = Query(default="repo
     if mode == "raw":
         return build_raw_html(invoice_id, msgs)
     else:
-        gpt_info = generate_gpt_summary(msgs)
+        # ✅ GPT-5で要約生成
+        all_thread_messages = []
+        for m in msgs:
+            all_thread_messages.extend(m.get("all_messages", []))
+        
+        gpt_result = generate_slack_summary(invoice_id, all_thread_messages)
+        
+        # ✅ 要約結果を整形（既存のHTML生成関数用）
+        gpt_info = {
+            "status": gpt_result.get("summary", "⚠️ 要約生成中にエラーが発生しました"),
+            "actions": ["📋 全文表示: ?mode=raw で確認可能"],
+            "notes": []
+        }
+        
         return build_report_html(invoice_id, msgs, gpt_info)
 
 # ------------------------------------------------------------
