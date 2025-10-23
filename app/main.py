@@ -35,7 +35,7 @@ def escape_html(text: str) -> str:
     return (text or "").replace("<", "&lt;").replace(">", "&gt;")
 
 # ------------------------------------------------------------
-# 🔹 あいまい検索機能
+# 🔹 あいまい検索機能（安全版）
 # ------------------------------------------------------------
 def find_invoice_candidates(keyword: str):
     """
@@ -54,15 +54,26 @@ def find_invoice_candidates(keyword: str):
             try:
                 with z.open(name) as f:
                     data = json.load(f)
-            except Exception:
+            except Exception as e:
+                print(f"[WARN] JSON load error in {name}: {e}")
                 continue
+
+            # JSONがリストでない場合はスキップ
             if not isinstance(data, list):
                 continue
 
             for msg in data:
-                text = msg.get("text", "")
+                # ✅ dict or str に応じて安全に取得
+                if isinstance(msg, dict):
+                    text = msg.get("text", "")
+                elif isinstance(msg, str):
+                    text = msg
+                else:
+                    continue
+
                 if not text:
                     continue
+
                 norm_text = normalize_invoice_text(text)
                 if normalized_kw in norm_text:
                     m = re.search(r"TSE-[A-Z0-9]+-\d{3}-\d{2}", text)
@@ -70,6 +81,9 @@ def find_invoice_candidates(keyword: str):
                         invoice = m.group(0)
                         if invoice not in candidates:
                             candidates.append(invoice)
+                            print(f"[DEBUG] Found invoice candidate: {invoice} in {name}")
+
+    print(f"[INFO] Candidates found for {keyword}: {candidates}")
     return candidates
 
 # ------------------------------------------------------------
@@ -101,7 +115,13 @@ def extract_thread_from_zip(invoice_id):
                 continue
 
             for msg in data:
-                text = msg.get("text", "")
+                if isinstance(msg, dict):
+                    text = msg.get("text", "")
+                elif isinstance(msg, str):
+                    text = msg
+                else:
+                    continue
+
                 if not text:
                     continue
                 if normalized_invoice not in normalize_invoice_text(text):
@@ -206,7 +226,6 @@ async def get_slack_thread_html(keyword: str):
 
     # 2️⃣ 複数候補 → 企業単位で要約生成
     elif len(candidates) > 1:
-        # 全インボイスの内容をまとめて要約
         all_texts = []
         for inv in candidates:
             data = extract_thread_from_zip(inv)
@@ -216,7 +235,6 @@ async def get_slack_thread_html(keyword: str):
                     all_texts.append(txt)
         joined_text = "\n".join(all_texts)
 
-        # GPTで企業全体の概要を要約
         gpt_result = generate_slack_summary(
             f"{keyword.upper()}_SUMMARY",
             [{"text": joined_text}]
