@@ -1,120 +1,88 @@
 from flask import Blueprint, request
 import os, json, datetime
-from openai import OpenAI
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 
 bp = Blueprint("slack_thread", __name__)
 
-# === APIキーなど環境変数 ===
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 SLACK_BOT_TOKEN = os.getenv("SLACK_BOT_TOKEN")
-
-client = OpenAI(api_key=OPENAI_API_KEY)
 slack = WebClient(token=SLACK_BOT_TOKEN)
 
-# === Slackスレッド取得 + GPT要約 ===
+# 🔹 Slackユーザーキャッシュ
+USER_CACHE = {}
+
+def get_user_name(user_id: str) -> str:
+    """SlackのユーザーIDから表示名を取得（キャッシュ付き）"""
+    if not user_id:
+        return "不明ユーザー"
+    if user_id in USER_CACHE:
+        return USER_CACHE[user_id]
+    try:
+        info = slack.users_info(user=user_id)
+        if info.get("ok"):
+            profile = info["user"]["profile"]
+            name = profile.get("display_name") or profile.get("real_name") or user_id
+            USER_CACHE[user_id] = name
+            return name
+    except SlackApiError:
+        pass
+    return user_id
+
 @bp.route("/slack/thread_html/<invoice>", methods=["GET"])
 def get_slack_thread_html(invoice):
-    """Slackスレッド全文＋GPT要約HTMLビュー"""
+    """SlackスレッドのHTMLビュー（ユーザー名マッピング対応）"""
     mode = request.args.get("mode", "report").lower().strip()
-    refresh = request.args.get("refresh", "false").lower() == "true"
     invoice = invoice.upper().strip()
 
-    # --- 1️⃣ ローカルキャッシュ優先 ---
-    json_path = f"data/slack_threads/{invoice}.json"
-    messages = []
-    if os.path.exists(json_path) and not refresh:
-        with open(json_path, "r", encoding="utf-8") as f:
-            messages = json.load(f)
+    # --- 短縮入力・補完 ---
+    json_dir = "data/slack_threads"
+    json_path = f"{json_dir}/{invoice}.json"
+    if not os.path.exists(json_path):
+        if os.path.exists(json_dir):
+            files = os.listdir(json_dir)
+            candidates = [f.replace(".json", "") for f in files if invoice in f or f.startswith(invoice)]
+            if candidates:
+                invoice = sorted(candidates)[0]
+                json_path = f"{json_dir}/{invoice}.json"
+            else:
+                return f"<p>❌ Thread not found for {invoice}</p>", 404
+        else:
+            return f"<p>❌ Slack thread data folder not found ({json_dir})</p>", 500
 
-    # --- 2️⃣ Slackから最新スレッド取得（refresh指定 or ローカルに存在しない場合） ---
-    if not messages or refresh:
-        try:
-            search = slack.search_messages(query=invoice, sort="timestamp", sort_dir="desc", count=1)
-            matches = search["messages"]["matches"]
-            if not matches:
-                return f"<p>❌ Slack上に {invoice} を含むスレッドが見つかりません</p>", 404
+    with open(json_path, "r", encoding="utf-8") as f:
+        messages = json.load(f)
 
-            match = matches[0]
-            channel = match["channel"]["id"]
-            thread_ts = match.get("thread_ts") or match.get("ts")
-
-            replies = slack.conversations_replies(channel=channel, ts=thread_ts, limit=200)
-            messages = replies.get("messages", [])
-
-            # キャッシュ保存
-            os.makedirs("data/slack_threads", exist_ok=True)
-            with open(json_path, "w", encoding="utf-8") as f:
-                json.dump(messages, f, ensure_ascii=False, indent=2)
-
-        except SlackApiError as e:
-            return f"<p>⚠️ Slack APIエラー: {str(e)}</p>", 500
-
-    # --- 3️⃣ HTML整形（全メッセージを時系列で並べる） ---
-    messages.sort(key=lambda m: float(m.get("ts", 0)))
+    # --- HTML化（ユーザー名変換付き） ---
     html_msgs = ""
-    plain_texts = []
-
     for msg in messages:
-        user = msg.get("user", "不明ユーザー")
+        user_id = msg.get("user") or msg.get("user_id") or ""
+        user_name = msg.get("user_name") or get_user_name(user_id)
         text = msg.get("text", "")
-        ts = msg.get("ts", "")
-        ts_str = datetime.datetime.fromtimestamp(float(ts)).strftime("%Y-%m-%d %H:%M")
+        ts = msg.get("ts") or msg.get("timestamp", "")
+        try:
+            ts_str = datetime.datetime.fromtimestamp(float(ts)).strftime("%Y-%m-%d %H:%M")
+        except:
+            ts_str = ts
         html_msgs += f"""
         <div style='border-bottom:1px solid #e2e8f0;padding:8px 0;'>
-            <strong>{user}</strong><br>{text}
+            <strong>{user_name}</strong><br>{text}
             <div style='font-size:12px;color:#94a3b8;'>{ts_str}</div>
         </div>
         """
-        plain_texts.append(f"[{ts_str}] {user}: {text}")
 
-    # --- 4️⃣ GPTによる要約生成 ---
-    summary_text = ""
-    if mode == "report":
-        prompt = f"""
-あなたは社内業務スレッドの要約担当です。
-以下のSlackスレッド（{invoice}）を要約し、箇条書きで出力してください。
-- 顧客名
-- 注文内容
-- 納期・出荷予定
-- 支払い・入金状況
-- 注意点（あれば）
-
-=== スレッド本文 ===
-{os.linesep.join(plain_texts)}
-        """
-
-        try:
-            response = client.chat.completions.create(
-                model="gpt-4o-mini",  # もしくは gpt-5
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.3,
-                max_tokens=600,
-            )
-            summary_text = response.choices[0].message.content.strip()
-        except Exception as e:
-            summary_text = f"⚠️ 要約生成に失敗しました: {e}"
-
-    # --- 5️⃣ 出力HTML生成 ---
     html = f"""
     <html lang="ja"><head><meta charset="UTF-8">
     <style>
       body{{font-family:'Noto Sans JP',sans-serif;background:#f8fafc;color:#0f172a;padding:24px;line-height:1.6;}}
       .card{{max-width:760px;margin:0 auto;background:white;border-radius:12px;padding:28px;box-shadow:0 10px 30px rgba(0,0,0,0.05);}}
       h1{{font-size:24px;margin-bottom:8px;}}
-      .summary{{background:#eff6ff;border-left:5px solid #3b82f6;padding:16px;border-radius:8px;margin-bottom:24px;white-space:pre-wrap;}}
-      .msg{{border-bottom:1px solid #e2e8f0;padding:8px 0;}}
       .footer{{text-align:right;color:#64748b;font-size:12px;margin-top:24px;}}
     </style></head><body>
       <div class="card">
         <h1>📋 {invoice}</h1>
-        <h2>💬 Slackスレッド全文</h2>
+        <h2>💬 Slackスレッド本文（ユーザー名補完済）</h2>
         {html_msgs}
-        <hr>
-        <h2>🧠 GPT要約ビュー</h2>
-        <div class="summary">{summary_text}</div>
-        <div class="footer">Slackスレッド要約ビュー（Tousuien Hub / mode={mode}）</div>
+        <div class="footer">Slackスレッドビュー（Tousuien Hub）</div>
       </div>
     </body></html>
     """
