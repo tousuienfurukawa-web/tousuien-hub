@@ -30,17 +30,28 @@ def escape_html(text: str) -> str:
     return (text or "").replace("<", "&lt;").replace(">", "&gt;")
 
 # ------------------------------------------------------------
-# 🔹 Slack ZIPからスレッド抽出（ユーザー名反映版）
+# 🔹 Slackスレッド抽出（ZIP or Render APIフォールバック対応）
 # ------------------------------------------------------------
 def extract_thread_from_zip(invoice_id):
+    normalized_invoice = normalize_invoice_text(invoice_id)
+
+    # ✅ Render環境の場合は、ローカルZIPではなくAPI経由で取得
+    render_url = f"https://tousuien-hub.onrender.com/api/slack_threads/{invoice_id}.json"
+    try:
+        import requests
+        res = requests.get(render_url, timeout=5)
+        if res.status_code == 200:
+            return res.json()
+    except Exception as e:
+        print(f"[WARN] Render API fetch failed: {e}")
+
+    # ✅ フォールバック：ZIPから抽出（ローカルモード）
     if not ZIP_FILE_PATH.exists():
         return {"error": "ZIP file not found"}
 
-    normalized_invoice = normalize_invoice_text(invoice_id)
     with zipfile.ZipFile(ZIP_FILE_PATH, "r") as z:
         all_files = z.namelist()
         matches = []
-
         for name in all_files:
             if not name.endswith(".json"):
                 continue
@@ -75,7 +86,8 @@ def extract_thread_from_zip(invoice_id):
 
                 # 🔹 各メッセージの user_id → 実名変換
                 thread_messages = [
-                    {**m, "user": resolve_user_name(m.get("user"))} for m in thread_messages
+                    {**m, "user": resolve_user_name(m.get("user"))}
+                    for m in thread_messages
                 ]
 
                 matches.append({
