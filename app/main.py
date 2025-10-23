@@ -224,24 +224,25 @@ async def get_slack_thread_html(invoice_id: str, mode: str = Query(default="repo
 
     msgs = data["messages"]
 
+    # ✅ mode=raw の場合は要約生成をスキップして全文表示
     if mode == "raw":
         return build_raw_html(invoice_id, msgs)
-    else:
-        # ✅ GPT-5で要約生成
-        all_thread_messages = []
-        for m in msgs:
-            all_thread_messages.extend(m.get("all_messages", []))
-        
-        gpt_result = generate_slack_summary(invoice_id, all_thread_messages)
-        
-        # ✅ 要約結果を整形（既存のHTML生成関数用）
-        gpt_info = {
-            "status": gpt_result.get("summary", "⚠️ 要約生成中にエラーが発生しました"),
-            "actions": ["📋 全文表示: ?mode=raw で確認可能"],
-            "notes": []
-        }
-        
-        return build_report_html(invoice_id, msgs, gpt_info)
+    
+    # ✅ mode=report の場合のみ GPT-5で要約生成
+    all_thread_messages = []
+    for m in msgs:
+        all_thread_messages.extend(m.get("all_messages", []))
+    
+    gpt_result = generate_slack_summary(invoice_id, all_thread_messages)
+    
+    # ✅ 要約結果を整形（既存のHTML生成関数用）
+    gpt_info = {
+        "status": gpt_result.get("summary", "⚠️ 要約生成中にエラーが発生しました"),
+        "actions": ["📋 全文表示: ?mode=raw で確認可能"],
+        "notes": []
+    }
+    
+    return build_report_html(invoice_id, msgs, gpt_info)
 
 # ------------------------------------------------------------
 # 🔹 アプリ起動
