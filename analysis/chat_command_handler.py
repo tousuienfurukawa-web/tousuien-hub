@@ -1,6 +1,7 @@
 # analysis/chat_command_handler.py
 import re
 from analysis.generate_sales_report import analyze_company
+import pandas as pd
 
 
 def handle_chat_command(command: str):
@@ -15,32 +16,33 @@ def handle_chat_command(command: str):
     year_match = re.search(r"(20\d{2})", command)
 
     if not code_match:
-        return "⚠️ 企業コードが見つかりません（例: ILJ, MCG, RNI）"
+        return {"error": "⚠️ 企業コードが見つかりません（例: ILJ, MCG, RNI）"}
 
     company_code = code_match.group(1)
     target_year = int(year_match.group(1)) if year_match else None
 
     print(f"🎯 実行対象: {company_code}, 年={target_year or '全期間'}")
 
+    # 売上データ分析を実行
     monthly, detail = analyze_company(company_code)
-    if detail is None:
-        return f"⚠️ 企業コード「{company_code}」のデータが見つかりません。"
+    if detail is None or len(detail) == 0:
+        return {"error": f"⚠️ 企業コード「{company_code}」のデータが見つかりません。"}
 
-    # 年で絞り込み
+    # 年で絞り込み（任意）
     if target_year:
-        import pandas as pd
         detail["注文日"] = pd.to_datetime(detail["注文日"], errors="coerce")
         detail = detail[detail["注文日"].dt.year == target_year]
 
-    # テーブル文字列化（上位10件のみ）
-    preview = detail.head(10).to_string(index=False)
+    # 上位10件のみ（dict形式でAPIレスポンス化）
+    preview = detail.head(10).to_dict(orient="records")
 
-    result_text = (
-        f"📊 **{company_code} の {target_year or '全期間'} の注文一覧（上位10件）**\n\n"
-        f"```\n{preview}\n```"
-    )
-
-    return result_text
+    # レスポンスJSON構造
+    return {
+        "company_code": company_code,
+        "year": target_year or "全期間",
+        "total_records": len(detail),
+        "records": preview
+    }
 
 
 if __name__ == "__main__":
