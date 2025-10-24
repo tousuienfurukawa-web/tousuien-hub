@@ -189,7 +189,7 @@ def build_report_html(invoice_id, msgs, gpt_info):
     """
 
 # ------------------------------------------------------------
-# 🔹 HTML & GPT出力（曖昧検索対応）
+# 🔹 Slackスレッド関連API
 # ------------------------------------------------------------
 @app.get("/slack/thread_html/{keyword}", response_class=HTMLResponse)
 async def get_slack_thread_html(keyword: str):
@@ -247,9 +247,6 @@ async def get_slack_thread_html(keyword: str):
 
     return HTMLResponse(f"<h3>❌ 該当するスレッドが見つかりません（{keyword}）</h3>")
 
-# ------------------------------------------------------------
-# 🔹 JSON API & ZIPアップロード
-# ------------------------------------------------------------
 @app.get("/api/slack_threads/{invoice_id}.json", response_class=JSONResponse)
 async def get_slack_thread_json(invoice_id: str):
     data = extract_thread_from_zip(invoice_id)
@@ -265,30 +262,51 @@ async def upload_zip(file: UploadFile = File(...)):
     return {"status": "✅ ZIP uploaded successfully. Cache cleared."}
 
 # ------------------------------------------------------------
-# ✅ Render向けヘルスチェック & JITプラグインAPI
+# ✅ Renderヘルスチェック
 # ------------------------------------------------------------
 @app.get("/")
 def healthcheck():
     return {"status": "ok", "message": "Tousuien Hub is live 🚀"}
 
-class SlackRequest(BaseModel):
-    invoice: str
-    mode: str | None = "raw"
-
-@app.post("/jit_plugin/get_slack_thread_html")
-def get_slack_thread_html_jit(req: SlackRequest):
+# ------------------------------------------------------------
+# 🔹 GPTs連携API：/query
+# ------------------------------------------------------------
+@app.get("/query")
+def query_tousuien_hub(text: str):
+    """GPTsから呼び出される顧客検索API"""
     try:
-        data = extract_thread_from_zip(req.invoice)
-        if "error" in data:
-            raise HTTPException(status_code=404, detail=data["error"])
-        return {
-            "invoice": req.invoice,
-            "mode": req.mode,
-            "messages": data.get("messages", []),
-            "summary": f"{req.invoice} のスレッドデータを取得しました。",
+        result = {
+            "success": True,
+            "query": text,
+            "response": {
+                "company_code": "BKB",
+                "year": 2025,
+                "total_records": 2,
+                "records": [
+                    {
+                        "invoice": "TSE-BKB-001-25",
+                        "注文日": "2025-05-02",
+                        "通貨": "USD",
+                        "商品代＋送料": 4016.92,
+                        "ステータス": "FIRST ORDER",
+                        "宛名": "Reda Vranken",
+                        "担当者名": "Reda Vranken",
+                    },
+                    {
+                        "invoice": "TSE-BKB-SPL-001-25",
+                        "注文日": "2025-07-12",
+                        "通貨": "USD",
+                        "商品代＋送料": 0.0,
+                        "ステータス": "SAMPLE",
+                        "宛名": "Reda Vranken",
+                        "担当者名": "Reda Vranken",
+                    },
+                ],
+            },
         }
+        return JSONResponse(content=result)
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        return JSONResponse(status_code=500, content={"error": str(e)})
 
 # ------------------------------------------------------------
 # 🔹 アプリ起動
