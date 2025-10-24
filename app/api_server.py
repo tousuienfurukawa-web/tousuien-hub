@@ -14,5 +14,8 @@ def query_company(text: str = Query(..., description="自然言語での企業�
     ChatGPTから呼び出すAPI。
     例: /query?text=RNIの2025注文一覧
     """
-    result = handle_chat_command(text)
-    return {"response": result}
+    try:
+        result = handle_chat_command(text)
+        return {"response": result}
+    except Exception as e:
+        return {"error": str(e)}
