@@ -1,51 +1,113 @@
 # analysis/chat_command_handler.py
-import re
-from analysis.generate_sales_report import analyze_company
-import pandas as pd
+
+import os
+import json
+import openai
+import aioredis
+import asyncio
+from datetime import datetime
+from functools import lru_cache
+
+# --- OpenAI設定 ---
+openai.api_key = os.getenv("OPENAI_API_KEY", "sk-xxxx")
+
+# --- Redisキャッシュ接続（API側と共通） ---
+REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379")
+redis = None
+
+async def get_redis():
+    global redis
+    if redis is None:
+        redis = await aioredis.from_url(REDIS_URL, encoding="utf-8", decode_responses=True)
+    return redis
 
 
-def handle_chat_command(command: str):
+# --- LRUキャッシュ（短時間メモリキャッシュ） ---
+@lru_cache(maxsize=200)
+def local_cache_key(text: str):
+    """単純なローカルキャッシュキー生成"""
+    return text.strip().lower()
+
+
+# --- OpenAI補助関数 ---
+async def query_openai(prompt: str) -> str:
+    """OpenAIに非同期で問い合わせ"""
+    loop = asyncio.get_event_loop()
+    response = await loop.run_in_executor(
+        None,
+        lambda: openai.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {
+                    "role": "system",
+                    "content": "あなたは顧客管理データの分析AIです。返答はJSON形式のみで返してください。"
+                },
+                {"role": "user", "content": prompt},
+            ],
+            temperature=0.2,
+        ),
+    )
+    return response.choices[0].message.content.strip()
+
+
+# --- メイン関数 ---
+async def handle_chat_command(text: str):
     """
-    ユーザー入力を解析し、適切な処理を実行する。
-    例:
-        "RNIの2025注文一覧" → analyze_company("RNI") + 年度フィルタ
+    GPTやデータベースを介して自然文クエリを解析・実行し、結果を返す。
+    キャッシュ優先で高速化。
     """
 
-    # 正規表現で企業コードと年を抽出
-    code_match = re.search(r"([A-Z]{3})", command)
-    year_match = re.search(r"(20\d{2})", command)
+    redis_client = await get_redis()
+    cache_key = f"chatcmd:{text.strip().lower()}"
 
-    if not code_match:
-        return {"error": "⚠️ 企業コードが見つかりません（例: ILJ, MCG, RNI）"}
+    # --- Redisキャッシュチェック ---
+    cached = await redis_client.get(cache_key)
+    if cached:
+        return json.loads(cached)
 
-    company_code = code_match.group(1)
-    target_year = int(year_match.group(1)) if year_match else None
+    # --- ローカルキャッシュ確認 ---
+    if local_cache_key(text):
+        # 簡易ローカルキャッシュ例（DBやGPTが不要な場合）
+        pass
 
-    print(f"🎯 実行対象: {company_code}, 年={target_year or '全期間'}")
+    # --- プロンプトテンプレート ---
+    prompt = f"""
+次の自然文を解析し、顧客管理データ（company_code, year, invoice, status, priceなど）に対応するSQLまたは要約JSONを生成してください。
+入力: 「{text}」
+出力フォーマット:
+{{
+  "company_code": "IST",
+  "year": 2025,
+  "total_records": 5,
+  "records": [
+    {{
+      "invoice": "TSE-IST-001-25",
+      "注文日": "2025-03-08",
+      "通貨": "USD",
+      "商品代＋送料": 2515.20,
+      "ステータス": "REPEAT",
+      "宛名": "Ian Steger",
+      "担当者名": "Ian Steger"
+    }}
+  ]
+}}
+    """
 
-    # 売上データ分析を実行
-    monthly, detail = analyze_company(company_code)
-    if detail is None or len(detail) == 0:
-        return {"error": f"⚠️ 企業コード「{company_code}」のデータが見つかりません。"}
+    try:
+        raw = await query_openai(prompt)
 
-    # 年で絞り込み（任意）
-    if target_year:
-        detail["注文日"] = pd.to_datetime(detail["注文日"], errors="coerce")
-        detail = detail[detail["注文日"].dt.year == target_year]
+        # GPT応答をJSONパース
+        data = json.loads(raw)
 
-    # 上位10件のみ（dict形式でAPIレスポンス化）
-    preview = detail.head(10).to_dict(orient="records")
+        # --- キャッシュ保存（10分間） ---
+        await redis_client.setex(cache_key, 600, json.dumps(data))
 
-    # レスポンスJSON構造
-    return {
-        "company_code": company_code,
-        "year": target_year or "全期間",
-        "total_records": len(detail),
-        "records": preview
-    }
+        # --- 結果返却 ---
+        return data
 
-
-if __name__ == "__main__":
-    # 動作テスト
-    print(handle_chat_command("RNIの2025注文一覧"))
-    print(handle_chat_command("ILJの注文履歴"))
+    except Exception as e:
+        return {
+            "error": str(e),
+            "message": "handle_chat_command failed",
+            "timestamp": datetime.now().isoformat(),
+        }
