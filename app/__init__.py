@@ -1,11 +1,16 @@
 import zipfile
 import os
 import json
+from pathlib import Path
 
-SRC = "/app/slack_export_latest.zip"
-DEST = "/app/data/slack_threads"
-RAW_DIR = "/app/data/slack_raw"
+# ✅ ベースディレクトリを動的に決定（Render / ローカル共通）
+BASE_DIR = Path(__file__).resolve().parent
+SRC = BASE_DIR / "slack_export_latest.zip"
+DATA_DIR = BASE_DIR / "data"
+DEST = DATA_DIR / "slack_threads"
+RAW_DIR = DATA_DIR / "slack_raw"
 
+# ✅ 書き込み可能な場所にディレクトリ作成
 os.makedirs(DEST, exist_ok=True)
 os.makedirs(RAW_DIR, exist_ok=True)
 
@@ -30,7 +35,8 @@ def normalize_data(data):
     else:
         return []
 
-if os.path.exists(SRC):
+# ✅ SlackエクスポートZIPが存在する場合のみ処理
+if SRC.exists():
     try:
         with zipfile.ZipFile(SRC, "r") as zip_ref:
             safe_extract(zip_ref, RAW_DIR)
@@ -56,10 +62,7 @@ if os.path.exists(SRC):
                             skipped += 1
                             continue
                         text = msg.get("text")
-                        if not isinstance(text, str):
-                            skipped += 1
-                            continue
-                        if "TSE-" not in text:
+                        if not isinstance(text, str) or "TSE-" not in text:
                             skipped += 1
                             continue
 
@@ -78,7 +81,7 @@ if os.path.exists(SRC):
                                 json.dump({"messages": [msg]}, out, ensure_ascii=False, indent=2)
 
                         found += 1
-                    except Exception as e:
+                    except Exception:
                         skipped += 1
                         continue
 
@@ -87,4 +90,4 @@ if os.path.exists(SRC):
     except Exception as e:
         print("⚠️ Extraction failed unexpectedly:", e)
 else:
-    print("⚠️ No slack_export_latest.zip found.")
+    print(f"⚠️ No Slack export found at {SRC}")
