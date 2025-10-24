@@ -1,7 +1,7 @@
 name: Analyze Company Orders
 
 on:
-  # ✅ Excelが更新されたときに自動実行
+  # ✅ Excelファイル更新時に自動実行
   push:
     paths:
       - "data/Customer Management_latest.xlsx"
@@ -24,7 +24,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: 3.10
+          python-version: "3.10"   # ✅ ← ここを修正
 
       - name: Install dependencies
         run: pip install pandas openpyxl
@@ -33,10 +33,10 @@ jobs:
         run: |
           python - <<'PYCODE'
           import pandas as pd
+          from pathlib import Path
           from analysis.generate_sales_report import analyze_company
-
-          # GitHub Actionsの入力から企業コードを取得
           import os
+
           company_code = os.environ.get("COMPANY_CODE", "${{ github.event.inputs.company_code }}").strip()
 
           print(f"=== 企業コード: {company_code} の分析を開始 ===")
@@ -47,13 +47,8 @@ jobs:
               print(f"⚠️ 企業コード '{company_code}' のデータが見つかりません。")
               raise SystemExit(0)
 
-          # 注文日を日付型に変換
           detail["注文日"] = pd.to_datetime(detail["注文日"], errors="coerce")
-
-          # 最新年を特定（例：2025）
           latest_year = int(detail["注文日"].dt.year.max())
-
-          # 最新年の注文のみ抽出
           result = detail[detail["注文日"].dt.year == latest_year]
 
           print(f"\n=== {latest_year}年の注文一覧（{company_code}） ===")
@@ -62,7 +57,6 @@ jobs:
           print("\n=== 通貨別月次売上 ===")
           print(monthly.to_string(index=False))
 
-          # Excel出力（オプション）
           reports_dir = Path("reports")
           reports_dir.mkdir(exist_ok=True)
           output_path = reports_dir / f"{company_code}_analysis_{latest_year}.xlsx"
