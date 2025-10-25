@@ -382,6 +382,8 @@ async def get_slack_thread_json(invoice_id: str):
 
 @app.post("/api/upload_zip")
 async def upload_zip(file: UploadFile = File(...)):
+    # 重要: global は関数先頭で宣言（関数内で ZIP_FILE_PATH を更新するため）
+    global ZIP_FILE_PATH
     try:
         content = await file.read()
         try:
@@ -395,7 +397,6 @@ async def upload_zip(file: UploadFile = File(...)):
                 f.write(content)
             logger.warning("Could not write to %s; wrote to fallback %s", ZIP_FILE_PATH, fallback)
             # Update global path to fallback so subsequent calls use it
-            global ZIP_FILE_PATH
             ZIP_FILE_PATH = fallback
 
         # キャッシュ削除
