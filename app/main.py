@@ -2,10 +2,6 @@
 """
 app/main.py
 Safe, deploy-friendly FastAPI application for Slack thread inspection + GPT summary.
-- 安全な gpt5_summary のインポート（存在しない場合は代替を使う）
-- 読み取り専用ファイルシステムへのフォールバック (/tmp)
-- フォールバックしても動くように例外処理を強化
-- Vercel 等のサーバレス環境で「handler/app が無い」エラーが出ないよう app を公開
 """
 
 import logging
@@ -80,7 +76,6 @@ def _dummy_generate_slack_summary(invoice_id: str, messages: List[Dict[str, Any]
     """gpt5_summary が無い場合のダミー。UI 崩壊防止用。"""
     text_snippet = ""
     if messages and isinstance(messages, list):
-        # ちょっとした抜粋を返す
         joined = "\n".join((m.get("text") or "") for m in messages[:3])
         text_snippet = joined[:800]
     return {"summary": f"⚠️ GPT 要約機能が利用できません。件名: {invoice_id}\n\n抜粋:\n{text_snippet}"}
@@ -107,14 +102,6 @@ def escape_html(text: Optional[str]) -> str:
     return (text or "").replace("<", "&lt;").replace(">", "&gt;")
 
 def resolve_user_name(user_id: Optional[str]) -> str:
-    """
-    簡易ユーザ解決:
-    - None => 'Unknown'
-    - 文字列 => そのまま
-    - dict => dict.get('name') or 'Unknown'
-    実運用では Slack エクスポートの users.json をパースしてマッピングできますが、
-    環境によってないケースがあるため安全に実装します。
-    """
     if not user_id:
         return "Unknown"
     if isinstance(user_id, dict):
@@ -173,13 +160,11 @@ def extract_thread_from_zip(invoice_id: str) -> Dict[str, Any]:
     normalized_invoice = normalize_invoice_text(invoice_id)
     cache_path = CACHE_DIR / f"{invoice_id}.json"
 
-    # キャッシュがあれば返す（高速化）
     if cache_path.exists():
         try:
             with open(cache_path, "r", encoding="utf-8") as f:
                 return json.load(f)
         except Exception:
-            # キャッシュ壊れたら無視して再抽出
             logger.warning("Cache read failed for %s; will re-extract", cache_path)
 
     if not ZIP_FILE_PATH.exists():
@@ -222,7 +207,6 @@ def extract_thread_from_zip(invoice_id: str) -> Dict[str, Any]:
                         if other_thread_ts == thread_ts and other_msg.get("ts") != ts:
                             thread_messages.append(other_msg)
 
-                    # resolve user name for each message
                     thread_messages = [
                         {**m, "user": resolve_user_name(m.get("user"))} for m in thread_messages
                     ]
@@ -335,7 +319,6 @@ async def get_slack_thread_html(keyword: str):
             </div></body></html>
             """)
         elif len(candidates) > 1:
-            # 複数候補がある場合は一覧を出しつつ簡易要約を表示
             all_texts = []
             for inv in candidates:
                 data = extract_thread_from_zip(inv)
