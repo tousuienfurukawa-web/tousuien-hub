@@ -10,7 +10,6 @@ from fastapi.responses import HTMLResponse, JSONResponse
 from pydantic import BaseModel
 
 # ✅ ローカルモジュール
-from user_map import resolve_user_name
 from gpt5_summary import generate_slack_summary
 
 app = FastAPI()
@@ -314,3 +313,4 @@ def query_tousuien_hub(text: str):
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=int(os.environ.get("PORT", 10000)))
+
