@@ -2,19 +2,8 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/*.py",
+      "src": "api/**/*.py",
       "use": "@vercel/python"
     }
-  ],
-  "routes": [
-    {
-      "src": "/fetch_excel_debug",
-      "dest": "api/fetch_excel_debug.py"
-    },
-    {
-      "src": "/fetch_sales_summary_by_code",
-      "dest": "api/fetch_sales_summary_by_code.py"
-    }
-  ],
-  "framework": null
+  ]
 }
