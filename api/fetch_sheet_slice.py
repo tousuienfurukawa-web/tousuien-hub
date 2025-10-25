@@ -3,17 +3,19 @@ from http.server import BaseHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
 import json, io, os, re, hashlib, time
 import openpyxl, requests
-from datetime import datetime
+from datetime import datetime, date
 
-# local cache util
+# local cache util (optional)
 try:
     import cache_util
 except Exception:
     cache_util = None
 
 # GitHub raw の Excel ファイル URL（環境変数で上書き可）
-GITHUB_XLSX_URL = os.environ.get("GITHUB_XLSX_URL",
-    "https://raw.githubusercontent.com/tousuienfurukawa-web/tousuien-hub/main/data/Customer_Management_latest.xlsx")
+GITHUB_XLSX_URL = os.environ.get(
+    "GITHUB_XLSX_URL",
+    "https://raw.githubusercontent.com/tousuienfurukawa-web/tousuien-hub/main/data/Customer_Management_latest.xlsx"
+)
 
 # default TTL seconds for Redis cache (can be overridden by env CACHE_TTL_SECONDS)
 CACHE_TTL = int(os.environ.get("CACHE_TTL_SECONDS", "300"))
@@ -21,14 +23,14 @@ CACHE_TTL = int(os.environ.get("CACHE_TTL_SECONDS", "300"))
 def normalize_header(s):
     if s is None:
         return ""
-    return str(s).replace("\n"," ").replace("　"," ").strip()
+    return str(s).replace("\n", " ").replace("　", " ").strip()
 
 def col_letter_to_index(col):
     col = col.upper()
     idx = 0
     for ch in col:
         if 'A' <= ch <= 'Z':
-            idx = idx*26 + (ord(ch)-ord('A') + 1)
+            idx = idx * 26 + (ord(ch) - ord('A') + 1)
     return idx - 1
 
 def parse_col_range(cols_spec, headers):
@@ -36,32 +38,46 @@ def parse_col_range(cols_spec, headers):
         return list(range(len(headers)))
     cols_spec = cols_spec.strip()
     if ':' in cols_spec and re.match(r'^[A-Za-z]+:[A-Za-z]+$', cols_spec):
-        a,b = cols_spec.split(':')
+        a, b = cols_spec.split(':')
         start = col_letter_to_index(a)
         end = col_letter_to_index(b)
-        if start < 0: start = 0
-        if end >= len(headers): end = len(headers)-1
-        return list(range(start, end+1))
+        if start < 0:
+            start = 0
+        if end >= len(headers):
+            end = len(headers) - 1
+        return list(range(start, end + 1))
     names = [x.strip() for x in cols_spec.split(',') if x.strip()]
     indices = []
     for name in names:
         name_norm = normalize_header(name).lower()
         found = False
-        for i,h in enumerate(headers):
+        for i, h in enumerate(headers):
             if normalize_header(h).lower() == name_norm:
                 indices.append(i)
                 found = True
                 break
         if not found:
-            for i,h in enumerate(headers):
+            for i, h in enumerate(headers):
                 if name_norm in normalize_header(h).lower():
                     indices.append(i)
                     found = True
                     break
     return indices
 
+def convert_value(value):
+    """セルの値を JSON で安全に表現する形式に変換します。"""
+    if value is None:
+        return ""
+    if isinstance(value, (datetime, date)):
+        try:
+            return value.isoformat()
+        except Exception:
+            return str(value)
+    if isinstance(value, (int, float, str, bool)):
+        return value
+    return str(value)
+
 def make_cache_key(sheet, start_row, end_row, cols_spec, summary, limit):
-    # use a hashed key to avoid too long keys
     raw = f"sheet={sheet}|start={start_row}|end={end_row}|cols={cols_spec or ''}|summary={summary}|limit={limit}"
     h = hashlib.sha256(raw.encode('utf-8')).hexdigest()
     return f"sheet_slice:{h}"
@@ -82,7 +98,7 @@ class handler(BaseHTTPRequestHandler):
                 self.send_response(400)
                 self.send_header('Content-Type', 'application/json; charset=utf-8')
                 self.end_headers()
-                self.wfile.write(json.dumps({"error":"missing sheet param"}).encode('utf-8'))
+                self.wfile.write(json.dumps({"error": "missing sheet param"}).encode('utf-8'))
                 return
 
             # ---- Redis cache lookup ----
@@ -94,16 +110,13 @@ class handler(BaseHTTPRequestHandler):
                 except Exception:
                     cached = None
             if cached:
-                # ensure meta shows cached true
                 if isinstance(cached, dict):
                     cached_meta = cached.get("_meta", {})
                     cached_meta["cached"] = True
                     cached["_meta"] = cached_meta
-                # return cached JSON
                 self.send_response(200)
-                self.send_header('Content-Type','application/json; charset=utf-8')
-                self.send_header('Access-Control-Allow-Origin','*')
-                # custom header to denote cache hit
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
                 self.send_header('X-Cache', 'HIT')
                 self.end_headers()
                 self.wfile.write(json.dumps(cached, ensure_ascii=False).encode('utf-8'))
@@ -118,7 +131,7 @@ class handler(BaseHTTPRequestHandler):
                 self.send_response(404)
                 self.send_header('Content-Type', 'application/json; charset=utf-8')
                 self.end_headers()
-                self.wfile.write(json.dumps({"error":"sheet not found"}).encode('utf-8'))
+                self.wfile.write(json.dumps({"error": "sheet not found"}).encode('utf-8'))
                 return
 
             ws = wb[sheet]
@@ -134,11 +147,15 @@ class handler(BaseHTTPRequestHandler):
 
             for i, row in enumerate(ws.iter_rows(min_row=start_row, max_row=end_row_cap, values_only=True), start=start_row):
                 rowvals = []
-                for ci in col_indices:
-                    if ci < len(row):
-                        rowvals.append(row[ci])
-                    else:
-                        rowvals.append(None)
+                if not row:
+                    for ci in col_indices:
+                        rowvals.append("")
+                else:
+                    for ci in col_indices:
+                        if ci < len(row):
+                            rowvals.append(convert_value(row[ci]))
+                        else:
+                            rowvals.append("")
                 rows.append(rowvals)
                 total_count += 1
                 if summary and total_count >= limit:
@@ -171,8 +188,8 @@ class handler(BaseHTTPRequestHandler):
 
             # return result
             self.send_response(200)
-            self.send_header('Content-Type','application/json; charset=utf-8')
-            self.send_header('Access-Control-Allow-Origin','*')
+            self.send_header('Content-Type', 'application/json; charset=utf-8')
+            self.send_header('Access-Control-Allow-Origin', '*')
             self.send_header('X-Cache', 'MISS')
             self.end_headers()
             self.wfile.write(json.dumps(result, ensure_ascii=False).encode('utf-8'))
@@ -180,7 +197,7 @@ class handler(BaseHTTPRequestHandler):
         except Exception as e:
             import traceback
             self.send_response(500)
-            self.send_header('Content-Type','application/json; charset=utf-8')
+            self.send_header('Content-Type', 'application/json; charset=utf-8')
             self.end_headers()
             error_response = {"error": str(e), "traceback": traceback.format_exc()}
             self.wfile.write(json.dumps(error_response, ensure_ascii=False).encode('utf-8'))
