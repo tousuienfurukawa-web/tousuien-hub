@@ -1,3 +1,5 @@
+# api/fetch_sales_summary_by_code.py
+# read_only + short-term cache 版に「ヘッダー検出強化＋フォールバック」を追加した実装
 from http.server import BaseHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
 import json
@@ -5,6 +7,7 @@ from datetime import datetime, date
 import time
 import threading
 import os
+import unicodedata
 
 def convert_value(value):
     """セルの値を安全な形式に変換"""
@@ -30,7 +33,6 @@ def get_cached(code):
         now = time.time()
         if now - entry['ts'] <= CACHE_TTL:
             return entry['result']
-        # TTL expired: still keep entry but mark as expired (we may use as stale)
         return None
 
 def set_cache(code, json_str):
@@ -41,6 +43,46 @@ def get_stale_if_any(code):
     with CACHE_LOCK:
         entry = CACHE.get(code)
         return entry['result'] if entry else None
+
+# --- ヘッダー検出ユーティリティ ---
+def normalize_header_text(s):
+    """ヘッダー文字列を正規化して比較可能にする
+    - 改行・タブをスペースに変換
+    - 全角スペースを半角に
+    - Unicode 正規化 (NFKC)
+    - 連続空白除去、trim、小文字化
+    """
+    if s is None:
+        return ""
+    t = str(s)
+    t = t.replace('\r', ' ').replace('\n', ' ').replace('\t', ' ')
+    t = t.replace('　', ' ')
+    t = unicodedata.normalize('NFKC', t)
+    t = " ".join(t.split())
+    return t.strip().lower()
+
+def looks_like_company_code_header(h):
+    """ヘッダー候補が企業コードに相当するかをあいまい判定する"""
+    nh = normalize_header_text(h)
+    if not nh:
+        return False
+    # 日本語パターン
+    if '企業' in nh and 'コード' in nh:
+        return True
+    if '会社' in nh and 'コード' in nh:
+        return True
+    # 原料登録の特殊ケース
+    if '原料' in nh and 'コード' in nh:
+        return True
+    if '原料資材' in nh and 'コード' in nh:
+        return True
+    # 英語表記候補
+    if 'company' in nh and 'code' in nh:
+        return True
+    # 単純に 'コード' を含む場合も候補とする（慎重に扱う）
+    if 'コード' in nh and len(nh.split()) <= 3:
+        return True
+    return False
 
 class handler(BaseHTTPRequestHandler):
     def do_GET(self):
@@ -60,15 +102,13 @@ class handler(BaseHTTPRequestHandler):
 
             code = params['code'][0].upper().strip()
 
-            # 1) キャッシュを参照（短期）
+            # 1) キャッシュ参照
             cached = get_cached(code)
             if cached:
-                # すでにJSON文字列をキャッシュしているのでそのまま返す
                 self.send_response(200)
                 self.send_header('Content-Type', 'application/json; charset=utf-8')
                 self.send_header('Access-Control-Allow-Origin', '*')
                 self.end_headers()
-                # キャッシュレスポンスは "cached": true を付与するため、デコード→再ラップして返す
                 try:
                     parsed = json.loads(cached)
                     parsed['_meta'] = parsed.get('_meta', {})
@@ -78,28 +118,25 @@ class handler(BaseHTTPRequestHandler):
                     self.wfile.write(out.encode('utf-8'))
                     return
                 except Exception:
-                    # もしキャッシュが文字列化できない場合は生返却
                     self.wfile.write(cached.encode('utf-8'))
                     return
 
-            # 2) キャッシュが無ければ GitHub から Excel を取得して解析（read_only）
+            # 2) GitHub から Excel を取得
             import requests
             import io
             import openpyxl
 
             github_url = "https://raw.githubusercontent.com/tousuienfurukawa-web/tousuien-hub/main/data/Customer_Management_latest.xlsx"
             try:
-                # タイムアウトは短めに設定（秒）
                 response = requests.get(github_url, timeout=30)
                 response.raise_for_status()
             except Exception as e:
-                # GitHub 側の取得が失敗した場合、可能であれば stale キャッシュを返す
                 stale = get_stale_if_any(code)
                 if stale:
                     try:
                         parsed = json.loads(stale)
                     except Exception:
-                        parsed = {"error": "使用可能な stale キャッシュがありますが、解析できません。", "raw": stale}
+                        parsed = {"error": "stale cache exists but could not parse", "raw": stale}
                     parsed['_meta'] = parsed.get('_meta', {})
                     parsed['_meta']['cached'] = True
                     parsed['_meta']['cache_ttl'] = CACHE_TTL
@@ -113,7 +150,6 @@ class handler(BaseHTTPRequestHandler):
                     self.wfile.write(out.encode('utf-8'))
                     return
                 else:
-                    # キャッシュ無し -> エラーを返す
                     self.send_response(500)
                     self.send_header('Content-Type', 'application/json; charset=utf-8')
                     self.end_headers()
@@ -125,7 +161,6 @@ class handler(BaseHTTPRequestHandler):
                     self.wfile.write(error_response.encode('utf-8'))
                     return
 
-            # load_workbook を read_only モードで使う（メモリ節約）
             workbook = openpyxl.load_workbook(io.BytesIO(response.content), data_only=True, read_only=True)
 
             target_sheets = ["会社情報登録", "原料登録", "商品登録", "受注登録"]
@@ -136,11 +171,14 @@ class handler(BaseHTTPRequestHandler):
                 "_meta": {
                     "generated_at": datetime.utcnow().isoformat() + "Z",
                     "cached": False,
-                    "cache_ttl": CACHE_TTL
+                    "cache_ttl": CACHE_TTL,
+                    "detection": {}  # per-sheet detection info
                 }
             }
 
+            # 各シートを処理
             for sheet_name in target_sheets:
+                detection_info = {"method": None, "header_row": None, "code_col_index": None}
                 if sheet_name not in workbook.sheetnames:
                     result["data"][sheet_name] = {
                         "error": "シートが見つかりません",
@@ -148,62 +186,131 @@ class handler(BaseHTTPRequestHandler):
                         "rows": [],
                         "count": 0
                     }
+                    result["_meta"]["detection"][sheet_name] = {"method": "sheet_not_found"}
                     continue
 
                 ws = workbook[sheet_name]
-                # ヘッダー行を取得（read_only モードでは iter_rows を使う）
-                headers = []
-                try:
-                    first_row_iter = ws.iter_rows(min_row=1, max_row=1, values_only=True)
-                    first_row = next(first_row_iter, None)
-                except Exception:
-                    first_row = None
 
-                if first_row and first_row[0] is not None:
-                    headers = [convert_value(cell) for cell in first_row]
-                else:
-                    # ヘッダーなし（想定外）
-                    headers = []
-
-                # 企業コード列を探す
+                # 1) 上位数行（1〜5行）を見てヘッダー行を探す
                 code_col_index = None
-                for idx, header in enumerate(headers):
-                    if header and "企業コード" in str(header):
-                        code_col_index = idx
+                headers = []
+                header_row_index = None
+
+                for r in range(1, 6):
+                    try:
+                        row_iter = ws.iter_rows(min_row=r, max_row=r, values_only=True)
+                        row = next(row_iter, None)
+                    except Exception:
+                        row = None
+                    if not row:
+                        continue
+                    cand_headers = [convert_value(cell) for cell in row]
+                    non_empty = sum(1 for c in cand_headers if str(c).strip() != "")
+                    if non_empty < 2:
+                        # ヘッダーらしくない行ならスキップ
+                        continue
+                    # 各列を判定
+                    for idx, h in enumerate(cand_headers):
+                        if looks_like_company_code_header(h):
+                            code_col_index = idx
+                            headers = cand_headers
+                            header_row_index = r
+                            break
+                    if code_col_index is not None:
                         break
 
-                if code_col_index is None:
-                    result["data"][sheet_name] = {
-                        "error": "企業コード列が見つかりません",
-                        "headers": headers,
-                        "rows": [],
-                        "count": 0
-                    }
-                    continue
+                # 2) ヘッダーロジックで見つからなければ、まず1行目をヘッダー候補とする（既存処理互換）
+                if header_row_index is None:
+                    try:
+                        first_row_iter = ws.iter_rows(min_row=1, max_row=1, values_only=True)
+                        first_row = next(first_row_iter, None)
+                    except Exception:
+                        first_row = None
+                    if first_row and first_row[0] is not None:
+                        headers = [convert_value(cell) for cell in first_row]
+                        # try to locate company code header in first row (fallback)
+                        for idx, h in enumerate(headers):
+                            if looks_like_company_code_header(h):
+                                code_col_index = idx
+                                header_row_index = 1
+                                break
+                    else:
+                        headers = []
 
                 matched_rows = []
-                # read_only の iter_rows で 2 行目以降を逐次処理（メモリ節約）
-                for row in ws.iter_rows(min_row=2, values_only=True):
-                    # もし row が None の行が続く場合もあるので保護
-                    if not row or len(row) <= code_col_index:
+
+                # 3) もし code_col_index が見つかれば、ヘッダー行に続く行から抽出
+                if code_col_index is not None:
+                    detection_info['method'] = 'header_match'
+                    detection_info['header_row'] = header_row_index
+                    detection_info['code_col_index'] = code_col_index
+                    # 開始行：ヘッダー行の次の行（header_row_index が None の場合は 2）
+                    start_row = header_row_index + 1 if header_row_index else 2
+                    for row in ws.iter_rows(min_row=start_row, values_only=True):
+                        if not row or len(row) <= code_col_index:
+                            continue
+                        row_code = str(row[code_col_index]).strip().upper() if row[code_col_index] else ""
+                        if row_code == code:
+                            result["found"] = True
+                            matched_row = [convert_value(cell) for cell in row]
+                            row_dict = {}
+                            for i, header in enumerate(headers):
+                                if i < len(matched_row):
+                                    row_dict[header] = matched_row[i]
+                                else:
+                                    row_dict[header] = ""
+                            matched_rows.append(row_dict)
+                    result["data"][sheet_name] = {
+                        "headers": headers,
+                        "rows": matched_rows,
+                        "count": len(matched_rows)
+                    }
+                    result["_meta"]["detection"][sheet_name] = detection_info
+                    continue
+
+                # 4) フォールバック：ヘッダー列が見つからない場合はシート全体をスキャンして
+                #    任意のセルに code と一致する行を抽出する（scanned_by_value）
+                detection_info['method'] = 'scanned_by_value'
+                detection_info['header_row'] = header_row_index
+                detection_info['code_col_index'] = None
+                search_code_upper = code.upper().strip()
+                for row in ws.iter_rows(min_row=(header_row_index + 1 if header_row_index else 2), values_only=True):
+                    if not row:
                         continue
-                    row_code = str(row[code_col_index]).strip().upper() if row[code_col_index] else ""
-                    if row_code == code:
+                    found = False
+                    for cell in row:
+                        if cell is None:
+                            continue
+                        try:
+                            if str(cell).strip().upper() == search_code_upper:
+                                found = True
+                                break
+                        except Exception:
+                            continue
+                    if found:
                         result["found"] = True
-                        matched_row = [convert_value(cell) for cell in row]
+                        # row_dict を作成。ヘッダーがあればマッピング、無ければ col_x で返す
                         row_dict = {}
-                        for i, header in enumerate(headers):
-                            if i < len(matched_row):
-                                row_dict[header] = matched_row[i]
+                        if headers:
+                            for i, h in enumerate(headers):
+                                if i < len(row):
+                                    row_dict[h] = convert_value(row[i])
+                                else:
+                                    row_dict[h] = ""
+                        else:
+                            for i, val in enumerate(row):
+                                row_dict[f"col_{i+1}"] = convert_value(val)
                         matched_rows.append(row_dict)
 
                 result["data"][sheet_name] = {
                     "headers": headers,
                     "rows": matched_rows,
-                    "count": len(matched_rows)
+                    "count": len(matched_rows),
+                    "note": "企業コード列が検出できなかったため、シート全体をスキャンして該当行を抽出しました（フォールバック）"
                 }
+                result["_meta"]["detection"][sheet_name] = detection_info
 
-            # レスポンスをキャッシュして返す
+            # キャッシュして返却
             output_json = json.dumps(result, ensure_ascii=False, indent=2)
             set_cache(code, output_json)
 
