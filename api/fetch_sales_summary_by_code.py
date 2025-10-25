@@ -1,51 +1,70 @@
-// ✅ /pages/api/fetch_sales_summary_by_code.ts
-// （App Router の場合は /app/api/fetch_sales_summary_by_code/route.ts）
+# /api/fetch_sales_summary_by_code.py
+# -------------------------------------------------------
+# 顧客データ分割取得API（Flask対応版）
+# -------------------------------------------------------
 
-import { NextResponse } from 'next/server';
-import { getSalesSummaryByCode } from '@/lib/db'; // ← 既存のDB取得関数
+from flask import Flask, request, jsonify
+from db import get_sales_summary_by_code  # あなたのDBアクセス関数
 
-export async function GET(req: Request) {
-  try {
-    const { searchParams } = new URL(req.url);
-    const code = searchParams.get('code');
-    const section = searchParams.get('section'); // "company" | "orders" | "products"
-    const invoice = searchParams.get('invoice'); // optional
-    const limit = Number(searchParams.get('limit') ?? 100); // default 100件
+app = Flask(__name__)
 
-    if (!code) {
-      return NextResponse.json({ error: 'Missing code parameter' }, { status: 400 });
-    }
+@app.route("/api/fetch_sales_summary_by_code", methods=["GET"])
+def fetch_sales_summary():
+    try:
+        # --- パラメータ取得 ---
+        code = request.args.get("code")
+        section = request.args.get("section")  # "company" | "orders" | "products"
+        invoice = request.args.get("invoice")  # optional
+        limit = int(request.args.get("limit", 100))  # default 100件
 
-    // DBまたはスプレッドシートから顧客情報を取得
-    const fullData = await getSalesSummaryByCode(code);
+        if not code:
+            return jsonify({"error": "Missing 'code' parameter"}), 400
 
-    // ---- 🎯 ここから分割処理 ----
-    if (section === 'company') {
-      return NextResponse.json({ code, company: fullData.company });
-    }
+        # --- 顧客データ取得 ---
+        full_data = get_sales_summary_by_code(code)
+        if not full_data:
+            return jsonify({"error": f"No data found for code '{code}'"}), 404
 
-    if (section === 'orders') {
-      let orders = fullData.orders ?? [];
+        # --- セクション別分岐 ---
+        if section == "company":
+            return jsonify({
+                "code": code,
+                "company": full_data.get("company", {})
+            })
 
-      // Invoice番号でフィルタリング（該当する場合のみ）
-      if (invoice) {
-        orders = orders.filter((o: any) => o.invoice === invoice);
-      }
+        elif section == "orders":
+            orders = full_data.get("orders", [])
 
-      // limit件で制限
-      orders = orders.slice(0, limit);
+            # invoice指定がある場合は絞り込み
+            if invoice:
+                orders = [o for o in orders if o.get("invoice") == invoice]
 
-      return NextResponse.json({ code, orders });
-    }
+            # 件数制限
+            orders = orders[:limit]
 
-    if (section === 'products') {
-      return NextResponse.json({ code, products: fullData.products ?? [] });
-    }
+            return jsonify({
+                "code": code,
+                "orders": orders,
+                "count": len(orders)
+            })
 
-    // デフォルト（旧仕様互換）
-    return NextResponse.json(fullData);
-  } catch (error: any) {
-    console.error('API Error:', error);
-    return NextResponse.json({ error: error.message ?? 'Internal Server Error' }, { status: 500 });
-  }
-}
+        elif section == "products":
+            return jsonify({
+                "code": code,
+                "products": full_data.get("products", [])
+            })
+
+        # --- デフォルト：全体返却（非推奨・大容量注意） ---
+        return jsonify(full_data)
+
+    except Exception as e:
+        # --- エラーハンドリング ---
+        return jsonify({
+            "error": str(e),
+            "hint": "Check section/invoice/limit parameters to reduce data size."
+        }), 500
+
+
+# ローカル実行用
+if __name__ == "__main__":
+    app.run(debug=True)
