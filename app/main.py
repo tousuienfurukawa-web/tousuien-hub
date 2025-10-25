@@ -10,7 +10,25 @@ from fastapi.responses import HTMLResponse, JSONResponse
 from pydantic import BaseModel
 
 # ✅ ローカルモジュール
-from gpt5_summary import generate_slack_summary
+# --- safe import for gpt5_summary ---
+import logging
+
+generate_slack_summary = None
+try:
+    # try relative import (preferred when app is a package)
+    from .gpt5_summary import generate_slack_summary
+    logging.info("Imported gpt5_summary via relative import")
+except Exception:
+    try:
+        # fallback: absolute import (in case package layout differs)
+        from gpt5_summary import generate_slack_summary
+        logging.info("Imported gpt5_summary via absolute import")
+    except Exception:
+        # final fallback: leave generate_slack_summary as None and log exception
+        logging.exception("gpt5_summary could not be imported; functionality will be disabled.")
+        generate_slack_summary = None
+# --- end safe import ---
+
 
 app = FastAPI()
 ZIP_FILE_PATH = Path("slack_export_latest.zip")
@@ -313,3 +331,4 @@ def query_tousuien_hub(text: str):
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=int(os.environ.get("PORT", 10000)))
+
