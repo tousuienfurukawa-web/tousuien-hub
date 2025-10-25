@@ -1,41 +1,64 @@
 # api/redis_health.py
 from http.server import BaseHTTPRequestHandler
 import json, os
-try:
-    from redis import Redis
-except Exception:
-    Redis = None
 
 class handler(BaseHTTPRequestHandler):
     def do_GET(self):
         try:
+            # 1) 簡易チェック：REDIS_URL が設定されているか
             REDIS_URL = os.environ.get("REDIS_URL")
-            if not REDIS_URL or Redis is None:
+            if not REDIS_URL:
                 self.send_response(200)
                 self.send_header('Content-Type','application/json; charset=utf-8')
                 self.end_headers()
-                self.wfile.write(json.dumps({"redis": False, "message": "REDIS_URL not configured or redis lib missing"}).encode('utf-8'))
+                self.wfile.write(json.dumps({
+                    "redis": False,
+                    "message": "REDIS_URL not configured"
+                }, ensure_ascii=False).encode('utf-8'))
                 return
+
+            # 2) redis ライブラリが利用可能か確認
+            try:
+                from redis import Redis
+            except Exception as e:
+                self.send_response(200)
+                self.send_header('Content-Type','application/json; charset=utf-8')
+                self.end_headers()
+                self.wfile.write(json.dumps({
+                    "redis": False,
+                    "message": "redis lib not installed",
+                    "error": str(e)
+                }, ensure_ascii=False).encode('utf-8'))
+                return
+
+            # 3) 接続して ping と dbsize を確認
             try:
                 r = Redis.from_url(REDIS_URL, decode_responses=True)
                 pong = r.ping()
-                info = {"redis": True, "ping": pong}
-                # also show some small stats if available
+                info = {"redis": True, "ping": bool(pong)}
                 try:
                     size = r.dbsize()
-                    info["dbsize"] = size
+                    info["dbsize"] = int(size)
                 except Exception:
-                    pass
+                    # dbsize may not be available on some managed services; ignore if fails
+                    info["dbsize"] = None
                 self.send_response(200)
                 self.send_header('Content-Type','application/json; charset=utf-8')
                 self.end_headers()
-                self.wfile.write(json.dumps(info).encode('utf-8'))
+                self.wfile.write(json.dumps(info, ensure_ascii=False).encode('utf-8'))
+                return
             except Exception as e:
                 self.send_response(500)
                 self.send_header('Content-Type','application/json; charset=utf-8')
                 self.end_headers()
-                self.wfile.write(json.dumps({"redis": False, "error": str(e)}).encode('utf-8'))
+                self.wfile.write(json.dumps({
+                    "redis": False,
+                    "error": str(e)
+                }, ensure_ascii=False).encode('utf-8'))
+                return
+
         except Exception as e:
             self.send_response(500)
+            self.send_header('Content-Type','application/json; charset=utf-8')
             self.end_headers()
-            self.wfile.write(json.dumps({"error": str(e)}).encode('utf-8'))
+            self.wfile.write(json.dumps({"error": str(e)}, ensure_ascii=False).encode('utf-8'))
