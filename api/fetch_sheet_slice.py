@@ -1,13 +1,22 @@
 # api/fetch_sheet_slice.py
 from http.server import BaseHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
-import json, io, os, time, re
+import json, io, os, re, hashlib, time
 import openpyxl, requests
 from datetime import datetime
 
-# GitHub raw の Excel ファイル URL（必要に応じて環境変数で上書き）
+# local cache util
+try:
+    import cache_util
+except Exception:
+    cache_util = None
+
+# GitHub raw の Excel ファイル URL（環境変数で上書き可）
 GITHUB_XLSX_URL = os.environ.get("GITHUB_XLSX_URL",
     "https://raw.githubusercontent.com/tousuienfurukawa-web/tousuien-hub/main/data/Customer_Management_latest.xlsx")
+
+# default TTL seconds for Redis cache (can be overridden by env CACHE_TTL_SECONDS)
+CACHE_TTL = int(os.environ.get("CACHE_TTL_SECONDS", "300"))
 
 def normalize_header(s):
     if s is None:
@@ -15,7 +24,6 @@ def normalize_header(s):
     return str(s).replace("\n"," ").replace("　"," ").strip()
 
 def col_letter_to_index(col):
-    # A -> 0, Z -> 25, AA -> 26
     col = col.upper()
     idx = 0
     for ch in col:
@@ -27,7 +35,6 @@ def parse_col_range(cols_spec, headers):
     if not cols_spec:
         return list(range(len(headers)))
     cols_spec = cols_spec.strip()
-    # A:C 形式
     if ':' in cols_spec and re.match(r'^[A-Za-z]+:[A-Za-z]+$', cols_spec):
         a,b = cols_spec.split(':')
         start = col_letter_to_index(a)
@@ -35,7 +42,6 @@ def parse_col_range(cols_spec, headers):
         if start < 0: start = 0
         if end >= len(headers): end = len(headers)-1
         return list(range(start, end+1))
-    # comma-separated header names
     names = [x.strip() for x in cols_spec.split(',') if x.strip()]
     indices = []
     for name in names:
@@ -46,7 +52,6 @@ def parse_col_range(cols_spec, headers):
                 indices.append(i)
                 found = True
                 break
-        # if not found, try partial match
         if not found:
             for i,h in enumerate(headers):
                 if name_norm in normalize_header(h).lower():
@@ -54,6 +59,12 @@ def parse_col_range(cols_spec, headers):
                     found = True
                     break
     return indices
+
+def make_cache_key(sheet, start_row, end_row, cols_spec, summary, limit):
+    # use a hashed key to avoid too long keys
+    raw = f"sheet={sheet}|start={start_row}|end={end_row}|cols={cols_spec or ''}|summary={summary}|limit={limit}"
+    h = hashlib.sha256(raw.encode('utf-8')).hexdigest()
+    return f"sheet_slice:{h}"
 
 class handler(BaseHTTPRequestHandler):
     def do_GET(self):
@@ -74,7 +85,31 @@ class handler(BaseHTTPRequestHandler):
                 self.wfile.write(json.dumps({"error":"missing sheet param"}).encode('utf-8'))
                 return
 
-            # fetch excel
+            # ---- Redis cache lookup ----
+            cache_key = make_cache_key(sheet, start_row, end_row, cols_spec, summary, limit)
+            cached = None
+            if cache_util is not None:
+                try:
+                    cached = cache_util.cache_get(cache_key)
+                except Exception:
+                    cached = None
+            if cached:
+                # ensure meta shows cached true
+                if isinstance(cached, dict):
+                    cached_meta = cached.get("_meta", {})
+                    cached_meta["cached"] = True
+                    cached["_meta"] = cached_meta
+                # return cached JSON
+                self.send_response(200)
+                self.send_header('Content-Type','application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin','*')
+                # custom header to denote cache hit
+                self.send_header('X-Cache', 'HIT')
+                self.end_headers()
+                self.wfile.write(json.dumps(cached, ensure_ascii=False).encode('utf-8'))
+                return
+
+            # ---- Not cached: fetch Excel and compute ----
             resp = requests.get(GITHUB_XLSX_URL, timeout=30)
             resp.raise_for_status()
             wb = openpyxl.load_workbook(io.BytesIO(resp.content), data_only=True, read_only=True)
@@ -87,23 +122,17 @@ class handler(BaseHTTPRequestHandler):
                 return
 
             ws = wb[sheet]
-
-            # header from first row
             first_row = next(ws.iter_rows(min_row=1, max_row=1, values_only=True), None)
             headers = [normalize_header(h) for h in (first_row or [])]
-
             col_indices = parse_col_range(cols_spec, headers)
-            # if no indices resolved and headers empty, just return empty structure
             if not col_indices:
                 col_indices = list(range(len(headers))) if headers else []
 
             rows = []
             total_count = 0
-            # guard to not iterate too large loop: cap end_row reasonably (e.g., 10000)
             end_row_cap = min(end_row, start_row + 20000)
 
             for i, row in enumerate(ws.iter_rows(min_row=start_row, max_row=end_row_cap, values_only=True), start=start_row):
-                # construct row values for requested columns
                 rowvals = []
                 for ci in col_indices:
                     if ci < len(row):
@@ -119,7 +148,11 @@ class handler(BaseHTTPRequestHandler):
                 "sheet": sheet,
                 "requested_rows": f"{start_row}-{end_row}",
                 "returned": len(rows),
-                "generated_at": datetime.utcnow().isoformat() + "Z"
+                "generated_at": datetime.utcnow().isoformat() + "Z",
+                "_meta": {
+                    "cached": False,
+                    "cache_ttl": CACHE_TTL
+                }
             }
             if summary:
                 result["headers"] = [headers[i] for i in col_indices] if headers else []
@@ -129,11 +162,21 @@ class handler(BaseHTTPRequestHandler):
                 result["headers"] = [headers[i] for i in col_indices] if headers else []
                 result["rows"] = rows
 
+            # ---- store in Redis cache (if available) ----
+            if cache_util is not None:
+                try:
+                    cache_util.cache_set(cache_key, result, ttl_seconds=CACHE_TTL)
+                except Exception:
+                    pass
+
+            # return result
             self.send_response(200)
             self.send_header('Content-Type','application/json; charset=utf-8')
             self.send_header('Access-Control-Allow-Origin','*')
+            self.send_header('X-Cache', 'MISS')
             self.end_headers()
-            self.wfile.write(json.dumps(result, ensure_ascii=False, default=str).encode('utf-8'))
+            self.wfile.write(json.dumps(result, ensure_ascii=False).encode('utf-8'))
+
         except Exception as e:
             import traceback
             self.send_response(500)
