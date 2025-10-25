@@ -1,8 +1,20 @@
 {
+  "version": 2,
   "builds": [
-    { "src": "app/github_excel_api.py", "use": "@vercel/python" }
+    {
+      "src": "api/*.py",
+      "use": "@vercel/python"
+    }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "app/github_excel_api.py" }
-  ]
+    {
+      "src": "/(.*)",
+      "dest": "/api/$1"
+    }
+  ],
+  "env": {
+    "PYTHONUNBUFFERED": "1",
+    "FASTAPI_ENV": "production"
+  },
+  "framework": null
 }
