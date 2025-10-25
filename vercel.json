@@ -1,0 +1,8 @@
+{
+  "builds": [
+    { "src": "app/github_excel_api.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "app/github_excel_api.py" }
+  ]
+}
