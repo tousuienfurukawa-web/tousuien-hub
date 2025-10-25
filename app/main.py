@@ -26,33 +26,66 @@ BASE_DIR = Path(__file__).resolve().parent
 DEFAULT_ZIP = BASE_DIR / "slack_export_latest.zip"
 DEFAULT_CACHE = BASE_DIR / "cache_slack_threads"
 
-def _writable_path(path: Path) -> Path:
-    """path が書き込み可能ならそのまま、そうでなければ /tmp にフォールバックする"""
+
+def _writable_path(path: Path, is_dir: bool = False) -> Path:
+    """
+    path が書き込み可能ならそのまま返す（必要ならディレクトリ作成）。
+    書き込み不可なら /tmp にフォールバック（ファイルは /tmp/<name>、ディレクトリは /tmp/<name>）。
+    """
     try:
-        parent = path.parent
-        parent.mkdir(parents=True, exist_ok=True)
-        test = parent / ".perm_test"
-        with open(test, "w") as f:
-            f.write("ok")
-        test.unlink()
-        return path
+        if is_dir:
+            # 直接ディレクトリを作成してみる
+            path.mkdir(parents=True, exist_ok=True)
+            test = path / ".perm_test"
+            with open(test, "w") as f:
+                f.write("ok")
+            test.unlink()
+            return path
+        else:
+            parent = path.parent
+            parent.mkdir(parents=True, exist_ok=True)
+            test = parent / ".perm_test"
+            with open(test, "w") as f:
+                f.write("ok")
+            test.unlink()
+            return path
     except Exception:
         fallback = Path("/tmp") / path.name
         logger.warning("Filesystem read-only or no permission. Using fallback: %s", str(fallback))
-        return fallback
+        try:
+            if is_dir:
+                fallback.mkdir(parents=True, exist_ok=True)
+                test = fallback / ".perm_test"
+                with open(test, "w") as f:
+                    f.write("ok")
+                test.unlink()
+            else:
+                # ensure parent exists
+                fallback.parent.mkdir(parents=True, exist_ok=True)
+            return fallback
+        except Exception as e:
+            # 最終フォールバック（/tmp/<name> も作れない可能性は低いが）
+            final = Path("/tmp") / path.name
+            logger.warning("Fallback creation also failed (%s). Using final fallback: %s", e, final)
+            if is_dir:
+                try:
+                    final.mkdir(parents=True, exist_ok=True)
+                except Exception:
+                    pass
+            return final
 
-ZIP_FILE_PATH = _writable_path(DEFAULT_ZIP)
-CACHE_DIR = _writable_path(DEFAULT_CACHE)
-# CACHE_DIR はディレクトリなので Path(...)/.. 指定にする
-if CACHE_DIR.suffix:  # if ends with filename, turn into dir
-    CACHE_DIR = CACHE_DIR.parent / CACHE_DIR.stem
+
+ZIP_FILE_PATH = _writable_path(DEFAULT_ZIP, is_dir=False)
+CACHE_DIR = _writable_path(DEFAULT_CACHE, is_dir=True)
+# 保障: CACHE_DIR はディレクトリであること
 try:
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
-except Exception as e:
-    # 最終フォールバック
+except Exception:
     CACHE_DIR = Path("/tmp/cache_slack_threads")
-    CACHE_DIR.mkdir(parents=True, exist_ok=True)
-    logger.warning("Could not create CACHE_DIR at default; using %s", CACHE_DIR)
+    try:
+        CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    except Exception:
+        logger.warning("Could not create fallback CACHE_DIR %s; cache will be disabled.", CACHE_DIR)
 
 # ---------------------------
 # 安全なインポート: gpt5_summary.generate_slack_summary
@@ -71,6 +104,7 @@ except Exception as e_rel:
         logger.exception("gpt5_summary could not be imported; functionality will be disabled.")
         generate_slack_summary = None
 
+
 # もし generate_slack_summary がない場合のフォールバック実装
 def _dummy_generate_slack_summary(invoice_id: str, messages: List[Dict[str, Any]]) -> Dict[str, Any]:
     """gpt5_summary が無い場合のダミー。UI 崩壊防止用。"""
@@ -80,16 +114,18 @@ def _dummy_generate_slack_summary(invoice_id: str, messages: List[Dict[str, Any]
         text_snippet = joined[:800]
     return {"summary": f"⚠️ GPT 要約機能が利用できません。件名: {invoice_id}\n\n抜粋:\n{text_snippet}"}
 
+
 if generate_slack_summary is None:
     generate_slack_summary = _dummy_generate_slack_summary
 
 # ---------------------------
 # ユーティリティ関数
 # ---------------------------
-def normalize_invoice_text(text: str) -> str:
+def normalize_invoice_text(text: Optional[str]) -> str:
     if text is None:
         return ""
     return text.lower().replace("-", "").replace(" ", "").replace("_", "")
+
 
 def format_timestamp(ts) -> str:
     try:
@@ -98,8 +134,10 @@ def format_timestamp(ts) -> str:
     except Exception:
         return str(ts or "")
 
+
 def escape_html(text: Optional[str]) -> str:
     return (text or "").replace("<", "&lt;").replace(">", "&gt;")
+
 
 def resolve_user_name(user_id: Optional[str]) -> str:
     if not user_id:
@@ -107,6 +145,7 @@ def resolve_user_name(user_id: Optional[str]) -> str:
     if isinstance(user_id, dict):
         return user_id.get("name") or user_id.get("real_name") or "Unknown"
     return str(user_id)
+
 
 # ---------------------------
 # 検索 / 抽出ロジック
@@ -155,6 +194,7 @@ def find_invoice_candidates(keyword: str) -> List[str]:
     logger.info("Candidates found for %s: %s", keyword, candidates)
     return candidates
 
+
 def extract_thread_from_zip(invoice_id: str) -> Dict[str, Any]:
     invoice_id = str(invoice_id)
     normalized_invoice = normalize_invoice_text(invoice_id)
@@ -170,7 +210,7 @@ def extract_thread_from_zip(invoice_id: str) -> Dict[str, Any]:
     if not ZIP_FILE_PATH.exists():
         return {"error": f"ZIP file not found at {ZIP_FILE_PATH}"}
 
-    matches = []
+    matches: List[Dict[str, Any]] = []
     try:
         with zipfile.ZipFile(ZIP_FILE_PATH, "r") as z:
             for name in z.namelist():
@@ -231,6 +271,7 @@ def extract_thread_from_zip(invoice_id: str) -> Dict[str, Any]:
 
     return data
 
+
 # ---------------------------
 # HTML 生成
 # ---------------------------
@@ -252,6 +293,7 @@ def build_raw_html(invoice_id: str, msgs: List[Dict[str, Any]]) -> str:
             """
     return f"<div><h1>📋 {escape_html(invoice_id)}</h1>{html_msgs}</div>"
 
+
 def build_report_html(invoice_id: str, msgs: List[Dict[str, Any]], gpt_info: Dict[str, Any]) -> str:
     total_threads = len(msgs)
     total_messages = sum(len(m.get("all_messages", [])) for m in msgs)
@@ -270,6 +312,7 @@ def build_report_html(invoice_id: str, msgs: List[Dict[str, Any]], gpt_info: Dic
       </div>
     """
 
+
 # ---------------------------
 # FastAPI アプリ定義
 # ---------------------------
@@ -285,6 +328,7 @@ app = FastAPI(
 @app.get("/", response_class=JSONResponse)
 def healthcheck():
     return {"status": "ok", "message": "Tousuien Hub is live 🚀"}
+
 
 @app.get("/slack/thread_html/{keyword}", response_class=HTMLResponse)
 async def get_slack_thread_html(keyword: str):
@@ -350,6 +394,7 @@ async def get_slack_thread_html(keyword: str):
         logger.exception("Error in get_slack_thread_html: %s", e)
         return HTMLResponse(f"<h3>❌ サーバーエラーが発生しました: {escape_html(str(e))}</h3>", status_code=500)
 
+
 @app.get("/api/slack_threads/{invoice_id}.json", response_class=JSONResponse)
 async def get_slack_thread_json(invoice_id: str):
     try:
@@ -361,36 +406,45 @@ async def get_slack_thread_json(invoice_id: str):
         logger.exception("Error in get_slack_thread_json: %s", e)
         return JSONResponse(status_code=500, content={"error": str(e)})
 
+
 @app.post("/api/upload_zip")
 async def upload_zip(file: UploadFile = File(...)):
-    # 重要: global は関数先頭で宣言（関数内で ZIP_FILE_PATH を更新するため）
+    # 関数内で ZIP_FILE_PATH を更新する可能性があるため global を関数先頭で宣言
     global ZIP_FILE_PATH
     try:
         content = await file.read()
+        # まず既存の ZIP_FILE_PATH に書き込んでみる
+        wrote_to = None
         try:
-            # 安全に書き込み可能な場所へ保存（ZIP_FILE_PATH は既にフォールバック済）
+            ZIP_FILE_PATH.parent.mkdir(parents=True, exist_ok=True)
             with open(ZIP_FILE_PATH, "wb") as f:
                 f.write(content)
+            wrote_to = ZIP_FILE_PATH
         except Exception:
             # 最終フォールバック: /tmp
             fallback = Path("/tmp/slack_export_latest.zip")
+            fallback.parent.mkdir(parents=True, exist_ok=True)
             with open(fallback, "wb") as f:
                 f.write(content)
             logger.warning("Could not write to %s; wrote to fallback %s", ZIP_FILE_PATH, fallback)
-            # Update global path to fallback so subsequent calls use it
             ZIP_FILE_PATH = fallback
+            wrote_to = fallback
 
         # キャッシュ削除
-        for p in list(CACHE_DIR.glob("*.json")):
-            try:
-                p.unlink()
-            except Exception:
-                logger.debug("Could not unlink cache file %s", p)
+        try:
+            for p in list(CACHE_DIR.glob("*.json")):
+                try:
+                    p.unlink()
+                except Exception:
+                    logger.debug("Could not unlink cache file %s", p)
+        except Exception:
+            logger.debug("Cache cleanup failed", exc_info=True)
 
-        return {"status": "✅ ZIP uploaded successfully. Cache cleared."}
+        return {"status": "✅ ZIP uploaded successfully. Cache cleared.", "zip_path": str(wrote_to)}
     except Exception as e:
         logger.exception("upload_zip failed: %s", e)
         raise HTTPException(status_code=500, detail=str(e))
+
 
 @app.get("/query")
 def query_tousuien_hub(text: str):
@@ -430,11 +484,12 @@ def query_tousuien_hub(text: str):
         logger.exception("query_tousuien_hub failed: %s", e)
         return JSONResponse(status_code=500, content={"error": str(e)})
 
+
 # ---------------------------
 # 起動用（ローカル実行）
 # ---------------------------
 if __name__ == "__main__":
     import uvicorn
+
     port = int(os.environ.get("PORT", 10000))
     uvicorn.run(app, host="0.0.0.0", port=port)
-
