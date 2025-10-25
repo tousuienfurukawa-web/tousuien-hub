@@ -1,55 +1,150 @@
+# app/main.py
 # -*- coding: utf-8 -*-
 import os
 import re
 import json
 import zipfile
+import logging
+import errno
 from pathlib import Path
 from datetime import datetime
+from typing import List, Dict, Any
+
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.responses import HTMLResponse, JSONResponse
-from pydantic import BaseModel
 
-# ✅ ローカルモジュール
-# --- safe import for gpt5_summary ---
-import logging
+# ------------------------------------------------------------
+# ✅ ログ設定
+# ------------------------------------------------------------
+logging.basicConfig(level=os.environ.get("LOG_LEVEL", "INFO"))
 
+# ------------------------------------------------------------
+# ✅ サーバレス環境向け：ディレクトリ作成の安全化ユーティリティ
+# ------------------------------------------------------------
+def make_dir_with_fallback(path_str: str, fallback_name: str) -> Path:
+    """
+    Try to create path_str. If filesystem is read-only or permission denied,
+    fallback to /tmp/<fallback_name>. Returns Path actually used.
+    """
+    p = Path(path_str)
+    try:
+        p.mkdir(parents=True, exist_ok=True)
+        return p
+    except OSError as e:
+        if getattr(e, "errno", None) in (errno.EROFS, errno.EACCES, errno.EPERM):
+            tmp = Path("/tmp") / fallback_name
+            try:
+                tmp.mkdir(parents=True, exist_ok=True)
+                logging.warning("Filesystem read-only or no permission. Using fallback: %s", tmp)
+                return tmp
+            except Exception:
+                logging.exception("Failed to create fallback dir %s", tmp)
+                return tmp
+        else:
+            logging.exception("Failed to create dir %s", p)
+            raise
+
+# Base dir of this file (read-only on serverless), prefer env vars to override
+BASE_DIR = Path(os.environ.get("BASE_DIR", Path(__file__).resolve().parent))
+# ZIP_DIR: prefer user specified or BASE_DIR, but fallback to /tmp as needed
+ZIP_DIR = make_dir_with_fallback(os.environ.get("ZIP_DIR", str(BASE_DIR)), "slack_zip")
+ZIP_FILE_PATH = ZIP_DIR / os.environ.get("ZIP_FILENAME", "slack_export_latest.zip")
+
+# CACHE_DIR: prefer env or repo dir, but fallback to /tmp when necessary
+CACHE_DIR = make_dir_with_fallback(os.environ.get("CACHE_DIR", str(BASE_DIR / "cache_slack_threads")), "cache_slack_threads")
+
+# ------------------------------------------------------------
+# ✅ ローカルモジュール（安全インポート）
+# ------------------------------------------------------------
 generate_slack_summary = None
 try:
     # try relative import (preferred when app is a package)
-    from .gpt5_summary import generate_slack_summary
+    from .gpt5_summary import generate_slack_summary  # type: ignore
     logging.info("Imported gpt5_summary via relative import")
 except Exception:
     try:
         # fallback: absolute import (in case package layout differs)
-        from gpt5_summary import generate_slack_summary
+        from gpt5_summary import generate_slack_summary  # type: ignore
         logging.info("Imported gpt5_summary via absolute import")
     except Exception:
         # final fallback: leave generate_slack_summary as None and log exception
         logging.exception("gpt5_summary could not be imported; functionality will be disabled.")
         generate_slack_summary = None
-# --- end safe import ---
 
-
+# ------------------------------------------------------------
+# ✅ App 初期化
+# ------------------------------------------------------------
 app = FastAPI()
-ZIP_FILE_PATH = Path("slack_export_latest.zip")
-CACHE_DIR = Path("cache_slack_threads")
-CACHE_DIR.mkdir(exist_ok=True)
+
+# Ensure Vercel/Serverless sees an object named `handler` or `app`
+# Vercel uses `app` or `handler`, but we set `handler = app` at the bottom.
+
 
 # ------------------------------------------------------------
 # 🔹 基本ユーティリティ
 # ------------------------------------------------------------
 def normalize_invoice_text(text: str) -> str:
-    return text.lower().replace("-", "").replace(" ", "").replace("_", "")
+    return (text or "").lower().replace("-", "").replace(" ", "").replace("_", "")
 
 def format_timestamp(ts):
     try:
         dt = datetime.fromtimestamp(float(ts))
         return dt.strftime("%Y-%m-%d %H:%M")
-    except:
+    except Exception:
         return ts
 
 def escape_html(text: str) -> str:
     return (text or "").replace("<", "&lt;").replace(">", "&gt;")
+
+# Simple fallback for resolve_user_name (if real impl is elsewhere, it will override)
+def resolve_user_name(user) -> str:
+    """
+    Fallback resolver for user names. If a mapping exists elsewhere, it can be used instead.
+    """
+    if not user:
+        return ""
+    return str(user)
+
+# ------------------------------------------------------------
+# 🔹 キャッシュ / ファイルユーティリティ（読み書きで落ちないように）
+# ------------------------------------------------------------
+def get_cache_path(invoice_id: str) -> Path:
+    fname = f"{invoice_id}.json"
+    return CACHE_DIR / fname
+
+def safe_write_json(path: Path, obj: Any):
+    """
+    Try to write JSON to path. If fails due to write error, fallback to /tmp.
+    """
+    try:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(obj, f, ensure_ascii=False, indent=2)
+        return path
+    except OSError as e:
+        logging.warning("Failed to write to %s (%s). Falling back to /tmp", path, e)
+        tmp = Path("/tmp") / path.name
+        try:
+            with open(tmp, "w", encoding="utf-8") as f:
+                json.dump(obj, f, ensure_ascii=False, indent=2)
+            return tmp
+        except Exception:
+            logging.exception("Failed to write fallback cache %s", tmp)
+            return None
+
+def safe_read_json(path: Path):
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        logging.debug("safe_read_json failed for %s: %s", path, e)
+        # try /tmp fallback
+        tmp = Path("/tmp") / path.name
+        try:
+            with open(tmp, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            return None
 
 # ------------------------------------------------------------
 # 🔹 あいまい検索機能
@@ -59,112 +154,133 @@ def find_invoice_candidates(keyword: str):
     candidates = []
 
     if not ZIP_FILE_PATH.exists():
+        logging.info("ZIP not found at %s", ZIP_FILE_PATH)
         return candidates
 
-    with zipfile.ZipFile(ZIP_FILE_PATH, "r") as z:
-        for name in z.namelist():
-            if not name.endswith(".json"):
-                continue
-            try:
-                with z.open(name) as f:
-                    data = json.load(f)
-            except Exception as e:
-                print(f"[WARN] JSON load error in {name}: {e}")
-                continue
-
-            if not isinstance(data, list):
-                continue
-
-            for msg in data:
-                if isinstance(msg, dict):
-                    text = msg.get("text", "")
-                elif isinstance(msg, str):
-                    text = msg
-                else:
+    try:
+        with zipfile.ZipFile(ZIP_FILE_PATH, "r") as z:
+            for name in z.namelist():
+                if not name.endswith(".json"):
+                    continue
+                try:
+                    with z.open(name) as f:
+                        data = json.load(f)
+                except Exception as e:
+                    logging.warning("JSON load error in %s: %s", name, e)
                     continue
 
-                if not text:
+                if not isinstance(data, list):
                     continue
 
-                norm_text = normalize_invoice_text(text)
-                if normalized_kw in norm_text:
-                    m = re.search(r"TSE-[A-Z0-9]+-\d{3}-\d{2}", text)
-                    if m:
-                        invoice = m.group(0)
-                        if invoice not in candidates:
-                            candidates.append(invoice)
-                            print(f"[DEBUG] Found invoice candidate: {invoice} in {name}")
+                for msg in data:
+                    if isinstance(msg, dict):
+                        text = msg.get("text", "")
+                    elif isinstance(msg, str):
+                        text = msg
+                    else:
+                        continue
 
-    print(f"[INFO] Candidates found for {keyword}: {candidates}")
+                    if not text:
+                        continue
+
+                    norm_text = normalize_invoice_text(text)
+                    if normalized_kw in norm_text:
+                        m = re.search(r"TSE-[A-Z0-9]+-\d{3}-\d{2}", text)
+                        if m:
+                            invoice = m.group(0)
+                            if invoice not in candidates:
+                                candidates.append(invoice)
+                                logging.debug("Found invoice candidate: %s in %s", invoice, name)
+
+    except zipfile.BadZipFile:
+        logging.exception("Bad ZIP file: %s", ZIP_FILE_PATH)
+    except Exception:
+        logging.exception("Error while scanning ZIP %s", ZIP_FILE_PATH)
+
+    logging.info("Candidates found for %s: %s", keyword, candidates)
     return candidates
 
 # ------------------------------------------------------------
 # 🔹 ZIPからスレッド抽出
 # ------------------------------------------------------------
-def extract_thread_from_zip(invoice_id):
+def extract_thread_from_zip(invoice_id: str) -> Dict[str, Any]:
     normalized_invoice = normalize_invoice_text(invoice_id)
-    cache_path = CACHE_DIR / f"{invoice_id}.json"
+    cache_path = get_cache_path(invoice_id)
 
-    if cache_path.exists():
-        with open(cache_path, "r", encoding="utf-8") as f:
-            return json.load(f)
+    # Try cached first
+    cached = safe_read_json(cache_path)
+    if cached:
+        return cached
 
     if not ZIP_FILE_PATH.exists():
         return {"error": "ZIP file not found"}
 
-    print(f"[INFO] Extracting from ZIP for: {invoice_id}")
+    logging.info("Extracting from ZIP for: %s", invoice_id)
     matches = []
-    with zipfile.ZipFile(ZIP_FILE_PATH, "r") as z:
-        for name in z.namelist():
-            if not name.endswith(".json"):
-                continue
-            try:
-                with z.open(name) as f:
-                    data = json.load(f)
-            except Exception:
-                continue
-            if not isinstance(data, list):
-                continue
-
-            for msg in data:
-                if isinstance(msg, dict):
-                    text = msg.get("text", "")
-                elif isinstance(msg, str):
-                    text = msg
-                else:
+    try:
+        with zipfile.ZipFile(ZIP_FILE_PATH, "r") as z:
+            for name in z.namelist():
+                if not name.endswith(".json"):
+                    continue
+                try:
+                    with z.open(name) as f:
+                        data = json.load(f)
+                except Exception:
+                    continue
+                if not isinstance(data, list):
                     continue
 
-                if not text:
-                    continue
-                if normalized_invoice not in normalize_invoice_text(text):
-                    continue
-
-                ts = msg.get("ts", "")
-                thread_ts = msg.get("thread_ts", ts)
-                thread_messages = [msg]
-
-                for other_msg in data:
-                    if not isinstance(other_msg, dict):
+                for msg in data:
+                    if isinstance(msg, dict):
+                        text = msg.get("text", "")
+                    elif isinstance(msg, str):
+                        text = msg
+                    else:
                         continue
-                    other_thread_ts = other_msg.get("thread_ts", other_msg.get("ts"))
-                    if other_thread_ts == thread_ts and other_msg.get("ts") != ts:
-                        thread_messages.append(other_msg)
 
-                thread_messages = [
-                    {**m, "user": resolve_user_name(m.get("user"))} for m in thread_messages
-                ]
+                    if not text:
+                        continue
+                    if normalized_invoice not in normalize_invoice_text(text):
+                        continue
 
-                matches.append({
-                    "user": resolve_user_name(msg.get("user")),
-                    "text": text,
-                    "ts": ts,
-                    "thread_ts": thread_ts,
-                    "all_messages": thread_messages,
-                })
+                    ts = msg.get("ts", "")
+                    thread_ts = msg.get("thread_ts", ts)
+                    thread_messages = [msg]
+
+                    # Collect other messages in same thread
+                    for other_msg in data:
+                        if not isinstance(other_msg, dict):
+                            continue
+                        other_thread_ts = other_msg.get("thread_ts", other_msg.get("ts"))
+                        if other_thread_ts == thread_ts and other_msg.get("ts") != ts:
+                            thread_messages.append(other_msg)
+
+                    # resolve_user_name for each message in thread
+                    safe_msgs = []
+                    for m in thread_messages:
+                        try:
+                            user_name = resolve_user_name(m.get("user"))
+                        except Exception:
+                            user_name = m.get("user") or ""
+                        mm = dict(m)
+                        mm["user"] = user_name
+                        safe_msgs.append(mm)
+
+                    matches.append({
+                        "user": resolve_user_name(msg.get("user")),
+                        "text": text,
+                        "ts": ts,
+                        "thread_ts": thread_ts,
+                        "all_messages": safe_msgs,
+                    })
+    except Exception:
+        logging.exception("Failed extracting threads from ZIP")
 
     data = {"invoice": invoice_id, "messages": matches}
-    with open(cache_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    try:
+        safe_write_json(cache_path, data)
+    except Exception:
+        logging.exception("Failed to cache result for %s", invoice_id)
     return data
 
 # ------------------------------------------------------------
@@ -198,10 +314,10 @@ def build_report_html(invoice_id, msgs, gpt_info):
       <div class="card">
         <h2>🧠 要約ビュー: {invoice_id}</h2>
         <p style="color:#475569;">最終更新: {last_updated}</p>
-        <div class="summary">{escape_html(gpt_info["status"])}</div>
+        <div class="summary">{escape_html(gpt_info.get("status",""))}</div>
         <div class="stat"><strong>スレッド数:</strong> {total_threads}</div>
         <div class="stat"><strong>総メッセージ数:</strong> {total_messages}</div>
-        <div class="stat"><strong>関係者:</strong> {", ".join(participants[:10])}</div>
+        <div class="stat"><strong>関係者:</strong> {", ".join(list(participants)[:10])}</div>
       </div>
     """
 
@@ -216,15 +332,26 @@ async def get_slack_thread_html(keyword: str):
         invoice_id = candidates[0]
         data = extract_thread_from_zip(invoice_id)
         if "error" in data:
-            return f"<h3>❌ {data['error']}</h3>"
+            return HTMLResponse(f"<h3>❌ {data['error']}</h3>")
         if not data.get("messages"):
-            return f"<h3>❌ スレッドが見つかりません（{invoice_id}）</h3>"
+            return HTMLResponse(f"<h3>❌ スレッドが見つかりません（{invoice_id}）</h3>")
 
         msgs = data["messages"]
         raw_html_section = build_raw_html(invoice_id, msgs)
         all_thread_messages = [m for t in msgs for m in t.get("all_messages", [])]
-        gpt_result = generate_slack_summary(invoice_id, all_thread_messages)
-        gpt_info = {"status": gpt_result.get("summary", "⚠️ 要約生成中にエラーが発生しました")}
+
+        # Guarded GPT summary call
+        if generate_slack_summary is not None:
+            try:
+                gpt_result = generate_slack_summary(invoice_id, all_thread_messages)
+                status_text = gpt_result.get("summary", "⚠️ 要約生成中にエラーが発生しました")
+            except Exception:
+                logging.exception("generate_slack_summary failed")
+                status_text = "⚠️ 要約生成に失敗しました"
+        else:
+            status_text = "gpt5_summary not available"
+
+        gpt_info = {"status": status_text}
         summary_html_section = build_report_html(invoice_id, msgs, gpt_info)
 
         return HTMLResponse(f"""
@@ -245,8 +372,16 @@ async def get_slack_thread_html(keyword: str):
                     all_texts.append(txt)
         joined_text = "\n".join(all_texts)
 
-        gpt_result = generate_slack_summary(f"{keyword.upper()}_SUMMARY", [{"text": joined_text}])
-        summary_text = gpt_result.get("summary", "⚠️ 要約生成に失敗しました。")
+        # Guarded GPT call
+        if generate_slack_summary is not None:
+            try:
+                gpt_result = generate_slack_summary(f"{keyword.upper()}_SUMMARY", [{"text": joined_text}])
+                summary_text = gpt_result.get("summary", "⚠️ 要約生成に失敗しました。")
+            except Exception:
+                logging.exception("generate_slack_summary failed")
+                summary_text = "⚠️ 要約生成に失敗しました。"
+        else:
+            summary_text = "gpt5_summary not available"
 
         html_list = "<ul>" + "".join(
             f"<li><a href='/slack/thread_html/{inv}'>{inv}</a></li>" for inv in candidates
@@ -267,19 +402,38 @@ async def get_slack_thread_html(keyword: str):
 @app.get("/api/slack_threads/{invoice_id}.json", response_class=JSONResponse)
 async def get_slack_thread_json(invoice_id: str):
     data = extract_thread_from_zip(invoice_id)
-    return data
+    return JSONResponse(content=data)
 
 @app.post("/api/upload_zip")
 async def upload_zip(file: UploadFile = File(...)):
     content = await file.read()
-    with open(ZIP_FILE_PATH, "wb") as f:
-        f.write(content)
-    for p in CACHE_DIR.glob("*.json"):
-        p.unlink()
-    return {"status": "✅ ZIP uploaded successfully. Cache cleared."}
+    # Try writing to configured ZIP_FILE_PATH; fallback to /tmp
+    try:
+        ZIP_FILE_PATH.parent.mkdir(parents=True, exist_ok=True)
+        with open(ZIP_FILE_PATH, "wb") as f:
+            f.write(content)
+        saved_path = ZIP_FILE_PATH
+    except OSError as e:
+        logging.warning("Failed to write ZIP to %s: %s. Falling back to /tmp.", ZIP_FILE_PATH, e)
+        tmp = Path("/tmp") / os.environ.get("ZIP_FILENAME", "slack_export_latest.zip")
+        with open(tmp, "wb") as f:
+            f.write(content)
+        saved_path = tmp
+
+    # Clear cache (best-effort)
+    try:
+        for p in CACHE_DIR.glob("*.json"):
+            try:
+                p.unlink()
+            except Exception:
+                logging.debug("Failed to remove cache file %s", p)
+    except Exception:
+        logging.exception("Failed clearing cache directory")
+
+    return {"status": "✅ ZIP uploaded successfully. Cache cleared.", "path": str(saved_path)}
 
 # ------------------------------------------------------------
-# ✅ Renderヘルスチェック
+# ✅ Render / Vercel ヘルスチェック
 # ------------------------------------------------------------
 @app.get("/")
 def healthcheck():
@@ -323,12 +477,15 @@ def query_tousuien_hub(text: str):
         }
         return JSONResponse(content=result)
     except Exception as e:
+        logging.exception("query_tousuien_hub failed")
         return JSONResponse(status_code=500, content={"error": str(e)})
 
 # ------------------------------------------------------------
-# 🔹 アプリ起動
+# 🔹 アプリ起動（ローカルテスト向け）
 # ------------------------------------------------------------
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=int(os.environ.get("PORT", 10000)))
 
+# Vercel expects a variable named `app` or `handler`
+handler = app
