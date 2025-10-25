@@ -1,59 +1,93 @@
 # api/redis_health.py
-# Health check endpoint for Upstash Redis
-# Place this file in your repository under api/ and deploy to Vercel.
 from http.server import BaseHTTPRequestHandler
 import json
 import os
-import traceback
+import logging
+
+logging.basicConfig(level=logging.INFO)
 
 class handler(BaseHTTPRequestHandler):
-    def send_json(self, status_code, obj):
+    """
+    Simple health check endpoint for Redis / Upstash.
+    Exposes GET which returns JSON:
+      - redis: bool
+      - ping: bool or null
+      - dbsize: int or null
+      - message/error: text on failure
+    """
+
+    def _write_json(self, status_code:int, obj:dict):
+        body = json.dumps(obj, ensure_ascii=False).encode("utf-8")
         self.send_response(status_code)
-        self.send_header('Content-Type', 'application/json; charset=utf-8')
-        self.send_header('Access-Control-Allow-Origin', '*')
+        self.send_header("Content-Type", "application/json; charset=utf-8")
+        self.send_header("Content-Length", str(len(body)))
+        # Allow CORS for convenience
+        self.send_header("Access-Control-Allow-Origin", "*")
         self.end_headers()
-        self.wfile.write(json.dumps(obj, ensure_ascii=False).encode('utf-8'))
+        self.wfile.write(body)
+
+    def do_OPTIONS(self):
+        # CORS preflight
+        self.send_response(204)
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.send_header("Access-Control-Allow-Methods", "GET, OPTIONS")
+        self.send_header("Access-Control-Allow-Headers", "Content-Type")
+        self.end_headers()
 
     def do_GET(self):
         try:
-            REDIS_URL = os.environ.get("REDIS_URL")
+            # 1) Check configuration
+            REDIS_URL = os.environ.get("REDIS_URL") or os.environ.get("UPSTASH_REDIS_REST_URL")
             if not REDIS_URL:
-                self.send_json(200, {"redis": False, "message": "REDIS_URL not configured"})
-                return
+                logging.info("REDIS_URL not configured")
+                return self._write_json(200, {
+                    "redis": False,
+                    "message": "REDIS_URL not configured"
+                })
 
-            # check if redis library is available
+            # 2) Import redis library lazily (avoid failing at module import time)
             try:
                 from redis import Redis
             except Exception as e:
-                self.send_json(200, {
+                logging.exception("redis library not available")
+                return self._write_json(200, {
                     "redis": False,
                     "message": "redis lib not installed",
+                    "error": str(e),
+                })
+
+            # 3) Try connecting via redis-py (supports rediss://)
+            try:
+                # For Upstash rediss:// (TCP/TLS) the password is usually embedded in the URL.
+                # For most Upstash cases this will work: Redis.from_url(REDIS_URL, decode_responses=True)
+                r = Redis.from_url(REDIS_URL, decode_responses=True)
+                pong = False
+                try:
+                    pong = bool(r.ping())
+                except Exception as e_ping:
+                    logging.warning("Ping failed: %s", e_ping)
+                    # keep pong False
+
+                dbsize = None
+                try:
+                    # dbsize may not be available on REST endpoints or restricted accounts
+                    dbsize = int(r.dbsize())
+                except Exception as e_db:
+                    logging.info("dbsize not available: %s", e_db)
+                    dbsize = None
+
+                info = {"redis": True, "ping": pong, "dbsize": dbsize}
+                return self._write_json(200, info)
+
+            except Exception as e:
+                logging.exception("Redis connection error")
+                # If using Upstash REST, user might have set REST URL; attempt a fallback
+                # But prefer to return the error so user can adjust env var.
+                return self._write_json(500, {
+                    "redis": False,
                     "error": str(e)
                 })
-                return
-
-            # try to connect and run simple checks
-            try:
-                r = Redis.from_url(REDIS_URL, decode_responses=True)
-                pong = r.ping()
-                info = {"redis": True, "ping": bool(pong)}
-                # try to get dbsize (may not be available on some managed services; ignore failures)
-                try:
-                    size = r.dbsize()
-                    # dbsize may return int or string; ensure int or null
-                    info["dbsize"] = int(size) if size is not None else None
-                except Exception:
-                    info["dbsize"] = None
-                self.send_json(200, info)
-                return
-            except Exception as e:
-                # return 500 with error details for debugging (stacktrace included)
-                self.send_json(500, {
-                    "redis": False,
-                    "error": str(e),
-                    "traceback": traceback.format_exc()
-                })
-                return
 
         except Exception as e:
-            self.send_json(500, {"error": str(e), "traceback": traceback.format_exc()})
+            logging.exception("Unexpected error in redis_health handler")
+            self._write_json(500, {"error": str(e)})
