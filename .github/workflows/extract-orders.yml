@@ -2,28 +2,56 @@ name: Extract and Check Orders
 
 on:
   workflow_dispatch:
+    inputs:
+      invoice:
+        description: '受注番号 (例: TSE-IST-003-25)'
+        required: true
+        default: 'TSE-IST-003-25'
+  push:
+    paths:
+      - 'data/Customer_Management_latest.xlsx'
+      - 'scripts/extract_orders_from_values.py'
 
 jobs:
   extract-and-check:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📦 リポジトリをチェックアウト
-        uses: actions/checkout@v3
+      - name: 📥 リポジトリをチェックアウト
+        uses: actions/checkout@v4
 
-      - name: 🐍 Pythonをセットアップ
-        uses: actions/setup-python@v4
+      - name: 🐍 Python 3.11 をセットアップ
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
-      - name: 🔧 依存パッケージをインストール
+      - name: 📦 依存関係をインストール
         run: |
           pip install pandas openpyxl
 
-      - name: 📄 Excel → CSV 抽出
+      - name: 📄 Excel → CSV 抽出（重要！）
         run: |
           python scripts/extract_orders_from_values.py
 
-      - name: 🔍 特定の受注番号を確認
+      - name: 📊 抽出結果の確認
         run: |
-          python scripts/handle_order_command.py --invoice TSE-IST-003-25
+          echo "=== dist/ の内容 ==="
+          ls -lah dist/
+          echo ""
+          echo "=== 受注登録.csv の行数 ==="
+          wc -l dist/受注登録.csv
+          echo ""
+          echo "=== TSE-IST-003-25 の検索 ==="
+          grep "TSE-IST-003-25" dist/受注登録.csv || echo "⚠️ 見つかりませんでした"
+
+      - name: 🔍 受注番号を検索
+        run: |
+          python scripts/handle_order_command.py --invoice "${{ github.event.inputs.invoice }}"
+
+      - name: 📤 生成ファイルをアップロード
+        uses: actions/upload-artifact@v4
+        with:
+          name: extracted-csv-files
+          path: |
+            dist/*.csv
+            dist/manifest.json
