@@ -1,7 +1,4 @@
-name: Optimize Customer Management (minimal artifact-only)
-
-permissions:
-  contents: read
+name: Optimize Customer Management (minimal)
 
 on:
   workflow_dispatch:
@@ -9,6 +6,7 @@ on:
 jobs:
   optimize:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -18,6 +16,11 @@ jobs:
         with:
           python-version: "3.10"
 
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas openpyxl xlsxwriter || true
+
       - name: Create values-only workbook
         run: |
           python scripts/clean_excel.py data/Customer_Management_latest.xlsx Customer_Management_values.xlsx
@@ -26,17 +29,9 @@ jobs:
         run: |
           python scripts/export_sheets.py Customer_Management_values.xlsx dist
 
-      - name: Debug: list dist
+      - name: List outputs
         run: |
-          echo "=== dist files ==="
+          echo "=== dist ==="
           ls -la dist || true
           echo "=== values file ==="
           ls -la Customer_Management_values.xlsx || true
-
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: customer-management-dist
-          path: |
-            Customer_Management_values.xlsx
-            dist/*
