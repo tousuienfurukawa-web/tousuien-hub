@@ -1,4 +1,6 @@
 # scripts/merge_customer_and_chats.py
+from __future__ import annotations
+
 import re
 import json
 from pathlib import Path
@@ -13,9 +15,10 @@ ALIBABA_DIR = Path("data/alibaba_chats")
 OUT_DIR = Path("analysis")
 OUT_DIR.mkdir(exist_ok=True)
 
-INVOICE_RE = re.compile(r"(TSE-[A-Z]{3}-[A-Z0-9-_.]+)", re.IGNORECASE)
+INVOICE_RE = re.compile(r"(TSE-[A-Z0-9-_.]+)", re.IGNORECASE)
 
-def read_dist_csv(name_guess):
+
+def read_dist_csv(name_guess: str):
     """
     name_guess: 部分一致で該当シート名のファイルを探す
     """
@@ -24,19 +27,17 @@ def read_dist_csv(name_guess):
         files = list(DIST_DIR.glob(f"*{name_guess}*.csv"))
     if not files:
         return None
-    # 先頭のファイルを読み込む
     path = files[0]
-    df = pd.read_csv(path, compression='gzip' if str(path).endswith(".gz") else None, dtype=object)
+    df = pd.read_csv(path, compression="gzip" if str(path).endswith(".gz") else None, dtype=object)
     return df
+
 
 def load_customer_tables():
     # 代表的なものを読み込む（カスタマイズ可）
-    # 受注登録
     orders = read_dist_csv("受注登録")
-    # 会社情報登録
     companies = read_dist_csv("会社情報登録")
-    # 受注に合計金額が無ければ、manifest/別シート確認が必要
     return companies, orders
+
 
 def extract_invoice_from_text(text):
     if not isinstance(text, str):
@@ -44,90 +45,150 @@ def extract_invoice_from_text(text):
     m = INVOICE_RE.search(text)
     return m.group(1) if m else None
 
+
+def _empty_chat_df():
+    return pd.DataFrame(columns=["invoice", "text", "source_file", "ts", "ts_parsed"])
+
+
 def load_slack_messages():
     # slack csv を想定：columns: ts, user, text, thread_ts, channel
     dfs = []
     if not SLACK_DIR.exists():
-        return pd.DataFrame()
+        return _empty_chat_df()
     for f in SLACK_DIR.glob("**/*"):
         if f.suffix.lower() in [".csv", ".gz"]:
-            df = pd.read_csv(f, compression='gzip' if f.suffix.lower()=='.gz' else None, dtype=object)
+            try:
+                df = pd.read_csv(f, compression="gzip" if f.suffix.lower() == ".gz" else None, dtype=object)
+            except Exception:
+                # 読み込みで失敗した場合はスキップ
+                continue
             df["source_file"] = f.name
             dfs.append(df)
     if not dfs:
-        return pd.DataFrame()
+        return _empty_chat_df()
     all_df = pd.concat(dfs, ignore_index=True, sort=False)
-    # normalize columns
+
+    # normalize text column
     if "text" not in all_df.columns:
-        # guess column
         text_cols = [c for c in all_df.columns if "text" in c.lower() or "message" in c.lower()]
         if text_cols:
-            all_df = all_df.rename(columns={text_cols[0]:"text"})
+            all_df = all_df.rename(columns={text_cols[0]: "text"})
+        else:
+            all_df["text"] = ""
+
     # parse timestamp if exists
     if "ts" in all_df.columns:
         try:
-            all_df["ts_parsed"] = all_df["ts"].apply(lambda x: dateparser.parse(str(x)))
+            all_df["ts_parsed"] = all_df["ts"].apply(lambda x: dateparser.parse(str(x)) if pd.notnull(x) else None)
         except Exception:
             all_df["ts_parsed"] = None
     else:
         all_df["ts_parsed"] = None
+
     # extract invoice mentions
     all_df["invoice"] = all_df["text"].astype(str).apply(extract_invoice_from_text)
+    if "invoice" not in all_df.columns:
+        all_df["invoice"] = None
     return all_df
+
 
 def load_alibaba_messages():
     dfs = []
     if not ALIBABA_DIR.exists():
-        return pd.DataFrame()
+        return _empty_chat_df()
     for f in ALIBABA_DIR.glob("**/*"):
         if f.suffix.lower() in [".csv", ".gz", ".txt"]:
-            if f.suffix.lower() in [".csv",".gz"]:
-                df = pd.read_csv(f, compression='gzip' if f.suffix.lower()==".gz" else None, dtype=object)
-            else:
-                # txt: each line is a message
-                lines = f.read_text(encoding="utf-8", errors="ignore").splitlines()
-                df = pd.DataFrame({"text": lines})
+            try:
+                if f.suffix.lower() in [".csv", ".gz"]:
+                    df = pd.read_csv(f, compression="gzip" if f.suffix.lower() == ".gz" else None, dtype=object)
+                else:
+                    lines = f.read_text(encoding="utf-8", errors="ignore").splitlines()
+                    df = pd.DataFrame({"text": lines})
+            except Exception:
+                continue
             df["source_file"] = f.name
             dfs.append(df)
     if not dfs:
-        return pd.DataFrame()
+        return _empty_chat_df()
     all_df = pd.concat(dfs, ignore_index=True, sort=False)
-    # normalize
+
+    # normalize text column
     if "text" not in all_df.columns:
         text_cols = [c for c in all_df.columns if "text" in c.lower() or "message" in c.lower()]
         if text_cols:
-            all_df = all_df.rename(columns={text_cols[0]:"text"})
+            all_df = all_df.rename(columns={text_cols[0]: "text"})
+        else:
+            all_df["text"] = ""
+
+    # extract invoice mentions
     all_df["invoice"] = all_df["text"].astype(str).apply(extract_invoice_from_text)
-    # timestamp parse
+
+    # timestamp parse (best-effort)
     time_cols = [c for c in all_df.columns if "time" in c.lower() or "date" in c.lower()]
     if time_cols:
-        all_df["ts_parsed"] = all_df[time_cols[0]].apply(lambda x: dateparser.parse(str(x)) if pd.notnull(x) else None)
+        try:
+            all_df["ts_parsed"] = all_df[time_cols[0]].apply(lambda x: dateparser.parse(str(x)) if pd.notnull(x) else None)
+        except Exception:
+            all_df["ts_parsed"] = None
     else:
         all_df["ts_parsed"] = None
+
+    if "invoice" not in all_df.columns:
+        all_df["invoice"] = None
     return all_df
+
+
+def _find_invoice_in_row(row):
+    for s in row:
+        try:
+            m = INVOICE_RE.search(str(s))
+            if m:
+                return m.group(1)
+        except Exception:
+            continue
+    return None
+
 
 def merge_data(companies, orders, slack_df, ali_df):
     # Prepare orders: try to ensure invoice column exists
     if orders is None:
         print("orders is None")
         orders = pd.DataFrame()
-    if "Invoice Number" not in orders.columns and "invoice" not in orders.columns and "F" not in orders.columns:
-        # attempt: find a column with TSE pattern
+
+    # If an obvious invoice column exists, use it; otherwise attempt to detect
+    candidate_invoice_cols = [c for c in orders.columns if "invoice" in c.lower() or "Invoice" in c or "TSE-" in c]
+    if candidate_invoice_cols:
+        # prefer an explicit 'invoice' name
+        if "invoice" not in orders.columns and candidate_invoice_cols:
+            orders = orders.rename(columns={candidate_invoice_cols[0]: "invoice"})
+    else:
+        # attempt: find a column that contains TSE pattern anywhere
         found = None
         for c in orders.columns:
-            if orders[c].astype(str).str.contains("TSE-").any():
-                found = c
-                break
+            try:
+                if orders[c].astype(str).str.contains("TSE-").any():
+                    found = c
+                    break
+            except Exception:
+                continue
         if found:
             orders = orders.rename(columns={found: "invoice"})
+
     if "invoice" not in orders.columns:
-        # create invoice column by scanning any text columns
-        orders["invoice"] = orders.astype(str).apply(lambda row: next((INVOICE_RE.search(s).group(1) for s in row if INVOICE_RE.search(str(s))), None), axis=1)
+        # create invoice column by scanning any text columns (safe implementation)
+        orders["invoice"] = orders.apply(lambda row: _find_invoice_in_row(row), axis=1)
+
     # Normalize company code: assume orders has '企業コード' or 'company_code' or 'Company Code'
     possible_company_cols = [c for c in orders.columns if "会社" in c or "企業" in c or "company" in c.lower()]
     if possible_company_cols:
-        orders = orders.rename(columns={possible_company_cols[0]:"company_code"})
-    # Merge slack by invoice
+        orders = orders.rename(columns={possible_company_cols[0]: "company_code"})
+
+    # Ensure slack/ali have invoice column
+    if "invoice" not in slack_df.columns:
+        slack_df = slack_df.assign(invoice=None)
+    if "invoice" not in ali_df.columns:
+        ali_df = ali_df.assign(invoice=None)
+
     slack_matches = slack_df[slack_df["invoice"].notnull()].copy()
     ali_matches = ali_df[ali_df["invoice"].notnull()].copy()
 
@@ -135,6 +196,7 @@ def merge_data(companies, orders, slack_df, ali_df):
     merged = orders.copy()
     merged = merged.astype(object)
     merged["order_invoice"] = merged.get("invoice")
+
     # attach counts of slack mentions
     invoice_slack_count = slack_matches.groupby("invoice").size().rename("slack_mention_count")
     invoice_ali_count = ali_matches.groupby("invoice").size().rename("alibaba_mention_count")
@@ -145,49 +207,6 @@ def merge_data(companies, orders, slack_df, ali_df):
 
     # attach company info if companies table exists: try to find company code key
     if companies is not None:
-        # find common key (company_code or similar)
         company_key = None
         for c in companies.columns:
-            if "会社" in c or "企業" in c or "company" in c.lower() or "code" in c.lower():
-                company_key = c
-                break
-        if company_key:
-            # rename to company_code for merge
-            companies = companies.rename(columns={company_key: "company_code"})
-            merged = merged.merge(companies.add_prefix("company_"), left_on="company_code", right_on="company_company_code", how="left")
-    return merged
-
-def summarize_merged(df):
-    summary = {}
-    # orders per company
-    if "company_code" in df.columns:
-        gp = df.groupby("company_code").agg({
-            "invoice":"count",
-            "slack_mention_count":"sum",
-            "alibaba_mention_count":"sum"
-        }).rename(columns={"invoice":"order_count"})
-        summary["per_company"] = gp.reset_index().to_dict(orient="records")
-    # top invoices by slack mentions
-    top_slack = df.sort_values("slack_mention_count", ascending=False).head(20)
-    summary["top_slack"] = top_slack[["invoice","company_code","slack_mention_count"]].to_dict(orient="records")
-    summary["generated_at"] = datetime.utcnow().isoformat() + "Z"
-    return summary
-
-def main():
-    companies, orders = load_customer_tables()
-    print("companies:", None if companies is None else companies.shape)
-    print("orders:", None if orders is None else orders.shape)
-    slack_df = load_slack_messages()
-    ali_df = load_alibaba_messages()
-    print("slack:", slack_df.shape if not slack_df.empty else (0,0))
-    print("ali:", ali_df.shape if not ali_df.empty else (0,0))
-    merged = merge_data(companies, orders, slack_df, ali_df)
-    merged_out = OUT_DIR / "merged_orders_with_chats.csv.gz"
-    merged.to_csv(merged_out, index=False, compression="gzip")
-    summary = summarize_merged(merged)
-    with open(OUT_DIR / "summary.json", "w", encoding="utf-8") as f:
-        json.dump(summary, f, ensure_ascii=False, indent=2)
-    print("Written:", merged_out, "and summary.json")
-
-if __name__ == "__main__":
-    main()
+            if "会社" in c or "企業" in c or "company" in c.lower() or "code" in c.low
