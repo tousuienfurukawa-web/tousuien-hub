@@ -1,0 +1,42 @@
+name: Generate Orders from Excel
+
+on:
+  push:
+    paths:
+      - 'Customer_Management_values.xlsx'
+      - 'scripts/extract_orders_from_values.py'
+  workflow_dispatch:
+
+jobs:
+  generate-orders:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ✅ リポジトリをチェックアウト
+        uses: actions/checkout@v3
+
+      - name: ✅ Python 環境をセットアップ
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: ✅ 依存パッケージをインストール
+        run: |
+          pip install pandas openpyxl
+
+      - name: ✅ 受注登録CSVを生成
+        run: python scripts/extract_orders_from_values.py
+
+      - name: ✅ 出力ファイルの確認（デバッグ用）
+        run: ls -la dist
+
+      # 必要に応じてcommit/push
+      - name: ✅ dist/受注登録.csv.gz をコミット＆プッシュ
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add dist/受注登録.csv.gz
+          git commit -m "📦 Update dist/受注登録.csv.gz from Customer_Management_values.xlsx"
+          git push
+        env:
+          # トークンは自動で設定されます
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
