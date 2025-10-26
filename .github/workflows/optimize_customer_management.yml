@@ -1,60 +1,37 @@
-name: Optimize Customer Management (artifact-only)
+name: Optimize Customer Management (minimal artifact-only)
 
 permissions:
   contents: read
 
 on:
-  push:
-    paths:
-      - "data/Customer_Management_latest.xlsx"
   workflow_dispatch:
 
 jobs:
   optimize:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          persist-credentials: true
 
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          # Try to install pyarrow; if it fails, fall back to installing without it.
-          pip install pandas openpyxl xlsxwriter pyarrow || pip install pandas openpyxl xlsxwriter
-
       - name: Create values-only workbook
         run: |
           python scripts/clean_excel.py data/Customer_Management_latest.xlsx Customer_Management_values.xlsx
 
-      - name: Export sheets (csv.gz / parquet) and manifest
+      - name: Export sheets
         run: |
           python scripts/export_sheets.py Customer_Management_values.xlsx dist
 
-      - name: Debug: show generated files and git status
+      - name: Debug: list dist
         run: |
-          echo "=== repo root files ==="
-          ls -la || true
-          echo ""
-          echo "=== dist (if exists) ==="
+          echo "=== dist files ==="
           ls -la dist || true
-          echo ""
-          echo "=== sizes of dist files ==="
-          du -h dist/* || true
-          echo ""
-          echo "=== values file info ==="
+          echo "=== values file ==="
           ls -la Customer_Management_values.xlsx || true
-          echo ""
-          echo "=== git status (porcelain) ==="
-          git status --porcelain || true
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
