@@ -1,26 +1,29 @@
 import pandas as pd
 import os
 
-# 入力ファイルパスと出力先ディレクトリ
-INPUT_FILE = "Customer_Management_values.xlsx"
-OUTPUT_DIR = "dist"
-OUTPUT_FILE = "受注登録.csv.gz"
+# 入力ファイルと出力ファイルのパス
+INPUT_XLSX = "Customer_Management_values.xlsx"
+OUTPUT_CSV = "dist/受注登録.csv.gz"
 
-# 出力先ディレクトリを作成（存在しない場合）
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+# 出力ディレクトリ作成
+os.makedirs("dist", exist_ok=True)
 
-# Excelファイルの読み込み（"受注登録" シート想定）
-try:
-    df = pd.read_excel(INPUT_FILE, sheet_name="受注登録", dtype=str)
-except Exception as e:
-    raise RuntimeError(f"Excelファイルの読み込み中にエラーが発生しました: {e}")
+def main():
+    # Excelファイルから全シート読み込み
+    xls = pd.ExcelFile(INPUT_XLSX)
 
-# データ整形（不要であれば削除可）
-df = df.dropna(how="all")  # 完全に空の行を削除
-df.columns = df.columns.str.strip()  # 列名の前後の空白除去
+    # "受注登録" タブの読み込み（存在チェック含む）
+    if "受注登録" not in xls.sheet_names:
+        raise ValueError("Excelファイルに '受注登録' シートが存在しません。")
 
-# 保存（gzip圧縮）
-output_path = os.path.join(OUTPUT_DIR, OUTPUT_FILE)
-df.to_csv(output_path, index=False, compression="gzip", encoding="utf-8-sig")
+    df = xls.parse("受注登録", dtype=str)
 
-print(f"✅ 保存完了: {output_path}（{len(df)} 行）")
+    # 欠損値の補完
+    df.fillna("", inplace=True)
+
+    # 保存
+    df.to_csv(OUTPUT_CSV, index=False, compression="gzip")
+    print(f"✅ 受注登録.csv.gz を作成しました: {OUTPUT_CSV}")
+
+if __name__ == "__main__":
+    main()
