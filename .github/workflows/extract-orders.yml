@@ -1,33 +1,29 @@
-import pandas as pd
-import os
-import gzip
+name: Extract and Check Orders
 
-INPUT_FILE = "Customer_Management_values.xlsx"
-OUTPUT_FILE = "dist/受注登録.csv.gz"
+on:
+  workflow_dispatch:
 
-def main():
-    # Excelファイルを読み込み
-    try:
-        xl = pd.ExcelFile(INPUT_FILE)
-    except FileNotFoundError:
-        print(f"❌ 入力ファイルが見つかりません: {INPUT_FILE}")
-        return
+jobs:
+  extract-and-check:
+    runs-on: ubuntu-latest
 
-    # 「受注登録」シートを読み込み
-    if "受注登録" not in xl.sheet_names:
-        print("❌ '受注登録' シートが見つかりません。")
-        return
+    steps:
+      - name: 📦 リポジトリをチェックアウト
+        uses: actions/checkout@v3
 
-    df = xl.parse("受注登録", dtype=str).fillna("")
+      - name: 🐍 Pythonをセットアップ
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
 
-    # dist フォルダがなければ作成
-    os.makedirs("dist", exist_ok=True)
+      - name: 🔧 依存パッケージをインストール
+        run: |
+          pip install pandas openpyxl
 
-    # 圧縮して保存
-    with gzip.open(OUTPUT_FILE, 'wt', encoding='utf-8') as f:
-        df.to_csv(f, index=False)
-    
-    print(f"✅ 受注登録.csv.gz を保存しました: {OUTPUT_FILE}")
+      - name: 📄 Excel → CSV 抽出
+        run: |
+          python scripts/extract_orders_from_values.py
 
-if __name__ == "__main__":
-    main()
+      - name: 🔍 特定の受注番号を確認
+        run: |
+          python scripts/handle_order_command.py --invoice TSE-IST-003-25
