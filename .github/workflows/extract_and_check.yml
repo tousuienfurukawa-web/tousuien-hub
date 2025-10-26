@@ -1,0 +1,3 @@
+- name: Check Order by Invoice ID
+  run: |
+    python scripts/handle_order_command.py --invoice TSE-IST-003-25
