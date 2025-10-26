@@ -4,15 +4,15 @@ import argparse
 from pathlib import Path
 
 def _load_orders() -> pd.DataFrame:
-    """受注登録データを読み込み（gzipまたはCSV）"""
+    """dist フォルダ内の受注登録データを動的に読み込み"""
     dist = Path("dist")
     preferred = [dist / "受注登録.csv.gz", dist / "受注登録.csv"]
     for path in preferred:
         if path.exists():
             compression = "gzip" if path.suffix == ".gz" else None
             return pd.read_csv(path, compression=compression, dtype=str)
-    
-    raise FileNotFoundError("❌ 受注登録データが見つかりません（dist/受注登録.csv.gz または .csv）")
+
+    raise FileNotFoundError("❌ 受注登録データが見つかりません（dist/受注登録.csv(.gz)）")
 
 def main():
     parser = argparse.ArgumentParser()
