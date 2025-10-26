@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       invoice:
-        description: '受注番号 (例: TSE-IST-003-25)'
+        description: '受注番号 (例: TSE-IST-003-24)'
         required: true
-        default: 'TSE-IST-003-25'
+        default: 'TSE-IST-003-24'  # ← 存在する受注番号に変更
 
 jobs:
   extract-and-check:
@@ -24,24 +24,6 @@ jobs:
       - name: 📦 依存関係をインストール
         run: |
           pip install pandas openpyxl
-
-      - name: 📂 distディレクトリの確認
-        run: |
-          echo "=== dist/ の内容 ==="
-          ls -lah dist/ || echo "⚠️ dist/ が存在しません"
-
-      - name: 📄 受注データの存在確認
-        run: |
-          if [ -f "dist/受注登録.csv" ]; then
-            echo "✅ dist/受注登録.csv が存在します"
-            head -n 5 dist/受注登録.csv
-          elif [ -f "dist/受注登録.csv.gz" ]; then
-            echo "✅ dist/受注登録.csv.gz が存在します"
-            gunzip -c dist/受注登録.csv.gz | head -n 5
-          else
-            echo "❌ 受注登録ファイルが見つかりません"
-            exit 1
-          fi
 
       - name: 🔍 受注番号を検索
         run: |
