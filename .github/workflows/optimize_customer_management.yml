@@ -1,16 +1,7 @@
-name: Optimize Customer Management
-
-permissions:
-  contents: write
+name: Optimize Customer Management (minimal)
 
 on:
-  push:
-    paths:
-      - "data/Customer_Management_latest.xlsx"
   workflow_dispatch:
-
-env:
-  PR_BRANCH_PREFIX: "auto/optimize-customer-management"
 
 jobs:
   optimize:
@@ -19,96 +10,30 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          persist-credentials: true
 
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.10"
+          python-version: '3.10'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas openpyxl xlsxwriter pyarrow || pip install pandas openpyxl xlsxwriter
+          # pyarrow は環境依存で失敗することがあるため省略（必要であれば後で追加）
+          pip install pandas openpyxl xlsxwriter
 
       - name: Create values-only workbook
         run: |
           python scripts/clean_excel.py data/Customer_Management_latest.xlsx Customer_Management_values.xlsx
 
-      - name: Export sheets (csv.gz / parquet) and manifest
+      - name: Export sheets (csv.gz)
         run: |
           python scripts/export_sheets.py Customer_Management_values.xlsx dist
 
-      - name: Debug: show generated files and git status
-        run: |
-          echo "=== repo root files ==="
-          ls -la
-          echo ""
-          echo "=== dist (if exists) ==="
-          ls -la dist || true
-          echo ""
-          echo "=== git status (porcelain) ==="
-          git status --porcelain || true
-          echo ""
-          echo "=== git ls-files (tracked dist/) ==="
-          git ls-files dist || true
-
-      - name: Create branch name
-        id: branch
-        run: |
-          ts=$(date -u +"%Y%m%d%H%M%S")
-          bn="${PR_BRANCH_PREFIX}-${ts}"
-          echo "branch_name=${bn}" >> "$GITHUB_OUTPUT"
-
-      - name: Force add generated files (ignore .gitignore for this step)
-        env:
-          BRANCH_NAME: ${{ steps.branch.outputs.branch_name }}
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # create and switch to the branch using env var (avoids inline ${{ }} in run)
-          git checkout -b "$BRANCH_NAME"
-          git add -f Customer_Management_values.xlsx || true
-          git add -f dist/* || true
-          git status --porcelain || true
-
-      - name: Commit generated files (if any)
-        run: |
-          if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "chore(ci): add optimized Customer Management exports [auto]" || true
-          else
-            echo "No changes to commit"
-          fi
-
-      - name: Push branch
-        env:
-          BRANCH_NAME: ${{ steps.branch.outputs.branch_name }}
-        if: always()
-        run: |
-          git push --set-upstream origin "$BRANCH_NAME" || true
-
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v5
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "chore(ci): add optimized Customer Management exports [auto]"
-          title: "chore(ci): add optimized Customer Management exports [auto]"
-          body: |
-            This PR was created automatically by the Optimize Customer Management workflow.
-            Please review the generated artifacts in the branch.
-          base: "main"
-          head: ${{ steps.branch.outputs.branch_name }}
-          labels: |
-            automated
-            optimize
-
-      - name: Upload artifact (fallback / preserve artifacts)
-        if: always()
+      - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: "customer-management-dist"
+          name: customer-management-dist
           path: |
             Customer_Management_values.xlsx
             dist/*
