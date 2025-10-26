@@ -15,6 +15,7 @@ env:
 jobs:
   optimize:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -30,6 +31,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
+          # Try installing pyarrow; if it fails, fall back to not installing it.
           pip install pandas openpyxl xlsxwriter pyarrow || pip install pandas openpyxl xlsxwriter
 
       - name: Create values-only workbook
@@ -59,13 +61,13 @@ jobs:
         run: |
           ts=$(date -u +"%Y%m%d%H%M%S")
           bn="${PR_BRANCH_PREFIX}-${ts}"
-          echo "branch_name=$bn" >> $GITHUB_OUTPUT
+          echo "branch_name=${bn}" >> $GITHUB_OUTPUT
 
       - name: Force add generated files (ignore .gitignore for this step)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout -b ${{ steps.branch.outputs.branch_name }}
+          git checkout -b "${{ steps.branch.outputs.branch_name }}"
           git add -f Customer_Management_values.xlsx || true
           git add -f dist/* || true
           git status --porcelain || true
@@ -81,8 +83,7 @@ jobs:
       - name: Push branch
         if: always()
         run: |
-          # push branch; use GITHUB_TOKEN implicitly via checkout
-          git push --set-upstream origin ${{ steps.branch.outputs.branch_name }} || true
+          git push --set-upstream origin "${{ steps.branch.outputs.branch_name }}" || true
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
