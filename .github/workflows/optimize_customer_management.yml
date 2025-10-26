@@ -1,14 +1,65 @@
-name: Test Optimize Workflow
+name: Optimize Customer Management (artifact-only)
+
+permissions:
+  contents: read
+
 on:
+  push:
+    paths:
+      - "data/Customer_Management_latest.xlsx"
   workflow_dispatch:
 
 jobs:
-  test:
+  optimize:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
 
-      - name: Echo
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
         run: |
-          echo "Workflow YAML is syntactically valid and Actions runs"
+          python -m pip install --upgrade pip
+          # Try to install pyarrow; if it fails, fall back to installing without it.
+          pip install pandas openpyxl xlsxwriter pyarrow || pip install pandas openpyxl xlsxwriter
+
+      - name: Create values-only workbook
+        run: |
+          python scripts/clean_excel.py data/Customer_Management_latest.xlsx Customer_Management_values.xlsx
+
+      - name: Export sheets (csv.gz / parquet) and manifest
+        run: |
+          python scripts/export_sheets.py Customer_Management_values.xlsx dist
+
+      - name: Debug: show generated files and git status
+        run: |
+          echo "=== repo root files ==="
+          ls -la || true
+          echo ""
+          echo "=== dist (if exists) ==="
+          ls -la dist || true
+          echo ""
+          echo "=== sizes of dist files ==="
+          du -h dist/* || true
+          echo ""
+          echo "=== values file info ==="
+          ls -la Customer_Management_values.xlsx || true
+          echo ""
+          echo "=== git status (porcelain) ==="
+          git status --porcelain || true
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: customer-management-dist
+          path: |
+            Customer_Management_values.xlsx
+            dist/*
