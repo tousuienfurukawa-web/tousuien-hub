@@ -1,0 +1,25 @@
+name: Extract Orders
+
+on:
+  workflow_dispatch:
+
+jobs:
+  extract-orders:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas openpyxl
+      - name: Run extract script
+        run: python scripts/extract_orders_from_values.py
+      - name: Upload output
+        uses: actions/upload-artifact@v4
+        with:
+          name: orders-csv
+          path: dist/受注登録.csv.gz
