@@ -1,28 +1,29 @@
-name: Extract and Check Orders
+name: Extract Order Info
 
 on:
   workflow_dispatch:
+    inputs:
+      invoice:
+        description: 'Invoice number to check'
+        required: true
+        default: 'TSE-IST-003-25'
 
 jobs:
-  extract-and-check:
+  extract-order:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📦 リポジトリをチェックアウト
-        uses: actions/checkout@v3
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
 
-      - name: 🐍 Pythonをセットアップ
-        uses: actions/setup-python@v4
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
-      - name: 🔧 依存パッケージをインストール
-        run: pip install pandas openpyxl
+      - name: 🧪 Install dependencies
+        run: pip install pandas
 
-      - name: 📄 Excel → CSV 抽出
+      - name: 📦 Run order extraction script
         run: |
-          python scripts/extract_orders_from_values.py
-
-      - name: 🔍 特定の受注番号を確認
-        run: |
-          python scripts/handle_order_command.py --invoice TSE-IST-003-25
+          python scripts/handle_order_command.py --invoice "${{ github.event.inputs.invoice }}"
