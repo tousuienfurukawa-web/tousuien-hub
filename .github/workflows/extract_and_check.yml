@@ -4,9 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       invoice:
-        description: '受注番号 (例: TSE-IST-003-24)'
+        description: '受注番号 (例: TSE-IST-003-25)'
         required: true
-        default: 'TSE-IST-003-24'  # ← 存在する受注番号に変更
+        default: 'TSE-IST-003-25'
+  push:
+    paths:
+      - 'data/Customer_Management_latest.xlsx'
+      - 'data/Customer_Management_values.xlsx'
 
 jobs:
   extract-and-check:
@@ -24,6 +28,18 @@ jobs:
       - name: 📦 依存関係をインストール
         run: |
           pip install pandas openpyxl
+
+      - name: 📄 Excel → CSV 抽出
+        run: |
+          python scripts/extract_orders_from_values.py
+
+      - name: 📂 生成されたファイルを確認
+        run: |
+          echo "=== dist/ の内容 ==="
+          ls -lah dist/
+          echo ""
+          echo "=== 受注登録.csv の内容（先頭5行） ==="
+          head -n 6 dist/受注登録.csv
 
       - name: 🔍 受注番号を検索
         run: |
