@@ -1,42 +1,36 @@
-name: Generate Orders from Excel
+name: Generate Orders and Company Info
 
 on:
   push:
     paths:
-      - 'Customer_Management_values.xlsx'
-      - 'scripts/extract_orders_from_values.py'
-  workflow_dispatch:
+      - "Customer_Management_values.xlsx"
+      - "scripts/extract_orders_from_values.py"
+      - "scripts/extract_companies_from_values.py"
 
 jobs:
-  generate-orders:
+  generate:
     runs-on: ubuntu-latest
+
     steps:
-      - name: ✅ リポジトリをチェックアウト
+      - name: リポジトリをチェックアウト
         uses: actions/checkout@v3
 
-      - name: ✅ Python 環境をセットアップ
+      - name: Pythonをセットアップ
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: "3.10"
 
-      - name: ✅ 依存パッケージをインストール
-        run: |
-          pip install pandas openpyxl
+      - name: 依存関係をインストール
+        run: pip install pandas openpyxl
 
-      - name: ✅ 受注登録CSVを生成
+      - name: distディレクトリを作成
+        run: mkdir -p dist
+
+      - name: 受注登録を抽出
         run: python scripts/extract_orders_from_values.py
 
-      - name: ✅ 出力ファイルの確認（デバッグ用）
-        run: ls -la dist
+      - name: 会社情報登録を抽出
+        run: python scripts/extract_companies_from_values.py
 
-      # 必要に応じてcommit/push
-      - name: ✅ dist/受注登録.csv.gz をコミット＆プッシュ
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add dist/受注登録.csv.gz
-          git commit -m "📦 Update dist/受注登録.csv.gz from Customer_Management_values.xlsx"
-          git push
-        env:
-          # トークンは自動で設定されます
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: 出力確認
+        run: ls -lh dist/
