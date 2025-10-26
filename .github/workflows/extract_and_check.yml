@@ -1,3 +1,28 @@
-- name: Check Order by Invoice ID
-  run: |
-    python scripts/handle_order_command.py --invoice TSE-IST-003-25
+name: Extract and Check Orders
+
+on:
+  workflow_dispatch:
+
+jobs:
+  extract-and-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📦 リポジトリをチェックアウト
+        uses: actions/checkout@v3
+
+      - name: 🐍 Pythonをセットアップ
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: 🔧 依存パッケージをインストール
+        run: pip install pandas openpyxl
+
+      - name: 📄 Excel → CSV 抽出
+        run: |
+          python scripts/extract_orders_from_values.py
+
+      - name: 🔍 特定の受注番号を確認
+        run: |
+          python scripts/handle_order_command.py --invoice TSE-IST-003-25
