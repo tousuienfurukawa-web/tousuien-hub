@@ -1,6 +1,5 @@
 name: Optimize Customer Management
 
-# Allow this workflow to write to the repository (needed to commit generated files)
 permissions:
   contents: write
 
@@ -9,6 +8,9 @@ on:
     paths:
       - 'data/Customer_Management_latest.xlsx'
   workflow_dispatch:
+
+env:
+  PR_BRANCH_PREFIX: auto/optimize-customer-management
 
 jobs:
   optimize:
@@ -28,7 +30,6 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          # Try to install pyarrow; if it fails, fall back to installing without it.
           pip install pandas openpyxl xlsxwriter pyarrow || pip install pandas openpyxl xlsxwriter
 
       - name: Create values-only workbook
@@ -53,21 +54,48 @@ jobs:
           echo "=== git ls-files (tracked dist/) ==="
           git ls-files dist || true
 
+      - name: Create branch name
+        id: branch
+        run: |
+          ts=$(date -u +"%Y%m%d%H%M%S")
+          bn="${PR_BRANCH_PREFIX}-${ts}"
+          echo "branch_name=$bn" >> $GITHUB_OUTPUT
+
       - name: Force add generated files (ignore .gitignore for this step)
         run: |
-          # Force add in case .gitignore contains dist/ or similar
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b ${{ steps.branch.outputs.branch_name }}
           git add -f Customer_Management_values.xlsx || true
           git add -f dist/* || true
           git status --porcelain || true
 
-      - name: Commit optimized files
-        uses: EndBug/add-and-commit@v9
+      - name: Commit generated files (if any)
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "chore(ci): add optimized Customer Management exports [auto]" || true
+          else
+            echo "No changes to commit"
+          fi
+
+      - name: Push branch
+        if: always()
+        run: |
+          # push branch; use GITHUB_TOKEN implicitly via checkout
+          git push --set-upstream origin ${{ steps.branch.outputs.branch_name }} || true
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
         with:
-          author_name: 'github-actions[bot]'
-          author_email: '41898282+github-actions[bot]@users.noreply.github.com'
-          message: 'chore: update optimized Customer Management exports'
-          # Use space-separated paths (no commas)
-          add: 'dist/* Customer_Management_values.xlsx'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: chore(ci): add optimized Customer Management exports [auto]
+          title: chore(ci): add optimized Customer Management exports [auto]
+          body: |
+            This PR was created automatically by the Optimize Customer Management workflow.
+            Please review the generated artifacts in the branch.
+          base: main
+          head: ${{ steps.branch.outputs.branch_name }}
+          labels: automated, optimize
 
       - name: Upload artifact (fallback / preserve artifacts)
         if: always()
