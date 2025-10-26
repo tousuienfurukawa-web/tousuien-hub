@@ -15,7 +15,7 @@ req_cols = ["invoice", "企業コード", "商品総額", "通貨", "輸送方�
 
 def is_number(s):
     if s is None: return False
-    s2 = str(s).strip().replace(",","").replace("USD","").replace("JPY","")
+    s2 = str(s).strip().replace(",", "").replace("USD", "").replace("JPY", "")
     if s2 == "": return False
     try:
         Decimal(s2)
@@ -24,18 +24,25 @@ def is_number(s):
         return False
 
 # Read CSV robustly (quoted fields with newlines)
-with open(csv_path, newline='', encoding='utf-8-sig') as f:
-    reader = csv.reader(f)
-    rows = list(reader)
+try:
+    with open(csv_path, newline='', encoding='utf-8-sig') as f:
+        reader = csv.reader(f)
+        rows = list(reader)
+except FileNotFoundError:
+    print(f"ERROR: File not found: {csv_path}")
+    sys.exit(1)
+except Exception as e:
+    print(f"ERROR: Failed to read CSV: {e}")
+    sys.exit(1)
 
 if not rows:
     print("ERROR: CSV is empty")
     sys.exit(1)
 
 header = rows[0]
-hdr_map = {h.strip():i for i,h in enumerate(header)}
+hdr_map = {h.strip(): i for i, h in enumerate(header)}
 
-total = max(0, len(rows)-1)
+total = max(0, len(rows) - 1)
 print(f"総行数（ヘッダ除く）: {total}")
 
 missing_cols = [c for c in req_cols if c not in hdr_map]
@@ -48,34 +55,34 @@ else:
 inv_idx = hdr_map.get("invoice")
 bad_inv = []
 if inv_idx is not None:
-    for rnum,row in enumerate(rows[1:], start=2):
-        inv = row[inv_idx].strip() if len(row)>inv_idx else ""
+    for rnum, row in enumerate(rows[1:], start=2):
+        inv = row[inv_idx].strip() if len(row) > inv_idx else ""
         if inv != "" and not re.match(r'^TSE-', inv):
             bad_inv.append((rnum, inv))
 print(f"Invoice 先頭 'TSE-' でない件数: {len(bad_inv)}")
 if bad_inv:
     print("例（先頭最大5件）:")
-    for r,i in bad_inv[:5]:
+    for r, i in bad_inv[:5]:
         print(f"  行 {r}: {i}")
 
 # 商品総額 numeric check
 amt_idx = hdr_map.get("商品総額")
 bad_amt = []
 if amt_idx is not None:
-    for rnum,row in enumerate(rows[1:], start=2):
-        amt = row[amt_idx].strip() if len(row)>amt_idx else ""
+    for rnum, row in enumerate(rows[1:], start=2):
+        amt = row[amt_idx].strip() if len(row) > amt_idx else ""
         if amt != "" and not is_number(amt):
             bad_amt.append((rnum, amt))
 print(f"商品総額が数値でない件数: {len(bad_amt)}")
 if bad_amt:
     print("例（上位5件）:")
-    for r,a in bad_amt[:5]:
+    for r, a in bad_amt[:5]:
         print(f"  行 {r}: {a}")
 
 # #NAME? 等 Excel error detection
 name_error_re = re.compile(r'#NAME\?|#REF|#VALUE|#DIV/0!', re.IGNORECASE)
 err_rows = set()
-for rnum,row in enumerate(rows[1:], start=2):
+for rnum, row in enumerate(rows[1:], start=2):
     for cell in row:
         if isinstance(cell, str) and name_error_re.search(cell):
             err_rows.add(rnum)
@@ -84,11 +91,11 @@ print(f"#NAME? / 式エラーを含む行数: {len(err_rows)} (例行: {sorted(l
 
 # 輸送方法の想定チェック
 ship_idx = hdr_map.get("輸送方法")
-allowed = {"DHL","UPS","FedEx","EMS","DPD"}
+allowed = {"DHL", "UPS", "FedEx", "EMS", "DPD"}
 bad_ship = []
 if ship_idx is not None:
-    for rnum,row in enumerate(rows[1:], start=2):
-        s = row[ship_idx].strip() if len(row)>ship_idx else ""
+    for rnum, row in enumerate(rows[1:], start=2):
+        s = row[ship_idx].strip() if len(row) > ship_idx else ""
         if s and s not in allowed:
             bad_ship.append((rnum, s))
 print(f"想定外の輸送方法件数: {len(bad_ship)} (例: {bad_ship[:5]})")
