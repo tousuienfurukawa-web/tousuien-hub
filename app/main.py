@@ -320,6 +320,34 @@ app = FastAPI(
     title="Tousuien Hub",
     description="Slack thread viewer and GPT summary helper",
 )
+# --- Order API をマウント（ここは app = FastAPI(...) の直後に貼ってください） ---
+# app/order_api.py に定義した router を読み込み、アプリに登録します。
+# 相対インポートが動かない環境向けに絶対インポートのフォールバックも行います。
+import logging
+
+try:
+    # パッケージ化された場合（通常のケース）
+    from .order_api import router as order_router
+    logging.getLogger("tousuien_hub").info("Imported order_api via relative import")
+except Exception as _rel_err:
+    try:
+        # 開発環境や実行環境で相対インポートが通らない場合の絶対パスフォールバック
+        from app.order_api import router as order_router
+        logging.getLogger("tousuien_hub").info("Imported order_api via absolute import")
+    except Exception as _abs_err:
+        logging.getLogger("tousuien_hub").exception(
+            "Failed to import order_api router (tried relative and absolute imports): %s / %s",
+            _rel_err, _abs_err
+        )
+        order_router = None
+
+# ルーターをアプリに登録
+if order_router is not None:
+    app.include_router(order_router)
+    logging.getLogger("tousuien_hub").info("order_api router included in FastAPI app")
+else:
+    logging.getLogger("tousuien_hub").warning("order_api router not available; /api/order/* endpoints disabled")
+# -------------------------------------------------------------------
 
 
 # ------------------------------------------------------------
@@ -493,3 +521,4 @@ if __name__ == "__main__":
 
     port = int(os.environ.get("PORT", 10000))
     uvicorn.run(app, host="0.0.0.0", port=port)
+
