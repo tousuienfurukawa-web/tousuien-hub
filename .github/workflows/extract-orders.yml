@@ -20,16 +20,16 @@ jobs:
       - name: 📥 リポジトリをチェックアウト
         uses: actions/checkout@v4
 
-      - name: 🐍 Python 3.11 をセットアップ
+      - name: 🐍 Pythonをセットアップ
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: 📦 依存関係をインストール
+      - name: 📦 依存パッケージをインストール
         run: |
           pip install pandas openpyxl
 
-      - name: 📄 Excel → CSV 抽出（重要！）
+      - name: 📄 Excel → CSV 抽出
         run: |
           python scripts/extract_orders_from_values.py
 
@@ -40,6 +40,9 @@ jobs:
           echo ""
           echo "=== 受注登録.csv の行数 ==="
           wc -l dist/受注登録.csv
+          echo ""
+          echo "=== 先頭10行 ==="
+          head -n 11 dist/受注登録.csv
           echo ""
           echo "=== TSE-IST-003-25 の検索 ==="
           grep "TSE-IST-003-25" dist/受注登録.csv || echo "⚠️ 見つかりませんでした"
