@@ -1,0 +1,16 @@
+{
+  "per_company": [
+    { "company_code": "COMP001", "company_name": "東澤園株式会社", "order_count": 2 },
+    { "company_code": "COMP002", "company_name": "山田商事", "order_count": 1 },
+    { "company_code": "COMP003", "company_name": "佐藤食品", "order_count": 1 }
+  ],
+  "top_invoices": [
+    { "invoice": "TSE-IST-003-24", "count": 1 },
+    { "invoice": "TSE-IST-001-21", "count": 1 },
+    { "invoice": "TSE-IST-002-21", "count": 1 }
+  ],
+  "total_orders": 4,
+  "unique_companies": 3,
+  "orders_without_company": 0,
+  "generated_at": "2025-10-26T00:00:00Z"
+}
