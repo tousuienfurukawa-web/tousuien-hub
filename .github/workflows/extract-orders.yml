@@ -1,25 +1,33 @@
-name: Extract Orders
+import pandas as pd
+import os
+import gzip
 
-on:
-  workflow_dispatch:
+INPUT_FILE = "Customer_Management_values.xlsx"
+OUTPUT_FILE = "dist/受注登録.csv.gz"
 
-jobs:
-  extract-orders:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install pandas openpyxl
-      - name: Run extract script
-        run: python scripts/extract_orders_from_values.py
-      - name: Upload output
-        uses: actions/upload-artifact@v4
-        with:
-          name: orders-csv
-          path: dist/受注登録.csv.gz
+def main():
+    # Excelファイルを読み込み
+    try:
+        xl = pd.ExcelFile(INPUT_FILE)
+    except FileNotFoundError:
+        print(f"❌ 入力ファイルが見つかりません: {INPUT_FILE}")
+        return
+
+    # 「受注登録」シートを読み込み
+    if "受注登録" not in xl.sheet_names:
+        print("❌ '受注登録' シートが見つかりません。")
+        return
+
+    df = xl.parse("受注登録", dtype=str).fillna("")
+
+    # dist フォルダがなければ作成
+    os.makedirs("dist", exist_ok=True)
+
+    # 圧縮して保存
+    with gzip.open(OUTPUT_FILE, 'wt', encoding='utf-8') as f:
+        df.to_csv(f, index=False)
+    
+    print(f"✅ 受注登録.csv.gz を保存しました: {OUTPUT_FILE}")
+
+if __name__ == "__main__":
+    main()
