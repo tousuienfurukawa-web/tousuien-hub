@@ -1,5 +1,68 @@
-invoice,company_code,order_date,amount,status
-TSE-IST-001-21,COMP001,2023-01-10,12500,paid
-TSE-IST-002-21,COMP002,2023-01-15,9800,unpaid
-TSE-IST-003-24,COMP001,2024-03-02,45000,paid
-TSE-IST-004-24,COMP003,2024-03-05,23000,unpaid
+mkdir -p dist
+cat > dist/受注登録.csv <<'CSV'
+要注意	WIP	受注管理番号	初回入力者	企業コード	担当者名	宛名	invoice	"IV/PL
+作成"	"slack
+ｽﾚ立"	輸出国	請求国	サンプル早見表用	"オーダー
+ステータス"	"商品
+種類数"	通貨	商品代＋送料	商品総額	送料	輸送方法	注文日	無償提供	返金対応	一部入金有	入金完了	入金確認日①	入金確認日②	入金確認日③	支払期限	ラベル有無	"カスタム
+ラベル発注日"	"カスタム
+ラベル着日"	出荷目安	出荷日	追跡NO1	追跡URL	"オランダ経由
+手数料"	輸送方法2	追跡NO2	到着日	"注文→出荷
+所要日数"	"出荷→到着
+所要日数"	添付書類	"サンプルラベル
+表示指示"	特記事項	その他	新価格提示後受注予定	合計KG	"商品
+コード1"	pc1	g/pc1	商品名1	サプライヤ1	原料名1	"商品
+コード2"	pc2	g/pc2	商品名2	サプライヤ2	原料名2	"商品
+コード3"	pc3	g/pc3	商品名3	サプライヤ3	原料名3	"商品
+コード4"	pc4	g/pc4	商品名4	サプライヤ4	原料名4	"商品
+コード5"	pc5	g/pc5	商品名5	サプライヤ5	原料名5	"商品
+コード6"	pc6	g/pc6	商品名6	サプライヤ6	原料名6	"商品
+コード7"	pc7	g/pc7	商品名7	サプライヤ7	原料名7	"商品
+コード8"	pc8	g/pc8	商品名8	サプライヤ8	原料名8	"商品
+コード9"	pc9	g/pc9	商品名9	サプライヤ9	原料名9	"商品
+コード10"	pc10	g/pc10	商品名10	サプライヤ10	原料名10	"商品
+コード11"	pc11	g/pc11	商品名11	サプライヤ11	原料名11	"商品
+コード12"	pc12	g/pc12	商品名12	サプライヤ12	原料名12	"商品
+コード13"	pc13	g/pc13	商品名13	サプライヤ13	原料名13	"商品
+コード14"	pc14	g/pc14	商品名14	サプライヤ14	原料名14	"商品
+コード15"	pc15	g/pc15	商品名15	サプライヤ15	原料名15	"商品
+コード16"	pc16	g/pc16	商品名16	サプライヤ16	原料名16	"商品
+コード17"	pc17	g/pc17	商品名17	サプライヤ17	原料名17	"商品
+コード18"	pc18	g/pc18	商品名18	サプライヤ18	原料名18	"商品
+コード19"	pc19	g/pc19	商品名19	サプライヤ19	原料名19	"商品
+コード20"	pc20	g/pc20	商品名20	サプライヤ20	原料名20	"商品
+コード21"	pc21	g/pc21	商品名21	サプライヤ21	原料名21	"商品
+コード22"	pc22	g/pc22	商品名22	サプライヤ22	原料名22	"商品
+コード23"	pc23	g/pc23	商品名23	サプライヤ23	原料名23	"商品
+コード24"	pc24	g/pc24	商品名24	サプライヤ24	原料名24	"商品
+コード25"	pc25	g/pc25	商品名25	サプライヤ25	原料名25	"商品
+コード26"	pc26	g/pc26	商品名26	サプライヤ26	原料名26	"商品
+コード27"	pc27	g/pc27	商品名27	サプライヤ27	原料名27	"商品
+コード28"	pc28	g/pc28	商品名28	サプライヤ28	原料名28	"商品
+コード29"	pc29	g/pc29	商品名29	サプライヤ29	原料名29	"商品
+コード30"	pc30	g/pc30	商品名30	サプライヤ30	原料名30	"商品
+コード31"	pc31	g/pc31	商品名31	サプライヤ31	原料名31	"商品
+コード32"	pc32	g/pc32	商品名32	サプライヤ32	原料名32	"商品
+コード33"	pc33	g/pc33	商品名33	サプライヤ33	原料名33	"商品
+コード34"	pc34	g/pc34	商品名34	サプライヤ34	原料名34	"商品
+コード35"	pc35	g/pc35	商品名35	サプライヤ35	原料名35
+FALSE	FALSE	1	林	FEH	#NAME?	#NAME?	TSE-FEH-001-24	TRUE	TRUE	#NAME?	#NAME?	FALSE	FIRST ORDER	1	USD	117.52	71.67	45.85	UPS	2024/1/16	FALSE	FALSE	TRUE	TRUE	2024/1/17					-	-		2024/1/19	1Z219Y8R0410828635	https://www.ups.com/track?loc=en_JP&requester=ST/				不明	3	不明	CERTIFICATE OF ORIGIN, PNC	-	特になし		FALSE	#NAME?	FEH1	1	#NAME?	#NAME?	#NAME?	#NAME?			#NAME?	#NAME?	#NAME?	#NAME?			
+FALSE	FALSE	2	林	MCS	#NAME?	#NAME?	TSE-MCS-001-23_invoice	TRUE	TRUE	#NAME?	#NAME?	FALSE	SAMPLE	10	USD	100	100	0	DHL	2024/1/21	FALSE	FALSE	TRUE	TRUE	2024/1/23					-	-		2024/1/26	5246867721	https://www.dhl.com/jp-en/home.html				不明	5	不明	PNC	-	特になし	"2/4 すでにサンプルを受け取りいくつか試したのでFBを送るとのこと。
+3/3 詳細なFB
+▼
+Lvl 1: 高品質で力強いセレモニアル抹茶。色と味が素晴らしく、泡立てた際の泡も厚くしっかりしていました。香りも非常に良く、感覚に訴えるものでした。
+Lvl 2: Lvl 1と同様に優れています。最後に試飲したもので非常に感動しました。この抹茶は香りがそれほど強くありませんでしたが、色と味は非常に良かったです。Lvl 1ほど力強く土っぽくはありませんが、Lvl 3よりははるかに土っぽい味わいでした。
+
+Lvl 3: 他のハーブとブレンドするために使用された理由がわかります。非常に中立的な風味で、ブレンドには適しています。色はLvl 1と2よりも少し明るめでした。毎日の抹茶として悪くなく、抹茶に初めて触れる人には、その控えめな風味が楽しめるかもしれません。それほど力強くはありませんでした。
+
+レモングラスブレンド: これを非常に楽しみました。抹茶にどのくらいのレモングラスが混ぜられているのか知りたいです。各口に含むたびにすぐにその風味が感じられました。朝や日中に飲むのに非常に良いです。もう少しレモングラスを加えて、もう少し力強い味にするのも良いかもしれません。
+
+シナモンブレンド: レモングラスと同様に、使用されているシナモンの量を知りたいです。このブレンドはミルクとよく合い、ラテタイプの抹茶としても良い評価を得ました。もう少しシナモンを加えてみたいですし、アニスやナツメグの風味を加えることも検討したいです."	FALSE	#NAME?	MCS1	1	#NAME?	#NAME?	#NAME?	#NAME?	MCS2	1	#NAME?	#NAME?	#NAME?	#NAME?	MCS3	1	#NAME?	#NAME?	#NAME?	#NAME?	MCS4	1	#NAME?	#NAME?	#NAME?	#NAME?	MCS5	1	#NAME?	#NAME?	#NAME?	#NAME?	MCS6	1	#NAME?	#NAME?	#NAME?	#NAME?	MCS7	1	#NAME?	#NAME?	#NAME?	#NAME?	MCS8	1	#NAME?	#NAME?	#NAME?	#NAME?	MCS9	1	#NAME?	#NAME?	#NAME?	#NAME?	MCS10	1	#NAME?	#NAME?	#NAME?	#NAME?			
+FALSE	FALSE	3	林	IST	#NAME?	#NAME?	TES-IST-SPL-001-24	TRUE	TRUE	#NAME?	#NAME?	FALSE	SAMPLE	4	USD	30	30	0	DHL	2024/2/8	FALSE	FALSE	TRUE	TRUE	2024/2/8					-	-		2024/2/9	5267306295	https://www.dhl.com/jp-en/home.html				2024/2/11	1	2	PNC	-	特になし	2/16に到着しテストした結果upper1の注文をしたいと連絡あり。	FALSE	#NAME?	SPL3	1	#NAME?	#NAME?	#NAME?	#NAME?	SPL4	1	#NAME?	#NAME?	#NAME?	#NAME?	SPL5	1	#NAME?	#NAME?	#NAME?	#NAME?	SPL6	1	#NAME?	#NAME?	#NAME?	#NAME?			
+FALSE	FALSE	4	林	TEN	#NAME?	#NAME?	TSE-TEN-SPL-001-24	TRUE	TRUE	#NAME?	#NAME?	FALSE	SAMPLE	5	USD	100	100	0	DHL	2024/2/12	FALSE	FALSE	TRUE	TRUE	2024/2/13					-	-		2024/2/16	5267314603	https://www.dhl.com/jp-en/home.html				不明	4	不明	-	-	特になし		FALSE	#NAME?	SPL1	4	#NAME?	#NAME?	#NAME?	#NAME?	TEN18	4	#NAME?	#NAME?	#NAME?	#NAME?	TEN19	4	#NAME?	#NAME?	#NAME?	#NAME?	TEN20	4	#NAME?	#NAME?	#NAME?	#NAME?	TEN21	4	#NAME?	#NAME?	#NAME?	#NAME?			
+FALSE	FALSE	5	林	BAN	#NAME?	#NAME?	TSE-BAN-001-24	TRUE	TRUE	#NAME?	#NAME?	FALSE	REPEAT	1	USD	130.83	72.5	58.33	DHL	2024/2/13	FALSE	FALSE	TRUE	TRUE	2024/2/14					-	-		2024/2/16	5267315922	https://www.dhl.com/jp-en/home.html				不明	3	不明	-	-	"請求金額2種類；
+USD 0.45 * 150
+USD 0.10 * 50"		FALSE	#NAME?	BAN5	200	#NAME?	#NAME?	#NAME?	#NAME?			
+FALSE	FALSE	6	林	TAM	#NAME?	#NAME?	TSE-TAM-SPL-001-24	TRUE	TRUE	#NAME?	#NAME?	FALSE	SAMPLE	6	USD	30	30	0	DHL	2024/2/21	FALSE	FALSE	TRUE	TRUE	2024/2/21					-	-		2024/2/26	5267332324	https://www.dhl.com/jp-en/home.html				不明	5	不明	PNC	-	特になし	到着の連絡はなし。	FALSE	#NAME?	SPL3	1	#NAME?	#NAME?	#NAME?	#NAME?	SPL4	1	#NAME?	#NAME?	#NAME?	#NAME?	SPL5	1	#NAME?	#NAME?	#NAME?	#NAME?	SPL6	1	#NAME?	#NAME?	#NAME?	#NAME?	SPL29	1	#NAME?	#NAME?	#NAME?	#NAME?	SPL31	1	#NAME?	#NAME?	#NAME?	#NAME?			
+FALSE	FALSE	7	林	CET	#NAME?	#NAME?	TSE-CET-SPL-001-24	TRUE	TRUE	#NAME?	#NAME?	FALSE	SAMPLE	1	USD	30	30	0	DHL	2024/2/26	FALSE	FALSE	TRUE	TRUE	2024/2/27					-	-		2024/3/1	5267335511	https://www.dhl.com/jp-en/home.html				不明	4	不明	PNC	-	特になし		FALSE	#NAME?	CET1	1	#NAME?	#NAME?	#NAME?	#NAME?			
+FALSE	FALSE	8	林	MMR	#NAME?	#NAME?	TSE-SPL-001-24	TRUE	TRUE	#NAME?	#NAME?	FALSE	SAMPLE	4	USD	30	30	0	FedEx	2024/3/1	FALSE	FALSE	TRUE	TRUE	2024/3/1					-	-		2024/3/6	7.7541E+11	https://www.fedex.com/en-jp/home.html				2024/3/11	5	5	-	-	後日EMSにて白の缶（空）も送付。AWB No EN308342865JP		FALSE	#NAME?	SP
