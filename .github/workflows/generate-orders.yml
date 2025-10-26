@@ -29,8 +29,8 @@ jobs:
       - name: 受注登録を抽出
         run: python scripts/extract_orders_from_values.py
 
-      - name: 会社情報登録を抽出
-        run: python scripts/extract_companies_from_values.py
+      - name: 会社情報登録を抽出（任意）
+        run: python scripts/extract_companies_from_values.py || true
 
       - name: 出力確認
         run: ls -lh dist/
