@@ -10,7 +10,6 @@ on:
   push:
     paths:
       - 'data/Customer_Management_latest.xlsx'
-      - 'data/Customer_Management_values.xlsx'
 
 jobs:
   extract-and-check:
@@ -33,14 +32,26 @@ jobs:
         run: |
           python scripts/extract_orders_from_values.py
 
-      - name: 📂 生成されたファイルを確認
+      - name: 📊 抽出データの統計情報
         run: |
           echo "=== dist/ の内容 ==="
           ls -lah dist/
           echo ""
-          echo "=== 受注登録.csv の内容（先頭5行） ==="
-          head -n 6 dist/受注登録.csv
+          echo "=== 受注登録.csv（先頭10行） ==="
+          head -n 11 dist/受注登録.csv
+          echo ""
+          echo "=== 会社情報登録.csv（先頭5行） ==="
+          head -n 6 dist/会社情報登録.csv
+          echo ""
+          echo "=== TSE-IST-003-25 の検索 ==="
+          grep "TSE-IST-003-25" dist/受注登録.csv || echo "❌ 見つかりませんでした"
 
       - name: 🔍 受注番号を検索
         run: |
           python scripts/handle_order_command.py --invoice "${{ github.event.inputs.invoice }}"
+
+      - name: 📤 生成ファイルをアップロード（オプション）
+        uses: actions/upload-artifact@v4
+        with:
+          name: extracted-csv-files
+          path: dist/*.csv
