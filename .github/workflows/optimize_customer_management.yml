@@ -1,6 +1,6 @@
 name: Optimize Customer Management
 
-# ワークフローがリポジトリへ成果物をコミットできるよう明示的に権限を付与
+# Allow this workflow to write to the repository (needed to commit generated files)
 permissions:
   contents: write
 
@@ -18,7 +18,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # 明示的に persist-credentials を true にして GITHUB_TOKEN を維持
           persist-credentials: true
 
       - name: Setup Python
@@ -29,8 +28,8 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          # pyarrow は環境によりビルドエラーが出ることがあるため必要に応じてコメントアウトしてください
-          pip install pandas openpyxl xlsxwriter pyarrow
+          # Try to install pyarrow; if it fails, fall back to installing without it.
+          pip install pandas openpyxl xlsxwriter pyarrow || pip install pandas openpyxl xlsxwriter
 
       - name: Create values-only workbook
         run: |
@@ -54,11 +53,27 @@ jobs:
           echo "=== git ls-files (tracked dist/) ==="
           git ls-files dist || true
 
+      - name: Force add generated files (ignore .gitignore for this step)
+        run: |
+          # Force add in case .gitignore contains dist/ or similar
+          git add -f Customer_Management_values.xlsx || true
+          git add -f dist/* || true
+          git status --porcelain || true
+
       - name: Commit optimized files
         uses: EndBug/add-and-commit@v9
         with:
           author_name: 'github-actions[bot]'
           author_email: '41898282+github-actions[bot]@users.noreply.github.com'
           message: 'chore: update optimized Customer Management exports'
-          # カンマは入れずにスペース区切りで指定（重要）
+          # Use space-separated paths (no commas)
           add: 'dist/* Customer_Management_values.xlsx'
+
+      - name: Upload artifact (fallback / preserve artifacts)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: customer-management-dist
+          path: |
+            Customer_Management_values.xlsx
+            dist/*
