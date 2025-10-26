@@ -1,0 +1,39 @@
+name: Debug Excel Content
+
+on:
+  workflow_dispatch:
+
+jobs:
+  debug-excel:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 リポジトリをチェックアウト
+        uses: actions/checkout@v4
+
+      - name: 🐍 Python 3.11 をセットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 📦 依存関係をインストール
+        run: |
+          pip install pandas openpyxl
+
+      - name: 📂 data/ フォルダの確認
+        run: |
+          echo "=== data/ の内容 ==="
+          ls -lah data/ || echo "⚠️ data/ フォルダが存在しません"
+
+      - name: 🔍 Excel内容の詳細確認
+        run: |
+          python scripts/debug_excel_detailed.py
+
+      - name: 📊 既存CSVとの比較
+        run: |
+          echo "=== 既存の dist/受注登録.csv ==="
+          if [ -f "dist/受注登録.csv" ]; then
+            cat dist/受注登録.csv
+          else
+            echo "⚠️ dist/受注登録.csv は存在しません"
+          fi
