@@ -80,7 +80,7 @@ if bad_amt:
         print(f"  行 {r}: {a}")
 
 # #NAME? 等 Excel error detection
-name_error_re = re.compile(r'#NAME\?|#REF|#VALUE|#DIV/0!', re.IGNORECASE)
+name_error_re = re.compile(r'#NAME\\?|#REF|#VALUE|#DIV/0!', re.IGNORECASE)
 err_rows = set()
 for rnum, row in enumerate(rows[1:], start=2):
     for cell in row:
@@ -101,7 +101,7 @@ if ship_idx is not None:
 print(f"想定外の輸送方法件数: {len(bad_ship)} (例: {bad_ship[:5]})")
 
 # summary for PR
-print("\n=== PR用サマリ（コピペ可） ===")
+print("\\n=== PR用サマリ（コピペ可） ===")
 print(f"- データ行数: {total} 行")
 if missing_cols:
     print(f"- 必須列の欠損: {missing_cols}")
